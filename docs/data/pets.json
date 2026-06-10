@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T22:59:17Z",
+  "generatedAt": "2026-06-10T23:25:47Z",
   "total": 127,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -9,15 +9,24 @@
   "notes": [
     "Bluepoch official home exposes the launch-site character assets used where available.",
     "Huiji Wiki was requested as a source but returned automated 403 responses during this build.",
-    "The full character list is based on the readable Prydwen catalog snapshot shown as 127 characters, last updated 31/May/2026."
+    "The full character list is based on the readable Prydwen catalog snapshot shown as 127 characters, last updated 31/May/2026.",
+    "Characters not exposed by the Bluepoch launch site use transparent Prydwen CDN character artwork rather than generated placeholder cards."
   ],
   "officialSiteAssets": {
     "logo.png": "https://re.bluepoch.com/home/img/logo.png",
     "hero-v2.webp": "https://re.bluepoch.com/home/img/v2.webp",
+    "hero-v2c.png": "https://re.bluepoch.com/home/img/v2c.png",
+    "site-bg.png": "https://re.bluepoch.com/home/img/BG.png",
+    "site-bg-2.png": "https://re.bluepoch.com/home/img/BG2.png",
+    "main-visual.jpg": "https://re.bluepoch.com/home/img/01.jpg",
     "first-panel-1.png": "https://re.bluepoch.com/home/img/first/1.png",
     "first-panel-2.png": "https://re.bluepoch.com/home/img/first/2.png",
     "first-panel-3.webp": "https://re.bluepoch.com/home/img/first/3.webp",
+    "download-panel-3.png": "https://re.bluepoch.com/home/img/first/pc3.png",
+    "download-panel-4.png": "https://re.bluepoch.com/home/img/first/pc4.png",
     "news-title.png": "https://re.bluepoch.com/home/img/News.png",
+    "see.png": "https://re.bluepoch.com/home/img/see.png",
+    "arrow.png": "https://re.bluepoch.com/home/img/jian.png",
     "role-frame.webp": "https://re.bluepoch.com/home/img/role/false.webp",
     "character-1.png": "https://re.bluepoch.com/home/img/character/1.png",
     "character-2.png": "https://re.bluepoch.com/home/img/character/2.png",
@@ -48,9 +57,9 @@
       "download": "downloads/9Pets-37.zip",
       "preview": "assets/previews/9Pets-37.png",
       "spritesheet": "assets/spritesheets/9Pets-37.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 782666
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/37_full.webp",
+      "packageBytes": 964532
     },
     {
       "id": "9pets-6",
@@ -59,9 +68,9 @@
       "download": "downloads/9Pets-6.zip",
       "preview": "assets/previews/9Pets-6.png",
       "spritesheet": "assets/spritesheets/9Pets-6.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 652157
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/6_full.webp",
+      "packageBytes": 679254
     },
     {
       "id": "9pets-a-knight",
@@ -81,9 +90,9 @@
       "download": "downloads/9Pets-Aleph.zip",
       "preview": "assets/previews/9Pets-Aleph.png",
       "spritesheet": "assets/spritesheets/9Pets-Aleph.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 658365
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/aleph_full.webp",
+      "packageBytes": 771533
     },
     {
       "id": "9pets-alexios",
@@ -92,9 +101,9 @@
       "download": "downloads/9Pets-Alexios.zip",
       "preview": "assets/previews/9Pets-Alexios.png",
       "spritesheet": "assets/spritesheets/9Pets-Alexios.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 744926
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/alexios_full.webp",
+      "packageBytes": 927072
     },
     {
       "id": "9pets-alien-t",
@@ -125,9 +134,9 @@
       "download": "downloads/9Pets-Anjo-Nala.zip",
       "preview": "assets/previews/9Pets-Anjo-Nala.png",
       "spritesheet": "assets/spritesheets/9Pets-Anjo-Nala.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 771773
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/anjo-nala_full.webp",
+      "packageBytes": 880955
     },
     {
       "id": "9pets-apple",
@@ -136,9 +145,9 @@
       "download": "downloads/9Pets-APPLe.zip",
       "preview": "assets/previews/9Pets-APPLe.png",
       "spritesheet": "assets/spritesheets/9Pets-APPLe.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 706201
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/apple_full.webp",
+      "packageBytes": 1034031
     },
     {
       "id": "9pets-argus",
@@ -147,9 +156,9 @@
       "download": "downloads/9Pets-Argus.zip",
       "preview": "assets/previews/9Pets-Argus.png",
       "spritesheet": "assets/spritesheets/9Pets-Argus.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 719927
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/argus_full.webp",
+      "packageBytes": 979981
     },
     {
       "id": "9pets-avgust",
@@ -158,9 +167,9 @@
       "download": "downloads/9Pets-Avgust.zip",
       "preview": "assets/previews/9Pets-Avgust.png",
       "spritesheet": "assets/spritesheets/9Pets-Avgust.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 794675
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/avgust_full.webp",
+      "packageBytes": 1255839
     },
     {
       "id": "9pets-baby-blue",
@@ -169,9 +178,9 @@
       "download": "downloads/9Pets-Baby-Blue.zip",
       "preview": "assets/previews/9Pets-Baby-Blue.png",
       "spritesheet": "assets/spritesheets/9Pets-Baby-Blue.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 652394
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/baby-blue_full.webp",
+      "packageBytes": 1823919
     },
     {
       "id": "9pets-balloon-party",
@@ -180,9 +189,9 @@
       "download": "downloads/9Pets-Balloon-Party.zip",
       "preview": "assets/previews/9Pets-Balloon-Party.png",
       "spritesheet": "assets/spritesheets/9Pets-Balloon-Party.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 652770
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/balloon-party_full.webp",
+      "packageBytes": 800799
     },
     {
       "id": "9pets-barbara",
@@ -191,9 +200,9 @@
       "download": "downloads/9Pets-Barbara.zip",
       "preview": "assets/previews/9Pets-Barbara.png",
       "spritesheet": "assets/spritesheets/9Pets-Barbara.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 793137
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/barbara_full.webp",
+      "packageBytes": 770757
     },
     {
       "id": "9pets-barcarola",
@@ -202,9 +211,9 @@
       "download": "downloads/9Pets-Barcarola.zip",
       "preview": "assets/previews/9Pets-Barcarola.png",
       "spritesheet": "assets/spritesheets/9Pets-Barcarola.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 687527
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/barcarola_full.webp",
+      "packageBytes": 1226932
     },
     {
       "id": "9pets-beryl",
@@ -213,9 +222,9 @@
       "download": "downloads/9Pets-Beryl.zip",
       "preview": "assets/previews/9Pets-Beryl.png",
       "spritesheet": "assets/spritesheets/9Pets-Beryl.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 621697
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/beryl_full.webp",
+      "packageBytes": 893018
     },
     {
       "id": "9pets-bette",
@@ -224,9 +233,9 @@
       "download": "downloads/9Pets-Bette.zip",
       "preview": "assets/previews/9Pets-Bette.png",
       "spritesheet": "assets/spritesheets/9Pets-Bette.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 723573
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/bette_full.webp",
+      "packageBytes": 761417
     },
     {
       "id": "9pets-bkornblume",
@@ -246,9 +255,9 @@
       "download": "downloads/9Pets-Blonney.zip",
       "preview": "assets/previews/9Pets-Blonney.png",
       "spritesheet": "assets/spritesheets/9Pets-Blonney.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 737444
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/blonney_full.webp",
+      "packageBytes": 836602
     },
     {
       "id": "9pets-brimley",
@@ -257,9 +266,9 @@
       "download": "downloads/9Pets-Brimley.zip",
       "preview": "assets/previews/9Pets-Brimley.png",
       "spritesheet": "assets/spritesheets/9Pets-Brimley.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 686902
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/brimley_full.webp",
+      "packageBytes": 1475449
     },
     {
       "id": "9pets-brume",
@@ -268,9 +277,9 @@
       "download": "downloads/9Pets-Brume.zip",
       "preview": "assets/previews/9Pets-Brume.png",
       "spritesheet": "assets/spritesheets/9Pets-Brume.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 661174
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/brume_full.webp",
+      "packageBytes": 927965
     },
     {
       "id": "9pets-buddy-fairchild",
@@ -279,9 +288,9 @@
       "download": "downloads/9Pets-Buddy-Fairchild.zip",
       "preview": "assets/previews/9Pets-Buddy-Fairchild.png",
       "spritesheet": "assets/spritesheets/9Pets-Buddy-Fairchild.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 765903
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/buddy-fairchild_full.webp",
+      "packageBytes": 1541970
     },
     {
       "id": "9pets-bunny-bunny",
@@ -290,9 +299,9 @@
       "download": "downloads/9Pets-Bunny-Bunny.zip",
       "preview": "assets/previews/9Pets-Bunny-Bunny.png",
       "spritesheet": "assets/spritesheets/9Pets-Bunny-Bunny.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 773407
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/bunny-bunny_full.webp",
+      "packageBytes": 939215
     },
     {
       "id": "9pets-centurion",
@@ -301,9 +310,9 @@
       "download": "downloads/9Pets-Centurion.zip",
       "preview": "assets/previews/9Pets-Centurion.png",
       "spritesheet": "assets/spritesheets/9Pets-Centurion.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 696054
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/centurion_full.webp",
+      "packageBytes": 1146020
     },
     {
       "id": "9pets-charlie",
@@ -312,9 +321,9 @@
       "download": "downloads/9Pets-Charlie.zip",
       "preview": "assets/previews/9Pets-Charlie.png",
       "spritesheet": "assets/spritesheets/9Pets-Charlie.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 665740
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/charlie_full.webp",
+      "packageBytes": 1398581
     },
     {
       "id": "9pets-charon",
@@ -323,9 +332,9 @@
       "download": "downloads/9Pets-Charon.zip",
       "preview": "assets/previews/9Pets-Charon.png",
       "spritesheet": "assets/spritesheets/9Pets-Charon.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 698207
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/charon_full.webp",
+      "packageBytes": 851876
     },
     {
       "id": "9pets-cheng-heguang",
@@ -334,9 +343,9 @@
       "download": "downloads/9Pets-Cheng-Heguang.zip",
       "preview": "assets/previews/9Pets-Cheng-Heguang.png",
       "spritesheet": "assets/spritesheets/9Pets-Cheng-Heguang.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 769432
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/cheng-heguang_full.webp",
+      "packageBytes": 918374
     },
     {
       "id": "9pets-click",
@@ -345,9 +354,9 @@
       "download": "downloads/9Pets-Click.zip",
       "preview": "assets/previews/9Pets-Click.png",
       "spritesheet": "assets/spritesheets/9Pets-Click.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 679460
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/click_full.webp",
+      "packageBytes": 772371
     },
     {
       "id": "9pets-coppelia",
@@ -356,9 +365,9 @@
       "download": "downloads/9Pets-Coppelia.zip",
       "preview": "assets/previews/9Pets-Coppelia.png",
       "spritesheet": "assets/spritesheets/9Pets-Coppelia.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 773897
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/coppelia_full.webp",
+      "packageBytes": 890355
     },
     {
       "id": "9pets-corvus",
@@ -367,9 +376,9 @@
       "download": "downloads/9Pets-Corvus.zip",
       "preview": "assets/previews/9Pets-Corvus.png",
       "spritesheet": "assets/spritesheets/9Pets-Corvus.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 758479
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/corvus_full.webp",
+      "packageBytes": 947731
     },
     {
       "id": "9pets-cristallo",
@@ -378,9 +387,9 @@
       "download": "downloads/9Pets-Cristallo.zip",
       "preview": "assets/previews/9Pets-Cristallo.png",
       "spritesheet": "assets/spritesheets/9Pets-Cristallo.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 748352
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/cristallo_full.webp",
+      "packageBytes": 1018461
     },
     {
       "id": "9pets-darley-clatter",
@@ -389,9 +398,9 @@
       "download": "downloads/9Pets-Darley-Clatter.zip",
       "preview": "assets/previews/9Pets-Darley-Clatter.png",
       "spritesheet": "assets/spritesheets/9Pets-Darley-Clatter.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 665596
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/darley-clatter_full.webp",
+      "packageBytes": 1680765
     },
     {
       "id": "9pets-desert-flannel",
@@ -400,9 +409,9 @@
       "download": "downloads/9Pets-Desert-Flannel.zip",
       "preview": "assets/previews/9Pets-Desert-Flannel.png",
       "spritesheet": "assets/spritesheets/9Pets-Desert-Flannel.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 683090
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/desert-flannel_full.webp",
+      "packageBytes": 757871
     },
     {
       "id": "9pets-diggers",
@@ -411,9 +420,9 @@
       "download": "downloads/9Pets-Diggers.zip",
       "preview": "assets/previews/9Pets-Diggers.png",
       "spritesheet": "assets/spritesheets/9Pets-Diggers.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 680044
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/diggers_full.webp",
+      "packageBytes": 845425
     },
     {
       "id": "9pets-dikke",
@@ -422,9 +431,9 @@
       "download": "downloads/9Pets-Dikke.zip",
       "preview": "assets/previews/9Pets-Dikke.png",
       "spritesheet": "assets/spritesheets/9Pets-Dikke.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 655878
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/dikke_full.webp",
+      "packageBytes": 1093554
     },
     {
       "id": "9pets-door",
@@ -433,9 +442,9 @@
       "download": "downloads/9Pets-Door.zip",
       "preview": "assets/previews/9Pets-Door.png",
       "spritesheet": "assets/spritesheets/9Pets-Door.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 687358
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/door_full.webp",
+      "packageBytes": 897638
     },
     {
       "id": "9pets-druvis-iii",
@@ -455,9 +464,9 @@
       "download": "downloads/9Pets-Eagle.zip",
       "preview": "assets/previews/9Pets-Eagle.png",
       "spritesheet": "assets/spritesheets/9Pets-Eagle.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 696605
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/eagle_full.webp",
+      "packageBytes": 761266
     },
     {
       "id": "9pets-enigma",
@@ -466,9 +475,9 @@
       "download": "downloads/9Pets-Enigma.zip",
       "preview": "assets/previews/9Pets-Enigma.png",
       "spritesheet": "assets/spritesheets/9Pets-Enigma.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 723217
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/enigma_full.webp",
+      "packageBytes": 748650
     },
     {
       "id": "9pets-erick",
@@ -477,9 +486,9 @@
       "download": "downloads/9Pets-Erick.zip",
       "preview": "assets/previews/9Pets-Erick.png",
       "spritesheet": "assets/spritesheets/9Pets-Erick.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 657648
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/erick_full.webp",
+      "packageBytes": 1400048
     },
     {
       "id": "9pets-eternity",
@@ -488,9 +497,9 @@
       "download": "downloads/9Pets-Eternity.zip",
       "preview": "assets/previews/9Pets-Eternity.png",
       "spritesheet": "assets/spritesheets/9Pets-Eternity.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 653670
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/eternity_full.webp",
+      "packageBytes": 767058
     },
     {
       "id": "9pets-ezio-auditore",
@@ -499,9 +508,9 @@
       "download": "downloads/9Pets-Ezio-Auditore.zip",
       "preview": "assets/previews/9Pets-Ezio-Auditore.png",
       "spritesheet": "assets/spritesheets/9Pets-Ezio-Auditore.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 661353
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/ezio-auditore_full.webp",
+      "packageBytes": 986238
     },
     {
       "id": "9pets-ezra-theodore",
@@ -510,9 +519,9 @@
       "download": "downloads/9Pets-Ezra-Theodore.zip",
       "preview": "assets/previews/9Pets-Ezra-Theodore.png",
       "spritesheet": "assets/spritesheets/9Pets-Ezra-Theodore.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 625177
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/ezra-theodore_full.webp",
+      "packageBytes": 885079
     },
     {
       "id": "9pets-fatutu",
@@ -521,9 +530,9 @@
       "download": "downloads/9Pets-Fatutu.zip",
       "preview": "assets/previews/9Pets-Fatutu.png",
       "spritesheet": "assets/spritesheets/9Pets-Fatutu.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 723708
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/fatutu_full.webp",
+      "packageBytes": 1152399
     },
     {
       "id": "9pets-flutterpage",
@@ -532,9 +541,9 @@
       "download": "downloads/9Pets-Flutterpage.zip",
       "preview": "assets/previews/9Pets-Flutterpage.png",
       "spritesheet": "assets/spritesheets/9Pets-Flutterpage.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 609073
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/flutterpage_full.webp",
+      "packageBytes": 1400662
     },
     {
       "id": "9pets-getian",
@@ -543,9 +552,9 @@
       "download": "downloads/9Pets-Getian.zip",
       "preview": "assets/previews/9Pets-Getian.png",
       "spritesheet": "assets/spritesheets/9Pets-Getian.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 724216
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/getian_full.webp",
+      "packageBytes": 1289623
     },
     {
       "id": "9pets-hissabeth",
@@ -554,9 +563,9 @@
       "download": "downloads/9Pets-Hissabeth.zip",
       "preview": "assets/previews/9Pets-Hissabeth.png",
       "spritesheet": "assets/spritesheets/9Pets-Hissabeth.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 681499
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/hissabeth_full.webp",
+      "packageBytes": 782052
     },
     {
       "id": "9pets-horropedia",
@@ -565,9 +574,9 @@
       "download": "downloads/9Pets-Horropedia.zip",
       "preview": "assets/previews/9Pets-Horropedia.png",
       "spritesheet": "assets/spritesheets/9Pets-Horropedia.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 653157
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/horropedia_full.webp",
+      "packageBytes": 715013
     },
     {
       "id": "9pets-igor",
@@ -576,9 +585,9 @@
       "download": "downloads/9Pets-Igor.zip",
       "preview": "assets/previews/9Pets-Igor.png",
       "spritesheet": "assets/spritesheets/9Pets-Igor.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 684048
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/igor_full.webp",
+      "packageBytes": 998889
     },
     {
       "id": "9pets-isolde",
@@ -587,9 +596,9 @@
       "download": "downloads/9Pets-Isolde.zip",
       "preview": "assets/previews/9Pets-Isolde.png",
       "spritesheet": "assets/spritesheets/9Pets-Isolde.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 725398
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/isolde_full.webp",
+      "packageBytes": 1177277
     },
     {
       "id": "9pets-j",
@@ -598,9 +607,9 @@
       "download": "downloads/9Pets-J.zip",
       "preview": "assets/previews/9Pets-J.png",
       "spritesheet": "assets/spritesheets/9Pets-J.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 641127
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/j_full.webp",
+      "packageBytes": 856699
     },
     {
       "id": "9pets-jessica",
@@ -609,9 +618,9 @@
       "download": "downloads/9Pets-Jessica.zip",
       "preview": "assets/previews/9Pets-Jessica.png",
       "spritesheet": "assets/spritesheets/9Pets-Jessica.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 658104
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/jessica_full.webp",
+      "packageBytes": 947970
     },
     {
       "id": "9pets-jiu-niangzi",
@@ -620,9 +629,9 @@
       "download": "downloads/9Pets-Jiu-Niangzi.zip",
       "preview": "assets/previews/9Pets-Jiu-Niangzi.png",
       "spritesheet": "assets/spritesheets/9Pets-Jiu-Niangzi.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 702387
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/jiu-niangzi_full.webp",
+      "packageBytes": 1058713
     },
     {
       "id": "9pets-john-titor",
@@ -631,9 +640,9 @@
       "download": "downloads/9Pets-John-Titor.zip",
       "preview": "assets/previews/9Pets-John-Titor.png",
       "spritesheet": "assets/spritesheets/9Pets-John-Titor.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 578109
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/john-titor_full.webp",
+      "packageBytes": 761276
     },
     {
       "id": "9pets-kaalaa-baunaa",
@@ -642,9 +651,9 @@
       "download": "downloads/9Pets-Kaalaa-Baunaa.zip",
       "preview": "assets/previews/9Pets-Kaalaa-Baunaa.png",
       "spritesheet": "assets/spritesheets/9Pets-Kaalaa-Baunaa.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 770866
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/kaalaa-baunaa_full.webp",
+      "packageBytes": 747614
     },
     {
       "id": "9pets-kakania",
@@ -653,9 +662,9 @@
       "download": "downloads/9Pets-Kakania.zip",
       "preview": "assets/previews/9Pets-Kakania.png",
       "spritesheet": "assets/spritesheets/9Pets-Kakania.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 727971
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/kakania_full.webp",
+      "packageBytes": 791928
     },
     {
       "id": "9pets-kanjira",
@@ -664,9 +673,9 @@
       "download": "downloads/9Pets-Kanjira.zip",
       "preview": "assets/previews/9Pets-Kanjira.png",
       "spritesheet": "assets/spritesheets/9Pets-Kanjira.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 753193
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/kanjira_full.webp",
+      "packageBytes": 910403
     },
     {
       "id": "9pets-kassandra",
@@ -675,9 +684,9 @@
       "download": "downloads/9Pets-Kassandra.zip",
       "preview": "assets/previews/9Pets-Kassandra.png",
       "spritesheet": "assets/spritesheets/9Pets-Kassandra.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 720795
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/kassandra_full.webp",
+      "packageBytes": 1050304
     },
     {
       "id": "9pets-kiperina",
@@ -686,9 +695,9 @@
       "download": "downloads/9Pets-Kiperina.zip",
       "preview": "assets/previews/9Pets-Kiperina.png",
       "spritesheet": "assets/spritesheets/9Pets-Kiperina.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 665012
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/kiperina_full.webp",
+      "packageBytes": 857163
     },
     {
       "id": "9pets-la-source",
@@ -697,9 +706,9 @@
       "download": "downloads/9Pets-La-Source.zip",
       "preview": "assets/previews/9Pets-La-Source.png",
       "spritesheet": "assets/spritesheets/9Pets-La-Source.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 706862
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/la-source_full.webp",
+      "packageBytes": 940819
     },
     {
       "id": "9pets-leilani",
@@ -708,9 +717,9 @@
       "download": "downloads/9Pets-Leilani.zip",
       "preview": "assets/previews/9Pets-Leilani.png",
       "spritesheet": "assets/spritesheets/9Pets-Leilani.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 613268
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/leilani_full.webp",
+      "packageBytes": 1119582
     },
     {
       "id": "9pets-liang-yue",
@@ -719,9 +728,9 @@
       "download": "downloads/9Pets-Liang-Yue.zip",
       "preview": "assets/previews/9Pets-Liang-Yue.png",
       "spritesheet": "assets/spritesheets/9Pets-Liang-Yue.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 636891
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/liang-yue_full.webp",
+      "packageBytes": 639193
     },
     {
       "id": "9pets-lilya",
@@ -730,9 +739,9 @@
       "download": "downloads/9Pets-Lilya.zip",
       "preview": "assets/previews/9Pets-Lilya.png",
       "spritesheet": "assets/spritesheets/9Pets-Lilya.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 730553
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/lilya_full.webp",
+      "packageBytes": 986827
     },
     {
       "id": "9pets-loggerhead",
@@ -741,9 +750,9 @@
       "download": "downloads/9Pets-Loggerhead.zip",
       "preview": "assets/previews/9Pets-Loggerhead.png",
       "spritesheet": "assets/spritesheets/9Pets-Loggerhead.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 733557
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/loggerhead_full.webp",
+      "packageBytes": 847068
     },
     {
       "id": "9pets-lopera",
@@ -752,9 +761,9 @@
       "download": "downloads/9Pets-Lopera.zip",
       "preview": "assets/previews/9Pets-Lopera.png",
       "spritesheet": "assets/spritesheets/9Pets-Lopera.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 607568
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/lopera_full.webp",
+      "packageBytes": 1011669
     },
     {
       "id": "9pets-lorelei",
@@ -763,9 +772,9 @@
       "download": "downloads/9Pets-Lorelei.zip",
       "preview": "assets/previews/9Pets-Lorelei.png",
       "spritesheet": "assets/spritesheets/9Pets-Lorelei.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 711706
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/lorelei_full.webp",
+      "packageBytes": 1102298
     },
     {
       "id": "9pets-lorentz-butterfly",
@@ -774,9 +783,9 @@
       "download": "downloads/9Pets-Lorentz-Butterfly.zip",
       "preview": "assets/previews/9Pets-Lorentz-Butterfly.png",
       "spritesheet": "assets/spritesheets/9Pets-Lorentz-Butterfly.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 620574
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/lorentz-butterfly_full.webp",
+      "packageBytes": 1006979
     },
     {
       "id": "9pets-lucy",
@@ -785,9 +794,9 @@
       "download": "downloads/9Pets-Lucy.zip",
       "preview": "assets/previews/9Pets-Lucy.png",
       "spritesheet": "assets/spritesheets/9Pets-Lucy.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 711982
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/lucy_full.webp",
+      "packageBytes": 1007950
     },
     {
       "id": "9pets-marcus",
@@ -796,9 +805,9 @@
       "download": "downloads/9Pets-Marcus.zip",
       "preview": "assets/previews/9Pets-Marcus.png",
       "spritesheet": "assets/spritesheets/9Pets-Marcus.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 734833
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/marcus_full.webp",
+      "packageBytes": 933256
     },
     {
       "id": "9pets-marsha",
@@ -807,9 +816,9 @@
       "download": "downloads/9Pets-Marsha.zip",
       "preview": "assets/previews/9Pets-Marsha.png",
       "spritesheet": "assets/spritesheets/9Pets-Marsha.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 705235
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/marsha_full.webp",
+      "packageBytes": 844821
     },
     {
       "id": "9pets-matilda",
@@ -818,9 +827,9 @@
       "download": "downloads/9Pets-Matilda.zip",
       "preview": "assets/previews/9Pets-Matilda.png",
       "spritesheet": "assets/spritesheets/9Pets-Matilda.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 728885
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/matilda_full.webp",
+      "packageBytes": 602044
     },
     {
       "id": "9pets-medicine-pocket",
@@ -840,9 +849,9 @@
       "download": "downloads/9Pets-Melania.zip",
       "preview": "assets/previews/9Pets-Melania.png",
       "spritesheet": "assets/spritesheets/9Pets-Melania.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 745487
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/melania_full.webp",
+      "packageBytes": 780195
     },
     {
       "id": "9pets-mercuria",
@@ -851,9 +860,9 @@
       "download": "downloads/9Pets-Mercuria.zip",
       "preview": "assets/previews/9Pets-Mercuria.png",
       "spritesheet": "assets/spritesheets/9Pets-Mercuria.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 725976
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/mercuria_full.webp",
+      "packageBytes": 683875
     },
     {
       "id": "9pets-mesmer-jr",
@@ -862,9 +871,9 @@
       "download": "downloads/9Pets-Mesmer-Jr.zip",
       "preview": "assets/previews/9Pets-Mesmer-Jr.png",
       "spritesheet": "assets/spritesheets/9Pets-Mesmer-Jr.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 767010
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/mesmer-jr_full.webp",
+      "packageBytes": 747222
     },
     {
       "id": "9pets-moldir",
@@ -873,9 +882,9 @@
       "download": "downloads/9Pets-Moldir.zip",
       "preview": "assets/previews/9Pets-Moldir.png",
       "spritesheet": "assets/spritesheets/9Pets-Moldir.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 808180
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/moldir_full.webp",
+      "packageBytes": 819017
     },
     {
       "id": "9pets-mondlicht",
@@ -884,9 +893,9 @@
       "download": "downloads/9Pets-Mondlicht.zip",
       "preview": "assets/previews/9Pets-Mondlicht.png",
       "spritesheet": "assets/spritesheets/9Pets-Mondlicht.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 729510
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/mondlicht_full.webp",
+      "packageBytes": 1147123
     },
     {
       "id": "9pets-mr-duncan",
@@ -895,9 +904,9 @@
       "download": "downloads/9Pets-Mr-Duncan.zip",
       "preview": "assets/previews/9Pets-Mr-Duncan.png",
       "spritesheet": "assets/spritesheets/9Pets-Mr-Duncan.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 766340
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/mr-duncan_full.webp",
+      "packageBytes": 849856
     },
     {
       "id": "9pets-ms-moissan",
@@ -906,9 +915,9 @@
       "download": "downloads/9Pets-Ms-Moissan.zip",
       "preview": "assets/previews/9Pets-Ms-Moissan.png",
       "spritesheet": "assets/spritesheets/9Pets-Ms-Moissan.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 748499
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/ms-moissan_full.webp",
+      "packageBytes": 932974
     },
     {
       "id": "9pets-ms-newbabel",
@@ -928,9 +937,9 @@
       "download": "downloads/9Pets-Ms-Radio.zip",
       "preview": "assets/previews/9Pets-Ms-Radio.png",
       "spritesheet": "assets/spritesheets/9Pets-Ms-Radio.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 760319
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/ms-radio_full.webp",
+      "packageBytes": 1313357
     },
     {
       "id": "9pets-ms-stranger",
@@ -939,9 +948,9 @@
       "download": "downloads/9Pets-Ms-Stranger.zip",
       "preview": "assets/previews/9Pets-Ms-Stranger.png",
       "spritesheet": "assets/spritesheets/9Pets-Ms-Stranger.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 793965
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/ms-stranger_full.webp",
+      "packageBytes": 948162
     },
     {
       "id": "9pets-name-day",
@@ -950,9 +959,9 @@
       "download": "downloads/9Pets-Name-Day.zip",
       "preview": "assets/previews/9Pets-Name-Day.png",
       "spritesheet": "assets/spritesheets/9Pets-Name-Day.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 721884
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/name-day_full.webp",
+      "packageBytes": 812813
     },
     {
       "id": "9pets-nautika",
@@ -961,9 +970,9 @@
       "download": "downloads/9Pets-Nautika.zip",
       "preview": "assets/previews/9Pets-Nautika.png",
       "spritesheet": "assets/spritesheets/9Pets-Nautika.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 652052
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/nautika_full.webp",
+      "packageBytes": 1004821
     },
     {
       "id": "9pets-necrologist",
@@ -972,9 +981,9 @@
       "download": "downloads/9Pets-Necrologist.zip",
       "preview": "assets/previews/9Pets-Necrologist.png",
       "spritesheet": "assets/spritesheets/9Pets-Necrologist.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 777566
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/necrologist_full.webp",
+      "packageBytes": 601756
     },
     {
       "id": "9pets-nick-bottom",
@@ -983,9 +992,9 @@
       "download": "downloads/9Pets-Nick-Bottom.zip",
       "preview": "assets/previews/9Pets-Nick-Bottom.png",
       "spritesheet": "assets/spritesheets/9Pets-Nick-Bottom.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 707530
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/nick-bottom_full.webp",
+      "packageBytes": 698407
     },
     {
       "id": "9pets-noire",
@@ -994,9 +1003,9 @@
       "download": "downloads/9Pets-Noire.zip",
       "preview": "assets/previews/9Pets-Noire.png",
       "spritesheet": "assets/spritesheets/9Pets-Noire.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 769166
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/noire_full.webp",
+      "packageBytes": 2211980
     },
     {
       "id": "9pets-oliver-fog",
@@ -1005,9 +1014,9 @@
       "download": "downloads/9Pets-Oliver-Fog.zip",
       "preview": "assets/previews/9Pets-Oliver-Fog.png",
       "spritesheet": "assets/spritesheets/9Pets-Oliver-Fog.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 695452
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/oliver-fog_full.webp",
+      "packageBytes": 771462
     },
     {
       "id": "9pets-onion",
@@ -1016,9 +1025,9 @@
       "download": "downloads/9Pets-ONiON.zip",
       "preview": "assets/previews/9Pets-ONiON.png",
       "spritesheet": "assets/spritesheets/9Pets-ONiON.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 726351
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/onion_full.webp",
+      "packageBytes": 571885
     },
     {
       "id": "9pets-paper-heron",
@@ -1027,9 +1036,9 @@
       "download": "downloads/9Pets-Paper-Heron.zip",
       "preview": "assets/previews/9Pets-Paper-Heron.png",
       "spritesheet": "assets/spritesheets/9Pets-Paper-Heron.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 779053
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/paper-heron_full.webp",
+      "packageBytes": 900001
     },
     {
       "id": "9pets-pavia",
@@ -1038,9 +1047,9 @@
       "download": "downloads/9Pets-Pavia.zip",
       "preview": "assets/previews/9Pets-Pavia.png",
       "spritesheet": "assets/spritesheets/9Pets-Pavia.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 728540
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/pavia_full.webp",
+      "packageBytes": 777087
     },
     {
       "id": "9pets-pickles",
@@ -1049,9 +1058,9 @@
       "download": "downloads/9Pets-Pickles.zip",
       "preview": "assets/previews/9Pets-Pickles.png",
       "spritesheet": "assets/spritesheets/9Pets-Pickles.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 569159
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/pickles_full.webp",
+      "packageBytes": 1595955
     },
     {
       "id": "9pets-pioneer",
@@ -1060,9 +1069,9 @@
       "download": "downloads/9Pets-Pioneer.zip",
       "preview": "assets/previews/9Pets-Pioneer.png",
       "spritesheet": "assets/spritesheets/9Pets-Pioneer.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 605885
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/pioneer_full.webp",
+      "packageBytes": 870502
     },
     {
       "id": "9pets-poltergeist",
@@ -1071,9 +1080,9 @@
       "download": "downloads/9Pets-Poltergeist.zip",
       "preview": "assets/previews/9Pets-Poltergeist.png",
       "spritesheet": "assets/spritesheets/9Pets-Poltergeist.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 796431
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/poltergeist_full.webp",
+      "packageBytes": 792585
     },
     {
       "id": "9pets-rabies",
@@ -1082,9 +1091,9 @@
       "download": "downloads/9Pets-Rabies.zip",
       "preview": "assets/previews/9Pets-Rabies.png",
       "spritesheet": "assets/spritesheets/9Pets-Rabies.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 771159
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/rabies_full.webp",
+      "packageBytes": 1339763
     },
     {
       "id": "9pets-ramona",
@@ -1093,9 +1102,9 @@
       "download": "downloads/9Pets-Ramona.zip",
       "preview": "assets/previews/9Pets-Ramona.png",
       "spritesheet": "assets/spritesheets/9Pets-Ramona.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 679632
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/ramona_full.webp",
+      "packageBytes": 1355735
     },
     {
       "id": "9pets-recoleta",
@@ -1104,9 +1113,9 @@
       "download": "downloads/9Pets-Recoleta.zip",
       "preview": "assets/previews/9Pets-Recoleta.png",
       "spritesheet": "assets/spritesheets/9Pets-Recoleta.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 778554
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/recoleta_full.webp",
+      "packageBytes": 837995
     },
     {
       "id": "9pets-reed",
@@ -1115,9 +1124,9 @@
       "download": "downloads/9Pets-Reed.zip",
       "preview": "assets/previews/9Pets-Reed.png",
       "spritesheet": "assets/spritesheets/9Pets-Reed.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 655092
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/reed_full.webp",
+      "packageBytes": 1133383
     },
     {
       "id": "9pets-regulus",
@@ -1137,9 +1146,9 @@
       "download": "downloads/9Pets-Rhiannon.zip",
       "preview": "assets/previews/9Pets-Rhiannon.png",
       "spritesheet": "assets/spritesheets/9Pets-Rhiannon.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 642850
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/rhiannon_full.webp",
+      "packageBytes": 1110078
     },
     {
       "id": "9pets-rubuska",
@@ -1148,9 +1157,9 @@
       "download": "downloads/9Pets-Rubuska.zip",
       "preview": "assets/previews/9Pets-Rubuska.png",
       "spritesheet": "assets/spritesheets/9Pets-Rubuska.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 671477
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/rubuska_full.webp",
+      "packageBytes": 1069692
     },
     {
       "id": "9pets-satsuki",
@@ -1159,9 +1168,9 @@
       "download": "downloads/9Pets-Satsuki.zip",
       "preview": "assets/previews/9Pets-Satsuki.png",
       "spritesheet": "assets/spritesheets/9Pets-Satsuki.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 749690
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/satsuki_full.webp",
+      "packageBytes": 710567
     },
     {
       "id": "9pets-semmelweis",
@@ -1170,9 +1179,9 @@
       "download": "downloads/9Pets-Semmelweis.zip",
       "preview": "assets/previews/9Pets-Semmelweis.png",
       "spritesheet": "assets/spritesheets/9Pets-Semmelweis.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 760336
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/semmelweis_full.webp",
+      "packageBytes": 774536
     },
     {
       "id": "9pets-sentinel",
@@ -1181,9 +1190,9 @@
       "download": "downloads/9Pets-Sentinel.zip",
       "preview": "assets/previews/9Pets-Sentinel.png",
       "spritesheet": "assets/spritesheets/9Pets-Sentinel.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 720786
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/sentinel_full.webp",
+      "packageBytes": 807380
     },
     {
       "id": "9pets-shamane",
@@ -1192,9 +1201,9 @@
       "download": "downloads/9Pets-Shamane.zip",
       "preview": "assets/previews/9Pets-Shamane.png",
       "spritesheet": "assets/spritesheets/9Pets-Shamane.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 771110
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/shamane_full.webp",
+      "packageBytes": 1007497
     },
     {
       "id": "9pets-silverwing-eagle",
@@ -1203,9 +1212,9 @@
       "download": "downloads/9Pets-Silverwing-Eagle.zip",
       "preview": "assets/previews/9Pets-Silverwing-Eagle.png",
       "spritesheet": "assets/spritesheets/9Pets-Silverwing-Eagle.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 701376
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/silverwing-eagle_full.webp",
+      "packageBytes": 1432096
     },
     {
       "id": "9pets-sonetto",
@@ -1236,9 +1245,9 @@
       "download": "downloads/9Pets-Spathodea.zip",
       "preview": "assets/previews/9Pets-Spathodea.png",
       "spritesheet": "assets/spritesheets/9Pets-Spathodea.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 681240
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/spathodea_full.webp",
+      "packageBytes": 1023680
     },
     {
       "id": "9pets-sputnik",
@@ -1247,9 +1256,9 @@
       "download": "downloads/9Pets-Sputnik.zip",
       "preview": "assets/previews/9Pets-Sputnik.png",
       "spritesheet": "assets/spritesheets/9Pets-Sputnik.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 720053
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/sputnik_full.webp",
+      "packageBytes": 691148
     },
     {
       "id": "9pets-sweetheart",
@@ -1258,9 +1267,9 @@
       "download": "downloads/9Pets-Sweetheart.zip",
       "preview": "assets/previews/9Pets-Sweetheart.png",
       "spritesheet": "assets/spritesheets/9Pets-Sweetheart.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 736440
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/sweetheart_full.webp",
+      "packageBytes": 957945
     },
     {
       "id": "9pets-tennant",
@@ -1269,9 +1278,9 @@
       "download": "downloads/9Pets-Tennant.zip",
       "preview": "assets/previews/9Pets-Tennant.png",
       "spritesheet": "assets/spritesheets/9Pets-Tennant.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 663704
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/tennant_full.webp",
+      "packageBytes": 881367
     },
     {
       "id": "9pets-the-fool",
@@ -1280,9 +1289,9 @@
       "download": "downloads/9Pets-The-Fool.zip",
       "preview": "assets/previews/9Pets-The-Fool.png",
       "spritesheet": "assets/spritesheets/9Pets-The-Fool.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 712434
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/the-fool_full.webp",
+      "packageBytes": 788070
     },
     {
       "id": "9pets-tooth-fairy",
@@ -1291,9 +1300,9 @@
       "download": "downloads/9Pets-Tooth-Fairy.zip",
       "preview": "assets/previews/9Pets-Tooth-Fairy.png",
       "spritesheet": "assets/spritesheets/9Pets-Tooth-Fairy.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 677779
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/tooth-fairy_full.webp",
+      "packageBytes": 647215
     },
     {
       "id": "9pets-ttt",
@@ -1302,9 +1311,9 @@
       "download": "downloads/9Pets-TTT.zip",
       "preview": "assets/previews/9Pets-TTT.png",
       "spritesheet": "assets/spritesheets/9Pets-TTT.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 665742
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/ttt_full.webp",
+      "packageBytes": 921970
     },
     {
       "id": "9pets-tuesday",
@@ -1313,9 +1322,9 @@
       "download": "downloads/9Pets-Tuesday.zip",
       "preview": "assets/previews/9Pets-Tuesday.png",
       "spritesheet": "assets/spritesheets/9Pets-Tuesday.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 703064
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/tuesday_full.webp",
+      "packageBytes": 637019
     },
     {
       "id": "9pets-twins-sleep",
@@ -1324,9 +1333,9 @@
       "download": "downloads/9Pets-Twins-Sleep.zip",
       "preview": "assets/previews/9Pets-Twins-Sleep.png",
       "spritesheet": "assets/spritesheets/9Pets-Twins-Sleep.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 709385
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/twins-sleep_full.webp",
+      "packageBytes": 1706231
     },
     {
       "id": "9pets-ulrich",
@@ -1335,9 +1344,9 @@
       "download": "downloads/9Pets-Ulrich.zip",
       "preview": "assets/previews/9Pets-Ulrich.png",
       "spritesheet": "assets/spritesheets/9Pets-Ulrich.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 746212
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/ulrich_full.webp",
+      "packageBytes": 866838
     },
     {
       "id": "9pets-ulu",
@@ -1346,9 +1355,9 @@
       "download": "downloads/9Pets-Ulu.zip",
       "preview": "assets/previews/9Pets-Ulu.png",
       "spritesheet": "assets/spritesheets/9Pets-Ulu.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 667863
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/ulu_full.webp",
+      "packageBytes": 1299979
     },
     {
       "id": "9pets-vila",
@@ -1357,9 +1366,9 @@
       "download": "downloads/9Pets-Vila.zip",
       "preview": "assets/previews/9Pets-Vila.png",
       "spritesheet": "assets/spritesheets/9Pets-Vila.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 704400
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/vila_full.webp",
+      "packageBytes": 1243292
     },
     {
       "id": "9pets-voyager",
@@ -1368,9 +1377,9 @@
       "download": "downloads/9Pets-Voyager.zip",
       "preview": "assets/previews/9Pets-Voyager.png",
       "spritesheet": "assets/spritesheets/9Pets-Voyager.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 780110
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/voyager_full.webp",
+      "packageBytes": 825064
     },
     {
       "id": "9pets-white-rum",
@@ -1379,9 +1388,9 @@
       "download": "downloads/9Pets-White-Rum.zip",
       "preview": "assets/previews/9Pets-White-Rum.png",
       "spritesheet": "assets/spritesheets/9Pets-White-Rum.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 767992
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/white-rum_full.webp",
+      "packageBytes": 1103077
     },
     {
       "id": "9pets-willow",
@@ -1390,9 +1399,9 @@
       "download": "downloads/9Pets-Willow.zip",
       "preview": "assets/previews/9Pets-Willow.png",
       "spritesheet": "assets/spritesheets/9Pets-Willow.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 673877
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/willow_full.webp",
+      "packageBytes": 725335
     },
     {
       "id": "9pets-windsong",
@@ -1401,9 +1410,9 @@
       "download": "downloads/9Pets-Windsong.zip",
       "preview": "assets/previews/9Pets-Windsong.png",
       "spritesheet": "assets/spritesheets/9Pets-Windsong.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 717671
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/windsong_full.webp",
+      "packageBytes": 1070275
     },
     {
       "id": "9pets-zima",
@@ -1412,9 +1421,9 @@
       "download": "downloads/9Pets-Zima.zip",
       "preview": "assets/previews/9Pets-Zima.png",
       "spritesheet": "assets/spritesheets/9Pets-Zima.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 696577
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/winter_full.webp",
+      "packageBytes": 1105208
     },
     {
       "id": "9pets-x",
@@ -1423,9 +1432,9 @@
       "download": "downloads/9Pets-X.zip",
       "preview": "assets/previews/9Pets-X.png",
       "spritesheet": "assets/spritesheets/9Pets-X.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 687453
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/x_full.webp",
+      "packageBytes": 891136
     },
     {
       "id": "9pets-yenisei",
@@ -1434,9 +1443,9 @@
       "download": "downloads/9Pets-Yenisei.zip",
       "preview": "assets/previews/9Pets-Yenisei.png",
       "spritesheet": "assets/spritesheets/9Pets-Yenisei.webp",
-      "sourceType": "generated-card",
-      "sourceUrl": "https://www.prydwen.gg/re1999/characters",
-      "packageBytes": 719600
+      "sourceType": "prydwen-sourced",
+      "sourceUrl": "https://cdn.prydwen.gg/images/re1999/characters/yenisei_full.webp",
+      "packageBytes": 913432
     }
   ]
 }

@@ -10,7 +10,7 @@ const els = {
   resultCount: document.querySelector("#resultCount"),
   totalCount: document.querySelector("#totalCount"),
   officialCount: document.querySelector("#officialCount"),
-  generatedCount: document.querySelector("#generatedCount"),
+  prydwenCount: document.querySelector("#prydwenCount"),
   template: document.querySelector("#petCardTemplate"),
   filterButtons: [...document.querySelectorAll("[data-source-filter]")],
 };
@@ -23,7 +23,9 @@ function formatBytes(bytes) {
 }
 
 function sourceLabel(type) {
-  return type === "official-sourced" ? "Official" : "Generated";
+  if (type === "official-sourced") return "Official";
+  if (type === "prydwen-sourced") return "Prydwen";
+  return "Generated";
 }
 
 function filteredPets() {
@@ -37,10 +39,10 @@ function filteredPets() {
 
 function renderStats() {
   const official = state.pets.filter((pet) => pet.sourceType === "official-sourced").length;
-  const generated = state.pets.length - official;
+  const prydwen = state.pets.filter((pet) => pet.sourceType === "prydwen-sourced").length;
   els.totalCount.textContent = state.pets.length;
   els.officialCount.textContent = official;
-  els.generatedCount.textContent = generated;
+  els.prydwenCount.textContent = prydwen;
 }
 
 function renderGrid() {
@@ -70,6 +72,7 @@ function renderGrid() {
     meta.textContent = `${pet.packageName} · ${formatBytes(pet.packageBytes)}`;
     badge.textContent = sourceLabel(pet.sourceType);
     badge.classList.toggle("official", pet.sourceType === "official-sourced");
+    badge.classList.toggle("prydwen", pet.sourceType === "prydwen-sourced");
     download.href = pet.download;
     download.download = `${pet.packageName}.zip`;
     download.setAttribute("aria-label", `Download ${pet.packageName}`);

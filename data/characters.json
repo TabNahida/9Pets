@@ -7,7 +7,8 @@
   "notes": [
     "Bluepoch official home exposes the launch-site character assets used where available.",
     "Huiji Wiki was requested as a source but returned automated 403 responses during this build.",
-    "The full character list is based on the readable Prydwen catalog snapshot shown as 127 characters, last updated 31/May/2026."
+    "The full character list is based on the readable Prydwen catalog snapshot shown as 127 characters, last updated 31/May/2026.",
+    "Characters not exposed by the Bluepoch launch site use transparent Prydwen CDN character artwork rather than generated placeholder cards."
   ],
   "officialAssetIds": {
     "Sonetto": "5",

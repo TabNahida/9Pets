@@ -52,9 +52,11 @@ def main() -> None:
     assert_true(data["total"] == 127, f"manifest total is {data['total']}, expected 127")
     assert_true(len(pets) == 127, f"manifest contains {len(pets)} pets, expected 127")
     official_count = sum(1 for pet in pets if pet["sourceType"] == "official-sourced")
+    prydwen_count = sum(1 for pet in pets if pet["sourceType"] == "prydwen-sourced")
     generated_count = sum(1 for pet in pets if pet["sourceType"] == "generated-card")
     assert_true(official_count == 10, f"official count is {official_count}, expected 10")
-    assert_true(generated_count == 117, f"generated count is {generated_count}, expected 117")
+    assert_true(prydwen_count == 117, f"prydwen count is {prydwen_count}, expected 117")
+    assert_true(generated_count == 0, f"generated count is {generated_count}, expected 0")
     assert_true((ROOT / "docs" / "data" / "pets-data.js").exists(), "docs/data/pets-data.js is missing")
     assert_true(len(data.get("officialSiteAssets", {})) >= 17, "official site assets were not downloaded")
 
@@ -71,7 +73,7 @@ def main() -> None:
         assert_true((ROOT / "docs" / site_file).exists(), f"docs/{site_file} is missing")
 
     print("Build verification passed")
-    print(f"pets={len(pets)} official={official_count} generated={generated_count}")
+    print(f"pets={len(pets)} official={official_count} prydwen={prydwen_count} generated={generated_count}")
     print(f"atlas_size={EXPECTED_SIZE[0]}x{EXPECTED_SIZE[1]}")
 
 

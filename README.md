@@ -34,11 +34,11 @@ uses selected publicly exposed assets from the Bluepoch official home page for
 visual framing, including the logo, home page panels, character thumbnails, and
 the launch-site role artwork available from `character.js`.
 
-Huiji and Prydwen returned automated 403 responses to direct script downloads in
-this build environment. Bluepoch's official home script exposed 10 downloadable
-launch-site character assets; packages created from those files are marked
-`official-sourced`. The remaining packages use deterministic generated cards
-based on the English character catalog and are marked `generated-card`.
+Huiji returned automated 403 responses to direct script downloads in this build
+environment. Bluepoch's official home script exposed 10 downloadable launch-site
+character assets; packages created from those files are marked
+`official-sourced`. The remaining packages use transparent character artwork
+from the Prydwen CDN and are marked `prydwen-sourced`.
 
 `docs/data/pets-data.js` mirrors `docs/data/pets.json` so the catalog also works
 when `docs/index.html` is opened directly from disk. GitHub Pages can use either

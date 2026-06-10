@@ -47,13 +47,25 @@ STATE_ROWS = [
 
 OFFICIAL_ROLE_URL = "https://re.bluepoch.com/home/img/role/{asset_id}m.png"
 OFFICIAL_THUMB_URL = "https://re.bluepoch.com/home/img/character/{asset_id}.png"
+PRYDWEN_FULL_URL = "https://cdn.prydwen.gg/images/re1999/characters/{slug}_full.webp"
+PRYDWEN_SLUG_OVERRIDES = {
+    "Zima": "winter",
+}
 OFFICIAL_SITE_ASSETS = {
     "logo.png": "https://re.bluepoch.com/home/img/logo.png",
     "hero-v2.webp": "https://re.bluepoch.com/home/img/v2.webp",
+    "hero-v2c.png": "https://re.bluepoch.com/home/img/v2c.png",
+    "site-bg.png": "https://re.bluepoch.com/home/img/BG.png",
+    "site-bg-2.png": "https://re.bluepoch.com/home/img/BG2.png",
+    "main-visual.jpg": "https://re.bluepoch.com/home/img/01.jpg",
     "first-panel-1.png": "https://re.bluepoch.com/home/img/first/1.png",
     "first-panel-2.png": "https://re.bluepoch.com/home/img/first/2.png",
     "first-panel-3.webp": "https://re.bluepoch.com/home/img/first/3.webp",
+    "download-panel-3.png": "https://re.bluepoch.com/home/img/first/pc3.png",
+    "download-panel-4.png": "https://re.bluepoch.com/home/img/first/pc4.png",
     "news-title.png": "https://re.bluepoch.com/home/img/News.png",
+    "see.png": "https://re.bluepoch.com/home/img/see.png",
+    "arrow.png": "https://re.bluepoch.com/home/img/jian.png",
     "role-frame.webp": "https://re.bluepoch.com/home/img/role/false.webp",
 }
 
@@ -67,6 +79,22 @@ def slug_suffix(name: str) -> str:
     text = text.replace("&", "and")
     tokens = re.findall(r"[A-Za-z0-9]+", text)
     return "-".join(tokens) or "Character"
+
+
+def slug_lower(name: str) -> str:
+    return slug_suffix(name).lower()
+
+
+def prydwen_slug_candidates(name: str) -> list[str]:
+    base = PRYDWEN_SLUG_OVERRIDES.get(name, slug_lower(name))
+    candidates = [
+        base,
+        base.replace("ms-new-babel", "ms-newbabel"),
+        base.replace("coppelia", "coppelia"),
+        base.replace("apple", "apple"),
+        base.replace("onion", "onion"),
+    ]
+    return list(dict.fromkeys(candidate for candidate in candidates if candidate))
 
 
 def pet_id_from_package(package_name: str) -> str:
@@ -198,10 +226,13 @@ def crop_and_fit(image: Image.Image, max_width: int = 174, max_height: int = 198
     return cropped.resize(size, Image.Resampling.LANCZOS)
 
 
-def download_image(url: str, output: Path) -> bool:
+def download_image(url: str, output: Path, referer: str | None = None) -> bool:
     output.parent.mkdir(parents=True, exist_ok=True)
     try:
-        response = requests.get(url, timeout=8, headers={"User-Agent": "Mozilla/5.0 9PetsBuilder/1.0"})
+        headers = {"User-Agent": "Mozilla/5.0 9PetsBuilder/2.0"}
+        if referer:
+            headers["Referer"] = referer
+        response = requests.get(url, timeout=12, headers=headers)
         if response.status_code != 200:
             return False
         image = Image.open(BytesIO(response.content)).convert("RGBA")
@@ -214,7 +245,7 @@ def download_image(url: str, output: Path) -> bool:
 def download_binary(url: str, output: Path) -> bool:
     output.parent.mkdir(parents=True, exist_ok=True)
     try:
-        response = requests.get(url, timeout=8, headers={"User-Agent": "Mozilla/5.0 9PetsBuilder/1.0"})
+        response = requests.get(url, timeout=12, headers={"User-Agent": "Mozilla/5.0 9PetsBuilder/2.0"})
         if response.status_code != 200:
             return False
         output.write_bytes(response.content)
@@ -249,20 +280,29 @@ def download_official_site_assets() -> dict[str, str]:
 
 def get_source_sprite(name: str, package_name: str, official_assets: dict[str, str]) -> tuple[Image.Image, str, str | None]:
     asset_id = official_assets.get(name)
-    if not asset_id:
-        return make_generated_sprite(name), "generated-card", None
-
     source_path = SOURCE_DIR / f"{package_name}.png"
-    role_url = OFFICIAL_ROLE_URL.format(asset_id=asset_id)
-    thumb_url = OFFICIAL_THUMB_URL.format(asset_id=asset_id)
-    if not source_path.exists():
-        if not download_image(role_url, source_path):
-            download_image(thumb_url, source_path)
-    if source_path.exists():
-        try:
-            return crop_and_fit(Image.open(source_path).convert("RGBA")), "official-sourced", role_url
-        except Exception:
-            pass
+    if asset_id:
+        role_url = OFFICIAL_ROLE_URL.format(asset_id=asset_id)
+        thumb_url = OFFICIAL_THUMB_URL.format(asset_id=asset_id)
+        if not source_path.exists():
+            if not download_image(role_url, source_path):
+                download_image(thumb_url, source_path)
+        if source_path.exists():
+            try:
+                return crop_and_fit(Image.open(source_path).convert("RGBA")), "official-sourced", role_url
+            except Exception:
+                pass
+
+    for slug in prydwen_slug_candidates(name):
+        url = PRYDWEN_FULL_URL.format(slug=slug)
+        if not source_path.exists():
+            download_image(url, source_path, referer="https://www.prydwen.gg/")
+        if source_path.exists():
+            try:
+                return crop_and_fit(Image.open(source_path).convert("RGBA")), "prydwen-sourced", url
+            except Exception:
+                source_path.unlink(missing_ok=True)
+
     return make_generated_sprite(name), "generated-card", None
 
 
