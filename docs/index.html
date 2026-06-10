@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>9Pets</title>
+    <meta name="description" content="Fan-made Codex pet packages for Reverse: 1999 characters.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="site-backdrop" aria-hidden="true">
+      <img class="backdrop-sigil" src="assets/official/hero-v2.webp" alt="">
+      <img class="backdrop-role role-a" src="assets/official/role-9.png" alt="">
+      <img class="backdrop-role role-b" src="assets/official/role-5.png" alt="">
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="9Pets home">
+        <span class="brand-mark">9</span>
+        <img class="official-logo" src="assets/official/logo.png" alt="">
+        <span>
+          <strong>9Pets</strong>
+          <small>Codex pets for Reverse: 1999</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#catalog">Catalog</a>
+        <a href="#sources">Sources</a>
+        <a href="data/pets.json">JSON</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="catalog-shell" id="catalog">
+        <div class="hero-layout">
+          <div class="catalog-head">
+            <div>
+              <p class="series-line">Reverse: 1999 fan archive</p>
+              <h1>9Pets Catalog</h1>
+              <p>Download-ready Codex pet packages for every tracked character, packaged with the same fixed atlas contract Codex pets expect.</p>
+            </div>
+            <div class="stats" aria-label="Catalog stats">
+              <span><strong id="totalCount">0</strong> packages</span>
+              <span><strong id="officialCount">0</strong> official-sourced</span>
+              <span><strong id="generatedCount">0</strong> generated-card</span>
+            </div>
+          </div>
+
+          <div class="official-window" aria-label="Official artwork references">
+            <div class="window-copy">
+              <span>Official site materials</span>
+              <strong>Bluepoch launch page assets are used for visual framing and the available official-sourced pets.</strong>
+            </div>
+            <div class="character-rail" aria-hidden="true">
+              <img src="assets/official/character-5.png" alt="">
+              <img src="assets/official/character-9.png" alt="">
+              <img src="assets/official/character-3.png" alt="">
+              <img src="assets/official/character-1.png" alt="">
+              <img src="assets/official/character-6.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="toolbar" role="search">
+          <label class="search-box">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="m21 21-4.35-4.35m1.35-5.15a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z" />
+            </svg>
+            <input id="searchInput" type="search" placeholder="Search characters" autocomplete="off">
+          </label>
+          <div class="segmented" aria-label="Source filter">
+            <button class="active" type="button" data-source-filter="all">All</button>
+            <button type="button" data-source-filter="official-sourced">Official</button>
+            <button type="button" data-source-filter="generated-card">Generated</button>
+          </div>
+        </div>
+
+        <div class="result-line">
+          <span id="resultCount">Loading catalog...</span>
+          <div class="result-actions">
+            <a class="bulk-link" href="data/pets.json">Open manifest</a>
+            <a class="bulk-link" href="downloads/9Pets-Regulus.zip">Try Regulus</a>
+          </div>
+        </div>
+
+        <section class="grid" id="petGrid" aria-live="polite"></section>
+      </section>
+
+      <section class="source-panel" id="sources">
+        <h2>Sources</h2>
+        <div class="source-grid">
+          <a href="https://re.bluepoch.com/home/" rel="noreferrer">Bluepoch official home</a>
+          <a href="https://res1999.huijiwiki.com/wiki/" rel="noreferrer">Huiji Wiki target source</a>
+          <a href="https://www.prydwen.gg/re1999/characters" rel="noreferrer">Prydwen character catalog</a>
+        </div>
+        <p>Fan-made archive. Package names, manifests, and site UI are maintained in English.</p>
+      </section>
+    </main>
+
+    <template id="petCardTemplate">
+      <article class="pet-card">
+        <div class="sprite-stage">
+          <span class="pet-sprite" aria-hidden="true"></span>
+        </div>
+        <div class="pet-copy">
+          <h2></h2>
+          <p></p>
+        </div>
+        <div class="card-actions">
+          <span class="badge"></span>
+          <a class="download" href="#" download>
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M12 3v12m0 0 5-5m-5 5-5-5M5 21h14" />
+            </svg>
+            <span>Download</span>
+          </a>
+        </div>
+      </article>
+    </template>
+
+    <script src="data/pets-data.js" defer></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>
