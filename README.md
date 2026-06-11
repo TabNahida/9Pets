@@ -68,11 +68,12 @@ the launch-site role artwork available from `character.js`.
 Huiji returned automated 403 responses to direct script downloads in this build
 environment. Character packages are built from official game assets mirrored in
 `myssal/Reverse-1999-CN-Asset`, using Live2D Cubism motion capture when a usable
-`.model3.json` folder is present in the local cache. Store skin artwork is kept
-as the fallback path. Package metadata records the mapped Spine and Live2D asset
-paths, the selected skin, birthday when available, and whether Live2D rendering
-was used. All generated packages in this repository are marked `official-sourced`;
-future community uploads should use a separate non-official source category.
+`.model3.json` folder is present in the local cache. When Cubism is unavailable,
+the builder selects the cleanest official dump artwork candidate it can find.
+Package metadata records the mapped Spine and Live2D asset paths, the selected
+skin, birthday when available, and whether Live2D rendering was used. All
+generated packages in this repository are marked `official-sourced`; future
+community uploads should use a separate non-official source category.
 
 `docs/data/pets-data.js` mirrors `docs/data/pets.json` so the catalog also works
 when `docs/index.html` is opened directly from disk. GitHub Pages can use either

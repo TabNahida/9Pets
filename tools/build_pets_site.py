@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import json
 import math
 import os
@@ -28,6 +29,7 @@ SOURCE_DIR = DOCS_DIR / "assets" / "source"
 OFFICIAL_SITE_DIR = DOCS_DIR / "assets" / "official"
 PREVIEW_DIR = DOCS_DIR / "assets" / "previews"
 SPRITESHEET_DIR = DOCS_DIR / "assets" / "spritesheets"
+DETAIL_SPRITESHEET_DIR = DOCS_DIR / "assets" / "detail-spritesheets"
 DOWNLOAD_DIR = DOCS_DIR / "downloads"
 DATA_DIR = DOCS_DIR / "data"
 ASSET_CACHE_DIR = Path(os.environ.get("REVERSE_1999_ASSET_DIR", r"C:\tmp\9pets-Reverse-1999-CN-Asset"))
@@ -36,11 +38,195 @@ LIVE2D_CUBISM_CORE = Path(os.environ.get("LIVE2D_CUBISM_CORE", str(LIVE2D_RENDER
 LIVE2D_RENDER_ENABLED = os.environ.get("NINEPETS_RENDER_LIVE2D", "1") != "0"
 LIVE2D_RENDER_SCRIPT = ROOT / "tools" / "render_live2d_frames.mjs"
 LIVE2D_FRAME_ROOT = Path(tempfile.gettempdir()) / "9pets-live2d-frames"
+SPINE_RENDER_ENABLED = os.environ.get("NINEPETS_RENDER_SPINE", "1") != "0"
+SPINE_RENDER_SCRIPT = ROOT / "tools" / "render_spine_frames.mjs"
+SPINE_FRAME_ROOT = Path(tempfile.gettempdir()) / "9pets-spine-frames"
 
 CELL_W = 192
 CELL_H = 208
 COLS = 8
 ROWS = 9
+DETAIL_ATLAS_SCALE = 2
+
+LIVE2D_RENDER_PROFILES: dict[str, dict[str, Any]] = {
+    "9Pets-6": {
+        "width": 1600,
+        "height": 1800,
+        "scale": 0.72,
+        "x": 1000,
+        "y": 900,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_qianxun.motion3.json",
+            "running-left": "b_qianxun.motion3.json",
+            "waving": "b_taishou.motion3.json",
+            "jumping": "b_qianxun.motion3.json",
+            "failed": "b_yaotou.motion3.json",
+            "waiting": "b_shalou.motion3.json",
+            "running": "b_yuedu.motion3.json",
+            "review": "b_diantou.motion3.json",
+        },
+    },
+    "9Pets-A-Knight": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.68,
+        "x": 1050,
+        "y": 600,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_xingli.motion3.json",
+            "running-left": "b_xingli.motion3.json",
+            "waving": "b_shenshou.motion3.json",
+            "jumping": "b_jujian.motion3.json",
+            "failed": "b_shengqi.motion3.json",
+            "waiting": "b_tanshou.motion3.json",
+            "running": "b_cashi.motion3.json",
+            "review": "b_sikao.motion3.json",
+        },
+    },
+    "9Pets-Aleph": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.68,
+        "x": 1050,
+        "y": 600,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_touzi2.motion3.json",
+            "running-left": "b_touzi2.motion3.json",
+            "waving": "b_yanshuo3.motion3.json",
+            "jumping": "b_fenlie2.motion3.json",
+            "failed": "b_tongku2.motion3.json",
+            "waiting": "b_shoushu2.motion3.json",
+            "running": "b_yanshuo2.motion3.json",
+            "review": "b_diantou.motion3.json",
+        },
+    },
+    "9Pets-Alexios": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.68,
+        "x": 1050,
+        "y": 600,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_cajian.motion3.json",
+            "running-left": "b_cajian.motion3.json",
+            "waving": "b_tanshou.motion3.json",
+            "jumping": "b_woquan.motion3.json",
+            "failed": "b_baobi.motion3.json",
+            "waiting": "b_yaotou.motion3.json",
+            "running": "b_cajian.motion3.json",
+            "review": "b_diantou.motion3.json",
+        },
+    },
+    "9Pets-An-an-Lee": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.68,
+        "x": 1050,
+        "y": 600,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_kaiji.motion3.json",
+            "running-left": "b_kaiji.motion3.json",
+            "waving": "b_daiyanjing.motion3.json",
+            "jumping": "b_kaiji.motion3.json",
+            "failed": "b_yaotou.motion3.json",
+            "waiting": "b_dahaqian.motion3.json",
+            "running": "b_sikao.motion3.json",
+            "review": "b_diantou.motion3.json",
+        },
+    },
+    "9Pets-Anjo-Nala": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.68,
+        "x": 1050,
+        "y": 600,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_ruchang.motion3.json",
+            "running-left": "b_ruchang.motion3.json",
+            "waving": "b_fangkai.motion3.json",
+            "jumping": "b_huizhua.motion3.json",
+            "failed": "b_wuzui.motion3.json",
+            "waiting": "b_qidao.motion3.json",
+            "running": "b_tanhui.motion3.json",
+            "review": "b_diantou.motion3.json",
+        },
+    },
+    "9Pets-37": {
+        "width": 1600,
+        "height": 1800,
+        "scale": 0.75,
+        "x": 1000,
+        "y": 900,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_tiyi.motion3.json",
+            "running-left": "b_tiyi.motion3.json",
+            "waving": "b_guzhang.motion3.json",
+            "jumping": "b_gongji.motion3.json",
+            "failed": "b_xinxu.motion3.json",
+            "waiting": "b_zhangshi.motion3.json",
+            "running": "b_sisuo.motion3.json",
+            "review": "b_diantou.motion3.json",
+        },
+    }
+}
+
+SPINE_RENDER_PROFILES: dict[str, dict[str, Any]] = {
+    "9Pets-aliEn-T": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "303401_xingzhiyan_fight.skel",
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "skill1",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "skill2",
+            "review": "idle",
+        },
+    },
+    "9Pets-APPLe": {
+        "width": 1600,
+        "height": 1600,
+        "scale": 2.2,
+        "x": 800,
+        "y": 1150,
+        "skeleton": "302801_apple_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "skill3",
+            "jumping": "skill1",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "skill2",
+            "review": "posture",
+        },
+    },
+}
 
 STATE_ROWS = [
     ("idle", 6),
@@ -93,9 +279,12 @@ MANUAL_OFFICIAL_ASSETS = {
     },
 }
 OFFICIAL_IMAGE_PATHS = [
-    "singlebg/store/skin/{asset_id}.png",
-    "singlebg/handbookheroicon/{asset_id}.png",
     "singlebg/headicon_img/{asset_id}.png",
+    "singlebg/handbookheroicon/{asset_id}.png",
+    "singlebg/handbookheroicon/{asset_id}_1.png",
+    "singlebg/handbookheroicon/{asset_id}_2.png",
+    "singlebg/data_pic/{asset_id}.png",
+    "singlebg/store/skin/{asset_id}.png",
 ]
 OFFICIAL_SITE_ASSETS = {
     "logo.png": "https://re.bluepoch.com/home/img/logo.png",
@@ -235,7 +424,7 @@ def download_image(url: str, output: Path, referer: str | None = None) -> bool:
         response = requests.get(url, timeout=20, headers=headers)
         if response.status_code != 200:
             return False
-        image = remove_edge_background(Image.open(BytesIO(response.content)).convert("RGBA"))
+        image = normalize_transparent_pixels(remove_edge_background(Image.open(BytesIO(response.content)).convert("RGBA")))
         for attempt in range(8):
             try:
                 image.save(output)
@@ -259,6 +448,59 @@ def download_binary(url: str, output: Path) -> bool:
         return True
     except Exception:
         return False
+
+
+def normalize_transparent_pixels(image: Image.Image) -> Image.Image:
+    rgba = image.convert("RGBA")
+    if rgba.getchannel("A").getextrema()[0] > 0:
+        return rgba
+    clean = Image.new("RGBA", rgba.size, (0, 0, 0, 0))
+    clean.alpha_composite(rgba)
+    return clean
+
+
+def source_image_score(image: Image.Image) -> float:
+    rgba = image.convert("RGBA")
+    alpha = rgba.getchannel("A")
+    bbox = alpha.point(lambda p: 255 if p > 8 else 0).getbbox()
+    if not bbox:
+        return -1_000_000
+
+    total = rgba.width * rgba.height
+    transparent = sum(1 for value in alpha.getdata() if value <= 8)
+    transparent_ratio = transparent / max(total, 1)
+    bbox_width = bbox[2] - bbox[0]
+    bbox_height = bbox[3] - bbox[1]
+    bbox_area = bbox_width * bbox_height
+    alpha_min, alpha_max = alpha.getextrema()
+    score = min(total / 800, 5_000) + min(bbox_area / 600, 3_000) + transparent_ratio * 2_500
+    if alpha_max < 32:
+        score -= 5_000
+    if alpha_min > 8:
+        score -= 8_000
+    return score
+
+
+def save_best_local_source_image(asset_id: int, source_path: Path) -> tuple[str, str] | None:
+    candidates: list[tuple[float, str, Image.Image]] = []
+    for template in OFFICIAL_IMAGE_PATHS:
+        repo_path = template.format(asset_id=asset_id)
+        local_path = local_asset_path(repo_path)
+        if not local_path.exists():
+            continue
+        try:
+            image = normalize_transparent_pixels(Image.open(local_path).convert("RGBA"))
+        except Exception:
+            continue
+        candidates.append((source_image_score(image), repo_path, image))
+
+    if not candidates:
+        return None
+
+    _, repo_path, image = max(candidates, key=lambda item: item[0])
+    source_path.parent.mkdir(parents=True, exist_ok=True)
+    image.save(source_path)
+    return repo_path, repo_raw_url(repo_path)
 
 
 def download_official_site_assets() -> dict[str, str]:
@@ -304,13 +546,46 @@ def local_asset_path(repo_path: str) -> Path:
     return ASSET_CACHE_DIR / repo_path if repo_path else Path()
 
 
+def repo_relative_path(path: Path) -> str:
+    return path.relative_to(ASSET_CACHE_DIR).as_posix()
+
+
+def has_live2d_model(model_dir: Path) -> bool:
+    return model_dir.exists() and any(model_dir.glob("*.model3.json"))
+
+
+def resolve_cached_cubism_path(asset_id: int | str, mapped_path: str) -> str:
+    if live2d_model_cached(mapped_path):
+        return mapped_path
+
+    asset_key = str(asset_id)
+    roles_dir = ASSET_CACHE_DIR / "live2d" / "roles"
+    if not roles_dir.exists() or not asset_key:
+        return mapped_path
+
+    candidates = [path for path in roles_dir.glob(f"*{asset_key}*") if path.is_dir() and has_live2d_model(path)]
+    if not candidates:
+        return mapped_path
+
+    def score(path: Path) -> tuple[int, int, str]:
+        name = path.name.lower()
+        if name.startswith(f"{asset_key}_"):
+            rank = 3
+        elif f"_{asset_key}_" in name or f"_{asset_key}" in name:
+            rank = 2
+        else:
+            rank = 1
+        return (rank, -len(name), name)
+
+    return repo_relative_path(max(candidates, key=score))
+
+
 def live2d_render_ready(cubism_path: str) -> bool:
     model_dir = local_asset_path(cubism_path)
     return (
         LIVE2D_RENDER_ENABLED
         and bool(cubism_path)
-        and model_dir.exists()
-        and any(model_dir.glob("*.model3.json"))
+        and has_live2d_model(model_dir)
         and LIVE2D_RENDER_SCRIPT.exists()
         and LIVE2D_RENDER_DEPS.exists()
         and LIVE2D_CUBISM_CORE.exists()
@@ -319,13 +594,28 @@ def live2d_render_ready(cubism_path: str) -> bool:
 
 def live2d_model_cached(cubism_path: str) -> bool:
     model_dir = local_asset_path(cubism_path)
-    return bool(cubism_path) and model_dir.exists() and any(model_dir.glob("*.model3.json"))
+    return bool(cubism_path) and has_live2d_model(model_dir)
+
+
+def spine_render_ready(package_name: str, spine_path: str) -> bool:
+    spine_dir = local_asset_path(spine_path)
+    return (
+        SPINE_RENDER_ENABLED
+        and package_name in SPINE_RENDER_PROFILES
+        and bool(spine_path)
+        and spine_dir.exists()
+        and any(spine_dir.glob("*.skel"))
+        and any(spine_dir.glob("*.atlas"))
+        and SPINE_RENDER_SCRIPT.exists()
+        and LIVE2D_RENDER_DEPS.exists()
+    )
 
 
 def render_live2d_frames(package_name: str, cubism_path: str) -> Path | None:
     if not live2d_render_ready(cubism_path):
         return None
 
+    profile = LIVE2D_RENDER_PROFILES.get(package_name, {})
     output_dir = LIVE2D_FRAME_ROOT / package_name
     if output_dir.exists():
         shutil.rmtree(output_dir)
@@ -342,12 +632,89 @@ def render_live2d_frames(package_name: str, cubism_path: str) -> Path | None:
         str(LIVE2D_RENDER_DEPS),
         "--cubism-core",
         str(LIVE2D_CUBISM_CORE),
+        "--width",
+        str(profile.get("width", 1024)),
+        "--height",
+        str(profile.get("height", 1200)),
+        "--scale",
+        str(profile.get("scale", 0.56)),
+        "--x",
+        str(profile.get("x", 640)),
+        "--y",
+        str(profile.get("y", 140)),
     ]
-    completed = subprocess.run(command, cwd=ROOT, text=True, capture_output=True, timeout=240, check=False)
-    if completed.returncode != 0:
-        print(f"Live2D render failed for {package_name}: {completed.stderr.strip() or completed.stdout.strip()}", flush=True)
+    motion_map_path: Path | None = None
+    try:
+        if profile.get("motionMap"):
+            with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8") as handle:
+                json.dump(profile["motionMap"], handle)
+                motion_map_path = Path(handle.name)
+            command.extend(["--motion-map", str(motion_map_path)])
+        completed = subprocess.run(command, cwd=ROOT, text=True, capture_output=True, timeout=240, check=False)
+        if completed.returncode != 0:
+            print(f"Live2D render failed for {package_name}: {completed.stderr.strip() or completed.stdout.strip()}", flush=True)
+            return None
+        if completed.stdout.strip():
+            print(completed.stdout.strip(), flush=True)
+        return output_dir
+    finally:
+        if motion_map_path:
+            motion_map_path.unlink(missing_ok=True)
+
+
+def render_spine_frames(package_name: str, spine_path: str) -> Path | None:
+    if not spine_render_ready(package_name, spine_path):
         return None
-    return output_dir
+
+    profile = SPINE_RENDER_PROFILES.get(package_name, {})
+    output_dir = SPINE_FRAME_ROOT / package_name
+    if output_dir.exists():
+        shutil.rmtree(output_dir)
+    output_dir.parent.mkdir(parents=True, exist_ok=True)
+    spine_dir = local_asset_path(spine_path)
+    command = [
+        "node",
+        str(SPINE_RENDER_SCRIPT),
+        "--spine-dir",
+        str(spine_dir),
+        "--output",
+        str(output_dir),
+        "--deps-dir",
+        str(LIVE2D_RENDER_DEPS),
+        "--width",
+        str(profile.get("width", 1200)),
+        "--height",
+        str(profile.get("height", 1200)),
+        "--scale",
+        str(profile.get("scale", 1)),
+        "--x",
+        str(profile.get("x", 600)),
+        "--y",
+        str(profile.get("y", 900)),
+    ]
+    if profile.get("flipRunningLeft"):
+        command.append("--flip-running-left")
+    if profile.get("skeleton"):
+        command.extend(["--skeleton", str(profile["skeleton"])])
+    if profile.get("atlas"):
+        command.extend(["--atlas", str(profile["atlas"])])
+    motion_map_path: Path | None = None
+    try:
+        if profile.get("motionMap"):
+            with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8") as handle:
+                json.dump(profile["motionMap"], handle)
+                motion_map_path = Path(handle.name)
+            command.extend(["--motion-map", str(motion_map_path)])
+        completed = subprocess.run(command, cwd=ROOT, text=True, capture_output=True, timeout=240, check=False)
+        if completed.returncode != 0:
+            print(f"Spine render failed for {package_name}: {completed.stderr.strip() or completed.stdout.strip()}", flush=True)
+            return None
+        if completed.stdout.strip():
+            print(completed.stdout.strip(), flush=True)
+        return output_dir
+    finally:
+        if motion_map_path:
+            motion_map_path.unlink(missing_ok=True)
 
 
 def load_official_asset_index() -> dict[str, dict[str, Any]]:
@@ -365,10 +732,12 @@ def load_official_asset_index() -> dict[str, dict[str, Any]]:
 def resolve_official_asset(name: str, official_index: dict[str, dict[str, Any]]) -> dict[str, Any]:
     manual = MANUAL_OFFICIAL_ASSETS.get(name)
     if manual:
+        asset_id = manual["assetId"]
+        cubism_path = resolve_cached_cubism_path(asset_id, manual.get("cubismPath", ""))
         return {
-            "assetId": manual["assetId"],
+            "assetId": asset_id,
             "spinePath": manual.get("spinePath", ""),
-            "cubismPath": manual.get("cubismPath", ""),
+            "cubismPath": cubism_path,
             "matchedName": name,
             "birthday": "",
             "skinName": "Default",
@@ -380,15 +749,22 @@ def resolve_official_asset(name: str, official_index: dict[str, dict[str, Any]])
         raise RuntimeError(f"No official asset mapping found for {name}")
     skins = entry["live2d"]
 
-    def has_cached_model(skin_entry: dict[str, Any]) -> bool:
-        cubism_path = repo_path_from_tree_url(skin_entry.get("cubism", ""))
-        return live2d_model_cached(cubism_path)
+    prepared_skins: list[tuple[dict[str, Any], str, str]] = []
+    for skin_entry in skins:
+        asset_id = skin_entry["id"]
+        spine_path = repo_path_from_tree_url(skin_entry.get("spine", ""))
+        mapped_cubism_path = repo_path_from_tree_url(skin_entry.get("cubism", ""))
+        cubism_path = resolve_cached_cubism_path(asset_id, mapped_cubism_path)
+        prepared_skins.append((skin_entry, spine_path, cubism_path))
 
-    skin = next((candidate for candidate in skins if has_cached_model(candidate)), skins[0])
+    skin, spine_path, cubism_path = next(
+        (candidate for candidate in prepared_skins if live2d_model_cached(candidate[2])),
+        prepared_skins[0],
+    )
     return {
         "assetId": skin["id"],
-        "spinePath": repo_path_from_tree_url(skin.get("spine", "")),
-        "cubismPath": repo_path_from_tree_url(skin.get("cubism", "")),
+        "spinePath": spine_path,
+        "cubismPath": cubism_path,
         "matchedName": lookup_name,
         "birthday": entry.get("roleBirthday", ""),
         "skinName": skin.get("characterSkinNameEng") or "Default",
@@ -396,6 +772,10 @@ def resolve_official_asset(name: str, official_index: dict[str, dict[str, Any]])
 
 
 def download_official_source_image(asset_id: int, source_path: Path) -> tuple[str, str]:
+    local_source = save_best_local_source_image(asset_id, source_path)
+    if local_source:
+        return local_source
+
     for template in OFFICIAL_IMAGE_PATHS:
         repo_path = template.format(asset_id=asset_id)
         url = repo_raw_url(repo_path)
@@ -530,20 +910,30 @@ def union_bbox(a: tuple[int, int, int, int] | None, b: tuple[int, int, int, int]
     return (min(a[0], b[0]), min(a[1], b[1]), max(a[2], b[2]), max(a[3], b[3]))
 
 
-def make_live2d_cell(frame: Image.Image, bbox: tuple[int, int, int, int], scale: float, flip: bool = False) -> Image.Image:
+def make_live2d_cell(
+    frame: Image.Image,
+    bbox: tuple[int, int, int, int],
+    scale: float,
+    *,
+    flip: bool = False,
+    cell_w: int = CELL_W,
+    cell_h: int = CELL_H,
+) -> Image.Image:
     image = frame.convert("RGBA").crop(bbox)
     if flip:
         image = image.transpose(Image.Transpose.FLIP_LEFT_RIGHT)
     size = (max(1, round(image.width * scale)), max(1, round(image.height * scale)))
     image = image.resize(size, Image.Resampling.LANCZOS)
-    cell = Image.new("RGBA", (CELL_W, CELL_H), (0, 0, 0, 0))
-    x = round((CELL_W - image.width) / 2)
-    y = round(CELL_H - image.height - 6)
+    cell = Image.new("RGBA", (cell_w, cell_h), (0, 0, 0, 0))
+    x = round((cell_w - image.width) / 2)
+    y = round(cell_h - image.height - max(6, round(6 * cell_h / CELL_H)))
     alpha_composite_clipped(cell, image, (x, y))
     return cell
 
 
-def make_atlas_from_live2d_frames(frames_root: Path) -> Image.Image:
+def make_atlas_from_live2d_frames(frames_root: Path, cell_scale: int = 1) -> Image.Image:
+    cell_w = CELL_W * cell_scale
+    cell_h = CELL_H * cell_scale
     loaded: dict[str, list[Image.Image]] = {}
     bbox: tuple[int, int, int, int] | None = None
     for state, frame_count in STATE_ROWS:
@@ -562,12 +952,19 @@ def make_atlas_from_live2d_frames(frames_root: Path) -> Image.Image:
         raise RuntimeError(f"Live2D frames are empty under {frames_root}")
     bbox_width = max(1, bbox[2] - bbox[0])
     bbox_height = max(1, bbox[3] - bbox[1])
-    scale = min(178 / bbox_width, 198 / bbox_height, 1.0)
-    atlas = Image.new("RGBA", (CELL_W * COLS, CELL_H * ROWS), (0, 0, 0, 0))
+    scale = min((cell_w - 14 * cell_scale) / bbox_width, (cell_h - 10 * cell_scale) / bbox_height, 1.0)
+    atlas = Image.new("RGBA", (cell_w * COLS, cell_h * ROWS), (0, 0, 0, 0))
     for row, (state, frame_count) in enumerate(STATE_ROWS):
         for col in range(frame_count):
-            cell = make_live2d_cell(loaded[state][col], bbox, scale, flip=state == "running-left")
-            atlas.alpha_composite(cell, (col * CELL_W, row * CELL_H))
+            cell = make_live2d_cell(
+                loaded[state][col],
+                bbox,
+                scale,
+                flip=state == "running-left",
+                cell_w=cell_w,
+                cell_h=cell_h,
+            )
+            atlas.alpha_composite(cell, (col * cell_w, row * cell_h))
     return atlas
 
 
@@ -581,6 +978,8 @@ def make_preview_from_atlas(atlas: Image.Image, output: Path) -> None:
 def make_pet_json(package_name: str, name: str, source_info: dict[str, Any]) -> dict[str, str]:
     if source_info.get("animationMode") == "official-live2d-cubism":
         description = f"A fan-made Reverse: 1999 Codex pet for {name}, built from official Live2D Cubism motion frames."
+    elif source_info.get("animationMode") == "official-spine":
+        description = f"A fan-made Reverse: 1999 Codex pet for {name}, built from official Spine motion frames."
     else:
         description = f"A fan-made Reverse: 1999 Codex pet for {name}, built from official game asset-dump artwork."
     return {
@@ -618,7 +1017,8 @@ def write_zip(package_name: str, pet_json: dict[str, str], spritesheet_path: Pat
 
 
 def clean_output_dirs() -> None:
-    for path in [PETS_DIR, SOURCE_DIR, OFFICIAL_SITE_DIR, PREVIEW_DIR, SPRITESHEET_DIR, DOWNLOAD_DIR, DATA_DIR]:
+    output_paths = [PETS_DIR, SOURCE_DIR, OFFICIAL_SITE_DIR, PREVIEW_DIR, SPRITESHEET_DIR, DETAIL_SPRITESHEET_DIR, DOWNLOAD_DIR, DATA_DIR]
+    for path in output_paths:
         if path.exists():
             for attempt in range(8):
                 try:
@@ -629,86 +1029,180 @@ def clean_output_dirs() -> None:
                         print(f"Warning: could not fully clean locked output path {path}; overwriting build outputs in place.", flush=True)
                     else:
                         time.sleep(0.35)
-    for path in [PETS_DIR, SOURCE_DIR, OFFICIAL_SITE_DIR, PREVIEW_DIR, SPRITESHEET_DIR, DOWNLOAD_DIR, DATA_DIR]:
+    for path in output_paths:
         path.mkdir(parents=True, exist_ok=True)
 
 
-def build() -> None:
+def ensure_output_dirs() -> None:
+    for path in [PETS_DIR, SOURCE_DIR, PREVIEW_DIR, SPRITESHEET_DIR, DETAIL_SPRITESHEET_DIR, DOWNLOAD_DIR, DATA_DIR]:
+        path.mkdir(parents=True, exist_ok=True)
+
+
+def detail_atlas_scale_for(package_name: str) -> int:
+    profile = LIVE2D_RENDER_PROFILES.get(package_name) or SPINE_RENDER_PROFILES.get(package_name, {})
+    return int(profile.get("detailAtlasScale", DETAIL_ATLAS_SCALE))
+
+
+def build_pet(item: dict[str, Any], official_index: dict[str, dict[str, Any]]) -> dict[str, Any]:
+    name = item["name"]
+    package_name = f"9Pets-{slug_suffix(name)}"
+    package_dir = PETS_DIR / package_name
+    package_dir.mkdir(parents=True, exist_ok=True)
+
+    sprite, source_info = get_source_sprite(name, package_name, official_index)
+    live2d_frames = render_live2d_frames(package_name, source_info.get("cubismPath", ""))
+    spine_frames = None if live2d_frames else render_spine_frames(package_name, source_info.get("spinePath", ""))
+    detail_atlas: Image.Image | None = None
+    detail_atlas_scale = 1
+    if live2d_frames:
+        try:
+            atlas = make_atlas_from_live2d_frames(live2d_frames)
+            detail_atlas_scale = detail_atlas_scale_for(package_name)
+            detail_atlas = make_atlas_from_live2d_frames(live2d_frames, cell_scale=detail_atlas_scale)
+            source_info["animationMode"] = "official-live2d-cubism"
+            source_info["animationModeLabel"] = "Official Live2D Cubism motion capture"
+            source_info["live2dCacheStatus"] = "rendered"
+        except Exception as error:
+            print(f"Live2D atlas compose failed for {package_name}: {error}", flush=True)
+            atlas = make_atlas(sprite)
+            source_info["live2dCacheStatus"] = "compose-failed"
+            detail_atlas_scale = 1
+    elif spine_frames:
+        try:
+            atlas = make_atlas_from_live2d_frames(spine_frames)
+            detail_atlas_scale = detail_atlas_scale_for(package_name)
+            detail_atlas = make_atlas_from_live2d_frames(spine_frames, cell_scale=detail_atlas_scale)
+            source_info["animationMode"] = "official-spine"
+            source_info["animationModeLabel"] = "Official Spine motion capture"
+            source_info["live2dCacheStatus"] = "spine-rendered"
+        except Exception as error:
+            print(f"Spine atlas compose failed for {package_name}: {error}", flush=True)
+            atlas = make_atlas(sprite)
+            source_info["live2dCacheStatus"] = "spine-compose-failed"
+            detail_atlas_scale = 1
+    else:
+        atlas = make_atlas(sprite)
+
+    spritesheet_path = package_dir / "spritesheet.webp"
+    atlas.save(spritesheet_path, format="WEBP", lossless=True, quality=100, method=0)
+
+    pet_json = make_pet_json(package_name, name, source_info)
+    (package_dir / "pet.json").write_text(json.dumps(pet_json, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    docs_spritesheet = SPRITESHEET_DIR / f"{package_name}.webp"
+    shutil.copy2(spritesheet_path, docs_spritesheet)
+    detail_spritesheet = ""
+    if detail_atlas:
+        docs_detail_spritesheet = DETAIL_SPRITESHEET_DIR / f"{package_name}.webp"
+        docs_detail_spritesheet.parent.mkdir(parents=True, exist_ok=True)
+        detail_atlas.save(docs_detail_spritesheet, format="WEBP", lossless=True, quality=100, method=0)
+        detail_spritesheet = f"assets/detail-spritesheets/{package_name}.webp"
+    preview_path = PREVIEW_DIR / f"{package_name}.png"
+    make_preview_from_atlas(atlas, preview_path)
+
+    zip_path = DOWNLOAD_DIR / f"{package_name}.zip"
+    package_bytes = write_zip(package_name, pet_json, spritesheet_path, zip_path, source_info)
+
+    return {
+        "id": pet_json["id"],
+        "packageName": package_name,
+        "displayName": name,
+        "download": f"downloads/{package_name}.zip",
+        "preview": f"assets/previews/{package_name}.png",
+        "spritesheet": f"assets/spritesheets/{package_name}.webp",
+        "detailSpritesheet": detail_spritesheet,
+        "detailAtlasScale": detail_atlas_scale,
+        "sourceType": source_info["sourceType"],
+        "sourceUrl": source_info["sourceUrl"],
+        "sourceImage": source_info["sourceImage"],
+        "sourceRepoPath": source_info["sourceRepoPath"],
+        "assetId": source_info["assetId"],
+        "assetRepoUrl": source_info["assetRepoUrl"],
+        "spinePath": source_info["spinePath"],
+        "spineUrl": source_info["spineUrl"],
+        "cubismPath": source_info["cubismPath"],
+        "cubismUrl": source_info["cubismUrl"],
+        "birthday": source_info["birthday"],
+        "skinName": source_info["skinName"],
+        "matchedName": source_info["matchedName"],
+        "live2dCacheStatus": source_info["live2dCacheStatus"],
+        "animationMode": source_info["animationMode"],
+        "animationModeLabel": source_info["animationModeLabel"],
+        "characterSummary": (
+            f"{name} is tracked as an official-sourced Reverse: 1999 character package. "
+            f"This build maps asset id {source_info['assetId']} to the game asset dump"
+            + (
+                " and uses captured Live2D motion frames for the pet atlas."
+                if source_info["animationMode"] == "official-live2d-cubism"
+                else " and uses captured Spine motion frames for the pet atlas."
+                if source_info["animationMode"] == "official-spine"
+                else " with mapped Live2D or Spine paths where available."
+            )
+        ),
+        "packageBytes": package_bytes,
+    }
+
+
+def find_catalog_item(catalog: dict[str, Any], selector: str) -> dict[str, Any]:
+    normalized_selector = normalized_lookup_name(selector.removeprefix("9Pets-"))
+    for item in catalog["characters"]:
+        name = item["name"]
+        package_name = f"9Pets-{slug_suffix(name)}"
+        candidates = {
+            normalized_lookup_name(name),
+            normalized_lookup_name(slug_suffix(name)),
+            normalized_lookup_name(package_name),
+            normalized_lookup_name(pet_id_from_package(package_name)),
+        }
+        if normalized_selector in candidates:
+            return item
+    raise RuntimeError(f"No catalog character matches --only {selector}")
+
+
+def write_site_data(site_data: dict[str, Any]) -> None:
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    (DATA_DIR / "pets.json").write_text(json.dumps(site_data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    data_js = "window.NINEPETS_DATA = " + json.dumps(site_data, ensure_ascii=False) + ";\n"
+    (DATA_DIR / "pets-data.js").write_text(data_js, encoding="utf-8")
+
+
+def build(only: str | None = None) -> None:
     catalog = read_catalog()
-    clean_output_dirs()
-    official_site_assets = download_official_site_assets()
     generated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     official_index = load_official_asset_index()
+
+    if only:
+        ensure_output_dirs()
+        site_data_path = DATA_DIR / "pets.json"
+        if not site_data_path.exists():
+            raise RuntimeError("Single-character builds require existing docs/data/pets.json")
+        site_data = json.loads(site_data_path.read_text(encoding="utf-8"))
+        item = find_catalog_item(catalog, only)
+        pet_entry = build_pet(item, official_index)
+        pets = site_data.get("pets", [])
+        for index, existing in enumerate(pets):
+            if existing.get("packageName") == pet_entry["packageName"]:
+                pets[index] = pet_entry
+                break
+        else:
+            pets.append(pet_entry)
+        site_data["generatedAt"] = generated_at
+        site_data["total"] = len(pets)
+        site_data["pets"] = pets
+        write_site_data(site_data)
+        print(f"Generated one pet: {pet_entry['packageName']}")
+        print(f"Updated site data in {DATA_DIR / 'pets.json'}")
+        return
+
+    clean_output_dirs()
+    official_site_assets = download_official_site_assets()
     pets: list[dict[str, Any]] = []
 
     for index, item in enumerate(catalog["characters"], start=1):
-        name = item["name"]
-        package_name = f"9Pets-{slug_suffix(name)}"
-        package_dir = PETS_DIR / package_name
-        package_dir.mkdir(parents=True, exist_ok=True)
-
-        sprite, source_info = get_source_sprite(name, package_name, official_index)
-        live2d_frames = render_live2d_frames(package_name, source_info.get("cubismPath", ""))
-        if live2d_frames:
-            try:
-                atlas = make_atlas_from_live2d_frames(live2d_frames)
-                source_info["animationMode"] = "official-live2d-cubism"
-                source_info["animationModeLabel"] = "Official Live2D Cubism motion capture"
-                source_info["live2dCacheStatus"] = "rendered"
-            except Exception as error:
-                print(f"Live2D atlas compose failed for {package_name}: {error}", flush=True)
-                atlas = make_atlas(sprite)
-                source_info["live2dCacheStatus"] = "compose-failed"
-        else:
-            atlas = make_atlas(sprite)
-        spritesheet_path = package_dir / "spritesheet.webp"
-        atlas.save(spritesheet_path, format="WEBP", lossless=True, quality=100, method=0)
-
-        pet_json = make_pet_json(package_name, name, source_info)
-        (package_dir / "pet.json").write_text(json.dumps(pet_json, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-
-        docs_spritesheet = SPRITESHEET_DIR / f"{package_name}.webp"
-        shutil.copy2(spritesheet_path, docs_spritesheet)
-        preview_path = PREVIEW_DIR / f"{package_name}.png"
-        make_preview_from_atlas(atlas, preview_path)
-
-        zip_path = DOWNLOAD_DIR / f"{package_name}.zip"
-        package_bytes = write_zip(package_name, pet_json, spritesheet_path, zip_path, source_info)
-
-        pets.append(
-            {
-                "id": pet_json["id"],
-                "packageName": package_name,
-                "displayName": name,
-                "download": f"downloads/{package_name}.zip",
-                "preview": f"assets/previews/{package_name}.png",
-                "spritesheet": f"assets/spritesheets/{package_name}.webp",
-                "sourceType": source_info["sourceType"],
-                "sourceUrl": source_info["sourceUrl"],
-                "sourceImage": source_info["sourceImage"],
-                "sourceRepoPath": source_info["sourceRepoPath"],
-                "assetId": source_info["assetId"],
-                "assetRepoUrl": source_info["assetRepoUrl"],
-                "spinePath": source_info["spinePath"],
-                "spineUrl": source_info["spineUrl"],
-                "cubismPath": source_info["cubismPath"],
-                "cubismUrl": source_info["cubismUrl"],
-                "birthday": source_info["birthday"],
-                "skinName": source_info["skinName"],
-                "matchedName": source_info["matchedName"],
-                "live2dCacheStatus": source_info["live2dCacheStatus"],
-                "animationMode": source_info["animationMode"],
-                "animationModeLabel": source_info["animationModeLabel"],
-                "characterSummary": (
-                    f"{name} is tracked as an official-sourced Reverse: 1999 character package. "
-                    f"This build maps asset id {source_info['assetId']} to the game asset dump"
-                    + (" and uses captured Live2D motion frames for the pet atlas." if source_info["animationMode"] == "official-live2d-cubism" else " with mapped Live2D or Spine paths where available.")
-                ),
-                "packageBytes": package_bytes,
-            }
-        )
+        pet_entry = build_pet(item, official_index)
+        pets.append(pet_entry)
         if index == 1 or index % 10 == 0 or index == len(catalog["characters"]):
-            print(f"[{index}/{len(catalog['characters'])}] {package_name}", flush=True)
+            print(f"[{index}/{len(catalog['characters'])}] {pet_entry['packageName']}", flush=True)
 
     site_data = {
         "generatedAt": generated_at,
@@ -718,12 +1212,13 @@ def build() -> None:
         "officialSiteAssets": official_site_assets,
         "pets": pets,
     }
-    (DATA_DIR / "pets.json").write_text(json.dumps(site_data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    data_js = "window.NINEPETS_DATA = " + json.dumps(site_data, ensure_ascii=False) + ";\n"
-    (DATA_DIR / "pets-data.js").write_text(data_js, encoding="utf-8")
+    write_site_data(site_data)
     print(f"Generated {len(pets)} pets into {PETS_DIR}")
     print(f"Generated site data into {DATA_DIR / 'pets.json'}")
 
 
 if __name__ == "__main__":
-    build()
+    parser = argparse.ArgumentParser(description="Build 9Pets packages and GitHub Pages site assets.")
+    parser.add_argument("--only", help="Build one character by display name, package name, or pet id.")
+    args = parser.parse_args()
+    build(only=args.only)

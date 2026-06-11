@@ -39,6 +39,12 @@ def check_spritesheet(path: Path) -> None:
                     assert_true(not has_visible_pixels(cell), f"{path} row {row} col {col} should be transparent")
 
 
+def check_detail_spritesheet(path: Path, scale: int) -> None:
+    with Image.open(path) as image:
+        expected_size = (EXPECTED_SIZE[0] * scale, EXPECTED_SIZE[1] * scale)
+        assert_true(image.size == expected_size, f"{path} has size {image.size}, expected {expected_size}")
+
+
 def check_zip(path: Path, package_name: str) -> None:
     with zipfile.ZipFile(path) as archive:
         names = set(archive.namelist())
@@ -66,10 +72,13 @@ def main() -> None:
         assert_true("characterSummary" in pet, f"{package} missing character summary")
         assert_true("spinePath" in pet, f"{package} missing spine path metadata")
         assert_true("cubismPath" in pet, f"{package} missing cubism path metadata")
+        assert_true("detailAtlasScale" in pet, f"{package} missing detail atlas scale")
         pet_dir = ROOT / "pets" / package
         assert_true((pet_dir / "pet.json").exists(), f"{package} missing pet.json")
         check_spritesheet(pet_dir / "spritesheet.webp")
         check_spritesheet(ROOT / "docs" / pet["spritesheet"])
+        if pet.get("detailSpritesheet"):
+            check_detail_spritesheet(ROOT / "docs" / pet["detailSpritesheet"], int(pet.get("detailAtlasScale") or 1))
         assert_true((ROOT / "docs" / pet["sourceImage"]).exists(), f"{package} missing official source image")
         assert_true((ROOT / "docs" / pet["preview"]).exists(), f"{package} missing preview")
         check_zip(ROOT / "docs" / pet["download"], package)

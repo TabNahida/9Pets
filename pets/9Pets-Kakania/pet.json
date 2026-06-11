@@ -1,6 +1,6 @@
 {
   "id": "9pets-kakania",
   "displayName": "9Pets - Kakania",
-  "description": "A fan-made Reverse: 1999 Codex pet for Kakania, built from official game asset-dump artwork.",
+  "description": "A fan-made Reverse: 1999 Codex pet for Kakania, built from official Live2D Cubism motion frames.",
   "spritesheetPath": "spritesheet.webp"
 }

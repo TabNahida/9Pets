@@ -1,6 +1,6 @@
 {
   "id": "9pets-loggerhead",
   "displayName": "9Pets - Loggerhead",
-  "description": "A fan-made Reverse: 1999 Codex pet for Loggerhead, built from official game asset-dump artwork.",
+  "description": "A fan-made Reverse: 1999 Codex pet for Loggerhead, built from official Live2D Cubism motion frames.",
   "spritesheetPath": "spritesheet.webp"
 }

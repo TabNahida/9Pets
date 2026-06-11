@@ -1233,7 +1233,7 @@ h1 {
   }
 
   .detail-sprite {
-    transform: scale(1.55);
+    transform: scale(var(--sprite-mobile-scale, 1.55));
   }
 
   .state-tabs {

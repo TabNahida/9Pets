@@ -8,14 +8,14 @@ import { tmpdir } from "node:os";
 
 const STATE_ROWS = [
   { id: "idle", group: "Idle", frames: 6, fps: 10, prefs: ["b_idle", "e_idle", "t_idle", "idle"] },
-  { id: "running-right", group: "RunRight", frames: 8, fps: 12, prefs: ["b_yaotou", "b_waitou", "b_diantou", "b_idle"] },
-  { id: "running-left", group: "RunLeft", frames: 8, fps: 12, prefs: ["b_yaotou", "b_waitou", "b_diantou", "b_idle"] },
-  { id: "waving", group: "Wave", frames: 4, fps: 10, prefs: ["b_shenshou", "shenshou", "b_waitou", "t_waitou"] },
-  { id: "jumping", group: "Jump", frames: 5, fps: 12, prefs: ["b_diaozhui", "b_xiangrikui", "b_diantou", "b_waitou"] },
-  { id: "failed", group: "Failed", frames: 8, fps: 10, prefs: ["t_nanguo", "e_nanguo", "t_shengqi", "e_shengqi"] },
-  { id: "waiting", group: "Waiting", frames: 6, fps: 10, prefs: ["b_waitou", "t_waitou", "b_diantou", "b_idle"] },
-  { id: "running", group: "Working", frames: 6, fps: 12, prefs: ["e_haoqi", "t_haoqi", "b_waitou", "b_diantou"] },
-  { id: "review", group: "Review", frames: 6, fps: 10, prefs: ["t_haoqi", "e_haoqi", "t_waitou", "b_waitou"] },
+  { id: "running-right", group: "RunRight", frames: 8, fps: 12, prefs: ["b_ruchang", "b_xingli", "b_yaoqing", "b_baishou", "b_yangtou", "b_yaotou", "b_diantou", "b_idle"] },
+  { id: "running-left", group: "RunLeft", frames: 8, fps: 12, prefs: ["b_ruchang", "b_xingli", "b_yaoqing", "b_baishou", "b_yangtou", "b_yaotou", "b_diantou", "b_idle"] },
+  { id: "waving", group: "Wave", frames: 4, fps: 10, prefs: ["b_shenshou", "b_taishou", "b_jushou", "b_baishou", "b_tanshou", "b_yaoqing", "shenshou"] },
+  { id: "jumping", group: "Jump", frames: 5, fps: 12, prefs: ["b_gongji", "b_ruchang", "b_xingli", "b_yangtou", "b_diantou", "b_idle"] },
+  { id: "failed", group: "Failed", frames: 8, fps: 10, prefs: ["t_nanguo", "e_nanguo", "t_shengqi", "e_shengqi", "t_liulei", "t_zhaoji", "t_jinzhang"] },
+  { id: "waiting", group: "Waiting", frames: 6, fps: 10, prefs: ["b_waitou", "b_tanshou", "b_qidao", "t_yihuo", "t_chensi", "b_diantou", "b_idle"] },
+  { id: "running", group: "Working", frames: 6, fps: 12, prefs: ["b_sikao", "b_sisuo", "b_guancha", "b_yuedu", "b_zhengli", "b_moxiaba", "t_renzhen", "t_sikao", "t_haoqi", "b_diantou"] },
+  { id: "review", group: "Review", frames: 6, fps: 10, prefs: ["b_sikao", "b_guancha", "b_yuedu", "t_renzhen", "t_sikao", "b_sisuo", "t_yansu", "b_diantou"] },
 ];
 
 function parseArgs(argv) {
@@ -43,11 +43,12 @@ function usage() {
     "Options:",
     "  --state <id|all>       Render one state or all Codex pet states. Default: all.",
     "  --model-json <file>    Model3 JSON filename. Default: first *.model3.json in model-dir.",
-    "  --width <px>           Capture canvas width. Default: 768.",
-    "  --height <px>          Capture canvas height. Default: 900.",
-    "  --scale <number>       Live2D model zoom. Default: 0.42.",
-    "  --x <number>           Live2D camera x in pixels. Default: 500.",
-    "  --y <number>           Live2D camera y in pixels. Default: 120.",
+    "  --motion-map <file>    JSON map of Codex state id to motion filename.",
+    "  --width <px>           Capture canvas width. Default: 1024.",
+    "  --height <px>          Capture canvas height. Default: 1200.",
+    "  --scale <number>       Live2D model zoom. Default: 0.56.",
+    "  --x <number>           Live2D camera x in pixels. Default: 640.",
+    "  --y <number>           Live2D camera y in pixels. Default: 140.",
   ].join("\n");
 }
 
@@ -87,6 +88,20 @@ function chooseMotion(motionFiles, prefs) {
     if (match) return match.file;
   }
   return motionFiles[0] || "";
+}
+
+function normalizeMotionFilename(name) {
+  if (!name) return "";
+  return name.endsWith(".motion3.json") ? name : `${name}.motion3.json`;
+}
+
+async function loadMotionOverrides(path) {
+  if (!path) return {};
+  const motionMap = JSON.parse(await readFile(resolve(path), "utf8"));
+  if (!motionMap || typeof motionMap !== "object" || Array.isArray(motionMap)) {
+    throw new Error(`Motion map must be a JSON object: ${path}`);
+  }
+  return motionMap;
 }
 
 function countMotionSegments(curves) {
@@ -137,20 +152,46 @@ async function patchMotionFile(modelDir, motionFile, patchedMotionPaths) {
   return patchedName;
 }
 
-async function createPatchedModel(modelDir, modelJsonPath, states) {
+async function createPatchedModel(modelDir, modelJsonPath, states, motionOverrides = {}) {
   const model = JSON.parse(await readFile(modelJsonPath, "utf8"));
   const motionFiles = await listMotionFiles(modelDir);
   if (!motionFiles.length) throw new Error(`No motion files found under ${join(modelDir, "motions")}`);
+  const patchedTexturePaths = [];
+
+  if (Array.isArray(model.FileReferences?.Textures)) {
+    let placeholderTexture = "";
+    const transparentPng = Buffer.from(
+      "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNgYPgPAAEDAQDABJzQAAAAAElFTkSuQmCC",
+      "base64",
+    );
+    model.FileReferences.Textures = await Promise.all(
+      model.FileReferences.Textures.map(async (texture) => {
+        if (existsSync(join(modelDir, texture))) return texture;
+        if (!placeholderTexture) {
+          placeholderTexture = `.9pets-transparent-${Date.now()}.png`;
+          const placeholderPath = join(modelDir, placeholderTexture);
+          await writeFile(placeholderPath, transparentPng);
+          patchedTexturePaths.push(placeholderPath);
+        }
+        return placeholderTexture;
+      }),
+    );
+  }
 
   const motions = {};
   const patchedMotionPaths = [];
   const patchedMotionNames = new Map();
   for (const state of states) {
-    const motionFile = chooseMotion(motionFiles, state.prefs);
+    const override = normalizeMotionFilename(motionOverrides[state.id] || motionOverrides[state.group] || "");
+    const motionFile = override || chooseMotion(motionFiles, state.prefs);
+    if (!motionFiles.includes(motionFile)) {
+      throw new Error(`Motion override for ${state.id} not found: ${motionFile}`);
+    }
     if (!patchedMotionNames.has(motionFile)) {
       patchedMotionNames.set(motionFile, await patchMotionFile(modelDir, motionFile, patchedMotionPaths));
     }
     motions[state.group] = [{ File: `motions/${patchedMotionNames.get(motionFile)}` }];
+    console.log(`${state.id} motion ${motionFile}`);
   }
 
   model.FileReferences = model.FileReferences || {};
@@ -158,7 +199,7 @@ async function createPatchedModel(modelDir, modelJsonPath, states) {
   const patchedName = `.9pets-${Date.now()}-${basename(modelJsonPath)}`;
   const patchedPath = join(modelDir, patchedName);
   await writeFile(patchedPath, JSON.stringify(model, null, 2), "utf8");
-  return { patchedModelPath: patchedPath, patchedMotionPaths };
+  return { patchedModelPath: patchedPath, patchedMotionPaths, patchedTexturePaths };
 }
 
 async function buildBrowserBundle(depsDir, workDir) {
@@ -316,15 +357,16 @@ async function main() {
   const states = selectedState === "all" ? STATE_ROWS : STATE_ROWS.filter((state) => state.id === selectedState);
   if (!states.length) throw new Error(`Unknown state: ${selectedState}`);
 
-  const width = Number(args.width || 768);
-  const height = Number(args.height || 900);
-  const scale = Number(args.scale || 0.42);
-  const x = Number(args.x || 500);
-  const y = Number(args.y || 120);
+  const width = Number(args.width || 1024);
+  const height = Number(args.height || 1200);
+  const scale = Number(args.scale || 0.56);
+  const x = Number(args.x || 640);
+  const y = Number(args.y || 140);
 
   const workDir = await mkdtemp(join(tmpdir(), "9pets-live2d-"));
   const modelJsonPath = await findModelJson(modelDir, args["model-json"]);
-  const patched = await createPatchedModel(modelDir, modelJsonPath, states);
+  const motionOverrides = await loadMotionOverrides(args["motion-map"]);
+  const patched = await createPatchedModel(modelDir, modelJsonPath, states, motionOverrides);
   let server;
 
   try {
@@ -370,6 +412,9 @@ async function main() {
     await rm(patched.patchedModelPath, { force: true });
     for (const motionPath of patched.patchedMotionPaths) {
       await rm(motionPath, { force: true });
+    }
+    for (const texturePath of patched.patchedTexturePaths) {
+      await rm(texturePath, { force: true });
     }
     await rm(workDir, { recursive: true, force: true });
   }

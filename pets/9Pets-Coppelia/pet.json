@@ -1,6 +1,6 @@
 {
   "id": "9pets-coppelia",
   "displayName": "9Pets - Coppelia",
-  "description": "A fan-made Reverse: 1999 Codex pet for Coppelia, built from official game asset-dump artwork.",
+  "description": "A fan-made Reverse: 1999 Codex pet for Coppelia, built from official Live2D Cubism motion frames.",
   "spritesheetPath": "spritesheet.webp"
 }

@@ -1,6 +1,6 @@
 {
   "id": "9pets-alien-t",
   "displayName": "9Pets - aliEn T",
-  "description": "A fan-made Reverse: 1999 Codex pet for aliEn T, built from official game asset-dump artwork.",
+  "description": "A fan-made Reverse: 1999 Codex pet for aliEn T, built from official Spine motion frames.",
   "spritesheetPath": "spritesheet.webp"
 }

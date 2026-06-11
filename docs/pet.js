@@ -1,5 +1,10 @@
 const CELL_W = 192;
 const CELL_H = 208;
+const COLS = 8;
+const ROWS = 9;
+
+let atlasCellW = CELL_W;
+let atlasCellH = CELL_H;
 
 const STATES = [
   { id: "idle", label: "Idle", row: 0, frames: 6, duration: 1.15 },
@@ -52,9 +57,9 @@ function findPet(pets) {
 }
 
 function setState(state) {
-  els.sprite.style.setProperty("--row-y", `${-state.row * CELL_H}px`);
+  els.sprite.style.setProperty("--row-y", `${-state.row * atlasCellH}px`);
   els.sprite.style.setProperty("--frames", state.frames);
-  els.sprite.style.setProperty("--end-x", `${-state.frames * CELL_W}px`);
+  els.sprite.style.setProperty("--end-x", `${-state.frames * atlasCellW}px`);
   els.sprite.style.setProperty("--duration", `${state.duration}s`);
   els.sprite.style.animationName = "none";
   window.requestAnimationFrame(() => {
@@ -64,6 +69,18 @@ function setState(state) {
   for (const button of els.tabs.querySelectorAll("button")) {
     button.classList.toggle("active", button.dataset.state === state.id);
   }
+}
+
+function configureSprite(pet) {
+  const atlasScale = Math.max(1, Number(pet.detailAtlasScale) || 1);
+  atlasCellW = CELL_W * atlasScale;
+  atlasCellH = CELL_H * atlasScale;
+  els.sprite.style.width = `${atlasCellW}px`;
+  els.sprite.style.height = `${atlasCellH}px`;
+  els.sprite.style.backgroundSize = `${atlasCellW * COLS}px ${atlasCellH * ROWS}px`;
+  els.sprite.style.backgroundImage = `url("${pet.detailSpritesheet || pet.spritesheet}")`;
+  els.sprite.style.setProperty("--sprite-scale", atlasScale > 1 ? "1" : "2");
+  els.sprite.style.setProperty("--sprite-mobile-scale", atlasScale > 1 ? "0.775" : "1.55");
 }
 
 function createStateTabs() {
@@ -105,7 +122,7 @@ function renderPet(pet) {
   els.title.textContent = pet.displayName;
   els.eyebrow.textContent = `${source}-sourced package`;
   els.summary.textContent = summary;
-  els.sprite.style.backgroundImage = `url("${pet.spritesheet}")`;
+  configureSprite(pet);
   els.download.href = pet.download;
   els.download.download = `${pet.packageName}.zip`;
   els.spritesheet.href = pet.spritesheet;

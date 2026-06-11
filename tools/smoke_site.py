@@ -65,14 +65,24 @@ def playwright_smoke(base_url: str) -> None:
             raise AssertionError(f"mobile card count is {mobile_count}, expected 127")
         mobile.screenshot(path=str(MOBILE_SHOT), full_page=True)
 
-        detail = browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
-        detail.goto(f"{base_url}/pet.html?id=9pets-avgust", wait_until="networkidle")
-        detail.wait_for_selector(".detail-sprite")
-        if "Avgust" not in detail.locator("#detailTitle").inner_text():
-            raise AssertionError("detail page did not load Avgust")
-        detail.get_by_role("button", name="Wave").click()
-        if "active" not in (detail.get_by_role("button", name="Wave").get_attribute("class") or ""):
-            raise AssertionError("detail state tabs did not switch to Wave")
+        for pet_id, title_text, spritesheet in [
+            ("9pets-37", "37", "detail-spritesheets/9Pets-37.webp"),
+            ("9pets-alien-t", "aliEn T", "detail-spritesheets/9Pets-aliEn-T.webp"),
+            ("9pets-an-an-lee", "An-an Lee", "detail-spritesheets/9Pets-An-an-Lee.webp"),
+            ("9pets-anjo-nala", "Anjo Nala", "detail-spritesheets/9Pets-Anjo-Nala.webp"),
+            ("9pets-apple", "APPLe", "detail-spritesheets/9Pets-APPLe.webp"),
+        ]:
+            detail = browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
+            detail.goto(f"{base_url}/pet.html?id={pet_id}", wait_until="networkidle")
+            detail.wait_for_selector(".detail-sprite")
+            if title_text not in detail.locator("#detailTitle").inner_text():
+                raise AssertionError(f"detail page did not load {title_text}")
+            sprite_image = detail.locator(".detail-sprite").evaluate("node => getComputedStyle(node).backgroundImage")
+            if spritesheet not in sprite_image:
+                raise AssertionError(f"detail page did not use {spritesheet}")
+            detail.get_by_role("button", name="Wave").click()
+            if "active" not in (detail.get_by_role("button", name="Wave").get_attribute("class") or ""):
+                raise AssertionError(f"detail state tabs did not switch to Wave for {title_text}")
 
         file_page = browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
         file_page.goto((DOCS / "index.html").as_uri(), wait_until="networkidle")
@@ -82,6 +92,15 @@ def playwright_smoke(base_url: str) -> None:
         if file_count != 127:
             raise AssertionError(f"file:// card count is {file_count}, expected 127")
         file_page.screenshot(path=str(FILE_SHOT), full_page=True)
+
+        file_detail = browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
+        file_detail.goto((DOCS / "pet.html").as_uri() + "?id=9pets-37", wait_until="networkidle")
+        file_detail.wait_for_selector(".detail-sprite")
+        file_detail.get_by_role("link", name="Back to catalog").click()
+        file_detail.wait_for_url("**/index.html#catalog")
+        file_detail.goto((DOCS / "pet.html").as_uri() + "?id=9pets-37", wait_until="networkidle")
+        file_detail.get_by_label("9Pets home").click()
+        file_detail.wait_for_url("**/index.html")
         browser.close()
 
 
