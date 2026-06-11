@@ -1,6 +1,6 @@
 {
   "id": "9pets-yenisei",
   "displayName": "9Pets - Yenisei",
-  "description": "A fan-made Reverse: 1999 Codex pet for Yenisei. Source mode: prydwen-sourced.",
+  "description": "A fan-made Reverse: 1999 Codex pet for Yenisei, built from official Live2D Cubism motion frames.",
   "spritesheetPath": "spritesheet.webp"
 }

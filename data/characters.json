@@ -2,26 +2,14 @@
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
-    "prydwenCatalog": "https://www.prydwen.gg/re1999/characters"
+    "assetDump": "https://github.com/myssal/Reverse-1999-CN-Asset"
   },
   "notes": [
-    "Bluepoch official home exposes the launch-site character assets used where available.",
+    "Bluepoch official home assets are used for the site frame and official visual references.",
+    "Character packages are built from the Reverse-1999-CN-Asset official game asset dump, including store skin artwork plus mapped Spine and Live2D paths where available.",
     "Huiji Wiki was requested as a source but returned automated 403 responses during this build.",
-    "The full character list is based on the readable Prydwen catalog snapshot shown as 127 characters, last updated 31/May/2026.",
-    "Characters not exposed by the Bluepoch launch site use transparent Prydwen CDN character artwork rather than generated placeholder cards."
+    "Every generated package in this repository is marked official-sourced; future community uploads should use a separate non-official source category."
   ],
-  "officialAssetIds": {
-    "Sonetto": "5",
-    "Regulus": "9",
-    "Druvis III": "3",
-    "Ms. NewBabel": "1",
-    "Sotheby": "6",
-    "A Knight": "8",
-    "An-an Lee": "4",
-    "Medicine Pocket": "7",
-    "Bkornblume": "2",
-    "aliEn T": "10"
-  },
   "characters": [
     { "name": "37" },
     { "name": "6" },

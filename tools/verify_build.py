@@ -52,28 +52,37 @@ def main() -> None:
     assert_true(data["total"] == 127, f"manifest total is {data['total']}, expected 127")
     assert_true(len(pets) == 127, f"manifest contains {len(pets)} pets, expected 127")
     official_count = sum(1 for pet in pets if pet["sourceType"] == "official-sourced")
-    prydwen_count = sum(1 for pet in pets if pet["sourceType"] == "prydwen-sourced")
-    generated_count = sum(1 for pet in pets if pet["sourceType"] == "generated-card")
-    assert_true(official_count == 10, f"official count is {official_count}, expected 10")
-    assert_true(prydwen_count == 117, f"prydwen count is {prydwen_count}, expected 117")
-    assert_true(generated_count == 0, f"generated count is {generated_count}, expected 0")
+    assert_true(official_count == 127, f"official count is {official_count}, expected 127")
     assert_true((ROOT / "docs" / "data" / "pets-data.js").exists(), "docs/data/pets-data.js is missing")
     assert_true(len(data.get("officialSiteAssets", {})) >= 17, "official site assets were not downloaded")
 
     for pet in pets:
         package = pet["packageName"]
+        assert_true(pet.get("assetId"), f"{package} missing official asset id")
+        assert_true(pet.get("sourceImage"), f"{package} missing source image metadata")
+        assert_true("animationMode" in pet, f"{package} missing animation mode")
+        assert_true("animationModeLabel" in pet, f"{package} missing animation mode label")
+        assert_true("live2dCacheStatus" in pet, f"{package} missing Live2D cache status")
+        assert_true("characterSummary" in pet, f"{package} missing character summary")
+        assert_true("spinePath" in pet, f"{package} missing spine path metadata")
+        assert_true("cubismPath" in pet, f"{package} missing cubism path metadata")
         pet_dir = ROOT / "pets" / package
         assert_true((pet_dir / "pet.json").exists(), f"{package} missing pet.json")
         check_spritesheet(pet_dir / "spritesheet.webp")
         check_spritesheet(ROOT / "docs" / pet["spritesheet"])
+        assert_true((ROOT / "docs" / pet["sourceImage"]).exists(), f"{package} missing official source image")
         assert_true((ROOT / "docs" / pet["preview"]).exists(), f"{package} missing preview")
         check_zip(ROOT / "docs" / pet["download"], package)
 
-    for site_file in ["index.html", "styles.css", "app.js", ".nojekyll"]:
+    for site_file in ["index.html", "pet.html", "styles.css", "app.js", "pet.js", ".nojekyll"]:
         assert_true((ROOT / "docs" / site_file).exists(), f"docs/{site_file} is missing")
 
+    app_js = (ROOT / "docs" / "app.js").read_text(encoding="utf-8")
+    assert_true("pet.preview" in app_js, "catalog should use lightweight preview images")
+    assert_true("pet.spritesheet" not in app_js, "catalog should not animate full spritesheets")
+
     print("Build verification passed")
-    print(f"pets={len(pets)} official={official_count} prydwen={prydwen_count} generated={generated_count}")
+    print(f"pets={len(pets)} official={official_count}")
     print(f"atlas_size={EXPECTED_SIZE[0]}x{EXPECTED_SIZE[1]}")
 
 

@@ -1,6 +1,6 @@
 {
   "id": "9pets-kassandra",
   "displayName": "9Pets - Kassandra",
-  "description": "A fan-made Reverse: 1999 Codex pet for Kassandra. Source mode: prydwen-sourced.",
+  "description": "A fan-made Reverse: 1999 Codex pet for Kassandra, built from official game asset-dump artwork.",
   "spritesheetPath": "spritesheet.webp"
 }

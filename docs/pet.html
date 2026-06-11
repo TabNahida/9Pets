@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>9Pets Character</title>
+    <meta name="description" content="Character detail page for a Reverse: 1999 Codex pet package.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="site-backdrop" aria-hidden="true">
+      <img class="backdrop-sigil" src="assets/official/hero-v2.webp" alt="">
+      <img class="backdrop-role role-a" src="assets/official/role-9.png" alt="">
+      <img class="backdrop-role role-b" src="assets/official/role-5.png" alt="">
+      <div class="linework">
+        <span class="curve curve-a"></span>
+        <span class="curve curve-b"></span>
+        <span class="curve curve-c"></span>
+        <span class="slash slash-a"></span>
+        <span class="slash slash-b"></span>
+        <span class="slash slash-c"></span>
+        <span class="rail rail-a"></span>
+        <span class="rail rail-b"></span>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="9Pets home">
+        <span class="brand-mark">9</span>
+        <img class="official-logo" src="assets/official/logo.png" alt="">
+        <span>
+          <strong>9Pets</strong>
+          <small>Codex pets for Reverse: 1999</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="./#catalog">Catalog</a>
+        <a href="./#sources">Sources</a>
+        <a href="data/pets.json">JSON</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="detail-shell" id="petDetail" aria-live="polite">
+        <a class="back-link" href="./#catalog">Back to catalog</a>
+        <div class="detail-hero">
+          <div class="detail-stage" aria-label="Animated pet preview">
+            <div class="detail-sprite-frame">
+              <div class="detail-sprite" id="detailSprite" aria-hidden="true"></div>
+            </div>
+            <div class="state-tabs" id="stateTabs" aria-label="Animation state"></div>
+          </div>
+
+          <div class="detail-copy">
+            <p class="series-line" id="detailEyebrow">Official-sourced package</p>
+            <h1 id="detailTitle">Loading</h1>
+            <p class="detail-summary" id="detailSummary"></p>
+            <div class="detail-actions">
+              <a class="primary" id="downloadLink" href="#" download>Download package</a>
+              <a id="spritesheetLink" href="#">Open spritesheet</a>
+              <a id="sourceLink" href="#">Open source art</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="detail-meta">
+          <section class="info-panel">
+            <h2>Profile</h2>
+            <div class="info-grid" id="infoGrid"></div>
+          </section>
+
+          <section class="source-art-panel">
+            <h2>Source Art</h2>
+            <div class="source-art-wrap">
+              <img id="sourceImage" src="" alt="">
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="data/pets-data.js" defer></script>
+    <script src="pet.js" defer></script>
+  </body>
+</html>

@@ -52,14 +52,14 @@
             <div class="stats" aria-label="Catalog stats">
               <span><strong id="totalCount">0</strong> packages</span>
               <span><strong id="officialCount">0</strong> official-sourced</span>
-              <span><strong id="prydwenCount">0</strong> prydwen-sourced</span>
+              <span><strong id="assetCount">0</strong> asset-mapped</span>
             </div>
           </div>
 
           <div class="official-window" aria-label="Official artwork references">
             <div class="window-copy">
               <span>Official site materials</span>
-              <strong>Bluepoch launch page assets shape the frame; every package is built from character artwork.</strong>
+              <strong>Bluepoch launch page assets shape the frame; packages use official game asset-dump artwork.</strong>
             </div>
             <div class="character-rail" aria-hidden="true">
               <img src="assets/official/character-5.png" alt="">
@@ -81,7 +81,6 @@
           <div class="segmented" aria-label="Source filter">
             <button class="active" type="button" data-source-filter="all">All</button>
             <button type="button" data-source-filter="official-sourced">Official</button>
-            <button type="button" data-source-filter="prydwen-sourced">Prydwen</button>
           </div>
         </div>
 
@@ -101,7 +100,7 @@
         <div class="source-grid">
           <a href="https://re.bluepoch.com/home/" rel="noreferrer">Bluepoch official home</a>
           <a href="https://res1999.huijiwiki.com/wiki/" rel="noreferrer">Huiji Wiki target source</a>
-          <a href="https://www.prydwen.gg/re1999/characters" rel="noreferrer">Prydwen character catalog</a>
+          <a href="https://github.com/myssal/Reverse-1999-CN-Asset" rel="noreferrer">Reverse-1999-CN-Asset dump</a>
         </div>
         <p>Fan-made archive. Package names, manifests, and site UI are maintained in English.</p>
       </section>
@@ -110,7 +109,7 @@
     <template id="petCardTemplate">
       <article class="pet-card">
         <div class="sprite-stage">
-          <span class="pet-sprite" aria-hidden="true"></span>
+          <img class="pet-preview" src="" alt="" loading="lazy" decoding="async">
         </div>
         <div class="pet-copy">
           <h2></h2>
@@ -118,6 +117,7 @@
         </div>
         <div class="card-actions">
           <span class="badge"></span>
+          <a class="details-link" href="#">View</a>
           <a class="download" href="#" download>
             <svg aria-hidden="true" viewBox="0 0 24 24">
               <path d="M12 3v12m0 0 5-5m-5 5-5-5M5 21h14" />

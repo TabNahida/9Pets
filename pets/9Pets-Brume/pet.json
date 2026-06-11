@@ -1,6 +1,6 @@
 {
   "id": "9pets-brume",
   "displayName": "9Pets - Brume",
-  "description": "A fan-made Reverse: 1999 Codex pet for Brume. Source mode: prydwen-sourced.",
+  "description": "A fan-made Reverse: 1999 Codex pet for Brume, built from official game asset-dump artwork.",
   "spritesheetPath": "spritesheet.webp"
 }

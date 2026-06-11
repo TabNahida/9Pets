@@ -1,6 +1,6 @@
 {
   "id": "9pets-ms-radio",
   "displayName": "9Pets - Ms. Radio",
-  "description": "A fan-made Reverse: 1999 Codex pet for Ms. Radio. Source mode: prydwen-sourced.",
+  "description": "A fan-made Reverse: 1999 Codex pet for Ms. Radio, built from official game asset-dump artwork.",
   "spritesheetPath": "spritesheet.webp"
 }

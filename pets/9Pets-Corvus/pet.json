@@ -1,6 +1,6 @@
 {
   "id": "9pets-corvus",
   "displayName": "9Pets - Corvus",
-  "description": "A fan-made Reverse: 1999 Codex pet for Corvus. Source mode: prydwen-sourced.",
+  "description": "A fan-made Reverse: 1999 Codex pet for Corvus, built from official game asset-dump artwork.",
   "spritesheetPath": "spritesheet.webp"
 }

@@ -1,6 +1,6 @@
 {
   "id": "9pets-noire",
   "displayName": "9Pets - Noire",
-  "description": "A fan-made Reverse: 1999 Codex pet for Noire. Source mode: prydwen-sourced.",
+  "description": "A fan-made Reverse: 1999 Codex pet for Noire, built from official game asset-dump artwork.",
   "spritesheetPath": "spritesheet.webp"
 }

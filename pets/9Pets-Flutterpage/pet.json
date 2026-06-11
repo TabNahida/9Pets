@@ -1,6 +1,6 @@
 {
   "id": "9pets-flutterpage",
   "displayName": "9Pets - Flutterpage",
-  "description": "A fan-made Reverse: 1999 Codex pet for Flutterpage. Source mode: prydwen-sourced.",
+  "description": "A fan-made Reverse: 1999 Codex pet for Flutterpage, built from official game asset-dump artwork.",
   "spritesheetPath": "spritesheet.webp"
 }

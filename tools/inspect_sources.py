@@ -63,6 +63,5 @@ def inspect(url: str) -> None:
 
 
 if __name__ == "__main__":
-    inspect("https://www.prydwen.gg/re1999/characters")
-    inspect("https://www.prydwen.gg/re1999/characters/regulus")
     inspect("https://re.bluepoch.com/home/")
+    inspect("https://github.com/myssal/Reverse-1999-CN-Asset")

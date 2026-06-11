@@ -1,6 +1,6 @@
 {
   "id": "9pets-pioneer",
   "displayName": "9Pets - Pioneer",
-  "description": "A fan-made Reverse: 1999 Codex pet for Pioneer. Source mode: prydwen-sourced.",
+  "description": "A fan-made Reverse: 1999 Codex pet for Pioneer, built from official game asset-dump artwork.",
   "spritesheetPath": "spritesheet.webp"
 }

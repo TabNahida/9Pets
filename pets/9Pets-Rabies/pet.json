@@ -1,6 +1,6 @@
 {
   "id": "9pets-rabies",
   "displayName": "9Pets - Rabies",
-  "description": "A fan-made Reverse: 1999 Codex pet for Rabies. Source mode: prydwen-sourced.",
+  "description": "A fan-made Reverse: 1999 Codex pet for Rabies, built from official game asset-dump artwork.",
   "spritesheetPath": "spritesheet.webp"
 }

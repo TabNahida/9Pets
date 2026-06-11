@@ -2,6 +2,7 @@ const state = {
   pets: [],
   sourceFilter: "all",
   search: "",
+  renderToken: 0,
 };
 
 const els = {
@@ -10,7 +11,7 @@ const els = {
   resultCount: document.querySelector("#resultCount"),
   totalCount: document.querySelector("#totalCount"),
   officialCount: document.querySelector("#officialCount"),
-  prydwenCount: document.querySelector("#prydwenCount"),
+  assetCount: document.querySelector("#assetCount"),
   template: document.querySelector("#petCardTemplate"),
   filterButtons: [...document.querySelectorAll("[data-source-filter]")],
 };
@@ -24,8 +25,11 @@ function formatBytes(bytes) {
 
 function sourceLabel(type) {
   if (type === "official-sourced") return "Official";
-  if (type === "prydwen-sourced") return "Prydwen";
-  return "Generated";
+  return "Community";
+}
+
+function petUrl(pet) {
+  return `pet.html?id=${encodeURIComponent(pet.id)}`;
 }
 
 function filteredPets() {
@@ -39,13 +43,14 @@ function filteredPets() {
 
 function renderStats() {
   const official = state.pets.filter((pet) => pet.sourceType === "official-sourced").length;
-  const prydwen = state.pets.filter((pet) => pet.sourceType === "prydwen-sourced").length;
+  const assetMapped = state.pets.filter((pet) => pet.assetId).length;
   els.totalCount.textContent = state.pets.length;
   els.officialCount.textContent = official;
-  els.prydwenCount.textContent = prydwen;
+  els.assetCount.textContent = assetMapped;
 }
 
 function renderGrid() {
+  const renderToken = ++state.renderToken;
   const pets = filteredPets();
   els.grid.textContent = "";
   els.resultCount.textContent = `${pets.length} of ${state.pets.length} packages`;
@@ -58,28 +63,59 @@ function renderGrid() {
     return;
   }
 
-  const fragment = document.createDocumentFragment();
-  for (const pet of pets) {
-    const card = els.template.content.firstElementChild.cloneNode(true);
-    const sprite = card.querySelector(".pet-sprite");
-    const title = card.querySelector("h2");
-    const meta = card.querySelector("p");
-    const badge = card.querySelector(".badge");
-    const download = card.querySelector(".download");
+  let index = 0;
+  const appendBatch = () => {
+    if (renderToken !== state.renderToken) return;
+    const fragment = document.createDocumentFragment();
+    const end = Math.min(index + 24, pets.length);
 
-    sprite.style.backgroundImage = `url("${pet.spritesheet}")`;
-    title.textContent = pet.displayName;
-    meta.textContent = `${pet.packageName} · ${formatBytes(pet.packageBytes)}`;
-    badge.textContent = sourceLabel(pet.sourceType);
-    badge.classList.toggle("official", pet.sourceType === "official-sourced");
-    badge.classList.toggle("prydwen", pet.sourceType === "prydwen-sourced");
-    download.href = pet.download;
-    download.download = `${pet.packageName}.zip`;
-    download.setAttribute("aria-label", `Download ${pet.packageName}`);
+    for (; index < end; index += 1) {
+      const pet = pets[index];
+      const card = els.template.content.firstElementChild.cloneNode(true);
+      const preview = card.querySelector(".pet-preview");
+      const title = card.querySelector("h2");
+      const meta = card.querySelector("p");
+      const badge = card.querySelector(".badge");
+      const details = card.querySelector(".details-link");
+      const download = card.querySelector(".download");
+      const detailsUrl = petUrl(pet);
 
-    fragment.append(card);
-  }
-  els.grid.append(fragment);
+      card.tabIndex = 0;
+      card.setAttribute("role", "link");
+      card.setAttribute("aria-label", `Open ${pet.displayName}`);
+      preview.src = pet.preview;
+      preview.alt = `${pet.displayName} pet preview`;
+      title.textContent = pet.displayName;
+      meta.textContent = `${pet.packageName} · ${formatBytes(pet.packageBytes)}`;
+      badge.textContent = sourceLabel(pet.sourceType);
+      badge.classList.toggle("official", pet.sourceType === "official-sourced");
+      details.href = detailsUrl;
+      details.setAttribute("aria-label", `Open ${pet.displayName}`);
+      download.href = pet.download;
+      download.download = `${pet.packageName}.zip`;
+      download.setAttribute("aria-label", `Download ${pet.packageName}`);
+      card.addEventListener("click", (event) => {
+        if (event.target.closest("a, button")) return;
+        window.location.href = detailsUrl;
+      });
+      card.addEventListener("keydown", (event) => {
+        if (event.key !== "Enter" && event.key !== " ") return;
+        if (event.target.closest("a, button")) return;
+        event.preventDefault();
+        window.location.href = detailsUrl;
+      });
+
+      fragment.append(card);
+    }
+
+    els.grid.append(fragment);
+
+    if (index < pets.length) {
+      window.requestAnimationFrame(appendBatch);
+    }
+  };
+
+  appendBatch();
 }
 
 function bindEvents() {

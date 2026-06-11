@@ -1,6 +1,6 @@
 {
   "id": "9pets-argus",
   "displayName": "9Pets - Argus",
-  "description": "A fan-made Reverse: 1999 Codex pet for Argus. Source mode: prydwen-sourced.",
+  "description": "A fan-made Reverse: 1999 Codex pet for Argus, built from official game asset-dump artwork.",
   "spritesheetPath": "spritesheet.webp"
 }

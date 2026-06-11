@@ -1,6 +1,6 @@
 {
   "id": "9pets-kanjira",
   "displayName": "9Pets - Kanjira",
-  "description": "A fan-made Reverse: 1999 Codex pet for Kanjira. Source mode: prydwen-sourced.",
+  "description": "A fan-made Reverse: 1999 Codex pet for Kanjira, built from official Live2D Cubism motion frames.",
   "spritesheetPath": "spritesheet.webp"
 }

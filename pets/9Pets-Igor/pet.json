@@ -1,6 +1,6 @@
 {
   "id": "9pets-igor",
   "displayName": "9Pets - Igor",
-  "description": "A fan-made Reverse: 1999 Codex pet for Igor. Source mode: prydwen-sourced.",
+  "description": "A fan-made Reverse: 1999 Codex pet for Igor, built from official game asset-dump artwork.",
   "spritesheetPath": "spritesheet.webp"
 }

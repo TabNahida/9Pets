@@ -50,6 +50,7 @@ def playwright_smoke(base_url: str) -> None:
         page = browser.new_page(viewport={"width": 1440, "height": 1100}, device_scale_factor=1)
         page.goto(base_url, wait_until="networkidle")
         page.wait_for_selector(".pet-card")
+        page.wait_for_function("document.querySelectorAll('.pet-card').length === 127")
         count = page.locator(".pet-card").count()
         if count != 127:
             raise AssertionError(f"desktop card count is {count}, expected 127")
@@ -58,13 +59,25 @@ def playwright_smoke(base_url: str) -> None:
         mobile = browser.new_page(viewport={"width": 390, "height": 920}, is_mobile=True)
         mobile.goto(base_url, wait_until="networkidle")
         mobile.wait_for_selector(".pet-card")
+        mobile.wait_for_function("document.querySelectorAll('.pet-card').length === 127")
         mobile_count = mobile.locator(".pet-card").count()
         if mobile_count != 127:
             raise AssertionError(f"mobile card count is {mobile_count}, expected 127")
         mobile.screenshot(path=str(MOBILE_SHOT), full_page=True)
+
+        detail = browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
+        detail.goto(f"{base_url}/pet.html?id=9pets-avgust", wait_until="networkidle")
+        detail.wait_for_selector(".detail-sprite")
+        if "Avgust" not in detail.locator("#detailTitle").inner_text():
+            raise AssertionError("detail page did not load Avgust")
+        detail.get_by_role("button", name="Wave").click()
+        if "active" not in (detail.get_by_role("button", name="Wave").get_attribute("class") or ""):
+            raise AssertionError("detail state tabs did not switch to Wave")
+
         file_page = browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
         file_page.goto((DOCS / "index.html").as_uri(), wait_until="networkidle")
         file_page.wait_for_selector(".pet-card")
+        file_page.wait_for_function("document.querySelectorAll('.pet-card').length === 127")
         file_count = file_page.locator(".pet-card").count()
         if file_count != 127:
             raise AssertionError(f"file:// card count is {file_count}, expected 127")

@@ -1,6 +1,6 @@
 {
   "id": "9pets-diggers",
   "displayName": "9Pets - Diggers",
-  "description": "A fan-made Reverse: 1999 Codex pet for Diggers. Source mode: prydwen-sourced.",
+  "description": "A fan-made Reverse: 1999 Codex pet for Diggers, built from official Live2D Cubism motion frames.",
   "spritesheetPath": "spritesheet.webp"
 }

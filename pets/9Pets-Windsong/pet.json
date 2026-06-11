@@ -1,6 +1,6 @@
 {
   "id": "9pets-windsong",
   "displayName": "9Pets - Windsong",
-  "description": "A fan-made Reverse: 1999 Codex pet for Windsong. Source mode: prydwen-sourced.",
+  "description": "A fan-made Reverse: 1999 Codex pet for Windsong, built from official game asset-dump artwork.",
   "spritesheetPath": "spritesheet.webp"
 }
