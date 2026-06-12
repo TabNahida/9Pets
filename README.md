@@ -18,12 +18,18 @@ python tools/build_pets_site.py
 
 If a local Reverse-1999-CN-Asset checkout contains Live2D Cubism model folders,
 the builder captures real motion frames and composes them into Codex pet atlases.
-Set these paths when your cache differs from the defaults:
+By default, reusable game assets live inside this repository:
+
+- `assets/source-cache/Reverse-1999-CN-Asset/`
+- `.deps/live2d-render/`
+- `assets/rendered-frames/`
+
+Set these paths only when your cache differs from the defaults:
 
 ```powershell
-$env:REVERSE_1999_ASSET_DIR = "C:\tmp\9pets-Reverse-1999-CN-Asset"
-$env:LIVE2D_RENDER_DEPS = "C:\tmp\9pets-live2d-test"
-$env:LIVE2D_CUBISM_CORE = "C:\tmp\9pets-live2d-test\live2dcubismcore.min.js"
+$env:REVERSE_1999_ASSET_DIR = ".\assets\source-cache\Reverse-1999-CN-Asset"
+$env:LIVE2D_RENDER_DEPS = ".\.deps\live2d-render"
+$env:LIVE2D_CUBISM_CORE = ".\.deps\live2d-render\live2dcubismcore.min.js"
 python tools\build_pets_site.py
 ```
 
@@ -50,6 +56,24 @@ python tools\smoke_site.py
 
 The smoke test checks the catalog, mobile layout, direct `file://` loading, and
 an interactive character detail page.
+
+## Audit
+
+Use `PET_AUDIT_TODO.md` as the durable checklist for the normal/cute re-audit.
+Each character is accepted only after normal source QA, cute source QA, default
+skin verification, naming verification, visual QA, and a per-character commit.
+
+Non-default skins must be packaged separately:
+
+- normal skin: `9Pets-Character-Skin-Name`
+- cute skin: `9Pets-Cute-Character-Skin-Name`
+
+The helper script can rebuild one character, run structural QA, update the TODO,
+and commit the result after visual QA has been accepted:
+
+```powershell
+python tools\rebuild_one_pet.py "Kiperina" --visual-qa-pass --commit
+```
 
 ## Sources
 

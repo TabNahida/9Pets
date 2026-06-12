@@ -32,15 +32,21 @@ SPRITESHEET_DIR = DOCS_DIR / "assets" / "spritesheets"
 DETAIL_SPRITESHEET_DIR = DOCS_DIR / "assets" / "detail-spritesheets"
 DOWNLOAD_DIR = DOCS_DIR / "downloads"
 DATA_DIR = DOCS_DIR / "data"
-ASSET_CACHE_DIR = Path(os.environ.get("REVERSE_1999_ASSET_DIR", r"C:\tmp\9pets-Reverse-1999-CN-Asset"))
-LIVE2D_RENDER_DEPS = Path(os.environ.get("LIVE2D_RENDER_DEPS", r"C:\tmp\9pets-live2d-test"))
+ASSET_CACHE_DIR = Path(
+    os.environ.get(
+        "REVERSE_1999_ASSET_DIR",
+        str(ROOT / "assets" / "source-cache" / "Reverse-1999-CN-Asset"),
+    )
+)
+LIVE2D_RENDER_DEPS = Path(os.environ.get("LIVE2D_RENDER_DEPS", str(ROOT / ".deps" / "live2d-render")))
 LIVE2D_CUBISM_CORE = Path(os.environ.get("LIVE2D_CUBISM_CORE", str(LIVE2D_RENDER_DEPS / "live2dcubismcore.min.js")))
 LIVE2D_RENDER_ENABLED = os.environ.get("NINEPETS_RENDER_LIVE2D", "1") != "0"
 LIVE2D_RENDER_SCRIPT = ROOT / "tools" / "render_live2d_frames.mjs"
-LIVE2D_FRAME_ROOT = Path(tempfile.gettempdir()) / "9pets-live2d-frames"
+BUILD_TMP_DIR = ROOT / ".tmp" / "build"
+LIVE2D_FRAME_ROOT = ROOT / "assets" / "rendered-frames" / "live2d"
 SPINE_RENDER_ENABLED = os.environ.get("NINEPETS_RENDER_SPINE", "1") != "0"
 SPINE_RENDER_SCRIPT = ROOT / "tools" / "render_spine_frames.mjs"
-SPINE_FRAME_ROOT = Path(tempfile.gettempdir()) / "9pets-spine-frames"
+SPINE_FRAME_ROOT = ROOT / "assets" / "rendered-frames" / "spine"
 
 CELL_W = 192
 CELL_H = 208
@@ -1938,6 +1944,24 @@ def live2d_model_cached(cubism_path: str) -> bool:
     return bool(cubism_path) and has_live2d_model(model_dir)
 
 
+def write_temp_json(payload: Any, prefix: str) -> Path:
+    BUILD_TMP_DIR.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile(
+        "w",
+        prefix=prefix,
+        suffix=".json",
+        delete=False,
+        encoding="utf-8",
+        dir=BUILD_TMP_DIR,
+    ) as handle:
+        json.dump(payload, handle)
+        return Path(handle.name)
+
+
+def is_default_skin(skin: dict[str, Any]) -> bool:
+    return (skin.get("characterSkinNameEng") or "Default").strip().casefold() == "default"
+
+
 def default_spine_render_profile(package_name: str, spine_path: str) -> dict[str, Any]:
     spine_dir = local_asset_path(spine_path)
     if not spine_dir.exists():
@@ -2040,9 +2064,7 @@ def render_live2d_frames(package_name: str, cubism_path: str) -> Path | None:
     motion_map_path: Path | None = None
     try:
         if profile.get("motionMap"):
-            with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8") as handle:
-                json.dump(profile["motionMap"], handle)
-                motion_map_path = Path(handle.name)
+            motion_map_path = write_temp_json(profile["motionMap"], f"{package_name}-live2d-motion-")
             command.extend(["--motion-map", str(motion_map_path)])
         completed = subprocess.run(command, cwd=ROOT, text=True, capture_output=True, timeout=240, check=False)
         if completed.returncode != 0:
@@ -2095,9 +2117,7 @@ def render_spine_frames(package_name: str, spine_path: str) -> Path | None:
     motion_map_path: Path | None = None
     try:
         if profile.get("motionMap"):
-            with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8") as handle:
-                json.dump(profile["motionMap"], handle)
-                motion_map_path = Path(handle.name)
+            motion_map_path = write_temp_json(profile["motionMap"], f"{package_name}-spine-motion-")
             command.extend(["--motion-map", str(motion_map_path)])
         completed = subprocess.run(command, cwd=ROOT, text=True, capture_output=True, timeout=240, check=False)
         if completed.returncode != 0:
@@ -2152,7 +2172,7 @@ def resolve_official_asset(name: str, official_index: dict[str, dict[str, Any]])
         prepared_skins.append((skin_entry, spine_path, cubism_path))
 
     skin, spine_path, cubism_path = next(
-        (candidate for candidate in prepared_skins if live2d_model_cached(candidate[2])),
+        (candidate for candidate in prepared_skins if is_default_skin(candidate[0])),
         prepared_skins[0],
     )
     return {
@@ -2447,7 +2467,8 @@ def clean_output_dirs() -> None:
 
 
 def snapshot_cute_outputs() -> Path | None:
-    snapshot_root = Path(tempfile.mkdtemp(prefix="9pets-cute-preserve-"))
+    BUILD_TMP_DIR.mkdir(parents=True, exist_ok=True)
+    snapshot_root = Path(tempfile.mkdtemp(prefix="9pets-cute-preserve-", dir=BUILD_TMP_DIR))
     found = False
 
     for package_dir in PETS_DIR.glob(f"{CUTE_PACKAGE_PREFIX}*"):

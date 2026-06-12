@@ -37,9 +37,11 @@ const els = {
 
 function formatBytes(bytes) {
   if (!Number.isFinite(bytes)) return "";
+  const megabytes = bytes / 1_000_000;
   return new Intl.NumberFormat("en", {
-    maximumFractionDigits: bytes > 1_000_000 ? 1 : 0,
-  }).format(bytes / 1_000_000) + " MB";
+    minimumFractionDigits: megabytes < 1 ? 1 : 0,
+    maximumFractionDigits: megabytes < 10 ? 1 : 0,
+  }).format(megabytes) + " MB";
 }
 
 function sourceLabel(type) {
