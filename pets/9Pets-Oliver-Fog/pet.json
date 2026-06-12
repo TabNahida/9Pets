@@ -1,6 +1,6 @@
 {
   "id": "9pets-oliver-fog",
   "displayName": "9Pets - Oliver Fog",
-  "description": "A fan-made Reverse: 1999 Codex pet for Oliver Fog, built from official game asset-dump artwork.",
+  "description": "An official-sourced Reverse: 1999 Codex pet for Oliver Fog, built from official Spine motion frames.",
   "spritesheetPath": "spritesheet.webp"
 }

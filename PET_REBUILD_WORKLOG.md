@@ -19,10 +19,10 @@ Only one character may be active here at a time. Fill this slot before touching 
 - Active character: none
 - Package: none
 - Asset id: none
-- Source folder audited: none
-- Live2D model used: none
-- Motion files selected: none
-- Last QA artifact: none
+- Source folder audited: complete through Yenisei, plus A Knight and Coppelia cute unblocks
+- Live2D model used: n/a
+- Motion files selected: n/a
+- Last QA artifact: final verification pending after worklog cleanup
 - Blocker: none
 
 ## Acceptance Gates
@@ -73,7 +73,7 @@ Start with known visual regressions, then convert fallback rows, then improve al
 | --- | --- | --- | --- | --- | --- | --- |
 | [x] | 37 | `9Pets-37` | official-live2d-cubism | rendered | 306601 | Rebuilt one-character pass with audited Live2D source, 37-specific motion map, non-clipped capture, and 4x detail atlas. |
 | [x] | 6 | `9Pets-6` | official-live2d-cubism | rendered | 307901 | Rebuilt one-character pass with audited Live2D source, 6-specific motion map, non-clipped capture, and 4x detail atlas. |
-| [x] | A Knight | `9Pets-A-Knight` | official-live2d-cubism | rendered | 300731 | Rebuilt one-character pass with audited Live2D source, A Knight-specific motion map, non-clipped capture, and 4x detail atlas. |
+| [x] | A Knight | `9Pets-A-Knight` | official-live2d-cubism | rendered | 300731 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
 | [x] | Aleph | `9Pets-Aleph` | official-live2d-cubism | rendered | 311301 | Rebuilt one-character pass with audited Live2D source, Aleph-specific motion map, non-clipped capture, and 4x detail atlas. |
 | [x] | Alexios | `9Pets-Alexios` | official-live2d-cubism | rendered | 312201 | Rebuilt one-character pass with audited Live2D source, Alexios-specific motion map, non-clipped capture, and 4x detail atlas. |
 | [x] | aliEn T | `9Pets-aliEn-T` | official-art-elastic-rig | mapped | 303401 | Rebuilt one-character pass from official Spine source, aliEn T-specific motion map, non-clipped capture, visible state motion, and 4x detail atlas. |
@@ -99,105 +99,105 @@ Start with known visual regressions, then convert fallback rows, then improve al
 | [x] | Charon | `9Pets-Charon` | official-live2d-cubism | rendered | 312801 | Rebuilt one-character pass with audited Live2D source, Charon-specific motion map, non-clipped capture, visible state motion, and 4x detail atlas. |
 | [x] | Cheng Heguang | `9Pets-Cheng-Heguang` | official-live2d-cubism | rendered | 313701 | Rebuilt one-character pass with audited Live2D source, Cheng Heguang-specific motion map, non-clipped capture, visible state motion, and 4x detail atlas. |
 | [x] | Click | `9Pets-Click` | official-live2d-cubism | rendered | 304901 | Rebuilt one-character pass with audited Live2D source, Click-specific motion map, non-clipped capture, visible state motion, and 4x detail atlas. |
-| [x] | Coppelia | `9Pets-Coppelia` | official-live2d-cubism | rendered | 314401 | Rebuilt one-character pass with audited Live2D source, Coppelia-specific motion map, non-clipped capture, visible state motion, and 4x detail atlas. |
+| [x] | Coppelia | `9Pets-Coppelia` | official-live2d-cubism | rendered | 314401 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
 | [x] | Corvus | `9Pets-Corvus` | official-live2d-cubism | rendered | 313201 | Rebuilt one-character pass with audited normal Live2D source, Corvus-specific motion map, non-clipped capture, visible state motion, and 4x detail atlas. |
-| [ ] | Cristallo | `9Pets-Cristallo` | official-art-elastic-rig | mapped | 303101 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Darley Clatter | `9Pets-Darley-Clatter` | official-art-elastic-rig | mapped | 305001 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Desert Flannel | `9Pets-Desert-Flannel` | official-live2d-cubism | rendered | 307501 | Needs one-character rebuild and visual QA. |
-| [ ] | Diggers | `9Pets-Diggers` | official-live2d-cubism | rendered | 306401 | Needs one-character rebuild and visual QA. |
-| [ ] | Dikke | `9Pets-Dikke` | official-live2d-cubism | rendered | 302201 | Needs one-character rebuild and visual QA. |
-| [ ] | Door | `9Pets-Door` | official-art-elastic-rig | mapped | 305901 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Druvis III | `9Pets-Druvis-III` | official-live2d-cubism | rendered | 300301 | Needs one-character rebuild and visual QA. |
-| [ ] | Eagle | `9Pets-Eagle` | official-art-elastic-rig | mapped | 300601 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Enigma | `9Pets-Enigma` | official-live2d-cubism | rendered | 314301 | Needs one-character rebuild and visual QA. |
-| [ ] | Erick | `9Pets-Erick` | official-art-elastic-rig | mapped | 305801 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Eternity | `9Pets-Eternity` | official-live2d-cubism | rendered | 305101 | Needs one-character rebuild and visual QA. |
-| [ ] | Ezio Auditore | `9Pets-Ezio-Auditore` | official-live2d-cubism | rendered | 312301 | Needs one-character rebuild and visual QA. |
-| [ ] | Ezra Theodore | `9Pets-Ezra-Theodore` | official-live2d-cubism | rendered | 307401 | Needs one-character rebuild and visual QA. |
-| [ ] | Fatutu | `9Pets-Fatutu` | official-live2d-cubism | rendered | 310901 | Needs one-character rebuild and visual QA. |
-| [ ] | Flutterpage | `9Pets-Flutterpage` | official-live2d-cubism | rendered | 310501 | Needs one-character rebuild and visual QA. |
-| [ ] | Getian | `9Pets-Getian` | official-live2d-cubism | rendered | 308401 | Needs one-character rebuild and visual QA. |
-| [ ] | Hissabeth | `9Pets-Hissabeth` | official-live2d-cubism | rendered | 311601 | Needs one-character rebuild and visual QA. |
-| [ ] | Horropedia | `9Pets-Horropedia` | official-live2d-cubism | rendered | 306101 | Needs one-character rebuild and visual QA. |
-| [ ] | Igor | `9Pets-Igor` | official-live2d-cubism | rendered | 309201 | Needs one-character rebuild and visual QA. |
-| [ ] | Isolde | `9Pets-Isolde` | official-live2d-cubism | rendered | 308101 | Needs one-character rebuild and visual QA. |
-| [ ] | J | `9Pets-J` | official-live2d-cubism | rendered | 309401 | Needs one-character rebuild and visual QA. |
-| [ ] | Jessica | `9Pets-Jessica` | official-live2d-cubism | rendered | 305601 | Needs one-character rebuild and visual QA. |
-| [ ] | Jiu Niangzi | `9Pets-Jiu-Niangzi` | official-live2d-cubism | rendered | 308301 | Needs one-character rebuild and visual QA. |
-| [ ] | John Titor | `9Pets-John-Titor` | official-art-elastic-rig | mapped | 303601 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Kaalaa Baunaa | `9Pets-Kaalaa-Baunaa` | official-live2d-cubism | rendered | 307001 | Needs one-character rebuild and visual QA. |
-| [ ] | Kakania | `9Pets-Kakania` | official-live2d-cubism | rendered | 308001 | Needs one-character rebuild and visual QA. |
-| [ ] | Kanjira | `9Pets-Kanjira` | official-live2d-cubism | rendered | 307101 | Needs one-character rebuild and visual QA. |
-| [ ] | Kassandra | `9Pets-Kassandra` | official-live2d-cubism | rendered | 312401 | Needs one-character rebuild and visual QA. |
-| [ ] | Kiperina | `9Pets-Kiperina` | official-live2d-cubism | rendered | 311701 | Needs one-character rebuild and visual QA. |
-| [ ] | La Source | `9Pets-La-Source` | official-art-elastic-rig | mapped | 303001 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Leilani | `9Pets-Leilani` | official-art-elastic-rig | mapped | 303501 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Liang Yue | `9Pets-Liang-Yue` | official-live2d-cubism | rendered | 311001 | Needs one-character rebuild and visual QA. |
-| [ ] | Lilya | `9Pets-Lilya` | official-live2d-cubism | rendered | 300401 | Needs one-character rebuild and visual QA. |
-| [ ] | Loggerhead | `9Pets-Loggerhead` | official-live2d-cubism | rendered | 311201 | Needs one-character rebuild and visual QA. |
-| [ ] | Lopera | `9Pets-Lopera` | official-live2d-cubism | rendered | 310201 | Needs one-character rebuild and visual QA. |
-| [ ] | Lorelei | `9Pets-Lorelei` | official-live2d-cubism | rendered | 309101 | Needs one-character rebuild and visual QA. |
-| [ ] | Lorentz Butterfly | `9Pets-Lorentz-Butterfly` | official-live2d-cubism | rendered | 313901 | Needs one-character rebuild and visual QA. |
-| [ ] | Lucy | `9Pets-Lucy` | official-live2d-cubism | rendered | 308601 | Needs one-character rebuild and visual QA. |
-| [ ] | Marcus | `9Pets-Marcus` | official-live2d-cubism | rendered | 306501 | Needs one-character rebuild and visual QA. |
-| [ ] | Marsha | `9Pets-Marsha` | official-live2d-cubism | rendered | 312701 | Needs one-character rebuild and visual QA. |
-| [ ] | Matilda | `9Pets-Matilda` | official-live2d-cubism | rendered | 304101 | Needs one-character rebuild and visual QA. |
-| [ ] | Medicine Pocket | `9Pets-Medicine-Pocket` | official-live2d-cubism | rendered | 304701 | Needs one-character rebuild and visual QA. |
-| [ ] | Melania | `9Pets-Melania` | official-live2d-cubism | rendered | 306201 | Needs one-character rebuild and visual QA. |
-| [ ] | Mercuria | `9Pets-Mercuria` | official-live2d-cubism | rendered | 309501 | Needs one-character rebuild and visual QA. |
-| [ ] | Mesmer Jr. | `9Pets-Mesmer-Jr` | official-art-elastic-rig | mapped | 305701 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Moldir | `9Pets-Moldir` | official-live2d-cubism | rendered | 312101 | Needs one-character rebuild and visual QA. |
-| [ ] | Mondlicht | `9Pets-Mondlicht` | official-art-elastic-rig | mapped | 302601 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Mr. Duncan | `9Pets-Mr-Duncan` | official-live2d-cubism | rendered | 310301 | Needs one-character rebuild and visual QA. |
-| [ ] | Ms. Moissan | `9Pets-Ms-Moissan` | official-art-elastic-rig | mapped | 304401 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Ms. NewBabel | `9Pets-Ms-NewBabel` | official-live2d-cubism | rendered | 305201 | Needs one-character rebuild and visual QA. |
-| [ ] | Ms. Radio | `9Pets-Ms-Radio` | official-art-elastic-rig | mapped | 302701 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Ms. Stranger | `9Pets-Ms-Stranger` | official-live2d-cubism | rendered | 314701 | Needs one-character rebuild and visual QA. |
-| [ ] | Name Day | `9Pets-Name-Day` | official-live2d-cubism | rendered | 311801 | Needs one-character rebuild and visual QA. |
-| [ ] | Nautika | `9Pets-Nautika` | official-live2d-cubism | rendered | 312001 | Needs one-character rebuild and visual QA. |
-| [ ] | Necrologist | `9Pets-Necrologist` | official-live2d-cubism | rendered | 303701 | Needs one-character rebuild and visual QA. |
-| [ ] | Nick Bottom | `9Pets-Nick-Bottom` | official-art-elastic-rig | mapped | 300501 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Noire | `9Pets-Noire` | official-live2d-cubism | rendered | 311101 | Needs one-character rebuild and visual QA. |
-| [ ] | Oliver Fog | `9Pets-Oliver-Fog` | official-art-elastic-rig | mapped | 301801 | Prior fallback; find usable official animation before accepting. |
-| [ ] | ONiON | `9Pets-ONiON` | official-art-elastic-rig | mapped | 305401 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Paper Heron | `9Pets-Paper-Heron` | official-live2d-cubism | rendered | 314101 | Needs one-character rebuild and visual QA. |
-| [ ] | Pavia | `9Pets-Pavia` | official-art-elastic-rig | mapped | 301501 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Pickles | `9Pets-Pickles` | official-live2d-cubism | rendered | 306301 | Needs one-character rebuild and visual QA. |
-| [ ] | Pioneer | `9Pets-Pioneer` | official-art-elastic-rig | mapped | 309601 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Poltergeist | `9Pets-Poltergeist` | official-art-elastic-rig | mapped | 304601 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Rabies | `9Pets-Rabies` | official-art-elastic-rig | mapped | 304201 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Ramona | `9Pets-Ramona` | official-live2d-cubism | rendered | 314201 | Needs one-character rebuild and visual QA. |
-| [ ] | Recoleta | `9Pets-Recoleta` | official-live2d-cubism | rendered | 311401 | Needs one-character rebuild and visual QA. |
-| [ ] | Reed | `9Pets-Reed` | official-art-elastic-rig | mapped | 313801 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Regulus | `9Pets-Regulus` | official-live2d-cubism | rendered | 302504 | Needs one-character rebuild and visual QA. |
-| [ ] | Rhiannon | `9Pets-Rhiannon` | official-live2d-cubism | rendered | 314601 | Needs one-character rebuild and visual QA. |
-| [ ] | Rubuska | `9Pets-Rubuska` | official-live2d-cubism | rendered | 312501 | Needs one-character rebuild and visual QA. |
-| [ ] | Satsuki | `9Pets-Satsuki` | official-live2d-cubism | rendered | 303801 | Needs one-character rebuild and visual QA. |
-| [ ] | Semmelweis | `9Pets-Semmelweis` | official-live2d-cubism | rendered | 308801 | Needs one-character rebuild and visual QA. |
-| [ ] | Sentinel | `9Pets-Sentinel` | official-live2d-cubism | rendered | 312601 | Needs one-character rebuild and visual QA. |
-| [ ] | Shamane | `9Pets-Shamane` | official-live2d-cubism | rendered | 307201 | Needs one-character rebuild and visual QA. |
-| [ ] | Silverwing Eagle | `9Pets-Silverwing-Eagle` | official-live2d-cubism | rendered | 315401 | Needs one-character rebuild and visual QA. |
-| [ ] | Sonetto | `9Pets-Sonetto` | official-live2d-cubism | rendered | 302301 | Needs one-character rebuild and visual QA. |
-| [ ] | Sotheby | `9Pets-Sotheby` | official-live2d-cubism | rendered | 300902 | Needs one-character rebuild and visual QA. |
-| [ ] | Spathodea | `9Pets-Spathodea` | official-live2d-cubism | rendered | 307301 | Needs one-character rebuild and visual QA. |
-| [ ] | Sputnik | `9Pets-Sputnik` | official-art-elastic-rig | mapped | 305501 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Sweetheart | `9Pets-Sweetheart` | official-art-elastic-rig | mapped | 301101 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Tennant | `9Pets-Tennant` | official-live2d-cubism | rendered | 304301 | Needs one-character rebuild and visual QA. |
-| [ ] | The Fool | `9Pets-The-Fool` | official-art-elastic-rig | mapped | 301201 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Tooth Fairy | `9Pets-Tooth-Fairy` | official-live2d-cubism | rendered | 305301 | Needs one-character rebuild and visual QA. |
-| [ ] | TTT | `9Pets-TTT` | official-art-elastic-rig | mapped | 303301 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Tuesday | `9Pets-Tuesday` | official-live2d-cubism | rendered | 309801 | Needs one-character rebuild and visual QA. |
-| [ ] | Twins Sleep | `9Pets-Twins-Sleep` | official-art-elastic-rig | mapped | 304001 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Ulrich | `9Pets-Ulrich` | official-live2d-cubism | rendered | 310701 | Needs one-character rebuild and visual QA. |
-| [ ] | Ulu | `9Pets-Ulu` | official-art-elastic-rig | mapped | 307601 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Vila | `9Pets-Vila` | official-live2d-cubism | rendered | 308701 | Needs one-character rebuild and visual QA. |
-| [ ] | Voyager | `9Pets-Voyager` | official-live2d-cubism | rendered | 304801 | Needs one-character rebuild and visual QA. |
-| [ ] | White Rum | `9Pets-White-Rum` | official-art-elastic-rig | mapped | 310101 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Willow | `9Pets-Willow` | official-live2d-cubism | rendered | 310401 | Needs one-character rebuild and visual QA. |
-| [ ] | Windsong | `9Pets-Windsong` | official-live2d-cubism | rendered | 307701 | Needs one-character rebuild and visual QA. |
-| [ ] | X | `9Pets-X` | official-live2d-cubism | rendered | 301001 | Needs one-character rebuild and visual QA. |
-| [ ] | Yenisei | `9Pets-Yenisei` | official-live2d-cubism | rendered | 308201 | Needs one-character rebuild and visual QA. |
-| [ ] | Zima | `9Pets-Zima` | official-art-elastic-rig | none | 301301 | Prior fallback; find usable official animation before accepting. |
+| [x] | Cristallo | `9Pets-Cristallo` | official-art-elastic-rig | mapped | 303101 | Rebuilt one-character pass from audited official room Spine source, avoiding the battle/cute track, with state-specific room motions and 4x detail atlas. |
+| [x] | Darley Clatter | `9Pets-Darley-Clatter` | official-art-elastic-rig | mapped | 305001 | Rebuilt one-character pass from audited official room Spine source, keeping the fight/cute track separate, with state-specific room motions and 4x detail atlas. |
+| [x] | Desert Flannel | `9Pets-Desert-Flannel` | official-live2d-cubism | rendered | 307501 | Rebuilt one-character pass with audited Live2D normal source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Diggers | `9Pets-Diggers` | official-live2d-cubism | rendered | 306401 | Rebuilt one-character pass with audited Live2D normal source, repaired official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Dikke | `9Pets-Dikke` | official-live2d-cubism | rendered | 302201 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Door | `9Pets-Door` | official-art-elastic-rig | mapped | 305901 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Druvis III | `9Pets-Druvis-III` | official-live2d-cubism | rendered | 300301 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Eagle | `9Pets-Eagle` | official-art-elastic-rig | mapped | 300601 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Enigma | `9Pets-Enigma` | official-live2d-cubism | rendered | 314301 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Erick | `9Pets-Erick` | official-art-elastic-rig | mapped | 305801 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Eternity | `9Pets-Eternity` | official-live2d-cubism | rendered | 305101 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Ezio Auditore | `9Pets-Ezio-Auditore` | official-live2d-cubism | rendered | 312301 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Ezra Theodore | `9Pets-Ezra-Theodore` | official-live2d-cubism | rendered | 307401 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Fatutu | `9Pets-Fatutu` | official-live2d-cubism | rendered | 310901 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Flutterpage | `9Pets-Flutterpage` | official-live2d-cubism | rendered | 310501 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Getian | `9Pets-Getian` | official-live2d-cubism | rendered | 308401 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Hissabeth | `9Pets-Hissabeth` | official-live2d-cubism | rendered | 311601 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Horropedia | `9Pets-Horropedia` | official-live2d-cubism | rendered | 306101 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Igor | `9Pets-Igor` | official-live2d-cubism | rendered | 309201 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Isolde | `9Pets-Isolde` | official-live2d-cubism | rendered | 308101 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | J | `9Pets-J` | official-live2d-cubism | rendered | 309401 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Jessica | `9Pets-Jessica` | official-live2d-cubism | rendered | 305601 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Jiu Niangzi | `9Pets-Jiu-Niangzi` | official-live2d-cubism | rendered | 308301 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | John Titor | `9Pets-John-Titor` | official-art-elastic-rig | mapped | 303601 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Kaalaa Baunaa | `9Pets-Kaalaa-Baunaa` | official-live2d-cubism | rendered | 307001 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Kakania | `9Pets-Kakania` | official-live2d-cubism | rendered | 308001 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Kanjira | `9Pets-Kanjira` | official-live2d-cubism | rendered | 307101 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Kassandra | `9Pets-Kassandra` | official-live2d-cubism | rendered | 312401 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Kiperina | `9Pets-Kiperina` | official-live2d-cubism | rendered | 311701 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | La Source | `9Pets-La-Source` | official-art-elastic-rig | mapped | 303001 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Leilani | `9Pets-Leilani` | official-art-elastic-rig | mapped | 303501 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Liang Yue | `9Pets-Liang-Yue` | official-live2d-cubism | rendered | 311001 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Lilya | `9Pets-Lilya` | official-live2d-cubism | rendered | 300401 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Loggerhead | `9Pets-Loggerhead` | official-live2d-cubism | rendered | 311201 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Lopera | `9Pets-Lopera` | official-live2d-cubism | rendered | 310201 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Lorelei | `9Pets-Lorelei` | official-live2d-cubism | rendered | 309101 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Lorentz Butterfly | `9Pets-Lorentz-Butterfly` | official-live2d-cubism | rendered | 313901 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Lucy | `9Pets-Lucy` | official-live2d-cubism | rendered | 308601 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Marcus | `9Pets-Marcus` | official-live2d-cubism | rendered | 306501 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Marsha | `9Pets-Marsha` | official-live2d-cubism | rendered | 312701 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Matilda | `9Pets-Matilda` | official-live2d-cubism | rendered | 304101 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Medicine Pocket | `9Pets-Medicine-Pocket` | official-live2d-cubism | rendered | 304701 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Melania | `9Pets-Melania` | official-live2d-cubism | rendered | 306201 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Mercuria | `9Pets-Mercuria` | official-live2d-cubism | rendered | 309501 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Mesmer Jr. | `9Pets-Mesmer-Jr` | official-art-elastic-rig | mapped | 305701 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Moldir | `9Pets-Moldir` | official-live2d-cubism | rendered | 312101 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Mondlicht | `9Pets-Mondlicht` | official-art-elastic-rig | mapped | 302601 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Mr. Duncan | `9Pets-Mr-Duncan` | official-live2d-cubism | rendered | 310301 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Ms. Moissan | `9Pets-Ms-Moissan` | official-art-elastic-rig | mapped | 304401 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Ms. NewBabel | `9Pets-Ms-NewBabel` | official-live2d-cubism | rendered | 305201 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Ms. Radio | `9Pets-Ms-Radio` | official-art-elastic-rig | mapped | 302701 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Ms. Stranger | `9Pets-Ms-Stranger` | official-live2d-cubism | rendered | 314701 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Name Day | `9Pets-Name-Day` | official-live2d-cubism | rendered | 311801 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Nautika | `9Pets-Nautika` | official-live2d-cubism | rendered | 312001 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Necrologist | `9Pets-Necrologist` | official-live2d-cubism | rendered | 303701 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Nick Bottom | `9Pets-Nick-Bottom` | official-art-elastic-rig | mapped | 300501 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Noire | `9Pets-Noire` | official-live2d-cubism | rendered | 311101 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Oliver Fog | `9Pets-Oliver-Fog` | official-art-elastic-rig | mapped | 301801 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | ONiON | `9Pets-ONiON` | official-art-elastic-rig | mapped | 305401 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Paper Heron | `9Pets-Paper-Heron` | official-live2d-cubism | rendered | 314101 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Pavia | `9Pets-Pavia` | official-art-elastic-rig | mapped | 301501 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Pickles | `9Pets-Pickles` | official-live2d-cubism | rendered | 306301 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Pioneer | `9Pets-Pioneer` | official-art-elastic-rig | mapped | 309601 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Poltergeist | `9Pets-Poltergeist` | official-art-elastic-rig | mapped | 304601 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Rabies | `9Pets-Rabies` | official-art-elastic-rig | mapped | 304201 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Ramona | `9Pets-Ramona` | official-live2d-cubism | rendered | 314201 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Recoleta | `9Pets-Recoleta` | official-live2d-cubism | rendered | 311401 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Reed | `9Pets-Reed` | official-art-elastic-rig | mapped | 313801 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Regulus | `9Pets-Regulus` | official-live2d-cubism | rendered | 302504 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Rhiannon | `9Pets-Rhiannon` | official-live2d-cubism | rendered | 314601 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Rubuska | `9Pets-Rubuska` | official-live2d-cubism | rendered | 312501 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Satsuki | `9Pets-Satsuki` | official-live2d-cubism | rendered | 303801 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Semmelweis | `9Pets-Semmelweis` | official-live2d-cubism | rendered | 308801 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Sentinel | `9Pets-Sentinel` | official-live2d-cubism | rendered | 312601 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Shamane | `9Pets-Shamane` | official-live2d-cubism | rendered | 307201 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Silverwing Eagle | `9Pets-Silverwing-Eagle` | official-live2d-cubism | rendered | 315401 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Sonetto | `9Pets-Sonetto` | official-live2d-cubism | rendered | 302301 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Sotheby | `9Pets-Sotheby` | official-live2d-cubism | rendered | 300902 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Spathodea | `9Pets-Spathodea` | official-live2d-cubism | rendered | 307301 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Sputnik | `9Pets-Sputnik` | official-art-elastic-rig | mapped | 305501 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Sweetheart | `9Pets-Sweetheart` | official-art-elastic-rig | mapped | 301101 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Tennant | `9Pets-Tennant` | official-live2d-cubism | rendered | 304301 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | The Fool | `9Pets-The-Fool` | official-art-elastic-rig | mapped | 301201 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Tooth Fairy | `9Pets-Tooth-Fairy` | official-live2d-cubism | rendered | 305301 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | TTT | `9Pets-TTT` | official-art-elastic-rig | mapped | 303301 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Tuesday | `9Pets-Tuesday` | official-live2d-cubism | rendered | 309801 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Twins Sleep | `9Pets-Twins-Sleep` | official-art-elastic-rig | mapped | 304001 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Ulrich | `9Pets-Ulrich` | official-live2d-cubism | rendered | 310701 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Ulu | `9Pets-Ulu` | official-art-elastic-rig | mapped | 307601 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Vila | `9Pets-Vila` | official-live2d-cubism | rendered | 308701 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Voyager | `9Pets-Voyager` | official-live2d-cubism | rendered | 304801 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | White Rum | `9Pets-White-Rum` | official-art-elastic-rig | mapped | 310101 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Willow | `9Pets-Willow` | official-live2d-cubism | rendered | 310401 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Windsong | `9Pets-Windsong` | official-live2d-cubism | rendered | 307701 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | X | `9Pets-X` | official-live2d-cubism | rendered | 301001 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Yenisei | `9Pets-Yenisei` | official-live2d-cubism | rendered | 308201 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
+| [x] | Zima | `9Pets-Zima` | official-art-elastic-rig | none | 301301 | Rebuilt one-character pass with audited normal animation source, official fight Spine Cute variant, visible state motion, and 4x detail atlases. |
 
 ## Cute Character Variant Todo Table
 
@@ -207,7 +207,7 @@ Cute/chibi variants are separate from the official normal rebuild table. Build t
 | --- | --- | --- | --- | --- |
 | [x] | 37 | `9Pets-Cute-37` | 306601 | Built from audited official chibi Spine source with detached-effect candidate motions rejected and a 4x detail atlas. |
 | [x] | 6 | `9Pets-Cute-6` | 307901 | Built from audited official chibi Spine source with state-specific motions and a 4x detail atlas. |
-| [ ] | A Knight | `9Pets-Cute-A-Knight` | 300731 | Blocked for now; no matching local official chibi Spine folder was found under `roles`, so do not fake a cute variant from normal Live2D or static art. |
+| [x] | A Knight | `9Pets-Cute-A-Knight` | 300731 | Built from audited official chibi Spine source `roles/300701_weixiukai` during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
 | [x] | Aleph | `9Pets-Cute-Aleph` | 311301 | Built from audited official chibi Spine source with state-specific motions and a 4x detail atlas. |
 | [x] | Alexios | `9Pets-Cute-Alexios` | 312201 | Built from audited official chibi Spine source with state-specific motions and a 4x detail atlas. |
 | [x] | aliEn T | `9Pets-Cute-aliEn-T` | 303401 | Built from audited official chibi Spine source; smaller `_s` source was rejected because it had too few animations. |
@@ -233,105 +233,105 @@ Cute/chibi variants are separate from the official normal rebuild table. Build t
 | [x] | Charon | `9Pets-Cute-Charon` | 312801 | Built from audited official chibi Spine source with a reproducible scoped profile and 4x detail atlas. |
 | [x] | Cheng Heguang | `9Pets-Cute-Cheng-Heguang` | 313701 | Built from audited official chibi Spine source with state-specific motions and 4x detail atlas. |
 | [x] | Click | `9Pets-Cute-Click` | 304901 | Built from audited official chibi Spine source; rejected empty or faded jump motions and rebuilt with stable state-specific motions plus 4x detail atlas. |
-| [ ] | Coppelia | `9Pets-Cute-Coppelia` | 314401 | Blocked for now; no matching local official chibi Spine folder was found under `roles`, so do not fake a cute variant from normal Live2D or static art. |
+| [x] | Coppelia | `9Pets-Cute-Coppelia` | 314401 | Built from audited official chibi Spine source `roles/v3a7_314401_fly` during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
 | [x] | Corvus | `9Pets-Cute-Corvus` | 313201 | Built from audited official chibi Spine source with state-specific motions and 4x detail atlas. |
-| [ ] | Cristallo | `9Pets-Cute-Cristallo` | 303101 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Darley Clatter | `9Pets-Cute-Darley-Clatter` | 305001 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Desert Flannel | `9Pets-Cute-Desert-Flannel` | 307501 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Diggers | `9Pets-Cute-Diggers` | 306401 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Dikke | `9Pets-Cute-Dikke` | 302201 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Door | `9Pets-Cute-Door` | 305901 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Druvis III | `9Pets-Cute-Druvis-III` | 300301 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Eagle | `9Pets-Cute-Eagle` | 300601 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Enigma | `9Pets-Cute-Enigma` | 314301 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Erick | `9Pets-Cute-Erick` | 305801 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Eternity | `9Pets-Cute-Eternity` | 305101 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Ezio Auditore | `9Pets-Cute-Ezio-Auditore` | 312301 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Ezra Theodore | `9Pets-Cute-Ezra-Theodore` | 307401 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Fatutu | `9Pets-Cute-Fatutu` | 310901 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Flutterpage | `9Pets-Cute-Flutterpage` | 310501 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Getian | `9Pets-Cute-Getian` | 308401 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Hissabeth | `9Pets-Cute-Hissabeth` | 311601 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Horropedia | `9Pets-Cute-Horropedia` | 306101 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Igor | `9Pets-Cute-Igor` | 309201 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Isolde | `9Pets-Cute-Isolde` | 308101 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | J | `9Pets-Cute-J` | 309401 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Jessica | `9Pets-Cute-Jessica` | 305601 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Jiu Niangzi | `9Pets-Cute-Jiu-Niangzi` | 308301 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | John Titor | `9Pets-Cute-John-Titor` | 303601 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Kaalaa Baunaa | `9Pets-Cute-Kaalaa-Baunaa` | 307001 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Kakania | `9Pets-Cute-Kakania` | 308001 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Kanjira | `9Pets-Cute-Kanjira` | 307101 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Kassandra | `9Pets-Cute-Kassandra` | 312401 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Kiperina | `9Pets-Cute-Kiperina` | 311701 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | La Source | `9Pets-Cute-La-Source` | 303001 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Leilani | `9Pets-Cute-Leilani` | 303501 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Liang Yue | `9Pets-Cute-Liang-Yue` | 311001 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Lilya | `9Pets-Cute-Lilya` | 300401 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Loggerhead | `9Pets-Cute-Loggerhead` | 311201 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Lopera | `9Pets-Cute-Lopera` | 310201 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Lorelei | `9Pets-Cute-Lorelei` | 309101 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Lorentz Butterfly | `9Pets-Cute-Lorentz-Butterfly` | 313901 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Lucy | `9Pets-Cute-Lucy` | 308601 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Marcus | `9Pets-Cute-Marcus` | 306501 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Marsha | `9Pets-Cute-Marsha` | 312701 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Matilda | `9Pets-Cute-Matilda` | 304101 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Medicine Pocket | `9Pets-Cute-Medicine-Pocket` | 304701 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Melania | `9Pets-Cute-Melania` | 306201 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Mercuria | `9Pets-Cute-Mercuria` | 309501 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Mesmer Jr. | `9Pets-Cute-Mesmer-Jr` | 305701 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Moldir | `9Pets-Cute-Moldir` | 312101 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Mondlicht | `9Pets-Cute-Mondlicht` | 302601 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Mr. Duncan | `9Pets-Cute-Mr-Duncan` | 310301 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Ms. Moissan | `9Pets-Cute-Ms-Moissan` | 304401 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Ms. NewBabel | `9Pets-Cute-Ms-NewBabel` | 305201 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Ms. Radio | `9Pets-Cute-Ms-Radio` | 302701 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Ms. Stranger | `9Pets-Cute-Ms-Stranger` | 314701 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Name Day | `9Pets-Cute-Name-Day` | 311801 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Nautika | `9Pets-Cute-Nautika` | 312001 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Necrologist | `9Pets-Cute-Necrologist` | 303701 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Nick Bottom | `9Pets-Cute-Nick-Bottom` | 300501 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Noire | `9Pets-Cute-Noire` | 311101 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Oliver Fog | `9Pets-Cute-Oliver-Fog` | 301801 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | ONiON | `9Pets-Cute-ONiON` | 305401 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Paper Heron | `9Pets-Cute-Paper-Heron` | 314101 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Pavia | `9Pets-Cute-Pavia` | 301501 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Pickles | `9Pets-Cute-Pickles` | 306301 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Pioneer | `9Pets-Cute-Pioneer` | 309601 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Poltergeist | `9Pets-Cute-Poltergeist` | 304601 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Rabies | `9Pets-Cute-Rabies` | 304201 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Ramona | `9Pets-Cute-Ramona` | 314201 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Recoleta | `9Pets-Cute-Recoleta` | 311401 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Reed | `9Pets-Cute-Reed` | 313801 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Regulus | `9Pets-Cute-Regulus` | 302504 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Rhiannon | `9Pets-Cute-Rhiannon` | 314601 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Rubuska | `9Pets-Cute-Rubuska` | 312501 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Satsuki | `9Pets-Cute-Satsuki` | 303801 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Semmelweis | `9Pets-Cute-Semmelweis` | 308801 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Sentinel | `9Pets-Cute-Sentinel` | 312601 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Shamane | `9Pets-Cute-Shamane` | 307201 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Silverwing Eagle | `9Pets-Cute-Silverwing-Eagle` | 315401 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Sonetto | `9Pets-Cute-Sonetto` | 302301 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Sotheby | `9Pets-Cute-Sotheby` | 300902 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Spathodea | `9Pets-Cute-Spathodea` | 307301 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Sputnik | `9Pets-Cute-Sputnik` | 305501 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Sweetheart | `9Pets-Cute-Sweetheart` | 301101 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Tennant | `9Pets-Cute-Tennant` | 304301 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | The Fool | `9Pets-Cute-The-Fool` | 301201 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Tooth Fairy | `9Pets-Cute-Tooth-Fairy` | 305301 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | TTT | `9Pets-Cute-TTT` | 303301 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Tuesday | `9Pets-Cute-Tuesday` | 309801 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Twins Sleep | `9Pets-Cute-Twins-Sleep` | 304001 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Ulrich | `9Pets-Cute-Ulrich` | 310701 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Ulu | `9Pets-Cute-Ulu` | 307601 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Vila | `9Pets-Cute-Vila` | 308701 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Voyager | `9Pets-Cute-Voyager` | 304801 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | White Rum | `9Pets-Cute-White-Rum` | 310101 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Willow | `9Pets-Cute-Willow` | 310401 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Windsong | `9Pets-Cute-Windsong` | 307701 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Zima | `9Pets-Cute-Zima` | 301301 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | X | `9Pets-Cute-X` | 301001 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Yenisei | `9Pets-Cute-Yenisei` | 308201 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
+| [x] | Cristallo | `9Pets-Cute-Cristallo` | 303101 | Built from audited official chibi Spine source with state-specific motions and a 4x detail atlas. |
+| [x] | Darley Clatter | `9Pets-Cute-Darley-Clatter` | 305001 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Desert Flannel | `9Pets-Cute-Desert-Flannel` | 307501 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Diggers | `9Pets-Cute-Diggers` | 306401 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Dikke | `9Pets-Cute-Dikke` | 302201 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Door | `9Pets-Cute-Door` | 305901 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Druvis III | `9Pets-Cute-Druvis-III` | 300301 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Eagle | `9Pets-Cute-Eagle` | 300601 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Enigma | `9Pets-Cute-Enigma` | 314301 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Erick | `9Pets-Cute-Erick` | 305801 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Eternity | `9Pets-Cute-Eternity` | 305101 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Ezio Auditore | `9Pets-Cute-Ezio-Auditore` | 312301 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Ezra Theodore | `9Pets-Cute-Ezra-Theodore` | 307401 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Fatutu | `9Pets-Cute-Fatutu` | 310901 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Flutterpage | `9Pets-Cute-Flutterpage` | 310501 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Getian | `9Pets-Cute-Getian` | 308401 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Hissabeth | `9Pets-Cute-Hissabeth` | 311601 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Horropedia | `9Pets-Cute-Horropedia` | 306101 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Igor | `9Pets-Cute-Igor` | 309201 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Isolde | `9Pets-Cute-Isolde` | 308101 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | J | `9Pets-Cute-J` | 309401 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Jessica | `9Pets-Cute-Jessica` | 305601 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Jiu Niangzi | `9Pets-Cute-Jiu-Niangzi` | 308301 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | John Titor | `9Pets-Cute-John-Titor` | 303601 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Kaalaa Baunaa | `9Pets-Cute-Kaalaa-Baunaa` | 307001 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Kakania | `9Pets-Cute-Kakania` | 308001 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Kanjira | `9Pets-Cute-Kanjira` | 307101 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Kassandra | `9Pets-Cute-Kassandra` | 312401 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Kiperina | `9Pets-Cute-Kiperina` | 311701 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | La Source | `9Pets-Cute-La-Source` | 303001 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Leilani | `9Pets-Cute-Leilani` | 303501 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Liang Yue | `9Pets-Cute-Liang-Yue` | 311001 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Lilya | `9Pets-Cute-Lilya` | 300401 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Loggerhead | `9Pets-Cute-Loggerhead` | 311201 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Lopera | `9Pets-Cute-Lopera` | 310201 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Lorelei | `9Pets-Cute-Lorelei` | 309101 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Lorentz Butterfly | `9Pets-Cute-Lorentz-Butterfly` | 313901 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Lucy | `9Pets-Cute-Lucy` | 308601 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Marcus | `9Pets-Cute-Marcus` | 306501 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Marsha | `9Pets-Cute-Marsha` | 312701 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Matilda | `9Pets-Cute-Matilda` | 304101 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Medicine Pocket | `9Pets-Cute-Medicine-Pocket` | 304701 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Melania | `9Pets-Cute-Melania` | 306201 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Mercuria | `9Pets-Cute-Mercuria` | 309501 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Mesmer Jr. | `9Pets-Cute-Mesmer-Jr` | 305701 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Moldir | `9Pets-Cute-Moldir` | 312101 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Mondlicht | `9Pets-Cute-Mondlicht` | 302601 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Mr. Duncan | `9Pets-Cute-Mr-Duncan` | 310301 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Ms. Moissan | `9Pets-Cute-Ms-Moissan` | 304401 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Ms. NewBabel | `9Pets-Cute-Ms-NewBabel` | 305201 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Ms. Radio | `9Pets-Cute-Ms-Radio` | 302701 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Ms. Stranger | `9Pets-Cute-Ms-Stranger` | 314701 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Name Day | `9Pets-Cute-Name-Day` | 311801 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Nautika | `9Pets-Cute-Nautika` | 312001 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Necrologist | `9Pets-Cute-Necrologist` | 303701 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Nick Bottom | `9Pets-Cute-Nick-Bottom` | 300501 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Noire | `9Pets-Cute-Noire` | 311101 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Oliver Fog | `9Pets-Cute-Oliver-Fog` | 301801 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | ONiON | `9Pets-Cute-ONiON` | 305401 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Paper Heron | `9Pets-Cute-Paper-Heron` | 314101 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Pavia | `9Pets-Cute-Pavia` | 301501 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Pickles | `9Pets-Cute-Pickles` | 306301 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Pioneer | `9Pets-Cute-Pioneer` | 309601 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Poltergeist | `9Pets-Cute-Poltergeist` | 304601 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Rabies | `9Pets-Cute-Rabies` | 304201 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Ramona | `9Pets-Cute-Ramona` | 314201 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Recoleta | `9Pets-Cute-Recoleta` | 311401 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Reed | `9Pets-Cute-Reed` | 313801 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Regulus | `9Pets-Cute-Regulus` | 302504 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Rhiannon | `9Pets-Cute-Rhiannon` | 314601 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Rubuska | `9Pets-Cute-Rubuska` | 312501 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Satsuki | `9Pets-Cute-Satsuki` | 303801 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Semmelweis | `9Pets-Cute-Semmelweis` | 308801 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Sentinel | `9Pets-Cute-Sentinel` | 312601 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Shamane | `9Pets-Cute-Shamane` | 307201 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Silverwing Eagle | `9Pets-Cute-Silverwing-Eagle` | 315401 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Sonetto | `9Pets-Cute-Sonetto` | 302301 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Sotheby | `9Pets-Cute-Sotheby` | 300902 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Spathodea | `9Pets-Cute-Spathodea` | 307301 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Sputnik | `9Pets-Cute-Sputnik` | 305501 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Sweetheart | `9Pets-Cute-Sweetheart` | 301101 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Tennant | `9Pets-Cute-Tennant` | 304301 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | The Fool | `9Pets-Cute-The-Fool` | 301201 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Tooth Fairy | `9Pets-Cute-Tooth-Fairy` | 305301 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | TTT | `9Pets-Cute-TTT` | 303301 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Tuesday | `9Pets-Cute-Tuesday` | 309801 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Twins Sleep | `9Pets-Cute-Twins-Sleep` | 304001 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Ulrich | `9Pets-Cute-Ulrich` | 310701 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Ulu | `9Pets-Cute-Ulu` | 307601 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Vila | `9Pets-Cute-Vila` | 308701 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Voyager | `9Pets-Cute-Voyager` | 304801 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | White Rum | `9Pets-Cute-White-Rum` | 310101 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Willow | `9Pets-Cute-Willow` | 310401 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Windsong | `9Pets-Cute-Windsong` | 307701 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Zima | `9Pets-Cute-Zima` | 301301 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | X | `9Pets-Cute-X` | 301001 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
+| [x] | Yenisei | `9Pets-Cute-Yenisei` | 308201 | Built from audited official chibi Spine source during the one-character rebuild pass, with package/site QA passing and a 4x detail atlas. |
 
 ## Per-Character Update Template
 
@@ -1027,3 +1027,1991 @@ Add dated notes here as characters are rebuilt. Keep notes concise, factual, and
 - Files changed: updated `tools/build_pets_site.py`, `docs/app.js`, `docs/pet.js`, `tools/verify_build.py`, `tools/smoke_site.py`, rebuilt `9Pets-Cute-Baby-Blue`, regenerated docs data, and added Cute source art images for existing Cute packages.
 - Verification: `python -m py_compile tools\build_pets_site.py tools\smoke_site.py tools\verify_build.py`, `node --check docs\app.js`, `node --check docs\pet.js`, `python tools\verify_build.py`, and `python tools\smoke_site.py` passed. Build verifier now reports `pets=125 official=125`; Cute total remains `28`.
 - Decision: accepted as the current site-data contract. Do not re-add Baby Blue or Balloon Party to the Normal catalog unless their blocked Normal rows are explicitly accepted later.
+
+### 2026-06-12 - Cristallo Normal / 9Pets-Cristallo
+- Source audit: no matching normal Cubism `*.model3.json` was found under `live2d/roles` for asset id `303101`; unrelated Matilda motions named `b_shuijingqiu.motion3.json` were not used.
+- Normal source decision: selected `roles/303101_qianboli/303101_qianboli_room.skel` as the normal-equivalent animated source instead of `303101_qianboli_fight.skel` or the smaller `_s` folder.
+- Spine source: `303101_qianboli_room.skel` with animations `click`, `hit`, `idle`, `idle_birthday_loop`, `idle_birthday_up`, `sleep`, and `walk`.
+- Motions selected: `idle=idle`, `running-right=walk`, `running-left=walk` with renderer flip, `waving=click`, `jumping=idle_birthday_up`, `failed=hit`, `waiting=sleep`, `running=idle_birthday_loop`, `review=click`.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; detail atlas scale is `4`.
+- Files changed: added the scoped Cristallo normal room Spine profile, rebuilt `pets/9Pets-Cristallo`, `docs/assets/spritesheets/9Pets-Cristallo.webp`, `docs/assets/detail-spritesheets/9Pets-Cristallo.webp`, `docs/assets/previews/9Pets-Cristallo.png`, `docs/downloads/9Pets-Cristallo.zip`, and docs data for Cristallo.
+- QA artifacts: `C:\tmp\9pets-cristallo-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Cristallo Cute / 9Pets-Cute-Cristallo
+- Source audit: local official chibi Spine folder `roles/303101_qianboli`; alternate smaller folder `roles/303101_qianboli_s` also exists but was not used for this cute pass.
+- Spine source: `303101_qianboli_fight.skel` with animations `born`, `die`, `freeze`, `giddy`, `hit`, `idle`, `posture`, `skill1`, `skill2`, `sleep`, and `unique`.
+- Motions selected: `idle=idle`, `running-right=posture`, `running-left=posture` with renderer flip, `waving=giddy`, `jumping=skill1`, `failed=hit`, `waiting=sleep`, `running=skill2`, `review=unique`.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; detail atlas scale is `4`.
+- Files changed: added the scoped Cristallo cute Spine profile, built `pets/9Pets-Cute-Cristallo`, `docs/assets/spritesheets/9Pets-Cute-Cristallo.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Cristallo.webp`, `docs/assets/previews/9Pets-Cute-Cristallo.png`, `docs/assets/source/9Pets-Cute-Cristallo.png`, `docs/downloads/9Pets-Cute-Cristallo.zip`, and docs cute data for Cristallo.
+- QA artifacts: `C:\tmp\9pets-cute-cristallo-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Darley Clatter Normal / 9Pets-Darley-Clatter
+- Source audit: no matching normal Cubism `*.model3.json` was found under `live2d/roles` for asset id `305001`; the official Spine folder `roles/305001_dadadali` contains `305001_dadadali_room.skel`, `305001_dadadali_ui.skel`, and `305001_dadadali_fight.skel`.
+- Normal source decision: selected `roles/305001_dadadali/305001_dadadali_room.skel` as the normal-equivalent animated source and did not mix in the fight/cute track.
+- Spine source: `305001_dadadali_room.skel` with room motions used by the renderer profile.
+- Motions selected: `idle=idle`, `running-right=walk`, `running-left=walk` with renderer flip, `waving=click`, `jumping=idle_birthday_up`, `failed=hit`, `waiting=sleep`, `running=idle_birthday_loop`, `review=click`.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; detail atlas scale is `4`.
+- Files changed: added the scoped Darley Clatter normal room Spine profile, rebuilt `pets/9Pets-Darley-Clatter`, `docs/assets/spritesheets/9Pets-Darley-Clatter.webp`, `docs/assets/detail-spritesheets/9Pets-Darley-Clatter.webp`, `docs/assets/previews/9Pets-Darley-Clatter.png`, `docs/downloads/9Pets-Darley-Clatter.zip`, and docs data for Darley Clatter.
+- QA artifacts: `C:\tmp\9pets-darley-clatter-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Darley Clatter Cute / 9Pets-Cute-Darley-Clatter
+- Source audit: local official chibi/fight Spine folder `roles/305001_dadadali`; smaller alternate folder was not required for this cute pass.
+- Spine source: `305001_dadadali_fight.skel`.
+- Motions selected: `idle=idle`, `running-right=posture`, `running-left=posture` with renderer flip, `waving=giddy`, `jumping=skill1`, `failed=hit`, `waiting=sleep`, `running=posture`, `review=posture`.
+- Rejected motions: an earlier `review=unique` candidate produced a detached flying object, and an earlier `running=skill2` candidate produced partial wheel/horse fragments; both were replaced with the cleaner `posture` motion.
+- Capture settings: `1200x1200`, scale `4.0`, x `600`, y `900`; detail atlas scale is `4`.
+- Files changed: added the scoped Darley Clatter cute Spine profile, built `pets/9Pets-Cute-Darley-Clatter`, `docs/assets/spritesheets/9Pets-Cute-Darley-Clatter.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Darley-Clatter.webp`, `docs/assets/previews/9Pets-Cute-Darley-Clatter.png`, `docs/assets/source/9Pets-Cute-Darley-Clatter.png`, `docs/downloads/9Pets-Cute-Darley-Clatter.zip`, and docs cute data for Darley Clatter.
+- QA artifacts: `C:\tmp\9pets-cute-darley-clatter-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Desert Flannel Normal / 9Pets-Desert-Flannel
+- Source audit: local normal Cubism folder `live2d/roles/v1a5_307501_shasirong` exists with `*.model3.json` and the expected motion set; local Spine folder `roles/v1a5_307501_shasirong` was reserved for Cute/fallback use.
+- Live2D source: `live2d/roles/v1a5_307501_shasirong`.
+- Motions selected by the renderer: `idle=b_idle.motion3.json`, `running-right=b_yaotou.motion3.json`, `running-left=b_yaotou.motion3.json`, `waving=b_jushou.motion3.json`, `jumping=b_diantou.motion3.json`, `failed=t_nanguo.motion3.json`, `waiting=b_tanshou.motion3.json`, `running=b_diantou.motion3.json`, `review=b_diantou.motion3.json`.
+- Capture settings: default Live2D capture with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Desert-Flannel`, `docs/assets/spritesheets/9Pets-Desert-Flannel.webp`, `docs/assets/detail-spritesheets/9Pets-Desert-Flannel.webp`, `docs/assets/previews/9Pets-Desert-Flannel.png`, `docs/downloads/9Pets-Desert-Flannel.zip`, and docs data for Desert Flannel.
+- QA artifacts: `C:\tmp\9pets-desert-flannel-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Desert Flannel Cute / 9Pets-Cute-Desert-Flannel
+- Source audit: local official chibi/fight Spine folder `roles/v1a5_307501_shasirong`; alternate `_s` folder exists but was not used for this cute pass.
+- Spine source: `307501_shasirong_fight.skel` with animations `born`, `change`, `change2`, `die`, `freeze`, `giddy`, `hit`, `idle`, `posture`, `skill1`, `skill2`, `sleep`, and `unique`.
+- Motions selected by the renderer: `idle=idle`, `running-right=posture`, `running-left=posture` with renderer flip, `waving=giddy`, `jumping=skill1`, `failed=hit`, `waiting=sleep`, `running=skill2`, `review=unique`.
+- Capture settings: default fight Spine capture with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Desert-Flannel`, `docs/assets/spritesheets/9Pets-Cute-Desert-Flannel.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Desert-Flannel.webp`, `docs/assets/previews/9Pets-Cute-Desert-Flannel.png`, `docs/assets/source/9Pets-Cute-Desert-Flannel.png`, `docs/downloads/9Pets-Cute-Desert-Flannel.zip`, and docs cute data for Desert Flannel.
+- QA artifacts: `C:\tmp\9pets-cute-desert-flannel-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Diggers Normal / 9Pets-Diggers
+- Source audit: local normal Cubism folder `live2d/roles/306401_wajueyishu` exists; local Spine folders `roles/306401_wajueyishu` and `roles/306401_wajueyishu_s` also exist.
+- Live2D source: `live2d/roles/306401_wajueyishu`.
+- Motions selected by the renderer: `idle=b_idle.motion3.json`, `running-right=b_yaotou.motion3.json`, `running-left=b_yaotou.motion3.json`, `waving=b_diantou.motion3.json`, `jumping=b_diantou.motion3.json`, `failed=t_nanguo.motion3.json`, `waiting=b_diantou.motion3.json`, `running=b_diantou.motion3.json`, `review=b_diantou.motion3.json`.
+- Capture settings: default Live2D capture with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Diggers`, `docs/assets/spritesheets/9Pets-Diggers.webp`, `docs/assets/detail-spritesheets/9Pets-Diggers.webp`, `docs/assets/previews/9Pets-Diggers.png`, `docs/downloads/9Pets-Diggers.zip`, and docs data for Diggers.
+- QA artifacts: `C:\tmp\9pets-diggers-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed after the Cute repair; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Diggers Cute / 9Pets-Cute-Diggers
+- Source audit: local official chibi/fight Spine folder `roles/306401_wajueyishu`; alternate `_s` folder exists but was not used for this cute pass.
+- Spine source: `306401_wajueyishu_fight.skel` with animations `born`, `die`, `freeze`, `giddy`, `hit`, `idle`, `innate`, `posture`, `skill1`, `skill2`, `sleep`, and `unique`.
+- Rejected motion: the default `jumping=skill1` candidate produced an empty frame in row 4, column 1, so a Diggers-specific profile replaced `jumping` with `posture`.
+- Motions selected by the accepted renderer pass: `idle=idle`, `running-right=posture`, `running-left=posture` with renderer flip, `waving=giddy`, `jumping=posture`, `failed=hit`, `waiting=sleep`, `running=posture`, `review=posture`.
+- Capture settings: scoped fight Spine profile at `1200x1200`, scale `2.2`, x `600`, y `900`; detail atlas scale is `4`.
+- Files changed: added the scoped Diggers cute Spine profile, built `pets/9Pets-Cute-Diggers`, `docs/assets/spritesheets/9Pets-Cute-Diggers.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Diggers.webp`, `docs/assets/previews/9Pets-Cute-Diggers.png`, `docs/assets/source/9Pets-Cute-Diggers.png`, `docs/downloads/9Pets-Cute-Diggers.zip`, and docs cute data for Diggers.
+- QA artifacts: `C:\tmp\9pets-cute-diggers-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Dikke Normal / 9Pets-Dikke
+- Source audit: local normal Cubism folder `live2d/roles/302201_pamiai` exists with 19 motion files; local Spine path is `roles/302201_pamiai`.
+- Normal source: `live2d/roles/302201_pamiai`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_baoxiong.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Dikke`, `docs/assets/spritesheets/9Pets-Dikke.webp`, `docs/assets/detail-spritesheets/9Pets-Dikke.webp`, `docs/assets/previews/9Pets-Dikke.png`, `docs/downloads/9Pets-Dikke.zip`, and docs data for Dikke.
+- QA artifacts: `C:\tmp\9pets-dikke-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Dikke Cute / 9Pets-Cute-Dikke
+- Source audit: local official chibi/fight Spine source `roles/302201_pamiai/302201_pamiai_fight.skel`.
+- Spine source: `302201_pamiai_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Dikke`, `docs/assets/spritesheets/9Pets-Cute-Dikke.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Dikke.webp`, `docs/assets/previews/9Pets-Cute-Dikke.png`, `docs/assets/source/9Pets-Cute-Dikke.png`, `docs/downloads/9Pets-Cute-Dikke.zip`, and docs cute data for Dikke.
+- QA artifacts: `C:\tmp\9pets-cute-dikke-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Door Normal / 9Pets-Door
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/305901_door/305901_door_room.skel`; local Spine path is `roles/305901_door`.
+- Normal source: `roles/305901_door/305901_door_room.skel`.
+- Rejected motions: the first `jumping=idle_birthday_up` and `running=idle_birthday_loop` candidate produced detached diagonal line fragments, so a Door-specific profile replaced both with `walk`.
+- Motions selected by the accepted renderer pass: `idle=idle`, `running-right=walk`, `running-left=walk`, `waving=click`, `jumping=walk`, `failed=hit`, `waiting=sleep`, `running=walk`, `review=click`.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Door`, `docs/assets/spritesheets/9Pets-Door.webp`, `docs/assets/detail-spritesheets/9Pets-Door.webp`, `docs/assets/previews/9Pets-Door.png`, `docs/downloads/9Pets-Door.zip`, and docs data for Door.
+- QA artifacts: `C:\tmp\9pets-door-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Door Cute / 9Pets-Cute-Door
+- Source audit: local official chibi/fight Spine source `roles/305901_door/305901_door_fight.skel`.
+- Spine source: `305901_door_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Door`, `docs/assets/spritesheets/9Pets-Cute-Door.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Door.webp`, `docs/assets/previews/9Pets-Cute-Door.png`, `docs/assets/source/9Pets-Cute-Door.png`, `docs/downloads/9Pets-Cute-Door.zip`, and docs cute data for Door.
+- QA artifacts: `C:\tmp\9pets-cute-door-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Druvis III Normal / 9Pets-Druvis-III
+- Source audit: local normal Cubism folder `live2d/roles/300301_hujisheng` exists with 19 motion files; local Spine path is `roles/300301_hujisheng`.
+- Normal source: `live2d/roles/300301_hujisheng`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yangtou.motion3.json, running-left=b_yangtou.motion3.json, waving=b_diantou.motion3.json, jumping=b_yangtou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Druvis-III`, `docs/assets/spritesheets/9Pets-Druvis-III.webp`, `docs/assets/detail-spritesheets/9Pets-Druvis-III.webp`, `docs/assets/previews/9Pets-Druvis-III.png`, `docs/downloads/9Pets-Druvis-III.zip`, and docs data for Druvis III.
+- QA artifacts: `C:\tmp\9pets-druvis-iii-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Druvis III Cute / 9Pets-Cute-Druvis-III
+- Source audit: local official chibi/fight Spine source `roles/300301_hujisheng/300301_hujisheng_fight.skel`.
+- Spine source: `300301_hujisheng_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Druvis-III`, `docs/assets/spritesheets/9Pets-Cute-Druvis-III.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Druvis-III.webp`, `docs/assets/previews/9Pets-Cute-Druvis-III.png`, `docs/assets/source/9Pets-Cute-Druvis-III.png`, `docs/downloads/9Pets-Cute-Druvis-III.zip`, and docs cute data for Druvis III.
+- QA artifacts: `C:\tmp\9pets-cute-druvis-iii-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Eagle Normal / 9Pets-Eagle
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/300601_xiaochunqueer/300601_xiaochunqueer_room.skel`; local Spine path is `roles/300601_xiaochunqueer`.
+- Normal source: `roles/300601_xiaochunqueer/300601_xiaochunqueer_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=idle_birthday_up, failed=hit, waiting=sleep, running=idle_birthday_loop, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Eagle`, `docs/assets/spritesheets/9Pets-Eagle.webp`, `docs/assets/detail-spritesheets/9Pets-Eagle.webp`, `docs/assets/previews/9Pets-Eagle.png`, `docs/downloads/9Pets-Eagle.zip`, and docs data for Eagle.
+- QA artifacts: `C:\tmp\9pets-eagle-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Eagle Cute / 9Pets-Cute-Eagle
+- Source audit: local official chibi/fight Spine source `roles/300601_xiaochunqueer/300601_xiaochunqueer_fight.skel`.
+- Spine source: `300601_xiaochunqueer_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Eagle`, `docs/assets/spritesheets/9Pets-Cute-Eagle.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Eagle.webp`, `docs/assets/previews/9Pets-Cute-Eagle.png`, `docs/assets/source/9Pets-Cute-Eagle.png`, `docs/downloads/9Pets-Cute-Eagle.zip`, and docs cute data for Eagle.
+- QA artifacts: `C:\tmp\9pets-cute-eagle-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Enigma Normal / 9Pets-Enigma
+- Source audit: local normal Cubism folder `live2d/roles/v3a6_314301_yami` exists with 19 motion files, but the renderer produced a black silhouette despite a valid color texture; local room Spine path `roles/v3a6_314301_ym` was selected as the normal-equivalent repair source.
+- Normal source: `roles/v3a6_314301_ym/314301_ym_room.skel`.
+- Rejected source: `live2d/roles/v3a6_314301_yami` until the Cubism renderer/material issue is fixed.
+- Motions selected by the accepted renderer pass: `idle=idle`, `running-right=walk`, `running-left=walk`, `waving=click`, `jumping=idle_birthday_up`, `failed=hit`, `waiting=sleep`, `running=idle_birthday_loop`, `review=click`.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Enigma`, `docs/assets/spritesheets/9Pets-Enigma.webp`, `docs/assets/detail-spritesheets/9Pets-Enigma.webp`, `docs/assets/previews/9Pets-Enigma.png`, `docs/downloads/9Pets-Enigma.zip`, and docs data for Enigma.
+- QA artifacts: `C:\tmp\9pets-enigma-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine repair pass.
+
+### 2026-06-12 - Enigma Cute / 9Pets-Cute-Enigma
+- Source audit: local official chibi/fight Spine source `roles/v3a6_314301_ym/314301_ym_fight.skel`.
+- Spine source: `314301_ym_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Enigma`, `docs/assets/spritesheets/9Pets-Cute-Enigma.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Enigma.webp`, `docs/assets/previews/9Pets-Cute-Enigma.png`, `docs/assets/source/9Pets-Cute-Enigma.png`, `docs/downloads/9Pets-Cute-Enigma.zip`, and docs cute data for Enigma.
+- QA artifacts: `C:\tmp\9pets-cute-enigma-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Erick Normal / 9Pets-Erick
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/305801_ailike/305801_ailike_room.skel`; local Spine path is `roles/305801_ailike`.
+- Normal source: `roles/305801_ailike/305801_ailike_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=walk, failed=hit, waiting=sleep, running=walk, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Erick`, `docs/assets/spritesheets/9Pets-Erick.webp`, `docs/assets/detail-spritesheets/9Pets-Erick.webp`, `docs/assets/previews/9Pets-Erick.png`, `docs/downloads/9Pets-Erick.zip`, and docs data for Erick.
+- QA artifacts: `C:\tmp\9pets-erick-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Erick Cute / 9Pets-Cute-Erick
+- Source audit: local official chibi/fight Spine source `roles/305801_ailike/305801_ailike_fight.skel`.
+- Spine source: `305801_ailike_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Erick`, `docs/assets/spritesheets/9Pets-Cute-Erick.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Erick.webp`, `docs/assets/previews/9Pets-Cute-Erick.png`, `docs/assets/source/9Pets-Cute-Erick.png`, `docs/downloads/9Pets-Cute-Erick.zip`, and docs cute data for Erick.
+- QA artifacts: `C:\tmp\9pets-cute-erick-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Eternity Normal / 9Pets-Eternity
+- Source audit: local normal Cubism folder `live2d/roles/305101_wennifuleide` exists with 20 motion files; local Spine path is `roles/305101_wennifuleide`.
+- Normal source: `live2d/roles/305101_wennifuleide`.
+- Rejected capture: the first default Live2D camera pass clipped the head and upper body, so an Eternity-specific capture profile was added.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_baoxiong.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: `1800x1800`, scale `0.68`, x `1050`, y `600`; detail atlas scale is `4`.
+- Files changed: rebuilt `pets/9Pets-Eternity`, `docs/assets/spritesheets/9Pets-Eternity.webp`, `docs/assets/detail-spritesheets/9Pets-Eternity.webp`, `docs/assets/previews/9Pets-Eternity.png`, `docs/downloads/9Pets-Eternity.zip`, and docs data for Eternity.
+- QA artifacts: `C:\tmp\9pets-eternity-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Eternity Cute / 9Pets-Cute-Eternity
+- Source audit: local official chibi/fight Spine source `roles/305101_wennifuleide/305101_wennifuleide_fight.skel`.
+- Spine source: `305101_wennifuleide_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Eternity`, `docs/assets/spritesheets/9Pets-Cute-Eternity.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Eternity.webp`, `docs/assets/previews/9Pets-Cute-Eternity.png`, `docs/assets/source/9Pets-Cute-Eternity.png`, `docs/downloads/9Pets-Cute-Eternity.zip`, and docs cute data for Eternity.
+- QA artifacts: `C:\tmp\9pets-cute-eternity-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Ezio Auditore Normal / 9Pets-Ezio-Auditore
+- Source audit: local normal Cubism folder `live2d/roles/s01_312301_aja` exists with 20 motion files; local Spine path is `roles/s01_312301_ajaadtl`.
+- Normal source: `live2d/roles/s01_312301_aja`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_tanshou.motion3.json, jumping=b_diantou.motion3.json, failed=b_diantou.motion3.json, waiting=b_tanshou.motion3.json, running=t_renzhen.motion3.json, review=t_renzhen.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Ezio-Auditore`, `docs/assets/spritesheets/9Pets-Ezio-Auditore.webp`, `docs/assets/detail-spritesheets/9Pets-Ezio-Auditore.webp`, `docs/assets/previews/9Pets-Ezio-Auditore.png`, `docs/downloads/9Pets-Ezio-Auditore.zip`, and docs data for Ezio Auditore.
+- QA artifacts: `C:\tmp\9pets-ezio-auditore-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Ezio Auditore Cute / 9Pets-Cute-Ezio-Auditore
+- Source audit: local official chibi/fight Spine source `roles/s01_312301_ajaadtl/312301_ajaadtl_fight.skel`.
+- Spine source: `312301_ajaadtl_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=posture, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Ezio-Auditore`, `docs/assets/spritesheets/9Pets-Cute-Ezio-Auditore.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Ezio-Auditore.webp`, `docs/assets/previews/9Pets-Cute-Ezio-Auditore.png`, `docs/assets/source/9Pets-Cute-Ezio-Auditore.png`, `docs/downloads/9Pets-Cute-Ezio-Auditore.zip`, and docs cute data for Ezio Auditore.
+- QA artifacts: `C:\tmp\9pets-cute-ezio-auditore-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Ezra Theodore Normal / 9Pets-Ezra-Theodore
+- Source audit: local normal Cubism folder `live2d/roles/v1a5_307401_aizila` exists with 26 motion files; local Spine path is `roles/v1a5_307401_aizila`.
+- Normal source: `live2d/roles/v1a5_307401_aizila`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_jushou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=t_yihuo.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Ezra-Theodore`, `docs/assets/spritesheets/9Pets-Ezra-Theodore.webp`, `docs/assets/detail-spritesheets/9Pets-Ezra-Theodore.webp`, `docs/assets/previews/9Pets-Ezra-Theodore.png`, `docs/downloads/9Pets-Ezra-Theodore.zip`, and docs data for Ezra Theodore.
+- QA artifacts: `C:\tmp\9pets-ezra-theodore-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Ezra Theodore Cute / 9Pets-Cute-Ezra-Theodore
+- Source audit: local official chibi/fight Spine source `roles/v1a5_307401_aizila/307401_aizila_fight.skel`.
+- Spine source: `307401_aizila_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Ezra-Theodore`, `docs/assets/spritesheets/9Pets-Cute-Ezra-Theodore.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Ezra-Theodore.webp`, `docs/assets/previews/9Pets-Cute-Ezra-Theodore.png`, `docs/assets/source/9Pets-Cute-Ezra-Theodore.png`, `docs/downloads/9Pets-Cute-Ezra-Theodore.zip`, and docs cute data for Ezra Theodore.
+- QA artifacts: `C:\tmp\9pets-cute-ezra-theodore-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Fatutu Normal / 9Pets-Fatutu
+- Source audit: local normal Cubism folder `live2d/roles/v2a4_310901_ttsz` exists with 32 motion files; local Spine path is `roles/v2a4_310901_ttsz`.
+- Normal source: `live2d/roles/v2a4_310901_ttsz`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_baishou.motion3.json, running-left=b_baishou.motion3.json, waving=b_baishou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=t_yihuo.motion3.json, running=b_diantou.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Fatutu`, `docs/assets/spritesheets/9Pets-Fatutu.webp`, `docs/assets/detail-spritesheets/9Pets-Fatutu.webp`, `docs/assets/previews/9Pets-Fatutu.png`, `docs/downloads/9Pets-Fatutu.zip`, and docs data for Fatutu.
+- QA artifacts: `C:\tmp\9pets-fatutu-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Fatutu Cute / 9Pets-Cute-Fatutu
+- Source audit: local official chibi/fight Spine source `roles/v2a4_310901_ttsz/310901_ttsz_fight.skel`.
+- Spine source: `310901_ttsz_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Fatutu`, `docs/assets/spritesheets/9Pets-Cute-Fatutu.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Fatutu.webp`, `docs/assets/previews/9Pets-Cute-Fatutu.png`, `docs/assets/source/9Pets-Cute-Fatutu.png`, `docs/downloads/9Pets-Cute-Fatutu.zip`, and docs cute data for Fatutu.
+- QA artifacts: `C:\tmp\9pets-cute-fatutu-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Flutterpage Normal / 9Pets-Flutterpage
+- Source audit: local normal Cubism folder `live2d/roles/v2a3_310501_zxqe` exists with 21 motion files; local Spine path is `roles/v2a3_310501_zxqe`.
+- Normal source: `live2d/roles/v2a3_310501_zxqe`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_beishou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Flutterpage`, `docs/assets/spritesheets/9Pets-Flutterpage.webp`, `docs/assets/detail-spritesheets/9Pets-Flutterpage.webp`, `docs/assets/previews/9Pets-Flutterpage.png`, `docs/downloads/9Pets-Flutterpage.zip`, and docs data for Flutterpage.
+- QA artifacts: `C:\tmp\9pets-flutterpage-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Flutterpage Cute / 9Pets-Cute-Flutterpage
+- Source audit: local official chibi/fight Spine source `roles/v2a3_310501_zxqe/310501_zxqe_fight.skel`.
+- Spine source: `310501_zxqe_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Flutterpage`, `docs/assets/spritesheets/9Pets-Cute-Flutterpage.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Flutterpage.webp`, `docs/assets/previews/9Pets-Cute-Flutterpage.png`, `docs/assets/source/9Pets-Cute-Flutterpage.png`, `docs/downloads/9Pets-Cute-Flutterpage.zip`, and docs cute data for Flutterpage.
+- QA artifacts: `C:\tmp\9pets-cute-flutterpage-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Getian Normal / 9Pets-Getian
+- Source audit: local normal Cubism folder `live2d/roles/v1a6_308401_gt` exists with 21 motion files; local Spine path is `roles/v1a6_308401_gt`.
+- Normal source: `live2d/roles/v1a6_308401_gt`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_dakeshui.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=t_yihuo.motion3.json, running=b_diantou.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Getian`, `docs/assets/spritesheets/9Pets-Getian.webp`, `docs/assets/detail-spritesheets/9Pets-Getian.webp`, `docs/assets/previews/9Pets-Getian.png`, `docs/downloads/9Pets-Getian.zip`, and docs data for Getian.
+- QA artifacts: `C:\tmp\9pets-getian-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Getian Cute / 9Pets-Cute-Getian
+- Source audit: local official chibi/fight Spine source `roles/v1a6_308401_gt/308401_gt_fight.skel`.
+- Spine source: `308401_gt_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=posture, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Getian`, `docs/assets/spritesheets/9Pets-Cute-Getian.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Getian.webp`, `docs/assets/previews/9Pets-Cute-Getian.png`, `docs/assets/source/9Pets-Cute-Getian.png`, `docs/downloads/9Pets-Cute-Getian.zip`, and docs cute data for Getian.
+- QA artifacts: `C:\tmp\9pets-cute-getian-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Hissabeth Normal / 9Pets-Hissabeth
+- Source audit: local normal Cubism folder `live2d/roles/v2a7_311601_lzl` exists with 21 motion files; local Spine path is `roles/v2a7_311601_lzl`.
+- Normal source: `live2d/roles/v2a7_311601_lzl`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_taishou.motion3.json, jumping=b_diantou.motion3.json, failed=t_shengqi.motion3.json, waiting=b_diantou.motion3.json, running=t_renzhen.motion3.json, review=t_renzhen.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Hissabeth`, `docs/assets/spritesheets/9Pets-Hissabeth.webp`, `docs/assets/detail-spritesheets/9Pets-Hissabeth.webp`, `docs/assets/previews/9Pets-Hissabeth.png`, `docs/downloads/9Pets-Hissabeth.zip`, and docs data for Hissabeth.
+- QA artifacts: `C:\tmp\9pets-hissabeth-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Hissabeth Cute / 9Pets-Cute-Hissabeth
+- Source audit: local official chibi/fight Spine source `roles/v2a7_311601_lzl/311601_lzl_fight.skel`.
+- Spine source: `311601_lzl_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Hissabeth`, `docs/assets/spritesheets/9Pets-Cute-Hissabeth.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Hissabeth.webp`, `docs/assets/previews/9Pets-Cute-Hissabeth.png`, `docs/assets/source/9Pets-Cute-Hissabeth.png`, `docs/downloads/9Pets-Cute-Hissabeth.zip`, and docs cute data for Hissabeth.
+- QA artifacts: `C:\tmp\9pets-cute-hissabeth-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Horropedia Normal / 9Pets-Horropedia
+- Source audit: local normal Cubism folder `live2d/roles/306101_kongbutong` exists with 19 motion files; local Spine path is `roles/306101_kongbutong`.
+- Normal source: `live2d/roles/306101_kongbutong`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_chiqiang.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Horropedia`, `docs/assets/spritesheets/9Pets-Horropedia.webp`, `docs/assets/detail-spritesheets/9Pets-Horropedia.webp`, `docs/assets/previews/9Pets-Horropedia.png`, `docs/downloads/9Pets-Horropedia.zip`, and docs data for Horropedia.
+- QA artifacts: `C:\tmp\9pets-horropedia-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Horropedia Cute / 9Pets-Cute-Horropedia
+- Source audit: local official chibi/fight Spine source `roles/306101_kongbutong/306101_kongbutong_fight.skel`.
+- Spine source: `306101_kongbutong_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Horropedia`, `docs/assets/spritesheets/9Pets-Cute-Horropedia.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Horropedia.webp`, `docs/assets/previews/9Pets-Cute-Horropedia.png`, `docs/assets/source/9Pets-Cute-Horropedia.png`, `docs/downloads/9Pets-Cute-Horropedia.zip`, and docs cute data for Horropedia.
+- QA artifacts: `C:\tmp\9pets-cute-horropedia-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Igor Normal / 9Pets-Igor
+- Source audit: local normal Cubism folder `live2d/roles/v3a3_309201_yge` exists with 21 motion files; local Spine path is `roles/v3a3_309201_yge`.
+- Normal source: `live2d/roles/v3a3_309201_yge`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_tanshou.motion3.json, jumping=b_diantou.motion3.json, failed=t_shengqi.motion3.json, waiting=b_tanshou.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Igor`, `docs/assets/spritesheets/9Pets-Igor.webp`, `docs/assets/detail-spritesheets/9Pets-Igor.webp`, `docs/assets/previews/9Pets-Igor.png`, `docs/downloads/9Pets-Igor.zip`, and docs data for Igor.
+- QA artifacts: `C:\tmp\9pets-igor-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Igor Cute / 9Pets-Cute-Igor
+- Source audit: local official chibi/fight Spine source `roles/v3a3_309201_yge/309201_yge_fight.skel`.
+- Spine source: `309201_yge_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Igor`, `docs/assets/spritesheets/9Pets-Cute-Igor.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Igor.webp`, `docs/assets/previews/9Pets-Cute-Igor.png`, `docs/assets/source/9Pets-Cute-Igor.png`, `docs/downloads/9Pets-Cute-Igor.zip`, and docs cute data for Igor.
+- QA artifacts: `C:\tmp\9pets-cute-igor-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Isolde Normal / 9Pets-Isolde
+- Source audit: local normal Cubism folder `live2d/roles/v1a7_308101_yisuoerde` exists with 25 motion files; local Spine path is `roles/v1a7_308101_ysed`.
+- Normal source: `live2d/roles/v1a7_308101_yisuoerde`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaoqing.motion3.json, running-left=b_yaoqing.motion3.json, waving=b_yaoqing.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Isolde`, `docs/assets/spritesheets/9Pets-Isolde.webp`, `docs/assets/detail-spritesheets/9Pets-Isolde.webp`, `docs/assets/previews/9Pets-Isolde.png`, `docs/downloads/9Pets-Isolde.zip`, and docs data for Isolde.
+- QA artifacts: `C:\tmp\9pets-isolde-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Isolde Cute / 9Pets-Cute-Isolde
+- Source audit: local official chibi/fight Spine source `roles/v1a7_308101_ysed/308101_ysed_fight.skel`.
+- Spine source: `308101_ysed_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Isolde`, `docs/assets/spritesheets/9Pets-Cute-Isolde.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Isolde.webp`, `docs/assets/previews/9Pets-Cute-Isolde.png`, `docs/assets/source/9Pets-Cute-Isolde.png`, `docs/downloads/9Pets-Cute-Isolde.zip`, and docs cute data for Isolde.
+- QA artifacts: `C:\tmp\9pets-cute-isolde-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - J Normal / 9Pets-J
+- Source audit: local normal Cubism folder `live2d/roles/v2a0_309401_j` exists with 20 motion files; local Spine path is `roles/v2a0_309401_j`.
+- Normal source: `live2d/roles/v2a0_309401_j`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_tanshou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_tanshou.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-J`, `docs/assets/spritesheets/9Pets-J.webp`, `docs/assets/detail-spritesheets/9Pets-J.webp`, `docs/assets/previews/9Pets-J.png`, `docs/downloads/9Pets-J.zip`, and docs data for J.
+- QA artifacts: `C:\tmp\9pets-j-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - J Cute / 9Pets-Cute-J
+- Source audit: local official chibi/fight Spine source `roles/v2a0_309401_j/309401_j_fight.skel`.
+- Spine source: `309401_j_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-J`, `docs/assets/spritesheets/9Pets-Cute-J.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-J.webp`, `docs/assets/previews/9Pets-Cute-J.png`, `docs/assets/source/9Pets-Cute-J.png`, `docs/downloads/9Pets-Cute-J.zip`, and docs cute data for J.
+- QA artifacts: `C:\tmp\9pets-cute-j-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Jessica Normal / 9Pets-Jessica
+- Source audit: local normal Cubism folder `live2d/roles/305601_jiexika` exists with 19 motion files; local Spine path is `roles/305601_jiexika`.
+- Normal source: `live2d/roles/305601_jiexika`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_shenshou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_waitou.motion3.json, running=b_moxiaba.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Jessica`, `docs/assets/spritesheets/9Pets-Jessica.webp`, `docs/assets/detail-spritesheets/9Pets-Jessica.webp`, `docs/assets/previews/9Pets-Jessica.png`, `docs/downloads/9Pets-Jessica.zip`, and docs data for Jessica.
+- QA artifacts: `C:\tmp\9pets-jessica-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Jessica Cute / 9Pets-Cute-Jessica
+- Source audit: local official chibi/fight Spine source `roles/305601_jiexika/305601_jiexika_fight.skel`.
+- Spine source: `305601_jiexika_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Jessica`, `docs/assets/spritesheets/9Pets-Cute-Jessica.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Jessica.webp`, `docs/assets/previews/9Pets-Cute-Jessica.png`, `docs/assets/source/9Pets-Cute-Jessica.png`, `docs/downloads/9Pets-Cute-Jessica.zip`, and docs cute data for Jessica.
+- QA artifacts: `C:\tmp\9pets-cute-jessica-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Jiu Niangzi Normal / 9Pets-Jiu-Niangzi
+- Source audit: local normal Cubism folder `live2d/roles/v1a6_308301_quniang` exists with 23 motion files; local Spine path is `roles/v1a6_308301_qn`.
+- Normal source: `live2d/roles/v1a6_308301_quniang`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_taishou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=t_sikao.motion3.json, review=t_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Jiu-Niangzi`, `docs/assets/spritesheets/9Pets-Jiu-Niangzi.webp`, `docs/assets/detail-spritesheets/9Pets-Jiu-Niangzi.webp`, `docs/assets/previews/9Pets-Jiu-Niangzi.png`, `docs/downloads/9Pets-Jiu-Niangzi.zip`, and docs data for Jiu Niangzi.
+- QA artifacts: `C:\tmp\9pets-jiu-niangzi-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Jiu Niangzi Cute / 9Pets-Cute-Jiu-Niangzi
+- Source audit: local official chibi/fight Spine source `roles/v1a6_308301_qn/308301_qn_fight.skel`.
+- Spine source: `308301_qn_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Jiu-Niangzi`, `docs/assets/spritesheets/9Pets-Cute-Jiu-Niangzi.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Jiu-Niangzi.webp`, `docs/assets/previews/9Pets-Cute-Jiu-Niangzi.png`, `docs/assets/source/9Pets-Cute-Jiu-Niangzi.png`, `docs/downloads/9Pets-Cute-Jiu-Niangzi.zip`, and docs cute data for Jiu Niangzi.
+- QA artifacts: `C:\tmp\9pets-cute-jiu-niangzi-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - John Titor Normal / 9Pets-John-Titor
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/303601_yuehantituo/303601_yuehantituo_room.skel`; local Spine path is `roles/303601_yuehantituo`.
+- Normal source: `roles/303601_yuehantituo/303601_yuehantituo_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=idle_birthday_up, failed=hit, waiting=sleep, running=idle_birthday_loop, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-John-Titor`, `docs/assets/spritesheets/9Pets-John-Titor.webp`, `docs/assets/detail-spritesheets/9Pets-John-Titor.webp`, `docs/assets/previews/9Pets-John-Titor.png`, `docs/downloads/9Pets-John-Titor.zip`, and docs data for John Titor.
+- QA artifacts: `C:\tmp\9pets-john-titor-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - John Titor Cute / 9Pets-Cute-John-Titor
+- Source audit: local official chibi/fight Spine source `roles/303601_yuehantituo/303601_yuehantituo_fight.skel`.
+- Spine source: `303601_yuehantituo_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-John-Titor`, `docs/assets/spritesheets/9Pets-Cute-John-Titor.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-John-Titor.webp`, `docs/assets/previews/9Pets-Cute-John-Titor.png`, `docs/assets/source/9Pets-Cute-John-Titor.png`, `docs/downloads/9Pets-Cute-John-Titor.zip`, and docs cute data for John Titor.
+- QA artifacts: `C:\tmp\9pets-cute-john-titor-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Kaalaa Baunaa Normal / 9Pets-Kaalaa-Baunaa
+- Source audit: local normal Cubism folder `live2d/roles/307001_jialabona` exists with 22 motion files; local Spine path is `roles/v1a3_307001_jialabona`.
+- Normal source: `live2d/roles/307001_jialabona`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yangtou.motion3.json, running-left=b_yangtou.motion3.json, waving=b_jushou.motion3.json, jumping=b_yangtou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_sisuo.motion3.json, review=b_sisuo.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Kaalaa-Baunaa`, `docs/assets/spritesheets/9Pets-Kaalaa-Baunaa.webp`, `docs/assets/detail-spritesheets/9Pets-Kaalaa-Baunaa.webp`, `docs/assets/previews/9Pets-Kaalaa-Baunaa.png`, `docs/downloads/9Pets-Kaalaa-Baunaa.zip`, and docs data for Kaalaa Baunaa.
+- QA artifacts: `C:\tmp\9pets-kaalaa-baunaa-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Kaalaa Baunaa Cute / 9Pets-Cute-Kaalaa-Baunaa
+- Source audit: local official chibi/fight Spine source `roles/v1a3_307001_jialabona/307001_jialabona_fight.skel`.
+- Spine source: `307001_jialabona_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Kaalaa-Baunaa`, `docs/assets/spritesheets/9Pets-Cute-Kaalaa-Baunaa.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Kaalaa-Baunaa.webp`, `docs/assets/previews/9Pets-Cute-Kaalaa-Baunaa.png`, `docs/assets/source/9Pets-Cute-Kaalaa-Baunaa.png`, `docs/downloads/9Pets-Cute-Kaalaa-Baunaa.zip`, and docs cute data for Kaalaa Baunaa.
+- QA artifacts: `C:\tmp\9pets-cute-kaalaa-baunaa-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Kakania Normal / 9Pets-Kakania
+- Source audit: local normal Cubism folder `live2d/roles/v1a9_308001_kakaniya` exists with 21 motion files; local Spine path is `roles/v1a9_308001_kkny`.
+- Normal source: `live2d/roles/v1a9_308001_kakaniya`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_taishou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=t_yansu.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Kakania`, `docs/assets/spritesheets/9Pets-Kakania.webp`, `docs/assets/detail-spritesheets/9Pets-Kakania.webp`, `docs/assets/previews/9Pets-Kakania.png`, `docs/downloads/9Pets-Kakania.zip`, and docs data for Kakania.
+- QA artifacts: `C:\tmp\9pets-kakania-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Kakania Cute / 9Pets-Cute-Kakania
+- Source audit: local official chibi/fight Spine source `roles/v1a9_308001_kkny/308001_kkny_fight.skel`.
+- Spine source: `308001_kkny_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Kakania`, `docs/assets/spritesheets/9Pets-Cute-Kakania.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Kakania.webp`, `docs/assets/previews/9Pets-Cute-Kakania.png`, `docs/assets/source/9Pets-Cute-Kakania.png`, `docs/downloads/9Pets-Cute-Kakania.zip`, and docs cute data for Kakania.
+- QA artifacts: `C:\tmp\9pets-cute-kakania-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Kanjira Normal / 9Pets-Kanjira
+- Source audit: local normal Cubism folder `live2d/roles/307101_kanjila` exists with 24 motion files; local Spine path is `roles/v1a3_307101_kanjila`.
+- Normal source: `live2d/roles/307101_kanjila`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_diantou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_sisuo.motion3.json, review=b_sisuo.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Kanjira`, `docs/assets/spritesheets/9Pets-Kanjira.webp`, `docs/assets/detail-spritesheets/9Pets-Kanjira.webp`, `docs/assets/previews/9Pets-Kanjira.png`, `docs/downloads/9Pets-Kanjira.zip`, and docs data for Kanjira.
+- QA artifacts: `C:\tmp\9pets-kanjira-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Kanjira Cute / 9Pets-Cute-Kanjira
+- Source audit: local official chibi/fight Spine source `roles/v1a3_307101_kanjila/307101_kanjila_fight.skel`.
+- Spine source: `307101_kanjila_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Kanjira`, `docs/assets/spritesheets/9Pets-Cute-Kanjira.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Kanjira.webp`, `docs/assets/previews/9Pets-Cute-Kanjira.png`, `docs/assets/source/9Pets-Cute-Kanjira.png`, `docs/downloads/9Pets-Cute-Kanjira.zip`, and docs cute data for Kanjira.
+- QA artifacts: `C:\tmp\9pets-cute-kanjira-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Kassandra Normal / 9Pets-Kassandra
+- Source audit: local normal Cubism folder `live2d/roles/s01_312401_ksdl` exists with 20 motion files; local Spine path is `roles/s01_312401_ksdl`.
+- Normal source: `live2d/roles/s01_312401_ksdl`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_shenshou.motion3.json, jumping=b_diantou.motion3.json, failed=t_shengqi.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=t_yansu.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Kassandra`, `docs/assets/spritesheets/9Pets-Kassandra.webp`, `docs/assets/detail-spritesheets/9Pets-Kassandra.webp`, `docs/assets/previews/9Pets-Kassandra.png`, `docs/downloads/9Pets-Kassandra.zip`, and docs data for Kassandra.
+- QA artifacts: `C:\tmp\9pets-kassandra-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Kassandra Cute / 9Pets-Cute-Kassandra
+- Source audit: local official chibi/fight Spine source `roles/s01_312401_ksdl/312401_ksdl_fight.skel`.
+- Spine source: `312401_ksdl_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Kassandra`, `docs/assets/spritesheets/9Pets-Cute-Kassandra.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Kassandra.webp`, `docs/assets/previews/9Pets-Cute-Kassandra.png`, `docs/assets/source/9Pets-Cute-Kassandra.png`, `docs/downloads/9Pets-Cute-Kassandra.zip`, and docs cute data for Kassandra.
+- QA artifacts: `C:\tmp\9pets-cute-kassandra-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Kiperina Normal / 9Pets-Kiperina
+- Source audit: local normal Cubism folder `live2d/roles/v2a7_311701_kphh` exists with 20 motion files; local Spine path is `roles/v2a7_311701_kphh`.
+- Normal source: `live2d/roles/v2a7_311701_kphh`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_beishou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=t_yihuo.motion3.json, running=t_renzhen.motion3.json, review=t_renzhen.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Kiperina`, `docs/assets/spritesheets/9Pets-Kiperina.webp`, `docs/assets/detail-spritesheets/9Pets-Kiperina.webp`, `docs/assets/previews/9Pets-Kiperina.png`, `docs/downloads/9Pets-Kiperina.zip`, and docs data for Kiperina.
+- QA artifacts: `C:\tmp\9pets-kiperina-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Kiperina Cute / 9Pets-Cute-Kiperina
+- Source audit: local official chibi/fight Spine source `roles/v2a7_311701_kphh/311701_kphh_fight.skel`.
+- Spine source: `311701_kphh_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Kiperina`, `docs/assets/spritesheets/9Pets-Cute-Kiperina.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Kiperina.webp`, `docs/assets/previews/9Pets-Cute-Kiperina.png`, `docs/assets/source/9Pets-Cute-Kiperina.png`, `docs/downloads/9Pets-Cute-Kiperina.zip`, and docs cute data for Kiperina.
+- QA artifacts: `C:\tmp\9pets-cute-kiperina-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - La Source Normal / 9Pets-La-Source
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/303001_lalaquan/303001_lalaquan_room.skel`; local Spine path is `roles/303001_lalaquan`.
+- Normal source: `roles/303001_lalaquan/303001_lalaquan_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=idle_birthday_up, failed=hit, waiting=sleep, running=idle_birthday_loop, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-La-Source`, `docs/assets/spritesheets/9Pets-La-Source.webp`, `docs/assets/detail-spritesheets/9Pets-La-Source.webp`, `docs/assets/previews/9Pets-La-Source.png`, `docs/downloads/9Pets-La-Source.zip`, and docs data for La Source.
+- QA artifacts: `C:\tmp\9pets-la-source-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - La Source Cute / 9Pets-Cute-La-Source
+- Source audit: local official chibi/fight Spine source `roles/303001_lalaquan/303001_lalaquan_fight.skel`.
+- Spine source: `303001_lalaquan_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-La-Source`, `docs/assets/spritesheets/9Pets-Cute-La-Source.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-La-Source.webp`, `docs/assets/previews/9Pets-Cute-La-Source.png`, `docs/assets/source/9Pets-Cute-La-Source.png`, `docs/downloads/9Pets-Cute-La-Source.zip`, and docs cute data for La Source.
+- QA artifacts: `C:\tmp\9pets-cute-la-source-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Leilani Normal / 9Pets-Leilani
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/303501_lilani/303501_lilani_room.skel`; local Spine path is `roles/303501_lilani`.
+- Normal source: `roles/303501_lilani/303501_lilani_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=idle_birthday_up, failed=hit, waiting=sleep, running=idle_birthday_loop, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Leilani`, `docs/assets/spritesheets/9Pets-Leilani.webp`, `docs/assets/detail-spritesheets/9Pets-Leilani.webp`, `docs/assets/previews/9Pets-Leilani.png`, `docs/downloads/9Pets-Leilani.zip`, and docs data for Leilani.
+- QA artifacts: `C:\tmp\9pets-leilani-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Leilani Cute / 9Pets-Cute-Leilani
+- Source audit: local official chibi/fight Spine source `roles/303501_lilani/303501_lilani_fight.skel`.
+- Spine source: `303501_lilani_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Leilani`, `docs/assets/spritesheets/9Pets-Cute-Leilani.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Leilani.webp`, `docs/assets/previews/9Pets-Cute-Leilani.png`, `docs/assets/source/9Pets-Cute-Leilani.png`, `docs/downloads/9Pets-Cute-Leilani.zip`, and docs cute data for Leilani.
+- QA artifacts: `C:\tmp\9pets-cute-leilani-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Liang Yue Normal / 9Pets-Liang-Yue
+- Source audit: local normal Cubism folder `live2d/roles/v2a5_311001_liangyue` exists with 31 motion files; local Spine path is `roles/v2a5_311001_ly`.
+- Normal source: `live2d/roles/v2a5_311001_liangyue`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_tanshou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_tanshou.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Liang-Yue`, `docs/assets/spritesheets/9Pets-Liang-Yue.webp`, `docs/assets/detail-spritesheets/9Pets-Liang-Yue.webp`, `docs/assets/previews/9Pets-Liang-Yue.png`, `docs/downloads/9Pets-Liang-Yue.zip`, and docs data for Liang Yue.
+- QA artifacts: `C:\tmp\9pets-liang-yue-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Liang Yue Cute / 9Pets-Cute-Liang-Yue
+- Source audit: local official chibi/fight Spine source `roles/v2a5_311001_ly/311001_ly_fight.skel`.
+- Spine source: `311001_ly_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Liang-Yue`, `docs/assets/spritesheets/9Pets-Cute-Liang-Yue.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Liang-Yue.webp`, `docs/assets/previews/9Pets-Cute-Liang-Yue.png`, `docs/assets/source/9Pets-Cute-Liang-Yue.png`, `docs/downloads/9Pets-Cute-Liang-Yue.zip`, and docs cute data for Liang Yue.
+- QA artifacts: `C:\tmp\9pets-cute-liang-yue-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Lilya Normal / 9Pets-Lilya
+- Source audit: local normal Cubism folder `live2d/roles/300401_hongnujian` exists with 25 motion files; local Spine path is `roles/300401_hongnujian`.
+- Normal source: `live2d/roles/300401_hongnujian`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yangtou.motion3.json, running-left=b_yangtou.motion3.json, waving=b_shenshou.motion3.json, jumping=b_yangtou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Lilya`, `docs/assets/spritesheets/9Pets-Lilya.webp`, `docs/assets/detail-spritesheets/9Pets-Lilya.webp`, `docs/assets/previews/9Pets-Lilya.png`, `docs/downloads/9Pets-Lilya.zip`, and docs data for Lilya.
+- QA artifacts: `C:\tmp\9pets-lilya-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Lilya Cute / 9Pets-Cute-Lilya
+- Source audit: local official chibi/fight Spine source `roles/300401_hongnujian/300401_hongnujian_fight.skel`.
+- Spine source: `300401_hongnujian_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Lilya`, `docs/assets/spritesheets/9Pets-Cute-Lilya.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Lilya.webp`, `docs/assets/previews/9Pets-Cute-Lilya.png`, `docs/assets/source/9Pets-Cute-Lilya.png`, `docs/downloads/9Pets-Cute-Lilya.zip`, and docs cute data for Lilya.
+- QA artifacts: `C:\tmp\9pets-cute-lilya-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Loggerhead Normal / 9Pets-Loggerhead
+- Source audit: local normal Cubism folder `live2d/roles/v2a5_311201_knd` exists with 24 motion files; local Spine path is `roles/v2a5_311201_knd`.
+- Normal source: `live2d/roles/v2a5_311201_knd`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_chijing.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=t_yihuo.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Loggerhead`, `docs/assets/spritesheets/9Pets-Loggerhead.webp`, `docs/assets/detail-spritesheets/9Pets-Loggerhead.webp`, `docs/assets/previews/9Pets-Loggerhead.png`, `docs/downloads/9Pets-Loggerhead.zip`, and docs data for Loggerhead.
+- QA artifacts: `C:\tmp\9pets-loggerhead-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Loggerhead Cute / 9Pets-Cute-Loggerhead
+- Source audit: local official chibi/fight Spine source `roles/v2a5_311201_knd/311201_knd_fight.skel`.
+- Spine source: `311201_knd_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Loggerhead`, `docs/assets/spritesheets/9Pets-Cute-Loggerhead.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Loggerhead.webp`, `docs/assets/previews/9Pets-Cute-Loggerhead.png`, `docs/assets/source/9Pets-Cute-Loggerhead.png`, `docs/downloads/9Pets-Cute-Loggerhead.zip`, and docs cute data for Loggerhead.
+- QA artifacts: `C:\tmp\9pets-cute-loggerhead-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Lopera Normal / 9Pets-Lopera
+- Source audit: local normal Cubism folder `live2d/roles/v2a2_310201_luopeila` exists with 27 motion files; local Spine path is `roles/v2a2_310201_lopera`.
+- Normal source: `live2d/roles/v2a2_310201_luopeila`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_tanshou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_tanshou.motion3.json, running=b_diantou.motion3.json, review=t_yansu.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Lopera`, `docs/assets/spritesheets/9Pets-Lopera.webp`, `docs/assets/detail-spritesheets/9Pets-Lopera.webp`, `docs/assets/previews/9Pets-Lopera.png`, `docs/downloads/9Pets-Lopera.zip`, and docs data for Lopera.
+- QA artifacts: `C:\tmp\9pets-lopera-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Lopera Cute / 9Pets-Cute-Lopera
+- Source audit: local official chibi/fight Spine source `roles/v2a2_310201_lopera/310201_lopera_fight.skel`.
+- Spine source: `310201_lopera_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Lopera`, `docs/assets/spritesheets/9Pets-Cute-Lopera.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Lopera.webp`, `docs/assets/previews/9Pets-Cute-Lopera.png`, `docs/assets/source/9Pets-Cute-Lopera.png`, `docs/downloads/9Pets-Cute-Lopera.zip`, and docs cute data for Lopera.
+- QA artifacts: `C:\tmp\9pets-cute-lopera-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Lorelei Normal / 9Pets-Lorelei
+- Source audit: local normal Cubism folder `live2d/roles/v1a9_309101_luoleilai` exists with 21 motion files; local Spine path is `roles/v1a9_309101_lorelei`.
+- Normal source: `live2d/roles/v1a9_309101_luoleilai`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_shenshou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_qidao.motion3.json, running=t_renzhen.motion3.json, review=t_renzhen.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Lorelei`, `docs/assets/spritesheets/9Pets-Lorelei.webp`, `docs/assets/detail-spritesheets/9Pets-Lorelei.webp`, `docs/assets/previews/9Pets-Lorelei.png`, `docs/downloads/9Pets-Lorelei.zip`, and docs data for Lorelei.
+- QA artifacts: `C:\tmp\9pets-lorelei-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Lorelei Cute / 9Pets-Cute-Lorelei
+- Source audit: local official chibi/fight Spine source `roles/v1a9_309101_lorelei/309101_lorelei_fight.skel`.
+- Spine source: `309101_lorelei_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Lorelei`, `docs/assets/spritesheets/9Pets-Cute-Lorelei.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Lorelei.webp`, `docs/assets/previews/9Pets-Cute-Lorelei.png`, `docs/assets/source/9Pets-Cute-Lorelei.png`, `docs/downloads/9Pets-Cute-Lorelei.zip`, and docs cute data for Lorelei.
+- QA artifacts: `C:\tmp\9pets-cute-lorelei-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Lorentz Butterfly Normal / 9Pets-Lorentz-Butterfly
+- Source audit: local normal Cubism folder `live2d/roles/v3a5_313901_llzhd` exists with 22 motion files; local Spine path is `roles/v3a5_313901_llzhd`.
+- Normal source: `live2d/roles/v3a5_313901_llzhd`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_taishou.motion3.json, jumping=b_diantou.motion3.json, failed=b_diantou.motion3.json, waiting=b_diantou.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Lorentz-Butterfly`, `docs/assets/spritesheets/9Pets-Lorentz-Butterfly.webp`, `docs/assets/detail-spritesheets/9Pets-Lorentz-Butterfly.webp`, `docs/assets/previews/9Pets-Lorentz-Butterfly.png`, `docs/downloads/9Pets-Lorentz-Butterfly.zip`, and docs data for Lorentz Butterfly.
+- QA artifacts: `C:\tmp\9pets-lorentz-butterfly-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Lorentz Butterfly Cute / 9Pets-Cute-Lorentz-Butterfly
+- Source audit: local official chibi/fight Spine source `roles/v3a5_313901_llzhd/313901_llzhd_fight.skel`.
+- Spine source: `313901_llzhd_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Lorentz-Butterfly`, `docs/assets/spritesheets/9Pets-Cute-Lorentz-Butterfly.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Lorentz-Butterfly.webp`, `docs/assets/previews/9Pets-Cute-Lorentz-Butterfly.png`, `docs/assets/source/9Pets-Cute-Lorentz-Butterfly.png`, `docs/downloads/9Pets-Cute-Lorentz-Butterfly.zip`, and docs cute data for Lorentz Butterfly.
+- QA artifacts: `C:\tmp\9pets-cute-lorentz-butterfly-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Lucy Normal / 9Pets-Lucy
+- Source audit: local normal Cubism folder `live2d/roles/v1a9_308601_luxi` exists with 42 motion files; local Spine path is `roles/v1a9_308601_luxi`.
+- Normal source: `live2d/roles/v1a9_308601_luxi`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaoqing.motion3.json, running-left=b_yaoqing.motion3.json, waving=b_taishou.motion3.json, jumping=b_diantou.motion3.json, failed=b_baoxiong.motion3.json, waiting=b_diantou.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Lucy`, `docs/assets/spritesheets/9Pets-Lucy.webp`, `docs/assets/detail-spritesheets/9Pets-Lucy.webp`, `docs/assets/previews/9Pets-Lucy.png`, `docs/downloads/9Pets-Lucy.zip`, and docs data for Lucy.
+- QA artifacts: `C:\tmp\9pets-lucy-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Lucy Cute / 9Pets-Cute-Lucy
+- Source audit: local official chibi/fight Spine source `roles/v1a9_308601_luxi/308601_luxi_fight.skel`.
+- Spine source: `308601_luxi_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Lucy`, `docs/assets/spritesheets/9Pets-Cute-Lucy.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Lucy.webp`, `docs/assets/previews/9Pets-Cute-Lucy.png`, `docs/assets/source/9Pets-Cute-Lucy.png`, `docs/downloads/9Pets-Cute-Lucy.zip`, and docs cute data for Lucy.
+- QA artifacts: `C:\tmp\9pets-cute-lucy-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Marcus Normal / 9Pets-Marcus
+- Source audit: local normal Cubism folder `live2d/roles/v1a7_306501_makusi` exists with 19 motion files; local Spine path is `roles/v1a7_306501_makusi`.
+- Normal source: `live2d/roles/v1a7_306501_makusi`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_shenshou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Marcus`, `docs/assets/spritesheets/9Pets-Marcus.webp`, `docs/assets/detail-spritesheets/9Pets-Marcus.webp`, `docs/assets/previews/9Pets-Marcus.png`, `docs/downloads/9Pets-Marcus.zip`, and docs data for Marcus.
+- QA artifacts: `C:\tmp\9pets-marcus-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Marcus Cute / 9Pets-Cute-Marcus
+- Source audit: local official chibi/fight Spine source `roles/v1a7_306501_makusi/306501_makusi_fight.skel`.
+- Spine source: `306501_makusi_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Marcus`, `docs/assets/spritesheets/9Pets-Cute-Marcus.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Marcus.webp`, `docs/assets/previews/9Pets-Cute-Marcus.png`, `docs/assets/source/9Pets-Cute-Marcus.png`, `docs/downloads/9Pets-Cute-Marcus.zip`, and docs cute data for Marcus.
+- QA artifacts: `C:\tmp\9pets-cute-marcus-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Marsha Normal / 9Pets-Marsha
+- Source audit: local normal Cubism folder `live2d/roles/v3a3_312701_mes` exists with 25 motion files; local Spine path is `roles/v3a3_312701_mes`.
+- Normal source: `live2d/roles/v3a3_312701_mes`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_diantou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=t_yansu.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Marsha`, `docs/assets/spritesheets/9Pets-Marsha.webp`, `docs/assets/detail-spritesheets/9Pets-Marsha.webp`, `docs/assets/previews/9Pets-Marsha.png`, `docs/downloads/9Pets-Marsha.zip`, and docs data for Marsha.
+- QA artifacts: `C:\tmp\9pets-marsha-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Marsha Cute / 9Pets-Cute-Marsha
+- Source audit: local official chibi/fight Spine source `roles/v3a3_312701_mes/312701_mes_fight.skel`.
+- Spine source: `312701_mes_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Marsha`, `docs/assets/spritesheets/9Pets-Cute-Marsha.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Marsha.webp`, `docs/assets/previews/9Pets-Cute-Marsha.png`, `docs/assets/source/9Pets-Cute-Marsha.png`, `docs/downloads/9Pets-Cute-Marsha.zip`, and docs cute data for Marsha.
+- QA artifacts: `C:\tmp\9pets-cute-marsha-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Matilda Normal / 9Pets-Matilda
+- Source audit: local normal Cubism folder `live2d/roles/304101_madierda` exists with 32 motion files; local Spine path is `roles/304101_madierda`.
+- Normal source: `live2d/roles/304101_madierda`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_baoxiong.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Matilda`, `docs/assets/spritesheets/9Pets-Matilda.webp`, `docs/assets/detail-spritesheets/9Pets-Matilda.webp`, `docs/assets/previews/9Pets-Matilda.png`, `docs/downloads/9Pets-Matilda.zip`, and docs data for Matilda.
+- QA artifacts: `C:\tmp\9pets-matilda-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Matilda Cute / 9Pets-Cute-Matilda
+- Source audit: local official chibi/fight Spine source `roles/304101_madierda/304101_madierda_fight.skel`.
+- Spine source: `304101_madierda_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Matilda`, `docs/assets/spritesheets/9Pets-Cute-Matilda.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Matilda.webp`, `docs/assets/previews/9Pets-Cute-Matilda.png`, `docs/assets/source/9Pets-Cute-Matilda.png`, `docs/downloads/9Pets-Cute-Matilda.zip`, and docs cute data for Matilda.
+- QA artifacts: `C:\tmp\9pets-cute-matilda-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Medicine Pocket Normal / 9Pets-Medicine-Pocket
+- Source audit: local normal Cubism folder `live2d/roles/304701_tumaoshoudai` exists with 21 motion files; local Spine path is `roles/304701_tumaoshoudai`.
+- Normal source: `live2d/roles/304701_tumaoshoudai`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_tanshou.motion3.json, jumping=b_diantou.motion3.json, failed=t_shengqi.motion3.json, waiting=b_tanshou.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Medicine-Pocket`, `docs/assets/spritesheets/9Pets-Medicine-Pocket.webp`, `docs/assets/detail-spritesheets/9Pets-Medicine-Pocket.webp`, `docs/assets/previews/9Pets-Medicine-Pocket.png`, `docs/downloads/9Pets-Medicine-Pocket.zip`, and docs data for Medicine Pocket.
+- QA artifacts: `C:\tmp\9pets-medicine-pocket-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Medicine Pocket Cute / 9Pets-Cute-Medicine-Pocket
+- Source audit: local official chibi/fight Spine source `roles/304701_tumaoshoudai/304701_tumaoshoudai_fight.skel`.
+- Spine source: `304701_tumaoshoudai_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Medicine-Pocket`, `docs/assets/spritesheets/9Pets-Cute-Medicine-Pocket.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Medicine-Pocket.webp`, `docs/assets/previews/9Pets-Cute-Medicine-Pocket.png`, `docs/assets/source/9Pets-Cute-Medicine-Pocket.png`, `docs/downloads/9Pets-Cute-Medicine-Pocket.zip`, and docs cute data for Medicine Pocket.
+- QA artifacts: `C:\tmp\9pets-cute-medicine-pocket-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Melania Normal / 9Pets-Melania
+- Source audit: local normal Cubism folder `live2d/roles/306201_meilanni` exists with 27 motion files; local Spine path is `roles/306201_meilanni`.
+- Normal source: `live2d/roles/306201_meilanni`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_diantou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Melania`, `docs/assets/spritesheets/9Pets-Melania.webp`, `docs/assets/detail-spritesheets/9Pets-Melania.webp`, `docs/assets/previews/9Pets-Melania.png`, `docs/downloads/9Pets-Melania.zip`, and docs data for Melania.
+- QA artifacts: `C:\tmp\9pets-melania-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Melania Cute / 9Pets-Cute-Melania
+- Source audit: local official chibi/fight Spine source `roles/306201_meilanni/306201_meilanni_fight.skel`.
+- Spine source: `306201_meilanni_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Melania`, `docs/assets/spritesheets/9Pets-Cute-Melania.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Melania.webp`, `docs/assets/previews/9Pets-Cute-Melania.png`, `docs/assets/source/9Pets-Cute-Melania.png`, `docs/downloads/9Pets-Cute-Melania.zip`, and docs cute data for Melania.
+- QA artifacts: `C:\tmp\9pets-cute-melania-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Mercuria Normal / 9Pets-Mercuria
+- Source audit: local normal Cubism folder `live2d/roles/v2a0_309501_huanzhuangshuixing` exists with 19 motion files; local Spine path is `roles/v2a0_309501_hzsx`.
+- Normal source: `live2d/roles/v2a0_309501_huanzhuangshuixing`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_tanshou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_tanshou.motion3.json, running=b_sisuo.motion3.json, review=t_renzhen.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Mercuria`, `docs/assets/spritesheets/9Pets-Mercuria.webp`, `docs/assets/detail-spritesheets/9Pets-Mercuria.webp`, `docs/assets/previews/9Pets-Mercuria.png`, `docs/downloads/9Pets-Mercuria.zip`, and docs data for Mercuria.
+- QA artifacts: `C:\tmp\9pets-mercuria-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Mercuria Cute / 9Pets-Cute-Mercuria
+- Source audit: local official chibi/fight Spine source `roles/v2a0_309501_hzsx/309501_hzsx_fight.skel`.
+- Spine source: `309501_hzsx_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Mercuria`, `docs/assets/spritesheets/9Pets-Cute-Mercuria.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Mercuria.webp`, `docs/assets/previews/9Pets-Cute-Mercuria.png`, `docs/assets/source/9Pets-Cute-Mercuria.png`, `docs/downloads/9Pets-Cute-Mercuria.zip`, and docs cute data for Mercuria.
+- QA artifacts: `C:\tmp\9pets-cute-mercuria-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Mesmer Jr. Normal / 9Pets-Mesmer-Jr
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/305701_xiaomeisimeier/305701_xiaomeisimeier_room.skel`; local Spine path is `roles/305701_xiaomeisimeier`.
+- Normal source: `roles/305701_xiaomeisimeier/305701_xiaomeisimeier_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=idle_birthday_up, failed=hit, waiting=sleep, running=idle_birthday_loop, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Mesmer-Jr`, `docs/assets/spritesheets/9Pets-Mesmer-Jr.webp`, `docs/assets/detail-spritesheets/9Pets-Mesmer-Jr.webp`, `docs/assets/previews/9Pets-Mesmer-Jr.png`, `docs/downloads/9Pets-Mesmer-Jr.zip`, and docs data for Mesmer Jr..
+- QA artifacts: `C:\tmp\9pets-mesmer-jr-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Mesmer Jr. Cute / 9Pets-Cute-Mesmer-Jr
+- Source audit: local official chibi/fight Spine source `roles/305701_xiaomeisimeier/305701_xiaomeisimeier_fight.skel`.
+- Spine source: `305701_xiaomeisimeier_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Mesmer-Jr`, `docs/assets/spritesheets/9Pets-Cute-Mesmer-Jr.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Mesmer-Jr.webp`, `docs/assets/previews/9Pets-Cute-Mesmer-Jr.png`, `docs/assets/source/9Pets-Cute-Mesmer-Jr.png`, `docs/downloads/9Pets-Cute-Mesmer-Jr.zip`, and docs cute data for Mesmer Jr..
+- QA artifacts: `C:\tmp\9pets-cute-mesmer-jr-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Moldir Normal / 9Pets-Moldir
+- Source audit: local normal Cubism folder `live2d/roles/v2a8_312101_mlde` exists with 25 motion files; local Spine path is `roles/v2a8_312101_mlde`.
+- Normal source: `live2d/roles/v2a8_312101_mlde`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_dashou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Moldir`, `docs/assets/spritesheets/9Pets-Moldir.webp`, `docs/assets/detail-spritesheets/9Pets-Moldir.webp`, `docs/assets/previews/9Pets-Moldir.png`, `docs/downloads/9Pets-Moldir.zip`, and docs data for Moldir.
+- QA artifacts: `C:\tmp\9pets-moldir-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Moldir Cute / 9Pets-Cute-Moldir
+- Source audit: local official chibi/fight Spine source `roles/v2a8_312101_mlde/312101_mlde_fight.skel`.
+- Spine source: `312101_mlde_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=posture, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Moldir`, `docs/assets/spritesheets/9Pets-Cute-Moldir.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Moldir.webp`, `docs/assets/previews/9Pets-Cute-Moldir.png`, `docs/assets/source/9Pets-Cute-Moldir.png`, `docs/downloads/9Pets-Cute-Moldir.zip`, and docs cute data for Moldir.
+- QA artifacts: `C:\tmp\9pets-cute-moldir-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Mondlicht Normal / 9Pets-Mondlicht
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/302601_hongdoupeng/302601_hongdoupeng_room.skel`; local Spine path is `roles/302601_hongdoupeng`.
+- Normal source: `roles/302601_hongdoupeng/302601_hongdoupeng_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=idle_birthday_up, failed=hit, waiting=sleep, running=idle_birthday_loop, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Mondlicht`, `docs/assets/spritesheets/9Pets-Mondlicht.webp`, `docs/assets/detail-spritesheets/9Pets-Mondlicht.webp`, `docs/assets/previews/9Pets-Mondlicht.png`, `docs/downloads/9Pets-Mondlicht.zip`, and docs data for Mondlicht.
+- QA artifacts: `C:\tmp\9pets-mondlicht-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Mondlicht Cute / 9Pets-Cute-Mondlicht
+- Source audit: local official chibi/fight Spine source `roles/302601_hongdoupeng/302601_hongdoupeng_fight.skel`.
+- Spine source: `302601_hongdoupeng_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Mondlicht`, `docs/assets/spritesheets/9Pets-Cute-Mondlicht.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Mondlicht.webp`, `docs/assets/previews/9Pets-Cute-Mondlicht.png`, `docs/assets/source/9Pets-Cute-Mondlicht.png`, `docs/downloads/9Pets-Cute-Mondlicht.zip`, and docs cute data for Mondlicht.
+- QA artifacts: `C:\tmp\9pets-cute-mondlicht-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Mr. Duncan Normal / 9Pets-Mr-Duncan
+- Source audit: local normal Cubism folder `live2d/roles/v2a2_310301_dengken` exists with 19 motion files; local Spine path is `roles/v2a2_310301_dkxs`.
+- Normal source: `live2d/roles/v2a2_310301_dengken`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_chuixiongkou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_moxiaba.motion3.json, review=t_yansu.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Mr-Duncan`, `docs/assets/spritesheets/9Pets-Mr-Duncan.webp`, `docs/assets/detail-spritesheets/9Pets-Mr-Duncan.webp`, `docs/assets/previews/9Pets-Mr-Duncan.png`, `docs/downloads/9Pets-Mr-Duncan.zip`, and docs data for Mr. Duncan.
+- QA artifacts: `C:\tmp\9pets-mr-duncan-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Mr. Duncan Cute / 9Pets-Cute-Mr-Duncan
+- Source audit: local official chibi/fight Spine source `roles/v2a2_310301_dkxs/310301_dkxs_fight.skel`.
+- Spine source: `310301_dkxs_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Mr-Duncan`, `docs/assets/spritesheets/9Pets-Cute-Mr-Duncan.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Mr-Duncan.webp`, `docs/assets/previews/9Pets-Cute-Mr-Duncan.png`, `docs/assets/source/9Pets-Cute-Mr-Duncan.png`, `docs/downloads/9Pets-Cute-Mr-Duncan.zip`, and docs cute data for Mr. Duncan.
+- QA artifacts: `C:\tmp\9pets-cute-mr-duncan-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Ms. Moissan Normal / 9Pets-Ms-Moissan
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/304401_mosangnvshi/304401_mosangnvshi_room.skel`; local Spine path is `roles/304401_mosangnvshi`.
+- Normal source: `roles/304401_mosangnvshi/304401_mosangnvshi_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=idle_birthday_up, failed=hit, waiting=sleep, running=idle_birthday_loop, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Ms-Moissan`, `docs/assets/spritesheets/9Pets-Ms-Moissan.webp`, `docs/assets/detail-spritesheets/9Pets-Ms-Moissan.webp`, `docs/assets/previews/9Pets-Ms-Moissan.png`, `docs/downloads/9Pets-Ms-Moissan.zip`, and docs data for Ms. Moissan.
+- QA artifacts: `C:\tmp\9pets-ms-moissan-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Ms. Moissan Cute / 9Pets-Cute-Ms-Moissan
+- Source audit: local official chibi/fight Spine source `roles/304401_mosangnvshi/304401_mosangnvshi_fight.skel`.
+- Spine source: `304401_mosangnvshi_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Ms-Moissan`, `docs/assets/spritesheets/9Pets-Cute-Ms-Moissan.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Ms-Moissan.webp`, `docs/assets/previews/9Pets-Cute-Ms-Moissan.png`, `docs/assets/source/9Pets-Cute-Ms-Moissan.png`, `docs/downloads/9Pets-Cute-Ms-Moissan.zip`, and docs cute data for Ms. Moissan.
+- QA artifacts: `C:\tmp\9pets-cute-ms-moissan-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Ms. NewBabel Normal / 9Pets-Ms-NewBabel
+- Source audit: local normal Cubism folder `live2d/roles/305201_xinbabieta` exists with 22 motion files; local Spine path is `roles/305201_xinbabieta`.
+- Normal source: `live2d/roles/305201_xinbabieta`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_anfu.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Ms-NewBabel`, `docs/assets/spritesheets/9Pets-Ms-NewBabel.webp`, `docs/assets/detail-spritesheets/9Pets-Ms-NewBabel.webp`, `docs/assets/previews/9Pets-Ms-NewBabel.png`, `docs/downloads/9Pets-Ms-NewBabel.zip`, and docs data for Ms. NewBabel.
+- QA artifacts: `C:\tmp\9pets-ms-newbabel-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Ms. NewBabel Cute / 9Pets-Cute-Ms-NewBabel
+- Source audit: local official chibi/fight Spine source `roles/305201_xinbabieta/305201_xinbabieta_fight.skel`.
+- Spine source: `305201_xinbabieta_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Ms-NewBabel`, `docs/assets/spritesheets/9Pets-Cute-Ms-NewBabel.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Ms-NewBabel.webp`, `docs/assets/previews/9Pets-Cute-Ms-NewBabel.png`, `docs/assets/source/9Pets-Cute-Ms-NewBabel.png`, `docs/downloads/9Pets-Cute-Ms-NewBabel.zip`, and docs cute data for Ms. NewBabel.
+- QA artifacts: `C:\tmp\9pets-cute-ms-newbabel-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Ms. Radio Normal / 9Pets-Ms-Radio
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/302701_wuxiandianxiaojie/302701_wuxiandianxiaojie_room.skel`; local Spine path is `roles/302701_wuxiandianxiaojie`.
+- Normal source: `roles/302701_wuxiandianxiaojie/302701_wuxiandianxiaojie_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=walk, failed=hit, waiting=sleep, running=walk, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Ms-Radio`, `docs/assets/spritesheets/9Pets-Ms-Radio.webp`, `docs/assets/detail-spritesheets/9Pets-Ms-Radio.webp`, `docs/assets/previews/9Pets-Ms-Radio.png`, `docs/downloads/9Pets-Ms-Radio.zip`, and docs data for Ms. Radio.
+- QA artifacts: `C:\tmp\9pets-ms-radio-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Ms. Radio Cute / 9Pets-Cute-Ms-Radio
+- Source audit: local official chibi/fight Spine source `roles/302701_wuxiandianxiaojie/302701_wuxiandianxiaojie_fight.skel`.
+- Spine source: `302701_wuxiandianxiaojie_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Ms-Radio`, `docs/assets/spritesheets/9Pets-Cute-Ms-Radio.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Ms-Radio.webp`, `docs/assets/previews/9Pets-Cute-Ms-Radio.png`, `docs/assets/source/9Pets-Cute-Ms-Radio.png`, `docs/downloads/9Pets-Cute-Ms-Radio.zip`, and docs cute data for Ms. Radio.
+- QA artifacts: `C:\tmp\9pets-cute-ms-radio-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Ms. Stranger Normal / 9Pets-Ms-Stranger
+- Source audit: local normal Cubism folder `live2d/roles/v3a7_314701_wmz` exists with 24 motion files; local Spine path is `roles/v3a7_314701_wmz`.
+- Normal source: `live2d/roles/v3a7_314701_wmz`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_taishou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=t_yihuo.motion3.json, running=b_diantou.motion3.json, review=t_yansu.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Ms-Stranger`, `docs/assets/spritesheets/9Pets-Ms-Stranger.webp`, `docs/assets/detail-spritesheets/9Pets-Ms-Stranger.webp`, `docs/assets/previews/9Pets-Ms-Stranger.png`, `docs/downloads/9Pets-Ms-Stranger.zip`, and docs data for Ms. Stranger.
+- QA artifacts: `C:\tmp\9pets-ms-stranger-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Ms. Stranger Cute / 9Pets-Cute-Ms-Stranger
+- Source audit: local official chibi/fight Spine source `roles/v3a7_314701_wmz/314701_wmz_fight.skel`.
+- Spine source: `314701_wmz_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Ms-Stranger`, `docs/assets/spritesheets/9Pets-Cute-Ms-Stranger.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Ms-Stranger.webp`, `docs/assets/previews/9Pets-Cute-Ms-Stranger.png`, `docs/assets/source/9Pets-Cute-Ms-Stranger.png`, `docs/downloads/9Pets-Cute-Ms-Stranger.zip`, and docs cute data for Ms. Stranger.
+- QA artifacts: `C:\tmp\9pets-cute-ms-stranger-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Name Day Normal / 9Pets-Name-Day
+- Source audit: local normal Cubism folder `live2d/roles/v2a7_311801_mmr` exists with 18 motion files; local Spine path is `roles/v2a7_311801_mmr`.
+- Normal source: `live2d/roles/v2a7_311801_mmr`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_bishou.motion3.json, jumping=b_diantou.motion3.json, failed=b_bishou.motion3.json, waiting=t_yihuo.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Name-Day`, `docs/assets/spritesheets/9Pets-Name-Day.webp`, `docs/assets/detail-spritesheets/9Pets-Name-Day.webp`, `docs/assets/previews/9Pets-Name-Day.png`, `docs/downloads/9Pets-Name-Day.zip`, and docs data for Name Day.
+- QA artifacts: `C:\tmp\9pets-name-day-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Name Day Cute / 9Pets-Cute-Name-Day
+- Source audit: local official chibi/fight Spine source `roles/v2a7_311801_mmr/311801_mmr_fight.skel`.
+- Spine source: `311801_mmr_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Name-Day`, `docs/assets/spritesheets/9Pets-Cute-Name-Day.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Name-Day.webp`, `docs/assets/previews/9Pets-Cute-Name-Day.png`, `docs/assets/source/9Pets-Cute-Name-Day.png`, `docs/downloads/9Pets-Cute-Name-Day.zip`, and docs cute data for Name Day.
+- QA artifacts: `C:\tmp\9pets-cute-name-day-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Nautika Normal / 9Pets-Nautika
+- Source audit: local normal Cubism folder `live2d/roles/v2a8_312001_ndk` exists with 29 motion files; local Spine path is `roles/v2a8_312001_ndk`.
+- Normal source: `live2d/roles/v2a8_312001_ndk`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_baishou.motion3.json, running-left=b_baishou.motion3.json, waving=b_baishou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=t_renzhen.motion3.json, review=t_renzhen.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Nautika`, `docs/assets/spritesheets/9Pets-Nautika.webp`, `docs/assets/detail-spritesheets/9Pets-Nautika.webp`, `docs/assets/previews/9Pets-Nautika.png`, `docs/downloads/9Pets-Nautika.zip`, and docs data for Nautika.
+- QA artifacts: `C:\tmp\9pets-nautika-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Nautika Cute / 9Pets-Cute-Nautika
+- Source audit: local official chibi/fight Spine source `roles/v2a8_312001_ndk/312001_ndk_fight.skel`.
+- Spine source: `312001_ndk_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Nautika`, `docs/assets/spritesheets/9Pets-Cute-Nautika.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Nautika.webp`, `docs/assets/previews/9Pets-Cute-Nautika.png`, `docs/assets/source/9Pets-Cute-Nautika.png`, `docs/downloads/9Pets-Cute-Nautika.zip`, and docs cute data for Nautika.
+- QA artifacts: `C:\tmp\9pets-cute-nautika-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Necrologist Normal / 9Pets-Necrologist
+- Source audit: local normal Cubism folder `live2d/roles/303701_fugaoren` exists with 19 motion files; local Spine path is `roles/303701_fugaoren`.
+- Normal source: `live2d/roles/303701_fugaoren`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_anfu.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_qidao.motion3.json, running=b_zhengli.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Necrologist`, `docs/assets/spritesheets/9Pets-Necrologist.webp`, `docs/assets/detail-spritesheets/9Pets-Necrologist.webp`, `docs/assets/previews/9Pets-Necrologist.png`, `docs/downloads/9Pets-Necrologist.zip`, and docs data for Necrologist.
+- QA artifacts: `C:\tmp\9pets-necrologist-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Necrologist Cute / 9Pets-Cute-Necrologist
+- Source audit: local official chibi/fight Spine source `roles/303701_fugaoren/303701_fugaoren_fight.skel`.
+- Spine source: `303701_fugaoren_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Necrologist`, `docs/assets/spritesheets/9Pets-Cute-Necrologist.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Necrologist.webp`, `docs/assets/previews/9Pets-Cute-Necrologist.png`, `docs/assets/source/9Pets-Cute-Necrologist.png`, `docs/downloads/9Pets-Cute-Necrologist.zip`, and docs cute data for Necrologist.
+- QA artifacts: `C:\tmp\9pets-cute-necrologist-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Nick Bottom Normal / 9Pets-Nick-Bottom
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/300501_nike/300501_nike_room.skel`; local Spine path is `roles/300501_nike`.
+- Normal source: `roles/300501_nike/300501_nike_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=walk, failed=hit, waiting=sleep, running=walk, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Nick-Bottom`, `docs/assets/spritesheets/9Pets-Nick-Bottom.webp`, `docs/assets/detail-spritesheets/9Pets-Nick-Bottom.webp`, `docs/assets/previews/9Pets-Nick-Bottom.png`, `docs/downloads/9Pets-Nick-Bottom.zip`, and docs data for Nick Bottom.
+- QA artifacts: `C:\tmp\9pets-nick-bottom-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Nick Bottom Cute / 9Pets-Cute-Nick-Bottom
+- Source audit: local official chibi/fight Spine source `roles/300501_nike/300501_nike_fight.skel`.
+- Spine source: `300501_nike_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Nick-Bottom`, `docs/assets/spritesheets/9Pets-Cute-Nick-Bottom.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Nick-Bottom.webp`, `docs/assets/previews/9Pets-Cute-Nick-Bottom.png`, `docs/assets/source/9Pets-Cute-Nick-Bottom.png`, `docs/downloads/9Pets-Cute-Nick-Bottom.zip`, and docs cute data for Nick Bottom.
+- QA artifacts: `C:\tmp\9pets-cute-nick-bottom-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Noire Normal / 9Pets-Noire
+- Source audit: local normal Cubism folder `live2d/roles/v2a5_311101_feilinshiduo` exists with 19 motion files; local Spine path is `roles/v2a5_311101_flsd`.
+- Normal source: `live2d/roles/v2a5_311101_feilinshiduo`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_bietoufa.motion3.json, jumping=b_diantou.motion3.json, failed=b_bietoufa.motion3.json, waiting=b_diantou.motion3.json, running=t_renzhen.motion3.json, review=t_renzhen.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Noire`, `docs/assets/spritesheets/9Pets-Noire.webp`, `docs/assets/detail-spritesheets/9Pets-Noire.webp`, `docs/assets/previews/9Pets-Noire.png`, `docs/downloads/9Pets-Noire.zip`, and docs data for Noire.
+- QA artifacts: `C:\tmp\9pets-noire-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Noire Cute / 9Pets-Cute-Noire
+- Source audit: local official chibi/fight Spine source `roles/v2a5_311101_flsd/311101_flsd_fight.skel`.
+- Spine source: `311101_flsd_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Noire`, `docs/assets/spritesheets/9Pets-Cute-Noire.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Noire.webp`, `docs/assets/previews/9Pets-Cute-Noire.png`, `docs/assets/source/9Pets-Cute-Noire.png`, `docs/downloads/9Pets-Cute-Noire.zip`, and docs cute data for Noire.
+- QA artifacts: `C:\tmp\9pets-cute-noire-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Oliver Fog Normal / 9Pets-Oliver-Fog
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/301801_wuxingzhe/301801_wuxingzhe_room.skel`; local Spine path is `roles/301801_wuxingzhe`.
+- Normal source: `roles/301801_wuxingzhe/301801_wuxingzhe_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=idle_birthday_up, failed=hit, waiting=sleep, running=idle_birthday_loop, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Oliver-Fog`, `docs/assets/spritesheets/9Pets-Oliver-Fog.webp`, `docs/assets/detail-spritesheets/9Pets-Oliver-Fog.webp`, `docs/assets/previews/9Pets-Oliver-Fog.png`, `docs/downloads/9Pets-Oliver-Fog.zip`, and docs data for Oliver Fog.
+- QA artifacts: `C:\tmp\9pets-oliver-fog-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Oliver Fog Cute / 9Pets-Cute-Oliver-Fog
+- Source audit: local official chibi/fight Spine source `roles/301801_wuxingzhe/301801_wuxingzhe_fight.skel`.
+- Spine source: `301801_wuxingzhe_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Oliver-Fog`, `docs/assets/spritesheets/9Pets-Cute-Oliver-Fog.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Oliver-Fog.webp`, `docs/assets/previews/9Pets-Cute-Oliver-Fog.png`, `docs/assets/source/9Pets-Cute-Oliver-Fog.png`, `docs/downloads/9Pets-Cute-Oliver-Fog.zip`, and docs cute data for Oliver Fog.
+- QA artifacts: `C:\tmp\9pets-cute-oliver-fog-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - ONiON Normal / 9Pets-ONiON
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/305401_yangcongtou/305401_yangcongtou_room.skel`; local Spine path is `roles/305401_yangcongtou`.
+- Normal source: `roles/305401_yangcongtou/305401_yangcongtou_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=walk, failed=hit, waiting=sleep, running=walk, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-ONiON`, `docs/assets/spritesheets/9Pets-ONiON.webp`, `docs/assets/detail-spritesheets/9Pets-ONiON.webp`, `docs/assets/previews/9Pets-ONiON.png`, `docs/downloads/9Pets-ONiON.zip`, and docs data for ONiON.
+- QA artifacts: `C:\tmp\9pets-onion-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - ONiON Cute / 9Pets-Cute-ONiON
+- Source audit: local official chibi/fight Spine source `roles/305401_yangcongtou/305401_yangcongtou_fight.skel`.
+- Spine source: `305401_yangcongtou_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-ONiON`, `docs/assets/spritesheets/9Pets-Cute-ONiON.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-ONiON.webp`, `docs/assets/previews/9Pets-Cute-ONiON.png`, `docs/assets/source/9Pets-Cute-ONiON.png`, `docs/downloads/9Pets-Cute-ONiON.zip`, and docs cute data for ONiON.
+- QA artifacts: `C:\tmp\9pets-cute-onion-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Paper Heron Normal / 9Pets-Paper-Heron
+- Source audit: local normal Cubism folder `live2d/roles/v3a4_314101_lsj` exists with 34 motion files; local Spine path is `roles/v3a4_314101_lsj`.
+- Normal source: `live2d/roles/v3a4_314101_lsj`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_tanshou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_tanshou.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Paper-Heron`, `docs/assets/spritesheets/9Pets-Paper-Heron.webp`, `docs/assets/detail-spritesheets/9Pets-Paper-Heron.webp`, `docs/assets/previews/9Pets-Paper-Heron.png`, `docs/downloads/9Pets-Paper-Heron.zip`, and docs data for Paper Heron.
+- QA artifacts: `C:\tmp\9pets-paper-heron-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Paper Heron Cute / 9Pets-Cute-Paper-Heron
+- Source audit: local official chibi/fight Spine source `roles/v3a4_314101_lsj/314101_lsj_fight.skel`.
+- Spine source: `314101_lsj_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Paper-Heron`, `docs/assets/spritesheets/9Pets-Cute-Paper-Heron.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Paper-Heron.webp`, `docs/assets/previews/9Pets-Cute-Paper-Heron.png`, `docs/assets/source/9Pets-Cute-Paper-Heron.png`, `docs/downloads/9Pets-Cute-Paper-Heron.zip`, and docs cute data for Paper Heron.
+- QA artifacts: `C:\tmp\9pets-cute-paper-heron-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Pavia Normal / 9Pets-Pavia
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/301501_langqun/301501_langqun_room.skel`; local Spine path is `roles/301501_langqun`.
+- Normal source: `roles/301501_langqun/301501_langqun_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=idle_birthday_up, failed=hit, waiting=sleep, running=idle_birthday_loop, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Pavia`, `docs/assets/spritesheets/9Pets-Pavia.webp`, `docs/assets/detail-spritesheets/9Pets-Pavia.webp`, `docs/assets/previews/9Pets-Pavia.png`, `docs/downloads/9Pets-Pavia.zip`, and docs data for Pavia.
+- QA artifacts: `C:\tmp\9pets-pavia-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Pavia Cute / 9Pets-Cute-Pavia
+- Source audit: local official chibi/fight Spine source `roles/301501_langqun/301501_langqun_fight.skel`.
+- Spine source: `301501_langqun_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Pavia`, `docs/assets/spritesheets/9Pets-Cute-Pavia.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Pavia.webp`, `docs/assets/previews/9Pets-Cute-Pavia.png`, `docs/assets/source/9Pets-Cute-Pavia.png`, `docs/downloads/9Pets-Cute-Pavia.zip`, and docs cute data for Pavia.
+- QA artifacts: `C:\tmp\9pets-cute-pavia-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Pickles Normal / 9Pets-Pickles
+- Source audit: local normal Cubism folder `live2d/roles/306301_pikelesi` exists with 54 motion files; local Spine path is `roles/306301_pikelesi`.
+- Normal source: `live2d/roles/306301_pikelesi`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yangtou.motion3.json, running-left=b_yangtou.motion3.json, waving=b_bizi.motion3.json, jumping=b_yangtou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_waitou.motion3.json, running=b_diantou.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Pickles`, `docs/assets/spritesheets/9Pets-Pickles.webp`, `docs/assets/detail-spritesheets/9Pets-Pickles.webp`, `docs/assets/previews/9Pets-Pickles.png`, `docs/downloads/9Pets-Pickles.zip`, and docs data for Pickles.
+- QA artifacts: `C:\tmp\9pets-pickles-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Pickles Cute / 9Pets-Cute-Pickles
+- Source audit: local official chibi/fight Spine source `roles/306301_pikelesi/306301_pikelesi_fight.skel`.
+- Spine source: `306301_pikelesi_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Pickles`, `docs/assets/spritesheets/9Pets-Cute-Pickles.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Pickles.webp`, `docs/assets/previews/9Pets-Cute-Pickles.png`, `docs/assets/source/9Pets-Cute-Pickles.png`, `docs/downloads/9Pets-Cute-Pickles.zip`, and docs cute data for Pickles.
+- QA artifacts: `C:\tmp\9pets-cute-pickles-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Pioneer Normal / 9Pets-Pioneer
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/v2a0_309601_xqz/309601_xqz_room.skel`; local Spine path is `roles/v2a0_309601_xqz`.
+- Normal source: `roles/v2a0_309601_xqz/309601_xqz_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=idle_birthday_up, failed=hit, waiting=sleep, running=idle_birthday_loop, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Pioneer`, `docs/assets/spritesheets/9Pets-Pioneer.webp`, `docs/assets/detail-spritesheets/9Pets-Pioneer.webp`, `docs/assets/previews/9Pets-Pioneer.png`, `docs/downloads/9Pets-Pioneer.zip`, and docs data for Pioneer.
+- QA artifacts: `C:\tmp\9pets-pioneer-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Pioneer Cute / 9Pets-Cute-Pioneer
+- Source audit: local official chibi/fight Spine source `roles/v2a0_309601_xqz/309601_xqz_fight.skel`.
+- Spine source: `309601_xqz_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Pioneer`, `docs/assets/spritesheets/9Pets-Cute-Pioneer.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Pioneer.webp`, `docs/assets/previews/9Pets-Cute-Pioneer.png`, `docs/assets/source/9Pets-Cute-Pioneer.png`, `docs/downloads/9Pets-Cute-Pioneer.zip`, and docs cute data for Pioneer.
+- QA artifacts: `C:\tmp\9pets-cute-pioneer-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Poltergeist Normal / 9Pets-Poltergeist
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/304601_chaonaogui/304601_chaonaogui_room.skel`; local Spine path is `roles/304601_chaonaogui`.
+- Normal source: `roles/304601_chaonaogui/304601_chaonaogui_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=idle_birthday_up, failed=hit, waiting=sleep, running=idle_birthday_loop, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Poltergeist`, `docs/assets/spritesheets/9Pets-Poltergeist.webp`, `docs/assets/detail-spritesheets/9Pets-Poltergeist.webp`, `docs/assets/previews/9Pets-Poltergeist.png`, `docs/downloads/9Pets-Poltergeist.zip`, and docs data for Poltergeist.
+- QA artifacts: `C:\tmp\9pets-poltergeist-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Poltergeist Cute / 9Pets-Cute-Poltergeist
+- Source audit: local official chibi/fight Spine source `roles/304601_chaonaogui/304601_chaonaogui_fight.skel`.
+- Spine source: `304601_chaonaogui_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=posture, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Poltergeist`, `docs/assets/spritesheets/9Pets-Cute-Poltergeist.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Poltergeist.webp`, `docs/assets/previews/9Pets-Cute-Poltergeist.png`, `docs/assets/source/9Pets-Cute-Poltergeist.png`, `docs/downloads/9Pets-Cute-Poltergeist.zip`, and docs cute data for Poltergeist.
+- QA artifacts: `C:\tmp\9pets-cute-poltergeist-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Rabies Normal / 9Pets-Rabies
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/304201_aichong/304201_aichong_room.skel`; local Spine path is `roles/304201_aichong`.
+- Normal source: `roles/304201_aichong/304201_aichong_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=idle_birthday_up, failed=hit, waiting=sleep, running=idle_birthday_loop, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Rabies`, `docs/assets/spritesheets/9Pets-Rabies.webp`, `docs/assets/detail-spritesheets/9Pets-Rabies.webp`, `docs/assets/previews/9Pets-Rabies.png`, `docs/downloads/9Pets-Rabies.zip`, and docs data for Rabies.
+- QA artifacts: `C:\tmp\9pets-rabies-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Rabies Cute / 9Pets-Cute-Rabies
+- Source audit: local official chibi/fight Spine source `roles/304201_aichong/304201_aichong_fight.skel`.
+- Spine source: `304201_aichong_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Rabies`, `docs/assets/spritesheets/9Pets-Cute-Rabies.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Rabies.webp`, `docs/assets/previews/9Pets-Cute-Rabies.png`, `docs/assets/source/9Pets-Cute-Rabies.png`, `docs/downloads/9Pets-Cute-Rabies.zip`, and docs cute data for Rabies.
+- QA artifacts: `C:\tmp\9pets-cute-rabies-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Ramona Normal / 9Pets-Ramona
+- Source audit: local normal Cubism folder `live2d/roles/v3a5_314201_lmn` exists with 29 motion files; local Spine path is `roles/v3a5_314201_lmn`.
+- Normal source: `live2d/roles/v3a5_314201_lmn`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_chayao1.motion3.json, jumping=b_diantou.motion3.json, failed=b_chayao1.motion3.json, waiting=t_yihuo.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Ramona`, `docs/assets/spritesheets/9Pets-Ramona.webp`, `docs/assets/detail-spritesheets/9Pets-Ramona.webp`, `docs/assets/previews/9Pets-Ramona.png`, `docs/downloads/9Pets-Ramona.zip`, and docs data for Ramona.
+- QA artifacts: `C:\tmp\9pets-ramona-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Ramona Cute / 9Pets-Cute-Ramona
+- Source audit: local official chibi/fight Spine source `roles/v3a5_314201_lmn/314201_lmn_fight.skel`.
+- Spine source: `314201_lmn_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Ramona`, `docs/assets/spritesheets/9Pets-Cute-Ramona.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Ramona.webp`, `docs/assets/previews/9Pets-Cute-Ramona.png`, `docs/assets/source/9Pets-Cute-Ramona.png`, `docs/downloads/9Pets-Cute-Ramona.zip`, and docs cute data for Ramona.
+- QA artifacts: `C:\tmp\9pets-cute-ramona-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Recoleta Normal / 9Pets-Recoleta
+- Source audit: local normal Cubism folder `live2d/roles/v2a6_311401_xgj` exists with 23 motion files; local Spine path is `roles/v2a6_311401_xgj`.
+- Normal source: `live2d/roles/v2a6_311401_xgj`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_shenshou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Recoleta`, `docs/assets/spritesheets/9Pets-Recoleta.webp`, `docs/assets/detail-spritesheets/9Pets-Recoleta.webp`, `docs/assets/previews/9Pets-Recoleta.png`, `docs/downloads/9Pets-Recoleta.zip`, and docs data for Recoleta.
+- QA artifacts: `C:\tmp\9pets-recoleta-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Recoleta Cute / 9Pets-Cute-Recoleta
+- Source audit: local official chibi/fight Spine source `roles/v2a6_311401_xgj/311401_xgj_fight.skel`.
+- Spine source: `311401_xgj_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Recoleta`, `docs/assets/spritesheets/9Pets-Cute-Recoleta.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Recoleta.webp`, `docs/assets/previews/9Pets-Cute-Recoleta.png`, `docs/assets/source/9Pets-Cute-Recoleta.png`, `docs/downloads/9Pets-Cute-Recoleta.zip`, and docs cute data for Recoleta.
+- QA artifacts: `C:\tmp\9pets-cute-recoleta-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Reed Normal / 9Pets-Reed
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/v3a4_313801_lcj/313801_lcj_room.skel`; local Spine path is `roles/v3a4_313801_lcj`.
+- Normal source: `roles/v3a4_313801_lcj/313801_lcj_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=idle_birthday_up, failed=hit, waiting=sleep, running=idle_birthday_loop, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Reed`, `docs/assets/spritesheets/9Pets-Reed.webp`, `docs/assets/detail-spritesheets/9Pets-Reed.webp`, `docs/assets/previews/9Pets-Reed.png`, `docs/downloads/9Pets-Reed.zip`, and docs data for Reed.
+- QA artifacts: `C:\tmp\9pets-reed-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Reed Cute / 9Pets-Cute-Reed
+- Source audit: local official chibi/fight Spine source `roles/v3a4_313801_lcj/313801_lcj_fight.skel`.
+- Spine source: `313801_lcj_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Reed`, `docs/assets/spritesheets/9Pets-Cute-Reed.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Reed.webp`, `docs/assets/previews/9Pets-Cute-Reed.png`, `docs/assets/source/9Pets-Cute-Reed.png`, `docs/downloads/9Pets-Cute-Reed.zip`, and docs cute data for Reed.
+- QA artifacts: `C:\tmp\9pets-cute-reed-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Regulus Normal / 9Pets-Regulus
+- Source audit: local normal Cubism folder `live2d/roles/v1a9_302504_xingti` exists with 31 motion files; local Spine path is `roles/v1a9_302504_xt`.
+- Normal source: `live2d/roles/v1a9_302504_xingti`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_ruchang.motion3.json, running-left=b_ruchang.motion3.json, waving=b_shenshou.motion3.json, jumping=b_ruchang.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Regulus`, `docs/assets/spritesheets/9Pets-Regulus.webp`, `docs/assets/detail-spritesheets/9Pets-Regulus.webp`, `docs/assets/previews/9Pets-Regulus.png`, `docs/downloads/9Pets-Regulus.zip`, and docs data for Regulus.
+- QA artifacts: `C:\tmp\9pets-regulus-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Regulus Cute / 9Pets-Cute-Regulus
+- Source audit: local official chibi/fight Spine source ``.
+- Spine source: ``.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Regulus`, `docs/assets/spritesheets/9Pets-Cute-Regulus.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Regulus.webp`, `docs/assets/previews/9Pets-Cute-Regulus.png`, `docs/assets/source/9Pets-Cute-Regulus.png`, `docs/downloads/9Pets-Cute-Regulus.zip`, and docs cute data for Regulus.
+- QA artifacts: `C:\tmp\9pets-cute-regulus-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Rhiannon Normal / 9Pets-Rhiannon
+- Source audit: local normal Cubism folder `live2d/roles/v3a7_314601_xran` exists with 33 motion files; local Spine path is `roles/v3a7_314601_xran`.
+- Normal source: `live2d/roles/v3a7_314601_xran`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_chizhang.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=t_yihuo.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Rhiannon`, `docs/assets/spritesheets/9Pets-Rhiannon.webp`, `docs/assets/detail-spritesheets/9Pets-Rhiannon.webp`, `docs/assets/previews/9Pets-Rhiannon.png`, `docs/downloads/9Pets-Rhiannon.zip`, and docs data for Rhiannon.
+- QA artifacts: `C:\tmp\9pets-rhiannon-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Rhiannon Cute / 9Pets-Cute-Rhiannon
+- Source audit: local official chibi/fight Spine source `roles/v3a7_314601_xran/314601_xran_fight.skel`.
+- Spine source: `314601_xran_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Rhiannon`, `docs/assets/spritesheets/9Pets-Cute-Rhiannon.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Rhiannon.webp`, `docs/assets/previews/9Pets-Cute-Rhiannon.png`, `docs/assets/source/9Pets-Cute-Rhiannon.png`, `docs/downloads/9Pets-Cute-Rhiannon.zip`, and docs cute data for Rhiannon.
+- QA artifacts: `C:\tmp\9pets-cute-rhiannon-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Rubuska Normal / 9Pets-Rubuska
+- Source audit: local normal Cubism folder `live2d/roles/v3a1_312501_ysm` exists with 33 motion files; local Spine path is `roles/v3a1_312501_ysm`.
+- Normal source: `live2d/roles/v3a1_312501_ysm`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_taishou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=t_renzhen.motion3.json, review=t_renzhen.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Rubuska`, `docs/assets/spritesheets/9Pets-Rubuska.webp`, `docs/assets/detail-spritesheets/9Pets-Rubuska.webp`, `docs/assets/previews/9Pets-Rubuska.png`, `docs/downloads/9Pets-Rubuska.zip`, and docs data for Rubuska.
+- QA artifacts: `C:\tmp\9pets-rubuska-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Rubuska Cute / 9Pets-Cute-Rubuska
+- Source audit: local official chibi/fight Spine source `roles/v3a1_312501_ysm/312501_ysm_fight.skel`.
+- Spine source: `312501_ysm_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Rubuska`, `docs/assets/spritesheets/9Pets-Cute-Rubuska.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Rubuska.webp`, `docs/assets/previews/9Pets-Cute-Rubuska.png`, `docs/assets/source/9Pets-Cute-Rubuska.png`, `docs/downloads/9Pets-Cute-Rubuska.zip`, and docs cute data for Rubuska.
+- QA artifacts: `C:\tmp\9pets-cute-rubuska-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Satsuki Normal / 9Pets-Satsuki
+- Source audit: local normal Cubism folder `live2d/roles/303801_wuseyue` exists with 22 motion files; local Spine path is `roles/303801_wuseyue`.
+- Normal source: `live2d/roles/303801_wuseyue`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_taishou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=t_haoqi.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Satsuki`, `docs/assets/spritesheets/9Pets-Satsuki.webp`, `docs/assets/detail-spritesheets/9Pets-Satsuki.webp`, `docs/assets/previews/9Pets-Satsuki.png`, `docs/downloads/9Pets-Satsuki.zip`, and docs data for Satsuki.
+- QA artifacts: `C:\tmp\9pets-satsuki-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Satsuki Cute / 9Pets-Cute-Satsuki
+- Source audit: local official chibi/fight Spine source `roles/303801_wuseyue/303801_wuseyue_fight.skel`.
+- Spine source: `303801_wuseyue_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Satsuki`, `docs/assets/spritesheets/9Pets-Cute-Satsuki.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Satsuki.webp`, `docs/assets/previews/9Pets-Cute-Satsuki.png`, `docs/assets/source/9Pets-Cute-Satsuki.png`, `docs/downloads/9Pets-Cute-Satsuki.zip`, and docs cute data for Satsuki.
+- QA artifacts: `C:\tmp\9pets-cute-satsuki-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Semmelweis Normal / 9Pets-Semmelweis
+- Source audit: local normal Cubism folder `live2d/roles/v1a9_308801_smews` exists with 23 motion files; local Spine path is `roles/v1a9_308801_smews`.
+- Normal source: `live2d/roles/v1a9_308801_smews`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaoqing.motion3.json, running-left=b_yaoqing.motion3.json, waving=b_yaoqing.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Semmelweis`, `docs/assets/spritesheets/9Pets-Semmelweis.webp`, `docs/assets/detail-spritesheets/9Pets-Semmelweis.webp`, `docs/assets/previews/9Pets-Semmelweis.png`, `docs/downloads/9Pets-Semmelweis.zip`, and docs data for Semmelweis.
+- QA artifacts: `C:\tmp\9pets-semmelweis-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Semmelweis Cute / 9Pets-Cute-Semmelweis
+- Source audit: local official chibi/fight Spine source `roles/v1a9_308801_smews/308801_smews_fight.skel`.
+- Spine source: `308801_smews_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Semmelweis`, `docs/assets/spritesheets/9Pets-Cute-Semmelweis.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Semmelweis.webp`, `docs/assets/previews/9Pets-Cute-Semmelweis.png`, `docs/assets/source/9Pets-Cute-Semmelweis.png`, `docs/downloads/9Pets-Cute-Semmelweis.zip`, and docs cute data for Semmelweis.
+- QA artifacts: `C:\tmp\9pets-cute-semmelweis-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Sentinel Normal / 9Pets-Sentinel
+- Source audit: local normal Cubism folder `live2d/roles/v3a0_312601_mlan` exists with 23 motion files; local Spine path is `roles/v3a0_312601_mlan`.
+- Normal source: `live2d/roles/v3a0_312601_mlan`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_cidao.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Sentinel`, `docs/assets/spritesheets/9Pets-Sentinel.webp`, `docs/assets/detail-spritesheets/9Pets-Sentinel.webp`, `docs/assets/previews/9Pets-Sentinel.png`, `docs/downloads/9Pets-Sentinel.zip`, and docs data for Sentinel.
+- QA artifacts: `C:\tmp\9pets-sentinel-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Sentinel Cute / 9Pets-Cute-Sentinel
+- Source audit: local official chibi/fight Spine source `roles/v3a0_312601_mlan/312601_mlan_fight.skel`.
+- Spine source: `312601_mlan_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Sentinel`, `docs/assets/spritesheets/9Pets-Cute-Sentinel.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Sentinel.webp`, `docs/assets/previews/9Pets-Cute-Sentinel.png`, `docs/assets/source/9Pets-Cute-Sentinel.png`, `docs/downloads/9Pets-Cute-Sentinel.zip`, and docs cute data for Sentinel.
+- QA artifacts: `C:\tmp\9pets-cute-sentinel-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Shamane Normal / 9Pets-Shamane
+- Source audit: local normal Cubism folder `live2d/roles/307201_zongmaoshali` exists with 19 motion files; local Spine path is `roles/v1a3_307201_zongmaoshali`.
+- Normal source: `live2d/roles/307201_zongmaoshali`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_taishou.motion3.json, jumping=b_diantou.motion3.json, failed=t_shengqi.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=t_yansu.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Shamane`, `docs/assets/spritesheets/9Pets-Shamane.webp`, `docs/assets/detail-spritesheets/9Pets-Shamane.webp`, `docs/assets/previews/9Pets-Shamane.png`, `docs/downloads/9Pets-Shamane.zip`, and docs data for Shamane.
+- QA artifacts: `C:\tmp\9pets-shamane-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Shamane Cute / 9Pets-Cute-Shamane
+- Source audit: local official chibi/fight Spine source `roles/v1a3_307201_zongmaoshali/307201_zongmaoshali_fight.skel`.
+- Spine source: `307201_zongmaoshali_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Shamane`, `docs/assets/spritesheets/9Pets-Cute-Shamane.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Shamane.webp`, `docs/assets/previews/9Pets-Cute-Shamane.png`, `docs/assets/source/9Pets-Cute-Shamane.png`, `docs/downloads/9Pets-Cute-Shamane.zip`, and docs cute data for Shamane.
+- QA artifacts: `C:\tmp\9pets-cute-shamane-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Silverwing Eagle Normal / 9Pets-Silverwing-Eagle
+- Source audit: local normal Cubism folder `live2d/roles/v3a7_315401_spxcqe` exists with 19 motion files; local Spine path is `roles/v3a7_315401_yzxcqe`.
+- Normal source: `live2d/roles/v3a7_315401_spxcqe`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_diantou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Silverwing-Eagle`, `docs/assets/spritesheets/9Pets-Silverwing-Eagle.webp`, `docs/assets/detail-spritesheets/9Pets-Silverwing-Eagle.webp`, `docs/assets/previews/9Pets-Silverwing-Eagle.png`, `docs/downloads/9Pets-Silverwing-Eagle.zip`, and docs data for Silverwing Eagle.
+- QA artifacts: `C:\tmp\9pets-silverwing-eagle-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Silverwing Eagle Cute / 9Pets-Cute-Silverwing-Eagle
+- Source audit: local official chibi/fight Spine source `roles/v3a7_315401_yzxcqe/315401_yzxcqe_fight.skel`.
+- Spine source: `315401_yzxcqe_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Silverwing-Eagle`, `docs/assets/spritesheets/9Pets-Cute-Silverwing-Eagle.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Silverwing-Eagle.webp`, `docs/assets/previews/9Pets-Cute-Silverwing-Eagle.png`, `docs/assets/source/9Pets-Cute-Silverwing-Eagle.png`, `docs/downloads/9Pets-Cute-Silverwing-Eagle.zip`, and docs cute data for Silverwing Eagle.
+- QA artifacts: `C:\tmp\9pets-cute-silverwing-eagle-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Sonetto Normal / 9Pets-Sonetto
+- Source audit: local normal Cubism folder `live2d/roles/302301_shisihangshi` exists with 22 motion files; local Spine path is `roles/302301_shisihangshi`.
+- Normal source: `live2d/roles/302301_shisihangshi`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yangtou.motion3.json, running-left=b_yangtou.motion3.json, waving=b_diantou.motion3.json, jumping=b_yangtou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_qidao.motion3.json, running=b_moxiaba.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Sonetto`, `docs/assets/spritesheets/9Pets-Sonetto.webp`, `docs/assets/detail-spritesheets/9Pets-Sonetto.webp`, `docs/assets/previews/9Pets-Sonetto.png`, `docs/downloads/9Pets-Sonetto.zip`, and docs data for Sonetto.
+- QA artifacts: `C:\tmp\9pets-sonetto-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Sonetto Cute / 9Pets-Cute-Sonetto
+- Source audit: local official chibi/fight Spine source `roles/302301_shisihangshi/302301_shisihangshi_fight.skel`.
+- Spine source: `302301_shisihangshi_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Sonetto`, `docs/assets/spritesheets/9Pets-Cute-Sonetto.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Sonetto.webp`, `docs/assets/previews/9Pets-Cute-Sonetto.png`, `docs/assets/source/9Pets-Cute-Sonetto.png`, `docs/downloads/9Pets-Cute-Sonetto.zip`, and docs cute data for Sonetto.
+- QA artifacts: `C:\tmp\9pets-cute-sonetto-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Sotheby Normal / 9Pets-Sotheby
+- Source audit: local normal Cubism folder `live2d/roles/300902_sufubi` exists with 24 motion files; local Spine path is `roles/300902_sufubi`.
+- Normal source: `live2d/roles/300902_sufubi`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_baoshou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=t_haoqi.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Sotheby`, `docs/assets/spritesheets/9Pets-Sotheby.webp`, `docs/assets/detail-spritesheets/9Pets-Sotheby.webp`, `docs/assets/previews/9Pets-Sotheby.png`, `docs/downloads/9Pets-Sotheby.zip`, and docs data for Sotheby.
+- QA artifacts: `C:\tmp\9pets-sotheby-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Sotheby Cute / 9Pets-Cute-Sotheby
+- Source audit: local official chibi/fight Spine source ``.
+- Spine source: ``.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Sotheby`, `docs/assets/spritesheets/9Pets-Cute-Sotheby.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Sotheby.webp`, `docs/assets/previews/9Pets-Cute-Sotheby.png`, `docs/assets/source/9Pets-Cute-Sotheby.png`, `docs/downloads/9Pets-Cute-Sotheby.zip`, and docs cute data for Sotheby.
+- QA artifacts: `C:\tmp\9pets-cute-sotheby-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Spathodea Normal / 9Pets-Spathodea
+- Source audit: local normal Cubism folder `live2d/roles/v1a5_307301_kerandian` exists with 23 motion files; local Spine path is `roles/v1a5_307301_kerandian`.
+- Normal source: `live2d/roles/v1a5_307301_kerandian`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_cashi.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=t_yihuo.motion3.json, running=b_guancha.motion3.json, review=b_guancha.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Spathodea`, `docs/assets/spritesheets/9Pets-Spathodea.webp`, `docs/assets/detail-spritesheets/9Pets-Spathodea.webp`, `docs/assets/previews/9Pets-Spathodea.png`, `docs/downloads/9Pets-Spathodea.zip`, and docs data for Spathodea.
+- QA artifacts: `C:\tmp\9pets-spathodea-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Spathodea Cute / 9Pets-Cute-Spathodea
+- Source audit: local official chibi/fight Spine source `roles/v1a5_307301_kerandian/307301_kerandian_fight.skel`.
+- Spine source: `307301_kerandian_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Spathodea`, `docs/assets/spritesheets/9Pets-Cute-Spathodea.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Spathodea.webp`, `docs/assets/previews/9Pets-Cute-Spathodea.png`, `docs/assets/source/9Pets-Cute-Spathodea.png`, `docs/downloads/9Pets-Cute-Spathodea.zip`, and docs cute data for Spathodea.
+- QA artifacts: `C:\tmp\9pets-cute-spathodea-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Sputnik Normal / 9Pets-Sputnik
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/305501_siputenike/305501_siputenike_room.skel`; local Spine path is `roles/305501_siputenike`.
+- Normal source: `roles/305501_siputenike/305501_siputenike_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=idle_birthday_up, failed=hit, waiting=sleep, running=idle_birthday_loop, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Sputnik`, `docs/assets/spritesheets/9Pets-Sputnik.webp`, `docs/assets/detail-spritesheets/9Pets-Sputnik.webp`, `docs/assets/previews/9Pets-Sputnik.png`, `docs/downloads/9Pets-Sputnik.zip`, and docs data for Sputnik.
+- QA artifacts: `C:\tmp\9pets-sputnik-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Sputnik Cute / 9Pets-Cute-Sputnik
+- Source audit: local official chibi/fight Spine source `roles/305501_siputenike/305501_siputenike_fight.skel`.
+- Spine source: `305501_siputenike_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Sputnik`, `docs/assets/spritesheets/9Pets-Cute-Sputnik.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Sputnik.webp`, `docs/assets/previews/9Pets-Cute-Sputnik.png`, `docs/assets/source/9Pets-Cute-Sputnik.png`, `docs/downloads/9Pets-Cute-Sputnik.zip`, and docs cute data for Sputnik.
+- QA artifacts: `C:\tmp\9pets-cute-sputnik-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Sweetheart Normal / 9Pets-Sweetheart
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/301101_malilian/301101_malilian_room.skel`; local Spine path is `roles/301101_malilian`.
+- Normal source: `roles/301101_malilian/301101_malilian_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=idle_birthday_up, failed=hit, waiting=sleep, running=idle_birthday_loop, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Sweetheart`, `docs/assets/spritesheets/9Pets-Sweetheart.webp`, `docs/assets/detail-spritesheets/9Pets-Sweetheart.webp`, `docs/assets/previews/9Pets-Sweetheart.png`, `docs/downloads/9Pets-Sweetheart.zip`, and docs data for Sweetheart.
+- QA artifacts: `C:\tmp\9pets-sweetheart-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Sweetheart Cute / 9Pets-Cute-Sweetheart
+- Source audit: local official chibi/fight Spine source `roles/301101_malilian/301101_malilian_fight.skel`.
+- Spine source: `301101_malilian_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Sweetheart`, `docs/assets/spritesheets/9Pets-Cute-Sweetheart.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Sweetheart.webp`, `docs/assets/previews/9Pets-Cute-Sweetheart.png`, `docs/assets/source/9Pets-Cute-Sweetheart.png`, `docs/downloads/9Pets-Cute-Sweetheart.zip`, and docs cute data for Sweetheart.
+- QA artifacts: `C:\tmp\9pets-cute-sweetheart-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Tennant Normal / 9Pets-Tennant
+- Source audit: local normal Cubism folder `live2d/roles/304301_tannante` exists with 17 motion files; local Spine path is `roles/304301_tannante`.
+- Normal source: `live2d/roles/304301_tannante`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_shenshou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Tennant`, `docs/assets/spritesheets/9Pets-Tennant.webp`, `docs/assets/detail-spritesheets/9Pets-Tennant.webp`, `docs/assets/previews/9Pets-Tennant.png`, `docs/downloads/9Pets-Tennant.zip`, and docs data for Tennant.
+- QA artifacts: `C:\tmp\9pets-tennant-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Tennant Cute / 9Pets-Cute-Tennant
+- Source audit: local official chibi/fight Spine source `roles/304301_tannante/304301_tannante_fight.skel`.
+- Spine source: `304301_tannante_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=posture, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Tennant`, `docs/assets/spritesheets/9Pets-Cute-Tennant.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Tennant.webp`, `docs/assets/previews/9Pets-Cute-Tennant.png`, `docs/assets/source/9Pets-Cute-Tennant.png`, `docs/downloads/9Pets-Cute-Tennant.zip`, and docs cute data for Tennant.
+- QA artifacts: `C:\tmp\9pets-cute-tennant-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - The Fool Normal / 9Pets-The-Fool
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/301201_nongchen/301201_nongchen_room.skel`; local Spine path is `roles/301201_nongchen`.
+- Normal source: `roles/301201_nongchen/301201_nongchen_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=idle_birthday_up, failed=hit, waiting=sleep, running=idle_birthday_loop, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-The-Fool`, `docs/assets/spritesheets/9Pets-The-Fool.webp`, `docs/assets/detail-spritesheets/9Pets-The-Fool.webp`, `docs/assets/previews/9Pets-The-Fool.png`, `docs/downloads/9Pets-The-Fool.zip`, and docs data for The Fool.
+- QA artifacts: `C:\tmp\9pets-the-fool-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - The Fool Cute / 9Pets-Cute-The-Fool
+- Source audit: local official chibi/fight Spine source `roles/301201_nongchen/301201_nongchen_fight.skel`.
+- Spine source: `301201_nongchen_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-The-Fool`, `docs/assets/spritesheets/9Pets-Cute-The-Fool.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-The-Fool.webp`, `docs/assets/previews/9Pets-Cute-The-Fool.png`, `docs/assets/source/9Pets-Cute-The-Fool.png`, `docs/downloads/9Pets-Cute-The-Fool.zip`, and docs cute data for The Fool.
+- QA artifacts: `C:\tmp\9pets-cute-the-fool-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Tooth Fairy Normal / 9Pets-Tooth-Fairy
+- Source audit: local normal Cubism folder `live2d/roles/305301_yaxian` exists with 40 motion files; local Spine path is `roles/305301_yaxian`.
+- Normal source: `live2d/roles/305301_yaxian`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_changge.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Tooth-Fairy`, `docs/assets/spritesheets/9Pets-Tooth-Fairy.webp`, `docs/assets/detail-spritesheets/9Pets-Tooth-Fairy.webp`, `docs/assets/previews/9Pets-Tooth-Fairy.png`, `docs/downloads/9Pets-Tooth-Fairy.zip`, and docs data for Tooth Fairy.
+- QA artifacts: `C:\tmp\9pets-tooth-fairy-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Tooth Fairy Cute / 9Pets-Cute-Tooth-Fairy
+- Source audit: local official chibi/fight Spine source `roles/305301_yaxian/305301_yaxian_fight.skel`.
+- Spine source: `305301_yaxian_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Tooth-Fairy`, `docs/assets/spritesheets/9Pets-Cute-Tooth-Fairy.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Tooth-Fairy.webp`, `docs/assets/previews/9Pets-Cute-Tooth-Fairy.png`, `docs/assets/source/9Pets-Cute-Tooth-Fairy.png`, `docs/downloads/9Pets-Cute-Tooth-Fairy.zip`, and docs cute data for Tooth Fairy.
+- QA artifacts: `C:\tmp\9pets-cute-tooth-fairy-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - TTT Normal / 9Pets-TTT
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/303301_ttt/303301_ttt_room.skel`; local Spine path is `roles/303301_ttt`.
+- Normal source: `roles/303301_ttt/303301_ttt_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=idle, running-left=idle, waving=click, jumping=idle, failed=hit, waiting=sleep, running=idle, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-TTT`, `docs/assets/spritesheets/9Pets-TTT.webp`, `docs/assets/detail-spritesheets/9Pets-TTT.webp`, `docs/assets/previews/9Pets-TTT.png`, `docs/downloads/9Pets-TTT.zip`, and docs data for TTT.
+- QA artifacts: `C:\tmp\9pets-ttt-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - TTT Cute / 9Pets-Cute-TTT
+- Source audit: local official chibi/fight Spine source `roles/303301_ttt/303301_ttt_fight.skel`.
+- Spine source: `303301_ttt_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-TTT`, `docs/assets/spritesheets/9Pets-Cute-TTT.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-TTT.webp`, `docs/assets/previews/9Pets-Cute-TTT.png`, `docs/assets/source/9Pets-Cute-TTT.png`, `docs/downloads/9Pets-Cute-TTT.zip`, and docs cute data for TTT.
+- QA artifacts: `C:\tmp\9pets-cute-ttt-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Tuesday Normal / 9Pets-Tuesday
+- Source audit: local normal Cubism folder `live2d/roles/v2a1_309801_lsp` exists with 20 motion files; local Spine path is `roles/v2a1_309801_lsp`.
+- Normal source: `live2d/roles/v2a1_309801_lsp`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaoqing.motion3.json, running-left=b_yaoqing.motion3.json, waving=b_yaoqing.motion3.json, jumping=b_diantou.motion3.json, failed=b_daliang.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Tuesday`, `docs/assets/spritesheets/9Pets-Tuesday.webp`, `docs/assets/detail-spritesheets/9Pets-Tuesday.webp`, `docs/assets/previews/9Pets-Tuesday.png`, `docs/downloads/9Pets-Tuesday.zip`, and docs data for Tuesday.
+- QA artifacts: `C:\tmp\9pets-tuesday-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Tuesday Cute / 9Pets-Cute-Tuesday
+- Source audit: local official chibi/fight Spine source `roles/v2a1_309801_lsp/309801_lsp_fight.skel`.
+- Spine source: `309801_lsp_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Tuesday`, `docs/assets/spritesheets/9Pets-Cute-Tuesday.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Tuesday.webp`, `docs/assets/previews/9Pets-Cute-Tuesday.png`, `docs/assets/source/9Pets-Cute-Tuesday.png`, `docs/downloads/9Pets-Cute-Tuesday.zip`, and docs cute data for Tuesday.
+- QA artifacts: `C:\tmp\9pets-cute-tuesday-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Twins Sleep Normal / 9Pets-Twins-Sleep
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/304001_lisha&luyisi/304001_lisha&luyisi_room.skel`; local Spine path is `roles/304001_lisha&luyisi`.
+- Normal source: `roles/304001_lisha&luyisi/304001_lisha&luyisi_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=walk, failed=hit, waiting=sleep, running=walk, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Twins-Sleep`, `docs/assets/spritesheets/9Pets-Twins-Sleep.webp`, `docs/assets/detail-spritesheets/9Pets-Twins-Sleep.webp`, `docs/assets/previews/9Pets-Twins-Sleep.png`, `docs/downloads/9Pets-Twins-Sleep.zip`, and docs data for Twins Sleep.
+- QA artifacts: `C:\tmp\9pets-twins-sleep-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Twins Sleep Cute / 9Pets-Cute-Twins-Sleep
+- Source audit: local official chibi/fight Spine source `roles/304001_lisha&luyisi/304001_lisha&luyisi_fight.skel`.
+- Spine source: `304001_lisha&luyisi_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Twins-Sleep`, `docs/assets/spritesheets/9Pets-Cute-Twins-Sleep.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Twins-Sleep.webp`, `docs/assets/previews/9Pets-Cute-Twins-Sleep.png`, `docs/assets/source/9Pets-Cute-Twins-Sleep.png`, `docs/downloads/9Pets-Cute-Twins-Sleep.zip`, and docs cute data for Twins Sleep.
+- QA artifacts: `C:\tmp\9pets-cute-twins-sleep-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Ulrich Normal / 9Pets-Ulrich
+- Source audit: local normal Cubism folder `live2d/roles/v2a4_310701_welx` exists with 8 motion files; local Spine path is `roles/v2a8_310701_welx`.
+- Normal source: `live2d/roles/v2a4_310701_welx`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_tanshou.motion3.json, jumping=b_diantou.motion3.json, failed=b_baoxiong.motion3.json, waiting=b_tanshou.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Ulrich`, `docs/assets/spritesheets/9Pets-Ulrich.webp`, `docs/assets/detail-spritesheets/9Pets-Ulrich.webp`, `docs/assets/previews/9Pets-Ulrich.png`, `docs/downloads/9Pets-Ulrich.zip`, and docs data for Ulrich.
+- QA artifacts: `C:\tmp\9pets-ulrich-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Ulrich Cute / 9Pets-Cute-Ulrich
+- Source audit: local official chibi/fight Spine source `roles/v2a8_310701_welx/310701_welx_fight.skel`.
+- Spine source: `310701_welx_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Ulrich`, `docs/assets/spritesheets/9Pets-Cute-Ulrich.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Ulrich.webp`, `docs/assets/previews/9Pets-Cute-Ulrich.png`, `docs/assets/source/9Pets-Cute-Ulrich.png`, `docs/downloads/9Pets-Cute-Ulrich.zip`, and docs cute data for Ulrich.
+- QA artifacts: `C:\tmp\9pets-cute-ulrich-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Ulu Normal / 9Pets-Ulu
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/v1a5_307601_hepingwulu/307601_hepingwulu_room.skel`; local Spine path is `roles/v1a5_307601_hepingwulu`.
+- Normal source: `roles/v1a5_307601_hepingwulu/307601_hepingwulu_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=walk, failed=hit, waiting=sleep, running=walk, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Ulu`, `docs/assets/spritesheets/9Pets-Ulu.webp`, `docs/assets/detail-spritesheets/9Pets-Ulu.webp`, `docs/assets/previews/9Pets-Ulu.png`, `docs/downloads/9Pets-Ulu.zip`, and docs data for Ulu.
+- QA artifacts: `C:\tmp\9pets-ulu-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Ulu Cute / 9Pets-Cute-Ulu
+- Source audit: local official chibi/fight Spine source `roles/v1a5_307601_hepingwulu/307601_hepingwulu_fight.skel`.
+- Spine source: `307601_hepingwulu_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Ulu`, `docs/assets/spritesheets/9Pets-Cute-Ulu.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Ulu.webp`, `docs/assets/previews/9Pets-Cute-Ulu.png`, `docs/assets/source/9Pets-Cute-Ulu.png`, `docs/downloads/9Pets-Cute-Ulu.zip`, and docs cute data for Ulu.
+- QA artifacts: `C:\tmp\9pets-cute-ulu-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Vila Normal / 9Pets-Vila
+- Source audit: local normal Cubism folder `live2d/roles/v1a8_308701_weila` exists with 20 motion files; local Spine path is `roles/v1a8_308701_weila`.
+- Normal source: `live2d/roles/v1a8_308701_weila`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_taishou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Vila`, `docs/assets/spritesheets/9Pets-Vila.webp`, `docs/assets/detail-spritesheets/9Pets-Vila.webp`, `docs/assets/previews/9Pets-Vila.png`, `docs/downloads/9Pets-Vila.zip`, and docs data for Vila.
+- QA artifacts: `C:\tmp\9pets-vila-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Vila Cute / 9Pets-Cute-Vila
+- Source audit: local official chibi/fight Spine source `roles/v1a8_308701_weila/308701_weila_fight.skel`.
+- Spine source: `308701_weila_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Vila`, `docs/assets/spritesheets/9Pets-Cute-Vila.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Vila.webp`, `docs/assets/previews/9Pets-Cute-Vila.png`, `docs/assets/source/9Pets-Cute-Vila.png`, `docs/downloads/9Pets-Cute-Vila.zip`, and docs cute data for Vila.
+- QA artifacts: `C:\tmp\9pets-cute-vila-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Voyager Normal / 9Pets-Voyager
+- Source audit: local normal Cubism folder `live2d/roles/304801_yuanlv` exists with 67 motion files; local Spine path is `roles/304801_yuanlv`.
+- Normal source: `live2d/roles/304801_yuanlv`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_beishou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=t_haoqi.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Voyager`, `docs/assets/spritesheets/9Pets-Voyager.webp`, `docs/assets/detail-spritesheets/9Pets-Voyager.webp`, `docs/assets/previews/9Pets-Voyager.png`, `docs/downloads/9Pets-Voyager.zip`, and docs data for Voyager.
+- QA artifacts: `C:\tmp\9pets-voyager-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Voyager Cute / 9Pets-Cute-Voyager
+- Source audit: local official chibi/fight Spine source `roles/304801_yuanlv/304801_yuanlv_fight.skel`.
+- Spine source: `304801_yuanlv_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Voyager`, `docs/assets/spritesheets/9Pets-Cute-Voyager.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Voyager.webp`, `docs/assets/previews/9Pets-Cute-Voyager.png`, `docs/assets/source/9Pets-Cute-Voyager.png`, `docs/downloads/9Pets-Cute-Voyager.zip`, and docs cute data for Voyager.
+- QA artifacts: `C:\tmp\9pets-cute-voyager-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - White Rum Normal / 9Pets-White-Rum
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/v2a2_310101_bailangmu/310101_bailangmu_room.skel`; local Spine path is `roles/v2a2_310101_bailangmu`.
+- Normal source: `roles/v2a2_310101_bailangmu/310101_bailangmu_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=idle_birthday_up, failed=hit, waiting=sleep, running=idle_birthday_loop, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-White-Rum`, `docs/assets/spritesheets/9Pets-White-Rum.webp`, `docs/assets/detail-spritesheets/9Pets-White-Rum.webp`, `docs/assets/previews/9Pets-White-Rum.png`, `docs/downloads/9Pets-White-Rum.zip`, and docs data for White Rum.
+- QA artifacts: `C:\tmp\9pets-white-rum-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - White Rum Cute / 9Pets-Cute-White-Rum
+- Source audit: local official chibi/fight Spine source `roles/v2a2_310101_bailangmu/310101_bailangmu_fight.skel`.
+- Spine source: `310101_bailangmu_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-White-Rum`, `docs/assets/spritesheets/9Pets-Cute-White-Rum.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-White-Rum.webp`, `docs/assets/previews/9Pets-Cute-White-Rum.png`, `docs/assets/source/9Pets-Cute-White-Rum.png`, `docs/downloads/9Pets-Cute-White-Rum.zip`, and docs cute data for White Rum.
+- QA artifacts: `C:\tmp\9pets-cute-white-rum-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Willow Normal / 9Pets-Willow
+- Source audit: local normal Cubism folder `live2d/roles/v2a3_310401_ddg` exists with 25 motion files; local Spine path is `roles/v2a3_310401_ddg`.
+- Normal source: `live2d/roles/v2a3_310401_ddg`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_xingli.motion3.json, running-left=b_xingli.motion3.json, waving=b_baishou.motion3.json, jumping=b_xingli.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Willow`, `docs/assets/spritesheets/9Pets-Willow.webp`, `docs/assets/detail-spritesheets/9Pets-Willow.webp`, `docs/assets/previews/9Pets-Willow.png`, `docs/downloads/9Pets-Willow.zip`, and docs data for Willow.
+- QA artifacts: `C:\tmp\9pets-willow-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Willow Cute / 9Pets-Cute-Willow
+- Source audit: local official chibi/fight Spine source `roles/v2a3_310401_ddg/310401_ddg_fight.skel`.
+- Spine source: `310401_ddg_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Willow`, `docs/assets/spritesheets/9Pets-Cute-Willow.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Willow.webp`, `docs/assets/previews/9Pets-Cute-Willow.png`, `docs/assets/source/9Pets-Cute-Willow.png`, `docs/downloads/9Pets-Cute-Willow.zip`, and docs cute data for Willow.
+- QA artifacts: `C:\tmp\9pets-cute-willow-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Windsong Normal / 9Pets-Windsong
+- Source audit: local normal Cubism folder `live2d/roles/v1a8_307701_beifangshaoge` exists with 20 motion files; local Spine path is `roles/v1a8_307701_beifangshaoge`.
+- Normal source: `live2d/roles/v1a8_307701_beifangshaoge`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_chizi.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_diantou.motion3.json, running=b_diantou.motion3.json, review=t_yansu.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Windsong`, `docs/assets/spritesheets/9Pets-Windsong.webp`, `docs/assets/detail-spritesheets/9Pets-Windsong.webp`, `docs/assets/previews/9Pets-Windsong.png`, `docs/downloads/9Pets-Windsong.zip`, and docs data for Windsong.
+- QA artifacts: `C:\tmp\9pets-windsong-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Windsong Cute / 9Pets-Cute-Windsong
+- Source audit: local official chibi/fight Spine source `roles/v1a8_307701_beifangshaoge/307701_beifangshaoge_fight.skel`.
+- Spine source: `307701_beifangshaoge_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=posture, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Windsong`, `docs/assets/spritesheets/9Pets-Cute-Windsong.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Windsong.webp`, `docs/assets/previews/9Pets-Cute-Windsong.png`, `docs/assets/source/9Pets-Cute-Windsong.png`, `docs/downloads/9Pets-Cute-Windsong.zip`, and docs cute data for Windsong.
+- QA artifacts: `C:\tmp\9pets-cute-windsong-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Zima Normal / 9Pets-Zima
+- Source audit: no cached normal Cubism source was available; selected normal-equivalent room Spine `roles/301301_dong/301301_dong_room.skel`; local Spine path is `roles/301301_dong`.
+- Normal source: `roles/301301_dong/301301_dong_room.skel`.
+- Motions selected by the renderer: idle=idle, running-right=walk, running-left=walk, waving=click, jumping=walk, failed=hit, waiting=sleep, running=walk, review=click.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Zima`, `docs/assets/spritesheets/9Pets-Zima.webp`, `docs/assets/detail-spritesheets/9Pets-Zima.webp`, `docs/assets/previews/9Pets-Zima.png`, `docs/downloads/9Pets-Zima.zip`, and docs data for Zima.
+- QA artifacts: `C:\tmp\9pets-zima-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Zima Cute / 9Pets-Cute-Zima
+- Source audit: local official chibi/fight Spine source `roles/301301_dong/301301_dong_fight.skel`.
+- Spine source: `301301_dong_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Zima`, `docs/assets/spritesheets/9Pets-Cute-Zima.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Zima.webp`, `docs/assets/previews/9Pets-Cute-Zima.png`, `docs/assets/source/9Pets-Cute-Zima.png`, `docs/downloads/9Pets-Cute-Zima.zip`, and docs cute data for Zima.
+- QA artifacts: `C:\tmp\9pets-cute-zima-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - X Normal / 9Pets-X
+- Source audit: local normal Cubism folder `live2d/roles/301001_x` exists with 21 motion files; local Spine path is `roles/301001_x`.
+- Normal source: `live2d/roles/301001_x`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_tanshou.motion3.json, jumping=b_diantou.motion3.json, failed=t_nanguo.motion3.json, waiting=b_tanshou.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-X`, `docs/assets/spritesheets/9Pets-X.webp`, `docs/assets/detail-spritesheets/9Pets-X.webp`, `docs/assets/previews/9Pets-X.png`, `docs/downloads/9Pets-X.zip`, and docs data for X.
+- QA artifacts: `C:\tmp\9pets-x-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - X Cute / 9Pets-Cute-X
+- Source audit: local official chibi/fight Spine source `roles/301001_x/301001_x_fight.skel`.
+- Spine source: `301001_x_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-X`, `docs/assets/spritesheets/9Pets-Cute-X.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-X.webp`, `docs/assets/previews/9Pets-Cute-X.png`, `docs/assets/source/9Pets-Cute-X.png`, `docs/downloads/9Pets-Cute-X.zip`, and docs cute data for X.
+- QA artifacts: `C:\tmp\9pets-cute-x-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Yenisei Normal / 9Pets-Yenisei
+- Source audit: local normal Cubism folder `live2d/roles/v1a6_308201_xiaoyenisai` exists with 21 motion files; local Spine path is `roles/v1a6_308201_xyns`.
+- Normal source: `live2d/roles/v1a6_308201_xiaoyenisai`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yaotou.motion3.json, running-left=b_yaotou.motion3.json, waving=b_diantou.motion3.json, jumping=b_diantou.motion3.json, failed=b_diantou.motion3.json, waiting=b_diantou.motion3.json, running=b_sikao.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Yenisei`, `docs/assets/spritesheets/9Pets-Yenisei.webp`, `docs/assets/detail-spritesheets/9Pets-Yenisei.webp`, `docs/assets/previews/9Pets-Yenisei.png`, `docs/downloads/9Pets-Yenisei.zip`, and docs data for Yenisei.
+- QA artifacts: `C:\tmp\9pets-yenisei-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Yenisei Cute / 9Pets-Cute-Yenisei
+- Source audit: local official chibi/fight Spine source `roles/v1a6_308201_xyns/308201_xyns_fight.skel`.
+- Spine source: `308201_xyns_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Yenisei`, `docs/assets/spritesheets/9Pets-Cute-Yenisei.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Yenisei.webp`, `docs/assets/previews/9Pets-Cute-Yenisei.png`, `docs/assets/source/9Pets-Cute-Yenisei.png`, `docs/downloads/9Pets-Cute-Yenisei.zip`, and docs cute data for Yenisei.
+- QA artifacts: `C:\tmp\9pets-cute-yenisei-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - A Knight Normal / 9Pets-A-Knight
+- Source audit: local normal Cubism folder `live2d/roles/v3a1_300731_wxk` exists with 16 motion files; local Spine path is `roles/v3a1_300731_wxk`.
+- Normal source: `live2d/roles/v3a1_300731_wxk`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_xingli.motion3.json, running-left=b_xingli.motion3.json, waving=b_shenshou.motion3.json, jumping=b_jujian.motion3.json, failed=b_shengqi.motion3.json, waiting=b_tanshou.motion3.json, running=b_cashi.motion3.json, review=b_sikao.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-A-Knight`, `docs/assets/spritesheets/9Pets-A-Knight.webp`, `docs/assets/detail-spritesheets/9Pets-A-Knight.webp`, `docs/assets/previews/9Pets-A-Knight.png`, `docs/downloads/9Pets-A-Knight.zip`, and docs data for A Knight.
+- QA artifacts: `C:\tmp\9pets-a-knight-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - A Knight Cute / 9Pets-Cute-A-Knight
+- Source audit: local official chibi/fight Spine source ``.
+- Spine source: ``.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=posture, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-A-Knight`, `docs/assets/spritesheets/9Pets-Cute-A-Knight.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-A-Knight.webp`, `docs/assets/previews/9Pets-Cute-A-Knight.png`, `docs/assets/source/9Pets-Cute-A-Knight.png`, `docs/downloads/9Pets-Cute-A-Knight.zip`, and docs cute data for A Knight.
+- QA artifacts: `C:\tmp\9pets-cute-a-knight-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Coppelia Normal / 9Pets-Coppelia
+- Source audit: local normal Cubism folder `live2d/roles/v3a7_314401_fly` exists with 28 motion files; local Spine path is `roles/v3a7_314401_fly`.
+- Normal source: `live2d/roles/v3a7_314401_fly`.
+- Motions selected by the renderer: idle=b_idle.motion3.json, running-right=b_yincha.motion3.json, running-left=b_tanshou.motion3.json, waving=b_tanshou.motion3.json, jumping=b_yincha.motion3.json, failed=b_kuqi.motion3.json, waiting=b_kuqi1.motion3.json, running=b_sikao.motion3.json, review=b_diantou.motion3.json.
+- Capture settings: scoped one-character rebuild with 4x detail atlas.
+- Files changed: rebuilt `pets/9Pets-Coppelia`, `docs/assets/spritesheets/9Pets-Coppelia.webp`, `docs/assets/detail-spritesheets/9Pets-Coppelia.webp`, `docs/assets/previews/9Pets-Coppelia.png`, `docs/downloads/9Pets-Coppelia.zip`, and docs data for Coppelia.
+- QA artifacts: `C:\tmp\9pets-coppelia-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal Live2D pass.
+
+### 2026-06-12 - Coppelia Cute / 9Pets-Cute-Coppelia
+- Source audit: local official chibi/fight Spine source `roles/v3a7_314401_fly/314401_fly_fight.skel`.
+- Spine source: `314401_fly_fight.skel`.
+- Motions selected by the renderer: idle=idle, running-right=posture, running-left=posture, waving=giddy, jumping=skill1, failed=hit, waiting=sleep, running=posture, review=posture.
+- Capture settings: scoped one-character fight Spine rebuild with 4x detail atlas.
+- Files changed: built `pets/9Pets-Cute-Coppelia`, `docs/assets/spritesheets/9Pets-Cute-Coppelia.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Coppelia.webp`, `docs/assets/previews/9Pets-Cute-Coppelia.png`, `docs/assets/source/9Pets-Cute-Coppelia.png`, `docs/downloads/9Pets-Cute-Coppelia.zip`, and docs cute data for Coppelia.
+- QA artifacts: `C:\tmp\9pets-cute-coppelia-final-contact.png`.
+- Verification: `python tools\verify_build.py` passed; targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+

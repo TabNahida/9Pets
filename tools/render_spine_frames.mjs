@@ -8,14 +8,14 @@ import { tmpdir } from "node:os";
 
 const STATE_ROWS = [
   { id: "idle", frames: 6, fps: 10, prefs: ["idle", "stand", "room_idle", "ui_idle", "animation"] },
-  { id: "running-right", frames: 8, fps: 12, prefs: ["move", "walk", "run", "idle", "animation"] },
-  { id: "running-left", frames: 8, fps: 12, prefs: ["move", "walk", "run", "idle", "animation"] },
-  { id: "waving", frames: 4, fps: 10, prefs: ["show", "touch", "skill", "attack", "idle", "animation"] },
-  { id: "jumping", frames: 5, fps: 12, prefs: ["skill", "attack", "move", "idle", "animation"] },
+  { id: "running-right", frames: 8, fps: 12, prefs: ["move", "walk", "run", "posture", "idle", "animation"] },
+  { id: "running-left", frames: 8, fps: 12, prefs: ["move", "walk", "run", "posture", "idle", "animation"] },
+  { id: "waving", frames: 4, fps: 10, prefs: ["click", "giddy", "show", "touch", "skill", "attack", "idle", "animation"] },
+  { id: "jumping", frames: 5, fps: 12, prefs: ["idle_birthday_up", "skill1", "skill", "attack", "move", "walk", "posture", "idle", "animation"] },
   { id: "failed", frames: 8, fps: 10, prefs: ["hit", "hurt", "die", "dead", "skill", "idle", "animation"] },
-  { id: "waiting", frames: 6, fps: 10, prefs: ["idle2", "room", "idle", "animation"] },
-  { id: "running", frames: 6, fps: 12, prefs: ["skill", "attack", "move", "idle", "animation"] },
-  { id: "review", frames: 6, fps: 10, prefs: ["show", "idle", "animation"] },
+  { id: "waiting", frames: 6, fps: 10, prefs: ["sleep", "idle2", "room", "idle", "animation"] },
+  { id: "running", frames: 6, fps: 12, prefs: ["idle_birthday_loop", "posture", "skill2", "skill", "attack", "move", "walk", "idle", "animation"] },
+  { id: "review", frames: 6, fps: 10, prefs: ["unique", "click", "show", "idle", "animation"] },
 ];
 
 function parseArgs(argv) {
@@ -319,7 +319,10 @@ async function main() {
     }
     for (const state of states) {
       const override = normalizeMotionName(motionOverrides[state.id] || "");
-      const animationName = override || chooseAnimation(animations, state.prefs);
+      let animationName = override && animations.includes(override) ? override : chooseAnimation(animations, state.prefs);
+      if (override && !animations.includes(override)) {
+        console.log(`${state.id} missing override ${override}; fallback ${animationName}`);
+      }
       if (!animations.includes(animationName)) {
         throw new Error(`Animation not found for ${state.id}: ${animationName}`);
       }

@@ -1,6 +1,6 @@
 {
   "id": "9pets-reed",
   "displayName": "9Pets - Reed",
-  "description": "A fan-made Reverse: 1999 Codex pet for Reed, built from official game asset-dump artwork.",
+  "description": "An official-sourced Reverse: 1999 Codex pet for Reed, built from official Spine motion frames.",
   "spritesheetPath": "spritesheet.webp"
 }

@@ -1,6 +1,6 @@
 {
   "id": "9pets-ms-moissan",
   "displayName": "9Pets - Ms. Moissan",
-  "description": "A fan-made Reverse: 1999 Codex pet for Ms. Moissan, built from official game asset-dump artwork.",
+  "description": "An official-sourced Reverse: 1999 Codex pet for Ms. Moissan, built from official Spine motion frames.",
   "spritesheetPath": "spritesheet.webp"
 }

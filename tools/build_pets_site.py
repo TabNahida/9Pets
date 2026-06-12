@@ -46,11 +46,36 @@ CELL_W = 192
 CELL_H = 208
 COLS = 8
 ROWS = 9
-DETAIL_ATLAS_SCALE = 2
+DETAIL_ATLAS_SCALE = 4
 CUTE_PACKAGE_PREFIX = "9Pets-Cute-"
 HIDDEN_NORMAL_PACKAGES = {
     "9Pets-Baby-Blue",
     "9Pets-Balloon-Party",
+}
+NORMAL_SPINE_OVERRIDE_PACKAGES = {
+    "9Pets-Enigma",
+}
+CUTE_SPINE_SOURCE_OVERRIDES: dict[str, dict[str, str]] = {
+    "9Pets-Cute-A-Knight": {
+        "assetId": "300701",
+        "spinePath": "roles/300701_weixiukai",
+        "skinName": "Official chibi battle model",
+    },
+    "9Pets-Cute-Coppelia": {
+        "assetId": "314401",
+        "spinePath": "roles/v3a7_314401_fly",
+        "skinName": "Official chibi battle model",
+    },
+    "9Pets-Cute-Regulus": {
+        "assetId": "500501",
+        "spinePath": "roles/500501_xingti2hao",
+        "skinName": "Official chibi battle model",
+    },
+    "9Pets-Cute-Sotheby": {
+        "assetId": "300901",
+        "spinePath": "roles/300901_sufubi",
+        "skinName": "Official chibi battle model",
+    },
 }
 
 LIVE2D_RENDER_PROFILES: dict[str, dict[str, Any]] = {
@@ -89,6 +114,63 @@ LIVE2D_RENDER_PROFILES: dict[str, dict[str, Any]] = {
             "failed": "b_shengqi.motion3.json",
             "waiting": "b_tanshou.motion3.json",
             "running": "b_cashi.motion3.json",
+            "review": "b_sikao.motion3.json",
+        },
+    },
+    "9Pets-Eternity": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.68,
+        "x": 1050,
+        "y": 600,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_yaotou.motion3.json",
+            "running-left": "b_yaotou.motion3.json",
+            "waving": "b_baoxiong.motion3.json",
+            "jumping": "b_diantou.motion3.json",
+            "failed": "t_nanguo.motion3.json",
+            "waiting": "b_diantou.motion3.json",
+            "running": "b_diantou.motion3.json",
+            "review": "b_diantou.motion3.json",
+        },
+    },
+    "9Pets-Ezra-Theodore": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.68,
+        "x": 1050,
+        "y": 600,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_yaotou.motion3.json",
+            "running-left": "b_yaotou.motion3.json",
+            "waving": "b_jushou.motion3.json",
+            "jumping": "b_diantou.motion3.json",
+            "failed": "t_nanguo.motion3.json",
+            "waiting": "t_yihuo.motion3.json",
+            "running": "b_sikao.motion3.json",
+            "review": "b_sikao.motion3.json",
+        },
+    },
+    "9Pets-Igor": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.68,
+        "x": 1050,
+        "y": 600,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_yaotou.motion3.json",
+            "running-left": "b_yaotou.motion3.json",
+            "waving": "b_tanshou.motion3.json",
+            "jumping": "b_diantou.motion3.json",
+            "failed": "t_shengqi.motion3.json",
+            "waiting": "b_tanshou.motion3.json",
+            "running": "b_sikao.motion3.json",
             "review": "b_sikao.motion3.json",
         },
     },
@@ -750,6 +832,90 @@ SPINE_RENDER_PROFILES: dict[str, dict[str, Any]] = {
             "review": "idle",
         },
     },
+    "9Pets-Cristallo": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "303101_qianboli_room.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "walk",
+            "running-left": "walk",
+            "waving": "click",
+            "jumping": "idle_birthday_up",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "idle_birthday_loop",
+            "review": "click",
+        },
+    },
+    "9Pets-Darley-Clatter": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "305001_dadadali_room.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "walk",
+            "running-left": "walk",
+            "waving": "click",
+            "jumping": "idle_birthday_up",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "idle_birthday_loop",
+            "review": "click",
+        },
+    },
+    "9Pets-Door": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "305901_door_room.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "walk",
+            "running-left": "walk",
+            "waving": "click",
+            "jumping": "walk",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "walk",
+            "review": "click",
+        },
+    },
+    "9Pets-TTT": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "303301_ttt_room.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "idle",
+            "running-left": "idle",
+            "waving": "click",
+            "jumping": "idle",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "idle",
+            "review": "click",
+        },
+    },
     "9Pets-Bette": {
         "width": 1200,
         "height": 1200,
@@ -1233,6 +1399,174 @@ SPINE_RENDER_PROFILES: dict[str, dict[str, Any]] = {
             "review": "posture",
         },
     },
+    "9Pets-Cute-Cristallo": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "303101_qianboli_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "skill1",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "skill2",
+            "review": "unique",
+        },
+    },
+    "9Pets-Cute-Darley-Clatter": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 4.0,
+        "x": 600,
+        "y": 900,
+        "skeleton": "305001_dadadali_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "skill1",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "posture",
+            "review": "posture",
+        },
+    },
+    "9Pets-Cute-Diggers": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "306401_wajueyishu_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "posture",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "posture",
+            "review": "posture",
+        },
+    },
+    "9Pets-Cute-Ezio-Auditore": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "312301_ajaadtl_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "posture",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "posture",
+            "review": "posture",
+        },
+    },
+    "9Pets-Cute-Getian": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "308401_gt_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "posture",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "posture",
+            "review": "posture",
+        },
+    },
+    "9Pets-Cute-Moldir": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "312101_mlde_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "posture",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "posture",
+            "review": "posture",
+        },
+    },
+    "9Pets-Cute-Poltergeist": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "304601_chaonaogui_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "posture",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "posture",
+            "review": "posture",
+        },
+    },
+    "9Pets-Cute-Tennant": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "304301_tannante_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "posture",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "posture",
+            "review": "posture",
+        },
+    },
 }
 
 STATE_ROWS = [
@@ -1276,7 +1610,7 @@ MANUAL_OFFICIAL_ASSETS = {
     },
     "Yenisei": {
         "assetId": 308201,
-        "spinePath": "roles/v1a6_308201_xiaoyenisai",
+        "spinePath": "roles/v1a6_308201_xyns",
         "cubismPath": "live2d/roles/v1a6_308201_xiaoyenisai",
     },
     "Zima": {
@@ -1604,11 +1938,62 @@ def live2d_model_cached(cubism_path: str) -> bool:
     return bool(cubism_path) and has_live2d_model(model_dir)
 
 
+def default_spine_render_profile(package_name: str, spine_path: str) -> dict[str, Any]:
+    spine_dir = local_asset_path(spine_path)
+    if not spine_dir.exists():
+        return {}
+    is_cute = package_name.startswith(CUTE_PACKAGE_PREFIX)
+    skeleton_pattern = "*_fight.skel" if is_cute else "*_room.skel"
+    skeletons = sorted(spine_dir.glob(skeleton_pattern))
+    if not skeletons:
+        return {}
+    profile: dict[str, Any] = {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": skeletons[0].name,
+        "flipRunningLeft": True,
+        "detailAtlasScale": DETAIL_ATLAS_SCALE,
+    }
+    if is_cute:
+        profile["motionMap"] = {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "skill1",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "posture",
+            "review": "posture",
+        }
+    else:
+        profile["motionMap"] = {
+            "idle": "idle",
+            "running-right": "walk",
+            "running-left": "walk",
+            "waving": "click",
+            "jumping": "idle_birthday_up",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "idle_birthday_loop",
+            "review": "click",
+        }
+    return profile
+
+
+def spine_render_profile_for(package_name: str, spine_path: str) -> dict[str, Any]:
+    return SPINE_RENDER_PROFILES.get(package_name) or default_spine_render_profile(package_name, spine_path)
+
+
 def spine_render_ready(package_name: str, spine_path: str) -> bool:
     spine_dir = local_asset_path(spine_path)
+    profile = spine_render_profile_for(package_name, spine_path)
     return (
         SPINE_RENDER_ENABLED
-        and package_name in SPINE_RENDER_PROFILES
+        and bool(profile)
         and bool(spine_path)
         and spine_dir.exists()
         and any(spine_dir.glob("*.skel"))
@@ -1640,15 +2025,15 @@ def render_live2d_frames(package_name: str, cubism_path: str) -> Path | None:
         "--cubism-core",
         str(LIVE2D_CUBISM_CORE),
         "--width",
-        str(profile.get("width", 1024)),
+        str(profile.get("width", 1800)),
         "--height",
-        str(profile.get("height", 1200)),
+        str(profile.get("height", 1800)),
         "--scale",
-        str(profile.get("scale", 0.56)),
+        str(profile.get("scale", 0.68)),
         "--x",
-        str(profile.get("x", 640)),
+        str(profile.get("x", 1050)),
         "--y",
-        str(profile.get("y", 140)),
+        str(profile.get("y", 600)),
     ]
     if profile.get("primaryTexture"):
         command.extend(["--primary-texture", str(profile["primaryTexture"])])
@@ -1675,7 +2060,7 @@ def render_spine_frames(package_name: str, spine_path: str) -> Path | None:
     if not spine_render_ready(package_name, spine_path):
         return None
 
-    profile = SPINE_RENDER_PROFILES.get(package_name, {})
+    profile = spine_render_profile_for(package_name, spine_path)
     output_dir = SPINE_FRAME_ROOT / package_name
     if output_dir.exists():
         shutil.rmtree(output_dir)
@@ -2167,6 +2552,11 @@ def make_cute_source_art(package_name: str, atlas_path: Path) -> str:
 
 def cute_source_info(base: dict[str, Any], package_name: str, source_image: str) -> dict[str, Any]:
     info = dict(base)
+    override = CUTE_SPINE_SOURCE_OVERRIDES.get(package_name)
+    if override:
+        info.update(override)
+        if override.get("spinePath"):
+            info["spineUrl"] = repo_tree_url(override["spinePath"])
     spine_path = info.get("spinePath", "")
     spine_url = info.get("spineUrl", "")
     info["sourceImage"] = source_image
@@ -2277,7 +2667,9 @@ def build_pet(item: dict[str, Any], official_index: dict[str, dict[str, Any]]) -
     package_dir.mkdir(parents=True, exist_ok=True)
 
     sprite, source_info = get_source_sprite(name, package_name, official_index)
-    live2d_frames = render_live2d_frames(package_name, source_info.get("cubismPath", ""))
+    live2d_frames = None
+    if package_name not in NORMAL_SPINE_OVERRIDE_PACKAGES:
+        live2d_frames = render_live2d_frames(package_name, source_info.get("cubismPath", ""))
     spine_frames = None if live2d_frames else render_spine_frames(package_name, source_info.get("spinePath", ""))
     detail_atlas: Image.Image | None = None
     detail_atlas_scale = 1

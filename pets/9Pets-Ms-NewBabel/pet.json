@@ -1,6 +1,6 @@
 {
   "id": "9pets-ms-newbabel",
   "displayName": "9Pets - Ms. NewBabel",
-  "description": "A fan-made Reverse: 1999 Codex pet for Ms. NewBabel, built from official Live2D Cubism motion frames.",
+  "description": "An official-sourced Reverse: 1999 Codex pet for Ms. NewBabel, built from official Live2D Cubism motion frames.",
   "spritesheetPath": "spritesheet.webp"
 }
