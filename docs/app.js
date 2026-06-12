@@ -1,8 +1,13 @@
+function readVariantMode() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get("variant") === "cute" ? "cute" : "normal";
+}
+
 const state = {
   pets: [],
   cuteVariants: [],
   sourceFilter: "all",
-  variantMode: "normal",
+  variantMode: readVariantMode(),
   search: "",
   renderToken: 0,
 };
@@ -38,6 +43,22 @@ function variantLabel(pet) {
 
 function petUrl(pet) {
   return `pet.html?id=${encodeURIComponent(pet.id)}`;
+}
+
+function syncVariantButtons() {
+  for (const button of els.variantButtons) {
+    button.classList.toggle("active", button.dataset.variantMode === state.variantMode);
+  }
+}
+
+function updateVariantUrl() {
+  const url = new URL(window.location.href);
+  if (state.variantMode === "cute") {
+    url.searchParams.set("variant", "cute");
+  } else {
+    url.searchParams.delete("variant");
+  }
+  window.history.replaceState(null, "", url);
 }
 
 function activePets() {
@@ -153,9 +174,8 @@ function bindEvents() {
   for (const button of els.variantButtons) {
     button.addEventListener("click", () => {
       state.variantMode = button.dataset.variantMode;
-      for (const other of els.variantButtons) {
-        other.classList.toggle("active", other === button);
-      }
+      syncVariantButtons();
+      updateVariantUrl();
       renderGrid();
     });
   }
@@ -173,6 +193,7 @@ async function init() {
     if (!Array.isArray(data.pets)) throw new Error("Catalog data is missing pets.");
     state.pets = data.pets;
     state.cuteVariants = Array.isArray(data.cuteVariants) ? data.cuteVariants : [];
+    syncVariantButtons();
     renderStats();
     renderGrid();
   } catch (error) {

@@ -30,6 +30,9 @@ const els = {
   sourceImage: document.querySelector("#sourceImage"),
   infoGrid: document.querySelector("#infoGrid"),
   variantSwitch: document.querySelector("#variantSwitch"),
+  backLink: document.querySelector(".back-link"),
+  catalogLinks: [...document.querySelectorAll('a[href="index.html#catalog"]')],
+  homeLink: document.querySelector(".brand"),
 };
 
 function formatBytes(bytes) {
@@ -72,6 +75,10 @@ function cuteVariantFor(data, pet) {
   const normal = normalPetFor(data, pet);
   if (!normal) return null;
   return (data.cuteVariants || []).find((variant) => variant.normalId === normal.id || variant.normalPackageName === normal.packageName) || null;
+}
+
+function catalogUrlFor(pet) {
+  return pet.variantType === "cute" ? "index.html?variant=cute#catalog" : "index.html#catalog";
 }
 
 function setState(state) {
@@ -164,6 +171,12 @@ function renderPet(data, pet) {
   els.title.textContent = pet.displayName;
   els.eyebrow.textContent = pet.variantType === "cute" ? "Cute official-sourced package" : `${source}-sourced package`;
   els.summary.textContent = summary;
+  const catalogUrl = catalogUrlFor(pet);
+  els.backLink.href = catalogUrl;
+  els.homeLink.href = catalogUrl;
+  for (const link of els.catalogLinks) {
+    link.href = catalogUrl;
+  }
   renderVariantSwitch(data, pet);
   configureSprite(pet);
   els.download.href = pet.download;

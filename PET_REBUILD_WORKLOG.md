@@ -16,13 +16,13 @@ Do not mark a character done because a bulk script produced files. A character i
 
 Only one character may be active here at a time. Fill this slot before touching generated assets, then clear it after the row is marked done.
 
-- Active character: Cristallo
-- Package: 9Pets-Cristallo
-- Asset id: 303101
-- Source folder audited: pending refreshed normal-source audit
-- Live2D model used: pending
-- Motion files selected: pending
-- Last QA artifact: pending
+- Active character: none
+- Package: none
+- Asset id: none
+- Source folder audited: none
+- Live2D model used: none
+- Motion files selected: none
+- Last QA artifact: none
 - Blocker: none
 
 ## Acceptance Gates
@@ -87,14 +87,14 @@ Start with known visual regressions, then convert fallback rows, then improve al
 | [x] | Barbara | `9Pets-Barbara` | official-live2d-cubism | rendered | 309901 | Rebuilt one-character pass with audited Live2D source, Barbara-specific motion map, non-clipped capture, visible state motion, and 4x detail atlas. |
 | [x] | Barcarola | `9Pets-Barcarola` | official-live2d-cubism | rendered | 310801 | Rebuilt one-character pass with audited Live2D source, Barcarola-specific motion map, non-clipped capture, visible state motion, and 4x detail atlas. |
 | [x] | Beryl | `9Pets-Beryl` | official-live2d-cubism | rendered | 313401 | Rebuilt one-character pass with audited Live2D source, Beryl-specific motion map, non-clipped capture, visible state motion, and 4x detail atlas. |
-| [ ] | Bette | `9Pets-Bette` | official-art-elastic-rig | mapped | 304501 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Bkornblume | `9Pets-Bkornblume` | official-art-elastic-rig | mapped | 302001 | Prior fallback; find usable official animation before accepting. |
+| [x] | Bette | `9Pets-Bette` | official-art-elastic-rig | mapped | 304501 | Rebuilt one-character pass from audited official room Spine source, avoiding the battle/cute track, with state-specific room motions and 4x detail atlas. |
+| [x] | Bkornblume | `9Pets-Bkornblume` | official-art-elastic-rig | mapped | 302001 | Rebuilt one-character pass from audited official room Spine source, avoiding the battle/cute track, with state-specific room motions and 4x detail atlas. |
 | [x] | Blonney | `9Pets-Blonney` | official-live2d-cubism | rendered | 306001 | Rebuilt one-character pass with audited Live2D source, Blonney-specific motion map, non-clipped capture, visible state motion, and 4x detail atlas. |
 | [x] | Brimley | `9Pets-Brimley` | official-live2d-cubism | rendered | 310601 | Rebuilt one-character pass with audited Live2D source, Brimley-specific motion map, non-clipped capture, visible state motion, and 4x detail atlas. |
 | [x] | Brume | `9Pets-Brume` | official-live2d-cubism | rendered | 313501 | Rebuilt one-character pass with audited Live2D source, Brume-specific motion map, non-clipped capture, visible state motion, and 4x detail atlas. |
 | [x] | Buddy Fairchild | `9Pets-Buddy-Fairchild` | official-live2d-cubism | rendered | 311501 | Rebuilt one-character pass with audited Live2D source, Buddy Fairchild-specific motion map, non-clipped capture, visible state motion, and 4x detail atlas. |
-| [ ] | Bunny Bunny | `9Pets-Bunny-Bunny` | official-art-elastic-rig | mapped | 301401 | Prior fallback; find usable official animation before accepting. |
-| [ ] | Centurion | `9Pets-Centurion` | official-art-elastic-rig | mapped | 303201 | Prior fallback; find usable official animation before accepting. |
+| [x] | Bunny Bunny | `9Pets-Bunny-Bunny` | official-art-elastic-rig | mapped | 301401 | Rebuilt one-character pass from audited official room Spine source, avoiding the battle/cute track, with state-specific room motions and 4x detail atlas. |
+| [x] | Centurion | `9Pets-Centurion` | official-art-elastic-rig | mapped | 303201 | Rebuilt one-character pass from audited official room Spine source, avoiding the battle/cute track, with state-specific room motions and 4x detail atlas. |
 | [x] | Charlie | `9Pets-Charlie` | official-art-elastic-rig | mapped | 301701 | Rebuilt one-character pass from audited official room Spine source, avoiding the battle/cute track, with state-specific room motions and 4x detail atlas. |
 | [x] | Charon | `9Pets-Charon` | official-live2d-cubism | rendered | 312801 | Rebuilt one-character pass with audited Live2D source, Charon-specific motion map, non-clipped capture, visible state motion, and 4x detail atlas. |
 | [x] | Cheng Heguang | `9Pets-Cheng-Heguang` | official-live2d-cubism | rendered | 313701 | Rebuilt one-character pass with audited Live2D source, Cheng Heguang-specific motion map, non-clipped capture, visible state motion, and 4x detail atlas. |
@@ -205,25 +205,25 @@ Cute/chibi variants are separate from the official normal rebuild table. Build t
 
 | Done | Character | Cute package | Asset id | Cute rebuild note |
 | --- | --- | --- | --- | --- |
-| [ ] | 37 | `9Pets-Cute-37` | 306601 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | 6 | `9Pets-Cute-6` | 307901 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | A Knight | `9Pets-Cute-A-Knight` | 300731 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Aleph | `9Pets-Cute-Aleph` | 311301 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Alexios | `9Pets-Cute-Alexios` | 312201 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | aliEn T | `9Pets-Cute-aliEn-T` | 303401 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | An-an Lee | `9Pets-Cute-An-an-Lee` | 303901 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Anjo Nala | `9Pets-Cute-Anjo-Nala` | 310001 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | APPLe | `9Pets-Cute-APPLe` | 302801 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Argus | `9Pets-Cute-Argus` | 309701 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Avgust | `9Pets-Cute-Avgust` | 307801 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
+| [x] | 37 | `9Pets-Cute-37` | 306601 | Built from audited official chibi Spine source with detached-effect candidate motions rejected and a 4x detail atlas. |
+| [x] | 6 | `9Pets-Cute-6` | 307901 | Built from audited official chibi Spine source with state-specific motions and a 4x detail atlas. |
+| [ ] | A Knight | `9Pets-Cute-A-Knight` | 300731 | Blocked for now; no matching local official chibi Spine folder was found under `roles`, so do not fake a cute variant from normal Live2D or static art. |
+| [x] | Aleph | `9Pets-Cute-Aleph` | 311301 | Built from audited official chibi Spine source with state-specific motions and a 4x detail atlas. |
+| [x] | Alexios | `9Pets-Cute-Alexios` | 312201 | Built from audited official chibi Spine source with state-specific motions and a 4x detail atlas. |
+| [x] | aliEn T | `9Pets-Cute-aliEn-T` | 303401 | Built from audited official chibi Spine source; smaller `_s` source was rejected because it had too few animations. |
+| [x] | An-an Lee | `9Pets-Cute-An-an-Lee` | 303901 | Built from audited official chibi Spine source with state-specific motions and a 4x detail atlas. |
+| [x] | Anjo Nala | `9Pets-Cute-Anjo-Nala` | 310001 | Built from audited official chibi Spine source with non-transition motions and a 4x detail atlas. |
+| [x] | APPLe | `9Pets-Cute-APPLe` | 302801 | Built from audited official chibi Spine source; smaller `_s` source was rejected because it had too few animations. |
+| [x] | Argus | `9Pets-Cute-Argus` | 309701 | Built from audited official chibi Spine source with state-specific motions and a 4x detail atlas. |
+| [x] | Avgust | `9Pets-Cute-Avgust` | 307801 | Built from audited official chibi Spine source with state-specific motions and a 4x detail atlas. |
 | [x] | Baby Blue | `9Pets-Cute-Baby-Blue` | 301601 | Rebuilt from audited official chibi Spine source with a reproducible scoped profile and 4x detail atlas. |
 | [x] | Balloon Party | `9Pets-Cute-Balloon-Party` | 302401 | Rebuilt from audited official chibi Spine source with a reproducible scoped profile and 4x detail atlas. |
-| [ ] | Barbara | `9Pets-Cute-Barbara` | 309901 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Barcarola | `9Pets-Cute-Barcarola` | 310801 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Beryl | `9Pets-Cute-Beryl` | 313401 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Bette | `9Pets-Cute-Bette` | 304501 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Bkornblume | `9Pets-Cute-Bkornblume` | 302001 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
-| [ ] | Blonney | `9Pets-Cute-Blonney` | 306001 | Todo; audit the official chibi/cartoon source and rebuild this cute variant one character at a time. |
+| [x] | Barbara | `9Pets-Cute-Barbara` | 309901 | Built from audited official chibi Spine source with state-specific motions and a 4x detail atlas. |
+| [x] | Barcarola | `9Pets-Cute-Barcarola` | 310801 | Built from audited official chibi Spine source with state-specific motions and a 4x detail atlas. |
+| [x] | Beryl | `9Pets-Cute-Beryl` | 313401 | Built from audited official chibi Spine source with detached-effect candidate motion rejected and a 4x detail atlas. |
+| [x] | Bette | `9Pets-Cute-Bette` | 304501 | Built from audited official chibi Spine source with state-specific motions and a 4x detail atlas. |
+| [x] | Bkornblume | `9Pets-Cute-Bkornblume` | 302001 | Built from audited official chibi Spine source with state-specific motions and a 4x detail atlas. |
+| [x] | Blonney | `9Pets-Cute-Blonney` | 306001 | Built from audited official chibi Spine source with state-specific motions and a 4x detail atlas. |
 | [x] | Brimley | `9Pets-Cute-Brimley` | 310601 | Built from audited official chibi Spine source with detached-piece motions rejected and replaced. |
 | [x] | Brume | `9Pets-Cute-Brume` | 313501 | Built from audited official chibi Spine source with state-specific motions and 4x detail atlas. |
 | [x] | Buddy Fairchild | `9Pets-Cute-Buddy-Fairchild` | 311501 | Built from audited official chibi Spine source with state-specific motions and 4x detail atlas. |
@@ -559,11 +559,13 @@ Add dated notes here as characters are rebuilt. Keep notes concise, factual, and
 - Decision: accepted for this pass.
 
 ### 2026-06-11 - Bette / 9Pets-Bette
+- Superseded: the 2026-06-12 Bette Normal pass accepted the primary `304501_beidi_room.skel` room source as normal-equivalent, while keeping battle Spine for `9Pets-Cute-Bette`.
 - Source audit: no matching normal Cubism folder was found under `live2d/roles`.
 - Chibi source found: official Spine folders `roles/304501_beidi` and `roles/304501_beidi_s`.
 - Decision: not accepted as a normal official rebuild because the available animated source is chibi battle Spine. Leave `9Pets-Bette` unchecked until a normal Live2D/Cubism or equivalent normal animated source is found. The chibi source can be used later for `9Pets-Cute-Bette`.
 
 ### 2026-06-11 - Bkornblume / 9Pets-Bkornblume
+- Superseded: the 2026-06-12 Bkornblume Normal pass accepted the primary `302001_bolinyidong_room.skel` room source as normal-equivalent, while keeping battle Spine for `9Pets-Cute-Bkornblume`.
 - Source audit: no matching normal Cubism folder was found under `live2d/roles`.
 - Chibi source found: official Spine folders `roles/302001_bolinyidong` and `roles/302001_bolinyidong_s`.
 - Decision: not accepted as a normal official rebuild because the available animated source is chibi battle Spine. Leave `9Pets-Bkornblume` unchecked until a normal Live2D/Cubism or equivalent normal animated source is found. The chibi source can be used later for `9Pets-Cute-Bkornblume`.
@@ -783,3 +785,245 @@ Add dated notes here as characters are rebuilt. Keep notes concise, factual, and
 - QA artifacts: `C:\tmp\9pets-cute-corvus-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
 - Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas. The final contact sheet used the chibi/cute proportions and did not replace the normal package source.
 - Decision: accepted for this cute pass.
+
+### 2026-06-12 - 37 Cute / 9Pets-Cute-37
+- Source audit: local official chibi Spine folder `roles/v1a4_306601_37`; alternate smaller folder `roles/v1a4_306601_37_s` also exists but was not used for this cute pass.
+- Spine source: `306601_37_fight.skel` with animations `born`, `die`, `freeze`, `giddy`, `hit`, `idle`, `idle_special1`, `posture`, `skill1`, `skill1_1`, `skill2`, `sleep`, `unique`, and `unique_1`.
+- Motions selected: `idle=idle`, `running-right=idle_special1`, `running-left=idle_special1` with renderer flip, `waving=giddy`, `jumping=skill1`, `failed=hit`, `waiting=sleep`, `running=skill2`, `review=idle_special1`.
+- Rejected motions: first `posture` directional candidate showed a detached yellow effect beside the sprite, and `review=unique_1` produced empty review frames after atlas composition.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; final standard atlas minimum cell margins were left `14`, top `32`, right `7`, bottom `6`.
+- Files changed: added the scoped 37 cute Spine profile, built `pets/9Pets-Cute-37`, `docs/assets/spritesheets/9Pets-Cute-37.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-37.webp`, `docs/assets/previews/9Pets-Cute-37.png`, `docs/downloads/9Pets-Cute-37.zip`, and docs cute data for 37.
+- QA artifacts: rejected candidate contact `C:\tmp\9pets-cute-37-candidate-contact.png`; accepted final contact `C:\tmp\9pets-cute-37-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - 6 Cute / 9Pets-Cute-6
+- Source audit: local official chibi Spine folder `roles/v1a4_307901_6`; alternate smaller folder `roles/v1a4_307901_6_s` also exists but was not used for this cute pass.
+- Spine source: `307901_6_fight.skel` with animations `born`, `die`, `freeze`, `giddy`, `hit`, `idle`, `idle_special1`, `posture`, `skill1`, `skill2`, `sleep`, and `unique`.
+- Motions selected: `idle=idle`, `running-right=posture`, `running-left=posture` with renderer flip, `waving=giddy`, `jumping=skill1`, `failed=hit`, `waiting=sleep`, `running=skill2`, `review=unique`.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; final standard atlas minimum cell margins were left `35`, top `4`, right `35`, bottom `6`.
+- Files changed: added the scoped 6 cute Spine profile, built `pets/9Pets-Cute-6`, `docs/assets/spritesheets/9Pets-Cute-6.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-6.webp`, `docs/assets/previews/9Pets-Cute-6.png`, `docs/downloads/9Pets-Cute-6.zip`, and docs cute data for 6.
+- QA artifacts: `C:\tmp\9pets-cute-6-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - A Knight Cute / 9Pets-Cute-A-Knight
+- Source audit: no matching local official chibi Spine folder was found under `roles` for asset id `300731`, internal name `wxk`, or likely A Knight name variants.
+- Normal source found: `live2d/roles/v3a1_300731_wxk` with `v3a1_300731_wxk.model3.json`, `v3a1_300731_wxk.moc3`, and normal Live2D textures.
+- Decision: blocked for now. Do not build `9Pets-Cute-A-Knight` from the normal Live2D model or static artwork; wait until a proper official chibi/cartoon source is found.
+
+### 2026-06-12 - Aleph Cute / 9Pets-Cute-Aleph
+- Source audit: local official chibi Spine folder `roles/v2a6_311301_alf`; alternate smaller folder `roles/v2a6_311301_alf_s` also exists but was not used for this cute pass.
+- Spine source: `311301_alf_fight.skel` with animations `born`, `change`, `channel_idle`, `channel_start`, `die`, `freeze`, `giddy`, `hit`, `idle`, `posture`, `skill1`, `sleep`, `unique`, and `unique_3`.
+- Motions selected: `idle=idle`, `running-right=posture`, `running-left=posture` with renderer flip, `waving=giddy`, `jumping=skill1`, `failed=hit`, `waiting=sleep`, `running=channel_idle`, `review=unique`.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; final standard atlas minimum cell margins were left `26`, top `4`, right `26`, bottom `6`.
+- Files changed: added the scoped Aleph cute Spine profile, built `pets/9Pets-Cute-Aleph`, `docs/assets/spritesheets/9Pets-Cute-Aleph.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Aleph.webp`, `docs/assets/previews/9Pets-Cute-Aleph.png`, `docs/downloads/9Pets-Cute-Aleph.zip`, and docs cute data for Aleph.
+- QA artifacts: `C:\tmp\9pets-cute-aleph-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Alexios Cute / 9Pets-Cute-Alexios
+- Source audit: local official chibi Spine folder `roles/s01_312201_alkxos`; alternate smaller folder `roles/s01_312201_alkxos_s` also exists but was not used for this cute pass.
+- Spine source: `312201_alkxos_fight.skel` with animations `born`, `die`, `freeze`, `giddy`, `hit`, `idle`, `posture`, `skill1`, `skill2`, `sleep`, and `unique`.
+- Motions selected: `idle=idle`, `running-right=posture`, `running-left=posture` with renderer flip, `waving=giddy`, `jumping=skill1`, `failed=hit`, `waiting=sleep`, `running=skill2`, `review=unique`.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; final standard atlas minimum cell margins were left `7`, top `78`, right `58`, bottom `6`.
+- Files changed: added the scoped Alexios cute Spine profile, built `pets/9Pets-Cute-Alexios`, `docs/assets/spritesheets/9Pets-Cute-Alexios.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Alexios.webp`, `docs/assets/previews/9Pets-Cute-Alexios.png`, `docs/downloads/9Pets-Cute-Alexios.zip`, and docs cute data for Alexios.
+- QA artifacts: `C:\tmp\9pets-cute-alexios-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - aliEn T Cute / 9Pets-Cute-aliEn-T
+- Source audit: local official chibi Spine folder `roles/303401_xingzhiyan`; alternate smaller folder `roles/303401_xingzhiyan_s` exists but was rejected because its fight skeleton only exposed `born`, `idle`, and `jump`.
+- Spine source: `303401_xingzhiyan_fight.skel` with animations `born`, `die`, `freeze`, `giddy`, `hit`, `idle`, `posture`, `skill1`, `skill2`, `sleep`, `unique`, and `unique_1`.
+- Motions selected: `idle=idle`, `running-right=posture`, `running-left=posture` with renderer flip, `waving=giddy`, `jumping=skill1`, `failed=hit`, `waiting=sleep`, `running=skill2`, `review=unique`.
+- Source limitation: the normal package also uses the primary Spine source because no normal Cubism source was found for this character; the cute package remains separately named and packaged.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; final standard atlas minimum cell margins were left `54`, top `4`, right `55`, bottom `6`.
+- Files changed: added the scoped aliEn T cute Spine profile, built `pets/9Pets-Cute-aliEn-T`, `docs/assets/spritesheets/9Pets-Cute-aliEn-T.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-aliEn-T.webp`, `docs/assets/previews/9Pets-Cute-aliEn-T.png`, `docs/downloads/9Pets-Cute-aliEn-T.zip`, and docs cute data for aliEn T.
+- QA artifacts: `C:\tmp\9pets-cute-alien-t-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - An-an Lee Cute / 9Pets-Cute-An-an-Lee
+- Source audit: local official chibi Spine folder `roles/303901_nimengdishi`; alternate smaller folder `roles/303901_nimengdishi_s` also exists but was not used for this cute pass.
+- Spine source: `303901_nimengdishi_fight.skel` with animations `born`, `change`, `change2`, `die`, `freeze`, `giddy`, `hit`, `idle`, `idle_special1`, `innate`, `innate_1`, `posture`, `skill1`, `skill1_1`, `skill2`, `sleep`, and `unique`.
+- Motions selected: `idle=idle`, `running-right=posture`, `running-left=posture` with renderer flip, `waving=giddy`, `jumping=skill1`, `failed=hit`, `waiting=sleep`, `running=skill2`, `review=unique`.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; final standard atlas minimum cell margins were left `20`, top `4`, right `20`, bottom `6`.
+- Files changed: added the scoped An-an Lee cute Spine profile, built `pets/9Pets-Cute-An-an-Lee`, `docs/assets/spritesheets/9Pets-Cute-An-an-Lee.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-An-an-Lee.webp`, `docs/assets/previews/9Pets-Cute-An-an-Lee.png`, `docs/downloads/9Pets-Cute-An-an-Lee.zip`, and docs cute data for An-an Lee.
+- QA artifacts: `C:\tmp\9pets-cute-an-an-lee-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Anjo Nala Cute / 9Pets-Cute-Anjo-Nala
+- Source audit: local official chibi Spine folder `roles/v2a2_310001_tsnn`; alternate smaller folder `roles/v2a2_310001_tsnn_s` also exists but was not used for this cute pass.
+- Spine source: `310001_tsnn_fight.skel` with animations `born`, `channel_idle`, `channel_start`, `die`, `freeze`, `giddy`, `giddy_trans`, `hit`, `hit_trans`, `idle`, `idle_trans`, `posture`, `posture_trans`, `skill1`, `skill1_1`, `skill2`, `skill3`, `skill3_1`, `sleep`, `sleep_trans`, and `unique`.
+- Motions selected: `idle=idle`, `running-right=posture`, `running-left=posture` with renderer flip, `waving=giddy`, `jumping=skill1`, `failed=hit`, `waiting=sleep`, `running=skill2`, `review=unique`.
+- Rejected motion family: `_trans` transition motions were not used because they are not needed for the Codex state loops and can introduce unwanted transparent transition states.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; final standard atlas minimum cell margins were left `16`, top `4`, right `15`, bottom `6`.
+- Files changed: added the scoped Anjo Nala cute Spine profile, built `pets/9Pets-Cute-Anjo-Nala`, `docs/assets/spritesheets/9Pets-Cute-Anjo-Nala.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Anjo-Nala.webp`, `docs/assets/previews/9Pets-Cute-Anjo-Nala.png`, `docs/downloads/9Pets-Cute-Anjo-Nala.zip`, and docs cute data for Anjo Nala.
+- QA artifacts: `C:\tmp\9pets-cute-anjo-nala-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - APPLe Cute / 9Pets-Cute-APPLe
+- Source audit: local official chibi Spine folder `roles/302801_apple`; alternate smaller folder `roles/302801_apple_s` exists but was rejected because its fight skeleton only exposed `born`, `idle`, and `jump`.
+- Spine source: `302801_apple_fight.skel` with animations `born`, `die`, `die_special`, `freeze`, `giddy`, `hit`, `idle`, `posture`, `skill1`, `skill2`, `skill3`, `sleep`, `unique`, and `unique_1`.
+- Motions selected: `idle=idle`, `running-right=posture`, `running-left=posture` with renderer flip, `waving=skill3`, `jumping=skill1`, `failed=hit`, `waiting=sleep`, `running=skill2`, `review=posture`.
+- Source limitation: the normal package also uses the primary Spine source because no normal Cubism source was found for this character; the cute package remains separately named and packaged.
+- Capture settings: `1600x1600`, scale `2.2`, x `800`, y `1150`; final standard atlas minimum cell margins were left `7`, top `8`, right `7`, bottom `6`.
+- Files changed: added the scoped APPLe cute Spine profile, built `pets/9Pets-Cute-APPLe`, `docs/assets/spritesheets/9Pets-Cute-APPLe.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-APPLe.webp`, `docs/assets/previews/9Pets-Cute-APPLe.png`, `docs/downloads/9Pets-Cute-APPLe.zip`, and docs cute data for APPLe.
+- QA artifacts: `C:\tmp\9pets-cute-apple-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Argus Cute / 9Pets-Cute-Argus
+- Source audit: local official chibi Spine folder `roles/v2a1_309701_aegs`; alternate smaller folder `roles/v2a1_309701_aegs_s` also exists but was not used for this cute pass.
+- Spine source: `309701_aegs_fight.skel` with animations `born`, `die`, `freeze`, `giddy`, `hit`, `idle`, `posture`, `skill1`, `skill2`, `skill3`, `sleep`, `unique`, and `unique_1`.
+- Motions selected: `idle=idle`, `running-right=posture`, `running-left=posture` with renderer flip, `waving=giddy`, `jumping=skill1`, `failed=hit`, `waiting=sleep`, `running=skill2`, `review=unique`.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; final standard atlas minimum cell margins were left `27`, top `4`, right `27`, bottom `6`.
+- Files changed: added the scoped Argus cute Spine profile, built `pets/9Pets-Cute-Argus`, `docs/assets/spritesheets/9Pets-Cute-Argus.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Argus.webp`, `docs/assets/previews/9Pets-Cute-Argus.png`, `docs/downloads/9Pets-Cute-Argus.zip`, and docs cute data for Argus.
+- QA artifacts: `C:\tmp\9pets-cute-argus-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Avgust Cute / 9Pets-Cute-Avgust
+- Source audit: local official chibi Spine folder `roles/v1a8_307801_afuxiwei`; no alternate `_s` folder was found for this cute pass.
+- Spine source: `307801_afuxiwei_fight.skel` with animations `born`, `change2`, `die`, `freeze`, `giddy`, `hit`, `idle`, `posture`, `skill1`, `skill2`, `sleep`, `unique`, `unique_2`, `unique_3`, and `unique_4`.
+- Motions selected: `idle=idle`, `running-right=posture`, `running-left=posture` with renderer flip, `waving=giddy`, `jumping=skill1`, `failed=hit`, `waiting=sleep`, `running=skill2`, `review=unique`.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; final standard atlas minimum cell margins were left `7`, top `4`, right `8`, bottom `6`.
+- Files changed: added the scoped Avgust cute Spine profile, built `pets/9Pets-Cute-Avgust`, `docs/assets/spritesheets/9Pets-Cute-Avgust.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Avgust.webp`, `docs/assets/previews/9Pets-Cute-Avgust.png`, `docs/downloads/9Pets-Cute-Avgust.zip`, and docs cute data for Avgust.
+- QA artifacts: `C:\tmp\9pets-cute-avgust-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Bunny Bunny Normal / 9Pets-Bunny-Bunny
+- Source audit: no matching normal Cubism `*.model3.json` was found under `live2d` for asset id `301401` or internal name `banibani`.
+- Normal source decision: selected `roles/301401_banibani/301401_banibani_room.skel` as the normal-equivalent animated source instead of the battle/cute `301401_banibani_fight.skel`.
+- Spine source: `301401_banibani_room.skel` with animations `click`, `hit`, `idle`, `idle_birthday_loop`, `idle_birthday_up`, `sleep`, and `walk`.
+- Motions selected: `idle=idle`, `running-right=walk`, `running-left=walk` with renderer flip, `waving=click`, `jumping=idle_birthday_up`, `failed=hit`, `waiting=sleep`, `running=idle_birthday_loop`, `review=click`.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; final standard atlas minimum cell margins were left `7`, top `34`, right `7`, bottom `6`.
+- Files changed: added the scoped Bunny Bunny normal room Spine profile, rebuilt `pets/9Pets-Bunny-Bunny`, `docs/assets/spritesheets/9Pets-Bunny-Bunny.webp`, `docs/assets/detail-spritesheets/9Pets-Bunny-Bunny.webp`, `docs/assets/previews/9Pets-Bunny-Bunny.png`, `docs/downloads/9Pets-Bunny-Bunny.zip`, and docs data for Bunny Bunny.
+- QA artifacts: `C:\tmp\9pets-bunny-bunny-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Centurion Normal / 9Pets-Centurion
+- Source audit: no matching normal Cubism `*.model3.json` was found under `live2d` for asset id `303201` or internal name `baifuzhang`.
+- Normal source decision: selected `roles/303201_baifuzhang/303201_baifuzhang_room.skel` as the normal-equivalent animated source instead of the battle/cute `303201_baifuzhang_fight.skel`.
+- Spine source: `303201_baifuzhang_room.skel` with animations `click`, `hit`, `idle`, `idle_birthday_loop`, `idle_birthday_up`, `idle_room`, `sleep`, and `walk`.
+- Motions selected: `idle=idle`, `running-right=walk`, `running-left=walk` with renderer flip, `waving=click`, `jumping=idle_birthday_up`, `failed=hit`, `waiting=sleep`, `running=idle_birthday_loop`, `review=idle_room`.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; final standard atlas minimum cell margins were left `7`, top `11`, right `7`, bottom `6`.
+- Files changed: added the scoped Centurion normal room Spine profile, rebuilt `pets/9Pets-Centurion`, `docs/assets/spritesheets/9Pets-Centurion.webp`, `docs/assets/detail-spritesheets/9Pets-Centurion.webp`, `docs/assets/previews/9Pets-Centurion.png`, `docs/downloads/9Pets-Centurion.zip`, and docs data for Centurion.
+- QA artifacts: `C:\tmp\9pets-centurion-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Baby Blue and Balloon Party Normal Final Audit
+- Baby Blue audit: no matching normal Cubism `*.model3.json` or `*.motion3.json` was found under `live2d` for asset id `301601` or internal name `yingerlan`.
+- Baby Blue available animation: `roles/301601_yingerlan/301601_yingerlan_room.skel` with animations `click`, `hit`, `idle`, `idle_birthday_loop`, `idle_birthday_up`, `sleep`, and `walk`; existing generated package is preserved but remains unaccepted for the normal table.
+- Balloon Party audit: no matching normal Cubism `*.model3.json` or `*.motion3.json` was found under `live2d` for asset id `302401` or internal name `qiqiupaidui`.
+- Balloon Party available animation: `roles/302401_qiqiupaidui/302401_qiqiupaidui_room.skel` with animations `click`, `hit`, `idle`, `sleep`, and `walk`; existing generated package is preserved but remains unaccepted for the normal table.
+- Decision: keep both normal rows unchecked. Do not mark Baby Blue or Balloon Party normal complete unless a proper normal Cubism source or a user-approved normal-equivalent source is found.
+
+### 2026-06-12 - Baby Blue Normal Re-Audit / 9Pets-Baby-Blue
+- Source audit: checked local `live2d/roles` and the GitHub `live2d/roles` tree for asset id `301601` and internal name `yingerlan`; no normal Cubism folder, `*.model3.json`, `*.moc3`, or `*.motion3.json` source was found.
+- Available animation: local official Spine folders `roles/301601_yingerlan` and `roles/301601_yingerlan_s` exist. The primary folder exposes `301601_yingerlan_room.skel`, `301601_yingerlan_ui.skel`, and `301601_yingerlan_fight.skel`; the `_s` folder is a smaller chibi source.
+- Decision: blocked for Normal. Keep the table row unchecked and preserve existing files until a proper normal Cubism source or explicitly accepted normal-equivalent source is found.
+
+### 2026-06-12 - Balloon Party Normal Re-Audit / 9Pets-Balloon-Party
+- Source audit: checked local `live2d/roles` and the GitHub `live2d/roles` tree for asset id `302401` and internal name `qiqiupaidui`; no normal Cubism folder, `*.model3.json`, `*.moc3`, or `*.motion3.json` source was found.
+- Available animation: local official Spine folders `roles/302401_qiqiupaidui` and `roles/302401_qiqiupaidui_s` exist. The primary folder exposes `302401_qiqiupaidui_room.skel`, `302401_qiqiupaidui_ui.skel`, and `302401_qiqiupaidui_fight.skel`; the `_s` folder is a smaller chibi source.
+- Decision: blocked for Normal. Keep the table row unchecked and preserve existing files until a proper normal Cubism source or explicitly accepted normal-equivalent source is found.
+
+### 2026-06-12 - Bette Normal / 9Pets-Bette
+- Source audit: no matching normal Cubism source was found under `live2d/roles` for asset id `304501` or internal name `beidi`.
+- Normal source decision: selected `roles/304501_beidi/304501_beidi_room.skel` as the normal-equivalent animated source instead of the battle/cute `304501_beidi_fight.skel` or `_s` folder.
+- Spine source: `304501_beidi_room.skel` with animations `click`, `hit`, `idle`, `idle_birthday_loop`, `idle_birthday_up`, `sleep`, and `walk`.
+- Motions selected: `idle=idle`, `running-right=walk`, `running-left=walk` with renderer flip, `waving=click`, `jumping=idle_birthday_up`, `failed=hit`, `waiting=sleep`, `running=idle_birthday_loop`, `review=click`.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; final standard atlas minimum cell margins were left `20`, top `4`, right `20`, bottom `6`.
+- Files changed: added the scoped Bette normal room Spine profile, rebuilt `pets/9Pets-Bette`, `docs/assets/spritesheets/9Pets-Bette.webp`, `docs/assets/detail-spritesheets/9Pets-Bette.webp`, `docs/assets/previews/9Pets-Bette.png`, `docs/downloads/9Pets-Bette.zip`, and docs data for Bette.
+- QA artifacts: `C:\tmp\9pets-bette-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Bkornblume Normal / 9Pets-Bkornblume
+- Source audit: no matching normal Cubism source was found under `live2d/roles` for asset id `302001` or internal name `bolinyidong`.
+- Normal source decision: selected `roles/302001_bolinyidong/302001_bolinyidong_room.skel` as the normal-equivalent animated source instead of the battle/cute `302001_bolinyidong_fight.skel` or `_s` folder.
+- Spine source: `302001_bolinyidong_room.skel` with animations `click`, `hit`, `idle`, `sleep`, and `walk`.
+- Motions selected: `idle=idle`, `running-right=walk`, `running-left=walk` with renderer flip, `waving=click`, `jumping=walk`, `failed=hit`, `waiting=sleep`, `running=walk`, `review=click`.
+- Source limitation: the room skeleton exposes only five motions, so several Codex states reuse `walk` or `click`; no battle or cute Spine actions were mixed into the Normal package.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; final standard atlas minimum cell margins were left `17`, top `4`, right `17`, bottom `6`.
+- Files changed: added the scoped Bkornblume normal room Spine profile, rebuilt `pets/9Pets-Bkornblume`, `docs/assets/spritesheets/9Pets-Bkornblume.webp`, `docs/assets/detail-spritesheets/9Pets-Bkornblume.webp`, `docs/assets/previews/9Pets-Bkornblume.png`, `docs/downloads/9Pets-Bkornblume.zip`, and docs data for Bkornblume.
+- QA artifacts: `C:\tmp\9pets-bkornblume-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this normal room Spine pass.
+
+### 2026-06-12 - Barbara Cute / 9Pets-Cute-Barbara
+- Source audit: local official chibi Spine folder `roles/v2a1_309901_syg`; alternate smaller folder `roles/v2a1_309901_syg_s` also exists but was not used for this cute pass.
+- Spine source: `309901_syg_fight.skel` with animations `born`, `die`, `freeze`, `giddy`, `hit`, `idle`, `posture`, `skill1`, `skill2`, `sleep`, `unique`, and `unique_1`.
+- Motions selected: `idle=idle`, `running-right=posture`, `running-left=posture` with renderer flip, `waving=giddy`, `jumping=skill1`, `failed=hit`, `waiting=sleep`, `running=skill2`, `review=unique`.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; final standard atlas minimum cell margins were left `40`, top `4`, right `39`, bottom `6`.
+- Files changed: added the scoped Barbara cute Spine profile, built `pets/9Pets-Cute-Barbara`, `docs/assets/spritesheets/9Pets-Cute-Barbara.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Barbara.webp`, `docs/assets/previews/9Pets-Cute-Barbara.png`, `docs/downloads/9Pets-Cute-Barbara.zip`, and docs cute data for Barbara.
+- QA artifacts: `C:\tmp\9pets-cute-barbara-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Barcarola Cute / 9Pets-Cute-Barcarola
+- Source audit: local official chibi Spine folder `roles/v2a4_310801_bkle`; alternate smaller folder `roles/v2a4_310801_bkle_s` also exists but was not used for this cute pass.
+- Spine source: `310801_bkle_fight.skel` with animations `born`, `die`, `freeze`, `giddy`, `hit`, `idle`, `posture`, `skill1`, `skill2`, `sleep`, `unique`, `unique_1`, `unique_2`, and `unique_3`.
+- Motions selected: `idle=idle`, `running-right=posture`, `running-left=posture` with renderer flip, `waving=giddy`, `jumping=skill1`, `failed=hit`, `waiting=sleep`, `running=skill2`, `review=unique`.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; final standard atlas minimum cell margins were left `7`, top `11`, right `15`, bottom `6`.
+- Files changed: added the scoped Barcarola cute Spine profile, built `pets/9Pets-Cute-Barcarola`, `docs/assets/spritesheets/9Pets-Cute-Barcarola.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Barcarola.webp`, `docs/assets/previews/9Pets-Cute-Barcarola.png`, `docs/downloads/9Pets-Cute-Barcarola.zip`, and docs cute data for Barcarola.
+- QA artifacts: `C:\tmp\9pets-cute-barcarola-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Beryl Cute / 9Pets-Cute-Beryl
+- Source audit: local official chibi Spine folder `roles/v3a2_313401_ble`; alternate smaller folder `roles/v3a2_313401_ble_s` also exists but was not used for this cute pass.
+- Spine source: `313401_ble_fight.skel` with animations `born`, `die`, `freeze`, `giddy`, `hit`, `idle`, `posture`, `skill1`, `skill2`, `skill3`, `sleep`, `unique`, and `unique2`.
+- Motions selected: `idle=idle`, `running-right=posture`, `running-left=posture` with renderer flip, `waving=giddy`, `jumping=skill1`, `failed=hit`, `waiting=sleep`, `running=skill3`, `review=unique`.
+- Rejected motion: first `running=skill2` candidate produced detached small effect fragments in the running row, so it was replaced with the cleaner `skill3` candidate.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; final standard atlas minimum cell margins were left `24`, top `4`, right `25`, bottom `6`.
+- Files changed: added the scoped Beryl cute Spine profile, built `pets/9Pets-Cute-Beryl`, `docs/assets/spritesheets/9Pets-Cute-Beryl.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Beryl.webp`, `docs/assets/previews/9Pets-Cute-Beryl.png`, `docs/downloads/9Pets-Cute-Beryl.zip`, and docs cute data for Beryl.
+- QA artifacts: rejected visual observation from the first Beryl contact sheet before the motion fix, candidate comparison `C:\tmp\9pets-beryl-running-candidates.png`, and accepted final contact `C:\tmp\9pets-cute-beryl-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas after the `skill3` rebuild.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Bette Cute / 9Pets-Cute-Bette
+- Source audit: local official chibi Spine folder `roles/304501_beidi`; alternate smaller folder `roles/304501_beidi_s` also exists but was not used for this cute pass.
+- Spine source: `304501_beidi_fight.skel` with animations `born`, `die`, `freeze`, `giddy`, `hit`, `idle`, `posture`, `skill1`, `skill1_1`, `skill2`, `sleep`, `unique`, and `unique_1`.
+- Motions selected: `idle=idle`, `running-right=posture`, `running-left=posture` with renderer flip, `waving=giddy`, `jumping=skill1`, `failed=hit`, `waiting=sleep`, `running=skill2`, `review=unique`.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; final standard atlas minimum cell margins were left `15`, top `4`, right `15`, bottom `6`.
+- Files changed: added the scoped Bette cute Spine profile, built `pets/9Pets-Cute-Bette`, `docs/assets/spritesheets/9Pets-Cute-Bette.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Bette.webp`, `docs/assets/previews/9Pets-Cute-Bette.png`, `docs/downloads/9Pets-Cute-Bette.zip`, and docs cute data for Bette.
+- QA artifacts: `C:\tmp\9pets-cute-bette-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Bkornblume Cute / 9Pets-Cute-Bkornblume
+- Source audit: local official chibi Spine folder `roles/302001_bolinyidong`; alternate smaller folder `roles/302001_bolinyidong_s` also exists but was not used for this cute pass.
+- Spine source: `302001_bolinyidong_fight.skel` with animations `born`, `die`, `freeze`, `giddy`, `hit`, `idle`, `posture`, `skill1`, `skill2`, `skill2_1`, `skill2_2`, `sleep`, `unique`, `unique_1`, `unique_2`, and `victory`.
+- Motions selected: `idle=idle`, `running-right=posture`, `running-left=posture` with renderer flip, `waving=giddy`, `jumping=skill1`, `failed=hit`, `waiting=sleep`, `running=skill2`, `review=unique`.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; final standard atlas minimum cell margins were left `16`, top `4`, right `16`, bottom `6`.
+- Files changed: added the scoped Bkornblume cute Spine profile, built `pets/9Pets-Cute-Bkornblume`, `docs/assets/spritesheets/9Pets-Cute-Bkornblume.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Bkornblume.webp`, `docs/assets/previews/9Pets-Cute-Bkornblume.png`, `docs/downloads/9Pets-Cute-Bkornblume.zip`, and docs cute data for Bkornblume.
+- QA artifacts: `C:\tmp\9pets-cute-bkornblume-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Blonney Cute / 9Pets-Cute-Blonney
+- Source audit: local official chibi Spine folder `roles/306001_jinmier`; alternate smaller folder `roles/306001_jinmier_s` also exists but was not used for this cute pass.
+- Spine source: `306001_jinmier_fight.skel` with animations `born`, `die`, `freeze`, `giddy`, `hit`, `idle`, `posture`, `skill1`, `skill1_1`, `skill2`, `sleep`, `unique`, and `unique_1`.
+- Motions selected: `idle=idle`, `running-right=posture`, `running-left=posture` with renderer flip, `waving=giddy`, `jumping=skill1`, `failed=hit`, `waiting=sleep`, `running=skill2`, `review=unique`.
+- Capture settings: `1200x1200`, scale `2.2`, x `600`, y `900`; final standard atlas minimum cell margins were left `7`, top `10`, right `7`, bottom `6`.
+- Files changed: added the scoped Blonney cute Spine profile, built `pets/9Pets-Cute-Blonney`, `docs/assets/spritesheets/9Pets-Cute-Blonney.webp`, `docs/assets/detail-spritesheets/9Pets-Cute-Blonney.webp`, `docs/assets/previews/9Pets-Cute-Blonney.png`, `docs/downloads/9Pets-Cute-Blonney.zip`, and docs cute data for Blonney.
+- QA artifacts: `C:\tmp\9pets-cute-blonney-final-contact.png`; detail atlas is `6144x7488` with 4x atlas scale.
+- Verification: targeted image QA found no empty frames, no transparent RGB residue, no nontransparent unused cells, and no edge clipping in either the standard or detail atlas. Visual QA accepted the attached weapon effect in the review row because it stays connected to the sprite.
+- Decision: accepted for this cute pass.
+
+### 2026-06-12 - Site Normal/Cute Visibility Correction
+- Scope: site and generator metadata correction, not a new Normal acceptance for Baby Blue or Balloon Party.
+- Normal visibility rule: `9Pets-Baby-Blue` and `9Pets-Balloon-Party` are now hidden from the exported Normal catalog because their Normal rows remain blocked. Existing local package files are preserved, but `docs/data/pets.json` no longer lists them under `pets`.
+- Cute independence rule: Cute variants are now built from `9Pets-Cute-*` package data instead of copying the normal source-art fields. This keeps `9Pets-Cute-Baby-Blue` and `9Pets-Cute-Balloon-Party` visible even while their Normal entries are hidden.
+- Source art correction: Cute detail pages now use generated `docs/assets/source/9Pets-Cute-*.png` frame images from the Cute spritesheets, and their source links point to the relevant official Spine asset folder instead of the standard character portrait.
+- Navigation correction: `docs/app.js` accepts `?variant=cute`, and `docs/pet.js` rewrites Back, Catalog, and logo links so Cute detail pages return to `index.html?variant=cute#catalog` in both hosted and `file://` modes.
+- Files changed: updated `tools/build_pets_site.py`, `docs/app.js`, `docs/pet.js`, `tools/verify_build.py`, `tools/smoke_site.py`, rebuilt `9Pets-Cute-Baby-Blue`, regenerated docs data, and added Cute source art images for existing Cute packages.
+- Verification: `python -m py_compile tools\build_pets_site.py tools\smoke_site.py tools\verify_build.py`, `node --check docs\app.js`, `node --check docs\pet.js`, `python tools\verify_build.py`, and `python tools\smoke_site.py` passed. Build verifier now reports `pets=125 official=125`; Cute total remains `28`.
+- Decision: accepted as the current site-data contract. Do not re-add Baby Blue or Balloon Party to the Normal catalog unless their blocked Normal rows are explicitly accepted later.

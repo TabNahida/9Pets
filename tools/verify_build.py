@@ -15,6 +15,11 @@ COLS = 8
 ROWS = 9
 EXPECTED_SIZE = (CELL_W * COLS, CELL_H * ROWS)
 STATE_FRAMES = [6, 8, 8, 4, 5, 8, 6, 6, 6]
+HIDDEN_NORMAL_PACKAGES = {
+    "9Pets-Baby-Blue",
+    "9Pets-Balloon-Party",
+}
+EXPECTED_VISIBLE_NORMAL_TOTAL = 125
 
 
 def assert_true(condition: bool, message: str) -> None:
@@ -55,14 +60,25 @@ def check_zip(path: Path, package_name: str) -> None:
 def main() -> None:
     data = json.loads(DOCS_DATA.read_text(encoding="utf-8"))
     pets = data["pets"]
-    assert_true(data["total"] == 127, f"manifest total is {data['total']}, expected 127")
-    assert_true(len(pets) == 127, f"manifest contains {len(pets)} pets, expected 127")
+    assert_true(
+        data["total"] == EXPECTED_VISIBLE_NORMAL_TOTAL,
+        f"manifest total is {data['total']}, expected {EXPECTED_VISIBLE_NORMAL_TOTAL}",
+    )
+    assert_true(
+        len(pets) == EXPECTED_VISIBLE_NORMAL_TOTAL,
+        f"manifest contains {len(pets)} pets, expected {EXPECTED_VISIBLE_NORMAL_TOTAL}",
+    )
     official_count = sum(1 for pet in pets if pet["sourceType"] == "official-sourced")
-    assert_true(official_count == 127, f"official count is {official_count}, expected 127")
+    assert_true(
+        official_count == EXPECTED_VISIBLE_NORMAL_TOTAL,
+        f"official count is {official_count}, expected {EXPECTED_VISIBLE_NORMAL_TOTAL}",
+    )
     cute_variants = data.get("cuteVariants", [])
     assert_true(data.get("cuteTotal", len(cute_variants)) == len(cute_variants), "cute variant total mismatch")
     assert_true((ROOT / "docs" / "data" / "pets-data.js").exists(), "docs/data/pets-data.js is missing")
     assert_true(len(data.get("officialSiteAssets", {})) >= 17, "official site assets were not downloaded")
+    normal_packages = {pet["packageName"] for pet in pets}
+    assert_true(not (normal_packages & HIDDEN_NORMAL_PACKAGES), "hidden normal packages are visible in the manifest")
 
     for pet in pets:
         package = pet["packageName"]
@@ -86,16 +102,27 @@ def main() -> None:
         check_zip(ROOT / "docs" / pet["download"], package)
 
     normal_ids = {pet["id"] for pet in pets}
+    cute_by_normal_package = {variant.get("normalPackageName"): variant for variant in cute_variants}
+    for package in HIDDEN_NORMAL_PACKAGES:
+        variant = cute_by_normal_package.get(package)
+        assert_true(variant is not None, f"{package} is hidden but its cute variant is missing")
+        assert_true(
+            variant.get("sourceImage", "").startswith("assets/source/9Pets-Cute-"),
+            f"{variant['packageName']} should use cute source art",
+        )
+
     for variant in cute_variants:
         package = variant["packageName"]
         assert_true(variant.get("variantType") == "cute", f"{package} missing cute variant type")
-        assert_true(variant.get("normalId") in normal_ids, f"{package} points to an unknown normal pet")
+        if variant.get("normalPackageName") not in HIDDEN_NORMAL_PACKAGES:
+            assert_true(variant.get("normalId") in normal_ids, f"{package} points to an unknown normal pet")
         pet_dir = ROOT / "pets" / package
         assert_true((pet_dir / "pet.json").exists(), f"{package} missing pet.json")
         check_spritesheet(pet_dir / "spritesheet.webp")
         check_spritesheet(ROOT / "docs" / variant["spritesheet"])
         if variant.get("detailSpritesheet"):
             check_detail_spritesheet(ROOT / "docs" / variant["detailSpritesheet"], int(variant.get("detailAtlasScale") or 1))
+        assert_true((ROOT / "docs" / variant["sourceImage"]).exists(), f"{package} missing cute source art")
         assert_true((ROOT / "docs" / variant["preview"]).exists(), f"{package} missing preview")
         check_zip(ROOT / "docs" / variant["download"], package)
 
