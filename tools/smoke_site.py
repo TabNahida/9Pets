@@ -40,10 +40,35 @@ def requests_smoke(base_url: str) -> None:
     data = session.get(f"{base_url}/data/pets.json", timeout=10).json()
     if data["total"] != 127:
         raise AssertionError(f"manifest total is {data['total']}, expected 127")
+    if data.get("cuteTotal") != len(data.get("cuteVariants", [])):
+        raise AssertionError("cute variant total mismatch")
 
 
 def playwright_smoke(base_url: str) -> None:
     from playwright.sync_api import sync_playwright
+
+    def assert_detail_sprite_framed(page, title_text: str) -> None:
+        boxes = page.evaluate(
+            """() => {
+                const stage = document.querySelector(".detail-stage").getBoundingClientRect();
+                const sprite = document.querySelector(".detail-sprite").getBoundingClientRect();
+                const tabs = document.querySelector(".state-tabs").getBoundingClientRect();
+                return {stage, sprite, tabs};
+            }"""
+        )
+        stage = boxes["stage"]
+        sprite = boxes["sprite"]
+        tabs = boxes["tabs"]
+        tolerance = 2
+        if (
+            sprite["left"] < stage["left"] - tolerance
+            or sprite["right"] > stage["right"] + tolerance
+            or sprite["top"] < stage["top"] - tolerance
+            or sprite["bottom"] > stage["bottom"] + tolerance
+        ):
+            raise AssertionError(f"detail sprite is outside the preview frame for {title_text}")
+        if sprite["bottom"] > tabs["top"] + tolerance:
+            raise AssertionError(f"detail sprite overlaps state tabs for {title_text}")
 
     with sync_playwright() as p:
         browser = p.chromium.launch()
@@ -55,6 +80,16 @@ def playwright_smoke(base_url: str) -> None:
         if count != 127:
             raise AssertionError(f"desktop card count is {count}, expected 127")
         page.screenshot(path=str(DESKTOP_SHOT), full_page=True)
+        cute_total = page.evaluate("() => window.NINEPETS_DATA.cuteVariants.length")
+        if cute_total < 2:
+            raise AssertionError(f"cute variant count is {cute_total}, expected at least 2")
+        page.get_by_role("button", name="Cute").click()
+        page.wait_for_function("document.querySelectorAll('.pet-card').length === window.NINEPETS_DATA.cuteVariants.length")
+        cute_count = page.locator(".pet-card").count()
+        if cute_count != cute_total:
+            raise AssertionError(f"cute card count is {cute_count}, expected {cute_total}")
+        page.get_by_role("button", name="Normal").click()
+        page.wait_for_function("document.querySelectorAll('.pet-card').length === 127")
 
         mobile = browser.new_page(viewport={"width": 390, "height": 920}, is_mobile=True)
         mobile.goto(base_url, wait_until="networkidle")
@@ -71,6 +106,8 @@ def playwright_smoke(base_url: str) -> None:
             ("9pets-an-an-lee", "An-an Lee", "detail-spritesheets/9Pets-An-an-Lee.webp"),
             ("9pets-anjo-nala", "Anjo Nala", "detail-spritesheets/9Pets-Anjo-Nala.webp"),
             ("9pets-apple", "APPLe", "detail-spritesheets/9Pets-APPLe.webp"),
+            ("9pets-argus", "Argus", "detail-spritesheets/9Pets-Argus.webp"),
+            ("9pets-avgust", "Avgust", "detail-spritesheets/9Pets-Avgust.webp"),
         ]:
             detail = browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
             detail.goto(f"{base_url}/pet.html?id={pet_id}", wait_until="networkidle")
@@ -80,9 +117,26 @@ def playwright_smoke(base_url: str) -> None:
             sprite_image = detail.locator(".detail-sprite").evaluate("node => getComputedStyle(node).backgroundImage")
             if spritesheet not in sprite_image:
                 raise AssertionError(f"detail page did not use {spritesheet}")
+            assert_detail_sprite_framed(detail, title_text)
             detail.get_by_role("button", name="Wave").click()
             if "active" not in (detail.get_by_role("button", name="Wave").get_attribute("class") or ""):
                 raise AssertionError(f"detail state tabs did not switch to Wave for {title_text}")
+
+        cute_detail = browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
+        cute_detail.goto(f"{base_url}/pet.html?id=9pets-cute-baby-blue", wait_until="networkidle")
+        cute_detail.wait_for_selector(".detail-sprite")
+        if "Baby Blue" not in cute_detail.locator("#detailTitle").inner_text():
+            raise AssertionError("cute detail page did not load Baby Blue")
+        if "cute official-sourced package" not in cute_detail.locator("#detailEyebrow").inner_text().lower():
+            raise AssertionError("cute detail page did not show the cute package eyebrow")
+        cute_sprite = cute_detail.locator(".detail-sprite").evaluate("node => getComputedStyle(node).backgroundImage")
+        if "detail-spritesheets/9Pets-Cute-Baby-Blue.webp" not in cute_sprite:
+            raise AssertionError("cute detail page did not use the Baby Blue cute detail spritesheet")
+        active_variant = cute_detail.locator("#variantSwitch .variant-link.active")
+        if active_variant.inner_text() != "Cute":
+            raise AssertionError("cute detail page did not mark Cute as active")
+        cute_detail.get_by_role("link", name="Normal").click()
+        cute_detail.wait_for_url("**/pet.html?id=9pets-baby-blue")
 
         file_page = browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
         file_page.goto((DOCS / "index.html").as_uri(), wait_until="networkidle")
@@ -91,6 +145,8 @@ def playwright_smoke(base_url: str) -> None:
         file_count = file_page.locator(".pet-card").count()
         if file_count != 127:
             raise AssertionError(f"file:// card count is {file_count}, expected 127")
+        file_page.get_by_role("button", name="Cute").click()
+        file_page.wait_for_function("document.querySelectorAll('.pet-card').length === window.NINEPETS_DATA.cuteVariants.length")
         file_page.screenshot(path=str(FILE_SHOT), full_page=True)
 
         file_detail = browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
@@ -115,7 +171,7 @@ def main() -> None:
             print(f"desktop_screenshot={DESKTOP_SHOT}")
             print(f"mobile_screenshot={MOBILE_SHOT}")
             print(f"file_screenshot={FILE_SHOT}")
-        except Exception as error:
+        except ImportError as error:
             print(f"HTTP smoke passed at {base_url}")
             print(f"Playwright smoke skipped: {error}")
     finally:

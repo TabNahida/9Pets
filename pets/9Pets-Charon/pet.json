@@ -1,6 +1,6 @@
 {
   "id": "9pets-charon",
   "displayName": "9Pets - Charon",
-  "description": "A fan-made Reverse: 1999 Codex pet for Charon, built from official Live2D Cubism motion frames.",
+  "description": "An official-sourced Reverse: 1999 Codex pet for Charon, built from official Live2D Cubism motion frames.",
   "spritesheetPath": "spritesheet.webp"
 }

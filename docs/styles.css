@@ -384,7 +384,7 @@ h1 {
 
 .stats {
   display: grid;
-  grid-template-columns: repeat(3, minmax(108px, 1fr));
+  grid-template-columns: repeat(4, minmax(104px, 1fr));
   gap: 10px;
   margin-top: 34px;
 }
@@ -508,7 +508,7 @@ h1 {
 .toolbar {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(220px, 1fr) auto;
+  grid-template-columns: minmax(220px, 1fr) auto auto;
   gap: 12px;
   align-items: center;
   padding: 10px;
@@ -751,6 +751,17 @@ h1 {
   color: #a8d8ca;
 }
 
+.badge.cute {
+  border-color: rgba(229, 189, 99, 0.62);
+  color: var(--gold-soft);
+}
+
+.pet-card.cute-variant .sprite-stage {
+  background:
+    linear-gradient(90deg, rgba(229, 189, 99, 0.07) 1px, transparent 1px) 0 0 / 28px 28px,
+    linear-gradient(180deg, rgba(65, 39, 25, 0.9), rgba(11, 10, 9, 0.96));
+}
+
 .details-link,
 .download {
   display: inline-flex;
@@ -902,7 +913,9 @@ h1 {
   position: relative;
   display: grid;
   place-items: center;
+  box-sizing: border-box;
   min-height: 590px;
+  padding: 28px 22px 108px;
   border: 1px solid var(--line-strong);
   background:
     linear-gradient(90deg, rgba(229, 189, 99, 0.055) 1px, transparent 1px) 0 0 / 36px 36px,
@@ -938,20 +951,28 @@ h1 {
   z-index: 1;
   display: grid;
   place-items: center;
-  width: min(78vw, 420px);
-  aspect-ratio: 192 / 208;
+  width: min(76vw, 430px);
+  max-width: 100%;
+  height: min(58vh, 460px);
+  min-height: 360px;
+  overflow: hidden;
+  contain: layout paint;
 }
 
 .detail-sprite {
+  position: absolute;
+  left: 50%;
+  top: 50%;
   width: 192px;
   height: 208px;
   background-repeat: no-repeat;
   background-size: 1536px 1872px;
   background-position: 0 var(--row-y, 0px);
-  transform: scale(var(--sprite-scale, 2));
+  transform: translate(-50%, -50%) scale(var(--sprite-scale, 2));
   transform-origin: center;
   filter: drop-shadow(0 24px 30px rgba(0, 0, 0, 0.52));
   animation: atlas-state var(--duration, 1.1s) steps(var(--frames, 6)) infinite;
+  will-change: background-position;
 }
 
 @keyframes atlas-state {
@@ -1008,6 +1029,39 @@ h1 {
   color: var(--muted);
   font-size: 17px;
   line-height: 1.58;
+}
+
+.variant-switch {
+  display: inline-grid;
+  grid-template-columns: repeat(2, minmax(98px, 1fr));
+  gap: 4px;
+  min-height: 44px;
+  margin-top: 20px;
+  padding: 4px;
+  border: 1px solid rgba(229, 189, 99, 0.24);
+  background: rgba(5, 5, 4, 0.68);
+}
+
+.variant-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  padding: 0 12px;
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.variant-link.active {
+  color: #15100a;
+  background: var(--gold);
+}
+
+.variant-link.disabled {
+  opacity: 0.46;
+  cursor: not-allowed;
 }
 
 .detail-actions {
@@ -1149,6 +1203,7 @@ h1 {
 
   .detail-stage {
     min-height: 520px;
+    padding-bottom: 104px;
   }
 
   .backdrop-role {
@@ -1226,6 +1281,13 @@ h1 {
 
   .detail-stage {
     min-height: 430px;
+    padding: 18px 14px 96px;
+  }
+
+  .detail-sprite-frame {
+    width: min(100%, 330px);
+    height: min(54vh, 330px);
+    min-height: 292px;
   }
 
   .detail-copy h1 {
@@ -1233,7 +1295,7 @@ h1 {
   }
 
   .detail-sprite {
-    transform: scale(var(--sprite-mobile-scale, 1.55));
+    transform: translate(-50%, -50%) scale(var(--sprite-mobile-scale, 1.55));
   }
 
   .state-tabs {

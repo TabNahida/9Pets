@@ -49,6 +49,7 @@ function usage() {
     "  --scale <number>       Live2D model zoom. Default: 0.56.",
     "  --x <number>           Live2D camera x in pixels. Default: 640.",
     "  --y <number>           Live2D camera y in pixels. Default: 140.",
+    "  --primary-texture <path> Move this texture to the front of the patched model texture list.",
   ].join("\n");
 }
 
@@ -104,6 +105,22 @@ async function loadMotionOverrides(path) {
   return motionMap;
 }
 
+function prioritizeTexture(textures, primaryTexture) {
+  if (!primaryTexture || !Array.isArray(textures)) return textures;
+  const normalizedPrimary = primaryTexture.replaceAll("\\", "/").toLowerCase();
+  const primaryBase = basename(normalizedPrimary);
+  const index = textures.findIndex((texture) => {
+    const normalizedTexture = String(texture).replaceAll("\\", "/").toLowerCase();
+    return normalizedTexture === normalizedPrimary || basename(normalizedTexture) === primaryBase;
+  });
+  if (index <= 0) return textures;
+  const ordered = textures.slice();
+  const [primary] = ordered.splice(index, 1);
+  ordered.unshift(primary);
+  console.log(`primary texture ${primary}`);
+  return ordered;
+}
+
 function countMotionSegments(curves) {
   let totalSegmentCount = 0;
   let totalPointCount = 0;
@@ -152,7 +169,7 @@ async function patchMotionFile(modelDir, motionFile, patchedMotionPaths) {
   return patchedName;
 }
 
-async function createPatchedModel(modelDir, modelJsonPath, states, motionOverrides = {}) {
+async function createPatchedModel(modelDir, modelJsonPath, states, motionOverrides = {}, options = {}) {
   const model = JSON.parse(await readFile(modelJsonPath, "utf8"));
   const motionFiles = await listMotionFiles(modelDir);
   if (!motionFiles.length) throw new Error(`No motion files found under ${join(modelDir, "motions")}`);
@@ -164,6 +181,7 @@ async function createPatchedModel(modelDir, modelJsonPath, states, motionOverrid
       "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNgYPgPAAEDAQDABJzQAAAAAElFTkSuQmCC",
       "base64",
     );
+    model.FileReferences.Textures = prioritizeTexture(model.FileReferences.Textures, options.primaryTexture);
     model.FileReferences.Textures = await Promise.all(
       model.FileReferences.Textures.map(async (texture) => {
         if (existsSync(join(modelDir, texture))) return texture;
@@ -366,7 +384,9 @@ async function main() {
   const workDir = await mkdtemp(join(tmpdir(), "9pets-live2d-"));
   const modelJsonPath = await findModelJson(modelDir, args["model-json"]);
   const motionOverrides = await loadMotionOverrides(args["motion-map"]);
-  const patched = await createPatchedModel(modelDir, modelJsonPath, states, motionOverrides);
+  const patched = await createPatchedModel(modelDir, modelJsonPath, states, motionOverrides, {
+    primaryTexture: args["primary-texture"] || "",
+  });
   let server;
 
   try {

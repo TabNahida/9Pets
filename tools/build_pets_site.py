@@ -47,6 +47,7 @@ CELL_H = 208
 COLS = 8
 ROWS = 9
 DETAIL_ATLAS_SCALE = 2
+CUTE_PACKAGE_PREFIX = "9Pets-Cute-"
 
 LIVE2D_RENDER_PROFILES: dict[str, dict[str, Any]] = {
     "9Pets-6": {
@@ -163,6 +164,273 @@ LIVE2D_RENDER_PROFILES: dict[str, dict[str, Any]] = {
             "review": "b_diantou.motion3.json",
         },
     },
+    "9Pets-Argus": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.84,
+        "x": 1050,
+        "y": 560,
+        "primaryTexture": "textures/309701_aegs.png",
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_baqiang1.motion3.json",
+            "running-left": "b_baqiang2.motion3.json",
+            "waving": "b_shenshou1.motion3.json",
+            "jumping": "b_baqiang3.motion3.json",
+            "failed": "b_yaotou.motion3.json",
+            "waiting": "b_baoxiong.motion3.json",
+            "running": "b_maoyan.motion3.json",
+            "review": "b_diantou.motion3.json",
+        },
+    },
+    "9Pets-Avgust": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.84,
+        "x": 1050,
+        "y": 560,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_xiangrikui.motion3.json",
+            "running-left": "b_diaozhui.motion3.json",
+            "waving": "b_shenshou.motion3.json",
+            "jumping": "b_xiangrikui.motion3.json",
+            "failed": "b_yaotou.motion3.json",
+            "waiting": "b_waitou.motion3.json",
+            "running": "b_diaozhui.motion3.json",
+            "review": "b_diantou.motion3.json",
+        },
+    },
+    "9Pets-Barbara": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.84,
+        "x": 1050,
+        "y": 560,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_zhaierji.motion3.json",
+            "running-left": "b_waitou.motion3.json",
+            "waving": "b_zhaierji.motion3.json",
+            "jumping": "b_zhaierji.motion3.json",
+            "failed": "b_yaotou.motion3.json",
+            "waiting": "b_fuxiong.motion3.json",
+            "running": "b_sikao.motion3.json",
+            "review": "b_diantou.motion3.json",
+        },
+    },
+    "9Pets-Barcarola": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.78,
+        "x": 1050,
+        "y": 600,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_zhihui.motion3.json",
+            "running-left": "b_tanshou.motion3.json",
+            "waving": "b_tanshou.motion3.json",
+            "jumping": "b_tietie.motion3.json",
+            "failed": "b_wuzui.motion3.json",
+            "waiting": "b_chayao.motion3.json",
+            "running": "b_zhihui.motion3.json",
+            "review": "b_diantou.motion3.json",
+        },
+    },
+    "9Pets-Beryl": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.72,
+        "x": 1050,
+        "y": 640,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_liyi.motion3.json",
+            "running-left": "b_bukan.motion3.json",
+            "waving": "b_taishou.motion3.json",
+            "jumping": "b_lingbai.motion3.json",
+            "failed": "b_yaotou.motion3.json",
+            "waiting": "b_fuxiong.motion3.json",
+            "running": "b_bukan2.motion3.json",
+            "review": "b_diantou.motion3.json",
+        },
+    },
+    "9Pets-Blonney": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.78,
+        "x": 1050,
+        "y": 900,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_bijiben.motion3.json",
+            "running-left": "b_motoufa.motion3.json",
+            "waving": "b_motoufa.motion3.json",
+            "jumping": "b_yaotou.motion3.json",
+            "failed": "t_kongju.motion3.json",
+            "waiting": "b_bijiben.motion3.json",
+            "running": "b_bijiben.motion3.json",
+            "review": "b_diantou.motion3.json",
+        },
+    },
+    "9Pets-Brimley": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.78,
+        "x": 1050,
+        "y": 900,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_xingli.motion3.json",
+            "running-left": "b_feizou.motion3.json",
+            "waving": "b_xingfen.motion3.json",
+            "jumping": "b_tiaoyue.motion3.json",
+            "failed": "b_shoushang.motion3.json",
+            "waiting": "b_shiluo.motion3.json",
+            "running": "b_feizou.motion3.json",
+            "review": "b_shiluo.motion3.json",
+        },
+    },
+    "9Pets-Brume": {
+        "width": 1800,
+        "height": 2200,
+        "scale": 0.68,
+        "x": 1050,
+        "y": 760,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_xiaolong.motion3.json",
+            "running-left": "b_fue.motion3.json",
+            "waving": "b_tanshou.motion3.json",
+            "jumping": "b_wuli.motion3.json",
+            "failed": "b_yaotou.motion3.json",
+            "waiting": "b_jinzhang.motion3.json",
+            "running": "b_xiaolong.motion3.json",
+            "review": "b_diantou.motion3.json",
+        },
+    },
+    "9Pets-Buddy-Fairchild": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.78,
+        "x": 1050,
+        "y": 860,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_huiqi1.motion3.json",
+            "running-left": "b_huiqi2.motion3.json",
+            "waving": "b_zhi1.motion3.json",
+            "jumping": "b_wulian.motion3.json",
+            "failed": "b_yaotou1.motion3.json",
+            "waiting": "b_sikao1.motion3.json",
+            "running": "b_sikao2.motion3.json",
+            "review": "b_diantou1.motion3.json",
+        },
+    },
+    "9Pets-Charon": {
+        "width": 1800,
+        "height": 2200,
+        "scale": 0.68,
+        "x": 1050,
+        "y": 760,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_goupai.motion3.json",
+            "running-left": "b_fanshu.motion3.json",
+            "waving": "b_xianhua.motion3.json",
+            "jumping": "b_fanshu3.motion3.json",
+            "failed": "b_yaotou.motion3.json",
+            "waiting": "b_fuxiong.motion3.json",
+            "running": "b_goupai.motion3.json",
+            "review": "b_diantou.motion3.json",
+        },
+    },
+    "9Pets-Cheng-Heguang": {
+        "width": 1800,
+        "height": 2200,
+        "scale": 0.68,
+        "x": 1050,
+        "y": 760,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_baoquan.motion3.json",
+            "running-left": "b_zuanquan.motion3.json",
+            "waving": "b_qing.motion3.json",
+            "jumping": "b_zuanquan.motion3.json",
+            "failed": "b_yaotou.motion3.json",
+            "waiting": "b_cazui.motion3.json",
+            "running": "b_baoquan2.motion3.json",
+            "review": "b_diantou.motion3.json",
+        },
+    },
+    "9Pets-Click": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.84,
+        "x": 1050,
+        "y": 560,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_xiangji.motion3.json",
+            "running-left": "b_paizhao.motion3.json",
+            "waving": "b_naotou.motion3.json",
+            "jumping": "b_paizhao.motion3.json",
+            "failed": "b_yaotou.motion3.json",
+            "waiting": "b_jiaojuan.motion3.json",
+            "running": "b_xiangji.motion3.json",
+            "review": "b_diantou.motion3.json",
+        },
+    },
+    "9Pets-Coppelia": {
+        "width": 1800,
+        "height": 2200,
+        "scale": 0.68,
+        "x": 1050,
+        "y": 760,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_yincha.motion3.json",
+            "running-left": "b_tanshou.motion3.json",
+            "waving": "b_tanshou.motion3.json",
+            "jumping": "b_yincha.motion3.json",
+            "failed": "b_kuqi.motion3.json",
+            "waiting": "b_kuqi1.motion3.json",
+            "running": "b_sikao.motion3.json",
+            "review": "b_diantou.motion3.json",
+        },
+    },
+    "9Pets-Corvus": {
+        "width": 1800,
+        "height": 2200,
+        "scale": 0.68,
+        "x": 1050,
+        "y": 760,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_chakan.motion3.json",
+            "running-left": "b_chiqiang.motion3.json",
+            "waving": "b_taishou.motion3.json",
+            "jumping": "b_yamao.motion3.json",
+            "failed": "b_yaotou.motion3.json",
+            "waiting": "b_zhiweijin_loop.motion3.json",
+            "running": "b_chakan_loop.motion3.json",
+            "review": "b_diantou.motion3.json",
+        },
+    },
     "9Pets-37": {
         "width": 1600,
         "height": 1800,
@@ -223,6 +491,321 @@ SPINE_RENDER_PROFILES: dict[str, dict[str, Any]] = {
             "failed": "hit",
             "waiting": "sleep",
             "running": "skill2",
+            "review": "posture",
+        },
+    },
+    "9Pets-Baby-Blue": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "301601_yingerlan_room.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "walk",
+            "running-left": "walk",
+            "waving": "click",
+            "jumping": "idle_birthday_up",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "idle_birthday_loop",
+            "review": "click",
+        },
+    },
+    "9Pets-Balloon-Party": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "302401_qiqiupaidui_room.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "walk",
+            "running-left": "walk",
+            "waving": "click",
+            "jumping": "walk",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "walk",
+            "review": "idle",
+        },
+    },
+    "9Pets-Charlie": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "301701_xiali_room.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "walk",
+            "running-left": "walk",
+            "waving": "click",
+            "jumping": "walk",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "walk",
+            "review": "idle",
+        },
+    },
+    "9Pets-Cute-Baby-Blue": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "301601_yingerlan_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "skill1",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "skill2",
+            "review": "victory",
+        },
+    },
+    "9Pets-Cute-Balloon-Party": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "302401_qiqiupaidui_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "skill1",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "skill2",
+            "review": "unique",
+        },
+    },
+    "9Pets-Cute-Charlie": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "301701_xiali_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "skill1",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "skill2",
+            "review": "victory",
+        },
+    },
+    "9Pets-Cute-Charon": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "312801_kr_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "skill1",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "skill2",
+            "review": "unique",
+        },
+    },
+    "9Pets-Cute-Cheng-Heguang": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "313701_chg_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "skill1",
+            "failed": "hit",
+            "waiting": "channel_idle",
+            "running": "skill2",
+            "review": "unique",
+        },
+    },
+    "9Pets-Cute-Click": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "304901_kachakacha_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "giddy",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "skill2",
+            "review": "unique",
+        },
+    },
+    "9Pets-Cute-Corvus": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "313201_gsn_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "skill1",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "skill2",
+            "review": "unique",
+        },
+    },
+    "9Pets-Cute-Brimley": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "310601_kym_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "skill1",
+            "failed": "hit",
+            "waiting": "idle",
+            "running": "skill1",
+            "review": "posture",
+        },
+    },
+    "9Pets-Cute-Brume": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "313501_hdl_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "skill1",
+            "failed": "hit",
+            "waiting": "channel_idle",
+            "running": "skill2",
+            "review": "channel_idle",
+        },
+    },
+    "9Pets-Cute-Buddy-Fairchild": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "311501_jjsg_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "skill1",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "skill2",
+            "review": "posture",
+        },
+    },
+    "9Pets-Cute-Bunny-Bunny": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "301401_banibani_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "skill1",
+            "failed": "hit",
+            "waiting": "sleep",
+            "running": "skill2",
+            "review": "victory",
+        },
+    },
+    "9Pets-Cute-Centurion": {
+        "width": 1200,
+        "height": 1200,
+        "scale": 2.2,
+        "x": 600,
+        "y": 900,
+        "skeleton": "303201_baifuzhang_fight.skel",
+        "flipRunningLeft": True,
+        "detailAtlasScale": 4,
+        "motionMap": {
+            "idle": "idle",
+            "running-right": "posture",
+            "running-left": "posture",
+            "waving": "giddy",
+            "jumping": "skill1",
+            "failed": "giddy",
+            "waiting": "posture",
+            "running": "skill1",
             "review": "posture",
         },
     },
@@ -643,6 +1226,8 @@ def render_live2d_frames(package_name: str, cubism_path: str) -> Path | None:
         "--y",
         str(profile.get("y", 140)),
     ]
+    if profile.get("primaryTexture"):
+        command.extend(["--primary-texture", str(profile["primaryTexture"])])
     motion_map_path: Path | None = None
     try:
         if profile.get("motionMap"):
@@ -971,20 +1556,39 @@ def make_atlas_from_live2d_frames(frames_root: Path, cell_scale: int = 1) -> Ima
 def make_preview_from_atlas(atlas: Image.Image, output: Path) -> None:
     preview = Image.new("RGBA", (CELL_W, CELL_H), (0, 0, 0, 0))
     preview.alpha_composite(atlas.crop((0, 0, CELL_W, CELL_H)))
+    save_image_atomic(preview, output)
+
+
+def save_image_atomic(image: Image.Image, output: Path, **save_kwargs: Any) -> None:
     output.parent.mkdir(parents=True, exist_ok=True)
-    preview.save(output)
+    with tempfile.NamedTemporaryFile(
+        prefix=f".{output.stem}-",
+        suffix=output.suffix,
+        dir=output.parent,
+        delete=False,
+    ) as handle:
+        temp_path = Path(handle.name)
+    try:
+        image.save(temp_path, **save_kwargs)
+        temp_path.replace(output)
+    except Exception:
+        temp_path.unlink(missing_ok=True)
+        raise
 
 
 def make_pet_json(package_name: str, name: str, source_info: dict[str, Any]) -> dict[str, str]:
+    is_cute = package_name.startswith(CUTE_PACKAGE_PREFIX)
     if source_info.get("animationMode") == "official-live2d-cubism":
-        description = f"A fan-made Reverse: 1999 Codex pet for {name}, built from official Live2D Cubism motion frames."
+        description = f"An official-sourced Reverse: 1999 Codex pet for {name}, built from official Live2D Cubism motion frames."
     elif source_info.get("animationMode") == "official-spine":
-        description = f"A fan-made Reverse: 1999 Codex pet for {name}, built from official Spine motion frames."
+        description = f"An official-sourced Reverse: 1999 Codex pet for {name}, built from official Spine motion frames."
+    elif source_info.get("animationMode") == "official-cute-spine":
+        description = f"An official-sourced Reverse: 1999 Codex pet cute variant for {name}, built from official chibi Spine motion frames."
     else:
-        description = f"A fan-made Reverse: 1999 Codex pet for {name}, built from official game asset-dump artwork."
+        description = f"An official-sourced Reverse: 1999 Codex pet for {name}, built from official game asset-dump artwork."
     return {
         "id": pet_id_from_package(package_name),
-        "displayName": f"9Pets - {name}",
+        "displayName": f"9Pets Cute - {name}" if is_cute else f"9Pets - {name}",
         "description": description,
         "spritesheetPath": "spritesheet.webp",
     }
@@ -996,7 +1600,7 @@ def write_zip(package_name: str, pet_json: dict[str, str], spritesheet_path: Pat
         [
             f"# {package_name}",
             "",
-            "Fan-made Codex pet package for Reverse: 1999.",
+            "Official-sourced Codex pet package for Reverse: 1999.",
             f"Source mode: {source_info['sourceType']}.",
             f"Animation mode: {source_info.get('animationModeLabel', source_info.get('animationMode', 'Unknown'))}.",
             f"Official asset id: {source_info['assetId']}.",
@@ -1033,6 +1637,57 @@ def clean_output_dirs() -> None:
         path.mkdir(parents=True, exist_ok=True)
 
 
+def snapshot_cute_outputs() -> Path | None:
+    snapshot_root = Path(tempfile.mkdtemp(prefix="9pets-cute-preserve-"))
+    found = False
+
+    for package_dir in PETS_DIR.glob(f"{CUTE_PACKAGE_PREFIX}*"):
+        if package_dir.is_dir():
+            destination = snapshot_root / "pets" / package_dir.name
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copytree(package_dir, destination)
+            found = True
+
+    for source_dir, pattern in [
+        (SPRITESHEET_DIR, f"{CUTE_PACKAGE_PREFIX}*.webp"),
+        (DETAIL_SPRITESHEET_DIR, f"{CUTE_PACKAGE_PREFIX}*.webp"),
+        (PREVIEW_DIR, f"{CUTE_PACKAGE_PREFIX}*.png"),
+        (DOWNLOAD_DIR, f"{CUTE_PACKAGE_PREFIX}*.zip"),
+    ]:
+        for source_file in source_dir.glob(pattern):
+            destination = snapshot_root / source_file.relative_to(ROOT)
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source_file, destination)
+            found = True
+
+    if not found:
+        shutil.rmtree(snapshot_root, ignore_errors=True)
+        return None
+    return snapshot_root
+
+
+def restore_cute_outputs(snapshot_root: Path | None) -> None:
+    if not snapshot_root:
+        return
+
+    pets_snapshot = snapshot_root / "pets"
+    if pets_snapshot.exists():
+        for package_dir in pets_snapshot.iterdir():
+            if package_dir.is_dir():
+                destination = PETS_DIR / package_dir.name
+                if destination.exists():
+                    shutil.rmtree(destination)
+                shutil.copytree(package_dir, destination)
+
+    docs_snapshot = snapshot_root / "docs"
+    if docs_snapshot.exists():
+        for source_file in docs_snapshot.rglob("*"):
+            if source_file.is_file():
+                destination = ROOT / source_file.relative_to(snapshot_root)
+                destination.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(source_file, destination)
+
+
 def ensure_output_dirs() -> None:
     for path in [PETS_DIR, SOURCE_DIR, PREVIEW_DIR, SPRITESHEET_DIR, DETAIL_SPRITESHEET_DIR, DOWNLOAD_DIR, DATA_DIR]:
         path.mkdir(parents=True, exist_ok=True)
@@ -1041,6 +1696,87 @@ def ensure_output_dirs() -> None:
 def detail_atlas_scale_for(package_name: str) -> int:
     profile = LIVE2D_RENDER_PROFILES.get(package_name) or SPINE_RENDER_PROFILES.get(package_name, {})
     return int(profile.get("detailAtlasScale", DETAIL_ATLAS_SCALE))
+
+
+def detail_atlas_scale_from_file(path: Path) -> int:
+    if not path.exists():
+        return 1
+    with Image.open(path) as image:
+        expected_width = CELL_W * COLS
+        if image.width % expected_width:
+            return 1
+        return max(1, image.width // expected_width)
+
+
+def build_cute_variants(pets: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    normal_by_package = {pet["packageName"]: pet for pet in pets}
+    variants: list[dict[str, Any]] = []
+
+    for package_dir in sorted(PETS_DIR.glob(f"{CUTE_PACKAGE_PREFIX}*")):
+        if not package_dir.is_dir():
+            continue
+        package_name = package_dir.name
+        normal_package = "9Pets-" + package_name.removeprefix(CUTE_PACKAGE_PREFIX)
+        normal = normal_by_package.get(normal_package)
+        if not normal:
+            continue
+
+        pet_json_path = package_dir / "pet.json"
+        if pet_json_path.exists():
+            pet_json = json.loads(pet_json_path.read_text(encoding="utf-8"))
+        else:
+            pet_json = {
+                "id": pet_id_from_package(package_name),
+                "displayName": f"9Pets Cute - {normal['displayName']}",
+            }
+
+        spritesheet = SPRITESHEET_DIR / f"{package_name}.webp"
+        detail_spritesheet = DETAIL_SPRITESHEET_DIR / f"{package_name}.webp"
+        preview = PREVIEW_DIR / f"{package_name}.png"
+        zip_path = DOWNLOAD_DIR / f"{package_name}.zip"
+        if not spritesheet.exists() or not preview.exists() or not zip_path.exists():
+            continue
+
+        detail_path = f"assets/detail-spritesheets/{package_name}.webp" if detail_spritesheet.exists() else ""
+        variants.append(
+            {
+                "id": pet_json.get("id", pet_id_from_package(package_name)),
+                "packageName": package_name,
+                "normalPackageName": normal_package,
+                "normalId": normal["id"],
+                "displayName": normal["displayName"],
+                "variantType": "cute",
+                "variantLabel": "Cute",
+                "download": f"downloads/{package_name}.zip",
+                "preview": f"assets/previews/{package_name}.png",
+                "spritesheet": f"assets/spritesheets/{package_name}.webp",
+                "detailSpritesheet": detail_path,
+                "detailAtlasScale": detail_atlas_scale_from_file(detail_spritesheet),
+                "sourceType": normal["sourceType"],
+                "sourceUrl": normal["sourceUrl"],
+                "sourceImage": normal["sourceImage"],
+                "sourceRepoPath": normal["sourceRepoPath"],
+                "assetId": normal["assetId"],
+                "assetRepoUrl": normal["assetRepoUrl"],
+                "spinePath": normal["spinePath"],
+                "spineUrl": normal["spineUrl"],
+                "cubismPath": normal["cubismPath"],
+                "cubismUrl": normal["cubismUrl"],
+                "birthday": normal["birthday"],
+                "skinName": normal["skinName"],
+                "matchedName": normal["matchedName"],
+                "live2dCacheStatus": "cute-preserved",
+                "animationMode": "official-cute-spine",
+                "animationModeLabel": "Official chibi Spine motion capture",
+                "characterSummary": (
+                    f"{normal['displayName']} has a separate cute Codex pet variant, "
+                    "preserved from official chibi battle motion frames and packaged apart from the normal Live2D track."
+                ),
+                "packageBytes": zip_path.stat().st_size,
+            }
+        )
+
+    return variants
 
 
 def build_pet(item: dict[str, Any], official_index: dict[str, dict[str, Any]]) -> dict[str, Any]:
@@ -1084,7 +1820,7 @@ def build_pet(item: dict[str, Any], official_index: dict[str, dict[str, Any]]) -
         atlas = make_atlas(sprite)
 
     spritesheet_path = package_dir / "spritesheet.webp"
-    atlas.save(spritesheet_path, format="WEBP", lossless=True, quality=100, method=0)
+    save_image_atomic(atlas, spritesheet_path, format="WEBP", lossless=True, quality=100, method=0)
 
     pet_json = make_pet_json(package_name, name, source_info)
     (package_dir / "pet.json").write_text(json.dumps(pet_json, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
@@ -1095,7 +1831,7 @@ def build_pet(item: dict[str, Any], official_index: dict[str, dict[str, Any]]) -
     if detail_atlas:
         docs_detail_spritesheet = DETAIL_SPRITESHEET_DIR / f"{package_name}.webp"
         docs_detail_spritesheet.parent.mkdir(parents=True, exist_ok=True)
-        detail_atlas.save(docs_detail_spritesheet, format="WEBP", lossless=True, quality=100, method=0)
+        save_image_atomic(detail_atlas, docs_detail_spritesheet, format="WEBP", lossless=True, quality=100, method=0)
         detail_spritesheet = f"assets/detail-spritesheets/{package_name}.webp"
     preview_path = PREVIEW_DIR / f"{package_name}.png"
     make_preview_from_atlas(atlas, preview_path)
@@ -1143,8 +1879,52 @@ def build_pet(item: dict[str, Any], official_index: dict[str, dict[str, Any]]) -
     }
 
 
+def build_cute_pet(item: dict[str, Any], official_index: dict[str, dict[str, Any]]) -> str:
+    name = item["name"]
+    normal_package_name = f"9Pets-{slug_suffix(name)}"
+    package_name = f"{CUTE_PACKAGE_PREFIX}{slug_suffix(name)}"
+    package_dir = PETS_DIR / package_name
+    package_dir.mkdir(parents=True, exist_ok=True)
+
+    _, source_info = get_source_sprite(name, normal_package_name, official_index)
+    source_info["animationMode"] = "official-cute-spine"
+    source_info["animationModeLabel"] = "Official chibi Spine motion capture"
+    source_info["live2dCacheStatus"] = "cute-rendered"
+
+    spine_frames = render_spine_frames(package_name, source_info.get("spinePath", ""))
+    if not spine_frames:
+        raise RuntimeError(f"No audited cute Spine render profile is available for {package_name}")
+
+    atlas = make_atlas_from_live2d_frames(spine_frames)
+    detail_atlas_scale = detail_atlas_scale_for(package_name)
+    detail_atlas = make_atlas_from_live2d_frames(spine_frames, cell_scale=detail_atlas_scale)
+
+    spritesheet_path = package_dir / "spritesheet.webp"
+    save_image_atomic(atlas, spritesheet_path, format="WEBP", lossless=True, quality=100, method=0)
+
+    pet_json = make_pet_json(package_name, name, source_info)
+    (package_dir / "pet.json").write_text(json.dumps(pet_json, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    docs_spritesheet = SPRITESHEET_DIR / f"{package_name}.webp"
+    shutil.copy2(spritesheet_path, docs_spritesheet)
+    docs_detail_spritesheet = DETAIL_SPRITESHEET_DIR / f"{package_name}.webp"
+    docs_detail_spritesheet.parent.mkdir(parents=True, exist_ok=True)
+    save_image_atomic(detail_atlas, docs_detail_spritesheet, format="WEBP", lossless=True, quality=100, method=0)
+    preview_path = PREVIEW_DIR / f"{package_name}.png"
+    make_preview_from_atlas(atlas, preview_path)
+
+    zip_path = DOWNLOAD_DIR / f"{package_name}.zip"
+    write_zip(package_name, pet_json, spritesheet_path, zip_path, source_info)
+    return package_name
+
+
 def find_catalog_item(catalog: dict[str, Any], selector: str) -> dict[str, Any]:
-    normalized_selector = normalized_lookup_name(selector.removeprefix("9Pets-"))
+    selector_key = selector
+    if selector_key.startswith(CUTE_PACKAGE_PREFIX):
+        selector_key = selector_key.removeprefix(CUTE_PACKAGE_PREFIX)
+    else:
+        selector_key = selector_key.removeprefix("9Pets-")
+    normalized_selector = normalized_lookup_name(selector_key)
     for item in catalog["characters"]:
         name = item["name"]
         package_name = f"9Pets-{slug_suffix(name)}"
@@ -1166,10 +1946,33 @@ def write_site_data(site_data: dict[str, Any]) -> None:
     (DATA_DIR / "pets-data.js").write_text(data_js, encoding="utf-8")
 
 
-def build(only: str | None = None) -> None:
+def build(only: str | None = None, cute_only: str | None = None) -> None:
+    if only and cute_only:
+        raise RuntimeError("Use either --only or --cute-only, not both.")
+
     catalog = read_catalog()
     generated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
     official_index = load_official_asset_index()
+
+    if cute_only:
+        ensure_output_dirs()
+        site_data_path = DATA_DIR / "pets.json"
+        if not site_data_path.exists():
+            raise RuntimeError("Single-character cute builds require existing docs/data/pets.json")
+        site_data = json.loads(site_data_path.read_text(encoding="utf-8"))
+        item = find_catalog_item(catalog, cute_only)
+        package_name = build_cute_pet(item, official_index)
+        pets = site_data.get("pets", [])
+        site_data["generatedAt"] = generated_at
+        site_data["total"] = len(pets)
+        site_data["pets"] = pets
+        cute_variants = build_cute_variants(pets)
+        site_data["cuteTotal"] = len(cute_variants)
+        site_data["cuteVariants"] = cute_variants
+        write_site_data(site_data)
+        print(f"Generated one cute pet: {package_name}")
+        print(f"Updated site data in {DATA_DIR / 'pets.json'}")
+        return
 
     if only:
         ensure_output_dirs()
@@ -1189,12 +1992,22 @@ def build(only: str | None = None) -> None:
         site_data["generatedAt"] = generated_at
         site_data["total"] = len(pets)
         site_data["pets"] = pets
+        cute_variants = build_cute_variants(pets)
+        site_data["cuteTotal"] = len(cute_variants)
+        site_data["cuteVariants"] = cute_variants
         write_site_data(site_data)
         print(f"Generated one pet: {pet_entry['packageName']}")
         print(f"Updated site data in {DATA_DIR / 'pets.json'}")
         return
 
-    clean_output_dirs()
+    cute_snapshot = snapshot_cute_outputs()
+    try:
+        clean_output_dirs()
+        restore_cute_outputs(cute_snapshot)
+    finally:
+        if cute_snapshot:
+            shutil.rmtree(cute_snapshot, ignore_errors=True)
+
     official_site_assets = download_official_site_assets()
     pets: list[dict[str, Any]] = []
 
@@ -1211,7 +2024,12 @@ def build(only: str | None = None) -> None:
         "notes": catalog["notes"],
         "officialSiteAssets": official_site_assets,
         "pets": pets,
+        "cuteTotal": 0,
+        "cuteVariants": [],
     }
+    cute_variants = build_cute_variants(pets)
+    site_data["cuteTotal"] = len(cute_variants)
+    site_data["cuteVariants"] = cute_variants
     write_site_data(site_data)
     print(f"Generated {len(pets)} pets into {PETS_DIR}")
     print(f"Generated site data into {DATA_DIR / 'pets.json'}")
@@ -1220,5 +2038,6 @@ def build(only: str | None = None) -> None:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Build 9Pets packages and GitHub Pages site assets.")
     parser.add_argument("--only", help="Build one character by display name, package name, or pet id.")
+    parser.add_argument("--cute-only", help="Build one cute/chibi variant by display name, normal package name, or pet id.")
     args = parser.parse_args()
-    build(only=args.only)
+    build(only=args.only, cute_only=args.cute_only)

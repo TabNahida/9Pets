@@ -59,6 +59,8 @@ def main() -> None:
     assert_true(len(pets) == 127, f"manifest contains {len(pets)} pets, expected 127")
     official_count = sum(1 for pet in pets if pet["sourceType"] == "official-sourced")
     assert_true(official_count == 127, f"official count is {official_count}, expected 127")
+    cute_variants = data.get("cuteVariants", [])
+    assert_true(data.get("cuteTotal", len(cute_variants)) == len(cute_variants), "cute variant total mismatch")
     assert_true((ROOT / "docs" / "data" / "pets-data.js").exists(), "docs/data/pets-data.js is missing")
     assert_true(len(data.get("officialSiteAssets", {})) >= 17, "official site assets were not downloaded")
 
@@ -82,6 +84,20 @@ def main() -> None:
         assert_true((ROOT / "docs" / pet["sourceImage"]).exists(), f"{package} missing official source image")
         assert_true((ROOT / "docs" / pet["preview"]).exists(), f"{package} missing preview")
         check_zip(ROOT / "docs" / pet["download"], package)
+
+    normal_ids = {pet["id"] for pet in pets}
+    for variant in cute_variants:
+        package = variant["packageName"]
+        assert_true(variant.get("variantType") == "cute", f"{package} missing cute variant type")
+        assert_true(variant.get("normalId") in normal_ids, f"{package} points to an unknown normal pet")
+        pet_dir = ROOT / "pets" / package
+        assert_true((pet_dir / "pet.json").exists(), f"{package} missing pet.json")
+        check_spritesheet(pet_dir / "spritesheet.webp")
+        check_spritesheet(ROOT / "docs" / variant["spritesheet"])
+        if variant.get("detailSpritesheet"):
+            check_detail_spritesheet(ROOT / "docs" / variant["detailSpritesheet"], int(variant.get("detailAtlasScale") or 1))
+        assert_true((ROOT / "docs" / variant["preview"]).exists(), f"{package} missing preview")
+        check_zip(ROOT / "docs" / variant["download"], package)
 
     for site_file in ["index.html", "pet.html", "styles.css", "app.js", "pet.js", ".nojekyll"]:
         assert_true((ROOT / "docs" / site_file).exists(), f"docs/{site_file} is missing")

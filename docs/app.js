@@ -1,6 +1,8 @@
 const state = {
   pets: [],
+  cuteVariants: [],
   sourceFilter: "all",
+  variantMode: "normal",
   search: "",
   renderToken: 0,
 };
@@ -12,8 +14,10 @@ const els = {
   totalCount: document.querySelector("#totalCount"),
   officialCount: document.querySelector("#officialCount"),
   assetCount: document.querySelector("#assetCount"),
+  cuteCount: document.querySelector("#cuteCount"),
   template: document.querySelector("#petCardTemplate"),
   filterButtons: [...document.querySelectorAll("[data-source-filter]")],
+  variantButtons: [...document.querySelectorAll("[data-variant-mode]")],
 };
 
 function formatBytes(bytes) {
@@ -28,13 +32,21 @@ function sourceLabel(type) {
   return "Community";
 }
 
+function variantLabel(pet) {
+  return pet.variantType === "cute" ? "Cute" : sourceLabel(pet.sourceType);
+}
+
 function petUrl(pet) {
   return `pet.html?id=${encodeURIComponent(pet.id)}`;
 }
 
+function activePets() {
+  return state.variantMode === "cute" ? state.cuteVariants : state.pets;
+}
+
 function filteredPets() {
   const query = state.search.trim().toLowerCase();
-  return state.pets.filter((pet) => {
+  return activePets().filter((pet) => {
     const matchesSource = state.sourceFilter === "all" || pet.sourceType === state.sourceFilter;
     const matchesSearch = !query || pet.displayName.toLowerCase().includes(query) || pet.packageName.toLowerCase().includes(query);
     return matchesSource && matchesSearch;
@@ -47,13 +59,15 @@ function renderStats() {
   els.totalCount.textContent = state.pets.length;
   els.officialCount.textContent = official;
   els.assetCount.textContent = assetMapped;
+  els.cuteCount.textContent = state.cuteVariants.length;
 }
 
 function renderGrid() {
   const renderToken = ++state.renderToken;
   const pets = filteredPets();
+  const allActivePets = activePets();
   els.grid.textContent = "";
-  els.resultCount.textContent = `${pets.length} of ${state.pets.length} packages`;
+  els.resultCount.textContent = `${pets.length} of ${allActivePets.length} ${state.variantMode === "cute" ? "cute " : ""}packages`;
 
   if (!pets.length) {
     const empty = document.createElement("div");
@@ -80,6 +94,7 @@ function renderGrid() {
       const download = card.querySelector(".download");
       const detailsUrl = petUrl(pet);
 
+      card.classList.toggle("cute-variant", pet.variantType === "cute");
       card.tabIndex = 0;
       card.setAttribute("role", "link");
       card.setAttribute("aria-label", `Open ${pet.displayName}`);
@@ -87,8 +102,9 @@ function renderGrid() {
       preview.alt = `${pet.displayName} pet preview`;
       title.textContent = pet.displayName;
       meta.textContent = `${pet.packageName} · ${formatBytes(pet.packageBytes)}`;
-      badge.textContent = sourceLabel(pet.sourceType);
-      badge.classList.toggle("official", pet.sourceType === "official-sourced");
+      badge.textContent = variantLabel(pet);
+      badge.classList.toggle("official", pet.sourceType === "official-sourced" && pet.variantType !== "cute");
+      badge.classList.toggle("cute", pet.variantType === "cute");
       details.href = detailsUrl;
       details.setAttribute("aria-label", `Open ${pet.displayName}`);
       download.href = pet.download;
@@ -133,6 +149,16 @@ function bindEvents() {
       renderGrid();
     });
   }
+
+  for (const button of els.variantButtons) {
+    button.addEventListener("click", () => {
+      state.variantMode = button.dataset.variantMode;
+      for (const other of els.variantButtons) {
+        other.classList.toggle("active", other === button);
+      }
+      renderGrid();
+    });
+  }
 }
 
 async function init() {
@@ -146,6 +172,7 @@ async function init() {
     }
     if (!Array.isArray(data.pets)) throw new Error("Catalog data is missing pets.");
     state.pets = data.pets;
+    state.cuteVariants = Array.isArray(data.cuteVariants) ? data.cuteVariants : [];
     renderStats();
     renderGrid();
   } catch (error) {

@@ -29,6 +29,7 @@ const els = {
   source: document.querySelector("#sourceLink"),
   sourceImage: document.querySelector("#sourceImage"),
   infoGrid: document.querySelector("#infoGrid"),
+  variantSwitch: document.querySelector("#variantSwitch"),
 };
 
 function formatBytes(bytes) {
@@ -47,13 +48,30 @@ function normalize(value) {
   return String(value || "").trim().toLowerCase();
 }
 
-function findPet(pets) {
+function allPets(data) {
+  return [...(data.pets || []), ...(data.cuteVariants || [])];
+}
+
+function findPet(data) {
   const params = new URLSearchParams(window.location.search);
   const id = normalize(params.get("id") || params.get("pet"));
   if (!id) return null;
-  return pets.find((pet) => {
+  return allPets(data).find((pet) => {
     return [pet.id, pet.packageName, pet.displayName].some((value) => normalize(value) === id);
   });
+}
+
+function normalPetFor(data, pet) {
+  if (pet.variantType === "cute") {
+    return (data.pets || []).find((candidate) => candidate.id === pet.normalId || candidate.packageName === pet.normalPackageName);
+  }
+  return pet;
+}
+
+function cuteVariantFor(data, pet) {
+  const normal = normalPetFor(data, pet);
+  if (!normal) return null;
+  return (data.cuteVariants || []).find((variant) => variant.normalId === normal.id || variant.normalPackageName === normal.packageName) || null;
 }
 
 function setState(state) {
@@ -79,8 +97,8 @@ function configureSprite(pet) {
   els.sprite.style.height = `${atlasCellH}px`;
   els.sprite.style.backgroundSize = `${atlasCellW * COLS}px ${atlasCellH * ROWS}px`;
   els.sprite.style.backgroundImage = `url("${pet.detailSpritesheet || pet.spritesheet}")`;
-  els.sprite.style.setProperty("--sprite-scale", atlasScale > 1 ? "1" : "2");
-  els.sprite.style.setProperty("--sprite-mobile-scale", atlasScale > 1 ? "0.775" : "1.55");
+  els.sprite.style.setProperty("--sprite-scale", (2.05 / atlasScale).toFixed(3));
+  els.sprite.style.setProperty("--sprite-mobile-scale", (1.45 / atlasScale).toFixed(3));
 }
 
 function createStateTabs() {
@@ -112,16 +130,41 @@ function addInfo(label, value, href) {
   els.infoGrid.append(item);
 }
 
-function renderPet(pet) {
+function addVariantLink(label, pet, active) {
+  const link = document.createElement(active ? "span" : "a");
+  link.className = "variant-link";
+  link.textContent = label;
+  if (active) {
+    link.classList.add("active");
+  } else if (pet) {
+    link.href = `pet.html?id=${encodeURIComponent(pet.id)}`;
+  } else {
+    link.classList.add("disabled");
+    link.setAttribute("aria-disabled", "true");
+  }
+  els.variantSwitch.append(link);
+}
+
+function renderVariantSwitch(data, pet) {
+  els.variantSwitch.textContent = "";
+  const normal = normalPetFor(data, pet);
+  const cute = cuteVariantFor(data, pet);
+  addVariantLink("Normal", normal, pet.variantType !== "cute");
+  addVariantLink("Cute", cute, pet.variantType === "cute");
+}
+
+function renderPet(data, pet) {
   const packageSize = formatBytes(pet.packageBytes);
   const source = sourceLabel(pet.sourceType);
+  const variant = pet.variantType === "cute" ? "Cute" : "Normal";
   const animationMode = pet.animationModeLabel || pet.animationMode || "Official-art atlas";
   const summary = pet.characterSummary || `A Reverse: 1999 Codex pet package for ${pet.displayName}, built from official game asset-dump artwork and packaged for the fixed 9-state Codex pet atlas.`;
 
-  document.title = `${pet.displayName} - 9Pets`;
+  document.title = `${pet.displayName}${pet.variantType === "cute" ? " Cute" : ""} - 9Pets`;
   els.title.textContent = pet.displayName;
-  els.eyebrow.textContent = `${source}-sourced package`;
+  els.eyebrow.textContent = pet.variantType === "cute" ? "Cute official-sourced package" : `${source}-sourced package`;
   els.summary.textContent = summary;
+  renderVariantSwitch(data, pet);
   configureSprite(pet);
   els.download.href = pet.download;
   els.download.download = `${pet.packageName}.zip`;
@@ -131,6 +174,7 @@ function renderPet(pet) {
   els.sourceImage.alt = `${pet.displayName} source art`;
 
   addInfo("Package", pet.packageName);
+  addInfo("Version", variant);
   addInfo("Source", source);
   addInfo("Animation", animationMode);
   addInfo("Asset ID", pet.assetId);
@@ -155,9 +199,9 @@ async function init() {
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       data = await response.json();
     }
-    const pet = findPet(data.pets || []);
+    const pet = findPet(data);
     if (!pet) throw new Error("Pet package was not found.");
-    renderPet(pet);
+    renderPet(data, pet);
   } catch (error) {
     els.title.textContent = "Package not found";
     els.summary.textContent = error.message;
