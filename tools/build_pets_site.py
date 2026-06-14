@@ -3430,7 +3430,22 @@ def write_site_data(site_data: dict[str, Any]) -> None:
     attach_asset_versions(site_data)
     (DATA_DIR / "pets.json").write_text(json.dumps(site_data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     data_js = "window.NINEPETS_DATA = " + json.dumps(site_data, ensure_ascii=False) + ";\n"
-    (DATA_DIR / "pets-data.js").write_text(data_js, encoding="utf-8")
+    data_script = DATA_DIR / "pets-data.js"
+    data_script.write_text(data_js, encoding="utf-8")
+    update_entrypoint_data_script_fingerprint(data_script)
+
+
+def update_entrypoint_data_script_fingerprint(data_script: Path) -> None:
+    fingerprint = hashlib.sha256(data_script.read_bytes()).hexdigest()[:16]
+    replacement = f'src="data/pets-data.js?v={fingerprint}"'
+    pattern = re.compile(r'src="data/pets-data\.js(?:\?v=[0-9a-f]+)?"')
+    for entrypoint in (DOCS_DIR / "index.html", DOCS_DIR / "pet.html"):
+        if not entrypoint.exists():
+            continue
+        html = entrypoint.read_text(encoding="utf-8")
+        updated, count = pattern.subn(replacement, html)
+        if count:
+            entrypoint.write_text(updated, encoding="utf-8")
 
 
 def build(only: str | None = None, cute_only: str | None = None, skin: str | None = None) -> None:

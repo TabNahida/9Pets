@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import functools
+import hashlib
 import http.server
+import re
 import socket
 import threading
 from pathlib import Path
@@ -48,6 +50,14 @@ def requests_smoke(base_url: str) -> None:
     for path in ["/", "/styles.css", "/app.js", "/data/pets.json"]:
         response = session.get(f"{base_url}{path}", timeout=10)
         response.raise_for_status()
+    expected_data_fingerprint = hashlib.sha256((DOCS / "data" / "pets-data.js").read_bytes()).hexdigest()[:16]
+    for path in ["/", "/pet.html?id=9pets-37-happy-bird-catcher"]:
+        html = session.get(f"{base_url}{path}", timeout=10).text
+        match = re.search(r'src="data/pets-data\.js\?v=([0-9a-f]{16})"', html)
+        if not match:
+            raise AssertionError(f"{path} loads pets-data.js without an asset fingerprint")
+        if match.group(1) != expected_data_fingerprint:
+            raise AssertionError(f"{path} pets-data.js fingerprint is stale")
     data = session.get(f"{base_url}/data/pets.json", timeout=10).json()
     if data["total"] != len(data.get("pets", [])):
         raise AssertionError(f"manifest total {data['total']} does not match pet count {len(data.get('pets', []))}")
