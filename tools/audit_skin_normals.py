@@ -150,6 +150,7 @@ def stage_and_commit(package_name: str, cubism_path: str, message: str) -> None:
         "PET_SKIN_BUILD_TODO.md",
         "tools/audit_skin_normals.py",
         "tools/build_pets_site.py",
+        "tools/render_live2d_frames.mjs",
         "tools/rebuild_one_pet.py",
         "tests/__init__.py",
         "tests/test_live2d_artifact_cleanup.py",
@@ -173,6 +174,7 @@ def stage_and_commit(package_name: str, cubism_path: str, message: str) -> None:
             path == "PET_SKIN_BUILD_TODO.md"
             or path == "tools/audit_skin_normals.py"
             or path == "tools/build_pets_site.py"
+            or path == "tools/render_live2d_frames.mjs"
             or path == "tools/rebuild_one_pet.py"
             or path.startswith("tests/")
             or path.startswith("docs/data/pets")

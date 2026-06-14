@@ -50,6 +50,8 @@ function usage() {
     "  --x <number>           Live2D camera x in pixels. Default: 640.",
     "  --y <number>           Live2D camera y in pixels. Default: 140.",
     "  --primary-texture <path> Move this texture to the front of the patched model texture list.",
+    "  --hidden-drawables <ids> Comma-separated Live2D drawable ids to hide before each draw.",
+    "  --dump-drawables      Print drawable metadata as JSON and exit.",
   ].join("\n");
 }
 
@@ -266,6 +268,33 @@ async function buildBrowserBundle(depsDir, workDir) {
       import { Live2DCubismModel } from "live2d-renderer";
 
       const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+      const drawableId = (id) => String(id?.s || id || "");
+
+      const hiddenDrawableIndices = (model, hiddenIds) => {
+        if (!hiddenIds?.length || !model?.drawables?.ids) return;
+        const hidden = new Set(hiddenIds);
+        const indices = new Set();
+        for (let index = 0; index < model.drawables.count; index += 1) {
+          if (hidden.has("*") || hidden.has(drawableId(model.drawables.ids[index]))) {
+            indices.add(index);
+          }
+        }
+        return indices;
+      };
+
+      const installDrawableHider = (model, hiddenIds) => {
+        const indices = hiddenDrawableIndices(model, hiddenIds);
+        if (!indices?.size || model.__ninePetsDrawableHiderInstalled) return;
+        const renderer = model.getRenderer?.();
+        if (!renderer?.drawMeshWebGL) return;
+        model.__ninePetsDrawableHiderInstalled = true;
+        // The Cubism renderer draws by index, so skip known bad source meshes before WebGL sees them.
+        const drawMeshWebGL = renderer.drawMeshWebGL.bind(renderer);
+        renderer.drawMeshWebGL = (cubismModel, index, ...args) => {
+          if (indices.has(index)) return;
+          return drawMeshWebGL(cubismModel, index, ...args);
+        };
+      };
 
       window.renderLive2DFrames = async (job) => {
         const canvas = document.querySelector("#stage");
@@ -302,17 +331,88 @@ async function buildBrowserBundle(depsDir, workDir) {
 
         for (let i = 0; i < 8; i += 1) {
           await sleep(16);
+          installDrawableHider(model, job.hiddenDrawables);
           model.update();
         }
 
         const frames = [];
         for (let i = 0; i < job.frames; i += 1) {
           await sleep(job.intervalMs);
+          installDrawableHider(model, job.hiddenDrawables);
           model.update();
           frames.push(canvas.toDataURL("image/png"));
         }
         model.destroy(false);
         return frames;
+      };
+
+      window.dumpLive2DDrawables = async (job) => {
+        const canvas = document.querySelector("#stage");
+        canvas.width = job.width;
+        canvas.height = job.height;
+        const model = new Live2DCubismModel(canvas, {
+          autoAnimate: false,
+          autoInteraction: false,
+          tapInteraction: false,
+          randomMotion: false,
+          cubismCorePath: job.cubismCoreUrl,
+          keepAspect: false,
+          premultipliedAlpha: true,
+          checkMocConsistency: false,
+          scale: job.scale,
+          x: job.x,
+          y: job.y,
+          enablePhysics: true,
+          enableEyeblink: true,
+          enableBreath: true,
+          enableLipsync: false,
+          enableMotion: true,
+          enableExpression: true,
+          enableMovement: true,
+          enablePose: true,
+        });
+
+        await model.load(job.modelUrl);
+        model.centerModel();
+        model.scale = job.scale;
+        model.x = job.x;
+        model.y = job.y;
+        installDrawableHider(model, job.hiddenDrawables);
+        await model.startMotion(job.motionGroup, 0, 3);
+        for (let i = 0; i < 8; i += 1) {
+          await sleep(16);
+          model.update();
+        }
+        const drawables = model.drawables;
+        const ids = Array.from({ length: drawables.count }, (_, index) => drawableId(drawables.ids[index]));
+        const items = ids.map((id, index) => {
+          const uv = Array.from(drawables.vertexUvs[index] || []);
+          const vertex = Array.from(drawables.vertexPositions[index] || []);
+          const uvXs = [];
+          const uvYs = [];
+          for (let i = 0; i < uv.length; i += 2) {
+            uvXs.push(uv[i]);
+            uvYs.push(uv[i + 1]);
+          }
+          const xs = [];
+          const ys = [];
+          for (let i = 0; i < vertex.length; i += 2) {
+            xs.push(vertex[i]);
+            ys.push(vertex[i + 1]);
+          }
+          return {
+            index,
+            id,
+            textureIndex: drawables.textureIndices[index],
+            vertexCount: drawables.vertexCounts[index],
+            opacity: drawables.opacities[index],
+            renderOrder: drawables.renderOrders[index],
+            uvBounds: uvXs.length ? [Math.min(...uvXs), Math.min(...uvYs), Math.max(...uvXs), Math.max(...uvYs)] : [],
+            vertexBounds: xs.length ? [Math.min(...xs), Math.min(...ys), Math.max(...xs), Math.max(...ys)] : [],
+          };
+        });
+        model.destroy(false);
+        return items;
       };
     `,
     "utf8",
@@ -433,6 +533,25 @@ async function main() {
     const page = await browser.newPage({ viewport: { width, height }, deviceScaleFactor: 1 });
     await page.goto(serverInfo.baseUrl, { waitUntil: "load" });
 
+    if (args["dump-drawables"]) {
+      const items = await page.evaluate(
+        (job) => window.dumpLive2DDrawables(job),
+        {
+          width,
+          height,
+          scale,
+          x,
+          y,
+          modelUrl: `/model/${encodeURIComponent(basename(patched.patchedModelPath))}`,
+          cubismCoreUrl: "/core/live2dcubismcore.min.js",
+          motionGroup: states[0].group,
+        },
+      );
+      console.log(JSON.stringify(items, null, 2));
+      await browser.close();
+      return;
+    }
+
     for (const state of states) {
       const frameData = await page.evaluate(
         (job) => window.renderLive2DFrames(job),
@@ -447,6 +566,10 @@ async function main() {
           motionGroup: state.group,
           frames: state.frames,
           intervalMs: Math.round(1000 / state.fps),
+          hiddenDrawables: String(args["hidden-drawables"] || "")
+            .split(",")
+            .map((id) => id.trim())
+            .filter(Boolean),
         },
       );
       const stateDir = join(outputDir, state.id);

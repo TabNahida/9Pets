@@ -67,6 +67,7 @@ HIDDEN_NORMAL_PACKAGES = {
 }
 NORMAL_SPINE_OVERRIDE_PACKAGES: set[str] = set()
 LIVE2D_WHITE_BLOCK_ARTIFACT_PACKAGES = {
+    "9Pets-37-A-Gift-of-Nourishment",
     "9Pets-37-A-Prime-Number",
     "9Pets-37-Happy-Bird-Catcher",
     "9Pets-37-Down-in-the-Grotto",
@@ -558,6 +559,33 @@ LIVE2D_RENDER_PROFILES: dict[str, dict[str, Any]] = {
             "review": "b_diantou.motion3.json",
         },
     },
+    "9Pets-37-A-Prime-Number": {
+        "width": 1600,
+        "height": 1800,
+        "scale": 0.75,
+        "x": 1000,
+        "y": 900,
+        "detailAtlasScale": 4,
+        "hiddenDrawables": ["bone1", "bone2", "bone3", "bone4"],
+    },
+    "9Pets-37-Happy-Bird-Catcher": {
+        "width": 1600,
+        "height": 1800,
+        "scale": 0.75,
+        "x": 1000,
+        "y": 900,
+        "detailAtlasScale": 4,
+        "hiddenDrawables": ["bone1", "bone2", "bone3", "bone4"],
+    },
+    "9Pets-37-A-Gift-of-Nourishment": {
+        "width": 1600,
+        "height": 1800,
+        "scale": 0.75,
+        "x": 1000,
+        "y": 900,
+        "detailAtlasScale": 4,
+        "hiddenDrawables": ["bone1"],
+    },
     "9Pets-37-Down-in-the-Grotto": {
         "width": 2200,
         "height": 2200,
@@ -565,6 +593,7 @@ LIVE2D_RENDER_PROFILES: dict[str, dict[str, Any]] = {
         "x": 1450,
         "y": 900,
         "detailAtlasScale": 4,
+        "hiddenDrawables": ["bone1", "bone2", "bone3", "bone4", "bone5", "bone6"],
     }
 }
 
@@ -2148,6 +2177,8 @@ def render_live2d_frames(package_name: str, cubism_path: str, profile_package_na
     ]
     if profile.get("primaryTexture"):
         command.extend(["--primary-texture", str(profile["primaryTexture"])])
+    if profile.get("hiddenDrawables"):
+        command.extend(["--hidden-drawables", ",".join(str(item) for item in profile["hiddenDrawables"])])
     motion_map_path: Path | None = None
     try:
         if profile.get("motionMap"):
@@ -2589,7 +2620,7 @@ def make_atlas_from_live2d_frames(frames_root: Path, cell_scale: int = 1) -> Ima
             frame_path = state_dir / f"{index:02d}.png"
             if not frame_path.exists():
                 raise RuntimeError(f"Missing Live2D frame {frame_path}")
-            frame = remove_compact_white_block_artifacts(Image.open(frame_path).convert("RGBA"), package_name)
+            frame = Image.open(frame_path).convert("RGBA")
             frames.append(frame)
             bbox = union_bbox(bbox, frame.getchannel("A").getbbox())
         loaded[state] = frames

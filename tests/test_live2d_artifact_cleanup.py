@@ -4,7 +4,7 @@ import unittest
 
 from PIL import Image
 
-from tools.build_pets_site import remove_compact_white_block_artifacts
+from tools.build_pets_site import LIVE2D_RENDER_PROFILES, remove_compact_white_block_artifacts
 
 
 class Live2DArtifactCleanupTest(unittest.TestCase):
@@ -36,6 +36,17 @@ class Live2DArtifactCleanupTest(unittest.TestCase):
             if cleaned.getpixel((x, y))[3] > 0
         )
         self.assertEqual(400, white_pixels)
+
+    def test_37_white_block_skins_hide_bad_live2d_drawables(self) -> None:
+        expected = {
+            "9Pets-37-A-Gift-of-Nourishment": ["bone1"],
+            "9Pets-37-A-Prime-Number": ["bone1", "bone2", "bone3", "bone4"],
+            "9Pets-37-Happy-Bird-Catcher": ["bone1", "bone2", "bone3", "bone4"],
+            "9Pets-37-Down-in-the-Grotto": ["bone1", "bone2", "bone3", "bone4", "bone5", "bone6"],
+        }
+        for package_name, hidden in expected.items():
+            with self.subTest(package_name=package_name):
+                self.assertEqual(hidden, LIVE2D_RENDER_PROFILES[package_name]["hiddenDrawables"])
 
 
 if __name__ == "__main__":
