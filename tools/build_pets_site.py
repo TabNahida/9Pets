@@ -2060,12 +2060,30 @@ def default_spine_render_profile(package_name: str, spine_path: str) -> dict[str
     return profile
 
 
+def inherit_layout_profile(profile: dict[str, Any], *, drop_keys: set[str]) -> dict[str, Any]:
+    return {key: value for key, value in profile.items() if key not in drop_keys}
+
+
+def live2d_render_profile_for(package_name: str, profile_package_name: str | None = None) -> dict[str, Any]:
+    exact = LIVE2D_RENDER_PROFILES.get(package_name)
+    if exact:
+        return dict(exact)
+    inherited = LIVE2D_RENDER_PROFILES.get(profile_package_name) if profile_package_name else None
+    if inherited:
+        return inherit_layout_profile(dict(inherited), drop_keys={"motionMap", "primaryTexture"})
+    return {}
+
+
 def spine_render_profile_for(package_name: str, spine_path: str, profile_package_name: str | None = None) -> dict[str, Any]:
-    return (
-        SPINE_RENDER_PROFILES.get(package_name)
-        or (SPINE_RENDER_PROFILES.get(profile_package_name) if profile_package_name else None)
-        or default_spine_render_profile(package_name, spine_path)
-    )
+    exact = SPINE_RENDER_PROFILES.get(package_name)
+    if exact:
+        return dict(exact)
+    inherited = SPINE_RENDER_PROFILES.get(profile_package_name) if profile_package_name else None
+    if inherited:
+        profile = default_spine_render_profile(package_name, spine_path)
+        profile.update(inherit_layout_profile(dict(inherited), drop_keys={"motionMap", "skeleton", "atlas"}))
+        return profile
+    return default_spine_render_profile(package_name, spine_path)
 
 
 def spine_render_ready(package_name: str, spine_path: str, profile_package_name: str | None = None) -> bool:
@@ -2087,7 +2105,7 @@ def render_live2d_frames(package_name: str, cubism_path: str, profile_package_na
     if not live2d_render_ready(cubism_path):
         return None
 
-    profile = LIVE2D_RENDER_PROFILES.get(package_name) or (LIVE2D_RENDER_PROFILES.get(profile_package_name) if profile_package_name else None) or {}
+    profile = live2d_render_profile_for(package_name, profile_package_name)
     output_dir = LIVE2D_FRAME_ROOT / package_name
     if output_dir.exists():
         shutil.rmtree(output_dir)
