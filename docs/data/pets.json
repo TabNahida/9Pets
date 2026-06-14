@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-14T20:04:15Z",
-  "total": 134,
+  "generatedAt": "2026-06-14T20:07:50Z",
+  "total": 135,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5102,6 +5102,44 @@
         "assets/spritesheets/9Pets-A-Knight-The-Evergreen-Soul.webp": "284f17a45b57622e",
         "assets/detail-spritesheets/9Pets-A-Knight-The-Evergreen-Soul.webp": "fd4752f6f380a514",
         "assets/source/9Pets-A-Knight-The-Evergreen-Soul.png": "4fe8e0b97c22d4e7"
+      }
+    },
+    {
+      "id": "9pets-aleph-infinitude",
+      "packageName": "9Pets-Aleph-Infinitude",
+      "displayName": "Aleph",
+      "skinDisplayName": "-- Infinitude",
+      "download": "downloads/9Pets-Aleph-Infinitude.zip",
+      "preview": "assets/previews/9Pets-Aleph-Infinitude.png",
+      "spritesheet": "assets/spritesheets/9Pets-Aleph-Infinitude.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Aleph-Infinitude.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/311302.png",
+      "sourceImage": "assets/source/9Pets-Aleph-Infinitude.png",
+      "sourceRepoPath": "singlebg/headicon_img/311302.png",
+      "assetId": "311302",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a6_311302_alf",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a6_311302_alf",
+      "cubismPath": "live2d/roles/v2a6_311302_alf",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a6_311302_alf",
+      "birthday": "2/28",
+      "skinName": "Infinitude",
+      "isDefaultSkin": false,
+      "skinDescription": "世界——自我的牢监。",
+      "matchedName": "Aleph",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Aleph is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 311302 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 678358,
+      "assetVersions": {
+        "downloads/9Pets-Aleph-Infinitude.zip": "baddd807d2725b6f",
+        "assets/previews/9Pets-Aleph-Infinitude.png": "3bf563f09a84934b",
+        "assets/spritesheets/9Pets-Aleph-Infinitude.webp": "4c8fc5f51846283e",
+        "assets/detail-spritesheets/9Pets-Aleph-Infinitude.webp": "dd91ef60beafeaef",
+        "assets/source/9Pets-Aleph-Infinitude.png": "4037706d102cb883"
       }
     }
   ],
