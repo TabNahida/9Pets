@@ -147,6 +147,7 @@ def page_qa(base_url: str, package_name: str, pet_id: str, skin_name: str) -> No
 def stage_and_commit(package_name: str, cubism_path: str, message: str) -> None:
     paths = [
         "PET_SKIN_BUILD_TODO.md",
+        "tools/build_pets_site.py",
         "docs/data/pets.json",
         "docs/data/pets-data.js",
         f"docs/assets/previews/{package_name}.png",
@@ -164,6 +165,7 @@ def stage_and_commit(package_name: str, cubism_path: str, message: str) -> None:
         for path in staged
         if not (
             path == "PET_SKIN_BUILD_TODO.md"
+            or path == "tools/build_pets_site.py"
             or path.startswith("docs/data/pets")
             or package_name in path
             or path.startswith(f"assets/source-cache/Reverse-1999-CN-Asset/{cubism_path}")

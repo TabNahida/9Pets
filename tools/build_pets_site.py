@@ -552,6 +552,14 @@ LIVE2D_RENDER_PROFILES: dict[str, dict[str, Any]] = {
             "running": "b_sisuo.motion3.json",
             "review": "b_diantou.motion3.json",
         },
+    },
+    "9Pets-37-Down-in-the-Grotto": {
+        "width": 2200,
+        "height": 2200,
+        "scale": 0.60,
+        "x": 1450,
+        "y": 900,
+        "detailAtlasScale": 4,
     }
 }
 
