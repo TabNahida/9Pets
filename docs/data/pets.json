@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-14T20:58:58Z",
-  "total": 139,
+  "generatedAt": "2026-06-14T21:12:41Z",
+  "total": 140,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5292,6 +5292,44 @@
         "assets/spritesheets/9Pets-An-an-Lee-Ghost-Predator-of-HK.webp": "2fe0c17be2f1c67f",
         "assets/detail-spritesheets/9Pets-An-an-Lee-Ghost-Predator-of-HK.webp": "0ee1915b2b5b9153",
         "assets/source/9Pets-An-an-Lee-Ghost-Predator-of-HK.png": "cd7a86ae52eb4aba"
+      }
+    },
+    {
+      "id": "9pets-anjo-nala-carefree-days",
+      "packageName": "9Pets-Anjo-Nala-Carefree-Days",
+      "displayName": "Anjo Nala",
+      "skinDisplayName": "-- Carefree Days",
+      "download": "downloads/9Pets-Anjo-Nala-Carefree-Days.zip",
+      "preview": "assets/previews/9Pets-Anjo-Nala-Carefree-Days.png",
+      "spritesheet": "assets/spritesheets/9Pets-Anjo-Nala-Carefree-Days.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Anjo-Nala-Carefree-Days.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/310002.png",
+      "sourceImage": "assets/source/9Pets-Anjo-Nala-Carefree-Days.png",
+      "sourceRepoPath": "singlebg/headicon_img/310002.png",
+      "assetId": "310002",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a2_310002_tsnn",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a2_310002_tsnn",
+      "cubismPath": "live2d/roles/v2a2_310002_anjonala",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a2_310002_anjonala",
+      "birthday": "4/5",
+      "skinName": "Carefree Days",
+      "isDefaultSkin": false,
+      "skinDescription": "惬意、慵懒、幸福。曾经的，过去的，不再复来的美好瞬间。",
+      "matchedName": "Anjo Nala",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Anjo Nala is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 310002 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1229715,
+      "assetVersions": {
+        "downloads/9Pets-Anjo-Nala-Carefree-Days.zip": "f23faa8bcce0dafd",
+        "assets/previews/9Pets-Anjo-Nala-Carefree-Days.png": "9aa966c9d21e682d",
+        "assets/spritesheets/9Pets-Anjo-Nala-Carefree-Days.webp": "d02195b85d690648",
+        "assets/detail-spritesheets/9Pets-Anjo-Nala-Carefree-Days.webp": "fc1c4fab75c408da",
+        "assets/source/9Pets-Anjo-Nala-Carefree-Days.png": "54dcb513364c6176"
       }
     }
   ],
