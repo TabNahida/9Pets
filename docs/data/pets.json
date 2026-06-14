@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-14T21:12:41Z",
-  "total": 140,
+  "generatedAt": "2026-06-14T21:51:12Z",
+  "total": 141,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5330,6 +5330,44 @@
         "assets/spritesheets/9Pets-Anjo-Nala-Carefree-Days.webp": "d02195b85d690648",
         "assets/detail-spritesheets/9Pets-Anjo-Nala-Carefree-Days.webp": "fc1c4fab75c408da",
         "assets/source/9Pets-Anjo-Nala-Carefree-Days.png": "54dcb513364c6176"
+      }
+    },
+    {
+      "id": "9pets-anjo-nala-forbidden-fruit",
+      "packageName": "9Pets-Anjo-Nala-Forbidden-Fruit",
+      "displayName": "Anjo Nala",
+      "skinDisplayName": "-- Forbidden Fruit",
+      "download": "downloads/9Pets-Anjo-Nala-Forbidden-Fruit.zip",
+      "preview": "assets/previews/9Pets-Anjo-Nala-Forbidden-Fruit.png",
+      "spritesheet": "assets/spritesheets/9Pets-Anjo-Nala-Forbidden-Fruit.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Anjo-Nala-Forbidden-Fruit.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/310003.png",
+      "sourceImage": "assets/source/9Pets-Anjo-Nala-Forbidden-Fruit.png",
+      "sourceRepoPath": "singlebg/headicon_img/310003.png",
+      "assetId": "310003",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a2_310003_tsnn",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a2_310003_tsnn",
+      "cubismPath": "live2d/roles/v3a2_310003_tsnn",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a2_310003_tsnn",
+      "birthday": "4/5",
+      "skinName": "Forbidden Fruit",
+      "isDefaultSkin": false,
+      "skinDescription": "他们将要审判一枚果实，因着他们自己的罪。",
+      "matchedName": "Anjo Nala",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Anjo Nala is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 310003 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1171099,
+      "assetVersions": {
+        "downloads/9Pets-Anjo-Nala-Forbidden-Fruit.zip": "e7cd231c8110bcd8",
+        "assets/previews/9Pets-Anjo-Nala-Forbidden-Fruit.png": "e92b312ac8bfa583",
+        "assets/spritesheets/9Pets-Anjo-Nala-Forbidden-Fruit.webp": "c0b52a04ffa92483",
+        "assets/detail-spritesheets/9Pets-Anjo-Nala-Forbidden-Fruit.webp": "d96f1dadb1291b73",
+        "assets/source/9Pets-Anjo-Nala-Forbidden-Fruit.png": "f598d29ef959f05e"
       }
     }
   ],
