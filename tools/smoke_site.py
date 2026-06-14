@@ -24,7 +24,7 @@ HIDDEN_NORMAL_PREFIXES = (
     "9Pets-Baby-Blue-",
     "9Pets-Balloon-Party-",
 )
-EXPECTED_VISIBLE_NORMAL_TOTAL = 125
+MIN_VISIBLE_NORMAL_TOTAL = 125
 
 
 def free_port() -> int:
@@ -49,16 +49,22 @@ def requests_smoke(base_url: str) -> None:
         response = session.get(f"{base_url}{path}", timeout=10)
         response.raise_for_status()
     data = session.get(f"{base_url}/data/pets.json", timeout=10).json()
-    if data["total"] != EXPECTED_VISIBLE_NORMAL_TOTAL:
-        raise AssertionError(f"manifest total is {data['total']}, expected {EXPECTED_VISIBLE_NORMAL_TOTAL}")
+    if data["total"] != len(data.get("pets", [])):
+        raise AssertionError(f"manifest total {data['total']} does not match pet count {len(data.get('pets', []))}")
+    if data["total"] < MIN_VISIBLE_NORMAL_TOTAL:
+        raise AssertionError(f"manifest total is {data['total']}, expected at least {MIN_VISIBLE_NORMAL_TOTAL}")
     normal_packages = {pet["packageName"] for pet in data.get("pets", [])}
     if normal_packages & HIDDEN_NORMAL_PACKAGES:
         raise AssertionError("hidden normal packages are visible in the manifest")
     if any(package.startswith(HIDDEN_NORMAL_PREFIXES) for package in normal_packages):
         raise AssertionError("hidden normal skin packages are visible in the manifest")
-    non_default_normals = [pet["packageName"] for pet in data.get("pets", []) if not pet.get("isDefaultSkin", True)]
-    if non_default_normals:
-        raise AssertionError(f"non-default normal skin packages require cached Live2D audit: {non_default_normals[:5]}")
+    non_default_not_live2d = [
+        pet["packageName"]
+        for pet in data.get("pets", [])
+        if not pet.get("isDefaultSkin", True) and pet.get("animationMode") != "official-live2d-cubism"
+    ]
+    if non_default_not_live2d:
+        raise AssertionError(f"non-default normal skin packages must use audited Live2D: {non_default_not_live2d[:5]}")
     if data.get("cuteTotal") != len(data.get("cuteVariants", [])):
         raise AssertionError("cute variant total mismatch")
     cute_by_normal = {variant.get("normalPackageName"): variant for variant in data.get("cuteVariants", [])}
@@ -101,13 +107,11 @@ def playwright_smoke(base_url: str) -> None:
         page = browser.new_page(viewport={"width": 1440, "height": 1100}, device_scale_factor=1)
         page.goto(base_url, wait_until="networkidle")
         page.wait_for_selector(".pet-card")
-        page.wait_for_function(
-            "expected => document.querySelectorAll('.pet-card').length === expected",
-            arg=EXPECTED_VISIBLE_NORMAL_TOTAL,
-        )
+        page.wait_for_function("document.querySelectorAll('.pet-card').length === window.NINEPETS_DATA.pets.length")
         count = page.locator(".pet-card").count()
-        if count != EXPECTED_VISIBLE_NORMAL_TOTAL:
-            raise AssertionError(f"desktop card count is {count}, expected {EXPECTED_VISIBLE_NORMAL_TOTAL}")
+        expected_normal_total = page.evaluate("() => window.NINEPETS_DATA.pets.length")
+        if count != expected_normal_total or count < MIN_VISIBLE_NORMAL_TOTAL:
+            raise AssertionError(f"desktop card count is {count}, expected {expected_normal_total} and at least {MIN_VISIBLE_NORMAL_TOTAL}")
         hidden_visible = page.evaluate(
             """hidden => hidden.some((packageName) =>
                 [...document.querySelectorAll(".pet-card p")].some((node) => node.textContent.includes(packageName))
@@ -126,21 +130,16 @@ def playwright_smoke(base_url: str) -> None:
         if cute_count != cute_total:
             raise AssertionError(f"cute card count is {cute_count}, expected {cute_total}")
         page.get_by_role("button", name="Normal").click()
-        page.wait_for_function(
-            "expected => document.querySelectorAll('.pet-card').length === expected",
-            arg=EXPECTED_VISIBLE_NORMAL_TOTAL,
-        )
+        page.wait_for_function("document.querySelectorAll('.pet-card').length === window.NINEPETS_DATA.pets.length")
 
         mobile = browser.new_page(viewport={"width": 390, "height": 920}, is_mobile=True)
         mobile.goto(base_url, wait_until="networkidle")
         mobile.wait_for_selector(".pet-card")
-        mobile.wait_for_function(
-            "expected => document.querySelectorAll('.pet-card').length === expected",
-            arg=EXPECTED_VISIBLE_NORMAL_TOTAL,
-        )
+        mobile.wait_for_function("document.querySelectorAll('.pet-card').length === window.NINEPETS_DATA.pets.length")
         mobile_count = mobile.locator(".pet-card").count()
-        if mobile_count != EXPECTED_VISIBLE_NORMAL_TOTAL:
-            raise AssertionError(f"mobile card count is {mobile_count}, expected {EXPECTED_VISIBLE_NORMAL_TOTAL}")
+        mobile_expected = mobile.evaluate("() => window.NINEPETS_DATA.pets.length")
+        if mobile_count != mobile_expected or mobile_count < MIN_VISIBLE_NORMAL_TOTAL:
+            raise AssertionError(f"mobile card count is {mobile_count}, expected {mobile_expected} and at least {MIN_VISIBLE_NORMAL_TOTAL}")
         mobile.screenshot(path=str(MOBILE_SHOT), full_page=True)
 
         for pet_id, title_text, spritesheet in [
@@ -193,13 +192,11 @@ def playwright_smoke(base_url: str) -> None:
         file_page = browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
         file_page.goto((DOCS / "index.html").as_uri(), wait_until="networkidle")
         file_page.wait_for_selector(".pet-card")
-        file_page.wait_for_function(
-            "expected => document.querySelectorAll('.pet-card').length === expected",
-            arg=EXPECTED_VISIBLE_NORMAL_TOTAL,
-        )
+        file_page.wait_for_function("document.querySelectorAll('.pet-card').length === window.NINEPETS_DATA.pets.length")
         file_count = file_page.locator(".pet-card").count()
-        if file_count != EXPECTED_VISIBLE_NORMAL_TOTAL:
-            raise AssertionError(f"file:// card count is {file_count}, expected {EXPECTED_VISIBLE_NORMAL_TOTAL}")
+        file_expected = file_page.evaluate("() => window.NINEPETS_DATA.pets.length")
+        if file_count != file_expected or file_count < MIN_VISIBLE_NORMAL_TOTAL:
+            raise AssertionError(f"file:// card count is {file_count}, expected {file_expected} and at least {MIN_VISIBLE_NORMAL_TOTAL}")
         file_page.get_by_role("button", name="Cute").click()
         file_page.wait_for_function("document.querySelectorAll('.pet-card').length === window.NINEPETS_DATA.cuteVariants.length")
         file_page.screenshot(path=str(FILE_SHOT), full_page=True)

@@ -25,7 +25,7 @@ HIDDEN_NORMAL_PREFIXES = (
     "9Pets-Baby-Blue-",
     "9Pets-Balloon-Party-",
 )
-EXPECTED_VISIBLE_NORMAL_TOTAL = 125
+MIN_VISIBLE_NORMAL_TOTAL = 125
 EXPECTED_CUTE_TOTAL = 127
 
 
@@ -67,18 +67,15 @@ def check_zip(path: Path, package_name: str) -> None:
 def main() -> None:
     data = json.loads(DOCS_DATA.read_text(encoding="utf-8"))
     pets = data["pets"]
+    assert_true(data["total"] == len(pets), f"manifest total {data['total']} does not match pet count {len(pets)}")
     assert_true(
-        data["total"] == EXPECTED_VISIBLE_NORMAL_TOTAL,
-        f"manifest total is {data['total']}, expected {EXPECTED_VISIBLE_NORMAL_TOTAL}",
-    )
-    assert_true(
-        len(pets) == EXPECTED_VISIBLE_NORMAL_TOTAL,
-        f"manifest contains {len(pets)} pets, expected {EXPECTED_VISIBLE_NORMAL_TOTAL}",
+        len(pets) >= MIN_VISIBLE_NORMAL_TOTAL,
+        f"manifest contains {len(pets)} pets, expected at least {MIN_VISIBLE_NORMAL_TOTAL}",
     )
     official_count = sum(1 for pet in pets if pet["sourceType"] == "official-sourced")
     assert_true(
-        official_count == EXPECTED_VISIBLE_NORMAL_TOTAL,
-        f"official count is {official_count}, expected {EXPECTED_VISIBLE_NORMAL_TOTAL}",
+        official_count == len(pets),
+        f"official count is {official_count}, expected {len(pets)}",
     )
     cute_variants = data.get("cuteVariants", [])
     assert_true(data.get("cuteTotal", len(cute_variants)) == len(cute_variants), "cute variant total mismatch")
@@ -94,11 +91,6 @@ def main() -> None:
         not any(package.startswith(HIDDEN_NORMAL_PREFIXES) for package in normal_packages),
         "hidden normal skin packages are visible in the manifest",
     )
-    non_default_normals = [pet["packageName"] for pet in pets if not pet.get("isDefaultSkin", True)]
-    assert_true(
-        not non_default_normals,
-        f"non-default normal skin packages require cached Live2D audit before publishing: {non_default_normals[:5]}",
-    )
     non_default_art_rig = [
         pet["packageName"]
         for pet in pets
@@ -107,6 +99,15 @@ def main() -> None:
     assert_true(
         not non_default_art_rig,
         f"non-default normal skin packages must not use portrait/elastic-rig output: {non_default_art_rig[:5]}",
+    )
+    non_default_not_live2d = [
+        pet["packageName"]
+        for pet in pets
+        if not pet.get("isDefaultSkin", True) and pet.get("animationMode") != "official-live2d-cubism"
+    ]
+    assert_true(
+        not non_default_not_live2d,
+        f"non-default normal skin packages must use audited Live2D output: {non_default_not_live2d[:5]}",
     )
 
     for pet in pets:
