@@ -45,7 +45,24 @@ def compact_white_blocks(path: Path) -> list[tuple[int, tuple[int, int, int, int
         height = bbox[3] - bbox[1]
         fill = area / (width * height)
         squareish = 0.65 <= width / height <= 1.55
-        if 8 <= area <= 500 and 3 <= width <= 30 and 3 <= height <= 30 and fill > 0.75 and squareish:
+        pad = max(4, round(max(width, height) * 0.75))
+        outer = (
+            max(0, bbox[0] - pad),
+            max(0, bbox[1] - pad),
+            min(image.width, bbox[2] + pad),
+            min(image.height, bbox[3] + pad),
+        )
+        ring_area = 0
+        ring_visible = 0
+        for ring_y in range(outer[1], outer[3]):
+            for ring_x in range(outer[0], outer[2]):
+                if bbox[0] <= ring_x < bbox[2] and bbox[1] <= ring_y < bbox[3]:
+                    continue
+                ring_area += 1
+                if pixels[ring_x, ring_y][3] > 32:
+                    ring_visible += 1
+        isolated = ring_area > 0 and ring_visible / ring_area < 0.16
+        if 8 <= area <= 500 and 3 <= width <= 30 and 3 <= height <= 30 and fill > 0.75 and squareish and isolated:
             blocks.append((area, bbox, fill))
     return sorted(blocks, reverse=True)
 
