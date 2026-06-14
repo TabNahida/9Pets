@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-14T21:51:12Z",
-  "total": 141,
+  "generatedAt": "2026-06-14T22:43:23Z",
+  "total": 142,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5368,6 +5368,44 @@
         "assets/spritesheets/9Pets-Anjo-Nala-Forbidden-Fruit.webp": "c0b52a04ffa92483",
         "assets/detail-spritesheets/9Pets-Anjo-Nala-Forbidden-Fruit.webp": "d96f1dadb1291b73",
         "assets/source/9Pets-Anjo-Nala-Forbidden-Fruit.png": "f598d29ef959f05e"
+      }
+    },
+    {
+      "id": "9pets-argus-all-seeing-light",
+      "packageName": "9Pets-Argus-All-Seeing-Light",
+      "displayName": "Argus",
+      "skinDisplayName": "-- All Seeing Light",
+      "download": "downloads/9Pets-Argus-All-Seeing-Light.zip",
+      "preview": "assets/previews/9Pets-Argus-All-Seeing-Light.png",
+      "spritesheet": "assets/spritesheets/9Pets-Argus-All-Seeing-Light.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Argus-All-Seeing-Light.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/309702.png",
+      "sourceImage": "assets/source/9Pets-Argus-All-Seeing-Light.png",
+      "sourceRepoPath": "singlebg/headicon_img/309702.png",
+      "assetId": "309702",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a1_309702_aegs",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a1_309702_aegs",
+      "cubismPath": "live2d/roles/v2a1_309702_aegs",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a1_309702_aegs",
+      "birthday": "12/11",
+      "skinName": "All Seeing Light",
+      "isDefaultSkin": false,
+      "skinDescription": "最盲目与最明亮的。",
+      "matchedName": "Argus",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Argus is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 309702 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1047239,
+      "assetVersions": {
+        "downloads/9Pets-Argus-All-Seeing-Light.zip": "946447e55d0e472d",
+        "assets/previews/9Pets-Argus-All-Seeing-Light.png": "53b3ea3cd99ace32",
+        "assets/spritesheets/9Pets-Argus-All-Seeing-Light.webp": "8d6aa39cebdf36e8",
+        "assets/detail-spritesheets/9Pets-Argus-All-Seeing-Light.webp": "b5cf7da18146cb2d",
+        "assets/source/9Pets-Argus-All-Seeing-Light.png": "2a0fb836573aa338"
       }
     }
   ],
