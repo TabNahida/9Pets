@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-14T20:07:50Z",
-  "total": 135,
+  "generatedAt": "2026-06-14T20:11:20Z",
+  "total": 136,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5102,6 +5102,44 @@
         "assets/spritesheets/9Pets-A-Knight-The-Evergreen-Soul.webp": "284f17a45b57622e",
         "assets/detail-spritesheets/9Pets-A-Knight-The-Evergreen-Soul.webp": "fd4752f6f380a514",
         "assets/source/9Pets-A-Knight-The-Evergreen-Soul.png": "4fe8e0b97c22d4e7"
+      }
+    },
+    {
+      "id": "9pets-aleph-a-feast-of-imagery",
+      "packageName": "9Pets-Aleph-A-Feast-of-Imagery",
+      "displayName": "Aleph",
+      "skinDisplayName": "-- A Feast of Imagery",
+      "download": "downloads/9Pets-Aleph-A-Feast-of-Imagery.zip",
+      "preview": "assets/previews/9Pets-Aleph-A-Feast-of-Imagery.png",
+      "spritesheet": "assets/spritesheets/9Pets-Aleph-A-Feast-of-Imagery.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Aleph-A-Feast-of-Imagery.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/311303.png",
+      "sourceImage": "assets/source/9Pets-Aleph-A-Feast-of-Imagery.png",
+      "sourceRepoPath": "singlebg/headicon_img/311303.png",
+      "assetId": "311303",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a1_311303_alf",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a1_311303_alf",
+      "cubismPath": "live2d/roles/v3a1_311303_alf",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a1_311303_alf",
+      "birthday": "2/28",
+      "skinName": "A Feast of Imagery",
+      "isDefaultSkin": false,
+      "skinDescription": "已死的、濒死的、神经质的、癫狂的……他的创作。",
+      "matchedName": "Aleph",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Aleph is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 311303 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 910969,
+      "assetVersions": {
+        "downloads/9Pets-Aleph-A-Feast-of-Imagery.zip": "cd07ba8ac6d7905d",
+        "assets/previews/9Pets-Aleph-A-Feast-of-Imagery.png": "29de3a377cc6e176",
+        "assets/spritesheets/9Pets-Aleph-A-Feast-of-Imagery.webp": "cc307464356c7f06",
+        "assets/detail-spritesheets/9Pets-Aleph-A-Feast-of-Imagery.webp": "b77476bffad85def",
+        "assets/source/9Pets-Aleph-A-Feast-of-Imagery.png": "bb71a5f8c9eca19f"
       }
     },
     {
