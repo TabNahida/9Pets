@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-14T20:14:53Z",
-  "total": 137,
+  "generatedAt": "2026-06-14T20:18:43Z",
+  "total": 138,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5216,6 +5216,44 @@
         "assets/spritesheets/9Pets-Alexios-Second-Conquest.webp": "93b0df2f3877d4d3",
         "assets/detail-spritesheets/9Pets-Alexios-Second-Conquest.webp": "305a9e462d670e7c",
         "assets/source/9Pets-Alexios-Second-Conquest.png": "f82a08f873f0b6ab"
+      }
+    },
+    {
+      "id": "9pets-an-an-lee-ghost-predator-of-hk",
+      "packageName": "9Pets-An-an-Lee-Ghost-Predator-of-HK",
+      "displayName": "An-an Lee",
+      "skinDisplayName": "-- Ghost Predator of HK",
+      "download": "downloads/9Pets-An-an-Lee-Ghost-Predator-of-HK.zip",
+      "preview": "assets/previews/9Pets-An-an-Lee-Ghost-Predator-of-HK.png",
+      "spritesheet": "assets/spritesheets/9Pets-An-an-Lee-Ghost-Predator-of-HK.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-An-an-Lee-Ghost-Predator-of-HK.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/303902.png",
+      "sourceImage": "assets/source/9Pets-An-an-Lee-Ghost-Predator-of-HK.png",
+      "sourceRepoPath": "singlebg/headicon_img/303902.png",
+      "assetId": "303902",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/303902_nimengdishi",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/303902_nimengdishi",
+      "cubismPath": "live2d/roles/303902_nimengdishi",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/303902_nimengdishi",
+      "birthday": "7/27",
+      "skinName": "Ghost Predator of HK",
+      "isDefaultSkin": false,
+      "skinDescription": "迷途知返，方为上上良策。",
+      "matchedName": "An-an Lee",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "An-an Lee is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 303902 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1252056,
+      "assetVersions": {
+        "downloads/9Pets-An-an-Lee-Ghost-Predator-of-HK.zip": "bf4e210b3052f60d",
+        "assets/previews/9Pets-An-an-Lee-Ghost-Predator-of-HK.png": "324fb79b99e84be9",
+        "assets/spritesheets/9Pets-An-an-Lee-Ghost-Predator-of-HK.webp": "2fe0c17be2f1c67f",
+        "assets/detail-spritesheets/9Pets-An-an-Lee-Ghost-Predator-of-HK.webp": "0ee1915b2b5b9153",
+        "assets/source/9Pets-An-an-Lee-Ghost-Predator-of-HK.png": "cd7a86ae52eb4aba"
       }
     }
   ],
