@@ -1,10 +1,17 @@
 from __future__ import annotations
 
+import tempfile
 import unittest
+from pathlib import Path
 
 from PIL import Image
 
-from tools.build_pets_site import LIVE2D_RENDER_PROFILES, remove_compact_white_block_artifacts
+from tools.build_pets_site import (
+    LIVE2D_RENDER_PROFILES,
+    STATE_ROWS,
+    make_atlas_from_live2d_frames,
+    remove_compact_white_block_artifacts,
+)
 
 
 class Live2DArtifactCleanupTest(unittest.TestCase):
@@ -47,6 +54,23 @@ class Live2DArtifactCleanupTest(unittest.TestCase):
         for package_name, hidden in expected.items():
             with self.subTest(package_name=package_name):
                 self.assertEqual(hidden, LIVE2D_RENDER_PROFILES[package_name]["hiddenDrawables"])
+
+    def test_live2d_atlas_generation_applies_white_block_cleanup(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            frames_root = Path(temp_dir) / "9Pets-37-A-Prime-Number"
+            for state, frame_count in STATE_ROWS:
+                state_dir = frames_root / state
+                state_dir.mkdir(parents=True)
+                for index in range(frame_count):
+                    frame = Image.new("RGBA", (240, 240), (0, 0, 0, 0))
+                    for y in range(80, 100):
+                        for x in range(90, 110):
+                            frame.putpixel((x, y), (255, 255, 255, 255))
+                    frame.save(state_dir / f"{index:02d}.png")
+
+            atlas = make_atlas_from_live2d_frames(frames_root)
+
+        self.assertIsNone(atlas.getchannel("A").getbbox())
 
 
 if __name__ == "__main__":

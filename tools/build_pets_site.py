@@ -2661,6 +2661,7 @@ def make_atlas_from_live2d_frames(frames_root: Path, cell_scale: int = 1) -> Ima
                 cell_w=cell_w,
                 cell_h=cell_h,
             )
+            cell = remove_compact_white_block_artifacts(cell, package_name)
             atlas.alpha_composite(cell, (col * cell_w, row * cell_h))
     return atlas
 

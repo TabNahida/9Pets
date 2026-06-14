@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T20:22:12Z",
+  "generatedAt": "2026-06-14T20:58:58Z",
   "total": 139,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -4791,12 +4791,12 @@
       "animationMode": "official-live2d-cubism",
       "animationModeLabel": "Official Live2D Cubism motion capture",
       "characterSummary": "37 is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 306605 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
-      "packageBytes": 1634308,
+      "packageBytes": 1666659,
       "assetVersions": {
-        "downloads/9Pets-37-A-Gift-of-Nourishment.zip": "9659922ba4044b1c",
-        "assets/previews/9Pets-37-A-Gift-of-Nourishment.png": "7cc049727f2f5b61",
-        "assets/spritesheets/9Pets-37-A-Gift-of-Nourishment.webp": "4f05b54546bcacbf",
-        "assets/detail-spritesheets/9Pets-37-A-Gift-of-Nourishment.webp": "b6ab3f7a1d97d8a4",
+        "downloads/9Pets-37-A-Gift-of-Nourishment.zip": "a646354a23192f97",
+        "assets/previews/9Pets-37-A-Gift-of-Nourishment.png": "49ee02836acfad33",
+        "assets/spritesheets/9Pets-37-A-Gift-of-Nourishment.webp": "c0b17c08b2bf2c3d",
+        "assets/detail-spritesheets/9Pets-37-A-Gift-of-Nourishment.webp": "dfaa7684728a38e1",
         "assets/source/9Pets-37-A-Gift-of-Nourishment.png": "45a019fd8897b6be"
       }
     },
@@ -4829,12 +4829,12 @@
       "animationMode": "official-live2d-cubism",
       "animationModeLabel": "Official Live2D Cubism motion capture",
       "characterSummary": "37 is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 306602 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
-      "packageBytes": 1426451,
+      "packageBytes": 1436998,
       "assetVersions": {
-        "downloads/9Pets-37-A-Prime-Number.zip": "e40f878758f7c240",
-        "assets/previews/9Pets-37-A-Prime-Number.png": "f04a624ee4125746",
-        "assets/spritesheets/9Pets-37-A-Prime-Number.webp": "4c90501bfbe0c61e",
-        "assets/detail-spritesheets/9Pets-37-A-Prime-Number.webp": "ac185f9933784ab7",
+        "downloads/9Pets-37-A-Prime-Number.zip": "cae09223cabd4e1c",
+        "assets/previews/9Pets-37-A-Prime-Number.png": "38962cbd0f5e8298",
+        "assets/spritesheets/9Pets-37-A-Prime-Number.webp": "cf09b44f2aff4d4a",
+        "assets/detail-spritesheets/9Pets-37-A-Prime-Number.webp": "563069d22e3bea7e",
         "assets/source/9Pets-37-A-Prime-Number.png": "2e2e2002196f0815"
       }
     },
@@ -4867,12 +4867,12 @@
       "animationMode": "official-live2d-cubism",
       "animationModeLabel": "Official Live2D Cubism motion capture",
       "characterSummary": "37 is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 306604 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
-      "packageBytes": 1134361,
+      "packageBytes": 1302745,
       "assetVersions": {
-        "downloads/9Pets-37-Down-in-the-Grotto.zip": "ee3f256e46b1e60e",
-        "assets/previews/9Pets-37-Down-in-the-Grotto.png": "b46e0fc019abdff6",
-        "assets/spritesheets/9Pets-37-Down-in-the-Grotto.webp": "aaec6ef7aae30210",
-        "assets/detail-spritesheets/9Pets-37-Down-in-the-Grotto.webp": "14b1567f1bf3cde1",
+        "downloads/9Pets-37-Down-in-the-Grotto.zip": "c3a2ae16be68a04c",
+        "assets/previews/9Pets-37-Down-in-the-Grotto.png": "96dcec5df62aef17",
+        "assets/spritesheets/9Pets-37-Down-in-the-Grotto.webp": "9862fdffa114eef1",
+        "assets/detail-spritesheets/9Pets-37-Down-in-the-Grotto.webp": "d1e31c2ea48d5b07",
         "assets/source/9Pets-37-Down-in-the-Grotto.png": "598924567fcbb52d"
       }
     },
@@ -4905,12 +4905,12 @@
       "animationMode": "official-live2d-cubism",
       "animationModeLabel": "Official Live2D Cubism motion capture",
       "characterSummary": "37 is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 306603 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
-      "packageBytes": 1663944,
+      "packageBytes": 1672344,
       "assetVersions": {
-        "downloads/9Pets-37-Happy-Bird-Catcher.zip": "2bac77983c4626c9",
-        "assets/previews/9Pets-37-Happy-Bird-Catcher.png": "79e4a9b3e51e5c10",
-        "assets/spritesheets/9Pets-37-Happy-Bird-Catcher.webp": "c4bbb8ee47ac7073",
-        "assets/detail-spritesheets/9Pets-37-Happy-Bird-Catcher.webp": "5d0761da0a5b51ed",
+        "downloads/9Pets-37-Happy-Bird-Catcher.zip": "75e9aa15e281b71e",
+        "assets/previews/9Pets-37-Happy-Bird-Catcher.png": "7aa4a8a4ebfc7bec",
+        "assets/spritesheets/9Pets-37-Happy-Bird-Catcher.webp": "88c2cbcd5d994236",
+        "assets/detail-spritesheets/9Pets-37-Happy-Bird-Catcher.webp": "8f0a71fb675c4146",
         "assets/source/9Pets-37-Happy-Bird-Catcher.png": "ea14cb3f05e5887e"
       }
     },
