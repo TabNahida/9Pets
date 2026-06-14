@@ -84,6 +84,22 @@ function catalogUrlFor(pet) {
   return pet.variantType === "cute" ? "index.html?variant=cute#catalog" : "index.html#catalog";
 }
 
+function isLocalAssetUrl(url) {
+  return Boolean(url) && !/^(?:[a-z][a-z\d+\-.]*:|#|\/\/)/i.test(String(url));
+}
+
+function versionedAssetUrl(url, data, pet) {
+  if (!isLocalAssetUrl(url)) return url;
+  const version = [data.generatedAt, pet.packageBytes].filter(Boolean).join("-");
+  if (!version) return url;
+  const value = String(url);
+  const hashIndex = value.indexOf("#");
+  const base = hashIndex >= 0 ? value.slice(0, hashIndex) : value;
+  const hash = hashIndex >= 0 ? value.slice(hashIndex) : "";
+  const separator = base.includes("?") ? "&" : "?";
+  return `${base}${separator}v=${encodeURIComponent(version)}${hash}`;
+}
+
 function setState(state) {
   els.sprite.style.setProperty("--row-y", `${-state.row * atlasCellH}px`);
   els.sprite.style.setProperty("--frames", state.frames);
@@ -99,14 +115,15 @@ function setState(state) {
   }
 }
 
-function configureSprite(pet) {
+function configureSprite(data, pet) {
   const atlasScale = Math.max(1, Number(pet.detailAtlasScale) || 1);
+  const spriteUrl = versionedAssetUrl(pet.detailSpritesheet || pet.spritesheet, data, pet);
   atlasCellW = CELL_W * atlasScale;
   atlasCellH = CELL_H * atlasScale;
   els.sprite.style.width = `${atlasCellW}px`;
   els.sprite.style.height = `${atlasCellH}px`;
   els.sprite.style.backgroundSize = `${atlasCellW * COLS}px ${atlasCellH * ROWS}px`;
-  els.sprite.style.backgroundImage = `url("${pet.detailSpritesheet || pet.spritesheet}")`;
+  els.sprite.style.backgroundImage = `url("${spriteUrl}")`;
   els.sprite.style.setProperty("--sprite-scale", (2.05 / atlasScale).toFixed(3));
   els.sprite.style.setProperty("--sprite-mobile-scale", (1.45 / atlasScale).toFixed(3));
 }
@@ -183,12 +200,12 @@ function renderPet(data, pet) {
     link.href = catalogUrl;
   }
   renderVariantSwitch(data, pet);
-  configureSprite(pet);
-  els.download.href = pet.download;
+  configureSprite(data, pet);
+  els.download.href = versionedAssetUrl(pet.download, data, pet);
   els.download.download = `${pet.packageName}.zip`;
-  els.spritesheet.href = pet.spritesheet;
-  els.source.href = pet.sourceImage || pet.sourceUrl || "#";
-  els.sourceImage.src = pet.sourceImage || pet.preview;
+  els.spritesheet.href = versionedAssetUrl(pet.spritesheet, data, pet);
+  els.source.href = versionedAssetUrl(pet.sourceImage || pet.sourceUrl || "#", data, pet);
+  els.sourceImage.src = versionedAssetUrl(pet.sourceImage || pet.preview, data, pet);
   els.sourceImage.alt = `${pet.displayName} source art`;
 
   addInfo("Package", pet.packageName);

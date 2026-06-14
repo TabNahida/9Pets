@@ -10,6 +10,7 @@ const state = {
   variantMode: readVariantMode(),
   search: "",
   renderToken: 0,
+  assetVersion: "",
 };
 
 const els = {
@@ -45,6 +46,22 @@ function variantLabel(pet) {
 
 function petUrl(pet) {
   return `pet.html?id=${encodeURIComponent(pet.id)}`;
+}
+
+function isLocalAssetUrl(url) {
+  return Boolean(url) && !/^(?:[a-z][a-z\d+\-.]*:|#|\/\/)/i.test(String(url));
+}
+
+function versionedAssetUrl(url, pet) {
+  if (!isLocalAssetUrl(url)) return url;
+  const version = [state.assetVersion, pet.packageBytes].filter(Boolean).join("-");
+  if (!version) return url;
+  const value = String(url);
+  const hashIndex = value.indexOf("#");
+  const base = hashIndex >= 0 ? value.slice(0, hashIndex) : value;
+  const hash = hashIndex >= 0 ? value.slice(hashIndex) : "";
+  const separator = base.includes("?") ? "&" : "?";
+  return `${base}${separator}v=${encodeURIComponent(version)}${hash}`;
 }
 
 function syncVariantButtons() {
@@ -126,7 +143,7 @@ function renderGrid() {
       card.tabIndex = 0;
       card.setAttribute("role", "link");
       card.setAttribute("aria-label", `Open ${pet.displayName}`);
-      preview.src = pet.preview;
+      preview.src = versionedAssetUrl(pet.preview, pet);
       preview.alt = `${pet.displayName} pet preview`;
       title.textContent = pet.displayName;
       skin.textContent = pet.skinDisplayName || "";
@@ -136,7 +153,7 @@ function renderGrid() {
       badge.classList.toggle("cute", pet.variantType === "cute");
       details.href = detailsUrl;
       details.setAttribute("aria-label", `Open ${pet.displayName}`);
-      download.href = pet.download;
+      download.href = versionedAssetUrl(pet.download, pet);
       download.download = `${pet.packageName}.zip`;
       download.setAttribute("aria-label", `Download ${pet.packageName}`);
       card.addEventListener("click", (event) => {
@@ -199,6 +216,7 @@ async function init() {
       data = await response.json();
     }
     if (!Array.isArray(data.pets)) throw new Error("Catalog data is missing pets.");
+    state.assetVersion = data.generatedAt || "";
     state.pets = data.pets;
     state.cuteVariants = Array.isArray(data.cuteVariants) ? data.cuteVariants : [];
     syncVariantButtons();

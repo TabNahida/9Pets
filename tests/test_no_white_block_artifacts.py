@@ -15,7 +15,15 @@ REGRESSION_PACKAGES = [
 ]
 
 
-def compact_white_blocks(path: Path) -> list[tuple[int, tuple[int, int, int, int], float]]:
+def compact_white_blocks(
+    path: Path,
+    *,
+    min_area: int = 8,
+    max_area: int = 500,
+    min_edge: int = 3,
+    max_edge: int = 30,
+    require_isolated: bool = True,
+) -> list[tuple[int, tuple[int, int, int, int], float]]:
     image = Image.open(path).convert("RGBA")
     pixels = image.load()
     candidates: set[tuple[int, int]] = set()
@@ -62,7 +70,14 @@ def compact_white_blocks(path: Path) -> list[tuple[int, tuple[int, int, int, int
                 if pixels[ring_x, ring_y][3] > 32:
                     ring_visible += 1
         isolated = ring_area > 0 and ring_visible / ring_area < 0.16
-        if 8 <= area <= 500 and 3 <= width <= 30 and 3 <= height <= 30 and fill > 0.75 and squareish and isolated:
+        if (
+            min_area <= area <= max_area
+            and min_edge <= width <= max_edge
+            and min_edge <= height <= max_edge
+            and fill > 0.75
+            and squareish
+            and (isolated or not require_isolated)
+        ):
             blocks.append((area, bbox, fill))
     return sorted(blocks, reverse=True)
 
@@ -73,6 +88,20 @@ class WhiteBlockArtifactTest(unittest.TestCase):
             with self.subTest(package_name=package_name):
                 path = ROOT / "pets" / package_name / "spritesheet.webp"
                 blocks = compact_white_blocks(path)
+                self.assertEqual([], blocks[:10])
+
+    def test_37_skin_detail_spritesheets_do_not_have_scaled_white_block_artifacts(self) -> None:
+        for package_name in REGRESSION_PACKAGES:
+            with self.subTest(package_name=package_name):
+                path = ROOT / "docs" / "assets" / "detail-spritesheets" / f"{package_name}.webp"
+                blocks = compact_white_blocks(
+                    path,
+                    min_area=300,
+                    max_area=8000,
+                    min_edge=16,
+                    max_edge=140,
+                    require_isolated=False,
+                )
                 self.assertEqual([], blocks[:10])
 
 
