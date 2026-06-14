@@ -47,10 +47,15 @@ def start_server() -> tuple[http.server.ThreadingHTTPServer, int]:
 def requests_smoke(base_url: str) -> None:
     session = requests.Session()
     session.trust_env = False
-    for path in ["/", "/styles.css", "/app.js", "/data/pets.json"]:
+    for path in ["/", "/styles.css", "/app.js", "/pet.js", "/data/pets.json"]:
         response = session.get(f"{base_url}{path}", timeout=10)
         response.raise_for_status()
     expected_data_fingerprint = hashlib.sha256((DOCS / "data" / "pets-data.js").read_bytes()).hexdigest()[:16]
+    expected_entrypoint_fingerprints = {
+        "styles.css": hashlib.sha256((DOCS / "styles.css").read_bytes()).hexdigest()[:16],
+        "app.js": hashlib.sha256((DOCS / "app.js").read_bytes()).hexdigest()[:16],
+        "pet.js": hashlib.sha256((DOCS / "pet.js").read_bytes()).hexdigest()[:16],
+    }
     for path in ["/", "/pet.html?id=9pets-37-happy-bird-catcher"]:
         html = session.get(f"{base_url}{path}", timeout=10).text
         match = re.search(r'src="data/pets-data\.js\?v=([0-9a-f]{16})"', html)
@@ -58,6 +63,17 @@ def requests_smoke(base_url: str) -> None:
             raise AssertionError(f"{path} loads pets-data.js without an asset fingerprint")
         if match.group(1) != expected_data_fingerprint:
             raise AssertionError(f"{path} pets-data.js fingerprint is stale")
+        for asset, expected_fingerprint in expected_entrypoint_fingerprints.items():
+            if path == "/" and asset == "pet.js":
+                continue
+            if path != "/" and asset == "app.js":
+                continue
+            pattern = rf'(?:href|src)="{re.escape(asset)}\?v=([0-9a-f]{{16}})"'
+            asset_match = re.search(pattern, html)
+            if not asset_match:
+                raise AssertionError(f"{path} loads {asset} without an asset fingerprint")
+            if asset_match.group(1) != expected_fingerprint:
+                raise AssertionError(f"{path} {asset} fingerprint is stale")
     data = session.get(f"{base_url}/data/pets.json", timeout=10).json()
     if data["total"] != len(data.get("pets", [])):
         raise AssertionError(f"manifest total {data['total']} does not match pet count {len(data.get('pets', []))}")

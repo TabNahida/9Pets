@@ -3432,19 +3432,29 @@ def write_site_data(site_data: dict[str, Any]) -> None:
     data_js = "window.NINEPETS_DATA = " + json.dumps(site_data, ensure_ascii=False) + ";\n"
     data_script = DATA_DIR / "pets-data.js"
     data_script.write_text(data_js, encoding="utf-8")
-    update_entrypoint_data_script_fingerprint(data_script)
+    update_entrypoint_asset_fingerprints()
 
 
-def update_entrypoint_data_script_fingerprint(data_script: Path) -> None:
-    fingerprint = hashlib.sha256(data_script.read_bytes()).hexdigest()[:16]
-    replacement = f'src="data/pets-data.js?v={fingerprint}"'
-    pattern = re.compile(r'src="data/pets-data\.js(?:\?v=[0-9a-f]+)?"')
+def update_entrypoint_asset_fingerprints() -> None:
+    assets = {
+        "styles.css": DOCS_DIR / "styles.css",
+        "app.js": DOCS_DIR / "app.js",
+        "pet.js": DOCS_DIR / "pet.js",
+        "data/pets-data.js": DATA_DIR / "pets-data.js",
+    }
     for entrypoint in (DOCS_DIR / "index.html", DOCS_DIR / "pet.html"):
         if not entrypoint.exists():
             continue
         html = entrypoint.read_text(encoding="utf-8")
-        updated, count = pattern.subn(replacement, html)
-        if count:
+        updated = html
+        for asset, asset_path in assets.items():
+            if not asset_path.exists():
+                continue
+            fingerprint = hashlib.sha256(asset_path.read_bytes()).hexdigest()[:16]
+            escaped = re.escape(asset)
+            pattern = re.compile(rf'(?P<attr>href|src)="{escaped}(?:\?v=[0-9a-f]+)?"')
+            updated = pattern.sub(rf'\g<attr>="{asset}?v={fingerprint}"', updated)
+        if updated != html:
             entrypoint.write_text(updated, encoding="utf-8")
 
 
