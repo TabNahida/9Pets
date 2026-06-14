@@ -66,6 +66,11 @@ HIDDEN_NORMAL_PACKAGES = {
     "9Pets-Balloon-Party-Default",
 }
 NORMAL_SPINE_OVERRIDE_PACKAGES: set[str] = set()
+LIVE2D_WHITE_BLOCK_ARTIFACT_PACKAGES = {
+    "9Pets-37-A-Prime-Number",
+    "9Pets-37-Happy-Bird-Catcher",
+    "9Pets-37-Down-in-the-Grotto",
+}
 CUTE_SPINE_SOURCE_OVERRIDES: dict[str, dict[str, str]] = {
     "9Pets-Cute-A-Knight": {
         "assetId": "300701",
@@ -2504,9 +2509,60 @@ def make_live2d_cell(
     return cell
 
 
+def remove_compact_white_block_artifacts(image: Image.Image, package_name: str) -> Image.Image:
+    if package_name not in LIVE2D_WHITE_BLOCK_ARTIFACT_PACKAGES:
+        return image
+
+    rgba = image.convert("RGBA")
+    pixels = rgba.load()
+    candidates: set[tuple[int, int]] = set()
+    for y in range(rgba.height):
+        for x in range(rgba.width):
+            r, g, b, a = pixels[x, y]
+            if a >= 245 and r >= 248 and g >= 248 and b >= 248 and max(r, g, b) - min(r, g, b) <= 4:
+                candidates.add((x, y))
+
+    boxes: list[tuple[int, int, int, int]] = []
+    while candidates:
+        start = candidates.pop()
+        stack = [start]
+        xs: list[int] = []
+        ys: list[int] = []
+        while stack:
+            x, y = stack.pop()
+            xs.append(x)
+            ys.append(y)
+            for nx, ny in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)):
+                if (nx, ny) in candidates:
+                    candidates.remove((nx, ny))
+                    stack.append((nx, ny))
+        area = len(xs)
+        left, top, right, bottom = min(xs), min(ys), max(xs) + 1, max(ys) + 1
+        width = right - left
+        height = bottom - top
+        fill = area / (width * height)
+        squareish = 0.65 <= width / height <= 1.55
+        if 100 <= area <= 5000 and 8 <= width <= 100 and 8 <= height <= 100 and fill > 0.75 and squareish:
+            boxes.append((max(0, left - 1), max(0, top - 1), min(rgba.width, right + 1), min(rgba.height, bottom + 1)))
+
+    if not boxes:
+        return rgba
+
+    clean = rgba.copy()
+    clean_pixels = clean.load()
+    for left, top, right, bottom in boxes:
+        for y in range(top, bottom):
+            for x in range(left, right):
+                r, g, b, a = clean_pixels[x, y]
+                if a > 0 and r >= 220 and g >= 220 and b >= 220 and max(r, g, b) - min(r, g, b) <= 18:
+                    clean_pixels[x, y] = (0, 0, 0, 0)
+    return normalize_transparent_pixels(clean)
+
+
 def make_atlas_from_live2d_frames(frames_root: Path, cell_scale: int = 1) -> Image.Image:
     cell_w = CELL_W * cell_scale
     cell_h = CELL_H * cell_scale
+    package_name = frames_root.name
     loaded: dict[str, list[Image.Image]] = {}
     bbox: tuple[int, int, int, int] | None = None
     for state, frame_count in STATE_ROWS:
@@ -2516,7 +2572,7 @@ def make_atlas_from_live2d_frames(frames_root: Path, cell_scale: int = 1) -> Ima
             frame_path = state_dir / f"{index:02d}.png"
             if not frame_path.exists():
                 raise RuntimeError(f"Missing Live2D frame {frame_path}")
-            frame = Image.open(frame_path).convert("RGBA")
+            frame = remove_compact_white_block_artifacts(Image.open(frame_path).convert("RGBA"), package_name)
             frames.append(frame)
             bbox = union_bbox(bbox, frame.getchannel("A").getbbox())
         loaded[state] = frames

@@ -249,6 +249,58 @@ def visible_color_qa(package_names: list[str]) -> None:
         print(f"{path.relative_to(ROOT)}: visible color QA passed ({dark_ratio:.1%} near-black)", flush=True)
 
 
+def compact_white_blocks(path: Path) -> list[tuple[int, tuple[int, int, int, int], float]]:
+    image = Image.open(path).convert("RGBA")
+    atlas_scale = max(1, image.width // (COLS * CELL_W))
+    min_area = 8 * atlas_scale * atlas_scale
+    min_size = 3 * atlas_scale
+    max_size = 30 * atlas_scale
+    pixels = image.load()
+    candidates: set[tuple[int, int]] = set()
+    for y in range(image.height):
+        for x in range(image.width):
+            r, g, b, a = pixels[x, y]
+            if a >= 235 and r >= 246 and g >= 246 and b >= 246 and max(r, g, b) - min(r, g, b) <= 5:
+                candidates.add((x, y))
+
+    blocks: list[tuple[int, tuple[int, int, int, int], float]] = []
+    while candidates:
+        start = candidates.pop()
+        stack = [start]
+        xs: list[int] = []
+        ys: list[int] = []
+        while stack:
+            x, y = stack.pop()
+            xs.append(x)
+            ys.append(y)
+            for nx, ny in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)):
+                if (nx, ny) in candidates:
+                    candidates.remove((nx, ny))
+                    stack.append((nx, ny))
+        area = len(xs)
+        bbox = (min(xs), min(ys), max(xs) + 1, max(ys) + 1)
+        width = bbox[2] - bbox[0]
+        height = bbox[3] - bbox[1]
+        fill = area / (width * height)
+        squareish = 0.65 <= width / height <= 1.55
+        if min_area <= area <= 500 * atlas_scale * atlas_scale and min_size <= width <= max_size and min_size <= height <= max_size and fill > 0.75 and squareish:
+            blocks.append((area, bbox, fill))
+    return sorted(blocks, reverse=True)
+
+
+def white_block_artifact_qa(package_names: list[str]) -> None:
+    for package_name in package_names:
+        if package_name not in site.LIVE2D_WHITE_BLOCK_ARTIFACT_PACKAGES:
+            continue
+        for path in package_paths(package_name):
+            if not path.exists():
+                continue
+            blocks = compact_white_blocks(path)
+            if blocks:
+                raise AssertionError(f"{path} has compact white block artifacts: {blocks[:10]}")
+        print(f"{package_name}: white block artifact QA passed", flush=True)
+
+
 def raw_frame_qa(package_names: list[str]) -> None:
     manifest_items = read_manifest_items()
     for package_name in package_names:
