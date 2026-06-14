@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T18:00:42Z",
+  "generatedAt": "2026-06-14T18:04:13Z",
   "total": 129,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -4047,7 +4047,7 @@
       "animationMode": "official-live2d-cubism",
       "animationModeLabel": "Official Live2D Cubism motion capture",
       "characterSummary": "37 is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 306603 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
-      "packageBytes": 1663837
+      "packageBytes": 1664913
     }
   ],
   "cuteTotal": 127,
