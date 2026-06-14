@@ -79,6 +79,7 @@ def deterministic_qa(package_name: str) -> Path:
     pet_qa.raw_frame_qa([package_name])
     pet_qa.pixel_qa([package_name])
     pet_qa.visible_color_qa([package_name])
+    pet_qa.white_block_artifact_qa([package_name])
     return pet_qa.make_contact(package_name)
 
 
@@ -147,7 +148,12 @@ def page_qa(base_url: str, package_name: str, pet_id: str, skin_name: str) -> No
 def stage_and_commit(package_name: str, cubism_path: str, message: str) -> None:
     paths = [
         "PET_SKIN_BUILD_TODO.md",
+        "tools/audit_skin_normals.py",
         "tools/build_pets_site.py",
+        "tools/rebuild_one_pet.py",
+        "tests/__init__.py",
+        "tests/test_live2d_artifact_cleanup.py",
+        "tests/test_no_white_block_artifacts.py",
         "docs/data/pets.json",
         "docs/data/pets-data.js",
         f"docs/assets/previews/{package_name}.png",
@@ -165,7 +171,10 @@ def stage_and_commit(package_name: str, cubism_path: str, message: str) -> None:
         for path in staged
         if not (
             path == "PET_SKIN_BUILD_TODO.md"
+            or path == "tools/audit_skin_normals.py"
             or path == "tools/build_pets_site.py"
+            or path == "tools/rebuild_one_pet.py"
+            or path.startswith("tests/")
             or path.startswith("docs/data/pets")
             or package_name in path
             or path.startswith(f"assets/source-cache/Reverse-1999-CN-Asset/{cubism_path}")
@@ -204,8 +213,8 @@ def buildable_skin_rows() -> list[dict[str, Any]]:
     return rows
 
 
-def audit_row(row: dict[str, Any], base_url: str) -> None:
-    if todo_normal_done(row["asset_id"]):
+def audit_row(row: dict[str, Any], base_url: str, *, force: bool = False) -> None:
+    if todo_normal_done(row["asset_id"]) and not force:
         print(f"skipping already-audited Normal {row['normal_package']}", flush=True)
         return
     print(f"auditing {row['normal_package']} ({row['asset_id']})", flush=True)
@@ -226,8 +235,8 @@ def audit_row(row: dict[str, Any], base_url: str) -> None:
     contact = deterministic_qa(row["normal_package"])
     page_qa(base_url, row["normal_package"], row["pet_id"], row["skin"])
     qa_note = (
-        "verify_build, raw frame bounds, pixel/transparent cells, visible color, contact sheet, "
-        "catalog/detail/download page"
+        "verify_build, raw frame bounds, pixel/transparent cells, visible color, white block artifact, "
+        "contact sheet, catalog/detail/download page"
     )
     motions = pet_qa.parse_motion_lines(build_output)
     if motions:
@@ -249,12 +258,13 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Audit cached non-default Normal Live2D skin packages.")
     parser.add_argument("--limit", type=int, default=1)
     parser.add_argument("--only-id")
+    parser.add_argument("--force", action="store_true")
     args = parser.parse_args()
     rows = buildable_skin_rows()
     if args.only_id:
         rows = [row for row in rows if row["asset_id"] == args.only_id]
     else:
-        rows = [row for row in rows if not todo_normal_done(row["asset_id"])]
+        rows = rows if args.force else [row for row in rows if not todo_normal_done(row["asset_id"])]
     if args.limit > 0:
         rows = rows[: args.limit]
     if not rows:
@@ -262,7 +272,7 @@ def main() -> None:
         return
     with StaticServer() as base_url:
         for row in rows:
-            audit_row(row, base_url)
+            audit_row(row, base_url, force=args.force)
 
 
 if __name__ == "__main__":

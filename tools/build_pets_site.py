@@ -2542,7 +2542,24 @@ def remove_compact_white_block_artifacts(image: Image.Image, package_name: str) 
         height = bottom - top
         fill = area / (width * height)
         squareish = 0.65 <= width / height <= 1.55
-        if 100 <= area <= 5000 and 8 <= width <= 100 and 8 <= height <= 100 and fill > 0.75 and squareish:
+        pad = max(4, round(max(width, height) * 0.75))
+        outer = (
+            max(0, left - pad),
+            max(0, top - pad),
+            min(rgba.width, right + pad),
+            min(rgba.height, bottom + pad),
+        )
+        ring_area = 0
+        ring_visible = 0
+        for ring_y in range(outer[1], outer[3]):
+            for ring_x in range(outer[0], outer[2]):
+                if left <= ring_x < right and top <= ring_y < bottom:
+                    continue
+                ring_area += 1
+                if pixels[ring_x, ring_y][3] > 32:
+                    ring_visible += 1
+        isolated = ring_area > 0 and ring_visible / ring_area < 0.16
+        if 100 <= area <= 5000 and 8 <= width <= 100 and 8 <= height <= 100 and fill > 0.75 and squareish and isolated:
             boxes.append((max(0, left - 1), max(0, top - 1), min(rgba.width, right + 1), min(rgba.height, bottom + 1)))
 
     if not boxes:
