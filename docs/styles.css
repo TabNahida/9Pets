@@ -717,6 +717,22 @@ h1 {
   overflow-wrap: anywhere;
 }
 
+.skin-line {
+  display: block;
+  min-height: 18px;
+  margin-top: 4px;
+  color: var(--gold-soft);
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
+.skin-line:empty {
+  min-height: 0;
+  margin-top: 0;
+}
+
 .pet-copy p {
   margin-top: 8px;
   color: var(--muted);
@@ -1021,6 +1037,21 @@ h1 {
 .detail-copy h1 {
   max-width: 900px;
   font-size: clamp(50px, 7.6vw, 110px);
+}
+
+.detail-skin-line {
+  min-height: 22px;
+  margin-top: 10px;
+  color: var(--gold-soft);
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+
+.detail-skin-line:empty {
+  min-height: 0;
+  margin-top: 0;
 }
 
 .detail-summary {

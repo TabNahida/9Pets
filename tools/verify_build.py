@@ -17,9 +17,16 @@ EXPECTED_SIZE = (CELL_W * COLS, CELL_H * ROWS)
 STATE_FRAMES = [6, 8, 8, 4, 5, 8, 6, 6, 6]
 HIDDEN_NORMAL_PACKAGES = {
     "9Pets-Baby-Blue",
+    "9Pets-Baby-Blue-Default",
     "9Pets-Balloon-Party",
+    "9Pets-Balloon-Party-Default",
 }
+HIDDEN_NORMAL_PREFIXES = (
+    "9Pets-Baby-Blue-",
+    "9Pets-Balloon-Party-",
+)
 EXPECTED_VISIBLE_NORMAL_TOTAL = 125
+EXPECTED_CUTE_TOTAL = 127
 
 
 def assert_true(condition: bool, message: str) -> None:
@@ -75,10 +82,32 @@ def main() -> None:
     )
     cute_variants = data.get("cuteVariants", [])
     assert_true(data.get("cuteTotal", len(cute_variants)) == len(cute_variants), "cute variant total mismatch")
+    assert_true(
+        len(cute_variants) == EXPECTED_CUTE_TOTAL,
+        f"cute variant count is {len(cute_variants)}, expected {EXPECTED_CUTE_TOTAL}",
+    )
     assert_true((ROOT / "docs" / "data" / "pets-data.js").exists(), "docs/data/pets-data.js is missing")
     assert_true(len(data.get("officialSiteAssets", {})) >= 17, "official site assets were not downloaded")
     normal_packages = {pet["packageName"] for pet in pets}
     assert_true(not (normal_packages & HIDDEN_NORMAL_PACKAGES), "hidden normal packages are visible in the manifest")
+    assert_true(
+        not any(package.startswith(HIDDEN_NORMAL_PREFIXES) for package in normal_packages),
+        "hidden normal skin packages are visible in the manifest",
+    )
+    non_default_normals = [pet["packageName"] for pet in pets if not pet.get("isDefaultSkin", True)]
+    assert_true(
+        not non_default_normals,
+        f"non-default normal skin packages require cached Live2D audit before publishing: {non_default_normals[:5]}",
+    )
+    non_default_art_rig = [
+        pet["packageName"]
+        for pet in pets
+        if not pet.get("isDefaultSkin", True) and pet.get("animationMode") == "official-art-elastic-rig"
+    ]
+    assert_true(
+        not non_default_art_rig,
+        f"non-default normal skin packages must not use portrait/elastic-rig output: {non_default_art_rig[:5]}",
+    )
 
     for pet in pets:
         package = pet["packageName"]
@@ -91,6 +120,8 @@ def main() -> None:
         assert_true("spinePath" in pet, f"{package} missing spine path metadata")
         assert_true("cubismPath" in pet, f"{package} missing cubism path metadata")
         assert_true("detailAtlasScale" in pet, f"{package} missing detail atlas scale")
+        assert_true("skinName" in pet, f"{package} missing skin name")
+        assert_true("isDefaultSkin" in pet, f"{package} missing default-skin flag")
         pet_dir = ROOT / "pets" / package
         assert_true((pet_dir / "pet.json").exists(), f"{package} missing pet.json")
         check_spritesheet(pet_dir / "spritesheet.webp")
@@ -103,7 +134,7 @@ def main() -> None:
 
     normal_ids = {pet["id"] for pet in pets}
     cute_by_normal_package = {variant.get("normalPackageName"): variant for variant in cute_variants}
-    for package in HIDDEN_NORMAL_PACKAGES:
+    for package in {"9Pets-Baby-Blue-Default", "9Pets-Balloon-Party-Default"}:
         variant = cute_by_normal_package.get(package)
         assert_true(variant is not None, f"{package} is hidden but its cute variant is missing")
         assert_true(

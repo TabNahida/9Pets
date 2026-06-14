@@ -106,7 +106,25 @@ async function loadMotionOverrides(path) {
 }
 
 function prioritizeTexture(textures, primaryTexture) {
-  if (!primaryTexture || !Array.isArray(textures)) return textures;
+  if (!Array.isArray(textures)) return textures;
+  if (!primaryTexture) {
+    const first = String(textures[0] || "").replaceAll("\\", "/").toLowerCase();
+    if (first.includes("bloom")) {
+      const index = textures.findIndex((texture, textureIndex) => {
+        if (textureIndex === 0) return false;
+        const normalizedTexture = String(texture).replaceAll("\\", "/").toLowerCase();
+        return normalizedTexture.endsWith(".png") && !normalizedTexture.includes("bloom");
+      });
+      if (index > 0) {
+        const ordered = textures.slice();
+        const [primary] = ordered.splice(index, 1);
+        ordered.unshift(primary);
+        console.log(`auto primary texture ${primary}`);
+        return ordered;
+      }
+    }
+    return textures;
+  }
   const normalizedPrimary = primaryTexture.replaceAll("\\", "/").toLowerCase();
   const primaryBase = basename(normalizedPrimary);
   const index = textures.findIndex((texture) => {
@@ -119,6 +137,21 @@ function prioritizeTexture(textures, primaryTexture) {
   ordered.unshift(primary);
   console.log(`primary texture ${primary}`);
   return ordered;
+}
+
+function textureWithoutBloom(texture) {
+  return String(texture).replaceAll("\\", "/").replace(/_bloom(?=\.png$)/i, "").toLowerCase();
+}
+
+function filterRenderTextures(textures) {
+  if (!Array.isArray(textures)) return textures;
+  const canonical = new Set(textures.map((texture) => textureWithoutBloom(texture)));
+  const filtered = textures.filter((texture) => {
+    const value = String(texture).replaceAll("\\", "/").toLowerCase();
+    if (!/_bloom(?=\.png$)/i.test(value)) return true;
+    return !canonical.has(textureWithoutBloom(texture));
+  });
+  return filtered.length ? filtered : textures;
 }
 
 function countMotionSegments(curves) {
@@ -181,6 +214,7 @@ async function createPatchedModel(modelDir, modelJsonPath, states, motionOverrid
       "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNgYPgPAAEDAQDABJzQAAAAAElFTkSuQmCC",
       "base64",
     );
+    model.FileReferences.Textures = filterRenderTextures(model.FileReferences.Textures);
     model.FileReferences.Textures = prioritizeTexture(model.FileReferences.Textures, options.primaryTexture);
     model.FileReferences.Textures = await Promise.all(
       model.FileReferences.Textures.map(async (texture) => {

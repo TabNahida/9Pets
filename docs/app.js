@@ -71,7 +71,11 @@ function filteredPets() {
   const query = state.search.trim().toLowerCase();
   return activePets().filter((pet) => {
     const matchesSource = state.sourceFilter === "all" || pet.sourceType === state.sourceFilter;
-    const matchesSearch = !query || pet.displayName.toLowerCase().includes(query) || pet.packageName.toLowerCase().includes(query);
+    const matchesSearch =
+      !query ||
+      pet.displayName.toLowerCase().includes(query) ||
+      pet.packageName.toLowerCase().includes(query) ||
+      String(pet.skinName || "").toLowerCase().includes(query);
     return matchesSource && matchesSearch;
   });
 }
@@ -111,6 +115,7 @@ function renderGrid() {
       const card = els.template.content.firstElementChild.cloneNode(true);
       const preview = card.querySelector(".pet-preview");
       const title = card.querySelector("h2");
+      const skin = card.querySelector(".skin-line");
       const meta = card.querySelector("p");
       const badge = card.querySelector(".badge");
       const details = card.querySelector(".details-link");
@@ -124,6 +129,7 @@ function renderGrid() {
       preview.src = pet.preview;
       preview.alt = `${pet.displayName} pet preview`;
       title.textContent = pet.displayName;
+      skin.textContent = pet.skinDisplayName || "";
       meta.textContent = `${pet.packageName} · ${formatBytes(pet.packageBytes)}`;
       badge.textContent = variantLabel(pet);
       badge.classList.toggle("official", pet.sourceType === "official-sourced" && pet.variantType !== "cute");

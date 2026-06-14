@@ -54,13 +54,18 @@ COLS = 8
 ROWS = 9
 DETAIL_ATLAS_SCALE = 4
 CUTE_PACKAGE_PREFIX = "9Pets-Cute-"
+DEFAULT_SKIN_NAME = "Default"
+HIDDEN_NORMAL_CHARACTERS = {
+    "Baby Blue",
+    "Balloon Party",
+}
 HIDDEN_NORMAL_PACKAGES = {
     "9Pets-Baby-Blue",
+    "9Pets-Baby-Blue-Default",
     "9Pets-Balloon-Party",
+    "9Pets-Balloon-Party-Default",
 }
-NORMAL_SPINE_OVERRIDE_PACKAGES = {
-    "9Pets-Enigma",
-}
+NORMAL_SPINE_OVERRIDE_PACKAGES: set[str] = set()
 CUTE_SPINE_SOURCE_OVERRIDES: dict[str, dict[str, str]] = {
     "9Pets-Cute-A-Knight": {
         "assetId": "300701",
@@ -408,6 +413,12 @@ LIVE2D_RENDER_PROFILES: dict[str, dict[str, Any]] = {
             "running": "b_xiaolong.motion3.json",
             "review": "b_diantou.motion3.json",
         },
+    },
+    "9Pets-Kiperina": {
+        "primaryTexture": "textures/311701_kphh.png",
+    },
+    "9Pets-Lorelei": {
+        "primaryTexture": "textures/309101_luoleilai_00.png",
     },
     "9Pets-Buddy-Fairchild": {
         "width": 1800,
@@ -1051,9 +1062,9 @@ SPINE_RENDER_PROFILES: dict[str, dict[str, Any]] = {
     "9Pets-Cute-Balloon-Party": {
         "width": 1200,
         "height": 1200,
-        "scale": 2.2,
+        "scale": 1.8,
         "x": 600,
-        "y": 900,
+        "y": 1040,
         "skeleton": "302401_qiqiupaidui_fight.skel",
         "flipRunningLeft": True,
         "detailAtlasScale": 4,
@@ -1074,7 +1085,7 @@ SPINE_RENDER_PROFILES: dict[str, dict[str, Any]] = {
         "height": 1200,
         "scale": 2.2,
         "x": 600,
-        "y": 900,
+        "y": 980,
         "skeleton": "309901_syg_fight.skel",
         "flipRunningLeft": True,
         "detailAtlasScale": 4,
@@ -1603,6 +1614,12 @@ OFFICIAL_NAME_ALIASES = {
     "Liang Yue": "Liang",
     "Matilda": "Matilda Bouanich",
 }
+OFFICIAL_ENTRY_ID_ALIASES = {
+    "Avgust": 3078,
+    "Vila": 3087,
+    "Zima": 3013,
+    "Yenisei": 3082,
+}
 MANUAL_OFFICIAL_ASSETS = {
     "Avgust": {
         "assetId": 307801,
@@ -1661,6 +1678,41 @@ def slug_suffix(name: str) -> str:
     text = text.replace("&", "and")
     tokens = re.findall(r"[A-Za-z0-9]+", text)
     return "-".join(tokens) or "Character"
+
+
+def clean_skin_name(name: str | None) -> str:
+    cleaned = re.sub(r"\s+", " ", (name or "").replace("\xa0", " ")).strip()
+    return cleaned or DEFAULT_SKIN_NAME
+
+
+def is_default_skin_name(name: str | None) -> bool:
+    return clean_skin_name(name).casefold() == DEFAULT_SKIN_NAME.casefold()
+
+
+def skin_name_from_entry(skin: dict[str, Any]) -> str:
+    return clean_skin_name(skin.get("characterSkinNameEng"))
+
+
+def package_name_for(name: str, skin_name: str | None = DEFAULT_SKIN_NAME, *, cute: bool = False) -> str:
+    prefix = CUTE_PACKAGE_PREFIX if cute else "9Pets-"
+    return f"{prefix}{slug_suffix(name)}-{slug_suffix(clean_skin_name(skin_name))}"
+
+
+def legacy_package_name_for(name: str, *, cute: bool = False) -> str:
+    prefix = CUTE_PACKAGE_PREFIX if cute else "9Pets-"
+    return f"{prefix}{slug_suffix(name)}"
+
+
+def base_profile_package_name(name: str, *, cute: bool = False) -> str:
+    return legacy_package_name_for(name, cute=cute)
+
+
+def package_sort_key(pet: dict[str, Any]) -> tuple[int, str, str]:
+    return (
+        0 if pet.get("isDefaultSkin", True) else 1,
+        str(pet.get("displayName", "")).casefold(),
+        str(pet.get("skinName", "")).casefold(),
+    )
 
 
 def slug_lower(name: str) -> str:
@@ -1959,7 +2011,7 @@ def write_temp_json(payload: Any, prefix: str) -> Path:
 
 
 def is_default_skin(skin: dict[str, Any]) -> bool:
-    return (skin.get("characterSkinNameEng") or "Default").strip().casefold() == "default"
+    return is_default_skin_name(skin.get("characterSkinNameEng"))
 
 
 def default_spine_render_profile(package_name: str, spine_path: str) -> dict[str, Any]:
@@ -2008,13 +2060,17 @@ def default_spine_render_profile(package_name: str, spine_path: str) -> dict[str
     return profile
 
 
-def spine_render_profile_for(package_name: str, spine_path: str) -> dict[str, Any]:
-    return SPINE_RENDER_PROFILES.get(package_name) or default_spine_render_profile(package_name, spine_path)
+def spine_render_profile_for(package_name: str, spine_path: str, profile_package_name: str | None = None) -> dict[str, Any]:
+    return (
+        SPINE_RENDER_PROFILES.get(package_name)
+        or (SPINE_RENDER_PROFILES.get(profile_package_name) if profile_package_name else None)
+        or default_spine_render_profile(package_name, spine_path)
+    )
 
 
-def spine_render_ready(package_name: str, spine_path: str) -> bool:
+def spine_render_ready(package_name: str, spine_path: str, profile_package_name: str | None = None) -> bool:
     spine_dir = local_asset_path(spine_path)
-    profile = spine_render_profile_for(package_name, spine_path)
+    profile = spine_render_profile_for(package_name, spine_path, profile_package_name)
     return (
         SPINE_RENDER_ENABLED
         and bool(profile)
@@ -2027,11 +2083,11 @@ def spine_render_ready(package_name: str, spine_path: str) -> bool:
     )
 
 
-def render_live2d_frames(package_name: str, cubism_path: str) -> Path | None:
+def render_live2d_frames(package_name: str, cubism_path: str, profile_package_name: str | None = None) -> Path | None:
     if not live2d_render_ready(cubism_path):
         return None
 
-    profile = LIVE2D_RENDER_PROFILES.get(package_name, {})
+    profile = LIVE2D_RENDER_PROFILES.get(package_name) or (LIVE2D_RENDER_PROFILES.get(profile_package_name) if profile_package_name else None) or {}
     output_dir = LIVE2D_FRAME_ROOT / package_name
     if output_dir.exists():
         shutil.rmtree(output_dir)
@@ -2078,11 +2134,11 @@ def render_live2d_frames(package_name: str, cubism_path: str) -> Path | None:
             motion_map_path.unlink(missing_ok=True)
 
 
-def render_spine_frames(package_name: str, spine_path: str) -> Path | None:
-    if not spine_render_ready(package_name, spine_path):
+def render_spine_frames(package_name: str, spine_path: str, profile_package_name: str | None = None) -> Path | None:
+    if not spine_render_ready(package_name, spine_path, profile_package_name):
         return None
 
-    profile = spine_render_profile_for(package_name, spine_path)
+    profile = spine_render_profile_for(package_name, spine_path, profile_package_name)
     output_dir = SPINE_FRAME_ROOT / package_name
     if output_dir.exists():
         shutil.rmtree(output_dir)
@@ -2132,20 +2188,71 @@ def render_spine_frames(package_name: str, spine_path: str) -> Path | None:
 
 
 def load_official_asset_index() -> dict[str, dict[str, Any]]:
-    response = requests.get(ASSET_MAP_URL, timeout=30, headers={"User-Agent": "Mozilla/5.0 9PetsBuilder/2.0"})
-    if response.status_code != 200:
-        raise RuntimeError(f"Could not download official asset mapping: HTTP {response.status_code}")
+    local_map = ASSET_CACHE_DIR / "mappings" / "ArcanistMap.json"
+    if local_map.exists():
+        entries = json.loads(local_map.read_text(encoding="utf-8"))
+    else:
+        response = requests.get(ASSET_MAP_URL, timeout=30, headers={"User-Agent": "Mozilla/5.0 9PetsBuilder/2.0"})
+        if response.status_code != 200:
+            raise RuntimeError(f"Could not download official asset mapping: HTTP {response.status_code}")
+        local_map.parent.mkdir(parents=True, exist_ok=True)
+        local_map.write_text(response.text, encoding="utf-8")
+        entries = response.json()
     index: dict[str, dict[str, Any]] = {}
-    for entry in response.json():
-        key = normalized_lookup_name(entry.get("nameEng", ""))
-        if key:
-            index[key] = entry
+    for entry in entries:
+        keys = {
+            normalized_lookup_name(entry.get("nameEng", "")),
+            normalized_lookup_name(entry.get("name", "")),
+            f"id:{entry.get('id')}",
+        }
+        for key in keys:
+            if key:
+                index[key] = entry
     return index
 
 
-def resolve_official_asset(name: str, official_index: dict[str, dict[str, Any]]) -> dict[str, Any]:
+def find_official_entry(name: str, official_index: dict[str, dict[str, Any]]) -> dict[str, Any] | None:
+    entry_id = OFFICIAL_ENTRY_ID_ALIASES.get(name)
+    if entry_id:
+        entry = official_index.get(f"id:{entry_id}")
+        if entry:
+            return entry
+
+    lookup_name = OFFICIAL_NAME_ALIASES.get(name, name)
+    return official_index.get(normalized_lookup_name(lookup_name))
+
+
+def official_skin_entries(name: str, official_index: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
     manual = MANUAL_OFFICIAL_ASSETS.get(name)
+    entry = find_official_entry(name, official_index)
+    if entry and entry.get("live2d"):
+        return list(entry["live2d"])
     if manual:
+        return [
+            {
+                "id": manual["assetId"],
+                "nameEng": name,
+                "characterSkinNameEng": DEFAULT_SKIN_NAME,
+                "spine": repo_tree_url(manual.get("spinePath", "")),
+                "cubism": repo_tree_url(manual.get("cubismPath", "")),
+            }
+        ]
+    return []
+
+
+def default_skin_entry(skins: list[dict[str, Any]]) -> dict[str, Any] | None:
+    if not skins:
+        return None
+    return next((candidate for candidate in skins if is_default_skin(candidate)), skins[0])
+
+
+def resolve_official_asset(
+    name: str,
+    official_index: dict[str, dict[str, Any]],
+    skin_entry: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    manual = MANUAL_OFFICIAL_ASSETS.get(name)
+    if manual and skin_entry is None and not find_official_entry(name, official_index):
         asset_id = manual["assetId"]
         cubism_path = resolve_cached_cubism_path(asset_id, manual.get("cubismPath", ""))
         return {
@@ -2154,34 +2261,37 @@ def resolve_official_asset(name: str, official_index: dict[str, dict[str, Any]])
             "cubismPath": cubism_path,
             "matchedName": name,
             "birthday": "",
-            "skinName": "Default",
+            "skinName": DEFAULT_SKIN_NAME,
+            "isDefaultSkin": True,
         }
 
     lookup_name = OFFICIAL_NAME_ALIASES.get(name, name)
-    entry = official_index.get(normalized_lookup_name(lookup_name))
-    if not entry or not entry.get("live2d"):
+    entry = find_official_entry(name, official_index)
+    skins = official_skin_entries(name, official_index)
+    if not entry and not skins:
         raise RuntimeError(f"No official asset mapping found for {name}")
-    skins = entry["live2d"]
 
     prepared_skins: list[tuple[dict[str, Any], str, str]] = []
-    for skin_entry in skins:
-        asset_id = skin_entry["id"]
-        spine_path = repo_path_from_tree_url(skin_entry.get("spine", ""))
-        mapped_cubism_path = repo_path_from_tree_url(skin_entry.get("cubism", ""))
+    for candidate_skin in skins:
+        asset_id = candidate_skin["id"]
+        spine_path = repo_path_from_tree_url(candidate_skin.get("spine", ""))
+        mapped_cubism_path = repo_path_from_tree_url(candidate_skin.get("cubism", ""))
         cubism_path = resolve_cached_cubism_path(asset_id, mapped_cubism_path)
-        prepared_skins.append((skin_entry, spine_path, cubism_path))
+        prepared_skins.append((candidate_skin, spine_path, cubism_path))
 
-    skin, spine_path, cubism_path = next(
-        (candidate for candidate in prepared_skins if is_default_skin(candidate[0])),
-        prepared_skins[0],
-    )
+    selected_skin = skin_entry or default_skin_entry(skins)
+    selected_id = str(selected_skin["id"]) if selected_skin else ""
+    skin, spine_path, cubism_path = next((candidate for candidate in prepared_skins if str(candidate[0]["id"]) == selected_id), prepared_skins[0])
+    skin_name = skin_name_from_entry(skin)
     return {
         "assetId": skin["id"],
         "spinePath": spine_path,
         "cubismPath": cubism_path,
         "matchedName": lookup_name,
-        "birthday": entry.get("roleBirthday", ""),
-        "skinName": skin.get("characterSkinNameEng") or "Default",
+        "birthday": entry.get("roleBirthday", "") if entry else "",
+        "skinName": skin_name,
+        "isDefaultSkin": is_default_skin_name(skin_name),
+        "skinDescription": skin.get("skinDescription", ""),
     }
 
 
@@ -2192,14 +2302,26 @@ def download_official_source_image(asset_id: int, source_path: Path) -> tuple[st
 
     for template in OFFICIAL_IMAGE_PATHS:
         repo_path = template.format(asset_id=asset_id)
-        url = repo_raw_url(repo_path)
-        if download_image(url, source_path):
-            return repo_path, url
+        local_path = local_asset_path(repo_path)
+        if not local_path.exists():
+            download_image(repo_raw_url(repo_path), local_path)
+
+    local_source = save_best_local_source_image(asset_id, source_path)
+    if local_source:
+        return local_source
+
+    if source_path.exists():
+        return source_path.relative_to(DOCS_DIR).as_posix(), ""
     raise RuntimeError(f"No official source image found for asset id {asset_id}")
 
 
-def get_source_sprite(name: str, package_name: str, official_index: dict[str, dict[str, Any]]) -> tuple[Image.Image, dict[str, Any]]:
-    asset = resolve_official_asset(name, official_index)
+def get_source_sprite(
+    name: str,
+    package_name: str,
+    official_index: dict[str, dict[str, Any]],
+    skin_entry: dict[str, Any] | None = None,
+) -> tuple[Image.Image, dict[str, Any]]:
+    asset = resolve_official_asset(name, official_index, skin_entry)
     source_path = SOURCE_DIR / f"{package_name}.png"
     image_repo_path, source_url = download_official_source_image(int(asset["assetId"]), source_path)
     sprite = crop_and_fit(Image.open(source_path).convert("RGBA"), max_width=180, max_height=200)
@@ -2218,6 +2340,8 @@ def get_source_sprite(name: str, package_name: str, official_index: dict[str, di
         "cubismUrl": repo_tree_url(cubism_path),
         "birthday": asset.get("birthday", ""),
         "skinName": asset.get("skinName", "Default"),
+        "isDefaultSkin": bool(asset.get("isDefaultSkin")),
+        "skinDescription": asset.get("skinDescription", ""),
         "matchedName": asset.get("matchedName", name),
         "live2dCacheStatus": "cached" if live2d_model_cached(cubism_path) else ("mapped" if cubism_path else "none"),
         "animationMode": "official-art-elastic-rig",
@@ -2300,9 +2424,18 @@ def make_cell(sprite: Image.Image, state: str, frame: int, total: int) -> Image.
         flip=motion.get("flip", False),
         opacity=motion.get("opacity", 1.0),
     )
+    margin = 2
+    max_width = CELL_W - margin * 2
+    max_height = CELL_H - margin * 2
+    if image.width > max_width or image.height > max_height:
+        scale = min(max_width / image.width, max_height / image.height)
+        size = (max(1, round(image.width * scale)), max(1, round(image.height * scale)))
+        image = image.resize(size, Image.Resampling.LANCZOS)
     cell = Image.new("RGBA", (CELL_W, CELL_H), (0, 0, 0, 0))
     x = round((CELL_W - image.width) / 2 + motion.get("x", 0))
     y = round(CELL_H - image.height - 8 + motion.get("y", 0))
+    x = min(max(x, margin), max(margin, CELL_W - image.width - margin))
+    y = min(max(y, margin), max(margin, CELL_H - image.height - margin))
     alpha_composite_clipped(cell, image, (x, y))
     return cell
 
@@ -2407,17 +2540,19 @@ def save_image_atomic(image: Image.Image, output: Path, **save_kwargs: Any) -> N
 
 def make_pet_json(package_name: str, name: str, source_info: dict[str, Any]) -> dict[str, str]:
     is_cute = package_name.startswith(CUTE_PACKAGE_PREFIX)
+    skin_name = clean_skin_name(source_info.get("skinName"))
+    display_skin = f" - {skin_name}" if skin_name else ""
     if source_info.get("animationMode") == "official-live2d-cubism":
-        description = f"An official-sourced Reverse: 1999 Codex pet for {name}, built from official Live2D Cubism motion frames."
+        description = f"An official-sourced Reverse: 1999 Codex pet for {name} ({skin_name}), built from official Live2D Cubism motion frames."
     elif source_info.get("animationMode") == "official-spine":
-        description = f"An official-sourced Reverse: 1999 Codex pet for {name}, built from official Spine motion frames."
+        description = f"An official-sourced Reverse: 1999 Codex pet for {name} ({skin_name}), built from official Spine motion frames."
     elif source_info.get("animationMode") == "official-cute-spine":
-        description = f"An official-sourced Reverse: 1999 Codex pet cute variant for {name}, built from official chibi Spine motion frames."
+        description = f"An official-sourced Reverse: 1999 Codex pet cute variant for {name} ({skin_name}), built from official chibi Spine motion frames."
     else:
-        description = f"An official-sourced Reverse: 1999 Codex pet for {name}, built from official game asset-dump artwork."
+        description = f"An official-sourced Reverse: 1999 Codex pet for {name} ({skin_name}), built from official game asset-dump artwork."
     return {
         "id": pet_id_from_package(package_name),
-        "displayName": f"9Pets Cute - {name}" if is_cute else f"9Pets - {name}",
+        "displayName": f"9Pets Cute - {name}{display_skin}" if is_cute else f"9Pets - {name}{display_skin}",
         "description": description,
         "spritesheetPath": "spritesheet.webp",
     }
@@ -2433,6 +2568,7 @@ def write_zip(package_name: str, pet_json: dict[str, str], spritesheet_path: Pat
             f"Source mode: {source_info['sourceType']}.",
             f"Animation mode: {source_info.get('animationModeLabel', source_info.get('animationMode', 'Unknown'))}.",
             f"Official asset id: {source_info['assetId']}.",
+            f"Skin: {source_info.get('skinName', DEFAULT_SKIN_NAME)}.",
             f"Source image: {source_info['sourceUrl']}.",
             f"Spine assets: {source_info['spineUrl'] or 'No mapped Spine path.'}",
             f"Live2D assets: {source_info['cubismUrl'] or 'No mapped Live2D path.'}",
@@ -2524,8 +2660,14 @@ def ensure_output_dirs() -> None:
         path.mkdir(parents=True, exist_ok=True)
 
 
-def detail_atlas_scale_for(package_name: str) -> int:
-    profile = LIVE2D_RENDER_PROFILES.get(package_name) or SPINE_RENDER_PROFILES.get(package_name, {})
+def detail_atlas_scale_for(package_name: str, profile_package_name: str | None = None) -> int:
+    profile = (
+        LIVE2D_RENDER_PROFILES.get(package_name)
+        or SPINE_RENDER_PROFILES.get(package_name)
+        or (LIVE2D_RENDER_PROFILES.get(profile_package_name) if profile_package_name else None)
+        or (SPINE_RENDER_PROFILES.get(profile_package_name) if profile_package_name else None)
+        or {}
+    )
     return int(profile.get("detailAtlasScale", DETAIL_ATLAS_SCALE))
 
 
@@ -2540,15 +2682,91 @@ def detail_atlas_scale_from_file(path: Path) -> int:
 
 
 def is_hidden_normal_package(package_name: str) -> bool:
-    return package_name in HIDDEN_NORMAL_PACKAGES
+    if package_name in HIDDEN_NORMAL_PACKAGES:
+        return True
+    return any(package_name.startswith(f"9Pets-{slug_suffix(name)}-") for name in HIDDEN_NORMAL_CHARACTERS)
+
+
+def is_stale_non_default_art_rig_pet(pet: dict[str, Any]) -> bool:
+    return (
+        not pet.get("isDefaultSkin", True)
+        and pet.get("animationMode") == "official-art-elastic-rig"
+    )
+
+
+def normal_skin_skip_reason(
+    name: str,
+    official_index: dict[str, dict[str, Any]],
+    skin_entry: dict[str, Any] | None,
+) -> str:
+    if skin_entry is None:
+        return ""
+    skin_name = skin_name_from_entry(skin_entry)
+    package_name = package_name_for(name, skin_name)
+    if is_hidden_normal_package(package_name):
+        return "hidden because this character has no usable Normal Live2D package"
+
+    asset = resolve_official_asset(name, official_index, skin_entry)
+    if asset.get("isDefaultSkin") or package_name in NORMAL_SPINE_OVERRIDE_PACKAGES:
+        return ""
+
+    cubism_path = asset.get("cubismPath", "")
+    if live2d_model_cached(cubism_path):
+        return ""
+    return f"non-default skin requires cached Live2D source ({cubism_path or 'no mapped Cubism path'})"
 
 
 def visible_normal_pets(pets: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    return [pet for pet in pets if not is_hidden_normal_package(pet.get("packageName", ""))]
+    return [
+        pet
+        for pet in pets
+        if not is_hidden_normal_package(pet.get("packageName", ""))
+        and not is_stale_non_default_art_rig_pet(pet)
+    ]
 
 
-def catalog_names_by_package(catalog: dict[str, Any]) -> dict[str, str]:
-    return {f"9Pets-{slug_suffix(item['name'])}": item["name"] for item in catalog["characters"]}
+def catalog_package_lookup(catalog: dict[str, Any], official_index: dict[str, dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    lookup: dict[str, dict[str, Any]] = {}
+    for item in catalog["characters"]:
+        name = item["name"]
+        skins = official_skin_entries(name, official_index)
+        if not skins:
+            skins = [{"id": "", "characterSkinNameEng": DEFAULT_SKIN_NAME}]
+        for skin in skins:
+            skin_name = skin_name_from_entry(skin)
+            for cute in [False, True]:
+                package_name = package_name_for(name, skin_name, cute=cute)
+                lookup[package_name] = {
+                    "name": name,
+                    "skinName": skin_name,
+                    "skinEntry": skin,
+                    "isDefaultSkin": is_default_skin_name(skin_name),
+                    "normalPackageName": package_name_for(name, skin_name),
+                    "legacyNormalPackageName": legacy_package_name_for(name),
+                    "legacyCutePackageName": legacy_package_name_for(name, cute=True),
+                }
+        legacy_normal = legacy_package_name_for(name)
+        legacy_cute = legacy_package_name_for(name, cute=True)
+        default_skin = default_skin_entry(skins) or {"id": "", "characterSkinNameEng": DEFAULT_SKIN_NAME}
+        lookup[legacy_normal] = {
+            "name": name,
+            "skinName": DEFAULT_SKIN_NAME,
+            "skinEntry": default_skin,
+            "isDefaultSkin": True,
+            "normalPackageName": package_name_for(name, DEFAULT_SKIN_NAME),
+            "legacyNormalPackageName": legacy_normal,
+            "legacyCutePackageName": legacy_cute,
+        }
+        lookup[legacy_cute] = {
+            "name": name,
+            "skinName": DEFAULT_SKIN_NAME,
+            "skinEntry": default_skin,
+            "isDefaultSkin": True,
+            "normalPackageName": package_name_for(name, DEFAULT_SKIN_NAME),
+            "legacyNormalPackageName": legacy_normal,
+            "legacyCutePackageName": legacy_cute,
+        }
+    return lookup
 
 
 def make_cute_source_art(package_name: str, atlas_path: Path) -> str:
@@ -2571,11 +2789,22 @@ def make_cute_source_art(package_name: str, atlas_path: Path) -> str:
     return f"assets/source/{package_name}.png"
 
 
-def cute_source_info(base: dict[str, Any], package_name: str, source_image: str) -> dict[str, Any]:
+def cute_source_info(
+    base: dict[str, Any],
+    package_name: str,
+    source_image: str,
+    profile_package_name: str | None = None,
+) -> dict[str, Any]:
     info = dict(base)
-    override = CUTE_SPINE_SOURCE_OVERRIDES.get(package_name)
+    override = CUTE_SPINE_SOURCE_OVERRIDES.get(package_name) or (
+        CUTE_SPINE_SOURCE_OVERRIDES.get(profile_package_name) if profile_package_name else None
+    )
     if override:
-        info.update(override)
+        original_skin_name = info.get("skinName", DEFAULT_SKIN_NAME)
+        original_is_default = info.get("isDefaultSkin", True)
+        info.update({key: value for key, value in override.items() if key != "skinName"})
+        info["skinName"] = original_skin_name
+        info["isDefaultSkin"] = original_is_default
         if override.get("spinePath"):
             info["spineUrl"] = repo_tree_url(override["spinePath"])
     spine_path = info.get("spinePath", "")
@@ -2594,10 +2823,11 @@ def base_source_info_for_cute(
     normal_package: str,
     normal: dict[str, Any] | None,
     official_index: dict[str, dict[str, Any]],
+    skin_entry: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     if normal:
         return dict(normal)
-    _, source_info = get_source_sprite(name, normal_package, official_index)
+    _, source_info = get_source_sprite(name, normal_package, official_index, skin_entry)
     return source_info
 
 
@@ -2607,18 +2837,21 @@ def build_cute_variants(
     official_index: dict[str, dict[str, Any]],
 ) -> list[dict[str, Any]]:
     normal_by_package = {pet["packageName"]: pet for pet in pets}
-    names_by_package = catalog_names_by_package(catalog)
+    package_lookup = catalog_package_lookup(catalog, official_index)
     variants: list[dict[str, Any]] = []
 
     for package_dir in sorted(PETS_DIR.glob(f"{CUTE_PACKAGE_PREFIX}*")):
         if not package_dir.is_dir():
             continue
         package_name = package_dir.name
-        normal_package = "9Pets-" + package_name.removeprefix(CUTE_PACKAGE_PREFIX)
-        normal = normal_by_package.get(normal_package)
-        name = names_by_package.get(normal_package) or (normal["displayName"] if normal else "")
-        if not name:
+        package_info = package_lookup.get(package_name)
+        if not package_info:
             continue
+        name = str(package_info["name"])
+        skin_name = str(package_info["skinName"])
+        skin_entry = package_info.get("skinEntry")
+        normal_package = str(package_info["normalPackageName"])
+        normal = normal_by_package.get(normal_package)
 
         pet_json_path = package_dir / "pet.json"
         if pet_json_path.exists():
@@ -2626,7 +2859,7 @@ def build_cute_variants(
         else:
             pet_json = {
                 "id": pet_id_from_package(package_name),
-                "displayName": f"9Pets Cute - {name}",
+                "displayName": f"9Pets Cute - {name} - {skin_name}",
             }
 
         spritesheet = SPRITESHEET_DIR / f"{package_name}.webp"
@@ -2638,8 +2871,13 @@ def build_cute_variants(
 
         detail_path = f"assets/detail-spritesheets/{package_name}.webp" if detail_spritesheet.exists() else ""
         source_image = make_cute_source_art(package_name, detail_spritesheet if detail_spritesheet.exists() else spritesheet)
-        base_info = base_source_info_for_cute(name, normal_package, normal, official_index)
-        source_info = cute_source_info(base_info, package_name, source_image or f"assets/previews/{package_name}.png")
+        base_info = base_source_info_for_cute(name, normal_package, normal, official_index, skin_entry if isinstance(skin_entry, dict) else None)
+        source_info = cute_source_info(
+            base_info,
+            package_name,
+            source_image or f"assets/previews/{package_name}.png",
+            str(package_info["legacyCutePackageName"]),
+        )
         variants.append(
             {
                 "id": pet_json.get("id", pet_id_from_package(package_name)),
@@ -2647,6 +2885,7 @@ def build_cute_variants(
                 "normalPackageName": normal_package,
                 "normalId": normal["id"] if normal else pet_id_from_package(normal_package),
                 "displayName": name,
+                "skinDisplayName": "" if is_default_skin_name(skin_name) else f"-- {skin_name}",
                 "variantType": "cute",
                 "variantLabel": "Cute",
                 "download": f"downloads/{package_name}.zip",
@@ -2666,6 +2905,8 @@ def build_cute_variants(
                 "cubismUrl": source_info["cubismUrl"],
                 "birthday": source_info["birthday"],
                 "skinName": source_info["skinName"],
+                "isDefaultSkin": source_info["isDefaultSkin"],
+                "skinDescription": source_info.get("skinDescription", ""),
                 "matchedName": source_info["matchedName"],
                 "live2dCacheStatus": source_info["live2dCacheStatus"],
                 "animationMode": source_info["animationMode"],
@@ -2678,49 +2919,76 @@ def build_cute_variants(
             }
         )
 
-    return variants
+    return sorted(variants, key=package_sort_key)
 
 
-def build_pet(item: dict[str, Any], official_index: dict[str, dict[str, Any]]) -> dict[str, Any]:
+def build_pet(
+    item: dict[str, Any],
+    official_index: dict[str, dict[str, Any]],
+    skin_entry: dict[str, Any] | None = None,
+) -> dict[str, Any]:
     name = item["name"]
-    package_name = f"9Pets-{slug_suffix(name)}"
+    if skin_entry is None:
+        skin_entry = default_skin_entry(official_skin_entries(name, official_index))
+    skin_name = skin_name_from_entry(skin_entry or {})
+    package_name = package_name_for(name, skin_name)
+    profile_package_name = base_profile_package_name(name)
     package_dir = PETS_DIR / package_name
     package_dir.mkdir(parents=True, exist_ok=True)
 
-    sprite, source_info = get_source_sprite(name, package_name, official_index)
+    sprite, source_info = get_source_sprite(name, package_name, official_index, skin_entry)
+    requires_live2d_skin = (
+        not source_info["isDefaultSkin"]
+        and package_name not in NORMAL_SPINE_OVERRIDE_PACKAGES
+    )
+    if requires_live2d_skin and not live2d_model_cached(source_info.get("cubismPath", "")):
+        raise RuntimeError(
+            f"{package_name} requires a cached skin Live2D Cubism source; "
+            f"mapped path is {source_info.get('cubismPath') or 'empty'}"
+        )
+
     live2d_frames = None
     if package_name not in NORMAL_SPINE_OVERRIDE_PACKAGES:
-        live2d_frames = render_live2d_frames(package_name, source_info.get("cubismPath", ""))
-    spine_frames = None if live2d_frames else render_spine_frames(package_name, source_info.get("spinePath", ""))
+        live2d_frames = render_live2d_frames(package_name, source_info.get("cubismPath", ""), profile_package_name)
+    spine_frames = None
     detail_atlas: Image.Image | None = None
     detail_atlas_scale = 1
     if live2d_frames:
         try:
             atlas = make_atlas_from_live2d_frames(live2d_frames)
-            detail_atlas_scale = detail_atlas_scale_for(package_name)
+            detail_atlas_scale = detail_atlas_scale_for(package_name, profile_package_name)
             detail_atlas = make_atlas_from_live2d_frames(live2d_frames, cell_scale=detail_atlas_scale)
             source_info["animationMode"] = "official-live2d-cubism"
             source_info["animationModeLabel"] = "Official Live2D Cubism motion capture"
             source_info["live2dCacheStatus"] = "rendered"
         except Exception as error:
             print(f"Live2D atlas compose failed for {package_name}: {error}", flush=True)
+            if requires_live2d_skin:
+                raise
             atlas = make_atlas(sprite)
             source_info["live2dCacheStatus"] = "compose-failed"
             detail_atlas_scale = 1
     elif spine_frames:
         try:
             atlas = make_atlas_from_live2d_frames(spine_frames)
-            detail_atlas_scale = detail_atlas_scale_for(package_name)
+            detail_atlas_scale = detail_atlas_scale_for(package_name, profile_package_name)
             detail_atlas = make_atlas_from_live2d_frames(spine_frames, cell_scale=detail_atlas_scale)
             source_info["animationMode"] = "official-spine"
             source_info["animationModeLabel"] = "Official Spine motion capture"
             source_info["live2dCacheStatus"] = "spine-rendered"
         except Exception as error:
             print(f"Spine atlas compose failed for {package_name}: {error}", flush=True)
+            if requires_live2d_skin:
+                raise
             atlas = make_atlas(sprite)
             source_info["live2dCacheStatus"] = "spine-compose-failed"
             detail_atlas_scale = 1
     else:
+        if requires_live2d_skin:
+            raise RuntimeError(
+                f"{package_name} requires rendered skin Live2D frames; "
+                f"cache status is {source_info.get('live2dCacheStatus')}"
+            )
         atlas = make_atlas(sprite)
 
     spritesheet_path = package_dir / "spritesheet.webp"
@@ -2747,6 +3015,7 @@ def build_pet(item: dict[str, Any], official_index: dict[str, dict[str, Any]]) -
         "id": pet_json["id"],
         "packageName": package_name,
         "displayName": name,
+        "skinDisplayName": "" if source_info["isDefaultSkin"] else f"-- {source_info['skinName']}",
         "download": f"downloads/{package_name}.zip",
         "preview": f"assets/previews/{package_name}.png",
         "spritesheet": f"assets/spritesheets/{package_name}.webp",
@@ -2764,6 +3033,8 @@ def build_pet(item: dict[str, Any], official_index: dict[str, dict[str, Any]]) -
         "cubismUrl": source_info["cubismUrl"],
         "birthday": source_info["birthday"],
         "skinName": source_info["skinName"],
+        "isDefaultSkin": source_info["isDefaultSkin"],
+        "skinDescription": source_info.get("skinDescription", ""),
         "matchedName": source_info["matchedName"],
         "live2dCacheStatus": source_info["live2dCacheStatus"],
         "animationMode": source_info["animationMode"],
@@ -2783,22 +3054,30 @@ def build_pet(item: dict[str, Any], official_index: dict[str, dict[str, Any]]) -
     }
 
 
-def build_cute_pet(item: dict[str, Any], official_index: dict[str, dict[str, Any]]) -> str:
+def build_cute_pet(
+    item: dict[str, Any],
+    official_index: dict[str, dict[str, Any]],
+    skin_entry: dict[str, Any] | None = None,
+) -> str:
     name = item["name"]
-    normal_package_name = f"9Pets-{slug_suffix(name)}"
-    package_name = f"{CUTE_PACKAGE_PREFIX}{slug_suffix(name)}"
+    if skin_entry is None:
+        skin_entry = default_skin_entry(official_skin_entries(name, official_index))
+    skin_name = skin_name_from_entry(skin_entry or {})
+    normal_package_name = package_name_for(name, skin_name)
+    package_name = package_name_for(name, skin_name, cute=True)
+    profile_package_name = base_profile_package_name(name, cute=True)
     package_dir = PETS_DIR / package_name
     package_dir.mkdir(parents=True, exist_ok=True)
 
-    _, source_info = get_source_sprite(name, normal_package_name, official_index)
-    source_info = cute_source_info(source_info, package_name, f"assets/source/{package_name}.png")
+    _, source_info = get_source_sprite(name, normal_package_name, official_index, skin_entry)
+    source_info = cute_source_info(source_info, package_name, f"assets/source/{package_name}.png", profile_package_name)
 
-    spine_frames = render_spine_frames(package_name, source_info.get("spinePath", ""))
+    spine_frames = render_spine_frames(package_name, source_info.get("spinePath", ""), profile_package_name)
     if not spine_frames:
         raise RuntimeError(f"No audited cute Spine render profile is available for {package_name}")
 
     atlas = make_atlas_from_live2d_frames(spine_frames)
-    detail_atlas_scale = detail_atlas_scale_for(package_name)
+    detail_atlas_scale = detail_atlas_scale_for(package_name, profile_package_name)
     detail_atlas = make_atlas_from_live2d_frames(spine_frames, cell_scale=detail_atlas_scale)
 
     spritesheet_path = package_dir / "spritesheet.webp"
@@ -2821,6 +3100,78 @@ def build_cute_pet(item: dict[str, Any], official_index: dict[str, dict[str, Any
     return package_name
 
 
+def migrate_default_cute_pet(item: dict[str, Any], official_index: dict[str, dict[str, Any]]) -> str | None:
+    name = item["name"]
+    skin_entry = default_skin_entry(official_skin_entries(name, official_index))
+    if not skin_entry:
+        return None
+
+    skin_name = skin_name_from_entry(skin_entry)
+    legacy_package = legacy_package_name_for(name, cute=True)
+    package_name = package_name_for(name, skin_name, cute=True)
+    if legacy_package == package_name:
+        return package_name
+
+    package_dir = PETS_DIR / package_name
+    legacy_dir = PETS_DIR / legacy_package
+    spritesheet_path = package_dir / "spritesheet.webp"
+    legacy_spritesheet_path = legacy_dir / "spritesheet.webp"
+    if not legacy_spritesheet_path.exists() and not spritesheet_path.exists():
+        return None
+
+    package_dir.mkdir(parents=True, exist_ok=True)
+    if legacy_spritesheet_path.exists():
+        shutil.copy2(legacy_spritesheet_path, spritesheet_path)
+
+    docs_spritesheet = SPRITESHEET_DIR / f"{package_name}.webp"
+    legacy_docs_spritesheet = SPRITESHEET_DIR / f"{legacy_package}.webp"
+    if legacy_docs_spritesheet.exists():
+        shutil.copy2(legacy_docs_spritesheet, docs_spritesheet)
+    elif spritesheet_path.exists():
+        shutil.copy2(spritesheet_path, docs_spritesheet)
+
+    docs_detail_spritesheet = DETAIL_SPRITESHEET_DIR / f"{package_name}.webp"
+    legacy_docs_detail_spritesheet = DETAIL_SPRITESHEET_DIR / f"{legacy_package}.webp"
+    if legacy_docs_detail_spritesheet.exists():
+        docs_detail_spritesheet.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(legacy_docs_detail_spritesheet, docs_detail_spritesheet)
+
+    _, source_info = get_source_sprite(name, package_name_for(name, skin_name), official_index, skin_entry)
+    source_info = cute_source_info(source_info, package_name, f"assets/source/{package_name}.png", legacy_package)
+    pet_json = make_pet_json(package_name, name, source_info)
+    (package_dir / "pet.json").write_text(json.dumps(pet_json, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    preview_path = PREVIEW_DIR / f"{package_name}.png"
+    with Image.open(spritesheet_path) as atlas_file:
+        make_preview_from_atlas(atlas_file.convert("RGBA"), preview_path)
+
+    source_atlas = docs_detail_spritesheet if docs_detail_spritesheet.exists() else docs_spritesheet
+    make_cute_source_art(package_name, source_atlas)
+    write_zip(package_name, pet_json, spritesheet_path, DOWNLOAD_DIR / f"{package_name}.zip", source_info)
+
+    if legacy_dir.exists():
+        shutil.rmtree(legacy_dir)
+    for legacy_file in [
+        SOURCE_DIR / f"{legacy_package}.png",
+        SPRITESHEET_DIR / f"{legacy_package}.webp",
+        DETAIL_SPRITESHEET_DIR / f"{legacy_package}.webp",
+        PREVIEW_DIR / f"{legacy_package}.png",
+        DOWNLOAD_DIR / f"{legacy_package}.zip",
+    ]:
+        legacy_file.unlink(missing_ok=True)
+
+    return package_name
+
+
+def migrate_default_cute_pets(catalog: dict[str, Any], official_index: dict[str, dict[str, Any]]) -> list[str]:
+    migrated: list[str] = []
+    for item in catalog["characters"]:
+        package_name = migrate_default_cute_pet(item, official_index)
+        if package_name:
+            migrated.append(package_name)
+    return migrated
+
+
 def find_catalog_item(catalog: dict[str, Any], selector: str) -> dict[str, Any]:
     selector_key = selector
     if selector_key.startswith(CUTE_PACKAGE_PREFIX):
@@ -2830,16 +3181,61 @@ def find_catalog_item(catalog: dict[str, Any], selector: str) -> dict[str, Any]:
     normalized_selector = normalized_lookup_name(selector_key)
     for item in catalog["characters"]:
         name = item["name"]
-        package_name = f"9Pets-{slug_suffix(name)}"
+        package_name = package_name_for(name, DEFAULT_SKIN_NAME)
+        legacy_package_name = legacy_package_name_for(name)
         candidates = {
             normalized_lookup_name(name),
             normalized_lookup_name(slug_suffix(name)),
             normalized_lookup_name(package_name),
+            normalized_lookup_name(legacy_package_name),
             normalized_lookup_name(pet_id_from_package(package_name)),
+            normalized_lookup_name(pet_id_from_package(legacy_package_name)),
         }
-        if normalized_selector in candidates:
+        base_slug = normalized_lookup_name(slug_suffix(name))
+        if normalized_selector in candidates or normalized_selector.startswith(base_slug):
             return item
     raise RuntimeError(f"No catalog character matches --only {selector}")
+
+
+def find_skin_entry(
+    item: dict[str, Any],
+    official_index: dict[str, dict[str, Any]],
+    selector: str | None = None,
+    explicit_skin: str | None = None,
+    *,
+    cute: bool = False,
+) -> dict[str, Any] | None:
+    skins = official_skin_entries(item["name"], official_index)
+    if not skins:
+        return None
+    if explicit_skin:
+        normalized_skin = normalized_lookup_name(explicit_skin)
+        for skin in skins:
+            skin_name = skin_name_from_entry(skin)
+            candidates = {
+                normalized_lookup_name(skin_name),
+                normalized_lookup_name(slug_suffix(skin_name)),
+                str(skin.get("id", "")),
+            }
+            if normalized_skin in candidates:
+                return skin
+        raise RuntimeError(f"No skin named {explicit_skin!r} for {item['name']}")
+
+    if selector:
+        normalized_selector = normalized_lookup_name(selector)
+        for skin in skins:
+            skin_name = skin_name_from_entry(skin)
+            package_name = package_name_for(item["name"], skin_name, cute=cute)
+            candidates = {
+                normalized_lookup_name(package_name),
+                normalized_lookup_name(pet_id_from_package(package_name)),
+                normalized_lookup_name(f"{slug_suffix(item['name'])}-{slug_suffix(skin_name)}"),
+                str(skin.get("id", "")),
+            }
+            if normalized_selector in candidates:
+                return skin
+
+    return default_skin_entry(skins)
 
 
 def write_site_data(site_data: dict[str, Any]) -> None:
@@ -2849,7 +3245,7 @@ def write_site_data(site_data: dict[str, Any]) -> None:
     (DATA_DIR / "pets-data.js").write_text(data_js, encoding="utf-8")
 
 
-def build(only: str | None = None, cute_only: str | None = None) -> None:
+def build(only: str | None = None, cute_only: str | None = None, skin: str | None = None) -> None:
     if only and cute_only:
         raise RuntimeError("Use either --only or --cute-only, not both.")
 
@@ -2864,11 +3260,12 @@ def build(only: str | None = None, cute_only: str | None = None) -> None:
             raise RuntimeError("Single-character cute builds require existing docs/data/pets.json")
         site_data = json.loads(site_data_path.read_text(encoding="utf-8"))
         item = find_catalog_item(catalog, cute_only)
-        package_name = build_cute_pet(item, official_index)
+        skin_entry = find_skin_entry(item, official_index, cute_only, skin, cute=True)
+        package_name = build_cute_pet(item, official_index, skin_entry)
         pets = visible_normal_pets(site_data.get("pets", []))
         site_data["generatedAt"] = generated_at
         site_data["total"] = len(pets)
-        site_data["pets"] = pets
+        site_data["pets"] = sorted(pets, key=package_sort_key)
         cute_variants = build_cute_variants(pets, catalog, official_index)
         site_data["cuteTotal"] = len(cute_variants)
         site_data["cuteVariants"] = cute_variants
@@ -2884,7 +3281,12 @@ def build(only: str | None = None, cute_only: str | None = None) -> None:
             raise RuntimeError("Single-character builds require existing docs/data/pets.json")
         site_data = json.loads(site_data_path.read_text(encoding="utf-8"))
         item = find_catalog_item(catalog, only)
-        pet_entry = build_pet(item, official_index)
+        skin_entry = find_skin_entry(item, official_index, only, skin)
+        target_package_name = package_name_for(item["name"], skin_name_from_entry(skin_entry or {}))
+        skip_reason = normal_skin_skip_reason(item["name"], official_index, skin_entry)
+        if skip_reason:
+            raise RuntimeError(f"{target_package_name} is {skip_reason}")
+        pet_entry = build_pet(item, official_index, skin_entry)
         pets = [
             pet
             for pet in visible_normal_pets(site_data.get("pets", []))
@@ -2894,7 +3296,7 @@ def build(only: str | None = None, cute_only: str | None = None) -> None:
             pets.append(pet_entry)
         site_data["generatedAt"] = generated_at
         site_data["total"] = len(pets)
-        site_data["pets"] = pets
+        site_data["pets"] = sorted(pets, key=package_sort_key)
         cute_variants = build_cute_variants(pets, catalog, official_index)
         site_data["cuteTotal"] = len(cute_variants)
         site_data["cuteVariants"] = cute_variants
@@ -2915,14 +3317,25 @@ def build(only: str | None = None, cute_only: str | None = None) -> None:
     pets: list[dict[str, Any]] = []
 
     for index, item in enumerate(catalog["characters"], start=1):
-        package_name = f"9Pets-{slug_suffix(item['name'])}"
-        if is_hidden_normal_package(package_name):
-            print(f"[{index}/{len(catalog['characters'])}] skipped hidden normal {package_name}", flush=True)
-            continue
-        pet_entry = build_pet(item, official_index)
-        pets.append(pet_entry)
+        skins = official_skin_entries(item["name"], official_index)
+        if not skins:
+            skins = [{"id": "", "characterSkinNameEng": DEFAULT_SKIN_NAME}]
+        for skin_entry in skins:
+            skin_name = skin_name_from_entry(skin_entry)
+            package_name = package_name_for(item["name"], skin_name)
+            skip_reason = normal_skin_skip_reason(item["name"], official_index, skin_entry)
+            if skip_reason:
+                print(f"[{index}/{len(catalog['characters'])}] skipped normal {package_name}: {skip_reason}", flush=True)
+                continue
+            pet_entry = build_pet(item, official_index, skin_entry)
+            pets.append(pet_entry)
         if index == 1 or index % 10 == 0 or index == len(catalog["characters"]):
-            print(f"[{index}/{len(catalog['characters'])}] {pet_entry['packageName']}", flush=True)
+            print(f"[{index}/{len(catalog['characters'])}] {item['name']}", flush=True)
+
+    pets = sorted(pets, key=package_sort_key)
+    migrated_cute = migrate_default_cute_pets(catalog, official_index)
+    if migrated_cute:
+        print(f"Migrated {len(migrated_cute)} default cute packages to -Default names", flush=True)
 
     site_data = {
         "generatedAt": generated_at,
@@ -2946,5 +3359,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Build 9Pets packages and GitHub Pages site assets.")
     parser.add_argument("--only", help="Build one character by display name, package name, or pet id.")
     parser.add_argument("--cute-only", help="Build one cute/chibi variant by display name, normal package name, or pet id.")
+    parser.add_argument("--skin", help="Build a specific skin by skin display name, skin slug, or asset id.")
     args = parser.parse_args()
-    build(only=args.only, cute_only=args.cute_only)
+    build(only=args.only, cute_only=args.cute_only, skin=args.skin)

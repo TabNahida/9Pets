@@ -20,6 +20,7 @@ const STATES = [
 
 const els = {
   title: document.querySelector("#detailTitle"),
+  skin: document.querySelector("#detailSkin"),
   eyebrow: document.querySelector("#detailEyebrow"),
   summary: document.querySelector("#detailSummary"),
   sprite: document.querySelector("#detailSprite"),
@@ -166,11 +167,13 @@ function renderPet(data, pet) {
   const packageSize = formatBytes(pet.packageBytes);
   const source = sourceLabel(pet.sourceType);
   const variant = pet.variantType === "cute" ? "Cute" : "Normal";
+  const skinDisplay = pet.skinDisplayName || "";
   const animationMode = pet.animationModeLabel || pet.animationMode || "Official-art atlas";
   const summary = pet.characterSummary || `A Reverse: 1999 Codex pet package for ${pet.displayName}, built from official game asset-dump artwork and packaged for the fixed 9-state Codex pet atlas.`;
 
-  document.title = `${pet.displayName}${pet.variantType === "cute" ? " Cute" : ""} - 9Pets`;
+  document.title = `${pet.displayName}${skinDisplay ? ` ${skinDisplay}` : ""}${pet.variantType === "cute" ? " Cute" : ""} - 9Pets`;
   els.title.textContent = pet.displayName;
+  els.skin.textContent = skinDisplay;
   els.eyebrow.textContent = pet.variantType === "cute" ? "Cute official-sourced package" : `${source}-sourced package`;
   els.summary.textContent = summary;
   const catalogUrl = catalogUrlFor(pet);
