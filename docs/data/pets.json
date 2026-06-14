@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-14T20:00:01Z",
-  "total": 133,
+  "generatedAt": "2026-06-14T20:04:15Z",
+  "total": 134,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5064,6 +5064,44 @@
         "assets/spritesheets/9Pets-6-Time-and-Location.webp": "1066c436d6324bb2",
         "assets/detail-spritesheets/9Pets-6-Time-and-Location.webp": "bcfd0049cf5a82b1",
         "assets/source/9Pets-6-Time-and-Location.png": "fa30b8d7f8f9897d"
+      }
+    },
+    {
+      "id": "9pets-a-knight-the-evergreen-soul",
+      "packageName": "9Pets-A-Knight-The-Evergreen-Soul",
+      "displayName": "A Knight",
+      "skinDisplayName": "-- The Evergreen Soul",
+      "download": "downloads/9Pets-A-Knight-The-Evergreen-Soul.zip",
+      "preview": "assets/previews/9Pets-A-Knight-The-Evergreen-Soul.png",
+      "spritesheet": "assets/spritesheets/9Pets-A-Knight-The-Evergreen-Soul.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-A-Knight-The-Evergreen-Soul.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/300731.png",
+      "sourceImage": "assets/source/9Pets-A-Knight-The-Evergreen-Soul.png",
+      "sourceRepoPath": "singlebg/headicon_img/300731.png",
+      "assetId": "300731",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a1_300731_wxk",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a1_300731_wxk",
+      "cubismPath": "live2d/roles/v3a1_300731_wxk",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a1_300731_wxk",
+      "birthday": "2/29",
+      "skinName": "The Evergreen Soul",
+      "isDefaultSkin": false,
+      "skinDescription": "当墓碑覆上绿色，生命再一次战胜了命运。",
+      "matchedName": "A Knight",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "A Knight is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 300731 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1517233,
+      "assetVersions": {
+        "downloads/9Pets-A-Knight-The-Evergreen-Soul.zip": "76618bfe2366d200",
+        "assets/previews/9Pets-A-Knight-The-Evergreen-Soul.png": "ae8a09e6a69553d0",
+        "assets/spritesheets/9Pets-A-Knight-The-Evergreen-Soul.webp": "284f17a45b57622e",
+        "assets/detail-spritesheets/9Pets-A-Knight-The-Evergreen-Soul.webp": "fd4752f6f380a514",
+        "assets/source/9Pets-A-Knight-The-Evergreen-Soul.png": "4fe8e0b97c22d4e7"
       }
     }
   ],
