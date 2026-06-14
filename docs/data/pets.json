@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-14T20:11:20Z",
-  "total": 136,
+  "generatedAt": "2026-06-14T20:14:53Z",
+  "total": 137,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5178,6 +5178,44 @@
         "assets/spritesheets/9Pets-Aleph-Infinitude.webp": "4c8fc5f51846283e",
         "assets/detail-spritesheets/9Pets-Aleph-Infinitude.webp": "dd91ef60beafeaef",
         "assets/source/9Pets-Aleph-Infinitude.png": "4037706d102cb883"
+      }
+    },
+    {
+      "id": "9pets-alexios-second-conquest",
+      "packageName": "9Pets-Alexios-Second-Conquest",
+      "displayName": "Alexios",
+      "skinDisplayName": "-- Second Conquest",
+      "download": "downloads/9Pets-Alexios-Second-Conquest.zip",
+      "preview": "assets/previews/9Pets-Alexios-Second-Conquest.png",
+      "spritesheet": "assets/spritesheets/9Pets-Alexios-Second-Conquest.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Alexios-Second-Conquest.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/312202.png",
+      "sourceImage": "assets/source/9Pets-Alexios-Second-Conquest.png",
+      "sourceRepoPath": "singlebg/headicon_img/312202.png",
+      "assetId": "312202",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/s01_312202_alkxos",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/s01_312202_alkxos",
+      "cubismPath": "live2d/roles/s01_312202_alexios",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/s01_312202_alexios",
+      "birthday": "8/7",
+      "skinName": "Second Conquest",
+      "isDefaultSkin": false,
+      "skinDescription": "某些人的日子注定下沉，他的日子注定上升。",
+      "matchedName": "Alexios",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Alexios is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 312202 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1175038,
+      "assetVersions": {
+        "downloads/9Pets-Alexios-Second-Conquest.zip": "4bb186e2538e3df5",
+        "assets/previews/9Pets-Alexios-Second-Conquest.png": "9d9858370c724d74",
+        "assets/spritesheets/9Pets-Alexios-Second-Conquest.webp": "93b0df2f3877d4d3",
+        "assets/detail-spritesheets/9Pets-Alexios-Second-Conquest.webp": "305a9e462d670e7c",
+        "assets/source/9Pets-Alexios-Second-Conquest.png": "f82a08f873f0b6ab"
       }
     }
   ],
