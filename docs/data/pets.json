@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-14T19:47:52Z",
-  "total": 132,
+  "generatedAt": "2026-06-14T20:00:01Z",
+  "total": 133,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -4912,6 +4912,44 @@
         "assets/spritesheets/9Pets-37-Happy-Bird-Catcher.webp": "c4bbb8ee47ac7073",
         "assets/detail-spritesheets/9Pets-37-Happy-Bird-Catcher.webp": "5d0761da0a5b51ed",
         "assets/source/9Pets-37-Happy-Bird-Catcher.png": "ea14cb3f05e5887e"
+      }
+    },
+    {
+      "id": "9pets-6-a-hymn-to-seclusion",
+      "packageName": "9Pets-6-A-Hymn-to-Seclusion",
+      "displayName": "6",
+      "skinDisplayName": "-- A Hymn to Seclusion",
+      "download": "downloads/9Pets-6-A-Hymn-to-Seclusion.zip",
+      "preview": "assets/previews/9Pets-6-A-Hymn-to-Seclusion.png",
+      "spritesheet": "assets/spritesheets/9Pets-6-A-Hymn-to-Seclusion.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-6-A-Hymn-to-Seclusion.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/307905.png",
+      "sourceImage": "assets/source/9Pets-6-A-Hymn-to-Seclusion.png",
+      "sourceRepoPath": "singlebg/headicon_img/307905.png",
+      "assetId": "307905",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a4_307905_6",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a4_307905_6",
+      "cubismPath": "live2d/roles/v3a4_307905_6",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a4_307905_6",
+      "birthday": "2/13",
+      "skinName": "A Hymn to Seclusion",
+      "isDefaultSkin": false,
+      "skinDescription": "孤独是一汪池塘，你的心即是泉眼。",
+      "matchedName": "Six",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "6 is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 307905 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1018419,
+      "assetVersions": {
+        "downloads/9Pets-6-A-Hymn-to-Seclusion.zip": "7bc2f4a32d5034fb",
+        "assets/previews/9Pets-6-A-Hymn-to-Seclusion.png": "8add21b33cdef1e0",
+        "assets/spritesheets/9Pets-6-A-Hymn-to-Seclusion.webp": "3b67e28ff8c6caac",
+        "assets/detail-spritesheets/9Pets-6-A-Hymn-to-Seclusion.webp": "0f593c2c1cf56115",
+        "assets/source/9Pets-6-A-Hymn-to-Seclusion.png": "bd1fb7e9ffdaf136"
       }
     },
     {
