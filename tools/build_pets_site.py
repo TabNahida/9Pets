@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import math
 import os
@@ -2830,6 +2831,42 @@ def detail_atlas_scale_from_file(path: Path) -> int:
         return max(1, image.width // expected_width)
 
 
+def is_local_site_asset(url: str) -> bool:
+    return bool(url) and not re.match(r"^(?:[a-z][a-z\d+\-.]*:|#|//)", str(url), flags=re.I)
+
+
+def site_asset_path(url: str) -> Path:
+    clean_url = str(url).split("#", 1)[0].split("?", 1)[0]
+    return DOCS_DIR / clean_url
+
+
+def asset_fingerprint(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()[:16]
+
+
+def asset_versions_for_entry(entry: dict[str, Any]) -> dict[str, str]:
+    versions: dict[str, str] = {}
+    for field in ("download", "preview", "spritesheet", "detailSpritesheet", "sourceImage"):
+        url = str(entry.get(field) or "")
+        if not is_local_site_asset(url):
+            continue
+        path = site_asset_path(url)
+        if path.exists() and path.is_file():
+            versions[url] = asset_fingerprint(path)
+    return versions
+
+
+def attach_asset_versions(site_data: dict[str, Any]) -> None:
+    for collection_name in ("pets", "cuteVariants"):
+        for entry in site_data.get(collection_name, []):
+            if isinstance(entry, dict):
+                entry["assetVersions"] = asset_versions_for_entry(entry)
+
+
 def is_hidden_normal_package(package_name: str) -> bool:
     if package_name in HIDDEN_NORMAL_PACKAGES:
         return True
@@ -3389,6 +3426,7 @@ def find_skin_entry(
 
 def write_site_data(site_data: dict[str, Any]) -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
+    attach_asset_versions(site_data)
     (DATA_DIR / "pets.json").write_text(json.dumps(site_data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     data_js = "window.NINEPETS_DATA = " + json.dumps(site_data, ensure_ascii=False) + ";\n"
     (DATA_DIR / "pets-data.js").write_text(data_js, encoding="utf-8")

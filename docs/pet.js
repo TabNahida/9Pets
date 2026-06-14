@@ -90,7 +90,9 @@ function isLocalAssetUrl(url) {
 
 function versionedAssetUrl(url, data, pet) {
   if (!isLocalAssetUrl(url)) return url;
-  const version = [data.generatedAt, pet.packageBytes].filter(Boolean).join("-");
+  const key = String(url).split("#", 1)[0].split("?", 1)[0];
+  const assetVersion = pet.assetVersions && pet.assetVersions[key];
+  const version = assetVersion || [data.generatedAt, pet.packageBytes].filter(Boolean).join("-");
   if (!version) return url;
   const value = String(url);
   const hashIndex = value.indexOf("#");

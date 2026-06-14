@@ -112,6 +112,8 @@ def main() -> None:
 
     for pet in pets:
         package = pet["packageName"]
+        asset_versions = pet.get("assetVersions")
+        assert_true(isinstance(asset_versions, dict), f"{package} missing asset version fingerprints")
         assert_true(pet.get("assetId"), f"{package} missing official asset id")
         assert_true(pet.get("sourceImage"), f"{package} missing source image metadata")
         assert_true("animationMode" in pet, f"{package} missing animation mode")
@@ -129,6 +131,10 @@ def main() -> None:
         check_spritesheet(ROOT / "docs" / pet["spritesheet"])
         if pet.get("detailSpritesheet"):
             check_detail_spritesheet(ROOT / "docs" / pet["detailSpritesheet"], int(pet.get("detailAtlasScale") or 1))
+        for field in ("download", "preview", "spritesheet", "detailSpritesheet", "sourceImage"):
+            url = pet.get(field)
+            if url:
+                assert_true(url in asset_versions, f"{package} missing asset fingerprint for {field}")
         assert_true((ROOT / "docs" / pet["sourceImage"]).exists(), f"{package} missing official source image")
         assert_true((ROOT / "docs" / pet["preview"]).exists(), f"{package} missing preview")
         check_zip(ROOT / "docs" / pet["download"], package)
@@ -145,6 +151,8 @@ def main() -> None:
 
     for variant in cute_variants:
         package = variant["packageName"]
+        asset_versions = variant.get("assetVersions")
+        assert_true(isinstance(asset_versions, dict), f"{package} missing asset version fingerprints")
         assert_true(variant.get("variantType") == "cute", f"{package} missing cute variant type")
         if variant.get("normalPackageName") not in HIDDEN_NORMAL_PACKAGES:
             assert_true(variant.get("normalId") in normal_ids, f"{package} points to an unknown normal pet")
@@ -154,6 +162,10 @@ def main() -> None:
         check_spritesheet(ROOT / "docs" / variant["spritesheet"])
         if variant.get("detailSpritesheet"):
             check_detail_spritesheet(ROOT / "docs" / variant["detailSpritesheet"], int(variant.get("detailAtlasScale") or 1))
+        for field in ("download", "preview", "spritesheet", "detailSpritesheet", "sourceImage"):
+            url = variant.get(field)
+            if url:
+                assert_true(url in asset_versions, f"{package} missing asset fingerprint for {field}")
         assert_true((ROOT / "docs" / variant["sourceImage"]).exists(), f"{package} missing cute source art")
         assert_true((ROOT / "docs" / variant["preview"]).exists(), f"{package} missing preview")
         check_zip(ROOT / "docs" / variant["download"], package)

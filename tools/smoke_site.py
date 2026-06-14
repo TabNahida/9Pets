@@ -144,6 +144,10 @@ def playwright_smoke(base_url: str) -> None:
 
         for pet_id, title_text, spritesheet in [
             ("9pets-37-default", "37", "detail-spritesheets/9Pets-37-Default.webp"),
+            ("9pets-37-a-gift-of-nourishment", "37", "detail-spritesheets/9Pets-37-A-Gift-of-Nourishment.webp"),
+            ("9pets-37-a-prime-number", "37", "detail-spritesheets/9Pets-37-A-Prime-Number.webp"),
+            ("9pets-37-down-in-the-grotto", "37", "detail-spritesheets/9Pets-37-Down-in-the-Grotto.webp"),
+            ("9pets-37-happy-bird-catcher", "37", "detail-spritesheets/9Pets-37-Happy-Bird-Catcher.webp"),
             ("9pets-alien-t-default", "aliEn T", "spritesheets/9Pets-aliEn-T-Default.webp"),
             ("9pets-an-an-lee-default", "An-an Lee", "detail-spritesheets/9Pets-An-an-Lee-Default.webp"),
             ("9pets-anjo-nala-default", "Anjo Nala", "detail-spritesheets/9Pets-Anjo-Nala-Default.webp"),
@@ -159,6 +163,16 @@ def playwright_smoke(base_url: str) -> None:
             sprite_image = detail.locator(".detail-sprite").evaluate("node => getComputedStyle(node).backgroundImage")
             if spritesheet not in sprite_image:
                 raise AssertionError(f"detail page did not use {spritesheet}")
+            expected_version = detail.evaluate(
+                """petId => {
+                    const pet = window.NINEPETS_DATA.pets.find((item) => item.id === petId);
+                    const key = pet.detailSpritesheet || pet.spritesheet;
+                    return pet.assetVersions && pet.assetVersions[key];
+                }""",
+                pet_id,
+            )
+            if expected_version and expected_version not in sprite_image:
+                raise AssertionError(f"detail page did not use the asset fingerprint for {title_text}")
             assert_detail_sprite_framed(detail, title_text)
             detail.get_by_role("button", name="Wave").click()
             if "active" not in (detail.get_by_role("button", name="Wave").get_attribute("class") or ""):
