@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-14T20:18:43Z",
-  "total": 138,
+  "generatedAt": "2026-06-14T20:22:12Z",
+  "total": 139,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5216,6 +5216,44 @@
         "assets/spritesheets/9Pets-Alexios-Second-Conquest.webp": "93b0df2f3877d4d3",
         "assets/detail-spritesheets/9Pets-Alexios-Second-Conquest.webp": "305a9e462d670e7c",
         "assets/source/9Pets-Alexios-Second-Conquest.png": "f82a08f873f0b6ab"
+      }
+    },
+    {
+      "id": "9pets-an-an-lee-between-clouds-and-pine-trees",
+      "packageName": "9Pets-An-an-Lee-Between-Clouds-and-Pine-Trees",
+      "displayName": "An-an Lee",
+      "skinDisplayName": "-- Between Clouds and Pine Trees",
+      "download": "downloads/9Pets-An-an-Lee-Between-Clouds-and-Pine-Trees.zip",
+      "preview": "assets/previews/9Pets-An-an-Lee-Between-Clouds-and-Pine-Trees.png",
+      "spritesheet": "assets/spritesheets/9Pets-An-an-Lee-Between-Clouds-and-Pine-Trees.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-An-an-Lee-Between-Clouds-and-Pine-Trees.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/303903.png",
+      "sourceImage": "assets/source/9Pets-An-an-Lee-Between-Clouds-and-Pine-Trees.png",
+      "sourceRepoPath": "singlebg/headicon_img/303903.png",
+      "assetId": "303903",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a6_303903_nmds",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a6_303903_nmds",
+      "cubismPath": "live2d/roles/v1a6_303903_nmds",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a6_303903_nmds",
+      "birthday": "7/27",
+      "skinName": "Between Clouds and Pine Trees",
+      "isDefaultSkin": false,
+      "skinDescription": "无锋之剑？恰到好处。",
+      "matchedName": "An-an Lee",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "An-an Lee is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 303903 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1524134,
+      "assetVersions": {
+        "downloads/9Pets-An-an-Lee-Between-Clouds-and-Pine-Trees.zip": "d9948de7b08367b2",
+        "assets/previews/9Pets-An-an-Lee-Between-Clouds-and-Pine-Trees.png": "d8596d31febc8bd6",
+        "assets/spritesheets/9Pets-An-an-Lee-Between-Clouds-and-Pine-Trees.webp": "fc298785eb64d6a1",
+        "assets/detail-spritesheets/9Pets-An-an-Lee-Between-Clouds-and-Pine-Trees.webp": "54a5aa7de9bb420d",
+        "assets/source/9Pets-An-an-Lee-Between-Clouds-and-Pine-Trees.png": "8420c75a28228154"
       }
     },
     {
