@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T01:11:41Z",
-  "total": 154,
+  "generatedAt": "2026-06-15T01:15:01Z",
+  "total": 155,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5824,6 +5824,44 @@
         "assets/spritesheets/9Pets-Buddy-Fairchild-A-Ceremony-Among-Friends.webp": "87807433c574e6b6",
         "assets/detail-spritesheets/9Pets-Buddy-Fairchild-A-Ceremony-Among-Friends.webp": "c711181d4d04b9ac",
         "assets/source/9Pets-Buddy-Fairchild-A-Ceremony-Among-Friends.png": "8f08ef89ff4931de"
+      }
+    },
+    {
+      "id": "9pets-charon-gift-of-the-dead",
+      "packageName": "9Pets-Charon-Gift-of-the-Dead",
+      "displayName": "Charon",
+      "skinDisplayName": "-- Gift of the Dead",
+      "download": "downloads/9Pets-Charon-Gift-of-the-Dead.zip",
+      "preview": "assets/previews/9Pets-Charon-Gift-of-the-Dead.png",
+      "spritesheet": "assets/spritesheets/9Pets-Charon-Gift-of-the-Dead.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Charon-Gift-of-the-Dead.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/312803.png",
+      "sourceImage": "assets/source/9Pets-Charon-Gift-of-the-Dead.png",
+      "sourceRepoPath": "singlebg/headicon_img/312803.png",
+      "assetId": "312803",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a7_312803_kr",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a7_312803_kr",
+      "cubismPath": "live2d/roles/v3a7_312803_kr",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a7_312803_kr",
+      "birthday": "6/27",
+      "skinName": "Gift of the Dead",
+      "isDefaultSkin": false,
+      "skinDescription": "北风拂过幽冥的死地，而他以羽翼为缰绳。",
+      "matchedName": "Charon",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Charon is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 312803 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1453832,
+      "assetVersions": {
+        "downloads/9Pets-Charon-Gift-of-the-Dead.zip": "f89b50180db0cc15",
+        "assets/previews/9Pets-Charon-Gift-of-the-Dead.png": "08dcfd5300fe4569",
+        "assets/spritesheets/9Pets-Charon-Gift-of-the-Dead.webp": "23eade96f067d6d8",
+        "assets/detail-spritesheets/9Pets-Charon-Gift-of-the-Dead.webp": "bb9b3dcba62dbf89",
+        "assets/source/9Pets-Charon-Gift-of-the-Dead.png": "c7231006112db208"
       }
     },
     {
