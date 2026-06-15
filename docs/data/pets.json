@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T00:05:13Z",
-  "total": 144,
+  "generatedAt": "2026-06-15T00:08:09Z",
+  "total": 145,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5482,6 +5482,44 @@
         "assets/spritesheets/9Pets-Avgust-His-Own-Corner-on-the-Square.webp": "88c08340ac682ee6",
         "assets/detail-spritesheets/9Pets-Avgust-His-Own-Corner-on-the-Square.webp": "f327e1fcd12d59ab",
         "assets/source/9Pets-Avgust-His-Own-Corner-on-the-Square.png": "0484e3ca95e561ac"
+      }
+    },
+    {
+      "id": "9pets-barbara-a-meadow-in-her-dreams",
+      "packageName": "9Pets-Barbara-A-Meadow-in-Her-Dreams",
+      "displayName": "Barbara",
+      "skinDisplayName": "-- A Meadow in Her Dreams",
+      "download": "downloads/9Pets-Barbara-A-Meadow-in-Her-Dreams.zip",
+      "preview": "assets/previews/9Pets-Barbara-A-Meadow-in-Her-Dreams.png",
+      "spritesheet": "assets/spritesheets/9Pets-Barbara-A-Meadow-in-Her-Dreams.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Barbara-A-Meadow-in-Her-Dreams.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/309902.png",
+      "sourceImage": "assets/source/9Pets-Barbara-A-Meadow-in-Her-Dreams.png",
+      "sourceRepoPath": "singlebg/headicon_img/309902.png",
+      "assetId": "309902",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a1_309902_syg",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a1_309902_syg",
+      "cubismPath": "live2d/roles/v2a1_309902_syg",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a1_309902_syg",
+      "birthday": "7/5",
+      "skinName": "A Meadow in Her Dreams",
+      "isDefaultSkin": false,
+      "skinDescription": "一处乐园，一处无拘无束的栖所。",
+      "matchedName": "Barbara",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Barbara is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 309902 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 919907,
+      "assetVersions": {
+        "downloads/9Pets-Barbara-A-Meadow-in-Her-Dreams.zip": "80f8f0246d2be72d",
+        "assets/previews/9Pets-Barbara-A-Meadow-in-Her-Dreams.png": "abfadeac1edeb928",
+        "assets/spritesheets/9Pets-Barbara-A-Meadow-in-Her-Dreams.webp": "c676d322ca2343f1",
+        "assets/detail-spritesheets/9Pets-Barbara-A-Meadow-in-Her-Dreams.webp": "277c1f1990b5e458",
+        "assets/source/9Pets-Barbara-A-Meadow-in-Her-Dreams.png": "52c59f8b6b4cd54a"
       }
     }
   ],
