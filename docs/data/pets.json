@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T01:36:52Z",
-  "total": 162,
+  "generatedAt": "2026-06-15T01:39:54Z",
+  "total": 163,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6128,6 +6128,44 @@
         "assets/spritesheets/9Pets-Corvus-The-Warmth-She-Knitted.webp": "b43880e93c67787e",
         "assets/detail-spritesheets/9Pets-Corvus-The-Warmth-She-Knitted.webp": "4bf0fe77c075b9b2",
         "assets/source/9Pets-Corvus-The-Warmth-She-Knitted.png": "69de62f298d68920"
+      }
+    },
+    {
+      "id": "9pets-desert-flannel-call-of-the-wild",
+      "packageName": "9Pets-Desert-Flannel-Call-of-the-Wild",
+      "displayName": "Desert Flannel",
+      "skinDisplayName": "-- Call of the Wild",
+      "download": "downloads/9Pets-Desert-Flannel-Call-of-the-Wild.zip",
+      "preview": "assets/previews/9Pets-Desert-Flannel-Call-of-the-Wild.png",
+      "spritesheet": "assets/spritesheets/9Pets-Desert-Flannel-Call-of-the-Wild.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Desert-Flannel-Call-of-the-Wild.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/307503.png",
+      "sourceImage": "assets/source/9Pets-Desert-Flannel-Call-of-the-Wild.png",
+      "sourceRepoPath": "singlebg/headicon_img/307503.png",
+      "assetId": "307503",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a9_307503_shasirong",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a9_307503_shasirong",
+      "cubismPath": "live2d/roles/v1a9_307503_shasirong",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a9_307503_shasirong",
+      "birthday": "9/22",
+      "skinName": "Call of the Wild",
+      "isDefaultSkin": false,
+      "skinDescription": "再次闪耀在红土大地上。",
+      "matchedName": "Desert Flannel",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Desert Flannel is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 307503 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1107728,
+      "assetVersions": {
+        "downloads/9Pets-Desert-Flannel-Call-of-the-Wild.zip": "72051014e091f20e",
+        "assets/previews/9Pets-Desert-Flannel-Call-of-the-Wild.png": "a29cfba58c58a068",
+        "assets/spritesheets/9Pets-Desert-Flannel-Call-of-the-Wild.webp": "b54f3fea01445c3c",
+        "assets/detail-spritesheets/9Pets-Desert-Flannel-Call-of-the-Wild.webp": "39b513b196705a9d",
+        "assets/source/9Pets-Desert-Flannel-Call-of-the-Wild.png": "daaf1c55a48f3be5"
       }
     },
     {
