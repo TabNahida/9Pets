@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T01:48:53Z",
-  "total": 166,
+  "generatedAt": "2026-06-15T01:51:58Z",
+  "total": 167,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6318,6 +6318,44 @@
         "assets/spritesheets/9Pets-Dikke-Sword-of-Hammurabi.webp": "d55dde686abe8777",
         "assets/detail-spritesheets/9Pets-Dikke-Sword-of-Hammurabi.webp": "2bbc242cb322e549",
         "assets/source/9Pets-Dikke-Sword-of-Hammurabi.png": "54ea57003339f9bf"
+      }
+    },
+    {
+      "id": "9pets-dikke-the-pointy-end-up",
+      "packageName": "9Pets-Dikke-The-Pointy-End-Up",
+      "displayName": "Dikke",
+      "skinDisplayName": "-- The Pointy End Up",
+      "download": "downloads/9Pets-Dikke-The-Pointy-End-Up.zip",
+      "preview": "assets/previews/9Pets-Dikke-The-Pointy-End-Up.png",
+      "spritesheet": "assets/spritesheets/9Pets-Dikke-The-Pointy-End-Up.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Dikke-The-Pointy-End-Up.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/302203.png",
+      "sourceImage": "assets/source/9Pets-Dikke-The-Pointy-End-Up.png",
+      "sourceRepoPath": "singlebg/headicon_img/302203.png",
+      "assetId": "302203",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a5_302203_pamiai",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a5_302203_pamiai",
+      "cubismPath": "live2d/roles/v1a5_302203_pamiai",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a5_302203_pamiai",
+      "birthday": "10/10",
+      "skinName": "The Pointy End Up",
+      "isDefaultSkin": false,
+      "skinDescription": "笃定，如一次判决。",
+      "matchedName": "Dikke",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Dikke is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 302203 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 716266,
+      "assetVersions": {
+        "downloads/9Pets-Dikke-The-Pointy-End-Up.zip": "bcb893a7c25d628b",
+        "assets/previews/9Pets-Dikke-The-Pointy-End-Up.png": "aa4dbe6d7b57329a",
+        "assets/spritesheets/9Pets-Dikke-The-Pointy-End-Up.webp": "96a77a93f6745f91",
+        "assets/detail-spritesheets/9Pets-Dikke-The-Pointy-End-Up.webp": "36c1d186e830ee50",
+        "assets/source/9Pets-Dikke-The-Pointy-End-Up.png": "41474816299f8710"
       }
     }
   ],
