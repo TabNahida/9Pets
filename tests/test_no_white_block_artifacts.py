@@ -12,6 +12,16 @@ REGRESSION_PACKAGES = [
     "9Pets-37-Happy-Bird-Catcher",
     "9Pets-37-Down-in-the-Grotto",
     "9Pets-37-A-Gift-of-Nourishment",
+    "9Pets-6-A-Hymn-to-Seclusion",
+    "9Pets-Anjo-Nala-Carefree-Days",
+    "9Pets-Anjo-Nala-Forbidden-Fruit",
+    "9Pets-Charon-Default",
+    "9Pets-Ezra-Theodore-Default",
+    "9Pets-Fatutu-Default",
+    "9Pets-Kiperina-Default",
+    "9Pets-Liang-Yue-Default",
+    "9Pets-Noire-Default",
+    "9Pets-Paper-Heron-Default",
 ]
 
 
@@ -70,13 +80,14 @@ def compact_white_blocks(
                 if pixels[ring_x, ring_y][3] > 32:
                     ring_visible += 1
         isolated = ring_area > 0 and ring_visible / ring_area < 0.16
+        solid_square = fill > 0.98 and max(width, height) <= max_edge // 2
         if (
             min_area <= area <= max_area
             and min_edge <= width <= max_edge
             and min_edge <= height <= max_edge
             and fill > 0.75
             and squareish
-            and (isolated or not require_isolated)
+            and (isolated or solid_square or not require_isolated)
         ):
             blocks.append((area, bbox, fill))
     return sorted(blocks, reverse=True)

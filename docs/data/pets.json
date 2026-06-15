@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T22:43:23Z",
+  "generatedAt": "2026-06-14T23:51:25Z",
   "total": 142,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -945,12 +945,12 @@
       "animationMode": "official-live2d-cubism",
       "animationModeLabel": "Official Live2D Cubism motion capture",
       "characterSummary": "Charon is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 312801 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
-      "packageBytes": 1211577,
+      "packageBytes": 1148709,
       "assetVersions": {
-        "downloads/9Pets-Charon-Default.zip": "3afb35404ae697ce",
-        "assets/previews/9Pets-Charon-Default.png": "aa6f79fbbbd3e425",
-        "assets/spritesheets/9Pets-Charon-Default.webp": "0cdbbf6e5b3d3603",
-        "assets/detail-spritesheets/9Pets-Charon-Default.webp": "f3b792bef38b85c4",
+        "downloads/9Pets-Charon-Default.zip": "db9409b8892afd9b",
+        "assets/previews/9Pets-Charon-Default.png": "cbf7d1d932a96414",
+        "assets/spritesheets/9Pets-Charon-Default.webp": "6807051ae0fab828",
+        "assets/detail-spritesheets/9Pets-Charon-Default.webp": "d4a085385f7c12c5",
         "assets/source/9Pets-Charon-Default.png": "67bd9248f70df9d1"
       }
     },
@@ -1586,12 +1586,12 @@
       "animationMode": "official-live2d-cubism",
       "animationModeLabel": "Official Live2D Cubism motion capture",
       "characterSummary": "Ezra Theodore is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 307401 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
-      "packageBytes": 992774,
+      "packageBytes": 1017604,
       "assetVersions": {
-        "downloads/9Pets-Ezra-Theodore-Default.zip": "1d19921481a8e0f6",
-        "assets/previews/9Pets-Ezra-Theodore-Default.png": "4fad5ec1fd649372",
-        "assets/spritesheets/9Pets-Ezra-Theodore-Default.webp": "97cf19e31d51d79b",
-        "assets/detail-spritesheets/9Pets-Ezra-Theodore-Default.webp": "e503126c208d1d98",
+        "downloads/9Pets-Ezra-Theodore-Default.zip": "c18effabf48437bb",
+        "assets/previews/9Pets-Ezra-Theodore-Default.png": "6b98e5de4665be0e",
+        "assets/spritesheets/9Pets-Ezra-Theodore-Default.webp": "9251ad14791bfb42",
+        "assets/detail-spritesheets/9Pets-Ezra-Theodore-Default.webp": "318ad2c90482c69e",
         "assets/source/9Pets-Ezra-Theodore-Default.png": "7de87d004f2dc20f"
       }
     },
@@ -1624,12 +1624,12 @@
       "animationMode": "official-live2d-cubism",
       "animationModeLabel": "Official Live2D Cubism motion capture",
       "characterSummary": "Fatutu is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 310901 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
-      "packageBytes": 1412702,
+      "packageBytes": 1441867,
       "assetVersions": {
-        "downloads/9Pets-Fatutu-Default.zip": "6d798af5a518376c",
-        "assets/previews/9Pets-Fatutu-Default.png": "e0404753135d0ce9",
-        "assets/spritesheets/9Pets-Fatutu-Default.webp": "a696ca35145a064b",
-        "assets/detail-spritesheets/9Pets-Fatutu-Default.webp": "f72255ced55a5bb3",
+        "downloads/9Pets-Fatutu-Default.zip": "5368c28e6dda60c7",
+        "assets/previews/9Pets-Fatutu-Default.png": "d875cc46124fd0f6",
+        "assets/spritesheets/9Pets-Fatutu-Default.webp": "edee0ed187443ab2",
+        "assets/detail-spritesheets/9Pets-Fatutu-Default.webp": "877a6d6a61821cb2",
         "assets/source/9Pets-Fatutu-Default.png": "ba2076f884a2a0b6"
       }
     },
@@ -2193,12 +2193,12 @@
       "animationMode": "official-live2d-cubism",
       "animationModeLabel": "Official Live2D Cubism motion capture",
       "characterSummary": "Kiperina is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 311701 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
-      "packageBytes": 791019,
+      "packageBytes": 769099,
       "assetVersions": {
-        "downloads/9Pets-Kiperina-Default.zip": "322c3839a8430fde",
-        "assets/previews/9Pets-Kiperina-Default.png": "7777a6ebfb6542bd",
-        "assets/spritesheets/9Pets-Kiperina-Default.webp": "9534268359d2db4b",
-        "assets/detail-spritesheets/9Pets-Kiperina-Default.webp": "680dc4a3731474c2",
+        "downloads/9Pets-Kiperina-Default.zip": "81c2a28338687ed0",
+        "assets/previews/9Pets-Kiperina-Default.png": "72df73eb36be90ed",
+        "assets/spritesheets/9Pets-Kiperina-Default.webp": "c7e0511bffe6f67b",
+        "assets/detail-spritesheets/9Pets-Kiperina-Default.webp": "b1184a62f586d270",
         "assets/source/9Pets-Kiperina-Default.png": "98c370fa3337a84a"
       }
     },
@@ -2305,12 +2305,12 @@
       "animationMode": "official-live2d-cubism",
       "animationModeLabel": "Official Live2D Cubism motion capture",
       "characterSummary": "Liang Yue is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 311001 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
-      "packageBytes": 648755,
+      "packageBytes": 756413,
       "assetVersions": {
-        "downloads/9Pets-Liang-Yue-Default.zip": "c0eaa75796c75170",
-        "assets/previews/9Pets-Liang-Yue-Default.png": "5235c78e2796fcb5",
-        "assets/spritesheets/9Pets-Liang-Yue-Default.webp": "1bb04fb69c07954c",
-        "assets/detail-spritesheets/9Pets-Liang-Yue-Default.webp": "bb276b820f7d554b",
+        "downloads/9Pets-Liang-Yue-Default.zip": "5f82f09c2b6c3cc0",
+        "assets/previews/9Pets-Liang-Yue-Default.png": "2a6d88cb2b5d5899",
+        "assets/spritesheets/9Pets-Liang-Yue-Default.webp": "f869b76975aa4d6b",
+        "assets/detail-spritesheets/9Pets-Liang-Yue-Default.webp": "91e2f813d4fe79bc",
         "assets/source/9Pets-Liang-Yue-Default.png": "ebdda83e6f0e1c7f"
       }
     },
@@ -3250,12 +3250,12 @@
       "animationMode": "official-live2d-cubism",
       "animationModeLabel": "Official Live2D Cubism motion capture",
       "characterSummary": "Noire is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 311101 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
-      "packageBytes": 876660,
+      "packageBytes": 855412,
       "assetVersions": {
-        "downloads/9Pets-Noire-Default.zip": "f90aee352c6da42c",
-        "assets/previews/9Pets-Noire-Default.png": "6dd1e09f44c0b389",
-        "assets/spritesheets/9Pets-Noire-Default.webp": "a0d79c3f7e854252",
-        "assets/detail-spritesheets/9Pets-Noire-Default.webp": "75752baa924a54d8",
+        "downloads/9Pets-Noire-Default.zip": "589c00f7f2258d1b",
+        "assets/previews/9Pets-Noire-Default.png": "21248d13ddd1f29b",
+        "assets/spritesheets/9Pets-Noire-Default.webp": "7c3e9de8c3a019fc",
+        "assets/detail-spritesheets/9Pets-Noire-Default.webp": "06207959e455938a",
         "assets/source/9Pets-Noire-Default.png": "29c40b177f203825"
       }
     },
@@ -3362,12 +3362,12 @@
       "animationMode": "official-live2d-cubism",
       "animationModeLabel": "Official Live2D Cubism motion capture",
       "characterSummary": "Paper Heron is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 314101 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
-      "packageBytes": 962204,
+      "packageBytes": 938418,
       "assetVersions": {
-        "downloads/9Pets-Paper-Heron-Default.zip": "5c2a3184e073ea11",
-        "assets/previews/9Pets-Paper-Heron-Default.png": "59fe67ee27a8103f",
-        "assets/spritesheets/9Pets-Paper-Heron-Default.webp": "624cecd4f699b622",
-        "assets/detail-spritesheets/9Pets-Paper-Heron-Default.webp": "0646032575ec20db",
+        "downloads/9Pets-Paper-Heron-Default.zip": "652bfad57e203bc2",
+        "assets/previews/9Pets-Paper-Heron-Default.png": "e3dfa8418b63dd60",
+        "assets/spritesheets/9Pets-Paper-Heron-Default.webp": "cbf0c6da4257290b",
+        "assets/detail-spritesheets/9Pets-Paper-Heron-Default.webp": "8ce367da9506c64a",
         "assets/source/9Pets-Paper-Heron-Default.png": "50bc0e2725a11b71"
       }
     },
@@ -4943,12 +4943,12 @@
       "animationMode": "official-live2d-cubism",
       "animationModeLabel": "Official Live2D Cubism motion capture",
       "characterSummary": "6 is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 307905 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
-      "packageBytes": 1018419,
+      "packageBytes": 1024413,
       "assetVersions": {
-        "downloads/9Pets-6-A-Hymn-to-Seclusion.zip": "7bc2f4a32d5034fb",
-        "assets/previews/9Pets-6-A-Hymn-to-Seclusion.png": "8add21b33cdef1e0",
-        "assets/spritesheets/9Pets-6-A-Hymn-to-Seclusion.webp": "3b67e28ff8c6caac",
-        "assets/detail-spritesheets/9Pets-6-A-Hymn-to-Seclusion.webp": "0f593c2c1cf56115",
+        "downloads/9Pets-6-A-Hymn-to-Seclusion.zip": "2567493744efc5b7",
+        "assets/previews/9Pets-6-A-Hymn-to-Seclusion.png": "26fa1cd326fa7d25",
+        "assets/spritesheets/9Pets-6-A-Hymn-to-Seclusion.webp": "75cd306dcf56e2bb",
+        "assets/detail-spritesheets/9Pets-6-A-Hymn-to-Seclusion.webp": "bae6f62612358455",
         "assets/source/9Pets-6-A-Hymn-to-Seclusion.png": "bd1fb7e9ffdaf136"
       }
     },
@@ -5323,12 +5323,12 @@
       "animationMode": "official-live2d-cubism",
       "animationModeLabel": "Official Live2D Cubism motion capture",
       "characterSummary": "Anjo Nala is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 310002 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
-      "packageBytes": 1229715,
+      "packageBytes": 1224203,
       "assetVersions": {
-        "downloads/9Pets-Anjo-Nala-Carefree-Days.zip": "f23faa8bcce0dafd",
-        "assets/previews/9Pets-Anjo-Nala-Carefree-Days.png": "9aa966c9d21e682d",
-        "assets/spritesheets/9Pets-Anjo-Nala-Carefree-Days.webp": "d02195b85d690648",
-        "assets/detail-spritesheets/9Pets-Anjo-Nala-Carefree-Days.webp": "fc1c4fab75c408da",
+        "downloads/9Pets-Anjo-Nala-Carefree-Days.zip": "9033d70003b1fff6",
+        "assets/previews/9Pets-Anjo-Nala-Carefree-Days.png": "d3ea72cb20f9c9d7",
+        "assets/spritesheets/9Pets-Anjo-Nala-Carefree-Days.webp": "a4a5e68e696503ac",
+        "assets/detail-spritesheets/9Pets-Anjo-Nala-Carefree-Days.webp": "e5180b7d51ec136b",
         "assets/source/9Pets-Anjo-Nala-Carefree-Days.png": "54dcb513364c6176"
       }
     },
@@ -5361,12 +5361,12 @@
       "animationMode": "official-live2d-cubism",
       "animationModeLabel": "Official Live2D Cubism motion capture",
       "characterSummary": "Anjo Nala is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 310003 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
-      "packageBytes": 1171099,
+      "packageBytes": 1168979,
       "assetVersions": {
-        "downloads/9Pets-Anjo-Nala-Forbidden-Fruit.zip": "e7cd231c8110bcd8",
-        "assets/previews/9Pets-Anjo-Nala-Forbidden-Fruit.png": "e92b312ac8bfa583",
-        "assets/spritesheets/9Pets-Anjo-Nala-Forbidden-Fruit.webp": "c0b52a04ffa92483",
-        "assets/detail-spritesheets/9Pets-Anjo-Nala-Forbidden-Fruit.webp": "d96f1dadb1291b73",
+        "downloads/9Pets-Anjo-Nala-Forbidden-Fruit.zip": "13dca7389e44c6ce",
+        "assets/previews/9Pets-Anjo-Nala-Forbidden-Fruit.png": "7e7411fd9a03fc87",
+        "assets/spritesheets/9Pets-Anjo-Nala-Forbidden-Fruit.webp": "b326872634c85106",
+        "assets/detail-spritesheets/9Pets-Anjo-Nala-Forbidden-Fruit.webp": "d45e085c7e5b9a2c",
         "assets/source/9Pets-Anjo-Nala-Forbidden-Fruit.png": "f598d29ef959f05e"
       }
     },

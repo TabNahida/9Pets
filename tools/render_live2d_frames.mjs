@@ -269,13 +269,15 @@ async function buildBrowserBundle(depsDir, workDir) {
 
       const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
       const drawableId = (id) => String(id?.s || id || "");
+      const isAutoHiddenDrawable = (id) => /^bone\\d*$/i.test(drawableId(id));
 
       const hiddenDrawableIndices = (model, hiddenIds) => {
-        if (!hiddenIds?.length || !model?.drawables?.ids) return;
-        const hidden = new Set(hiddenIds);
+        if (!model?.drawables?.ids) return;
+        const hidden = new Set(hiddenIds || []);
         const indices = new Set();
         for (let index = 0; index < model.drawables.count; index += 1) {
-          if (hidden.has("*") || hidden.has(drawableId(model.drawables.ids[index]))) {
+          const id = drawableId(model.drawables.ids[index]);
+          if (hidden.has("*") || hidden.has(id) || isAutoHiddenDrawable(id)) {
             indices.add(index);
           }
         }

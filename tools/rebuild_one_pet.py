@@ -12,6 +12,10 @@ from pathlib import Path
 
 from PIL import Image
 
+TOOLS_DIR = Path(__file__).resolve().parent
+if str(TOOLS_DIR) not in sys.path:
+    sys.path.insert(0, str(TOOLS_DIR))
+
 import build_pets_site as site
 
 
@@ -300,14 +304,24 @@ def compact_white_blocks(path: Path) -> list[tuple[int, tuple[int, int, int, int
                 if pixels[ring_x, ring_y][3] > 32:
                     ring_visible += 1
         isolated = ring_area > 0 and ring_visible / ring_area < 0.16
-        if min_area <= area <= 500 * atlas_scale * atlas_scale and min_size <= width <= max_size and min_size <= height <= max_size and fill > 0.75 and squareish and isolated:
+        solid_square = fill > 0.98 and max(width, height) <= 12 * atlas_scale
+        if (
+            min_area <= area <= 500 * atlas_scale * atlas_scale
+            and min_size <= width <= max_size
+            and min_size <= height <= max_size
+            and fill > 0.75
+            and squareish
+            and (isolated or solid_square)
+        ):
             blocks.append((area, bbox, fill))
     return sorted(blocks, reverse=True)
 
 
 def white_block_artifact_qa(package_names: list[str]) -> None:
+    manifest_items = read_manifest_items()
     for package_name in package_names:
-        if package_name not in site.LIVE2D_WHITE_BLOCK_ARTIFACT_PACKAGES:
+        item = manifest_items.get(package_name, {})
+        if item.get("animationMode") != "official-live2d-cubism":
             continue
         for path in package_paths(package_name):
             if not path.exists():

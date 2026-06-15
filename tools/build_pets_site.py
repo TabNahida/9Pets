@@ -2561,10 +2561,12 @@ def make_live2d_cell(
 
 
 def remove_compact_white_block_artifacts(image: Image.Image, package_name: str) -> Image.Image:
-    if package_name not in LIVE2D_WHITE_BLOCK_ARTIFACT_PACKAGES:
-        return image
-
     rgba = image.convert("RGBA")
+    atlas_scale = max(1, rgba.width // CELL_W)
+    min_area = 8 * atlas_scale * atlas_scale
+    max_area = 500 * atlas_scale * atlas_scale
+    min_size = 3 * atlas_scale
+    max_size = 30 * atlas_scale
     pixels = rgba.load()
     candidates: set[tuple[int, int]] = set()
     for y in range(rgba.height):
@@ -2610,8 +2612,24 @@ def remove_compact_white_block_artifacts(image: Image.Image, package_name: str) 
                 if pixels[ring_x, ring_y][3] > 32:
                     ring_visible += 1
         isolated = ring_area > 0 and ring_visible / ring_area < 0.16
-        if 100 <= area <= 5000 and 8 <= width <= 100 and 8 <= height <= 100 and fill > 0.75 and squareish and isolated:
-            boxes.append((max(0, left - 1), max(0, top - 1), min(rgba.width, right + 1), min(rgba.height, bottom + 1)))
+        solid_square = fill > 0.98 and max(width, height) <= 12 * atlas_scale
+        if (
+            min_area <= area <= max_area
+            and min_size <= width <= max_size
+            and min_size <= height <= max_size
+            and fill > 0.75
+            and squareish
+            and (isolated or solid_square)
+        ):
+            pad_clear = max(1, atlas_scale)
+            boxes.append(
+                (
+                    max(0, left - pad_clear),
+                    max(0, top - pad_clear),
+                    min(rgba.width, right + pad_clear),
+                    min(rgba.height, bottom + pad_clear),
+                )
+            )
 
     if not boxes:
         return rgba

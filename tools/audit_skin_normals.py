@@ -14,6 +14,10 @@ from typing import Any
 
 from playwright.sync_api import sync_playwright
 
+TOOLS_DIR = Path(__file__).resolve().parent
+if str(TOOLS_DIR) not in sys.path:
+    sys.path.insert(0, str(TOOLS_DIR))
+
 import build_pets_site as site
 import rebuild_one_pet as pet_qa
 
@@ -145,16 +149,19 @@ def page_qa(base_url: str, package_name: str, pet_id: str, skin_name: str) -> No
         browser.close()
 
 
-def stage_and_commit(package_name: str, cubism_path: str, message: str) -> None:
-    paths = [
+def stage_paths_for_package(package_name: str, cubism_path: str) -> list[str]:
+    return [
         "PET_SKIN_BUILD_TODO.md",
         "tools/audit_skin_normals.py",
         "tools/build_pets_site.py",
         "tools/render_live2d_frames.mjs",
         "tools/rebuild_one_pet.py",
         "tests/__init__.py",
+        "tests/test_audit_skin_normals.py",
         "tests/test_live2d_artifact_cleanup.py",
         "tests/test_no_white_block_artifacts.py",
+        "docs/index.html",
+        "docs/pet.html",
         "docs/data/pets.json",
         "docs/data/pets-data.js",
         f"docs/assets/previews/{package_name}.png",
@@ -165,13 +172,16 @@ def stage_and_commit(package_name: str, cubism_path: str, message: str) -> None:
         f"pets/{package_name}",
         f"assets/source-cache/Reverse-1999-CN-Asset/{cubism_path}",
     ]
-    run(["git", "add", "--", *paths], timeout=180)
-    staged = run(["git", "diff", "--cached", "--name-only"], timeout=60).splitlines()
-    unexpected = [
+
+
+def unexpected_staged_paths(staged: list[str], package_name: str, cubism_path: str) -> list[str]:
+    return [
         path
         for path in staged
         if not (
             path == "PET_SKIN_BUILD_TODO.md"
+            or path == "docs/index.html"
+            or path == "docs/pet.html"
             or path == "tools/audit_skin_normals.py"
             or path == "tools/build_pets_site.py"
             or path == "tools/render_live2d_frames.mjs"
@@ -182,6 +192,13 @@ def stage_and_commit(package_name: str, cubism_path: str, message: str) -> None:
             or path.startswith(f"assets/source-cache/Reverse-1999-CN-Asset/{cubism_path}")
         )
     ]
+
+
+def stage_and_commit(package_name: str, cubism_path: str, message: str) -> None:
+    paths = stage_paths_for_package(package_name, cubism_path)
+    run(["git", "add", "--", *paths], timeout=180)
+    staged = run(["git", "diff", "--cached", "--name-only"], timeout=60).splitlines()
+    unexpected = unexpected_staged_paths(staged, package_name, cubism_path)
     if unexpected:
         raise RuntimeError(f"Unexpected staged paths for {package_name}: {unexpected[:10]}")
     run(["git", "commit", "-m", message], timeout=180)
