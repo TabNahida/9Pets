@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T00:45:48Z",
-  "total": 147,
+  "generatedAt": "2026-06-15T00:54:22Z",
+  "total": 148,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5596,6 +5596,44 @@
         "assets/spritesheets/9Pets-Barcarola-Asteroid-Allegro.webp": "eaff809b899a159a",
         "assets/detail-spritesheets/9Pets-Barcarola-Asteroid-Allegro.webp": "fcf4f17ffdd3ba5c",
         "assets/source/9Pets-Barcarola-Asteroid-Allegro.png": "9e315f53c0fa02fa"
+      }
+    },
+    {
+      "id": "9pets-beryl-the-flowing-stream-s-luster",
+      "packageName": "9Pets-Beryl-The-Flowing-Stream-s-Luster",
+      "displayName": "Beryl",
+      "skinDisplayName": "-- The Flowing Stream's Luster",
+      "download": "downloads/9Pets-Beryl-The-Flowing-Stream-s-Luster.zip",
+      "preview": "assets/previews/9Pets-Beryl-The-Flowing-Stream-s-Luster.png",
+      "spritesheet": "assets/spritesheets/9Pets-Beryl-The-Flowing-Stream-s-Luster.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Beryl-The-Flowing-Stream-s-Luster.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/313402.png",
+      "sourceImage": "assets/source/9Pets-Beryl-The-Flowing-Stream-s-Luster.png",
+      "sourceRepoPath": "singlebg/headicon_img/313402.png",
+      "assetId": "313402",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a2_313402_ble",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a2_313402_ble",
+      "cubismPath": "live2d/roles/v3a2_313402_ble",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a2_313402_ble",
+      "birthday": "12/21",
+      "skinName": "The Flowing Stream's Luster",
+      "isDefaultSkin": false,
+      "skinDescription": "模糊的，不清晰的，变幻莫测的，亦是美丽的。",
+      "matchedName": "Beryl",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Beryl is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 313402 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1061665,
+      "assetVersions": {
+        "downloads/9Pets-Beryl-The-Flowing-Stream-s-Luster.zip": "d34a41266ebbc431",
+        "assets/previews/9Pets-Beryl-The-Flowing-Stream-s-Luster.png": "b6479c1a3be1928d",
+        "assets/spritesheets/9Pets-Beryl-The-Flowing-Stream-s-Luster.webp": "92ac346e102f40f1",
+        "assets/detail-spritesheets/9Pets-Beryl-The-Flowing-Stream-s-Luster.webp": "077e7c03e6d4226c",
+        "assets/source/9Pets-Beryl-The-Flowing-Stream-s-Luster.png": "a01617c4ac1a072d"
       }
     }
   ],
