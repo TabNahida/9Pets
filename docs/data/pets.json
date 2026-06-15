@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T01:02:54Z",
-  "total": 151,
+  "generatedAt": "2026-06-15T01:05:46Z",
+  "total": 152,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5748,6 +5748,44 @@
         "assets/spritesheets/9Pets-Brimley-Sunset-Sartor.webp": "921cb933329ab12a",
         "assets/detail-spritesheets/9Pets-Brimley-Sunset-Sartor.webp": "09a3f11c11321064",
         "assets/source/9Pets-Brimley-Sunset-Sartor.png": "a587b05beaee4991"
+      }
+    },
+    {
+      "id": "9pets-brume-a-wayward-intermission",
+      "packageName": "9Pets-Brume-A-Wayward-Intermission",
+      "displayName": "Brume",
+      "skinDisplayName": "-- A Wayward Intermission",
+      "download": "downloads/9Pets-Brume-A-Wayward-Intermission.zip",
+      "preview": "assets/previews/9Pets-Brume-A-Wayward-Intermission.png",
+      "spritesheet": "assets/spritesheets/9Pets-Brume-A-Wayward-Intermission.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Brume-A-Wayward-Intermission.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/313502.png",
+      "sourceImage": "assets/source/9Pets-Brume-A-Wayward-Intermission.png",
+      "sourceRepoPath": "singlebg/headicon_img/313502.png",
+      "assetId": "313502",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a2_313502_hdl",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a2_313502_hdl",
+      "cubismPath": "live2d/roles/v3a2_313502_hdl",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a2_313502_hdl",
+      "birthday": "12/19",
+      "skinName": "A Wayward Intermission",
+      "isDefaultSkin": false,
+      "skinDescription": "英雄不会随叫随到，司机却招手即停。",
+      "matchedName": "Brume",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Brume is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 313502 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 945206,
+      "assetVersions": {
+        "downloads/9Pets-Brume-A-Wayward-Intermission.zip": "12050ac2350b1e27",
+        "assets/previews/9Pets-Brume-A-Wayward-Intermission.png": "e3d51c2bce84cf9b",
+        "assets/spritesheets/9Pets-Brume-A-Wayward-Intermission.webp": "e97e66448a4f7f7a",
+        "assets/detail-spritesheets/9Pets-Brume-A-Wayward-Intermission.webp": "2728d21db8429092",
+        "assets/source/9Pets-Brume-A-Wayward-Intermission.png": "027787eb3877306d"
       }
     }
   ],
