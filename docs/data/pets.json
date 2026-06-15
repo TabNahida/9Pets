@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T01:00:06Z",
-  "total": 150,
+  "generatedAt": "2026-06-15T01:02:54Z",
+  "total": 151,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5710,6 +5710,44 @@
         "assets/spritesheets/9Pets-Blonney-The-Giallo-Grind.webp": "937ec323901dab62",
         "assets/detail-spritesheets/9Pets-Blonney-The-Giallo-Grind.webp": "ade25c7d88ffceff",
         "assets/source/9Pets-Blonney-The-Giallo-Grind.png": "e27ba4f9130f8cb9"
+      }
+    },
+    {
+      "id": "9pets-brimley-sunset-sartor",
+      "packageName": "9Pets-Brimley-Sunset-Sartor",
+      "displayName": "Brimley",
+      "skinDisplayName": "-- Sunset Sartor",
+      "download": "downloads/9Pets-Brimley-Sunset-Sartor.zip",
+      "preview": "assets/previews/9Pets-Brimley-Sunset-Sartor.png",
+      "spritesheet": "assets/spritesheets/9Pets-Brimley-Sunset-Sartor.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Brimley-Sunset-Sartor.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/310602.png",
+      "sourceImage": "assets/source/9Pets-Brimley-Sunset-Sartor.png",
+      "sourceRepoPath": "singlebg/headicon_img/310602.png",
+      "assetId": "310602",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a3_310602_kym",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a3_310602_kym",
+      "cubismPath": "live2d/roles/v2a3_310602_kym",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a3_310602_kym",
+      "birthday": "10/31",
+      "skinName": "Sunset Sartor",
+      "isDefaultSkin": false,
+      "skinDescription": "他有时也会怀念没有牛冲过来的日子。",
+      "matchedName": "Brimley",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Brimley is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 310602 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1136458,
+      "assetVersions": {
+        "downloads/9Pets-Brimley-Sunset-Sartor.zip": "b6185d0bf58c3b53",
+        "assets/previews/9Pets-Brimley-Sunset-Sartor.png": "fb36e83598399cf4",
+        "assets/spritesheets/9Pets-Brimley-Sunset-Sartor.webp": "921cb933329ab12a",
+        "assets/detail-spritesheets/9Pets-Brimley-Sunset-Sartor.webp": "09a3f11c11321064",
+        "assets/source/9Pets-Brimley-Sunset-Sartor.png": "a587b05beaee4991"
       }
     }
   ],
