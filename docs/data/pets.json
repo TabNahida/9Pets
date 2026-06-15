@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T01:58:02Z",
-  "total": 169,
+  "generatedAt": "2026-06-15T02:28:58Z",
+  "total": 170,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6394,6 +6394,44 @@
         "assets/spritesheets/9Pets-Druvis-III-Lady-With-Nao-E.webp": "8108a4115da48811",
         "assets/detail-spritesheets/9Pets-Druvis-III-Lady-With-Nao-E.webp": "0176cce9bc6d5425",
         "assets/source/9Pets-Druvis-III-Lady-With-Nao-E.png": "f1137a4e62b2b84f"
+      }
+    },
+    {
+      "id": "9pets-druvis-iii-shrouded-in-thorns",
+      "packageName": "9Pets-Druvis-III-Shrouded-in-Thorns",
+      "displayName": "Druvis III",
+      "skinDisplayName": "-- Shrouded in Thorns",
+      "download": "downloads/9Pets-Druvis-III-Shrouded-in-Thorns.zip",
+      "preview": "assets/previews/9Pets-Druvis-III-Shrouded-in-Thorns.png",
+      "spritesheet": "assets/spritesheets/9Pets-Druvis-III-Shrouded-in-Thorns.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Druvis-III-Shrouded-in-Thorns.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/300306.png",
+      "sourceImage": "assets/source/9Pets-Druvis-III-Shrouded-in-Thorns.png",
+      "sourceRepoPath": "singlebg/headicon_img/300306.png",
+      "assetId": "300306",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a5_300306_hjs",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a5_300306_hjs",
+      "cubismPath": "live2d/roles/v2a5_300306_hjs",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a5_300306_hjs",
+      "birthday": "10/23",
+      "skinName": "Shrouded in Thorns",
+      "isDefaultSkin": false,
+      "skinDescription": "乌鸦们齐声高唱：月已升起。",
+      "matchedName": "Druvis III",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Druvis III is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 300306 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1414911,
+      "assetVersions": {
+        "downloads/9Pets-Druvis-III-Shrouded-in-Thorns.zip": "47329ee74421d1b1",
+        "assets/previews/9Pets-Druvis-III-Shrouded-in-Thorns.png": "81a29c89f17dd701",
+        "assets/spritesheets/9Pets-Druvis-III-Shrouded-in-Thorns.webp": "6da81ea184e3b71c",
+        "assets/detail-spritesheets/9Pets-Druvis-III-Shrouded-in-Thorns.webp": "f7abb253842063ef",
+        "assets/source/9Pets-Druvis-III-Shrouded-in-Thorns.png": "3b7ed33aed420137"
       }
     },
     {
