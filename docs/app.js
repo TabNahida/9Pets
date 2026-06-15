@@ -212,10 +212,15 @@ async function init() {
   bindEvents();
   try {
     let data = window.NINEPETS_DATA;
-    if (!data) {
-      const response = await fetch("data/pets.json");
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      data = await response.json();
+    try {
+      const response = await fetch(`data/pets.json?v=${Date.now()}`, { cache: "no-store" });
+      if (response.ok) {
+        data = await response.json();
+      } else if (!data) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+    } catch (error) {
+      if (!data) throw error;
     }
     if (!Array.isArray(data.pets)) throw new Error("Catalog data is missing pets.");
     state.assetVersion = data.generatedAt || "";

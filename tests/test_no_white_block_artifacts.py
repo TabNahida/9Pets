@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import hashlib
+import json
 import unittest
 from pathlib import Path
 
@@ -114,6 +116,22 @@ class WhiteBlockArtifactTest(unittest.TestCase):
                     require_isolated=False,
                 )
                 self.assertEqual([], blocks[:10])
+
+    def test_37_skin_site_asset_versions_match_current_files(self) -> None:
+        data = json.loads((ROOT / "docs" / "data" / "pets.json").read_text(encoding="utf-8"))
+        entries = {entry["packageName"]: entry for entry in data["pets"] + data.get("cuteVariants", [])}
+
+        for package_name in REGRESSION_PACKAGES:
+            with self.subTest(package_name=package_name):
+                entry = entries[package_name]
+                versions = entry.get("assetVersions", {})
+                for field in ("download", "preview", "spritesheet", "detailSpritesheet", "sourceImage"):
+                    url = entry.get(field)
+                    if not url or "://" in url or url.startswith("#"):
+                        continue
+                    path = ROOT / "docs" / str(url).split("#", 1)[0].split("?", 1)[0]
+                    expected = hashlib.sha256(path.read_bytes()).hexdigest()[:16]
+                    self.assertEqual(expected, versions.get(url), f"{package_name} {url}")
 
 
 if __name__ == "__main__":
