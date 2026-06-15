@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T01:08:46Z",
-  "total": 153,
+  "generatedAt": "2026-06-15T01:11:41Z",
+  "total": 154,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5824,6 +5824,44 @@
         "assets/spritesheets/9Pets-Buddy-Fairchild-A-Ceremony-Among-Friends.webp": "87807433c574e6b6",
         "assets/detail-spritesheets/9Pets-Buddy-Fairchild-A-Ceremony-Among-Friends.webp": "c711181d4d04b9ac",
         "assets/source/9Pets-Buddy-Fairchild-A-Ceremony-Among-Friends.png": "8f08ef89ff4931de"
+      }
+    },
+    {
+      "id": "9pets-charon-wailing-silence",
+      "packageName": "9Pets-Charon-Wailing-Silence",
+      "displayName": "Charon",
+      "skinDisplayName": "-- Wailing Silence",
+      "download": "downloads/9Pets-Charon-Wailing-Silence.zip",
+      "preview": "assets/previews/9Pets-Charon-Wailing-Silence.png",
+      "spritesheet": "assets/spritesheets/9Pets-Charon-Wailing-Silence.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Charon-Wailing-Silence.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/312802.png",
+      "sourceImage": "assets/source/9Pets-Charon-Wailing-Silence.png",
+      "sourceRepoPath": "singlebg/headicon_img/312802.png",
+      "assetId": "312802",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a0_312802_kr",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a0_312802_kr",
+      "cubismPath": "live2d/roles/v3a0_312802_kr",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a0_312802_kr",
+      "birthday": "6/27",
+      "skinName": "Wailing Silence",
+      "isDefaultSkin": false,
+      "skinDescription": "生的阴影、死的记忆，于冥河中独行。",
+      "matchedName": "Charon",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Charon is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 312802 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1257828,
+      "assetVersions": {
+        "downloads/9Pets-Charon-Wailing-Silence.zip": "8a9a7b1ab93a4dcd",
+        "assets/previews/9Pets-Charon-Wailing-Silence.png": "ca7cc8a2780aa151",
+        "assets/spritesheets/9Pets-Charon-Wailing-Silence.webp": "e27cab8033721bcd",
+        "assets/detail-spritesheets/9Pets-Charon-Wailing-Silence.webp": "6b4fedfb4308777c",
+        "assets/source/9Pets-Charon-Wailing-Silence.png": "9d322d6ce6ede16d"
       }
     }
   ],
