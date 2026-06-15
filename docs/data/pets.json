@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T02:42:08Z",
-  "total": 173,
+  "generatedAt": "2026-06-15T02:46:12Z",
+  "total": 174,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6584,6 +6584,44 @@
         "assets/spritesheets/9Pets-Eternity-Lady-of-the-Evernight.webp": "1500c61627af21c7",
         "assets/detail-spritesheets/9Pets-Eternity-Lady-of-the-Evernight.webp": "51b1b9e03f1ec557",
         "assets/source/9Pets-Eternity-Lady-of-the-Evernight.png": "91ce92eaec10744a"
+      }
+    },
+    {
+      "id": "9pets-eternity-the-golden-nurturer",
+      "packageName": "9Pets-Eternity-The-Golden-Nurturer",
+      "displayName": "Eternity",
+      "skinDisplayName": "-- The Golden Nurturer",
+      "download": "downloads/9Pets-Eternity-The-Golden-Nurturer.zip",
+      "preview": "assets/previews/9Pets-Eternity-The-Golden-Nurturer.png",
+      "spritesheet": "assets/spritesheets/9Pets-Eternity-The-Golden-Nurturer.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Eternity-The-Golden-Nurturer.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/305104.png",
+      "sourceImage": "assets/source/9Pets-Eternity-The-Golden-Nurturer.png",
+      "sourceRepoPath": "singlebg/headicon_img/305104.png",
+      "assetId": "305104",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/s01_305104_wnfld",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/s01_305104_wnfld",
+      "cubismPath": "live2d/roles/s01_305104_wnfld",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/s01_305104_wnfld",
+      "birthday": "12/25",
+      "skinName": "The Golden Nurturer",
+      "isDefaultSkin": false,
+      "skinDescription": "一千粒灿烂的黄金，落入温暖宽厚的怀抱。",
+      "matchedName": "Eternity",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Eternity is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 305104 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1411765,
+      "assetVersions": {
+        "downloads/9Pets-Eternity-The-Golden-Nurturer.zip": "0f842dcbf9e3491c",
+        "assets/previews/9Pets-Eternity-The-Golden-Nurturer.png": "f151bfa1dbca5800",
+        "assets/spritesheets/9Pets-Eternity-The-Golden-Nurturer.webp": "350c15525e2f35ab",
+        "assets/detail-spritesheets/9Pets-Eternity-The-Golden-Nurturer.webp": "0803cd68d0076a86",
+        "assets/source/9Pets-Eternity-The-Golden-Nurturer.png": "8ba7f6620744b829"
       }
     }
   ],
