@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T01:30:45Z",
-  "total": 160,
+  "generatedAt": "2026-06-15T01:33:45Z",
+  "total": 161,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6052,6 +6052,44 @@
         "assets/spritesheets/9Pets-Coppelia-Sounds-that-Wake-Her.webp": "06e4c7ab306fc995",
         "assets/detail-spritesheets/9Pets-Coppelia-Sounds-that-Wake-Her.webp": "1dbde3af6bc34c5d",
         "assets/source/9Pets-Coppelia-Sounds-that-Wake-Her.png": "c8b440eb5d4fea54"
+      }
+    },
+    {
+      "id": "9pets-corvus-burning-away-tears",
+      "packageName": "9Pets-Corvus-Burning-Away-Tears",
+      "displayName": "Corvus",
+      "skinDisplayName": "-- Burning Away Tears",
+      "download": "downloads/9Pets-Corvus-Burning-Away-Tears.zip",
+      "preview": "assets/previews/9Pets-Corvus-Burning-Away-Tears.png",
+      "spritesheet": "assets/spritesheets/9Pets-Corvus-Burning-Away-Tears.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Corvus-Burning-Away-Tears.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/313203.png",
+      "sourceImage": "assets/source/9Pets-Corvus-Burning-Away-Tears.png",
+      "sourceRepoPath": "singlebg/headicon_img/313203.png",
+      "assetId": "313203",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a5_313203_gsn",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a5_313203_gsn",
+      "cubismPath": "live2d/roles/v3a5_313203_gsn",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a5_313203_gsn",
+      "birthday": "8/2",
+      "skinName": "Burning Away Tears",
+      "isDefaultSkin": false,
+      "skinDescription": "啼哭、悲鸣、将落未落的泪、向生所伸出的手……一切已无须语言的赘述。",
+      "matchedName": "Corvus",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Corvus is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 313203 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 967340,
+      "assetVersions": {
+        "downloads/9Pets-Corvus-Burning-Away-Tears.zip": "a040516938a3cb91",
+        "assets/previews/9Pets-Corvus-Burning-Away-Tears.png": "5af7d968bd554083",
+        "assets/spritesheets/9Pets-Corvus-Burning-Away-Tears.webp": "0bd1f3d5ed15b73c",
+        "assets/detail-spritesheets/9Pets-Corvus-Burning-Away-Tears.webp": "fab59c2c608d8237",
+        "assets/source/9Pets-Corvus-Burning-Away-Tears.png": "43ac7d3744e399ce"
       }
     },
     {
