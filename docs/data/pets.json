@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T00:14:12Z",
+  "generatedAt": "2026-06-15T00:45:48Z",
   "total": 147,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -2495,12 +2495,12 @@
       "animationMode": "official-live2d-cubism",
       "animationModeLabel": "Official Live2D Cubism motion capture",
       "characterSummary": "Lorentz Butterfly is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 313901 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
-      "packageBytes": 1291214,
+      "packageBytes": 1274025,
       "assetVersions": {
-        "downloads/9Pets-Lorentz-Butterfly-Default.zip": "7c0bf71aae0eb0b3",
-        "assets/previews/9Pets-Lorentz-Butterfly-Default.png": "12488dcc112bf0d2",
-        "assets/spritesheets/9Pets-Lorentz-Butterfly-Default.webp": "bdb1f05a01643a5f",
-        "assets/detail-spritesheets/9Pets-Lorentz-Butterfly-Default.webp": "10b18c8647e23814",
+        "downloads/9Pets-Lorentz-Butterfly-Default.zip": "4e3b740483072315",
+        "assets/previews/9Pets-Lorentz-Butterfly-Default.png": "2113388f2a7f9a7d",
+        "assets/spritesheets/9Pets-Lorentz-Butterfly-Default.webp": "b83bead87542e3cf",
+        "assets/detail-spritesheets/9Pets-Lorentz-Butterfly-Default.webp": "afa17d4f07ba51de",
         "assets/source/9Pets-Lorentz-Butterfly-Default.png": "893e006f6431538b"
       }
     },
