@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T02:46:12Z",
-  "total": 174,
+  "generatedAt": "2026-06-15T03:21:48Z",
+  "total": 175,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6622,6 +6622,44 @@
         "assets/spritesheets/9Pets-Eternity-The-Golden-Nurturer.webp": "350c15525e2f35ab",
         "assets/detail-spritesheets/9Pets-Eternity-The-Golden-Nurturer.webp": "0803cd68d0076a86",
         "assets/source/9Pets-Eternity-The-Golden-Nurturer.png": "8ba7f6620744b829"
+      }
+    },
+    {
+      "id": "9pets-ezio-auditore-leap-of-faith",
+      "packageName": "9Pets-Ezio-Auditore-Leap-of-Faith",
+      "displayName": "Ezio Auditore",
+      "skinDisplayName": "-- Leap of Faith",
+      "download": "downloads/9Pets-Ezio-Auditore-Leap-of-Faith.zip",
+      "preview": "assets/previews/9Pets-Ezio-Auditore-Leap-of-Faith.png",
+      "spritesheet": "assets/spritesheets/9Pets-Ezio-Auditore-Leap-of-Faith.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Ezio-Auditore-Leap-of-Faith.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/312302.png",
+      "sourceImage": "assets/source/9Pets-Ezio-Auditore-Leap-of-Faith.png",
+      "sourceRepoPath": "singlebg/headicon_img/312302.png",
+      "assetId": "312302",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/s01_312302_ajaadtl",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/s01_312302_ajaadtl",
+      "cubismPath": "live2d/roles/s01_312302_aja",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/s01_312302_aja",
+      "birthday": "6/24",
+      "skinName": "Leap of Faith",
+      "isDefaultSkin": false,
+      "skinDescription": "出于继承，出于真正的自由。",
+      "matchedName": "Ezio Auditore",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Ezio Auditore is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 312302 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1352033,
+      "assetVersions": {
+        "downloads/9Pets-Ezio-Auditore-Leap-of-Faith.zip": "148fe84ef8e3984f",
+        "assets/previews/9Pets-Ezio-Auditore-Leap-of-Faith.png": "cd26131a1bf29e2d",
+        "assets/spritesheets/9Pets-Ezio-Auditore-Leap-of-Faith.webp": "7edafe45ccd8bda1",
+        "assets/detail-spritesheets/9Pets-Ezio-Auditore-Leap-of-Faith.webp": "c74077a1436afa2b",
+        "assets/source/9Pets-Ezio-Auditore-Leap-of-Faith.png": "dab75c5745d6070a"
       }
     }
   ],
