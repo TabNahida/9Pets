@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T01:24:33Z",
-  "total": 158,
+  "generatedAt": "2026-06-15T01:27:47Z",
+  "total": 159,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6014,6 +6014,44 @@
         "assets/spritesheets/9Pets-Coppelia-Song-of-the-Self-Playing-Instrument.webp": "e2be4665571ff72d",
         "assets/detail-spritesheets/9Pets-Coppelia-Song-of-the-Self-Playing-Instrument.webp": "731c4298606aca56",
         "assets/source/9Pets-Coppelia-Song-of-the-Self-Playing-Instrument.png": "9d882a53d7be452f"
+      }
+    },
+    {
+      "id": "9pets-coppelia-sounds-that-wake-her",
+      "packageName": "9Pets-Coppelia-Sounds-that-Wake-Her",
+      "displayName": "Coppelia",
+      "skinDisplayName": "-- Sounds that Wake Her",
+      "download": "downloads/9Pets-Coppelia-Sounds-that-Wake-Her.zip",
+      "preview": "assets/previews/9Pets-Coppelia-Sounds-that-Wake-Her.png",
+      "spritesheet": "assets/spritesheets/9Pets-Coppelia-Sounds-that-Wake-Her.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Coppelia-Sounds-that-Wake-Her.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/314403.png",
+      "sourceImage": "assets/source/9Pets-Coppelia-Sounds-that-Wake-Her.png",
+      "sourceRepoPath": "singlebg/headicon_img/314403.png",
+      "assetId": "314403",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a7_314403_fly",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a7_314403_fly",
+      "cubismPath": "live2d/roles/v3a7_314403_fly",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a7_314403_fly",
+      "birthday": "4/11",
+      "skinName": "Sounds that Wake Her",
+      "isDefaultSkin": false,
+      "skinDescription": "与它告别吧，那迷路时一再跌宕的呜咽回声。",
+      "matchedName": "Coppelia",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Coppelia is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 314403 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 969476,
+      "assetVersions": {
+        "downloads/9Pets-Coppelia-Sounds-that-Wake-Her.zip": "43ba67be26c11a01",
+        "assets/previews/9Pets-Coppelia-Sounds-that-Wake-Her.png": "720fcc61921d1ad8",
+        "assets/spritesheets/9Pets-Coppelia-Sounds-that-Wake-Her.webp": "06e4c7ab306fc995",
+        "assets/detail-spritesheets/9Pets-Coppelia-Sounds-that-Wake-Her.webp": "1dbde3af6bc34c5d",
+        "assets/source/9Pets-Coppelia-Sounds-that-Wake-Her.png": "c8b440eb5d4fea54"
       }
     }
   ],
