@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T01:51:58Z",
-  "total": 167,
+  "generatedAt": "2026-06-15T01:54:55Z",
+  "total": 168,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6356,6 +6356,44 @@
         "assets/spritesheets/9Pets-Dikke-The-Pointy-End-Up.webp": "96a77a93f6745f91",
         "assets/detail-spritesheets/9Pets-Dikke-The-Pointy-End-Up.webp": "36c1d186e830ee50",
         "assets/source/9Pets-Dikke-The-Pointy-End-Up.png": "41474816299f8710"
+      }
+    },
+    {
+      "id": "9pets-druvis-iii-the-druid",
+      "packageName": "9Pets-Druvis-III-The-Druid",
+      "displayName": "Druvis III",
+      "skinDisplayName": "-- The Druid",
+      "download": "downloads/9Pets-Druvis-III-The-Druid.zip",
+      "preview": "assets/previews/9Pets-Druvis-III-The-Druid.png",
+      "spritesheet": "assets/spritesheets/9Pets-Druvis-III-The-Druid.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Druvis-III-The-Druid.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/300302.png",
+      "sourceImage": "assets/source/9Pets-Druvis-III-The-Druid.png",
+      "sourceRepoPath": "singlebg/headicon_img/300302.png",
+      "assetId": "300302",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/300303_hujisheng",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/300303_hujisheng",
+      "cubismPath": "live2d/roles/300303_hujisheng",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/300303_hujisheng",
+      "birthday": "10/23",
+      "skinName": "The Druid",
+      "isDefaultSkin": false,
+      "skinDescription": "她回到橡木树梢，像是回到母亲的怀抱。",
+      "matchedName": "Druvis III",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Druvis III is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 300302 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1411460,
+      "assetVersions": {
+        "downloads/9Pets-Druvis-III-The-Druid.zip": "662d35c071db1a9e",
+        "assets/previews/9Pets-Druvis-III-The-Druid.png": "5bc9fe5cd63735ee",
+        "assets/spritesheets/9Pets-Druvis-III-The-Druid.webp": "20b606d0e49139a0",
+        "assets/detail-spritesheets/9Pets-Druvis-III-The-Druid.webp": "c51f7f25fcd5d10b",
+        "assets/source/9Pets-Druvis-III-The-Druid.png": "a83523cf2157e175"
       }
     }
   ],
