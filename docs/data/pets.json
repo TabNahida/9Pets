@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T01:54:55Z",
-  "total": 168,
+  "generatedAt": "2026-06-15T01:58:02Z",
+  "total": 169,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6356,6 +6356,44 @@
         "assets/spritesheets/9Pets-Dikke-The-Pointy-End-Up.webp": "96a77a93f6745f91",
         "assets/detail-spritesheets/9Pets-Dikke-The-Pointy-End-Up.webp": "36c1d186e830ee50",
         "assets/source/9Pets-Dikke-The-Pointy-End-Up.png": "41474816299f8710"
+      }
+    },
+    {
+      "id": "9pets-druvis-iii-lady-with-nao-e",
+      "packageName": "9Pets-Druvis-III-Lady-With-Nao-E",
+      "displayName": "Druvis III",
+      "skinDisplayName": "-- Lady With Nao'E",
+      "download": "downloads/9Pets-Druvis-III-Lady-With-Nao-E.zip",
+      "preview": "assets/previews/9Pets-Druvis-III-Lady-With-Nao-E.png",
+      "spritesheet": "assets/spritesheets/9Pets-Druvis-III-Lady-With-Nao-E.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Druvis-III-Lady-With-Nao-E.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/300305.png",
+      "sourceImage": "assets/source/9Pets-Druvis-III-Lady-With-Nao-E.png",
+      "sourceRepoPath": "singlebg/headicon_img/300305.png",
+      "assetId": "300305",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a6_300305_hjs",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a6_300305_hjs",
+      "cubismPath": "live2d/roles/v1a6_300305_hujisheng",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a6_300305_hujisheng",
+      "birthday": "10/23",
+      "skinName": "Lady With Nao'E",
+      "isDefaultSkin": false,
+      "skinDescription": "正是春归时。",
+      "matchedName": "Druvis III",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Druvis III is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 300305 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1516930,
+      "assetVersions": {
+        "downloads/9Pets-Druvis-III-Lady-With-Nao-E.zip": "c97142187add2895",
+        "assets/previews/9Pets-Druvis-III-Lady-With-Nao-E.png": "bad4dd998e87783a",
+        "assets/spritesheets/9Pets-Druvis-III-Lady-With-Nao-E.webp": "8108a4115da48811",
+        "assets/detail-spritesheets/9Pets-Druvis-III-Lady-With-Nao-E.webp": "0176cce9bc6d5425",
+        "assets/source/9Pets-Druvis-III-Lady-With-Nao-E.png": "f1137a4e62b2b84f"
       }
     },
     {
