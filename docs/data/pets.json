@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T00:10:59Z",
-  "total": 146,
+  "generatedAt": "2026-06-15T00:14:12Z",
+  "total": 147,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5558,6 +5558,44 @@
         "assets/spritesheets/9Pets-Barcarola-As-the-Sea-Breeze-Leads.webp": "2e1ce6c6615ca865",
         "assets/detail-spritesheets/9Pets-Barcarola-As-the-Sea-Breeze-Leads.webp": "1de964af9df9bc92",
         "assets/source/9Pets-Barcarola-As-the-Sea-Breeze-Leads.png": "e45354109f9504c5"
+      }
+    },
+    {
+      "id": "9pets-barcarola-asteroid-allegro",
+      "packageName": "9Pets-Barcarola-Asteroid-Allegro",
+      "displayName": "Barcarola",
+      "skinDisplayName": "-- Asteroid Allegro",
+      "download": "downloads/9Pets-Barcarola-Asteroid-Allegro.zip",
+      "preview": "assets/previews/9Pets-Barcarola-Asteroid-Allegro.png",
+      "spritesheet": "assets/spritesheets/9Pets-Barcarola-Asteroid-Allegro.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Barcarola-Asteroid-Allegro.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/310803.png",
+      "sourceImage": "assets/source/9Pets-Barcarola-Asteroid-Allegro.png",
+      "sourceRepoPath": "singlebg/headicon_img/310803.png",
+      "assetId": "310803",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a7_310803_bkle",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a7_310803_bkle",
+      "cubismPath": "live2d/roles/v2a7_310803_bkle",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a7_310803_bkle",
+      "birthday": "11/13",
+      "skinName": "Asteroid Allegro",
+      "isDefaultSkin": false,
+      "skinDescription": "当乐音不再受重力束缚。",
+      "matchedName": "Barcarola",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Barcarola is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 310803 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1205913,
+      "assetVersions": {
+        "downloads/9Pets-Barcarola-Asteroid-Allegro.zip": "c42ca50416d1f1df",
+        "assets/previews/9Pets-Barcarola-Asteroid-Allegro.png": "9bc745ad92eeb56e",
+        "assets/spritesheets/9Pets-Barcarola-Asteroid-Allegro.webp": "eaff809b899a159a",
+        "assets/detail-spritesheets/9Pets-Barcarola-Asteroid-Allegro.webp": "fcf4f17ffdd3ba5c",
+        "assets/source/9Pets-Barcarola-Asteroid-Allegro.png": "9e315f53c0fa02fa"
       }
     }
   ],
