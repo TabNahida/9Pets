@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T01:42:54Z",
-  "total": 164,
+  "generatedAt": "2026-06-15T01:45:54Z",
+  "total": 165,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6204,6 +6204,44 @@
         "assets/spritesheets/9Pets-Desert-Flannel-Red-Desert-Special-Offer.webp": "673af8b2002312d8",
         "assets/detail-spritesheets/9Pets-Desert-Flannel-Red-Desert-Special-Offer.webp": "0a3b1ca0a5819ba6",
         "assets/source/9Pets-Desert-Flannel-Red-Desert-Special-Offer.png": "35d0e81738f6193e"
+      }
+    },
+    {
+      "id": "9pets-diggers-another-assumption",
+      "packageName": "9Pets-Diggers-Another-Assumption",
+      "displayName": "Diggers",
+      "skinDisplayName": "-- Another Assumption",
+      "download": "downloads/9Pets-Diggers-Another-Assumption.zip",
+      "preview": "assets/previews/9Pets-Diggers-Another-Assumption.png",
+      "spritesheet": "assets/spritesheets/9Pets-Diggers-Another-Assumption.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Diggers-Another-Assumption.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/306403.png",
+      "sourceImage": "assets/source/9Pets-Diggers-Another-Assumption.png",
+      "sourceRepoPath": "singlebg/headicon_img/306403.png",
+      "assetId": "306403",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a4_306403_wajueyishu",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a4_306403_wajueyishu",
+      "cubismPath": "live2d/roles/v1a4_306403_wajueyishu",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a4_306403_wajueyishu",
+      "birthday": "2/15",
+      "skinName": "Another Assumption",
+      "isDefaultSkin": false,
+      "skinDescription": "反对暴力，反对仇恨，反对早起，反对数学。",
+      "matchedName": "Diggers",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Diggers is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 306403 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 972758,
+      "assetVersions": {
+        "downloads/9Pets-Diggers-Another-Assumption.zip": "344feac21095d167",
+        "assets/previews/9Pets-Diggers-Another-Assumption.png": "90f05907e55ad589",
+        "assets/spritesheets/9Pets-Diggers-Another-Assumption.webp": "42eb33a7254e65cb",
+        "assets/detail-spritesheets/9Pets-Diggers-Another-Assumption.webp": "15eab744e6cd934a",
+        "assets/source/9Pets-Diggers-Another-Assumption.png": "0f85aa5ad0ebb0af"
       }
     },
     {
