@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T01:39:54Z",
-  "total": 163,
+  "generatedAt": "2026-06-15T01:42:54Z",
+  "total": 164,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6204,6 +6204,44 @@
         "assets/spritesheets/9Pets-Desert-Flannel-Red-Desert-Special-Offer.webp": "673af8b2002312d8",
         "assets/detail-spritesheets/9Pets-Desert-Flannel-Red-Desert-Special-Offer.webp": "0a3b1ca0a5819ba6",
         "assets/source/9Pets-Desert-Flannel-Red-Desert-Special-Offer.png": "35d0e81738f6193e"
+      }
+    },
+    {
+      "id": "9pets-diggers-the-digger-of-art",
+      "packageName": "9Pets-Diggers-The-Digger-of-Art",
+      "displayName": "Diggers",
+      "skinDisplayName": "-- The Digger of Art",
+      "download": "downloads/9Pets-Diggers-The-Digger-of-Art.zip",
+      "preview": "assets/previews/9Pets-Diggers-The-Digger-of-Art.png",
+      "spritesheet": "assets/spritesheets/9Pets-Diggers-The-Digger-of-Art.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Diggers-The-Digger-of-Art.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/306402.png",
+      "sourceImage": "assets/source/9Pets-Diggers-The-Digger-of-Art.png",
+      "sourceRepoPath": "singlebg/headicon_img/306402.png",
+      "assetId": "306402",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/306402_wajueyishu",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/306402_wajueyishu",
+      "cubismPath": "live2d/roles/306402_wajueyishu",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/306402_wajueyishu",
+      "birthday": "2/15",
+      "skinName": "The Digger of Art",
+      "isDefaultSkin": false,
+      "skinDescription": "爱与和平，爱与和平。",
+      "matchedName": "Diggers",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Diggers is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 306402 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1081238,
+      "assetVersions": {
+        "downloads/9Pets-Diggers-The-Digger-of-Art.zip": "aa8c303c5ce91842",
+        "assets/previews/9Pets-Diggers-The-Digger-of-Art.png": "796463fdc8a4ded3",
+        "assets/spritesheets/9Pets-Diggers-The-Digger-of-Art.webp": "c90a9ca16c82eb2e",
+        "assets/detail-spritesheets/9Pets-Diggers-The-Digger-of-Art.webp": "c80aba16175121d4",
+        "assets/source/9Pets-Diggers-The-Digger-of-Art.png": "9d23eabf46376f12"
       }
     }
   ],
