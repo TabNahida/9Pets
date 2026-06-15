@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T00:57:17Z",
-  "total": 149,
+  "generatedAt": "2026-06-15T01:00:06Z",
+  "total": 150,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5672,6 +5672,44 @@
         "assets/spritesheets/9Pets-Blonney-P-P-Pink-Lady.webp": "c1fbe1baf45a8ed0",
         "assets/detail-spritesheets/9Pets-Blonney-P-P-Pink-Lady.webp": "62bf7920f8190400",
         "assets/source/9Pets-Blonney-P-P-Pink-Lady.png": "f5d753615f2bbd63"
+      }
+    },
+    {
+      "id": "9pets-blonney-the-giallo-grind",
+      "packageName": "9Pets-Blonney-The-Giallo-Grind",
+      "displayName": "Blonney",
+      "skinDisplayName": "-- The Giallo Grind",
+      "download": "downloads/9Pets-Blonney-The-Giallo-Grind.zip",
+      "preview": "assets/previews/9Pets-Blonney-The-Giallo-Grind.png",
+      "spritesheet": "assets/spritesheets/9Pets-Blonney-The-Giallo-Grind.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Blonney-The-Giallo-Grind.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/306003.png",
+      "sourceImage": "assets/source/9Pets-Blonney-The-Giallo-Grind.png",
+      "sourceRepoPath": "singlebg/headicon_img/306003.png",
+      "assetId": "306003",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a1_306003_jinmier",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a1_306003_jinmier",
+      "cubismPath": "live2d/roles/v2a1_306003_jinmier",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a1_306003_jinmier",
+      "birthday": "7/22",
+      "skinName": "The Giallo Grind",
+      "isDefaultSkin": false,
+      "skinDescription": "我们有湖，有小屋，还有意想不到的邂逅！",
+      "matchedName": "Blonney",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Blonney is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 306003 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1305899,
+      "assetVersions": {
+        "downloads/9Pets-Blonney-The-Giallo-Grind.zip": "d152a3ba03f85a95",
+        "assets/previews/9Pets-Blonney-The-Giallo-Grind.png": "3f728b669ffe231d",
+        "assets/spritesheets/9Pets-Blonney-The-Giallo-Grind.webp": "937ec323901dab62",
+        "assets/detail-spritesheets/9Pets-Blonney-The-Giallo-Grind.webp": "ade25c7d88ffceff",
+        "assets/source/9Pets-Blonney-The-Giallo-Grind.png": "e27ba4f9130f8cb9"
       }
     }
   ],
