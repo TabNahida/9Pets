@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T00:08:09Z",
-  "total": 145,
+  "generatedAt": "2026-06-15T00:10:59Z",
+  "total": 146,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5520,6 +5520,44 @@
         "assets/spritesheets/9Pets-Barbara-A-Meadow-in-Her-Dreams.webp": "c676d322ca2343f1",
         "assets/detail-spritesheets/9Pets-Barbara-A-Meadow-in-Her-Dreams.webp": "277c1f1990b5e458",
         "assets/source/9Pets-Barbara-A-Meadow-in-Her-Dreams.png": "52c59f8b6b4cd54a"
+      }
+    },
+    {
+      "id": "9pets-barcarola-as-the-sea-breeze-leads",
+      "packageName": "9Pets-Barcarola-As-the-Sea-Breeze-Leads",
+      "displayName": "Barcarola",
+      "skinDisplayName": "-- As the Sea Breeze Leads",
+      "download": "downloads/9Pets-Barcarola-As-the-Sea-Breeze-Leads.zip",
+      "preview": "assets/previews/9Pets-Barcarola-As-the-Sea-Breeze-Leads.png",
+      "spritesheet": "assets/spritesheets/9Pets-Barcarola-As-the-Sea-Breeze-Leads.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Barcarola-As-the-Sea-Breeze-Leads.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/310802.png",
+      "sourceImage": "assets/source/9Pets-Barcarola-As-the-Sea-Breeze-Leads.png",
+      "sourceRepoPath": "singlebg/headicon_img/310802.png",
+      "assetId": "310802",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a4_310802_bkle",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a4_310802_bkle",
+      "cubismPath": "live2d/roles/v2a4_310802_bkle",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a4_310802_bkle",
+      "birthday": "11/13",
+      "skinName": "As the Sea Breeze Leads",
+      "isDefaultSkin": false,
+      "skinDescription": "从今以后，自由独奏。",
+      "matchedName": "Barcarola",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Barcarola is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 310802 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1219136,
+      "assetVersions": {
+        "downloads/9Pets-Barcarola-As-the-Sea-Breeze-Leads.zip": "cd4b0103058e9d91",
+        "assets/previews/9Pets-Barcarola-As-the-Sea-Breeze-Leads.png": "6a5f3d7dda1ee339",
+        "assets/spritesheets/9Pets-Barcarola-As-the-Sea-Breeze-Leads.webp": "2e1ce6c6615ca865",
+        "assets/detail-spritesheets/9Pets-Barcarola-As-the-Sea-Breeze-Leads.webp": "1de964af9df9bc92",
+        "assets/source/9Pets-Barcarola-As-the-Sea-Breeze-Leads.png": "e45354109f9504c5"
       }
     }
   ],
