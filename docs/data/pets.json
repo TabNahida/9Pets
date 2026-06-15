@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T01:27:47Z",
-  "total": 159,
+  "generatedAt": "2026-06-15T01:30:45Z",
+  "total": 160,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6052,6 +6052,44 @@
         "assets/spritesheets/9Pets-Coppelia-Sounds-that-Wake-Her.webp": "06e4c7ab306fc995",
         "assets/detail-spritesheets/9Pets-Coppelia-Sounds-that-Wake-Her.webp": "1dbde3af6bc34c5d",
         "assets/source/9Pets-Coppelia-Sounds-that-Wake-Her.png": "c8b440eb5d4fea54"
+      }
+    },
+    {
+      "id": "9pets-corvus-the-warmth-she-knitted",
+      "packageName": "9Pets-Corvus-The-Warmth-She-Knitted",
+      "displayName": "Corvus",
+      "skinDisplayName": "-- The Warmth She Knitted",
+      "download": "downloads/9Pets-Corvus-The-Warmth-She-Knitted.zip",
+      "preview": "assets/previews/9Pets-Corvus-The-Warmth-She-Knitted.png",
+      "spritesheet": "assets/spritesheets/9Pets-Corvus-The-Warmth-She-Knitted.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Corvus-The-Warmth-She-Knitted.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/313202.png",
+      "sourceImage": "assets/source/9Pets-Corvus-The-Warmth-She-Knitted.png",
+      "sourceRepoPath": "singlebg/headicon_img/313202.png",
+      "assetId": "313202",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a1_313202_gsn",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a1_313202_gsn",
+      "cubismPath": "live2d/roles/v3a1_313202_gsn",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a1_313202_gsn",
+      "birthday": "8/2",
+      "skinName": "The Warmth She Knitted",
+      "isDefaultSkin": false,
+      "skinDescription": "一颗炽热的心，在霜雪披覆之下。",
+      "matchedName": "Corvus",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Corvus is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 313202 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1155662,
+      "assetVersions": {
+        "downloads/9Pets-Corvus-The-Warmth-She-Knitted.zip": "47edce7c2a9e7215",
+        "assets/previews/9Pets-Corvus-The-Warmth-She-Knitted.png": "c07976f5c3cc426b",
+        "assets/spritesheets/9Pets-Corvus-The-Warmth-She-Knitted.webp": "b43880e93c67787e",
+        "assets/detail-spritesheets/9Pets-Corvus-The-Warmth-She-Knitted.webp": "4bf0fe77c075b9b2",
+        "assets/source/9Pets-Corvus-The-Warmth-She-Knitted.png": "69de62f298d68920"
       }
     }
   ],
