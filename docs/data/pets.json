@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T02:37:49Z",
-  "total": 172,
+  "generatedAt": "2026-06-15T02:42:08Z",
+  "total": 173,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6508,6 +6508,44 @@
         "assets/spritesheets/9Pets-Enigma-Cloze-Testing.webp": "18e1c3e98d1fb841",
         "assets/detail-spritesheets/9Pets-Enigma-Cloze-Testing.webp": "040b28aaa14628a9",
         "assets/source/9Pets-Enigma-Cloze-Testing.png": "0c4a0c94437cf92b"
+      }
+    },
+    {
+      "id": "9pets-eternity-a-visit-to-the-arctic",
+      "packageName": "9Pets-Eternity-A-Visit-to-the-Arctic",
+      "displayName": "Eternity",
+      "skinDisplayName": "-- A Visit to the Arctic",
+      "download": "downloads/9Pets-Eternity-A-Visit-to-the-Arctic.zip",
+      "preview": "assets/previews/9Pets-Eternity-A-Visit-to-the-Arctic.png",
+      "spritesheet": "assets/spritesheets/9Pets-Eternity-A-Visit-to-the-Arctic.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Eternity-A-Visit-to-the-Arctic.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/305103.png",
+      "sourceImage": "assets/source/9Pets-Eternity-A-Visit-to-the-Arctic.png",
+      "sourceRepoPath": "singlebg/headicon_img/305103.png",
+      "assetId": "305103",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a8_305103_wnfld",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a8_305103_wnfld",
+      "cubismPath": "live2d/roles/v1a8_305103_wnfld",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a8_305103_wnfld",
+      "birthday": "12/25",
+      "skinName": "A Visit to the Arctic",
+      "isDefaultSkin": false,
+      "skinDescription": "能忍受寒冷的人收获最多。",
+      "matchedName": "Eternity",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Eternity is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 305103 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 926929,
+      "assetVersions": {
+        "downloads/9Pets-Eternity-A-Visit-to-the-Arctic.zip": "d30de7b1d818cc8d",
+        "assets/previews/9Pets-Eternity-A-Visit-to-the-Arctic.png": "c32da3df205be8ae",
+        "assets/spritesheets/9Pets-Eternity-A-Visit-to-the-Arctic.webp": "f83d9dd2b1cb3116",
+        "assets/detail-spritesheets/9Pets-Eternity-A-Visit-to-the-Arctic.webp": "4be3386c6e059e89",
+        "assets/source/9Pets-Eternity-A-Visit-to-the-Arctic.png": "0b7a0100fff9ba3d"
       }
     },
     {
