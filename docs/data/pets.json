@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T02:33:09Z",
-  "total": 171,
+  "generatedAt": "2026-06-15T02:37:49Z",
+  "total": 172,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6508,6 +6508,44 @@
         "assets/spritesheets/9Pets-Enigma-Cloze-Testing.webp": "18e1c3e98d1fb841",
         "assets/detail-spritesheets/9Pets-Enigma-Cloze-Testing.webp": "040b28aaa14628a9",
         "assets/source/9Pets-Enigma-Cloze-Testing.png": "0c4a0c94437cf92b"
+      }
+    },
+    {
+      "id": "9pets-eternity-lady-of-the-evernight",
+      "packageName": "9Pets-Eternity-Lady-of-the-Evernight",
+      "displayName": "Eternity",
+      "skinDisplayName": "-- Lady of the Evernight",
+      "download": "downloads/9Pets-Eternity-Lady-of-the-Evernight.zip",
+      "preview": "assets/previews/9Pets-Eternity-Lady-of-the-Evernight.png",
+      "spritesheet": "assets/spritesheets/9Pets-Eternity-Lady-of-the-Evernight.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Eternity-Lady-of-the-Evernight.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/305102.png",
+      "sourceImage": "assets/source/9Pets-Eternity-Lady-of-the-Evernight.png",
+      "sourceRepoPath": "singlebg/headicon_img/305102.png",
+      "assetId": "305102",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/305102_wennifuleide",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/305102_wennifuleide",
+      "cubismPath": "live2d/roles/305102_wennifuleide",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/305102_wennifuleide",
+      "birthday": "12/25",
+      "skinName": "Lady of the Evernight",
+      "isDefaultSkin": false,
+      "skinDescription": "热牛奶总是梦境的守护神。它熨贴未知的恐惧，也驱散往日的阴影。",
+      "matchedName": "Eternity",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Eternity is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 305102 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1086240,
+      "assetVersions": {
+        "downloads/9Pets-Eternity-Lady-of-the-Evernight.zip": "6f2533d05c058dba",
+        "assets/previews/9Pets-Eternity-Lady-of-the-Evernight.png": "21c4aa8a1972768d",
+        "assets/spritesheets/9Pets-Eternity-Lady-of-the-Evernight.webp": "1500c61627af21c7",
+        "assets/detail-spritesheets/9Pets-Eternity-Lady-of-the-Evernight.webp": "51b1b9e03f1ec557",
+        "assets/source/9Pets-Eternity-Lady-of-the-Evernight.png": "91ce92eaec10744a"
       }
     }
   ],
