@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T02:28:58Z",
-  "total": 170,
+  "generatedAt": "2026-06-15T02:33:09Z",
+  "total": 171,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6470,6 +6470,44 @@
         "assets/spritesheets/9Pets-Druvis-III-The-Druid.webp": "20b606d0e49139a0",
         "assets/detail-spritesheets/9Pets-Druvis-III-The-Druid.webp": "c51f7f25fcd5d10b",
         "assets/source/9Pets-Druvis-III-The-Druid.png": "a83523cf2157e175"
+      }
+    },
+    {
+      "id": "9pets-enigma-cloze-testing",
+      "packageName": "9Pets-Enigma-Cloze-Testing",
+      "displayName": "Enigma",
+      "skinDisplayName": "-- Cloze Testing",
+      "download": "downloads/9Pets-Enigma-Cloze-Testing.zip",
+      "preview": "assets/previews/9Pets-Enigma-Cloze-Testing.png",
+      "spritesheet": "assets/spritesheets/9Pets-Enigma-Cloze-Testing.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Enigma-Cloze-Testing.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/314302.png",
+      "sourceImage": "assets/source/9Pets-Enigma-Cloze-Testing.png",
+      "sourceRepoPath": "singlebg/headicon_img/314302.png",
+      "assetId": "314302",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a6_314302_ym",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a6_314302_ym",
+      "cubismPath": "live2d/roles/v3a6_314302_yami",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a6_314302_yami",
+      "birthday": "10/16",
+      "skinName": "Cloze Testing",
+      "isDefaultSkin": false,
+      "skinDescription": "执着于一个“明天”的答案。",
+      "matchedName": "Enigma",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Enigma is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 314302 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 914065,
+      "assetVersions": {
+        "downloads/9Pets-Enigma-Cloze-Testing.zip": "0e0b1f9709aa753a",
+        "assets/previews/9Pets-Enigma-Cloze-Testing.png": "345719c5af039202",
+        "assets/spritesheets/9Pets-Enigma-Cloze-Testing.webp": "18e1c3e98d1fb841",
+        "assets/detail-spritesheets/9Pets-Enigma-Cloze-Testing.webp": "040b28aaa14628a9",
+        "assets/source/9Pets-Enigma-Cloze-Testing.png": "0c4a0c94437cf92b"
       }
     }
   ],
