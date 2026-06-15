@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T01:45:54Z",
-  "total": 165,
+  "generatedAt": "2026-06-15T01:48:53Z",
+  "total": 166,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6280,6 +6280,44 @@
         "assets/spritesheets/9Pets-Diggers-The-Digger-of-Art.webp": "c90a9ca16c82eb2e",
         "assets/detail-spritesheets/9Pets-Diggers-The-Digger-of-Art.webp": "c80aba16175121d4",
         "assets/source/9Pets-Diggers-The-Digger-of-Art.png": "9d23eabf46376f12"
+      }
+    },
+    {
+      "id": "9pets-dikke-sword-of-hammurabi",
+      "packageName": "9Pets-Dikke-Sword-of-Hammurabi",
+      "displayName": "Dikke",
+      "skinDisplayName": "-- Sword of Hammurabi",
+      "download": "downloads/9Pets-Dikke-Sword-of-Hammurabi.zip",
+      "preview": "assets/previews/9Pets-Dikke-Sword-of-Hammurabi.png",
+      "spritesheet": "assets/spritesheets/9Pets-Dikke-Sword-of-Hammurabi.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Dikke-Sword-of-Hammurabi.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/302202.png",
+      "sourceImage": "assets/source/9Pets-Dikke-Sword-of-Hammurabi.png",
+      "sourceRepoPath": "singlebg/headicon_img/302202.png",
+      "assetId": "302202",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/302202_pamiai",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/302202_pamiai",
+      "cubismPath": "live2d/roles/302202_pamiai",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/302202_pamiai",
+      "birthday": "10/10",
+      "skinName": "Sword of Hammurabi",
+      "isDefaultSkin": false,
+      "skinDescription": "其心澄如明镜，其剑斩尽不公。",
+      "matchedName": "Dikke",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Dikke is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 302202 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1163327,
+      "assetVersions": {
+        "downloads/9Pets-Dikke-Sword-of-Hammurabi.zip": "afe2e4827074b7aa",
+        "assets/previews/9Pets-Dikke-Sword-of-Hammurabi.png": "a8e5bdd5e413596f",
+        "assets/spritesheets/9Pets-Dikke-Sword-of-Hammurabi.webp": "d55dde686abe8777",
+        "assets/detail-spritesheets/9Pets-Dikke-Sword-of-Hammurabi.webp": "2bbc242cb322e549",
+        "assets/source/9Pets-Dikke-Sword-of-Hammurabi.png": "54ea57003339f9bf"
       }
     }
   ],
