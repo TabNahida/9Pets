@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T00:02:17Z",
-  "total": 143,
+  "generatedAt": "2026-06-15T00:05:13Z",
+  "total": 144,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5444,6 +5444,44 @@
         "assets/spritesheets/9Pets-Argus-Starbound-Bounty-Hunter.webp": "c4466ea66f161ad4",
         "assets/detail-spritesheets/9Pets-Argus-Starbound-Bounty-Hunter.webp": "c0e07ef0552c38df",
         "assets/source/9Pets-Argus-Starbound-Bounty-Hunter.png": "2b5dceb968279b83"
+      }
+    },
+    {
+      "id": "9pets-avgust-his-own-corner-on-the-square",
+      "packageName": "9Pets-Avgust-His-Own-Corner-on-the-Square",
+      "displayName": "Avgust",
+      "skinDisplayName": "-- His Own Corner on the Square",
+      "download": "downloads/9Pets-Avgust-His-Own-Corner-on-the-Square.zip",
+      "preview": "assets/previews/9Pets-Avgust-His-Own-Corner-on-the-Square.png",
+      "spritesheet": "assets/spritesheets/9Pets-Avgust-His-Own-Corner-on-the-Square.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Avgust-His-Own-Corner-on-the-Square.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/307802.png",
+      "sourceImage": "assets/source/9Pets-Avgust-His-Own-Corner-on-the-Square.png",
+      "sourceRepoPath": "singlebg/headicon_img/307802.png",
+      "assetId": "307802",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a8_307802_afuxiwei",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a8_307802_afuxiwei",
+      "cubismPath": "live2d/roles/v1a8_307802_afuxiwei",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a8_307802_afuxiwei",
+      "birthday": "8/7",
+      "skinName": "His Own Corner on the Square",
+      "isDefaultSkin": false,
+      "skinDescription": "瞧呀，是谁在观察呢？听呀，是谁在倾诉呢？噢，是我，是你。",
+      "matchedName": "Avgust",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Avgust is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 307802 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1125451,
+      "assetVersions": {
+        "downloads/9Pets-Avgust-His-Own-Corner-on-the-Square.zip": "d71d8a8c3eb9efe1",
+        "assets/previews/9Pets-Avgust-His-Own-Corner-on-the-Square.png": "fb4639d6ff0350bc",
+        "assets/spritesheets/9Pets-Avgust-His-Own-Corner-on-the-Square.webp": "88c08340ac682ee6",
+        "assets/detail-spritesheets/9Pets-Avgust-His-Own-Corner-on-the-Square.webp": "f327e1fcd12d59ab",
+        "assets/source/9Pets-Avgust-His-Own-Corner-on-the-Square.png": "0484e3ca95e561ac"
       }
     }
   ],
