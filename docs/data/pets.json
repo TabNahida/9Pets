@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-14T23:51:25Z",
-  "total": 142,
+  "generatedAt": "2026-06-15T00:02:17Z",
+  "total": 143,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5406,6 +5406,44 @@
         "assets/spritesheets/9Pets-Argus-All-Seeing-Light.webp": "8d6aa39cebdf36e8",
         "assets/detail-spritesheets/9Pets-Argus-All-Seeing-Light.webp": "b5cf7da18146cb2d",
         "assets/source/9Pets-Argus-All-Seeing-Light.png": "2a0fb836573aa338"
+      }
+    },
+    {
+      "id": "9pets-argus-starbound-bounty-hunter",
+      "packageName": "9Pets-Argus-Starbound-Bounty-Hunter",
+      "displayName": "Argus",
+      "skinDisplayName": "-- Starbound Bounty Hunter",
+      "download": "downloads/9Pets-Argus-Starbound-Bounty-Hunter.zip",
+      "preview": "assets/previews/9Pets-Argus-Starbound-Bounty-Hunter.png",
+      "spritesheet": "assets/spritesheets/9Pets-Argus-Starbound-Bounty-Hunter.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Argus-Starbound-Bounty-Hunter.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/309703.png",
+      "sourceImage": "assets/source/9Pets-Argus-Starbound-Bounty-Hunter.png",
+      "sourceRepoPath": "singlebg/headicon_img/309703.png",
+      "assetId": "309703",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a7_309703_aegs",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a7_309703_aegs",
+      "cubismPath": "live2d/roles/v2a7_309703_aegs",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a7_309703_aegs",
+      "birthday": "12/11",
+      "skinName": "Starbound Bounty Hunter",
+      "isDefaultSkin": false,
+      "skinDescription": "追猎的子弹一息不停，直至光年外的遥远星带。",
+      "matchedName": "Argus",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Argus is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 309703 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1097245,
+      "assetVersions": {
+        "downloads/9Pets-Argus-Starbound-Bounty-Hunter.zip": "ce80327955b02810",
+        "assets/previews/9Pets-Argus-Starbound-Bounty-Hunter.png": "fc01b88d9431b094",
+        "assets/spritesheets/9Pets-Argus-Starbound-Bounty-Hunter.webp": "c4466ea66f161ad4",
+        "assets/detail-spritesheets/9Pets-Argus-Starbound-Bounty-Hunter.webp": "c0e07ef0552c38df",
+        "assets/source/9Pets-Argus-Starbound-Bounty-Hunter.png": "2b5dceb968279b83"
       }
     }
   ],
