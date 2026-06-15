@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T01:15:01Z",
-  "total": 155,
+  "generatedAt": "2026-06-15T01:17:58Z",
+  "total": 156,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -5900,6 +5900,44 @@
         "assets/spritesheets/9Pets-Charon-Wailing-Silence.webp": "e27cab8033721bcd",
         "assets/detail-spritesheets/9Pets-Charon-Wailing-Silence.webp": "6b4fedfb4308777c",
         "assets/source/9Pets-Charon-Wailing-Silence.png": "9d322d6ce6ede16d"
+      }
+    },
+    {
+      "id": "9pets-cheng-heguang-breaking-free-from-a-burning-cage",
+      "packageName": "9Pets-Cheng-Heguang-Breaking-Free-from-a-Burning-Cage",
+      "displayName": "Cheng Heguang",
+      "skinDisplayName": "-- Breaking Free from a Burning Cage",
+      "download": "downloads/9Pets-Cheng-Heguang-Breaking-Free-from-a-Burning-Cage.zip",
+      "preview": "assets/previews/9Pets-Cheng-Heguang-Breaking-Free-from-a-Burning-Cage.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cheng-Heguang-Breaking-Free-from-a-Burning-Cage.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cheng-Heguang-Breaking-Free-from-a-Burning-Cage.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/313702.png",
+      "sourceImage": "assets/source/9Pets-Cheng-Heguang-Breaking-Free-from-a-Burning-Cage.png",
+      "sourceRepoPath": "singlebg/headicon_img/313702.png",
+      "assetId": "313702",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a4_313702_chg",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a4_313702_chg",
+      "cubismPath": "live2d/roles/v3a4_313702_chg",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a4_313702_chg",
+      "birthday": "7/3",
+      "skinName": "Breaking Free from a Burning Cage",
+      "isDefaultSkin": false,
+      "skinDescription": "他要借焚笼的光，看一看外面的天。",
+      "matchedName": "Cheng Heguang",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Cheng Heguang is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 313702 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1237915,
+      "assetVersions": {
+        "downloads/9Pets-Cheng-Heguang-Breaking-Free-from-a-Burning-Cage.zip": "6331fccbb53b2adf",
+        "assets/previews/9Pets-Cheng-Heguang-Breaking-Free-from-a-Burning-Cage.png": "9c329aca4d73af5c",
+        "assets/spritesheets/9Pets-Cheng-Heguang-Breaking-Free-from-a-Burning-Cage.webp": "3a9e87534c5ee2eb",
+        "assets/detail-spritesheets/9Pets-Cheng-Heguang-Breaking-Free-from-a-Burning-Cage.webp": "5a4fcec3cfa1d798",
+        "assets/source/9Pets-Cheng-Heguang-Breaking-Free-from-a-Burning-Cage.png": "1f1f44a85c7aa6ab"
       }
     }
   ],
