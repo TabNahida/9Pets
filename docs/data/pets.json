@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T18:45:08Z",
-  "total": 195,
+  "generatedAt": "2026-06-22T18:49:32Z",
+  "total": 196,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7420,6 +7420,44 @@
         "assets/spritesheets/9Pets-Jessica-Hide-and-Seek.webp": "a49cb94a639e4ffd",
         "assets/detail-spritesheets/9Pets-Jessica-Hide-and-Seek.webp": "b4b0c3f2e7c719a0",
         "assets/source/9Pets-Jessica-Hide-and-Seek.png": "f0afed6736fba05d"
+      }
+    },
+    {
+      "id": "9pets-jessica-voyage-from-your-bed",
+      "packageName": "9Pets-Jessica-Voyage-from-your-Bed",
+      "displayName": "Jessica",
+      "skinDisplayName": "-- Voyage from your Bed",
+      "download": "downloads/9Pets-Jessica-Voyage-from-your-Bed.zip",
+      "preview": "assets/previews/9Pets-Jessica-Voyage-from-your-Bed.png",
+      "spritesheet": "assets/spritesheets/9Pets-Jessica-Voyage-from-your-Bed.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Jessica-Voyage-from-your-Bed.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/305603.png",
+      "sourceImage": "assets/source/9Pets-Jessica-Voyage-from-your-Bed.png",
+      "sourceRepoPath": "singlebg/headicon_img/305603.png",
+      "assetId": "305603",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a9_305603_jiexika",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a9_305603_jiexika",
+      "cubismPath": "live2d/roles/v1a9_305603_jiexika",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a9_305603_jiexika",
+      "birthday": "4/11",
+      "skinName": "Voyage from your Bed",
+      "isDefaultSkin": false,
+      "skinDescription": "她不知道去往何处，她内心已充满期待。",
+      "matchedName": "Changeling",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Jessica is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 305603 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1278942,
+      "assetVersions": {
+        "downloads/9Pets-Jessica-Voyage-from-your-Bed.zip": "4388cb7fa20ded9d",
+        "assets/previews/9Pets-Jessica-Voyage-from-your-Bed.png": "f6a89c3d216df624",
+        "assets/spritesheets/9Pets-Jessica-Voyage-from-your-Bed.webp": "76909aee7a20f4a9",
+        "assets/detail-spritesheets/9Pets-Jessica-Voyage-from-your-Bed.webp": "4cae144f9249608f",
+        "assets/source/9Pets-Jessica-Voyage-from-your-Bed.png": "9e87681996867370"
       }
     }
   ],
