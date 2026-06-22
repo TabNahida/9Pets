@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T15:41:35Z",
-  "total": 181,
+  "generatedAt": "2026-06-22T15:46:53Z",
+  "total": 182,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6888,6 +6888,44 @@
         "assets/spritesheets/9Pets-Flutterpage-Chirpy-Morning-Ringer.webp": "a6f2fb0bb96f41e9",
         "assets/detail-spritesheets/9Pets-Flutterpage-Chirpy-Morning-Ringer.webp": "ab48820adf4a54d2",
         "assets/source/9Pets-Flutterpage-Chirpy-Morning-Ringer.png": "d8ba3294d7692944"
+      }
+    },
+    {
+      "id": "9pets-flutterpage-gently-comes-the-thawing-breeze",
+      "packageName": "9Pets-Flutterpage-Gently-Comes-the-Thawing-Breeze",
+      "displayName": "Flutterpage",
+      "skinDisplayName": "-- Gently Comes the Thawing Breeze",
+      "download": "downloads/9Pets-Flutterpage-Gently-Comes-the-Thawing-Breeze.zip",
+      "preview": "assets/previews/9Pets-Flutterpage-Gently-Comes-the-Thawing-Breeze.png",
+      "spritesheet": "assets/spritesheets/9Pets-Flutterpage-Gently-Comes-the-Thawing-Breeze.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Flutterpage-Gently-Comes-the-Thawing-Breeze.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/310503.png",
+      "sourceImage": "assets/source/9Pets-Flutterpage-Gently-Comes-the-Thawing-Breeze.png",
+      "sourceRepoPath": "singlebg/headicon_img/310503.png",
+      "assetId": "310503",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a0_310503_zxqe",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a0_310503_zxqe",
+      "cubismPath": "live2d/roles/v3a0_310503_zxqe",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a0_310503_zxqe",
+      "birthday": "7/14",
+      "skinName": "Gently Comes the Thawing Breeze",
+      "isDefaultSkin": false,
+      "skinDescription": "当她的春风刮起，悲伤的余烬都将被吹散。",
+      "matchedName": "Flutterpage",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Flutterpage is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 310503 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1796556,
+      "assetVersions": {
+        "downloads/9Pets-Flutterpage-Gently-Comes-the-Thawing-Breeze.zip": "f0aff642572807c1",
+        "assets/previews/9Pets-Flutterpage-Gently-Comes-the-Thawing-Breeze.png": "ce6243c8ec65bc85",
+        "assets/spritesheets/9Pets-Flutterpage-Gently-Comes-the-Thawing-Breeze.webp": "f4b2681c0763173d",
+        "assets/detail-spritesheets/9Pets-Flutterpage-Gently-Comes-the-Thawing-Breeze.webp": "d90b9bea111cb5af",
+        "assets/source/9Pets-Flutterpage-Gently-Comes-the-Thawing-Breeze.png": "b9abbb1bd32ea275"
       }
     }
   ],
