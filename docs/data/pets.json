@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T15:46:53Z",
-  "total": 182,
+  "generatedAt": "2026-06-22T15:51:56Z",
+  "total": 183,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6926,6 +6926,44 @@
         "assets/spritesheets/9Pets-Flutterpage-Gently-Comes-the-Thawing-Breeze.webp": "f4b2681c0763173d",
         "assets/detail-spritesheets/9Pets-Flutterpage-Gently-Comes-the-Thawing-Breeze.webp": "d90b9bea111cb5af",
         "assets/source/9Pets-Flutterpage-Gently-Comes-the-Thawing-Breeze.png": "b9abbb1bd32ea275"
+      }
+    },
+    {
+      "id": "9pets-getian-the-breeze-of-ease",
+      "packageName": "9Pets-Getian-The-Breeze-of-Ease",
+      "displayName": "Getian",
+      "skinDisplayName": "-- The Breeze of Ease",
+      "download": "downloads/9Pets-Getian-The-Breeze-of-Ease.zip",
+      "preview": "assets/previews/9Pets-Getian-The-Breeze-of-Ease.png",
+      "spritesheet": "assets/spritesheets/9Pets-Getian-The-Breeze-of-Ease.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Getian-The-Breeze-of-Ease.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/308402.png",
+      "sourceImage": "assets/source/9Pets-Getian-The-Breeze-of-Ease.png",
+      "sourceRepoPath": "singlebg/headicon_img/308402.png",
+      "assetId": "308402",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a6_308402_gt",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a6_308402_gt",
+      "cubismPath": "live2d/roles/v1a6_308402_gt",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a6_308402_gt",
+      "birthday": "7/22",
+      "skinName": "The Breeze of Ease",
+      "isDefaultSkin": false,
+      "skinDescription": "在时间之外，人世之中。",
+      "matchedName": "Getian",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Getian is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 308402 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1461753,
+      "assetVersions": {
+        "downloads/9Pets-Getian-The-Breeze-of-Ease.zip": "112077fcd6936ac9",
+        "assets/previews/9Pets-Getian-The-Breeze-of-Ease.png": "c2836bf58b36b6d4",
+        "assets/spritesheets/9Pets-Getian-The-Breeze-of-Ease.webp": "3d4fb966776fe92d",
+        "assets/detail-spritesheets/9Pets-Getian-The-Breeze-of-Ease.webp": "de95965788dfe97d",
+        "assets/source/9Pets-Getian-The-Breeze-of-Ease.png": "d8ebed9eeb527585"
       }
     }
   ],
