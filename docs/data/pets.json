@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T18:49:32Z",
-  "total": 196,
+  "generatedAt": "2026-06-22T18:58:06Z",
+  "total": 197,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7420,6 +7420,44 @@
         "assets/spritesheets/9Pets-Jessica-Hide-and-Seek.webp": "a49cb94a639e4ffd",
         "assets/detail-spritesheets/9Pets-Jessica-Hide-and-Seek.webp": "b4b0c3f2e7c719a0",
         "assets/source/9Pets-Jessica-Hide-and-Seek.png": "f0afed6736fba05d"
+      }
+    },
+    {
+      "id": "9pets-jessica-the-sound-of-paradise",
+      "packageName": "9Pets-Jessica-The-Sound-of-Paradise",
+      "displayName": "Jessica",
+      "skinDisplayName": "-- The Sound of Paradise",
+      "download": "downloads/9Pets-Jessica-The-Sound-of-Paradise.zip",
+      "preview": "assets/previews/9Pets-Jessica-The-Sound-of-Paradise.png",
+      "spritesheet": "assets/spritesheets/9Pets-Jessica-The-Sound-of-Paradise.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Jessica-The-Sound-of-Paradise.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/305604.png",
+      "sourceImage": "assets/source/9Pets-Jessica-The-Sound-of-Paradise.png",
+      "sourceRepoPath": "singlebg/headicon_img/305604.png",
+      "assetId": "305604",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a8_305604_jxk",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a8_305604_jxk",
+      "cubismPath": "live2d/roles/v2a8_305604_jxk",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a8_305604_jxk",
+      "birthday": "4/11",
+      "skinName": "The Sound of Paradise",
+      "isDefaultSkin": false,
+      "skinDescription": "让我们来见证这对新人。",
+      "matchedName": "Changeling",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Jessica is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 305604 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1493828,
+      "assetVersions": {
+        "downloads/9Pets-Jessica-The-Sound-of-Paradise.zip": "9f60495d49964f14",
+        "assets/previews/9Pets-Jessica-The-Sound-of-Paradise.png": "26872880575bfd24",
+        "assets/spritesheets/9Pets-Jessica-The-Sound-of-Paradise.webp": "b5ea06d929dae4fd",
+        "assets/detail-spritesheets/9Pets-Jessica-The-Sound-of-Paradise.webp": "ddad53e61e0700d2",
+        "assets/source/9Pets-Jessica-The-Sound-of-Paradise.png": "b293c1521898853a"
       }
     },
     {
