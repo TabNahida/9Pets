@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T15:07:39Z",
-  "total": 179,
+  "generatedAt": "2026-06-22T15:11:51Z",
+  "total": 180,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6812,6 +6812,44 @@
         "assets/spritesheets/9Pets-Fatutu-Fading-Ripples.webp": "e016b02b8f3d5bf9",
         "assets/detail-spritesheets/9Pets-Fatutu-Fading-Ripples.webp": "cf8687c7a7cb2a11",
         "assets/source/9Pets-Fatutu-Fading-Ripples.png": "b839e71173ea33f6"
+      }
+    },
+    {
+      "id": "9pets-fatutu-fragments-of-an-old-dream",
+      "packageName": "9Pets-Fatutu-Fragments-of-An-Old-Dream",
+      "displayName": "Fatutu",
+      "skinDisplayName": "-- Fragments of An Old Dream",
+      "download": "downloads/9Pets-Fatutu-Fragments-of-An-Old-Dream.zip",
+      "preview": "assets/previews/9Pets-Fatutu-Fragments-of-An-Old-Dream.png",
+      "spritesheet": "assets/spritesheets/9Pets-Fatutu-Fragments-of-An-Old-Dream.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Fatutu-Fragments-of-An-Old-Dream.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/310905.png",
+      "sourceImage": "assets/source/9Pets-Fatutu-Fragments-of-An-Old-Dream.png",
+      "sourceRepoPath": "singlebg/headicon_img/310905.png",
+      "assetId": "310905",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a7_310905_ttsz",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a7_310905_ttsz",
+      "cubismPath": "live2d/roles/v3a7_310905_ttsz",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a7_310905_ttsz",
+      "birthday": "9/28",
+      "skinName": "Fragments of An Old Dream",
+      "isDefaultSkin": false,
+      "skinDescription": "所有那些久久跋涉的碎片，终有归途。",
+      "matchedName": "Fatutu",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Fatutu is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 310905 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1568413,
+      "assetVersions": {
+        "downloads/9Pets-Fatutu-Fragments-of-An-Old-Dream.zip": "a10e5e588199c02e",
+        "assets/previews/9Pets-Fatutu-Fragments-of-An-Old-Dream.png": "809d0c7a1c1de95d",
+        "assets/spritesheets/9Pets-Fatutu-Fragments-of-An-Old-Dream.webp": "82970611145fee4a",
+        "assets/detail-spritesheets/9Pets-Fatutu-Fragments-of-An-Old-Dream.webp": "1f90ffcfa16f0f77",
+        "assets/source/9Pets-Fatutu-Fragments-of-An-Old-Dream.png": "cd7c5a697b5cdccf"
       }
     }
   ],
