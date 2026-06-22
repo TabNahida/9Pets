@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T16:20:02Z",
-  "total": 189,
+  "generatedAt": "2026-06-22T18:19:01Z",
+  "total": 190,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7192,6 +7192,44 @@
         "assets/spritesheets/9Pets-Igor-Where-the-Banner-Points.webp": "20fe3d6d1eece9fa",
         "assets/detail-spritesheets/9Pets-Igor-Where-the-Banner-Points.webp": "e4b181ef267c16f5",
         "assets/source/9Pets-Igor-Where-the-Banner-Points.png": "ee9b7e098f367fa4"
+      }
+    },
+    {
+      "id": "9pets-isolde-polyphony",
+      "packageName": "9Pets-Isolde-Polyphony",
+      "displayName": "Isolde",
+      "skinDisplayName": "-- Polyphony",
+      "download": "downloads/9Pets-Isolde-Polyphony.zip",
+      "preview": "assets/previews/9Pets-Isolde-Polyphony.png",
+      "spritesheet": "assets/spritesheets/9Pets-Isolde-Polyphony.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Isolde-Polyphony.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/308102.png",
+      "sourceImage": "assets/source/9Pets-Isolde-Polyphony.png",
+      "sourceRepoPath": "singlebg/headicon_img/308102.png",
+      "assetId": "308102",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a7_308102_ysed",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a7_308102_ysed",
+      "cubismPath": "live2d/roles/v1a7_308102_yisuoerde",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a7_308102_yisuoerde",
+      "birthday": "11/23",
+      "skinName": "Polyphony",
+      "isDefaultSkin": false,
+      "skinDescription": "我是……我是？我是。我是！我是！！",
+      "matchedName": "Isolde",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Isolde is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 308102 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1143047,
+      "assetVersions": {
+        "downloads/9Pets-Isolde-Polyphony.zip": "17cd747eb42fc7b9",
+        "assets/previews/9Pets-Isolde-Polyphony.png": "ebf56aa1c95b408b",
+        "assets/spritesheets/9Pets-Isolde-Polyphony.webp": "5ab438328ac9461d",
+        "assets/detail-spritesheets/9Pets-Isolde-Polyphony.webp": "779145f427740799",
+        "assets/source/9Pets-Isolde-Polyphony.png": "676a2417e376bce3"
       }
     }
   ],
