@@ -3384,6 +3384,7 @@ def find_catalog_item(catalog: dict[str, Any], selector: str) -> dict[str, Any]:
     else:
         selector_key = selector_key.removeprefix("9Pets-")
     normalized_selector = normalized_lookup_name(selector_key)
+    prefix_match: dict[str, Any] | None = None
     for item in catalog["characters"]:
         name = item["name"]
         package_name = package_name_for(name, DEFAULT_SKIN_NAME)
@@ -3397,8 +3398,12 @@ def find_catalog_item(catalog: dict[str, Any], selector: str) -> dict[str, Any]:
             normalized_lookup_name(pet_id_from_package(legacy_package_name)),
         }
         base_slug = normalized_lookup_name(slug_suffix(name))
-        if normalized_selector in candidates or normalized_selector.startswith(base_slug):
+        if normalized_selector in candidates:
             return item
+        if prefix_match is None and normalized_selector.startswith(base_slug):
+            prefix_match = item
+    if prefix_match is not None:
+        return prefix_match
     raise RuntimeError(f"No catalog character matches --only {selector}")
 
 

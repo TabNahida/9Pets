@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T18:39:41Z",
-  "total": 194,
+  "generatedAt": "2026-06-22T18:45:08Z",
+  "total": 195,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7382,6 +7382,44 @@
         "assets/spritesheets/9Pets-J-Top-Speed-Rider.webp": "1281fd1f7e0493aa",
         "assets/detail-spritesheets/9Pets-J-Top-Speed-Rider.webp": "7a5f8a4dd582c661",
         "assets/source/9Pets-J-Top-Speed-Rider.png": "e153383b7432baab"
+      }
+    },
+    {
+      "id": "9pets-jessica-hide-and-seek",
+      "packageName": "9Pets-Jessica-Hide-and-Seek",
+      "displayName": "Jessica",
+      "skinDisplayName": "-- Hide and Seek",
+      "download": "downloads/9Pets-Jessica-Hide-and-Seek.zip",
+      "preview": "assets/previews/9Pets-Jessica-Hide-and-Seek.png",
+      "spritesheet": "assets/spritesheets/9Pets-Jessica-Hide-and-Seek.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Jessica-Hide-and-Seek.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/305602.png",
+      "sourceImage": "assets/source/9Pets-Jessica-Hide-and-Seek.png",
+      "sourceRepoPath": "singlebg/headicon_img/305602.png",
+      "assetId": "305602",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/305602_jiexika",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/305602_jiexika",
+      "cubismPath": "live2d/roles/305602_jiexika",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/305602_jiexika",
+      "birthday": "4/11",
+      "skinName": "Hide and Seek",
+      "isDefaultSkin": false,
+      "skinDescription": "如此迅速，如此轻巧，如此难以逃脱。",
+      "matchedName": "Changeling",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Jessica is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 305602 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1203581,
+      "assetVersions": {
+        "downloads/9Pets-Jessica-Hide-and-Seek.zip": "86545fd482aefad6",
+        "assets/previews/9Pets-Jessica-Hide-and-Seek.png": "fcb23c5930d8ff2e",
+        "assets/spritesheets/9Pets-Jessica-Hide-and-Seek.webp": "a49cb94a639e4ffd",
+        "assets/detail-spritesheets/9Pets-Jessica-Hide-and-Seek.webp": "b4b0c3f2e7c719a0",
+        "assets/source/9Pets-Jessica-Hide-and-Seek.png": "f0afed6736fba05d"
       }
     }
   ],

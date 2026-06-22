@@ -3,9 +3,16 @@ from __future__ import annotations
 import unittest
 
 from tools import audit_skin_normals as audit
+from tools import build_pets_site as site
 
 
 class AuditSkinNormalStagingTest(unittest.TestCase):
+    def test_catalog_selector_prefers_exact_match_over_short_prefix(self) -> None:
+        catalog = site.read_catalog()
+        item = site.find_catalog_item(catalog, "Jessica")
+
+        self.assertEqual("Jessica", item["name"])
+
     def test_stage_paths_include_entrypoint_hash_files(self) -> None:
         paths = audit.stage_paths_for_package(
             "9Pets-Argus-All-Seeing-Light",
