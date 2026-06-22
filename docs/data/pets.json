@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T16:01:33Z",
-  "total": 185,
+  "generatedAt": "2026-06-22T16:05:55Z",
+  "total": 186,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7040,6 +7040,44 @@
         "assets/spritesheets/9Pets-Hissabeth-Digital-Jungle.webp": "41f86175b5c47f5b",
         "assets/detail-spritesheets/9Pets-Hissabeth-Digital-Jungle.webp": "6800f80ee95c8ae2",
         "assets/source/9Pets-Hissabeth-Digital-Jungle.png": "1112867a9c9bc691"
+      }
+    },
+    {
+      "id": "9pets-hissabeth-serpentine-primavera",
+      "packageName": "9Pets-Hissabeth-Serpentine-Primavera",
+      "displayName": "Hissabeth",
+      "skinDisplayName": "-- Serpentine Primavera",
+      "download": "downloads/9Pets-Hissabeth-Serpentine-Primavera.zip",
+      "preview": "assets/previews/9Pets-Hissabeth-Serpentine-Primavera.png",
+      "spritesheet": "assets/spritesheets/9Pets-Hissabeth-Serpentine-Primavera.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Hissabeth-Serpentine-Primavera.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/311603.png",
+      "sourceImage": "assets/source/9Pets-Hissabeth-Serpentine-Primavera.png",
+      "sourceRepoPath": "singlebg/headicon_img/311603.png",
+      "assetId": "311603",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/s01_311603_lzl",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/s01_311603_lzl",
+      "cubismPath": "live2d/roles/s01_311603_lzl",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/s01_311603_lzl",
+      "birthday": "12/23",
+      "skinName": "Serpentine Primavera",
+      "isDefaultSkin": false,
+      "skinDescription": "即便连那春日本身，也在此处化为磐石。",
+      "matchedName": "Hissabeth",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Hissabeth is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 311603 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1668782,
+      "assetVersions": {
+        "downloads/9Pets-Hissabeth-Serpentine-Primavera.zip": "6b43a5d9c83fe251",
+        "assets/previews/9Pets-Hissabeth-Serpentine-Primavera.png": "0e686290ae5f7438",
+        "assets/spritesheets/9Pets-Hissabeth-Serpentine-Primavera.webp": "4f438aa5fcf158dc",
+        "assets/detail-spritesheets/9Pets-Hissabeth-Serpentine-Primavera.webp": "36297c4756a99d24",
+        "assets/source/9Pets-Hissabeth-Serpentine-Primavera.png": "2751b975b51f7664"
       }
     }
   ],
