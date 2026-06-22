@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T18:23:38Z",
-  "total": 191,
+  "generatedAt": "2026-06-22T18:28:23Z",
+  "total": 192,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7268,6 +7268,44 @@
         "assets/spritesheets/9Pets-Isolde-Polyphony.webp": "5ab438328ac9461d",
         "assets/detail-spritesheets/9Pets-Isolde-Polyphony.webp": "779145f427740799",
         "assets/source/9Pets-Isolde-Polyphony.png": "676a2417e376bce3"
+      }
+    },
+    {
+      "id": "9pets-isolde-the-last-fluttering-beat",
+      "packageName": "9Pets-Isolde-The-Last-Fluttering-Beat",
+      "displayName": "Isolde",
+      "skinDisplayName": "-- The Last Fluttering Beat",
+      "download": "downloads/9Pets-Isolde-The-Last-Fluttering-Beat.zip",
+      "preview": "assets/previews/9Pets-Isolde-The-Last-Fluttering-Beat.png",
+      "spritesheet": "assets/spritesheets/9Pets-Isolde-The-Last-Fluttering-Beat.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Isolde-The-Last-Fluttering-Beat.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/308104.png",
+      "sourceImage": "assets/source/9Pets-Isolde-The-Last-Fluttering-Beat.png",
+      "sourceRepoPath": "singlebg/headicon_img/308104.png",
+      "assetId": "308104",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a2_308104_ysed",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a2_308104_ysed",
+      "cubismPath": "live2d/roles/v3a2_308104_ysed",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a2_308104_ysed",
+      "birthday": "11/23",
+      "skinName": "The Last Fluttering Beat",
+      "isDefaultSkin": false,
+      "skinDescription": "不要颤抖，不要挣扎，不要损毁你唯一有价值的鳞翅。",
+      "matchedName": "Isolde",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Isolde is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 308104 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1243614,
+      "assetVersions": {
+        "downloads/9Pets-Isolde-The-Last-Fluttering-Beat.zip": "63bdf837289feca2",
+        "assets/previews/9Pets-Isolde-The-Last-Fluttering-Beat.png": "942688fe926dde59",
+        "assets/spritesheets/9Pets-Isolde-The-Last-Fluttering-Beat.webp": "c4b7522b0faf67a0",
+        "assets/detail-spritesheets/9Pets-Isolde-The-Last-Fluttering-Beat.webp": "27d13afe61ff52b7",
+        "assets/source/9Pets-Isolde-The-Last-Fluttering-Beat.png": "633f4a12fd7840d2"
       }
     }
   ],
