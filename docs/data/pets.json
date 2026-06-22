@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T03:21:48Z",
-  "total": 175,
+  "generatedAt": "2026-06-22T14:46:35Z",
+  "total": 176,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6660,6 +6660,44 @@
         "assets/spritesheets/9Pets-Ezio-Auditore-Leap-of-Faith.webp": "7edafe45ccd8bda1",
         "assets/detail-spritesheets/9Pets-Ezio-Auditore-Leap-of-Faith.webp": "c74077a1436afa2b",
         "assets/source/9Pets-Ezio-Auditore-Leap-of-Faith.png": "dab75c5745d6070a"
+      }
+    },
+    {
+      "id": "9pets-ezra-theodore-enlightened-by-mushrooms",
+      "packageName": "9Pets-Ezra-Theodore-Enlightened-by-Mushrooms",
+      "displayName": "Ezra Theodore",
+      "skinDisplayName": "-- Enlightened by Mushrooms",
+      "download": "downloads/9Pets-Ezra-Theodore-Enlightened-by-Mushrooms.zip",
+      "preview": "assets/previews/9Pets-Ezra-Theodore-Enlightened-by-Mushrooms.png",
+      "spritesheet": "assets/spritesheets/9Pets-Ezra-Theodore-Enlightened-by-Mushrooms.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Ezra-Theodore-Enlightened-by-Mushrooms.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/307402.png",
+      "sourceImage": "assets/source/9Pets-Ezra-Theodore-Enlightened-by-Mushrooms.png",
+      "sourceRepoPath": "singlebg/headicon_img/307402.png",
+      "assetId": "307402",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a5_307402_aizila",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a5_307402_aizila",
+      "cubismPath": "live2d/roles/v1a5_307402_aizila",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a5_307402_aizila",
+      "birthday": "6/1",
+      "skinName": "Enlightened by Mushrooms",
+      "isDefaultSkin": false,
+      "skinDescription": "他神秘、美丽、总是难以捉摸的伙伴。",
+      "matchedName": "Ezra Theodore",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Ezra Theodore is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 307402 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1032595,
+      "assetVersions": {
+        "downloads/9Pets-Ezra-Theodore-Enlightened-by-Mushrooms.zip": "c72bf681bb922861",
+        "assets/previews/9Pets-Ezra-Theodore-Enlightened-by-Mushrooms.png": "c238f4fc48635e02",
+        "assets/spritesheets/9Pets-Ezra-Theodore-Enlightened-by-Mushrooms.webp": "4fa861231bdc5889",
+        "assets/detail-spritesheets/9Pets-Ezra-Theodore-Enlightened-by-Mushrooms.webp": "13d356392e1fcde6",
+        "assets/source/9Pets-Ezra-Theodore-Enlightened-by-Mushrooms.png": "90dfbc31bf6a2cff"
       }
     }
   ],
