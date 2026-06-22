@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T18:19:01Z",
-  "total": 190,
+  "generatedAt": "2026-06-22T18:23:38Z",
+  "total": 191,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7192,6 +7192,44 @@
         "assets/spritesheets/9Pets-Igor-Where-the-Banner-Points.webp": "20fe3d6d1eece9fa",
         "assets/detail-spritesheets/9Pets-Igor-Where-the-Banner-Points.webp": "e4b181ef267c16f5",
         "assets/source/9Pets-Igor-Where-the-Banner-Points.png": "ee9b7e098f367fa4"
+      }
+    },
+    {
+      "id": "9pets-isolde-and-all-that-jazz",
+      "packageName": "9Pets-Isolde-And-All-That-Jazz",
+      "displayName": "Isolde",
+      "skinDisplayName": "-- And All That Jazz",
+      "download": "downloads/9Pets-Isolde-And-All-That-Jazz.zip",
+      "preview": "assets/previews/9Pets-Isolde-And-All-That-Jazz.png",
+      "spritesheet": "assets/spritesheets/9Pets-Isolde-And-All-That-Jazz.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Isolde-And-All-That-Jazz.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/308103.png",
+      "sourceImage": "assets/source/9Pets-Isolde-And-All-That-Jazz.png",
+      "sourceRepoPath": "singlebg/headicon_img/308103.png",
+      "assetId": "308103",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a1_308103_ysed",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a1_308103_ysed",
+      "cubismPath": "live2d/roles/v2a1_308103_yisuoerde",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a1_308103_yisuoerde",
+      "birthday": "11/23",
+      "skinName": "And All That Jazz",
+      "isDefaultSkin": false,
+      "skinDescription": "风会停在这里，因为这里有免费的蓝帽花。",
+      "matchedName": "Isolde",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Isolde is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 308103 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 948955,
+      "assetVersions": {
+        "downloads/9Pets-Isolde-And-All-That-Jazz.zip": "93bae3f1e64744d3",
+        "assets/previews/9Pets-Isolde-And-All-That-Jazz.png": "a09810a406bad989",
+        "assets/spritesheets/9Pets-Isolde-And-All-That-Jazz.webp": "6f084dce94033402",
+        "assets/detail-spritesheets/9Pets-Isolde-And-All-That-Jazz.webp": "16c9cf2f61c88c71",
+        "assets/source/9Pets-Isolde-And-All-That-Jazz.png": "fdff8015c4fad975"
       }
     },
     {
