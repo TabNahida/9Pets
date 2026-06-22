@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T16:15:22Z",
-  "total": 188,
+  "generatedAt": "2026-06-22T16:20:02Z",
+  "total": 189,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7154,6 +7154,44 @@
         "assets/spritesheets/9Pets-Horropedia-Scarysm.webp": "c5a14767d53a206c",
         "assets/detail-spritesheets/9Pets-Horropedia-Scarysm.webp": "4d72a93f79a5825a",
         "assets/source/9Pets-Horropedia-Scarysm.png": "6e35cc56e4c9dcf5"
+      }
+    },
+    {
+      "id": "9pets-igor-where-the-banner-points",
+      "packageName": "9Pets-Igor-Where-the-Banner-Points",
+      "displayName": "Igor",
+      "skinDisplayName": "-- Where the Banner Points",
+      "download": "downloads/9Pets-Igor-Where-the-Banner-Points.zip",
+      "preview": "assets/previews/9Pets-Igor-Where-the-Banner-Points.png",
+      "spritesheet": "assets/spritesheets/9Pets-Igor-Where-the-Banner-Points.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Igor-Where-the-Banner-Points.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/309202.png",
+      "sourceImage": "assets/source/9Pets-Igor-Where-the-Banner-Points.png",
+      "sourceRepoPath": "singlebg/headicon_img/309202.png",
+      "assetId": "309202",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a3_309202_yge",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a3_309202_yge",
+      "cubismPath": "live2d/roles/v3a3_309202_yge",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a3_309202_yge",
+      "birthday": "2/23",
+      "skinName": "Where the Banner Points",
+      "isDefaultSkin": false,
+      "skinDescription": "为一面无形的旗帜，生者与亡魂齐列冲锋。",
+      "matchedName": "Igor",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Igor is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 309202 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1116631,
+      "assetVersions": {
+        "downloads/9Pets-Igor-Where-the-Banner-Points.zip": "47984d049875927c",
+        "assets/previews/9Pets-Igor-Where-the-Banner-Points.png": "fc5c664d0958e3b0",
+        "assets/spritesheets/9Pets-Igor-Where-the-Banner-Points.webp": "20fe3d6d1eece9fa",
+        "assets/detail-spritesheets/9Pets-Igor-Where-the-Banner-Points.webp": "e4b181ef267c16f5",
+        "assets/source/9Pets-Igor-Where-the-Banner-Points.png": "ee9b7e098f367fa4"
       }
     }
   ],
