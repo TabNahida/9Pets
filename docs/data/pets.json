@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T15:02:13Z",
-  "total": 178,
+  "generatedAt": "2026-06-22T15:07:39Z",
+  "total": 179,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6736,6 +6736,44 @@
         "assets/spritesheets/9Pets-Ezra-Theodore-Yee-Haw.webp": "d828aa223547ce81",
         "assets/detail-spritesheets/9Pets-Ezra-Theodore-Yee-Haw.webp": "0fe3a85bbc86888b",
         "assets/source/9Pets-Ezra-Theodore-Yee-Haw.png": "f8158f476198da5a"
+      }
+    },
+    {
+      "id": "9pets-fatutu-casa-of-the-curved-lines",
+      "packageName": "9Pets-Fatutu-Casa-of-the-Curved-Lines",
+      "displayName": "Fatutu",
+      "skinDisplayName": "-- Casa of the Curved Lines",
+      "download": "downloads/9Pets-Fatutu-Casa-of-the-Curved-Lines.zip",
+      "preview": "assets/previews/9Pets-Fatutu-Casa-of-the-Curved-Lines.png",
+      "spritesheet": "assets/spritesheets/9Pets-Fatutu-Casa-of-the-Curved-Lines.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Fatutu-Casa-of-the-Curved-Lines.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/310903.png",
+      "sourceImage": "assets/source/9Pets-Fatutu-Casa-of-the-Curved-Lines.png",
+      "sourceRepoPath": "singlebg/headicon_img/310903.png",
+      "assetId": "310903",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a7_310903_ttsz",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a7_310903_ttsz",
+      "cubismPath": "live2d/roles/v2a7_310903_ttsz",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a7_310903_ttsz",
+      "birthday": "9/28",
+      "skinName": "Casa of the Curved Lines",
+      "isDefaultSkin": false,
+      "skinDescription": "直线属于凡人，而曲线属于创造者。",
+      "matchedName": "Fatutu",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Fatutu is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 310903 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1689336,
+      "assetVersions": {
+        "downloads/9Pets-Fatutu-Casa-of-the-Curved-Lines.zip": "02a5a3cf10ffe87b",
+        "assets/previews/9Pets-Fatutu-Casa-of-the-Curved-Lines.png": "b158597befcad9bc",
+        "assets/spritesheets/9Pets-Fatutu-Casa-of-the-Curved-Lines.webp": "0d3bb70abae2e78d",
+        "assets/detail-spritesheets/9Pets-Fatutu-Casa-of-the-Curved-Lines.webp": "f15e8459b3478928",
+        "assets/source/9Pets-Fatutu-Casa-of-the-Curved-Lines.png": "c4e77f1f19e56987"
       }
     },
     {
