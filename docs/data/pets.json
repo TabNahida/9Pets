@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T18:34:36Z",
-  "total": 193,
+  "generatedAt": "2026-06-22T18:39:41Z",
+  "total": 194,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7306,6 +7306,44 @@
         "assets/spritesheets/9Pets-Isolde-The-Last-Fluttering-Beat.webp": "c4b7522b0faf67a0",
         "assets/detail-spritesheets/9Pets-Isolde-The-Last-Fluttering-Beat.webp": "27d13afe61ff52b7",
         "assets/source/9Pets-Isolde-The-Last-Fluttering-Beat.png": "633f4a12fd7840d2"
+      }
+    },
+    {
+      "id": "9pets-j-the-lone-wolf-s-howl",
+      "packageName": "9Pets-J-The-Lone-Wolf-s-Howl",
+      "displayName": "J",
+      "skinDisplayName": "-- The Lone Wolf's Howl",
+      "download": "downloads/9Pets-J-The-Lone-Wolf-s-Howl.zip",
+      "preview": "assets/previews/9Pets-J-The-Lone-Wolf-s-Howl.png",
+      "spritesheet": "assets/spritesheets/9Pets-J-The-Lone-Wolf-s-Howl.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-J-The-Lone-Wolf-s-Howl.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/309403.png",
+      "sourceImage": "assets/source/9Pets-J-The-Lone-Wolf-s-Howl.png",
+      "sourceRepoPath": "singlebg/headicon_img/309403.png",
+      "assetId": "309403",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a0_309403_j",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a0_309403_j",
+      "cubismPath": "live2d/roles/v3a0_309403_j",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a0_309403_j",
+      "birthday": "4/18",
+      "skinName": "The Lone Wolf's Howl",
+      "isDefaultSkin": false,
+      "skinDescription": "旧日的夙愿已成泡影，孤独的理想仍然轰鸣。",
+      "matchedName": "Joe",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "J is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 309403 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1184351,
+      "assetVersions": {
+        "downloads/9Pets-J-The-Lone-Wolf-s-Howl.zip": "e1aad6554ee3cf88",
+        "assets/previews/9Pets-J-The-Lone-Wolf-s-Howl.png": "332b1fcbf195fd48",
+        "assets/spritesheets/9Pets-J-The-Lone-Wolf-s-Howl.webp": "282bccff504fdf09",
+        "assets/detail-spritesheets/9Pets-J-The-Lone-Wolf-s-Howl.webp": "98ab7e37a1af4903",
+        "assets/source/9Pets-J-The-Lone-Wolf-s-Howl.png": "53ceec6c81aa5e2a"
       }
     },
     {
