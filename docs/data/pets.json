@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T15:51:56Z",
-  "total": 183,
+  "generatedAt": "2026-06-22T15:57:17Z",
+  "total": 184,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6926,6 +6926,44 @@
         "assets/spritesheets/9Pets-Flutterpage-Gently-Comes-the-Thawing-Breeze.webp": "f4b2681c0763173d",
         "assets/detail-spritesheets/9Pets-Flutterpage-Gently-Comes-the-Thawing-Breeze.webp": "d90b9bea111cb5af",
         "assets/source/9Pets-Flutterpage-Gently-Comes-the-Thawing-Breeze.png": "b9abbb1bd32ea275"
+      }
+    },
+    {
+      "id": "9pets-getian-herald-of-horus",
+      "packageName": "9Pets-Getian-Herald-of-Horus",
+      "displayName": "Getian",
+      "skinDisplayName": "-- Herald of Horus",
+      "download": "downloads/9Pets-Getian-Herald-of-Horus.zip",
+      "preview": "assets/previews/9Pets-Getian-Herald-of-Horus.png",
+      "spritesheet": "assets/spritesheets/9Pets-Getian-Herald-of-Horus.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Getian-Herald-of-Horus.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/308404.png",
+      "sourceImage": "assets/source/9Pets-Getian-Herald-of-Horus.png",
+      "sourceRepoPath": "singlebg/headicon_img/308404.png",
+      "assetId": "308404",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a3_308404_gt",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a3_308404_gt",
+      "cubismPath": "live2d/roles/v2a3_308404_gt",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a3_308404_gt",
+      "birthday": "7/22",
+      "skinName": "Herald of Horus",
+      "isDefaultSkin": false,
+      "skinDescription": "他双眼为日与月，即阴与阳，我们有绝妙的拍摄人选。",
+      "matchedName": "Getian",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Getian is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 308404 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1431466,
+      "assetVersions": {
+        "downloads/9Pets-Getian-Herald-of-Horus.zip": "815ea1f58e2aac05",
+        "assets/previews/9Pets-Getian-Herald-of-Horus.png": "d5cebc856d9c3495",
+        "assets/spritesheets/9Pets-Getian-Herald-of-Horus.webp": "eb3e8b8fcc314249",
+        "assets/detail-spritesheets/9Pets-Getian-Herald-of-Horus.webp": "596d087217f50864",
+        "assets/source/9Pets-Getian-Herald-of-Horus.png": "714b988671c770a4"
       }
     },
     {
