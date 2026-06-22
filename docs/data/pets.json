@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T14:57:26Z",
-  "total": 177,
+  "generatedAt": "2026-06-22T15:02:13Z",
+  "total": 178,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6736,6 +6736,44 @@
         "assets/spritesheets/9Pets-Ezra-Theodore-Yee-Haw.webp": "d828aa223547ce81",
         "assets/detail-spritesheets/9Pets-Ezra-Theodore-Yee-Haw.webp": "0fe3a85bbc86888b",
         "assets/source/9Pets-Ezra-Theodore-Yee-Haw.png": "f8158f476198da5a"
+      }
+    },
+    {
+      "id": "9pets-fatutu-fading-ripples",
+      "packageName": "9Pets-Fatutu-Fading-Ripples",
+      "displayName": "Fatutu",
+      "skinDisplayName": "-- Fading Ripples",
+      "download": "downloads/9Pets-Fatutu-Fading-Ripples.zip",
+      "preview": "assets/previews/9Pets-Fatutu-Fading-Ripples.png",
+      "spritesheet": "assets/spritesheets/9Pets-Fatutu-Fading-Ripples.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Fatutu-Fading-Ripples.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/310902.png",
+      "sourceImage": "assets/source/9Pets-Fatutu-Fading-Ripples.png",
+      "sourceRepoPath": "singlebg/headicon_img/310902.png",
+      "assetId": "310902",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a4_310902_ttsz",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a4_310902_ttsz",
+      "cubismPath": "live2d/roles/v2a4_310902_ttsz",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a4_310902_ttsz",
+      "birthday": "9/28",
+      "skinName": "Fading Ripples",
+      "isDefaultSkin": false,
+      "skinDescription": "那贝壳的缺角，是难以填补的伤心处。",
+      "matchedName": "Fatutu",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Fatutu is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 310902 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1559202,
+      "assetVersions": {
+        "downloads/9Pets-Fatutu-Fading-Ripples.zip": "0d06b3fa6248658f",
+        "assets/previews/9Pets-Fatutu-Fading-Ripples.png": "21ce1a6368e01b88",
+        "assets/spritesheets/9Pets-Fatutu-Fading-Ripples.webp": "e016b02b8f3d5bf9",
+        "assets/detail-spritesheets/9Pets-Fatutu-Fading-Ripples.webp": "cf8687c7a7cb2a11",
+        "assets/source/9Pets-Fatutu-Fading-Ripples.png": "b839e71173ea33f6"
       }
     }
   ],
