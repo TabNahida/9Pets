@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T18:28:23Z",
-  "total": 192,
+  "generatedAt": "2026-06-22T18:34:36Z",
+  "total": 193,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7306,6 +7306,44 @@
         "assets/spritesheets/9Pets-Isolde-The-Last-Fluttering-Beat.webp": "c4b7522b0faf67a0",
         "assets/detail-spritesheets/9Pets-Isolde-The-Last-Fluttering-Beat.webp": "27d13afe61ff52b7",
         "assets/source/9Pets-Isolde-The-Last-Fluttering-Beat.png": "633f4a12fd7840d2"
+      }
+    },
+    {
+      "id": "9pets-j-top-speed-rider",
+      "packageName": "9Pets-J-Top-Speed-Rider",
+      "displayName": "J",
+      "skinDisplayName": "-- Top Speed Rider",
+      "download": "downloads/9Pets-J-Top-Speed-Rider.zip",
+      "preview": "assets/previews/9Pets-J-Top-Speed-Rider.png",
+      "spritesheet": "assets/spritesheets/9Pets-J-Top-Speed-Rider.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-J-Top-Speed-Rider.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/309402.png",
+      "sourceImage": "assets/source/9Pets-J-Top-Speed-Rider.png",
+      "sourceRepoPath": "singlebg/headicon_img/309402.png",
+      "assetId": "309402",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a0_309402_j",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a0_309402_j",
+      "cubismPath": "live2d/roles/v2a0_309402_j",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a0_309402_j",
+      "birthday": "4/18",
+      "skinName": "Top Speed Rider",
+      "isDefaultSkin": false,
+      "skinDescription": "别设徒劳的阻碍，摩托可没有倒车功能！",
+      "matchedName": "Joe",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "J is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 309402 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 965813,
+      "assetVersions": {
+        "downloads/9Pets-J-Top-Speed-Rider.zip": "e0926c806773fbf5",
+        "assets/previews/9Pets-J-Top-Speed-Rider.png": "a83205298ff3c32b",
+        "assets/spritesheets/9Pets-J-Top-Speed-Rider.webp": "1281fd1f7e0493aa",
+        "assets/detail-spritesheets/9Pets-J-Top-Speed-Rider.webp": "7a5f8a4dd582c661",
+        "assets/source/9Pets-J-Top-Speed-Rider.png": "e153383b7432baab"
       }
     }
   ],
