@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T14:46:35Z",
-  "total": 176,
+  "generatedAt": "2026-06-22T14:57:26Z",
+  "total": 177,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6698,6 +6698,44 @@
         "assets/spritesheets/9Pets-Ezra-Theodore-Enlightened-by-Mushrooms.webp": "4fa861231bdc5889",
         "assets/detail-spritesheets/9Pets-Ezra-Theodore-Enlightened-by-Mushrooms.webp": "13d356392e1fcde6",
         "assets/source/9Pets-Ezra-Theodore-Enlightened-by-Mushrooms.png": "90dfbc31bf6a2cff"
+      }
+    },
+    {
+      "id": "9pets-ezra-theodore-yee-haw",
+      "packageName": "9Pets-Ezra-Theodore-Yee-Haw",
+      "displayName": "Ezra Theodore",
+      "skinDisplayName": "-- Yee-Haw!",
+      "download": "downloads/9Pets-Ezra-Theodore-Yee-Haw.zip",
+      "preview": "assets/previews/9Pets-Ezra-Theodore-Yee-Haw.png",
+      "spritesheet": "assets/spritesheets/9Pets-Ezra-Theodore-Yee-Haw.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Ezra-Theodore-Yee-Haw.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/307403.png",
+      "sourceImage": "assets/source/9Pets-Ezra-Theodore-Yee-Haw.png",
+      "sourceRepoPath": "singlebg/headicon_img/307403.png",
+      "assetId": "307403",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a1_307403_aizila",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a1_307403_aizila",
+      "cubismPath": "live2d/roles/v2a1_307403_aizila",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a1_307403_aizila",
+      "birthday": "6/1",
+      "skinName": "Yee-Haw!",
+      "isDefaultSkin": false,
+      "skinDescription": "爱马的名字要叫西尔弗！",
+      "matchedName": "Ezra Theodore",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Ezra Theodore is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 307403 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1052208,
+      "assetVersions": {
+        "downloads/9Pets-Ezra-Theodore-Yee-Haw.zip": "08abe3b920551a16",
+        "assets/previews/9Pets-Ezra-Theodore-Yee-Haw.png": "1d2fd4a7337f8e26",
+        "assets/spritesheets/9Pets-Ezra-Theodore-Yee-Haw.webp": "d828aa223547ce81",
+        "assets/detail-spritesheets/9Pets-Ezra-Theodore-Yee-Haw.webp": "0fe3a85bbc86888b",
+        "assets/source/9Pets-Ezra-Theodore-Yee-Haw.png": "f8158f476198da5a"
       }
     }
   ],
