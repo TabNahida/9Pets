@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T16:10:35Z",
-  "total": 187,
+  "generatedAt": "2026-06-22T16:15:22Z",
+  "total": 188,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7078,6 +7078,44 @@
         "assets/spritesheets/9Pets-Hissabeth-Serpentine-Primavera.webp": "4f438aa5fcf158dc",
         "assets/detail-spritesheets/9Pets-Hissabeth-Serpentine-Primavera.webp": "36297c4756a99d24",
         "assets/source/9Pets-Hissabeth-Serpentine-Primavera.png": "2751b975b51f7664"
+      }
+    },
+    {
+      "id": "9pets-horropedia-a-daoist-s-madness",
+      "packageName": "9Pets-Horropedia-A-Daoist-s-Madness",
+      "displayName": "Horropedia",
+      "skinDisplayName": "-- A Daoist's Madness",
+      "download": "downloads/9Pets-Horropedia-A-Daoist-s-Madness.zip",
+      "preview": "assets/previews/9Pets-Horropedia-A-Daoist-s-Madness.png",
+      "spritesheet": "assets/spritesheets/9Pets-Horropedia-A-Daoist-s-Madness.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Horropedia-A-Daoist-s-Madness.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/306103.png",
+      "sourceImage": "assets/source/9Pets-Horropedia-A-Daoist-s-Madness.png",
+      "sourceRepoPath": "singlebg/headicon_img/306103.png",
+      "assetId": "306103",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a4_306103_kbt",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a4_306103_kbt",
+      "cubismPath": "live2d/roles/v3a4_306103_kbt",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a4_306103_kbt",
+      "birthday": "1/3",
+      "skinName": "A Daoist's Madness",
+      "isDefaultSkin": false,
+      "skinDescription": "昼理阳间事，夜游酆都城。",
+      "matchedName": "Horropedia",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Horropedia is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 306103 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1107836,
+      "assetVersions": {
+        "downloads/9Pets-Horropedia-A-Daoist-s-Madness.zip": "5eabee2107d3c1ab",
+        "assets/previews/9Pets-Horropedia-A-Daoist-s-Madness.png": "1a728ec8dcb297f8",
+        "assets/spritesheets/9Pets-Horropedia-A-Daoist-s-Madness.webp": "78f792207cd5da86",
+        "assets/detail-spritesheets/9Pets-Horropedia-A-Daoist-s-Madness.webp": "ceb8994f636015c4",
+        "assets/source/9Pets-Horropedia-A-Daoist-s-Madness.png": "9a90bcb0d1aefe15"
       }
     },
     {
