@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T18:58:06Z",
-  "total": 197,
+  "generatedAt": "2026-06-22T19:02:38Z",
+  "total": 198,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7496,6 +7496,44 @@
         "assets/spritesheets/9Pets-Jessica-Voyage-from-your-Bed.webp": "76909aee7a20f4a9",
         "assets/detail-spritesheets/9Pets-Jessica-Voyage-from-your-Bed.webp": "4cae144f9249608f",
         "assets/source/9Pets-Jessica-Voyage-from-your-Bed.png": "9e87681996867370"
+      }
+    },
+    {
+      "id": "9pets-jiu-niangzi-let-there-be-way-out",
+      "packageName": "9Pets-Jiu-Niangzi-Let-There-Be-Way-Out",
+      "displayName": "Jiu Niangzi",
+      "skinDisplayName": "-- Let There Be Way Out",
+      "download": "downloads/9Pets-Jiu-Niangzi-Let-There-Be-Way-Out.zip",
+      "preview": "assets/previews/9Pets-Jiu-Niangzi-Let-There-Be-Way-Out.png",
+      "spritesheet": "assets/spritesheets/9Pets-Jiu-Niangzi-Let-There-Be-Way-Out.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Jiu-Niangzi-Let-There-Be-Way-Out.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/308302.png",
+      "sourceImage": "assets/source/9Pets-Jiu-Niangzi-Let-There-Be-Way-Out.png",
+      "sourceRepoPath": "singlebg/headicon_img/308302.png",
+      "assetId": "308302",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a6_308302_qn",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a6_308302_qn",
+      "cubismPath": "live2d/roles/v1a6_308302_quniang",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a6_308302_quniang",
+      "birthday": "2/10",
+      "skinName": "Let There Be Way Out",
+      "isDefaultSkin": false,
+      "skinDescription": "她终于明白，有些道路需要自己来开辟。",
+      "matchedName": "Jiu Niangzi",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Jiu Niangzi is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 308302 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1089055,
+      "assetVersions": {
+        "downloads/9Pets-Jiu-Niangzi-Let-There-Be-Way-Out.zip": "bb247f8c4e9c4386",
+        "assets/previews/9Pets-Jiu-Niangzi-Let-There-Be-Way-Out.png": "e1662557effc550b",
+        "assets/spritesheets/9Pets-Jiu-Niangzi-Let-There-Be-Way-Out.webp": "f7bf1e058c66ed41",
+        "assets/detail-spritesheets/9Pets-Jiu-Niangzi-Let-There-Be-Way-Out.webp": "fa761b916ac3fb45",
+        "assets/source/9Pets-Jiu-Niangzi-Let-There-Be-Way-Out.png": "128e9ce6755e0f02"
       }
     }
   ],
