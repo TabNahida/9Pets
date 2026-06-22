@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T15:11:51Z",
-  "total": 180,
+  "generatedAt": "2026-06-22T15:41:35Z",
+  "total": 181,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -6850,6 +6850,44 @@
         "assets/spritesheets/9Pets-Fatutu-Fragments-of-An-Old-Dream.webp": "82970611145fee4a",
         "assets/detail-spritesheets/9Pets-Fatutu-Fragments-of-An-Old-Dream.webp": "1f90ffcfa16f0f77",
         "assets/source/9Pets-Fatutu-Fragments-of-An-Old-Dream.png": "cd7c5a697b5cdccf"
+      }
+    },
+    {
+      "id": "9pets-flutterpage-chirpy-morning-ringer",
+      "packageName": "9Pets-Flutterpage-Chirpy-Morning-Ringer",
+      "displayName": "Flutterpage",
+      "skinDisplayName": "-- Chirpy Morning Ringer",
+      "download": "downloads/9Pets-Flutterpage-Chirpy-Morning-Ringer.zip",
+      "preview": "assets/previews/9Pets-Flutterpage-Chirpy-Morning-Ringer.png",
+      "spritesheet": "assets/spritesheets/9Pets-Flutterpage-Chirpy-Morning-Ringer.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Flutterpage-Chirpy-Morning-Ringer.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/310502.png",
+      "sourceImage": "assets/source/9Pets-Flutterpage-Chirpy-Morning-Ringer.png",
+      "sourceRepoPath": "singlebg/headicon_img/310502.png",
+      "assetId": "310502",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a3_310502_zxqe",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a3_310502_zxqe",
+      "cubismPath": "live2d/roles/v2a3_310502_zxqe",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a3_310502_zxqe",
+      "birthday": "7/14",
+      "skinName": "Chirpy Morning Ringer",
+      "isDefaultSkin": false,
+      "skinDescription": "她要自己找出答案。",
+      "matchedName": "Flutterpage",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Flutterpage is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 310502 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1492900,
+      "assetVersions": {
+        "downloads/9Pets-Flutterpage-Chirpy-Morning-Ringer.zip": "366bdfb865cfdaa4",
+        "assets/previews/9Pets-Flutterpage-Chirpy-Morning-Ringer.png": "678c541fca0bdf50",
+        "assets/spritesheets/9Pets-Flutterpage-Chirpy-Morning-Ringer.webp": "a6f2fb0bb96f41e9",
+        "assets/detail-spritesheets/9Pets-Flutterpage-Chirpy-Morning-Ringer.webp": "ab48820adf4a54d2",
+        "assets/source/9Pets-Flutterpage-Chirpy-Morning-Ringer.png": "d8ba3294d7692944"
       }
     }
   ],
