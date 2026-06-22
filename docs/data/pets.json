@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T15:57:17Z",
-  "total": 184,
+  "generatedAt": "2026-06-22T16:01:33Z",
+  "total": 185,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7002,6 +7002,44 @@
         "assets/spritesheets/9Pets-Getian-The-Breeze-of-Ease.webp": "3d4fb966776fe92d",
         "assets/detail-spritesheets/9Pets-Getian-The-Breeze-of-Ease.webp": "de95965788dfe97d",
         "assets/source/9Pets-Getian-The-Breeze-of-Ease.png": "d8ebed9eeb527585"
+      }
+    },
+    {
+      "id": "9pets-hissabeth-digital-jungle",
+      "packageName": "9Pets-Hissabeth-Digital-Jungle",
+      "displayName": "Hissabeth",
+      "skinDisplayName": "-- Digital Jungle",
+      "download": "downloads/9Pets-Hissabeth-Digital-Jungle.zip",
+      "preview": "assets/previews/9Pets-Hissabeth-Digital-Jungle.png",
+      "spritesheet": "assets/spritesheets/9Pets-Hissabeth-Digital-Jungle.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Hissabeth-Digital-Jungle.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/311602.png",
+      "sourceImage": "assets/source/9Pets-Hissabeth-Digital-Jungle.png",
+      "sourceRepoPath": "singlebg/headicon_img/311602.png",
+      "assetId": "311602",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a7_311602_lzl",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a7_311602_lzl",
+      "cubismPath": "live2d/roles/v2a7_311602_lzl",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a7_311602_lzl",
+      "birthday": "12/23",
+      "skinName": "Digital Jungle",
+      "isDefaultSkin": false,
+      "skinDescription": "尝尝看，趁今日尚且新鲜。",
+      "matchedName": "Hissabeth",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Hissabeth is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 311602 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1027949,
+      "assetVersions": {
+        "downloads/9Pets-Hissabeth-Digital-Jungle.zip": "a39f08916ded3291",
+        "assets/previews/9Pets-Hissabeth-Digital-Jungle.png": "829e2e3809723c99",
+        "assets/spritesheets/9Pets-Hissabeth-Digital-Jungle.webp": "41f86175b5c47f5b",
+        "assets/detail-spritesheets/9Pets-Hissabeth-Digital-Jungle.webp": "6800f80ee95c8ae2",
+        "assets/source/9Pets-Hissabeth-Digital-Jungle.png": "1112867a9c9bc691"
       }
     }
   ],
