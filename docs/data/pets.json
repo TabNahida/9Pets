@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T13:19:44Z",
-  "total": 255,
+  "generatedAt": "2026-06-23T13:24:41Z",
+  "total": 256,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9700,6 +9700,44 @@
         "assets/spritesheets/9Pets-Paper-Heron-Downstream-of-Letting-Go.webp": "b84b54a2b072b93a",
         "assets/detail-spritesheets/9Pets-Paper-Heron-Downstream-of-Letting-Go.webp": "b3863e505cbca350",
         "assets/source/9Pets-Paper-Heron-Downstream-of-Letting-Go.png": "68ad07497e918aa2"
+      }
+    },
+    {
+      "id": "9pets-pickles-an-indigo-fluff",
+      "packageName": "9Pets-Pickles-An-Indigo-Fluff",
+      "displayName": "Pickles",
+      "skinDisplayName": "-- An Indigo Fluff",
+      "download": "downloads/9Pets-Pickles-An-Indigo-Fluff.zip",
+      "preview": "assets/previews/9Pets-Pickles-An-Indigo-Fluff.png",
+      "spritesheet": "assets/spritesheets/9Pets-Pickles-An-Indigo-Fluff.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Pickles-An-Indigo-Fluff.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/306302.png",
+      "sourceImage": "assets/source/9Pets-Pickles-An-Indigo-Fluff.png",
+      "sourceRepoPath": "singlebg/headicon_img/306302.png",
+      "assetId": "306302",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/306302_pikelesi",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/306302_pikelesi",
+      "cubismPath": "live2d/roles/306302_pikelesi",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/306302_pikelesi",
+      "birthday": "10/27",
+      "skinName": "An Indigo Fluff",
+      "isDefaultSkin": false,
+      "skinDescription": "聚光灯下诞生大明星。",
+      "matchedName": "Pickles",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Pickles is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 306302 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1223133,
+      "assetVersions": {
+        "downloads/9Pets-Pickles-An-Indigo-Fluff.zip": "d6c6a9ec2a9c2721",
+        "assets/previews/9Pets-Pickles-An-Indigo-Fluff.png": "f8c6fb6445613b49",
+        "assets/spritesheets/9Pets-Pickles-An-Indigo-Fluff.webp": "45f79650c03a5445",
+        "assets/detail-spritesheets/9Pets-Pickles-An-Indigo-Fluff.webp": "625d46e1f6609216",
+        "assets/source/9Pets-Pickles-An-Indigo-Fluff.png": "91e8a7d5111e5227"
       }
     }
   ],
