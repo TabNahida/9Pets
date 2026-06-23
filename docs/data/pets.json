@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T17:27:09Z",
-  "total": 304,
+  "generatedAt": "2026-06-23T17:32:24Z",
+  "total": 305,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -11562,6 +11562,44 @@
         "assets/spritesheets/9Pets-Willow-The-Last-Portent.webp": "1b7abd96afcb8778",
         "assets/detail-spritesheets/9Pets-Willow-The-Last-Portent.webp": "4aacaa5b281974ad",
         "assets/source/9Pets-Willow-The-Last-Portent.png": "e2c858b95f990b93"
+      }
+    },
+    {
+      "id": "9pets-windsong-measuring-the-world",
+      "packageName": "9Pets-Windsong-Measuring-the-World",
+      "displayName": "Windsong",
+      "skinDisplayName": "-- Measuring the World",
+      "download": "downloads/9Pets-Windsong-Measuring-the-World.zip",
+      "preview": "assets/previews/9Pets-Windsong-Measuring-the-World.png",
+      "spritesheet": "assets/spritesheets/9Pets-Windsong-Measuring-the-World.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Windsong-Measuring-the-World.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/307702.png",
+      "sourceImage": "assets/source/9Pets-Windsong-Measuring-the-World.png",
+      "sourceRepoPath": "singlebg/headicon_img/307702.png",
+      "assetId": "307702",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a8_307702_beifangshaoge",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a8_307702_beifangshaoge",
+      "cubismPath": "live2d/roles/v1a8_307702_beifangshaoge",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a8_307702_beifangshaoge",
+      "birthday": "10/13",
+      "skinName": "Measuring the World",
+      "isDefaultSkin": false,
+      "skinDescription": "无垠世界中所刻下的一笔。",
+      "matchedName": "Windsong",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Windsong is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 307702 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 904886,
+      "assetVersions": {
+        "downloads/9Pets-Windsong-Measuring-the-World.zip": "613a8cc6eca8f6ea",
+        "assets/previews/9Pets-Windsong-Measuring-the-World.png": "e21b051046001efe",
+        "assets/spritesheets/9Pets-Windsong-Measuring-the-World.webp": "a9895c5df3ba6a15",
+        "assets/detail-spritesheets/9Pets-Windsong-Measuring-the-World.webp": "148eda78be971d45",
+        "assets/source/9Pets-Windsong-Measuring-the-World.png": "3375aa7f247dd29e"
       }
     }
   ],
