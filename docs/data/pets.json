@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T16:57:54Z",
-  "total": 298,
+  "generatedAt": "2026-06-23T17:02:43Z",
+  "total": 299,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -11334,6 +11334,44 @@
         "assets/spritesheets/9Pets-Vila-Towards-the-Ideal-Life.webp": "54526aa478fd53af",
         "assets/detail-spritesheets/9Pets-Vila-Towards-the-Ideal-Life.webp": "19c426d294d13b8e",
         "assets/source/9Pets-Vila-Towards-the-Ideal-Life.png": "7f4a458859249630"
+      }
+    },
+    {
+      "id": "9pets-voyager-a-wordless-letter",
+      "packageName": "9Pets-Voyager-A-Wordless-Letter",
+      "displayName": "Voyager",
+      "skinDisplayName": "-- A Wordless Letter",
+      "download": "downloads/9Pets-Voyager-A-Wordless-Letter.zip",
+      "preview": "assets/previews/9Pets-Voyager-A-Wordless-Letter.png",
+      "spritesheet": "assets/spritesheets/9Pets-Voyager-A-Wordless-Letter.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Voyager-A-Wordless-Letter.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/304802.png",
+      "sourceImage": "assets/source/9Pets-Voyager-A-Wordless-Letter.png",
+      "sourceRepoPath": "singlebg/headicon_img/304802.png",
+      "assetId": "304802",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/304802_yuanlv",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/304802_yuanlv",
+      "cubismPath": "live2d/roles/304802_yuanlv",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/304802_yuanlv",
+      "birthday": "11/12",
+      "skinName": "A Wordless Letter",
+      "isDefaultSkin": false,
+      "skinDescription": "一枚会唱歌的小星星。",
+      "matchedName": "Voyager",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Voyager is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 304802 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 995648,
+      "assetVersions": {
+        "downloads/9Pets-Voyager-A-Wordless-Letter.zip": "0e26e1f3f4e8a485",
+        "assets/previews/9Pets-Voyager-A-Wordless-Letter.png": "6d6b1fce82b8ea55",
+        "assets/spritesheets/9Pets-Voyager-A-Wordless-Letter.webp": "8dfc95b4d7d6022d",
+        "assets/detail-spritesheets/9Pets-Voyager-A-Wordless-Letter.webp": "a44b7092c8864898",
+        "assets/source/9Pets-Voyager-A-Wordless-Letter.png": "f6b17dfc1c99777c"
       }
     }
   ],
