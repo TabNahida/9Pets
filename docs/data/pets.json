@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T11:31:12Z",
-  "total": 235,
+  "generatedAt": "2026-06-23T11:35:22Z",
+  "total": 236,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8902,6 +8902,44 @@
         "assets/spritesheets/9Pets-Medicine-Pocket-The-Cosmos-Photographer.webp": "864c62e380fdefad",
         "assets/detail-spritesheets/9Pets-Medicine-Pocket-The-Cosmos-Photographer.webp": "931a34ca7ace404a",
         "assets/source/9Pets-Medicine-Pocket-The-Cosmos-Photographer.png": "cfb6084d5f5236bc"
+      }
+    },
+    {
+      "id": "9pets-melania-a-peaceful-night",
+      "packageName": "9Pets-Melania-A-Peaceful-Night",
+      "displayName": "Melania",
+      "skinDisplayName": "-- A Peaceful Night",
+      "download": "downloads/9Pets-Melania-A-Peaceful-Night.zip",
+      "preview": "assets/previews/9Pets-Melania-A-Peaceful-Night.png",
+      "spritesheet": "assets/spritesheets/9Pets-Melania-A-Peaceful-Night.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Melania-A-Peaceful-Night.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/306203.png",
+      "sourceImage": "assets/source/9Pets-Melania-A-Peaceful-Night.png",
+      "sourceRepoPath": "singlebg/headicon_img/306203.png",
+      "assetId": "306203",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a7_306203_meilanni",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a7_306203_meilanni",
+      "cubismPath": "live2d/roles/v1a7_306203_meilanni",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a7_306203_meilanni",
+      "birthday": "3/20",
+      "skinName": "A Peaceful Night",
+      "isDefaultSkin": false,
+      "skinDescription": "爱人啊，那只是一点小小的花招儿。",
+      "matchedName": "Melania",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Melania is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 306203 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1400626,
+      "assetVersions": {
+        "downloads/9Pets-Melania-A-Peaceful-Night.zip": "485f0a871bd86962",
+        "assets/previews/9Pets-Melania-A-Peaceful-Night.png": "056808e3ad90cf7d",
+        "assets/spritesheets/9Pets-Melania-A-Peaceful-Night.webp": "1590e469665ee601",
+        "assets/detail-spritesheets/9Pets-Melania-A-Peaceful-Night.webp": "f397faa7b34f1da2",
+        "assets/source/9Pets-Melania-A-Peaceful-Night.png": "19e6b2be8f57aa6d"
       }
     },
     {
