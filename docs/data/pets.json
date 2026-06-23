@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T15:43:24Z",
-  "total": 282,
+  "generatedAt": "2026-06-23T15:47:29Z",
+  "total": 283,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10650,6 +10650,44 @@
         "assets/spritesheets/9Pets-Sotheby-World-on-the-Other-Side.webp": "17647f3deaa32928",
         "assets/detail-spritesheets/9Pets-Sotheby-World-on-the-Other-Side.webp": "ef535abc16d00e48",
         "assets/source/9Pets-Sotheby-World-on-the-Other-Side.png": "93670b8681d9ca0d"
+      }
+    },
+    {
+      "id": "9pets-spathodea-fire-lotus",
+      "packageName": "9Pets-Spathodea-Fire-Lotus",
+      "displayName": "Spathodea",
+      "skinDisplayName": "-- Fire Lotus",
+      "download": "downloads/9Pets-Spathodea-Fire-Lotus.zip",
+      "preview": "assets/previews/9Pets-Spathodea-Fire-Lotus.png",
+      "spritesheet": "assets/spritesheets/9Pets-Spathodea-Fire-Lotus.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Spathodea-Fire-Lotus.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/307304.png",
+      "sourceImage": "assets/source/9Pets-Spathodea-Fire-Lotus.png",
+      "sourceRepoPath": "singlebg/headicon_img/307304.png",
+      "assetId": "307304",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a7_307304_krd",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a7_307304_krd",
+      "cubismPath": "live2d/roles/v3a7_307304_krd",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a7_307304_krd",
+      "birthday": "1/10",
+      "skinName": "Fire Lotus",
+      "isDefaultSkin": false,
+      "skinDescription": "幻人振衣星火落，余烬翻飞新萼还。",
+      "matchedName": "Spathodea",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Spathodea is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 307304 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1668191,
+      "assetVersions": {
+        "downloads/9Pets-Spathodea-Fire-Lotus.zip": "664075f0b70e8ec6",
+        "assets/previews/9Pets-Spathodea-Fire-Lotus.png": "bcdeec309905b386",
+        "assets/spritesheets/9Pets-Spathodea-Fire-Lotus.webp": "90403b5e3eddc8ee",
+        "assets/detail-spritesheets/9Pets-Spathodea-Fire-Lotus.webp": "9c4695d654135166",
+        "assets/source/9Pets-Spathodea-Fire-Lotus.png": "1605e183c03dbef3"
       }
     },
     {
