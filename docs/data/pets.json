@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T11:15:43Z",
-  "total": 231,
+  "generatedAt": "2026-06-23T11:19:32Z",
+  "total": 232,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8788,6 +8788,44 @@
         "assets/spritesheets/9Pets-Matilda-Eleve-Hyperdouee.webp": "0ee7515b2dc10b54",
         "assets/detail-spritesheets/9Pets-Matilda-Eleve-Hyperdouee.webp": "adbec5118fa01c24",
         "assets/source/9Pets-Matilda-Eleve-Hyperdouee.png": "d9d61acc9044ddcf"
+      }
+    },
+    {
+      "id": "9pets-medicine-pocket-beware-of-dog",
+      "packageName": "9Pets-Medicine-Pocket-Beware-of-Dog",
+      "displayName": "Medicine Pocket",
+      "skinDisplayName": "-- Beware of Dog",
+      "download": "downloads/9Pets-Medicine-Pocket-Beware-of-Dog.zip",
+      "preview": "assets/previews/9Pets-Medicine-Pocket-Beware-of-Dog.png",
+      "spritesheet": "assets/spritesheets/9Pets-Medicine-Pocket-Beware-of-Dog.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Medicine-Pocket-Beware-of-Dog.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/304702.png",
+      "sourceImage": "assets/source/9Pets-Medicine-Pocket-Beware-of-Dog.png",
+      "sourceRepoPath": "singlebg/headicon_img/304702.png",
+      "assetId": "304702",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/304702_tumaoshoudai",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/304702_tumaoshoudai",
+      "cubismPath": "live2d/roles/304702_tumaoshoudai",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/304702_tumaoshoudai",
+      "birthday": "11/24",
+      "skinName": "Beware of Dog",
+      "isDefaultSkin": false,
+      "skinDescription": "对，没错，我说，你记。这就是你的作用。",
+      "matchedName": "Medicine Pocket",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Medicine Pocket is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 304702 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 759104,
+      "assetVersions": {
+        "downloads/9Pets-Medicine-Pocket-Beware-of-Dog.zip": "0c3dd38f54a445fe",
+        "assets/previews/9Pets-Medicine-Pocket-Beware-of-Dog.png": "c81d92af6400124f",
+        "assets/spritesheets/9Pets-Medicine-Pocket-Beware-of-Dog.webp": "ba0d76643b39857f",
+        "assets/detail-spritesheets/9Pets-Medicine-Pocket-Beware-of-Dog.webp": "a5ed26eacf39e8bf",
+        "assets/source/9Pets-Medicine-Pocket-Beware-of-Dog.png": "fef4a2cf8c7199a8"
       }
     }
   ],
