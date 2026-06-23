@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T14:33:06Z",
-  "total": 268,
+  "generatedAt": "2026-06-23T14:37:21Z",
+  "total": 269,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10156,6 +10156,44 @@
         "assets/spritesheets/9Pets-Satsuki-Silver-Rose.webp": "1ec22ffb3f730b2a",
         "assets/detail-spritesheets/9Pets-Satsuki-Silver-Rose.webp": "1be5891ebe426498",
         "assets/source/9Pets-Satsuki-Silver-Rose.png": "384209219020d00f"
+      }
+    },
+    {
+      "id": "9pets-semmelweis-a-knock-on-the-door",
+      "packageName": "9Pets-Semmelweis-A-Knock-on-the-Door",
+      "displayName": "Semmelweis",
+      "skinDisplayName": "-- A Knock on the Door",
+      "download": "downloads/9Pets-Semmelweis-A-Knock-on-the-Door.zip",
+      "preview": "assets/previews/9Pets-Semmelweis-A-Knock-on-the-Door.png",
+      "spritesheet": "assets/spritesheets/9Pets-Semmelweis-A-Knock-on-the-Door.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Semmelweis-A-Knock-on-the-Door.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/308803.png",
+      "sourceImage": "assets/source/9Pets-Semmelweis-A-Knock-on-the-Door.png",
+      "sourceRepoPath": "singlebg/headicon_img/308803.png",
+      "assetId": "308803",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a3_308803_smews",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a3_308803_smews",
+      "cubismPath": "live2d/roles/v2a3_308803_smews",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a3_308803_smews",
+      "birthday": "8/19",
+      "skinName": "A Knock on the Door",
+      "isDefaultSkin": false,
+      "skinDescription": "胜利秘诀：保持稳定，无论手指、弓弦或心。",
+      "matchedName": "Semmelweis",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Semmelweis is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 308803 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 957163,
+      "assetVersions": {
+        "downloads/9Pets-Semmelweis-A-Knock-on-the-Door.zip": "ce35de8bbd24f2c7",
+        "assets/previews/9Pets-Semmelweis-A-Knock-on-the-Door.png": "96dba57dacf78e0c",
+        "assets/spritesheets/9Pets-Semmelweis-A-Knock-on-the-Door.webp": "989830e21a4eceb9",
+        "assets/detail-spritesheets/9Pets-Semmelweis-A-Knock-on-the-Door.webp": "7538accfd0a55228",
+        "assets/source/9Pets-Semmelweis-A-Knock-on-the-Door.png": "060c69cefa4bf705"
       }
     },
     {
