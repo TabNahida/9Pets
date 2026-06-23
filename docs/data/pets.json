@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T15:47:29Z",
-  "total": 283,
+  "generatedAt": "2026-06-23T15:51:34Z",
+  "total": 284,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10764,6 +10764,44 @@
         "assets/spritesheets/9Pets-Spathodea-Sparrow-Hummingbird-Flower.webp": "f056a84fd1fc5d91",
         "assets/detail-spritesheets/9Pets-Spathodea-Sparrow-Hummingbird-Flower.webp": "248e05e9d97826d7",
         "assets/source/9Pets-Spathodea-Sparrow-Hummingbird-Flower.png": "b8e2c68526881f05"
+      }
+    },
+    {
+      "id": "9pets-tennant-gent-cullinan",
+      "packageName": "9Pets-Tennant-Gent-Cullinan",
+      "displayName": "Tennant",
+      "skinDisplayName": "-- Gent Cullinan",
+      "download": "downloads/9Pets-Tennant-Gent-Cullinan.zip",
+      "preview": "assets/previews/9Pets-Tennant-Gent-Cullinan.png",
+      "spritesheet": "assets/spritesheets/9Pets-Tennant-Gent-Cullinan.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Tennant-Gent-Cullinan.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/304302.png",
+      "sourceImage": "assets/source/9Pets-Tennant-Gent-Cullinan.png",
+      "sourceRepoPath": "singlebg/headicon_img/304302.png",
+      "assetId": "304302",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/304302_tannante",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/304302_tannante",
+      "cubismPath": "live2d/roles/304302_tannante",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/304302_tannante",
+      "birthday": "9/8",
+      "skinName": "Gent Cullinan",
+      "isDefaultSkin": false,
+      "skinDescription": "她时刻准备着优雅的话术、耀眼的“钻石”与甜蜜的谎言。",
+      "matchedName": "Tennant",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Tennant is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 304302 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 951358,
+      "assetVersions": {
+        "downloads/9Pets-Tennant-Gent-Cullinan.zip": "bd06b613c267b6cd",
+        "assets/previews/9Pets-Tennant-Gent-Cullinan.png": "46b43379c197c106",
+        "assets/spritesheets/9Pets-Tennant-Gent-Cullinan.webp": "9074b36a09bf03e6",
+        "assets/detail-spritesheets/9Pets-Tennant-Gent-Cullinan.webp": "5aa0fcb3bb42db59",
+        "assets/source/9Pets-Tennant-Gent-Cullinan.png": "7327efd26eecc4b4"
       }
     }
   ],
