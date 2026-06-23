@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T10:08:14Z",
-  "total": 218,
+  "generatedAt": "2026-06-23T10:12:43Z",
+  "total": 219,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8256,6 +8256,44 @@
         "assets/spritesheets/9Pets-Loggerhead-A-Moment-of-Leisure.webp": "345e9da395b3cee2",
         "assets/detail-spritesheets/9Pets-Loggerhead-A-Moment-of-Leisure.webp": "86925537466c6099",
         "assets/source/9Pets-Loggerhead-A-Moment-of-Leisure.png": "f99b769dde50bd84"
+      }
+    },
+    {
+      "id": "9pets-lopera-friend-of-the-splintercat",
+      "packageName": "9Pets-Lopera-Friend-of-the-Splintercat",
+      "displayName": "Lopera",
+      "skinDisplayName": "-- Friend of the Splintercat",
+      "download": "downloads/9Pets-Lopera-Friend-of-the-Splintercat.zip",
+      "preview": "assets/previews/9Pets-Lopera-Friend-of-the-Splintercat.png",
+      "spritesheet": "assets/spritesheets/9Pets-Lopera-Friend-of-the-Splintercat.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Lopera-Friend-of-the-Splintercat.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/310203.png",
+      "sourceImage": "assets/source/9Pets-Lopera-Friend-of-the-Splintercat.png",
+      "sourceRepoPath": "singlebg/headicon_img/310203.png",
+      "assetId": "310203",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a6_310203_lopera",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a6_310203_lopera",
+      "cubismPath": "live2d/roles/v2a6_310203_luopeila",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a6_310203_luopeila",
+      "birthday": "5/6",
+      "skinName": "Friend of the Splintercat",
+      "isDefaultSkin": false,
+      "skinDescription": "和动物打交道只需运用一点游侠技能，这比和人交际容易太多了。",
+      "matchedName": "Lopera",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Lopera is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 310203 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 964390,
+      "assetVersions": {
+        "downloads/9Pets-Lopera-Friend-of-the-Splintercat.zip": "a0dafc1137fa3409",
+        "assets/previews/9Pets-Lopera-Friend-of-the-Splintercat.png": "baec5c527d3aeec0",
+        "assets/spritesheets/9Pets-Lopera-Friend-of-the-Splintercat.webp": "e456cd398f367b9b",
+        "assets/detail-spritesheets/9Pets-Lopera-Friend-of-the-Splintercat.webp": "5efd7518e8abeab4",
+        "assets/source/9Pets-Lopera-Friend-of-the-Splintercat.png": "925bdbde388bb2f7"
       }
     },
     {
