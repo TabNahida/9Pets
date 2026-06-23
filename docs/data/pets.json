@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T14:20:22Z",
-  "total": 265,
+  "generatedAt": "2026-06-23T14:24:30Z",
+  "total": 266,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10080,6 +10080,44 @@
         "assets/spritesheets/9Pets-Rubuska-The-Piper-s-Dream.webp": "23bd90b9515e3994",
         "assets/detail-spritesheets/9Pets-Rubuska-The-Piper-s-Dream.webp": "a6c01a7d7921bd34",
         "assets/source/9Pets-Rubuska-The-Piper-s-Dream.png": "2f1d7b564f5338e0"
+      }
+    },
+    {
+      "id": "9pets-satsuki-reed-bloom",
+      "packageName": "9Pets-Satsuki-Reed-Bloom",
+      "displayName": "Satsuki",
+      "skinDisplayName": "-- Reed Bloom",
+      "download": "downloads/9Pets-Satsuki-Reed-Bloom.zip",
+      "preview": "assets/previews/9Pets-Satsuki-Reed-Bloom.png",
+      "spritesheet": "assets/spritesheets/9Pets-Satsuki-Reed-Bloom.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Satsuki-Reed-Bloom.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/303802.png",
+      "sourceImage": "assets/source/9Pets-Satsuki-Reed-Bloom.png",
+      "sourceRepoPath": "singlebg/headicon_img/303802.png",
+      "assetId": "303802",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/303802_wuseyue",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/303802_wuseyue",
+      "cubismPath": "live2d/roles/303802_wuseyue",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/303802_wuseyue",
+      "birthday": "5/1",
+      "skinName": "Reed Bloom",
+      "isDefaultSkin": false,
+      "skinDescription": "此刻，她已找到了长居于此的理由。",
+      "matchedName": "Satsuki",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Satsuki is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 303802 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 742633,
+      "assetVersions": {
+        "downloads/9Pets-Satsuki-Reed-Bloom.zip": "12a8b2f7d5792ac3",
+        "assets/previews/9Pets-Satsuki-Reed-Bloom.png": "d1fc686d39872660",
+        "assets/spritesheets/9Pets-Satsuki-Reed-Bloom.webp": "d50d3fc3d850727f",
+        "assets/detail-spritesheets/9Pets-Satsuki-Reed-Bloom.webp": "a777d82e7cfbbdeb",
+        "assets/source/9Pets-Satsuki-Reed-Bloom.png": "1c88ce2c0e03eeec"
       }
     }
   ],
