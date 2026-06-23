@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T08:42:33Z",
-  "total": 211,
+  "generatedAt": "2026-06-23T09:41:31Z",
+  "total": 212,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8028,6 +8028,44 @@
         "assets/spritesheets/9Pets-Kiperina-The-Universe-in-the-Rook-s-Shell.webp": "14a664e709f448fa",
         "assets/detail-spritesheets/9Pets-Kiperina-The-Universe-in-the-Rook-s-Shell.webp": "aa2ebd2a25c41727",
         "assets/source/9Pets-Kiperina-The-Universe-in-the-Rook-s-Shell.png": "655f599a74dc3845"
+      }
+    },
+    {
+      "id": "9pets-liang-yue-above-the-green-tiles",
+      "packageName": "9Pets-Liang-Yue-Above-the-Green-Tiles",
+      "displayName": "Liang Yue",
+      "skinDisplayName": "-- Above the Green Tiles",
+      "download": "downloads/9Pets-Liang-Yue-Above-the-Green-Tiles.zip",
+      "preview": "assets/previews/9Pets-Liang-Yue-Above-the-Green-Tiles.png",
+      "spritesheet": "assets/spritesheets/9Pets-Liang-Yue-Above-the-Green-Tiles.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Liang-Yue-Above-the-Green-Tiles.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/311002.png",
+      "sourceImage": "assets/source/9Pets-Liang-Yue-Above-the-Green-Tiles.png",
+      "sourceRepoPath": "singlebg/headicon_img/311002.png",
+      "assetId": "311002",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a5_311002_ly",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a5_311002_ly",
+      "cubismPath": "live2d/roles/v2a5_311002_liangyue",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a5_311002_liangyue",
+      "birthday": "5/6",
+      "skinName": "Above the Green Tiles",
+      "isDefaultSkin": false,
+      "skinDescription": "钟声破晓，今时与彼日归于一处。",
+      "matchedName": "Liang",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Liang Yue is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 311002 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1247001,
+      "assetVersions": {
+        "downloads/9Pets-Liang-Yue-Above-the-Green-Tiles.zip": "7a9c886ecf7a5416",
+        "assets/previews/9Pets-Liang-Yue-Above-the-Green-Tiles.png": "b5e86152198b2444",
+        "assets/spritesheets/9Pets-Liang-Yue-Above-the-Green-Tiles.webp": "b87f033080e61cac",
+        "assets/detail-spritesheets/9Pets-Liang-Yue-Above-the-Green-Tiles.webp": "ceb2621489441150",
+        "assets/source/9Pets-Liang-Yue-Above-the-Green-Tiles.png": "fd8aedfa50e2bdd0"
       }
     }
   ],

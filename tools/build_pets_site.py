@@ -443,6 +443,10 @@ LIVE2D_RENDER_PROFILES: dict[str, dict[str, Any]] = {
     "9Pets-Kiperina": {
         "primaryTexture": "textures/311701_kphh.png",
     },
+    "9Pets-Liang-Yue-Above-the-Green-Tiles": {
+        "x": 950,
+        "hiddenDrawables": ["ArtMesh46", "ArtMesh47", "ArtMesh55", "ArtMesh54", "ArtMesh53", "ArtMesh77"],
+    },
     "9Pets-Lorelei": {
         "primaryTexture": "textures/309101_luoleilai_00.png",
     },
