@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T12:05:11Z",
-  "total": 243,
+  "generatedAt": "2026-06-23T12:09:36Z",
+  "total": 244,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9244,6 +9244,44 @@
         "assets/spritesheets/9Pets-Mr-Duncan-The-Favela-Inventor.webp": "8d3c09368a9aed71",
         "assets/detail-spritesheets/9Pets-Mr-Duncan-The-Favela-Inventor.webp": "2c2c0428e10e5738",
         "assets/source/9Pets-Mr-Duncan-The-Favela-Inventor.png": "5f7f40bd161b6b31"
+      }
+    },
+    {
+      "id": "9pets-ms-newbabel-creator-of-the-new-era",
+      "packageName": "9Pets-Ms-NewBabel-Creator-of-the-New-Era",
+      "displayName": "Ms. NewBabel",
+      "skinDisplayName": "-- Creator of the New Era",
+      "download": "downloads/9Pets-Ms-NewBabel-Creator-of-the-New-Era.zip",
+      "preview": "assets/previews/9Pets-Ms-NewBabel-Creator-of-the-New-Era.png",
+      "spritesheet": "assets/spritesheets/9Pets-Ms-NewBabel-Creator-of-the-New-Era.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Ms-NewBabel-Creator-of-the-New-Era.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/305202.png",
+      "sourceImage": "assets/source/9Pets-Ms-NewBabel-Creator-of-the-New-Era.png",
+      "sourceRepoPath": "singlebg/headicon_img/305202.png",
+      "assetId": "305202",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/305202_xinbabieta",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/305202_xinbabieta",
+      "cubismPath": "live2d/roles/305202_xinbabieta",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/305202_xinbabieta",
+      "birthday": "11/16",
+      "skinName": "Creator of the New Era",
+      "isDefaultSkin": false,
+      "skinDescription": "致：美丽的新时代。",
+      "matchedName": "Ms. NewBabel",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Ms. NewBabel is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 305202 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1579892,
+      "assetVersions": {
+        "downloads/9Pets-Ms-NewBabel-Creator-of-the-New-Era.zip": "2fe93292fce55847",
+        "assets/previews/9Pets-Ms-NewBabel-Creator-of-the-New-Era.png": "b6e69edc692884c7",
+        "assets/spritesheets/9Pets-Ms-NewBabel-Creator-of-the-New-Era.webp": "52f93239c292247e",
+        "assets/detail-spritesheets/9Pets-Ms-NewBabel-Creator-of-the-New-Era.webp": "5fce5bc804879f74",
+        "assets/source/9Pets-Ms-NewBabel-Creator-of-the-New-Era.png": "c40eb6a5d509cdc8"
       }
     }
   ],
