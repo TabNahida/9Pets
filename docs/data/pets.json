@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T16:12:07Z",
-  "total": 289,
+  "generatedAt": "2026-06-23T16:16:19Z",
+  "total": 290,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10992,6 +10992,44 @@
         "assets/spritesheets/9Pets-Tooth-Fairy-Sweet-Dream.webp": "dffc11986634e6f6",
         "assets/detail-spritesheets/9Pets-Tooth-Fairy-Sweet-Dream.webp": "c3f81f77a03b726c",
         "assets/source/9Pets-Tooth-Fairy-Sweet-Dream.png": "21b7f2174ec8f5d8"
+      }
+    },
+    {
+      "id": "9pets-tooth-fairy-the-woven-legend",
+      "packageName": "9Pets-Tooth-Fairy-The-Woven-Legend",
+      "displayName": "Tooth Fairy",
+      "skinDisplayName": "-- The Woven Legend",
+      "download": "downloads/9Pets-Tooth-Fairy-The-Woven-Legend.zip",
+      "preview": "assets/previews/9Pets-Tooth-Fairy-The-Woven-Legend.png",
+      "spritesheet": "assets/spritesheets/9Pets-Tooth-Fairy-The-Woven-Legend.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Tooth-Fairy-The-Woven-Legend.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/305305.png",
+      "sourceImage": "assets/source/9Pets-Tooth-Fairy-The-Woven-Legend.png",
+      "sourceRepoPath": "singlebg/headicon_img/305305.png",
+      "assetId": "305305",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a4_305305_yx",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a4_305305_yx",
+      "cubismPath": "live2d/roles/v3a4_305305_yx",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a4_305305_yx",
+      "birthday": "11/27",
+      "skinName": "The Woven Legend",
+      "isDefaultSkin": false,
+      "skinDescription": "千丝万缕恩仇事，捻作金线绣彩蝶。",
+      "matchedName": "Tooth Fairy",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Tooth Fairy is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 305305 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1739131,
+      "assetVersions": {
+        "downloads/9Pets-Tooth-Fairy-The-Woven-Legend.zip": "fda305573e609663",
+        "assets/previews/9Pets-Tooth-Fairy-The-Woven-Legend.png": "1d70bf7b34bb60b5",
+        "assets/spritesheets/9Pets-Tooth-Fairy-The-Woven-Legend.webp": "34bee6365edc3139",
+        "assets/detail-spritesheets/9Pets-Tooth-Fairy-The-Woven-Legend.webp": "af2f04d8ba721643",
+        "assets/source/9Pets-Tooth-Fairy-The-Woven-Legend.png": "c955727da8619039"
       }
     }
   ],
