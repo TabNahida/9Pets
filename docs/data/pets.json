@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T10:37:37Z",
-  "total": 223,
+  "generatedAt": "2026-06-23T10:42:15Z",
+  "total": 224,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8484,6 +8484,44 @@
         "assets/spritesheets/9Pets-Lucy-The-Queen-s-Game.webp": "525577ac7dd77a3a",
         "assets/detail-spritesheets/9Pets-Lucy-The-Queen-s-Game.webp": "f155851b9d731330",
         "assets/source/9Pets-Lucy-The-Queen-s-Game.png": "9bde428f674abb51"
+      }
+    },
+    {
+      "id": "9pets-marcus-a-returning-wind",
+      "packageName": "9Pets-Marcus-A-Returning-Wind",
+      "displayName": "Marcus",
+      "skinDisplayName": "-- A Returning Wind",
+      "download": "downloads/9Pets-Marcus-A-Returning-Wind.zip",
+      "preview": "assets/previews/9Pets-Marcus-A-Returning-Wind.png",
+      "spritesheet": "assets/spritesheets/9Pets-Marcus-A-Returning-Wind.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Marcus-A-Returning-Wind.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/306502.png",
+      "sourceImage": "assets/source/9Pets-Marcus-A-Returning-Wind.png",
+      "sourceRepoPath": "singlebg/headicon_img/306502.png",
+      "assetId": "306502",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a7_306502_makusi",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a7_306502_makusi",
+      "cubismPath": "live2d/roles/v1a7_306502_makusi",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a7_306502_makusi",
+      "birthday": "1/12",
+      "skinName": "A Returning Wind",
+      "isDefaultSkin": false,
+      "skinDescription": "最后的犹豫，戛然而止的那页。",
+      "matchedName": "Marcus",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Marcus is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 306502 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1057383,
+      "assetVersions": {
+        "downloads/9Pets-Marcus-A-Returning-Wind.zip": "91cd87e0a4a8b24d",
+        "assets/previews/9Pets-Marcus-A-Returning-Wind.png": "188ae6a4a864084a",
+        "assets/spritesheets/9Pets-Marcus-A-Returning-Wind.webp": "d1817746b8f0c674",
+        "assets/detail-spritesheets/9Pets-Marcus-A-Returning-Wind.webp": "6a86d274b283b296",
+        "assets/source/9Pets-Marcus-A-Returning-Wind.png": "6172ffcee1e1a20c"
       }
     }
   ],
