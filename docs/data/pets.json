@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T11:27:09Z",
-  "total": 234,
+  "generatedAt": "2026-06-23T11:31:12Z",
+  "total": 235,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8902,6 +8902,44 @@
         "assets/spritesheets/9Pets-Medicine-Pocket-The-Cosmos-Photographer.webp": "864c62e380fdefad",
         "assets/detail-spritesheets/9Pets-Medicine-Pocket-The-Cosmos-Photographer.webp": "931a34ca7ace404a",
         "assets/source/9Pets-Medicine-Pocket-The-Cosmos-Photographer.png": "cfb6084d5f5236bc"
+      }
+    },
+    {
+      "id": "9pets-melania-the-ramirez-style",
+      "packageName": "9Pets-Melania-The-Ramirez-Style",
+      "displayName": "Melania",
+      "skinDisplayName": "-- The Ramirez Style",
+      "download": "downloads/9Pets-Melania-The-Ramirez-Style.zip",
+      "preview": "assets/previews/9Pets-Melania-The-Ramirez-Style.png",
+      "spritesheet": "assets/spritesheets/9Pets-Melania-The-Ramirez-Style.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Melania-The-Ramirez-Style.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/306202.png",
+      "sourceImage": "assets/source/9Pets-Melania-The-Ramirez-Style.png",
+      "sourceRepoPath": "singlebg/headicon_img/306202.png",
+      "assetId": "306202",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/306202_meilanni",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/306202_meilanni",
+      "cubismPath": "live2d/roles/306202_meilanni",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/306202_meilanni",
+      "birthday": "3/20",
+      "skinName": "The Ramirez Style",
+      "isDefaultSkin": false,
+      "skinDescription": "“超越所有小偷的想象力。”",
+      "matchedName": "Melania",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Melania is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 306202 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1049216,
+      "assetVersions": {
+        "downloads/9Pets-Melania-The-Ramirez-Style.zip": "89e29cb976c9627f",
+        "assets/previews/9Pets-Melania-The-Ramirez-Style.png": "4ff6b3ccbd28fe35",
+        "assets/spritesheets/9Pets-Melania-The-Ramirez-Style.webp": "f661b8d4bf0f29a9",
+        "assets/detail-spritesheets/9Pets-Melania-The-Ramirez-Style.webp": "c40bffec2d283778",
+        "assets/source/9Pets-Melania-The-Ramirez-Style.png": "f7a1c1018d69ec17"
       }
     }
   ],
