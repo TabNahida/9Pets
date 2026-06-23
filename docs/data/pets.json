@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T16:29:45Z",
-  "total": 293,
+  "generatedAt": "2026-06-23T16:34:03Z",
+  "total": 294,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -11144,6 +11144,44 @@
         "assets/spritesheets/9Pets-Tuesday-Story-of-the-Jade-Vase.webp": "9f1ca1223314182f",
         "assets/detail-spritesheets/9Pets-Tuesday-Story-of-the-Jade-Vase.webp": "013673b4f77bfde1",
         "assets/source/9Pets-Tuesday-Story-of-the-Jade-Vase.png": "4d4288164cfe6bc2"
+      }
+    },
+    {
+      "id": "9pets-ulrich-universe-in-the-tank",
+      "packageName": "9Pets-Ulrich-Universe-in-the-Tank",
+      "displayName": "Ulrich",
+      "skinDisplayName": "-- Universe in the Tank",
+      "download": "downloads/9Pets-Ulrich-Universe-in-the-Tank.zip",
+      "preview": "assets/previews/9Pets-Ulrich-Universe-in-the-Tank.png",
+      "spritesheet": "assets/spritesheets/9Pets-Ulrich-Universe-in-the-Tank.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Ulrich-Universe-in-the-Tank.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/310702.png",
+      "sourceImage": "assets/source/9Pets-Ulrich-Universe-in-the-Tank.png",
+      "sourceRepoPath": "singlebg/headicon_img/310702.png",
+      "assetId": "310702",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a8_310702_welx",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a8_310702_welx",
+      "cubismPath": "live2d/roles/v2a8_310702_welx",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a8_310702_welx",
+      "birthday": "5/30",
+      "skinName": "Universe in the Tank",
+      "isDefaultSkin": false,
+      "skinDescription": "疯狂、不顾一切，典型的拉普拉斯行事风格。",
+      "matchedName": "Ulrich",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Ulrich is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 310702 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1003342,
+      "assetVersions": {
+        "downloads/9Pets-Ulrich-Universe-in-the-Tank.zip": "f2fac32705e0e9ad",
+        "assets/previews/9Pets-Ulrich-Universe-in-the-Tank.png": "47c5d9a60cc50190",
+        "assets/spritesheets/9Pets-Ulrich-Universe-in-the-Tank.webp": "97a023ab9bc0c85d",
+        "assets/detail-spritesheets/9Pets-Ulrich-Universe-in-the-Tank.webp": "176b12375d1f7d87",
+        "assets/source/9Pets-Ulrich-Universe-in-the-Tank.png": "e46800547ddf6c8f"
       }
     }
   ],
