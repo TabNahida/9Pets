@@ -464,6 +464,19 @@ LIVE2D_RENDER_PROFILES: dict[str, dict[str, Any]] = {
         "y": 600,
         "detailAtlasScale": 4,
     },
+    "9Pets-Rhiannon-The-Migration-of-Her-Heart": {
+        "motionMap": {
+            "idle": "b_idle.motion3.json",
+            "running-right": "b_yaotou.motion3.json",
+            "running-left": "b_yaotou.motion3.json",
+            "waving": "b_chizhang.motion3.json",
+            "jumping": "b_diantou.motion3.json",
+            "failed": "t_nanguo.motion3.json",
+            "waiting": "t_yihuo.motion3.json",
+            "running": "b_sikao.motion3.json",
+            "review": "b_sikao.motion3.json",
+        },
+    },
     "9Pets-Kiperina": {
         "primaryTexture": "textures/311701_kphh.png",
     },

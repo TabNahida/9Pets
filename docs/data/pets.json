@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T14:03:00Z",
-  "total": 262,
+  "generatedAt": "2026-06-23T14:11:41Z",
+  "total": 263,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9966,6 +9966,44 @@
         "assets/spritesheets/9Pets-Regulus-Take-Off-To-the-Future.webp": "a8267ffd53b9cf04",
         "assets/detail-spritesheets/9Pets-Regulus-Take-Off-To-the-Future.webp": "42d647f951b49606",
         "assets/source/9Pets-Regulus-Take-Off-To-the-Future.png": "98707777339ce58c"
+      }
+    },
+    {
+      "id": "9pets-rhiannon-the-migration-of-her-heart",
+      "packageName": "9Pets-Rhiannon-The-Migration-of-Her-Heart",
+      "displayName": "Rhiannon",
+      "skinDisplayName": "-- The Migration of Her Heart",
+      "download": "downloads/9Pets-Rhiannon-The-Migration-of-Her-Heart.zip",
+      "preview": "assets/previews/9Pets-Rhiannon-The-Migration-of-Her-Heart.png",
+      "spritesheet": "assets/spritesheets/9Pets-Rhiannon-The-Migration-of-Her-Heart.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Rhiannon-The-Migration-of-Her-Heart.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/314602.png",
+      "sourceImage": "assets/source/9Pets-Rhiannon-The-Migration-of-Her-Heart.png",
+      "sourceRepoPath": "singlebg/headicon_img/314602.png",
+      "assetId": "314602",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a7_314602_xran",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a7_314602_xran",
+      "cubismPath": "live2d/roles/v3a7_314602_xran",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a7_314602_xran",
+      "birthday": "3/1",
+      "skinName": "The Migration of Her Heart",
+      "isDefaultSkin": false,
+      "skinDescription": "需以一场伟大旅途纪念丰满的羽翼。",
+      "matchedName": "Rhiannon",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Rhiannon is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 314602 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1019562,
+      "assetVersions": {
+        "downloads/9Pets-Rhiannon-The-Migration-of-Her-Heart.zip": "d90dd39f7a09a023",
+        "assets/previews/9Pets-Rhiannon-The-Migration-of-Her-Heart.png": "fbc1bbfcaa004707",
+        "assets/spritesheets/9Pets-Rhiannon-The-Migration-of-Her-Heart.webp": "04fd07fe632df16d",
+        "assets/detail-spritesheets/9Pets-Rhiannon-The-Migration-of-Her-Heart.webp": "400bb2c30cdaa69b",
+        "assets/source/9Pets-Rhiannon-The-Migration-of-Her-Heart.png": "50af68af96c0c7c3"
       }
     }
   ],
