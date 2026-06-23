@@ -130,17 +130,26 @@ class PageQaSession:
     def __enter__(self) -> "PageQaSession":
         self.playwright = sync_playwright().start()
         self.browser = self.playwright.chromium.launch()
+        self.context = self.browser.new_context()
+        self.context.route(
+            "**/*",
+            lambda route: route.abort()
+            if route.request.resource_type in {"image", "font", "media"}
+            else route.continue_(),
+        )
         return self
 
     def __exit__(self, exc_type: object, exc: object, tb: object) -> None:
+        self.context.close()
         self.browser.close()
         self.playwright.stop()
 
     def check(self, base_url: str, row: dict[str, Any]) -> None:
         package_name = row["cute_package"]
         pet_id = site.pet_id_from_package(package_name)
-        page = self.browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
-        page.goto(f"{base_url}/index.html?variant=cute#catalog", wait_until="networkidle")
+        page = self.context.new_page()
+        page.set_viewport_size({"width": 1440, "height": 1000})
+        page.goto(f"{base_url}/index.html?variant=cute#catalog", wait_until="domcontentloaded")
         page.wait_for_selector(".pet-card")
         catalog = page.evaluate(
             """([packageName, skinName]) => {
@@ -163,8 +172,9 @@ class PageQaSession:
         if catalog["skinDisplayName"] != catalog["expectedSkinDisplay"]:
             raise AssertionError(f"{package_name} skin label is {catalog['skinDisplayName']}")
 
-        detail = self.browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
-        detail.goto(f"{base_url}/pet.html?id={pet_id}", wait_until="networkidle")
+        detail = self.context.new_page()
+        detail.set_viewport_size({"width": 1440, "height": 1000})
+        detail.goto(f"{base_url}/pet.html?id={pet_id}", wait_until="domcontentloaded")
         detail.wait_for_selector(".detail-sprite")
         sprite_image = detail.locator(".detail-sprite").evaluate("node => getComputedStyle(node).backgroundImage")
         if f"detail-spritesheets/{package_name}.webp" not in sprite_image:
