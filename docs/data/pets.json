@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T12:26:57Z",
-  "total": 247,
+  "generatedAt": "2026-06-23T12:31:29Z",
+  "total": 248,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9396,6 +9396,44 @@
         "assets/spritesheets/9Pets-Name-Day-Before-the-Light-Fades.webp": "394e2c3b704c4c27",
         "assets/detail-spritesheets/9Pets-Name-Day-Before-the-Light-Fades.webp": "132db89125e9305d",
         "assets/source/9Pets-Name-Day-Before-the-Light-Fades.png": "93f5ab77a7ecbd9e"
+      }
+    },
+    {
+      "id": "9pets-name-day-the-deathless-quiet",
+      "packageName": "9Pets-Name-Day-The-Deathless-Quiet",
+      "displayName": "Name Day",
+      "skinDisplayName": "-- The Deathless Quiet",
+      "download": "downloads/9Pets-Name-Day-The-Deathless-Quiet.zip",
+      "preview": "assets/previews/9Pets-Name-Day-The-Deathless-Quiet.png",
+      "spritesheet": "assets/spritesheets/9Pets-Name-Day-The-Deathless-Quiet.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Name-Day-The-Deathless-Quiet.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/311803.png",
+      "sourceImage": "assets/source/9Pets-Name-Day-The-Deathless-Quiet.png",
+      "sourceRepoPath": "singlebg/headicon_img/311803.png",
+      "assetId": "311803",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a7_311803_mmr",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a7_311803_mmr",
+      "cubismPath": "live2d/roles/v3a7_311803_mmr",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a7_311803_mmr",
+      "birthday": "1/6",
+      "skinName": "The Deathless Quiet",
+      "isDefaultSkin": false,
+      "skinDescription": "在广袤的寂静中，凡人得赐爱与相认的权力。",
+      "matchedName": "Name Day",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Name Day is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 311803 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 878419,
+      "assetVersions": {
+        "downloads/9Pets-Name-Day-The-Deathless-Quiet.zip": "d0ee8490cf6be539",
+        "assets/previews/9Pets-Name-Day-The-Deathless-Quiet.png": "317a3e3578799e09",
+        "assets/spritesheets/9Pets-Name-Day-The-Deathless-Quiet.webp": "287827cf7ccbfe1f",
+        "assets/detail-spritesheets/9Pets-Name-Day-The-Deathless-Quiet.webp": "a5e8ccb4fe2d820e",
+        "assets/source/9Pets-Name-Day-The-Deathless-Quiet.png": "c72346eb0adffd8b"
       }
     }
   ],
