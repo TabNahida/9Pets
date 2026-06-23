@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T18:06:01Z",
-  "total": 311,
+  "generatedAt": "2026-06-23T18:21:03Z",
+  "total": 312,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7078,6 +7078,44 @@
         "assets/spritesheets/9Pets-Hissabeth-Serpentine-Primavera.webp": "4f438aa5fcf158dc",
         "assets/detail-spritesheets/9Pets-Hissabeth-Serpentine-Primavera.webp": "36297c4756a99d24",
         "assets/source/9Pets-Hissabeth-Serpentine-Primavera.png": "2751b975b51f7664"
+      }
+    },
+    {
+      "id": "9pets-hissabeth-verses-to-heaven",
+      "packageName": "9Pets-Hissabeth-Verses-to-Heaven",
+      "displayName": "Hissabeth",
+      "skinDisplayName": "-- Verses to Heaven",
+      "download": "downloads/9Pets-Hissabeth-Verses-to-Heaven.zip",
+      "preview": "assets/previews/9Pets-Hissabeth-Verses-to-Heaven.png",
+      "spritesheet": "assets/spritesheets/9Pets-Hissabeth-Verses-to-Heaven.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Hissabeth-Verses-to-Heaven.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/311604.png",
+      "sourceImage": "assets/source/9Pets-Hissabeth-Verses-to-Heaven.png",
+      "sourceRepoPath": "singlebg/headicon_img/311604.png",
+      "assetId": "311604",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a8_311604_lzl",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a8_311604_lzl",
+      "cubismPath": "live2d/roles/v3a8_311604_lzl",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a8_311604_lzl",
+      "birthday": "12/23",
+      "skinName": "Verses to Heaven",
+      "isDefaultSkin": false,
+      "skinDescription": "孔盖兮翠旍，登九天兮抚彗星。",
+      "matchedName": "Hissabeth",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Hissabeth is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 311604 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 2246543,
+      "assetVersions": {
+        "downloads/9Pets-Hissabeth-Verses-to-Heaven.zip": "fd94d41c6741ce8a",
+        "assets/previews/9Pets-Hissabeth-Verses-to-Heaven.png": "1795e70127a0d40e",
+        "assets/spritesheets/9Pets-Hissabeth-Verses-to-Heaven.webp": "4dfc6cf76cb475f5",
+        "assets/detail-spritesheets/9Pets-Hissabeth-Verses-to-Heaven.webp": "88de4acc08c552bd",
+        "assets/source/9Pets-Hissabeth-Verses-to-Heaven.png": "24c910532b5c6312"
       }
     },
     {
