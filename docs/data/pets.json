@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T17:02:43Z",
-  "total": 299,
+  "generatedAt": "2026-06-23T17:07:23Z",
+  "total": 300,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -11372,6 +11372,44 @@
         "assets/spritesheets/9Pets-Voyager-A-Wordless-Letter.webp": "8dfc95b4d7d6022d",
         "assets/detail-spritesheets/9Pets-Voyager-A-Wordless-Letter.webp": "a44b7092c8864898",
         "assets/source/9Pets-Voyager-A-Wordless-Letter.png": "f6b17dfc1c99777c"
+      }
+    },
+    {
+      "id": "9pets-voyager-new-journey",
+      "packageName": "9Pets-Voyager-New-Journey",
+      "displayName": "Voyager",
+      "skinDisplayName": "-- New Journey",
+      "download": "downloads/9Pets-Voyager-New-Journey.zip",
+      "preview": "assets/previews/9Pets-Voyager-New-Journey.png",
+      "spritesheet": "assets/spritesheets/9Pets-Voyager-New-Journey.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Voyager-New-Journey.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/304803.png",
+      "sourceImage": "assets/source/9Pets-Voyager-New-Journey.png",
+      "sourceRepoPath": "singlebg/headicon_img/304803.png",
+      "assetId": "304803",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a9_304803_yuanlv",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a9_304803_yuanlv",
+      "cubismPath": "live2d/roles/v1a9_304803_yuanlv",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a9_304803_yuanlv",
+      "birthday": "11/12",
+      "skinName": "New Journey",
+      "isDefaultSkin": false,
+      "skinDescription": "“最后，我去往我知道或不知道的地方，与我的声音一起。”",
+      "matchedName": "Voyager",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Voyager is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 304803 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 991993,
+      "assetVersions": {
+        "downloads/9Pets-Voyager-New-Journey.zip": "47c7bbe5e4498b57",
+        "assets/previews/9Pets-Voyager-New-Journey.png": "dd6821b54756412e",
+        "assets/spritesheets/9Pets-Voyager-New-Journey.webp": "8b8b9ea34d62dadf",
+        "assets/detail-spritesheets/9Pets-Voyager-New-Journey.webp": "5aabefdd11151552",
+        "assets/source/9Pets-Voyager-New-Journey.png": "54488207839b6e99"
       }
     }
   ],
