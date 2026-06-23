@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T16:16:19Z",
-  "total": 290,
+  "generatedAt": "2026-06-23T16:20:57Z",
+  "total": 291,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -11030,6 +11030,44 @@
         "assets/spritesheets/9Pets-Tooth-Fairy-The-Woven-Legend.webp": "34bee6365edc3139",
         "assets/detail-spritesheets/9Pets-Tooth-Fairy-The-Woven-Legend.webp": "af2f04d8ba721643",
         "assets/source/9Pets-Tooth-Fairy-The-Woven-Legend.png": "c955727da8619039"
+      }
+    },
+    {
+      "id": "9pets-tuesday-miss-horror",
+      "packageName": "9Pets-Tuesday-Miss-Horror",
+      "displayName": "Tuesday",
+      "skinDisplayName": "-- Miss Horror",
+      "download": "downloads/9Pets-Tuesday-Miss-Horror.zip",
+      "preview": "assets/previews/9Pets-Tuesday-Miss-Horror.png",
+      "spritesheet": "assets/spritesheets/9Pets-Tuesday-Miss-Horror.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Tuesday-Miss-Horror.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/309802.png",
+      "sourceImage": "assets/source/9Pets-Tuesday-Miss-Horror.png",
+      "sourceRepoPath": "singlebg/headicon_img/309802.png",
+      "assetId": "309802",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a1_309802_lsp",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a1_309802_lsp",
+      "cubismPath": "live2d/roles/v2a1_309802_lsp",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a1_309802_lsp",
+      "birthday": "10/30",
+      "skinName": "Miss Horror",
+      "isDefaultSkin": false,
+      "skinDescription": "嘘，嘘，她与它都在此等候。",
+      "matchedName": "Tuesday",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Tuesday is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 309802 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 793269,
+      "assetVersions": {
+        "downloads/9Pets-Tuesday-Miss-Horror.zip": "9a64408ea1384c8e",
+        "assets/previews/9Pets-Tuesday-Miss-Horror.png": "b8aa418c0c39ead0",
+        "assets/spritesheets/9Pets-Tuesday-Miss-Horror.webp": "9f9c362ab8ca8ce9",
+        "assets/detail-spritesheets/9Pets-Tuesday-Miss-Horror.webp": "3302c9eba788ba67",
+        "assets/source/9Pets-Tuesday-Miss-Horror.png": "8fc159a03acd6fef"
       }
     }
   ],
