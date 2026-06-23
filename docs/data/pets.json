@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T08:14:07Z",
-  "total": 207,
+  "generatedAt": "2026-06-23T08:28:45Z",
+  "total": 208,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7876,6 +7876,44 @@
         "assets/spritesheets/9Pets-Kanjira-The-Night-Visitor.webp": "ec6896911368d6bc",
         "assets/detail-spritesheets/9Pets-Kanjira-The-Night-Visitor.webp": "87267d3d5b66524a",
         "assets/source/9Pets-Kanjira-The-Night-Visitor.png": "456b2d80f29d81fc"
+      }
+    },
+    {
+      "id": "9pets-kassandra-radiant-in-blue",
+      "packageName": "9Pets-Kassandra-Radiant-in-Blue",
+      "displayName": "Kassandra",
+      "skinDisplayName": "-- Radiant in Blue",
+      "download": "downloads/9Pets-Kassandra-Radiant-in-Blue.zip",
+      "preview": "assets/previews/9Pets-Kassandra-Radiant-in-Blue.png",
+      "spritesheet": "assets/spritesheets/9Pets-Kassandra-Radiant-in-Blue.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Kassandra-Radiant-in-Blue.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/312402.png",
+      "sourceImage": "assets/source/9Pets-Kassandra-Radiant-in-Blue.png",
+      "sourceRepoPath": "singlebg/headicon_img/312402.png",
+      "assetId": "312402",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/s01_312402_ksdl",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/s01_312402_ksdl",
+      "cubismPath": "live2d/roles/s01_312402_ksdl",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/s01_312402_ksdl",
+      "birthday": "8/7",
+      "skinName": "Radiant in Blue",
+      "isDefaultSkin": false,
+      "skinDescription": "曙光照临之时，雅典娜赐予她荣光。",
+      "matchedName": "Kassandra",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Kassandra is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 312402 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1192927,
+      "assetVersions": {
+        "downloads/9Pets-Kassandra-Radiant-in-Blue.zip": "b341b3e2997c88a0",
+        "assets/previews/9Pets-Kassandra-Radiant-in-Blue.png": "4b4547918aa8d2b7",
+        "assets/spritesheets/9Pets-Kassandra-Radiant-in-Blue.webp": "59030497620a60ea",
+        "assets/detail-spritesheets/9Pets-Kassandra-Radiant-in-Blue.webp": "9a6ae203122c66b6",
+        "assets/source/9Pets-Kassandra-Radiant-in-Blue.png": "ec27e8defdcf7cf0"
       }
     }
   ],
