@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T10:56:05Z",
-  "total": 227,
+  "generatedAt": "2026-06-23T11:00:57Z",
+  "total": 228,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8636,6 +8636,44 @@
         "assets/spritesheets/9Pets-Marsha-And-This-I-Swear.webp": "ee1ae1e04b99df17",
         "assets/detail-spritesheets/9Pets-Marsha-And-This-I-Swear.webp": "c8692dde2bbcf8c6",
         "assets/source/9Pets-Marsha-And-This-I-Swear.png": "87f26a40e993086b"
+      }
+    },
+    {
+      "id": "9pets-marsha-the-ever-burning-embrace",
+      "packageName": "9Pets-Marsha-The-Ever-Burning-Embrace",
+      "displayName": "Marsha",
+      "skinDisplayName": "-- The Ever-Burning Embrace",
+      "download": "downloads/9Pets-Marsha-The-Ever-Burning-Embrace.zip",
+      "preview": "assets/previews/9Pets-Marsha-The-Ever-Burning-Embrace.png",
+      "spritesheet": "assets/spritesheets/9Pets-Marsha-The-Ever-Burning-Embrace.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Marsha-The-Ever-Burning-Embrace.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/312703.png",
+      "sourceImage": "assets/source/9Pets-Marsha-The-Ever-Burning-Embrace.png",
+      "sourceRepoPath": "singlebg/headicon_img/312703.png",
+      "assetId": "312703",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a6_312703_mes",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a6_312703_mes",
+      "cubismPath": "live2d/roles/v3a6_312703_mes",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a6_312703_mes",
+      "birthday": "4/10",
+      "skinName": "The Ever-Burning Embrace",
+      "isDefaultSkin": false,
+      "skinDescription": "以一缕光的易逝，对抗黑暗的永恒。",
+      "matchedName": "Marsha",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Marsha is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 312703 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1326240,
+      "assetVersions": {
+        "downloads/9Pets-Marsha-The-Ever-Burning-Embrace.zip": "eb2db6338fe48204",
+        "assets/previews/9Pets-Marsha-The-Ever-Burning-Embrace.png": "b8516aa6ebc5def0",
+        "assets/spritesheets/9Pets-Marsha-The-Ever-Burning-Embrace.webp": "319c0ed07ca85533",
+        "assets/detail-spritesheets/9Pets-Marsha-The-Ever-Burning-Embrace.webp": "123b15361fd71775",
+        "assets/source/9Pets-Marsha-The-Ever-Burning-Embrace.png": "4cbe1522315c6834"
       }
     }
   ],
