@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T17:53:34Z",
-  "total": 309,
+  "generatedAt": "2026-06-23T18:00:03Z",
+  "total": 310,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -11752,6 +11752,44 @@
         "assets/spritesheets/9Pets-X-Silent-Breath.webp": "1f68dc27bdcde705",
         "assets/detail-spritesheets/9Pets-X-Silent-Breath.webp": "ba4a0e5fd9c50a7a",
         "assets/source/9Pets-X-Silent-Breath.png": "cefdbc8e70237207"
+      }
+    },
+    {
+      "id": "9pets-yenisei-in-the-same-river",
+      "packageName": "9Pets-Yenisei-In-the-Same-River",
+      "displayName": "Yenisei",
+      "skinDisplayName": "-- In the Same River",
+      "download": "downloads/9Pets-Yenisei-In-the-Same-River.zip",
+      "preview": "assets/previews/9Pets-Yenisei-In-the-Same-River.png",
+      "spritesheet": "assets/spritesheets/9Pets-Yenisei-In-the-Same-River.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Yenisei-In-the-Same-River.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/308202.png",
+      "sourceImage": "assets/source/9Pets-Yenisei-In-the-Same-River.png",
+      "sourceRepoPath": "singlebg/headicon_img/308202.png",
+      "assetId": "308202",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a6_308202_xyns",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a6_308202_xyns",
+      "cubismPath": "live2d/roles/v1a6_308202_xiaoyenisai",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a6_308202_xiaoyenisai",
+      "birthday": "3/4",
+      "skinName": "In the Same River",
+      "isDefaultSkin": false,
+      "skinDescription": "但水流的话语总是呢喃着晃荡——“请贴近些，再近些吧”。直至将寒冷也忘却。",
+      "matchedName": "Yenisei",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Yenisei is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 308202 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1280150,
+      "assetVersions": {
+        "downloads/9Pets-Yenisei-In-the-Same-River.zip": "2821460d91d7b8f9",
+        "assets/previews/9Pets-Yenisei-In-the-Same-River.png": "92503dba9944cb8c",
+        "assets/spritesheets/9Pets-Yenisei-In-the-Same-River.webp": "5ae3cb812fe919d8",
+        "assets/detail-spritesheets/9Pets-Yenisei-In-the-Same-River.webp": "f99c44e5359c827a",
+        "assets/source/9Pets-Yenisei-In-the-Same-River.png": "fa4689f611476801"
       }
     }
   ],
