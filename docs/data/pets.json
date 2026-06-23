@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T11:35:22Z",
-  "total": 236,
+  "generatedAt": "2026-06-23T11:39:17Z",
+  "total": 237,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8940,6 +8940,44 @@
         "assets/spritesheets/9Pets-Melania-A-Peaceful-Night.webp": "1590e469665ee601",
         "assets/detail-spritesheets/9Pets-Melania-A-Peaceful-Night.webp": "f397faa7b34f1da2",
         "assets/source/9Pets-Melania-A-Peaceful-Night.png": "19e6b2be8f57aa6d"
+      }
+    },
+    {
+      "id": "9pets-melania-red-and-white",
+      "packageName": "9Pets-Melania-Red-and-White",
+      "displayName": "Melania",
+      "skinDisplayName": "-- Red and White",
+      "download": "downloads/9Pets-Melania-Red-and-White.zip",
+      "preview": "assets/previews/9Pets-Melania-Red-and-White.png",
+      "spritesheet": "assets/spritesheets/9Pets-Melania-Red-and-White.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Melania-Red-and-White.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/306204.png",
+      "sourceImage": "assets/source/9Pets-Melania-Red-and-White.png",
+      "sourceRepoPath": "singlebg/headicon_img/306204.png",
+      "assetId": "306204",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a6_306204_mln",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a6_306204_mln",
+      "cubismPath": "live2d/roles/v2a6_306204_meilanni",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a6_306204_meilanni",
+      "birthday": "3/20",
+      "skinName": "Red and White",
+      "isDefaultSkin": false,
+      "skinDescription": "玫瑰的诡计，百合的把戏，一点无伤大雅的玩笑。",
+      "matchedName": "Melania",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Melania is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 306204 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1265064,
+      "assetVersions": {
+        "downloads/9Pets-Melania-Red-and-White.zip": "88f725c12e270122",
+        "assets/previews/9Pets-Melania-Red-and-White.png": "1d0da5ba6a6a0cf5",
+        "assets/spritesheets/9Pets-Melania-Red-and-White.webp": "c5d51a19dd485db5",
+        "assets/detail-spritesheets/9Pets-Melania-Red-and-White.webp": "8e5e0beeed0c662a",
+        "assets/source/9Pets-Melania-Red-and-White.png": "5153c454c7984f68"
       }
     },
     {
