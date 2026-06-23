@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T16:38:24Z",
-  "total": 295,
+  "generatedAt": "2026-06-23T16:42:50Z",
+  "total": 296,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -11220,6 +11220,44 @@
         "assets/spritesheets/9Pets-Ulrich-Universe-in-the-Tank.webp": "97a023ab9bc0c85d",
         "assets/detail-spritesheets/9Pets-Ulrich-Universe-in-the-Tank.webp": "176b12375d1f7d87",
         "assets/source/9Pets-Ulrich-Universe-in-the-Tank.png": "e46800547ddf6c8f"
+      }
+    },
+    {
+      "id": "9pets-vila-towards-the-ideal-life",
+      "packageName": "9Pets-Vila-Towards-the-Ideal-Life",
+      "displayName": "Vila",
+      "skinDisplayName": "-- Towards the Ideal Life",
+      "download": "downloads/9Pets-Vila-Towards-the-Ideal-Life.zip",
+      "preview": "assets/previews/9Pets-Vila-Towards-the-Ideal-Life.png",
+      "spritesheet": "assets/spritesheets/9Pets-Vila-Towards-the-Ideal-Life.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Vila-Towards-the-Ideal-Life.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/308702.png",
+      "sourceImage": "assets/source/9Pets-Vila-Towards-the-Ideal-Life.png",
+      "sourceRepoPath": "singlebg/headicon_img/308702.png",
+      "assetId": "308702",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a8_308702_weila",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a8_308702_weila",
+      "cubismPath": "live2d/roles/v1a8_308702_weila",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a8_308702_weila",
+      "birthday": "4/6",
+      "skinName": "Towards the Ideal Life",
+      "isDefaultSkin": false,
+      "skinDescription": "那儿万众一心，不问来处。",
+      "matchedName": "Vila",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Vila is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 308702 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1544799,
+      "assetVersions": {
+        "downloads/9Pets-Vila-Towards-the-Ideal-Life.zip": "7ec3c7ec1657496e",
+        "assets/previews/9Pets-Vila-Towards-the-Ideal-Life.png": "28c9c0bdc2d036ad",
+        "assets/spritesheets/9Pets-Vila-Towards-the-Ideal-Life.webp": "54526aa478fd53af",
+        "assets/detail-spritesheets/9Pets-Vila-Towards-the-Ideal-Life.webp": "19c426d294d13b8e",
+        "assets/source/9Pets-Vila-Towards-the-Ideal-Life.png": "7f4a458859249630"
       }
     }
   ],
