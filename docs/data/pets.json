@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T13:54:19Z",
-  "total": 260,
+  "generatedAt": "2026-06-23T13:58:37Z",
+  "total": 261,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9890,6 +9890,44 @@
         "assets/spritesheets/9Pets-Recoleta-The-Knight-of-La-Mancha.webp": "7fbd993d0a96fcbc",
         "assets/detail-spritesheets/9Pets-Recoleta-The-Knight-of-La-Mancha.webp": "935ad03772daf766",
         "assets/source/9Pets-Recoleta-The-Knight-of-La-Mancha.png": "e7870a459febc8e0"
+      }
+    },
+    {
+      "id": "9pets-recoleta-the-weight-of-words",
+      "packageName": "9Pets-Recoleta-The-Weight-of-Words",
+      "displayName": "Recoleta",
+      "skinDisplayName": "-- The Weight of Words",
+      "download": "downloads/9Pets-Recoleta-The-Weight-of-Words.zip",
+      "preview": "assets/previews/9Pets-Recoleta-The-Weight-of-Words.png",
+      "spritesheet": "assets/spritesheets/9Pets-Recoleta-The-Weight-of-Words.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Recoleta-The-Weight-of-Words.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/311404.png",
+      "sourceImage": "assets/source/9Pets-Recoleta-The-Weight-of-Words.png",
+      "sourceRepoPath": "singlebg/headicon_img/311404.png",
+      "assetId": "311404",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a6_311404_xgj",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a6_311404_xgj",
+      "cubismPath": "live2d/roles/v3a6_311404_xgj",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a6_311404_xgj",
+      "birthday": "7/15",
+      "skinName": "The Weight of Words",
+      "isDefaultSkin": false,
+      "skinDescription": "作品并非完成于作者搁笔的一刻，而是完成于翻开书页的瞬间。",
+      "matchedName": "Recoleta",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Recoleta is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 311404 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1296553,
+      "assetVersions": {
+        "downloads/9Pets-Recoleta-The-Weight-of-Words.zip": "90442a9b76ca849d",
+        "assets/previews/9Pets-Recoleta-The-Weight-of-Words.png": "53e79d228853a2f6",
+        "assets/spritesheets/9Pets-Recoleta-The-Weight-of-Words.webp": "c118667c0ea582e9",
+        "assets/detail-spritesheets/9Pets-Recoleta-The-Weight-of-Words.webp": "e9ccb8c5343d0f5d",
+        "assets/source/9Pets-Recoleta-The-Weight-of-Words.png": "0e2c51ca64b875a7"
       }
     }
   ],
