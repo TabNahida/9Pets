@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T20:05:07Z",
+  "generatedAt": "2026-06-23T20:07:23Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 137,
+  "cuteTotal": 138,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -17737,6 +17737,48 @@
         "assets/spritesheets/9Pets-Cute-A-Knight-Order-of-St-Gabriel.webp": "51a37e5893c02e22",
         "assets/detail-spritesheets/9Pets-Cute-A-Knight-Order-of-St-Gabriel.webp": "c72797e71823e44d",
         "assets/source/9Pets-Cute-A-Knight-Order-of-St-Gabriel.png": "98840296512fd390"
+      }
+    },
+    {
+      "id": "9pets-cute-a-knight-the-evergreen-soul",
+      "packageName": "9Pets-Cute-A-Knight-The-Evergreen-Soul",
+      "normalPackageName": "9Pets-A-Knight-The-Evergreen-Soul",
+      "normalId": "9pets-a-knight-the-evergreen-soul",
+      "displayName": "A Knight",
+      "skinDisplayName": "-- The Evergreen Soul",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-A-Knight-The-Evergreen-Soul.zip",
+      "preview": "assets/previews/9Pets-Cute-A-Knight-The-Evergreen-Soul.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-A-Knight-The-Evergreen-Soul.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-A-Knight-The-Evergreen-Soul.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/300701_weixiukai",
+      "sourceImage": "assets/source/9Pets-Cute-A-Knight-The-Evergreen-Soul.png",
+      "sourceRepoPath": "roles/300701_weixiukai",
+      "assetId": "300701",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/300701_weixiukai",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/300701_weixiukai",
+      "cubismPath": "live2d/roles/v3a1_300731_wxk",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a1_300731_wxk",
+      "birthday": "2/29",
+      "skinName": "The Evergreen Soul",
+      "isDefaultSkin": false,
+      "skinDescription": "当墓碑覆上绿色，生命再一次战胜了命运。",
+      "matchedName": "A Knight",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "A Knight has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 309297,
+      "assetVersions": {
+        "downloads/9Pets-Cute-A-Knight-The-Evergreen-Soul.zip": "cb683aade006ccc8",
+        "assets/previews/9Pets-Cute-A-Knight-The-Evergreen-Soul.png": "c4aaceb3496be6e7",
+        "assets/spritesheets/9Pets-Cute-A-Knight-The-Evergreen-Soul.webp": "51a37e5893c02e22",
+        "assets/detail-spritesheets/9Pets-Cute-A-Knight-The-Evergreen-Soul.webp": "c72797e71823e44d",
+        "assets/source/9Pets-Cute-A-Knight-The-Evergreen-Soul.png": "98840296512fd390"
       }
     }
   ]
