@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T19:02:38Z",
-  "total": 198,
+  "generatedAt": "2026-06-22T19:09:51Z",
+  "total": 199,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7496,6 +7496,44 @@
         "assets/spritesheets/9Pets-Jessica-Voyage-from-your-Bed.webp": "76909aee7a20f4a9",
         "assets/detail-spritesheets/9Pets-Jessica-Voyage-from-your-Bed.webp": "4cae144f9249608f",
         "assets/source/9Pets-Jessica-Voyage-from-your-Bed.png": "9e87681996867370"
+      }
+    },
+    {
+      "id": "9pets-jiu-niangzi-blossom-spring-fairy",
+      "packageName": "9Pets-Jiu-Niangzi-Blossom-Spring-Fairy",
+      "displayName": "Jiu Niangzi",
+      "skinDisplayName": "-- Blossom Spring Fairy",
+      "download": "downloads/9Pets-Jiu-Niangzi-Blossom-Spring-Fairy.zip",
+      "preview": "assets/previews/9Pets-Jiu-Niangzi-Blossom-Spring-Fairy.png",
+      "spritesheet": "assets/spritesheets/9Pets-Jiu-Niangzi-Blossom-Spring-Fairy.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Jiu-Niangzi-Blossom-Spring-Fairy.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/308303.png",
+      "sourceImage": "assets/source/9Pets-Jiu-Niangzi-Blossom-Spring-Fairy.png",
+      "sourceRepoPath": "singlebg/headicon_img/308303.png",
+      "assetId": "308303",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a5_308303_qn",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a5_308303_qn",
+      "cubismPath": "live2d/roles/v2a5_308303_quniang",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a5_308303_quniang",
+      "birthday": "2/10",
+      "skinName": "Blossom Spring Fairy",
+      "isDefaultSkin": false,
+      "skinDescription": "画中无甲子，同酌酒一杯。",
+      "matchedName": "Jiu Niangzi",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Jiu Niangzi is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 308303 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1043930,
+      "assetVersions": {
+        "downloads/9Pets-Jiu-Niangzi-Blossom-Spring-Fairy.zip": "0f9a1b08c31d68b6",
+        "assets/previews/9Pets-Jiu-Niangzi-Blossom-Spring-Fairy.png": "0d7c6fdfaf8e50a0",
+        "assets/spritesheets/9Pets-Jiu-Niangzi-Blossom-Spring-Fairy.webp": "940ea52bf8a83484",
+        "assets/detail-spritesheets/9Pets-Jiu-Niangzi-Blossom-Spring-Fairy.webp": "aa6524805bcfd608",
+        "assets/source/9Pets-Jiu-Niangzi-Blossom-Spring-Fairy.png": "23b9e156f9edbe00"
       }
     },
     {
