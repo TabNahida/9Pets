@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T14:37:21Z",
-  "total": 269,
+  "generatedAt": "2026-06-23T14:41:38Z",
+  "total": 270,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10232,6 +10232,44 @@
         "assets/spritesheets/9Pets-Semmelweis-The-Mirror.webp": "c9960b480b10fc03",
         "assets/detail-spritesheets/9Pets-Semmelweis-The-Mirror.webp": "c609e57208383606",
         "assets/source/9Pets-Semmelweis-The-Mirror.png": "0d9b74270953f586"
+      }
+    },
+    {
+      "id": "9pets-semmelweis-the-wax-and-wane-of-the-heart",
+      "packageName": "9Pets-Semmelweis-The-Wax-and-Wane-of-the-Heart",
+      "displayName": "Semmelweis",
+      "skinDisplayName": "-- The Wax and Wane of the Heart",
+      "download": "downloads/9Pets-Semmelweis-The-Wax-and-Wane-of-the-Heart.zip",
+      "preview": "assets/previews/9Pets-Semmelweis-The-Wax-and-Wane-of-the-Heart.png",
+      "spritesheet": "assets/spritesheets/9Pets-Semmelweis-The-Wax-and-Wane-of-the-Heart.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Semmelweis-The-Wax-and-Wane-of-the-Heart.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/308804.png",
+      "sourceImage": "assets/source/9Pets-Semmelweis-The-Wax-and-Wane-of-the-Heart.png",
+      "sourceRepoPath": "singlebg/headicon_img/308804.png",
+      "assetId": "308804",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a0_308804_smews",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a0_308804_smews",
+      "cubismPath": "live2d/roles/v3a0_308804_smews",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a0_308804_smews",
+      "birthday": "8/19",
+      "skinName": "The Wax and Wane of the Heart",
+      "isDefaultSkin": false,
+      "skinDescription": "向万变的月，展露不变的信念。",
+      "matchedName": "Semmelweis",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Semmelweis is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 308804 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1006117,
+      "assetVersions": {
+        "downloads/9Pets-Semmelweis-The-Wax-and-Wane-of-the-Heart.zip": "f6f63ace45845028",
+        "assets/previews/9Pets-Semmelweis-The-Wax-and-Wane-of-the-Heart.png": "e8adce46f5d21647",
+        "assets/spritesheets/9Pets-Semmelweis-The-Wax-and-Wane-of-the-Heart.webp": "c3632a24b338ae74",
+        "assets/detail-spritesheets/9Pets-Semmelweis-The-Wax-and-Wane-of-the-Heart.webp": "beb0c64b367cda04",
+        "assets/source/9Pets-Semmelweis-The-Wax-and-Wane-of-the-Heart.png": "c2ec5f4eb8df72c5"
       }
     }
   ],
