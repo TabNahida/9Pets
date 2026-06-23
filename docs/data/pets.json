@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T22:33:30Z",
+  "generatedAt": "2026-06-23T22:36:02Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 157,
+  "cuteTotal": 158,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -18577,6 +18577,48 @@
         "assets/spritesheets/9Pets-Cute-Barcarola-As-the-Sea-Breeze-Leads.webp": "b6dffe3aed96b5c6",
         "assets/detail-spritesheets/9Pets-Cute-Barcarola-As-the-Sea-Breeze-Leads.webp": "3082ba865f42db02",
         "assets/source/9Pets-Cute-Barcarola-As-the-Sea-Breeze-Leads.png": "a2e1036036936534"
+      }
+    },
+    {
+      "id": "9pets-cute-barcarola-asteroid-allegro",
+      "packageName": "9Pets-Cute-Barcarola-Asteroid-Allegro",
+      "normalPackageName": "9Pets-Barcarola-Asteroid-Allegro",
+      "normalId": "9pets-barcarola-asteroid-allegro",
+      "displayName": "Barcarola",
+      "skinDisplayName": "-- Asteroid Allegro",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Barcarola-Asteroid-Allegro.zip",
+      "preview": "assets/previews/9Pets-Cute-Barcarola-Asteroid-Allegro.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Barcarola-Asteroid-Allegro.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Barcarola-Asteroid-Allegro.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a7_310803_bkle",
+      "sourceImage": "assets/source/9Pets-Cute-Barcarola-Asteroid-Allegro.png",
+      "sourceRepoPath": "roles/v2a7_310803_bkle",
+      "assetId": "310803",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a7_310803_bkle",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a7_310803_bkle",
+      "cubismPath": "live2d/roles/v2a7_310803_bkle",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a7_310803_bkle",
+      "birthday": "11/13",
+      "skinName": "Asteroid Allegro",
+      "isDefaultSkin": false,
+      "skinDescription": "当乐音不再受重力束缚。",
+      "matchedName": "Barcarola",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Barcarola has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1925449,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Barcarola-Asteroid-Allegro.zip": "2cb33d41b0abde44",
+        "assets/previews/9Pets-Cute-Barcarola-Asteroid-Allegro.png": "db1091a34cf606e2",
+        "assets/spritesheets/9Pets-Cute-Barcarola-Asteroid-Allegro.webp": "6e4c99d68f847a3d",
+        "assets/detail-spritesheets/9Pets-Cute-Barcarola-Asteroid-Allegro.webp": "9ac9d50b44d7474c",
+        "assets/source/9Pets-Cute-Barcarola-Asteroid-Allegro.png": "6205a5806e136724"
       }
     }
   ]
