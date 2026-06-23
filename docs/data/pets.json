@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T10:42:15Z",
-  "total": 224,
+  "generatedAt": "2026-06-23T10:46:48Z",
+  "total": 225,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8522,6 +8522,44 @@
         "assets/spritesheets/9Pets-Marcus-A-Returning-Wind.webp": "d1817746b8f0c674",
         "assets/detail-spritesheets/9Pets-Marcus-A-Returning-Wind.webp": "6a86d274b283b296",
         "assets/source/9Pets-Marcus-A-Returning-Wind.png": "6172ffcee1e1a20c"
+      }
+    },
+    {
+      "id": "9pets-marcus-on-the-white-sand",
+      "packageName": "9Pets-Marcus-On-the-White-Sand",
+      "displayName": "Marcus",
+      "skinDisplayName": "-- On the White Sand",
+      "download": "downloads/9Pets-Marcus-On-the-White-Sand.zip",
+      "preview": "assets/previews/9Pets-Marcus-On-the-White-Sand.png",
+      "spritesheet": "assets/spritesheets/9Pets-Marcus-On-the-White-Sand.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Marcus-On-the-White-Sand.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/306503.png",
+      "sourceImage": "assets/source/9Pets-Marcus-On-the-White-Sand.png",
+      "sourceRepoPath": "singlebg/headicon_img/306503.png",
+      "assetId": "306503",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a2_306503_mks",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a2_306503_mks",
+      "cubismPath": "live2d/roles/v2a2_306503_mks",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a2_306503_mks",
+      "birthday": "1/12",
+      "skinName": "On the White Sand",
+      "isDefaultSkin": false,
+      "skinDescription": "仅余海风拂过书页的声音。",
+      "matchedName": "Marcus",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Marcus is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 306503 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1274671,
+      "assetVersions": {
+        "downloads/9Pets-Marcus-On-the-White-Sand.zip": "83f1e94cdd4faf6b",
+        "assets/previews/9Pets-Marcus-On-the-White-Sand.png": "3a6275236a38d5e0",
+        "assets/spritesheets/9Pets-Marcus-On-the-White-Sand.webp": "5799607d5e586576",
+        "assets/detail-spritesheets/9Pets-Marcus-On-the-White-Sand.webp": "c7560400bf889a1f",
+        "assets/source/9Pets-Marcus-On-the-White-Sand.png": "a85d727af6b14888"
       }
     }
   ],
