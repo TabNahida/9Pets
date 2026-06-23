@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T14:24:30Z",
-  "total": 266,
+  "generatedAt": "2026-06-23T14:28:41Z",
+  "total": 267,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10118,6 +10118,44 @@
         "assets/spritesheets/9Pets-Satsuki-Reed-Bloom.webp": "d50d3fc3d850727f",
         "assets/detail-spritesheets/9Pets-Satsuki-Reed-Bloom.webp": "a777d82e7cfbbdeb",
         "assets/source/9Pets-Satsuki-Reed-Bloom.png": "1c88ce2c0e03eeec"
+      }
+    },
+    {
+      "id": "9pets-satsuki-silver-rose",
+      "packageName": "9Pets-Satsuki-Silver-Rose",
+      "displayName": "Satsuki",
+      "skinDisplayName": "-- Silver Rose",
+      "download": "downloads/9Pets-Satsuki-Silver-Rose.zip",
+      "preview": "assets/previews/9Pets-Satsuki-Silver-Rose.png",
+      "spritesheet": "assets/spritesheets/9Pets-Satsuki-Silver-Rose.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Satsuki-Silver-Rose.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/303803.png",
+      "sourceImage": "assets/source/9Pets-Satsuki-Silver-Rose.png",
+      "sourceRepoPath": "singlebg/headicon_img/303803.png",
+      "assetId": "303803",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a7_303803_wsy",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a7_303803_wsy",
+      "cubismPath": "live2d/roles/v1a7_303803_wuseyue",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a7_303803_wuseyue",
+      "birthday": "5/1",
+      "skinName": "Silver Rose",
+      "isDefaultSkin": false,
+      "skinDescription": "她接受了，她在等候。",
+      "matchedName": "Satsuki",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Satsuki is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 303803 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 866747,
+      "assetVersions": {
+        "downloads/9Pets-Satsuki-Silver-Rose.zip": "9275640347ca8927",
+        "assets/previews/9Pets-Satsuki-Silver-Rose.png": "38c1c44be7814c3f",
+        "assets/spritesheets/9Pets-Satsuki-Silver-Rose.webp": "1ec22ffb3f730b2a",
+        "assets/detail-spritesheets/9Pets-Satsuki-Silver-Rose.webp": "1be5891ebe426498",
+        "assets/source/9Pets-Satsuki-Silver-Rose.png": "384209219020d00f"
       }
     }
   ],
