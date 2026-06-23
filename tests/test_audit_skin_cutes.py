@@ -80,6 +80,16 @@ class AuditSkinCuteStagingTest(unittest.TestCase):
         self.assertEqual(1600, profile["width"])
         self.assertEqual(800, profile["x"])
 
+    def test_default_spine_profile_prefers_asset_id_matching_files(self) -> None:
+        profile = site.spine_render_profile_for(
+            "9Pets-Cute-Aleph-A-Feast-of-Imagery",
+            "roles/v3a1_311303_alf",
+            "9Pets-Cute-Aleph",
+        )
+
+        self.assertEqual("311303_alf_fight.skel", profile["skeleton"])
+        self.assertEqual("311303_alf.atlas", profile["atlas"])
+
 
 if __name__ == "__main__":
     unittest.main()

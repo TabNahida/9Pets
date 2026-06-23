@@ -2145,16 +2145,36 @@ def default_spine_render_profile(package_name: str, spine_path: str) -> dict[str
     skeletons = sorted(spine_dir.glob(skeleton_pattern))
     if not skeletons:
         return {}
+    asset_match = re.search(r"(\d{6})", spine_dir.name)
+    asset_key = asset_match.group(1) if asset_match else ""
+
+    def score_asset_file(path: Path) -> tuple[int, int, str]:
+        stem = path.stem.lower()
+        rank = 1
+        if asset_key and stem.startswith(asset_key):
+            rank = 3
+        elif asset_key and asset_key in stem:
+            rank = 2
+        return (rank, -len(path.name), path.name.lower())
+
+    skeleton = max(skeletons, key=score_asset_file)
+    skeleton_base = re.sub(r"_(fight|room|ui)(?:_special)?$", "", skeleton.stem, flags=re.IGNORECASE)
+    atlases = sorted(spine_dir.glob("*.atlas"))
+    atlas = next((path for path in atlases if path.stem.casefold() == skeleton_base.casefold()), None)
+    if atlas is None and atlases:
+        atlas = max(atlases, key=score_asset_file)
     profile: dict[str, Any] = {
         "width": 1200,
         "height": 1200,
         "scale": 2.2,
         "x": 600,
         "y": 900,
-        "skeleton": skeletons[0].name,
+        "skeleton": skeleton.name,
         "flipRunningLeft": True,
         "detailAtlasScale": DETAIL_ATLAS_SCALE,
     }
+    if atlas:
+        profile["atlas"] = atlas.name
     if is_cute:
         profile["motionMap"] = {
             "idle": "idle",
