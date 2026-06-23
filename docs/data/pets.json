@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T16:47:24Z",
-  "total": 297,
+  "generatedAt": "2026-06-23T16:57:54Z",
+  "total": 298,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -11258,6 +11258,44 @@
         "assets/spritesheets/9Pets-Vila-By-the-Painted-City.webp": "8673cc0670bfbf80",
         "assets/detail-spritesheets/9Pets-Vila-By-the-Painted-City.webp": "47139610c55ecd81",
         "assets/source/9Pets-Vila-By-the-Painted-City.png": "22bc0315ff490a2f"
+      }
+    },
+    {
+      "id": "9pets-vila-daughter-of-the-wine-dark-sea",
+      "packageName": "9Pets-Vila-Daughter-of-the-Wine-Dark-Sea",
+      "displayName": "Vila",
+      "skinDisplayName": "-- Daughter of the Wine-Dark Sea",
+      "download": "downloads/9Pets-Vila-Daughter-of-the-Wine-Dark-Sea.zip",
+      "preview": "assets/previews/9Pets-Vila-Daughter-of-the-Wine-Dark-Sea.png",
+      "spritesheet": "assets/spritesheets/9Pets-Vila-Daughter-of-the-Wine-Dark-Sea.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Vila-Daughter-of-the-Wine-Dark-Sea.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/308704.png",
+      "sourceImage": "assets/source/9Pets-Vila-Daughter-of-the-Wine-Dark-Sea.png",
+      "sourceRepoPath": "singlebg/headicon_img/308704.png",
+      "assetId": "308704",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/s01_308704_wl",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/s01_308704_wl",
+      "cubismPath": "live2d/roles/s01_308704_wl",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/s01_308704_wl",
+      "birthday": "4/6",
+      "skinName": "Daughter of the Wine-Dark Sea",
+      "isDefaultSkin": false,
+      "skinDescription": "浪花们聚集起来，齐唱一支被时间所遗忘的歌。",
+      "matchedName": "Vila",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Vila is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 308704 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1481675,
+      "assetVersions": {
+        "downloads/9Pets-Vila-Daughter-of-the-Wine-Dark-Sea.zip": "704f0e80ea55fd9d",
+        "assets/previews/9Pets-Vila-Daughter-of-the-Wine-Dark-Sea.png": "7d6893286efc5802",
+        "assets/spritesheets/9Pets-Vila-Daughter-of-the-Wine-Dark-Sea.webp": "d5d659ae70a7c26c",
+        "assets/detail-spritesheets/9Pets-Vila-Daughter-of-the-Wine-Dark-Sea.webp": "8c7118b3bccf4f80",
+        "assets/source/9Pets-Vila-Daughter-of-the-Wine-Dark-Sea.png": "177ce07ecb74110f"
       }
     },
     {
