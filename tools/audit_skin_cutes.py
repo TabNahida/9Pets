@@ -115,8 +115,16 @@ class StaticServer:
         with socket.socket() as sock:
             sock.bind(("127.0.0.1", 0))
             port = int(sock.getsockname()[1])
-        handler = functools.partial(http.server.SimpleHTTPRequestHandler, directory=str(ROOT / "docs"))
-        self.server = http.server.ThreadingHTTPServer(("127.0.0.1", port), handler)
+        class QuietHandler(http.server.SimpleHTTPRequestHandler):
+            def log_message(self, format: str, *args: object) -> None:
+                return
+
+        class QuietServer(http.server.ThreadingHTTPServer):
+            def handle_error(self, request: object, client_address: object) -> None:
+                return
+
+        handler = functools.partial(QuietHandler, directory=str(ROOT / "docs"))
+        self.server = QuietServer(("127.0.0.1", port), handler)
         self.thread = threading.Thread(target=self.server.serve_forever, daemon=True)
         self.thread.start()
         return f"http://127.0.0.1:{port}"
