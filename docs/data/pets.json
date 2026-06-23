@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T20:33:07Z",
+  "generatedAt": "2026-06-23T20:35:47Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 140,
+  "cuteTotal": 141,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -17863,6 +17863,48 @@
         "assets/spritesheets/9Pets-Cute-Aleph-Infinitude.webp": "d76e61709000d9cf",
         "assets/detail-spritesheets/9Pets-Cute-Aleph-Infinitude.webp": "f63a7cf50f3ec70a",
         "assets/source/9Pets-Cute-Aleph-Infinitude.png": "ab4540dddc44cdf3"
+      }
+    },
+    {
+      "id": "9pets-cute-alexios-second-conquest",
+      "packageName": "9Pets-Cute-Alexios-Second-Conquest",
+      "normalPackageName": "9Pets-Alexios-Second-Conquest",
+      "normalId": "9pets-alexios-second-conquest",
+      "displayName": "Alexios",
+      "skinDisplayName": "-- Second Conquest",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Alexios-Second-Conquest.zip",
+      "preview": "assets/previews/9Pets-Cute-Alexios-Second-Conquest.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Alexios-Second-Conquest.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Alexios-Second-Conquest.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/s01_312202_alkxos",
+      "sourceImage": "assets/source/9Pets-Cute-Alexios-Second-Conquest.png",
+      "sourceRepoPath": "roles/s01_312202_alkxos",
+      "assetId": "312202",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/s01_312202_alkxos",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/s01_312202_alkxos",
+      "cubismPath": "live2d/roles/s01_312202_alexios",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/s01_312202_alexios",
+      "birthday": "8/7",
+      "skinName": "Second Conquest",
+      "isDefaultSkin": false,
+      "skinDescription": "某些人的日子注定下沉，他的日子注定上升。",
+      "matchedName": "Alexios",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Alexios has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 577685,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Alexios-Second-Conquest.zip": "90bb1625abb0dcb2",
+        "assets/previews/9Pets-Cute-Alexios-Second-Conquest.png": "1c2c193026511993",
+        "assets/spritesheets/9Pets-Cute-Alexios-Second-Conquest.webp": "3f452fb7d7d82abd",
+        "assets/detail-spritesheets/9Pets-Cute-Alexios-Second-Conquest.webp": "b638471f0c143d73",
+        "assets/source/9Pets-Cute-Alexios-Second-Conquest.png": "0a4440b4b7f92004"
       }
     }
   ]
