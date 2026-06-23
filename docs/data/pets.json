@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T15:04:39Z",
-  "total": 275,
+  "generatedAt": "2026-06-23T15:10:10Z",
+  "total": 276,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10460,6 +10460,44 @@
         "assets/spritesheets/9Pets-Silverwing-Eagle-Becoming-a-Scientist-Scientifically.webp": "f6f141c5ea3bac25",
         "assets/detail-spritesheets/9Pets-Silverwing-Eagle-Becoming-a-Scientist-Scientifically.webp": "5635a40af4a556de",
         "assets/source/9Pets-Silverwing-Eagle-Becoming-a-Scientist-Scientifically.png": "2018d0251dac4b11"
+      }
+    },
+    {
+      "id": "9pets-sonetto-parade-anthem",
+      "packageName": "9Pets-Sonetto-Parade-Anthem",
+      "displayName": "Sonetto",
+      "skinDisplayName": "-- Parade Anthem",
+      "download": "downloads/9Pets-Sonetto-Parade-Anthem.zip",
+      "preview": "assets/previews/9Pets-Sonetto-Parade-Anthem.png",
+      "spritesheet": "assets/spritesheets/9Pets-Sonetto-Parade-Anthem.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Sonetto-Parade-Anthem.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/302303.png",
+      "sourceImage": "assets/source/9Pets-Sonetto-Parade-Anthem.png",
+      "sourceRepoPath": "singlebg/headicon_img/302303.png",
+      "assetId": "302303",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/302303_shisihangshi",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/302303_shisihangshi",
+      "cubismPath": "live2d/roles/302303_shisihangshipifu",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/302303_shisihangshipifu",
+      "birthday": "1/10",
+      "skinName": "Parade Anthem",
+      "isDefaultSkin": false,
+      "skinDescription": "一片新的天空。一段新奇的旅行。一场完美的表演。一段怦然心动的开端。",
+      "matchedName": "Sonetto",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Sonetto is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 302303 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 867650,
+      "assetVersions": {
+        "downloads/9Pets-Sonetto-Parade-Anthem.zip": "2972e8145efafa65",
+        "assets/previews/9Pets-Sonetto-Parade-Anthem.png": "15e4bb6cef108f5f",
+        "assets/spritesheets/9Pets-Sonetto-Parade-Anthem.webp": "0706eaef85cd62d3",
+        "assets/detail-spritesheets/9Pets-Sonetto-Parade-Anthem.webp": "62e7ceaf7d94b710",
+        "assets/source/9Pets-Sonetto-Parade-Anthem.png": "df285ca99dad831f"
       }
     }
   ],
