@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T14:28:41Z",
-  "total": 267,
+  "generatedAt": "2026-06-23T14:33:06Z",
+  "total": 268,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10156,6 +10156,44 @@
         "assets/spritesheets/9Pets-Satsuki-Silver-Rose.webp": "1ec22ffb3f730b2a",
         "assets/detail-spritesheets/9Pets-Satsuki-Silver-Rose.webp": "1be5891ebe426498",
         "assets/source/9Pets-Satsuki-Silver-Rose.png": "384209219020d00f"
+      }
+    },
+    {
+      "id": "9pets-semmelweis-the-mirror",
+      "packageName": "9Pets-Semmelweis-The-Mirror",
+      "displayName": "Semmelweis",
+      "skinDisplayName": "-- The Mirror",
+      "download": "downloads/9Pets-Semmelweis-The-Mirror.zip",
+      "preview": "assets/previews/9Pets-Semmelweis-The-Mirror.png",
+      "spritesheet": "assets/spritesheets/9Pets-Semmelweis-The-Mirror.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Semmelweis-The-Mirror.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/308802.png",
+      "sourceImage": "assets/source/9Pets-Semmelweis-The-Mirror.png",
+      "sourceRepoPath": "singlebg/headicon_img/308802.png",
+      "assetId": "308802",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a9_308802_smews",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a9_308802_smews",
+      "cubismPath": "live2d/roles/v1a9_308802_smews",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a9_308802_smews",
+      "birthday": "8/19",
+      "skinName": "The Mirror",
+      "isDefaultSkin": false,
+      "skinDescription": "形影的束缚已然挣脱，此处空无一物。",
+      "matchedName": "Semmelweis",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Semmelweis is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 308802 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 944869,
+      "assetVersions": {
+        "downloads/9Pets-Semmelweis-The-Mirror.zip": "c39421d10aa9884d",
+        "assets/previews/9Pets-Semmelweis-The-Mirror.png": "50260bd09ec2846f",
+        "assets/spritesheets/9Pets-Semmelweis-The-Mirror.webp": "c9960b480b10fc03",
+        "assets/detail-spritesheets/9Pets-Semmelweis-The-Mirror.webp": "c609e57208383606",
+        "assets/source/9Pets-Semmelweis-The-Mirror.png": "0d9b74270953f586"
       }
     }
   ],
