@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T17:43:12Z",
-  "total": 307,
+  "generatedAt": "2026-06-23T17:48:24Z",
+  "total": 308,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -11676,6 +11676,44 @@
         "assets/spritesheets/9Pets-Windsong-The-Nightmare-s-Trespasser.webp": "8fdb6feec25136f4",
         "assets/detail-spritesheets/9Pets-Windsong-The-Nightmare-s-Trespasser.webp": "6f47036e6202b3eb",
         "assets/source/9Pets-Windsong-The-Nightmare-s-Trespasser.png": "d9975a8957ff5698"
+      }
+    },
+    {
+      "id": "9pets-x-genius-of-useless-inventions",
+      "packageName": "9Pets-X-Genius-of-Useless-Inventions",
+      "displayName": "X",
+      "skinDisplayName": "-- Genius of Useless Inventions",
+      "download": "downloads/9Pets-X-Genius-of-Useless-Inventions.zip",
+      "preview": "assets/previews/9Pets-X-Genius-of-Useless-Inventions.png",
+      "spritesheet": "assets/spritesheets/9Pets-X-Genius-of-Useless-Inventions.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-X-Genius-of-Useless-Inventions.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/301002.png",
+      "sourceImage": "assets/source/9Pets-X-Genius-of-Useless-Inventions.png",
+      "sourceRepoPath": "singlebg/headicon_img/301002.png",
+      "assetId": "301002",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/301002_x",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/301002_x",
+      "cubismPath": "live2d/roles/301002_x",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/301002_x",
+      "birthday": "5/30",
+      "skinName": "Genius of Useless Inventions",
+      "isDefaultSkin": false,
+      "skinDescription": "它们是最常见之物，至少本该如此。",
+      "matchedName": "X",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "X is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 301002 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1005343,
+      "assetVersions": {
+        "downloads/9Pets-X-Genius-of-Useless-Inventions.zip": "1e6fcf8b4279fcfa",
+        "assets/previews/9Pets-X-Genius-of-Useless-Inventions.png": "72335389a1340629",
+        "assets/spritesheets/9Pets-X-Genius-of-Useless-Inventions.webp": "90ac17185b0d2dae",
+        "assets/detail-spritesheets/9Pets-X-Genius-of-Useless-Inventions.webp": "d04159e72b6ac276",
+        "assets/source/9Pets-X-Genius-of-Useless-Inventions.png": "58ba11f322d71a81"
       }
     }
   ],
