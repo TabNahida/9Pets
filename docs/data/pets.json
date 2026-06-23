@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T12:54:56Z",
-  "total": 250,
+  "generatedAt": "2026-06-23T13:00:44Z",
+  "total": 251,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9510,6 +9510,44 @@
         "assets/spritesheets/9Pets-Nautika-From-Darkness-Light.webp": "8f6ca8d9dc012480",
         "assets/detail-spritesheets/9Pets-Nautika-From-Darkness-Light.webp": "068096ca4cf21ea8",
         "assets/source/9Pets-Nautika-From-Darkness-Light.png": "dcee4ef95e524260"
+      }
+    },
+    {
+      "id": "9pets-necrologist-last-words",
+      "packageName": "9Pets-Necrologist-Last-Words",
+      "displayName": "Necrologist",
+      "skinDisplayName": "-- Last Words",
+      "download": "downloads/9Pets-Necrologist-Last-Words.zip",
+      "preview": "assets/previews/9Pets-Necrologist-Last-Words.png",
+      "spritesheet": "assets/spritesheets/9Pets-Necrologist-Last-Words.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Necrologist-Last-Words.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/303702.png",
+      "sourceImage": "assets/source/9Pets-Necrologist-Last-Words.png",
+      "sourceRepoPath": "singlebg/headicon_img/303702.png",
+      "assetId": "303702",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/303702_fugaoren",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/303702_fugaoren",
+      "cubismPath": "live2d/roles/303702_fugaoren",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/303702_fugaoren",
+      "birthday": "11/2",
+      "skinName": "Last Words",
+      "isDefaultSkin": false,
+      "skinDescription": "她并不希望博物馆太过拥挤。",
+      "matchedName": "Necrologist",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Necrologist is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 303702 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 842589,
+      "assetVersions": {
+        "downloads/9Pets-Necrologist-Last-Words.zip": "247b6ec8c869d66c",
+        "assets/previews/9Pets-Necrologist-Last-Words.png": "73bb6b06b8cdab08",
+        "assets/spritesheets/9Pets-Necrologist-Last-Words.webp": "e8c3f5540c5cae2f",
+        "assets/detail-spritesheets/9Pets-Necrologist-Last-Words.webp": "5f408ea9ede21b86",
+        "assets/source/9Pets-Necrologist-Last-Words.png": "8f2f4b8e5cc49983"
       }
     }
   ],
