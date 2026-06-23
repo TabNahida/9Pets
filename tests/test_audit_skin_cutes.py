@@ -103,6 +103,22 @@ class AuditSkinCuteStagingTest(unittest.TestCase):
         self.assertEqual(1900, profile["height"])
         self.assertEqual(1350, profile["y"])
 
+    def test_cute_base_source_info_can_be_metadata_only(self) -> None:
+        official_index = site.load_official_asset_index()
+        item = site.find_catalog_item(site.read_catalog(), "APPLe")
+        skin = site.find_skin_entry(item, official_index, explicit_skin="302802")
+
+        info = site.base_source_info_for_cute(
+            "APPLe",
+            "9Pets-APPLe-Erudite-and-Juicy",
+            None,
+            official_index,
+            skin,
+        )
+
+        self.assertEqual("302802", info["assetId"])
+        self.assertEqual("roles/302802_apple", info["spinePath"])
+
 
 if __name__ == "__main__":
     unittest.main()

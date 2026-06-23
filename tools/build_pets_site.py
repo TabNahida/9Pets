@@ -3112,6 +3112,37 @@ def cute_source_info(
     return info
 
 
+def source_info_metadata(
+    name: str,
+    normal_package: str,
+    official_index: dict[str, dict[str, Any]],
+    skin_entry: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    asset = resolve_official_asset(name, official_index, skin_entry)
+    cubism_path = asset.get("cubismPath", "")
+    spine_path = asset.get("spinePath", "")
+    return {
+        "sourceType": OFFICIAL_SOURCE_TYPE,
+        "sourceUrl": repo_tree_url(spine_path) or ASSET_REPO_URL,
+        "sourceImage": f"assets/source/{normal_package}.png",
+        "sourceRepoPath": "",
+        "assetId": str(asset["assetId"]),
+        "assetRepoUrl": ASSET_REPO_URL,
+        "spinePath": spine_path,
+        "cubismPath": cubism_path,
+        "spineUrl": repo_tree_url(spine_path),
+        "cubismUrl": repo_tree_url(cubism_path),
+        "birthday": asset.get("birthday", ""),
+        "skinName": asset.get("skinName", "Default"),
+        "isDefaultSkin": bool(asset.get("isDefaultSkin")),
+        "skinDescription": asset.get("skinDescription", ""),
+        "matchedName": asset.get("matchedName", name),
+        "live2dCacheStatus": "cached" if live2d_model_cached(cubism_path) else ("mapped" if cubism_path else "none"),
+        "animationMode": "official-art-elastic-rig",
+        "animationModeLabel": "Official art atlas; Live2D path mapped",
+    }
+
+
 def base_source_info_for_cute(
     name: str,
     normal_package: str,
@@ -3121,8 +3152,7 @@ def base_source_info_for_cute(
 ) -> dict[str, Any]:
     if normal:
         return dict(normal)
-    _, source_info = get_source_sprite(name, normal_package, official_index, skin_entry)
-    return source_info
+    return source_info_metadata(name, normal_package, official_index, skin_entry)
 
 
 def build_cute_variants(
@@ -3363,7 +3393,7 @@ def build_cute_pet(
     package_dir = PETS_DIR / package_name
     package_dir.mkdir(parents=True, exist_ok=True)
 
-    _, source_info = get_source_sprite(name, normal_package_name, official_index, skin_entry)
+    source_info = source_info_metadata(name, normal_package_name, official_index, skin_entry)
     source_info = cute_source_info(source_info, package_name, f"assets/source/{package_name}.png", profile_package_name)
 
     spine_frames = render_spine_frames(package_name, source_info.get("spinePath", ""), profile_package_name)
