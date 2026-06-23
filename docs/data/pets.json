@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T21:43:40Z",
+  "generatedAt": "2026-06-23T22:08:45Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 146,
+  "cuteTotal": 147,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -18073,6 +18073,48 @@
         "assets/spritesheets/9Pets-Cute-Anjo-Nala-Forbidden-Fruit.webp": "ff24491355ebec23",
         "assets/detail-spritesheets/9Pets-Cute-Anjo-Nala-Forbidden-Fruit.webp": "fd16734b3f6129ee",
         "assets/source/9Pets-Cute-Anjo-Nala-Forbidden-Fruit.png": "8b08237b3fa5232d"
+      }
+    },
+    {
+      "id": "9pets-cute-apple-echoing-to-woodstock",
+      "packageName": "9Pets-Cute-APPLe-Echoing-to-Woodstock",
+      "normalPackageName": "9Pets-APPLe-Echoing-to-Woodstock",
+      "normalId": "9pets-apple-echoing-to-woodstock",
+      "displayName": "APPLe",
+      "skinDisplayName": "-- Echoing to Woodstock",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-APPLe-Echoing-to-Woodstock.zip",
+      "preview": "assets/previews/9Pets-Cute-APPLe-Echoing-to-Woodstock.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-APPLe-Echoing-to-Woodstock.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-APPLe-Echoing-to-Woodstock.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/302803_apple",
+      "sourceImage": "assets/source/9Pets-Cute-APPLe-Echoing-to-Woodstock.png",
+      "sourceRepoPath": "roles/302803_apple",
+      "assetId": "302803",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/302803_apple",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/302803_apple",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "1/4",
+      "skinName": "Echoing to Woodstock",
+      "isDefaultSkin": false,
+      "skinDescription": "绅士的躁动，富含维生素C的靡靡之音。",
+      "matchedName": "APPLe",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "APPLe has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 478470,
+      "assetVersions": {
+        "downloads/9Pets-Cute-APPLe-Echoing-to-Woodstock.zip": "2d260e8050b56fe7",
+        "assets/previews/9Pets-Cute-APPLe-Echoing-to-Woodstock.png": "ff112365c7c56cc7",
+        "assets/spritesheets/9Pets-Cute-APPLe-Echoing-to-Woodstock.webp": "4c37e8e2a7bb7688",
+        "assets/detail-spritesheets/9Pets-Cute-APPLe-Echoing-to-Woodstock.webp": "db68192eccda8636",
+        "assets/source/9Pets-Cute-APPLe-Echoing-to-Woodstock.png": "16658fef9c5d919c"
       }
     },
     {
