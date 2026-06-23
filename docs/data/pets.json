@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T10:23:02Z",
-  "total": 221,
+  "generatedAt": "2026-06-23T10:32:50Z",
+  "total": 222,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8408,6 +8408,44 @@
         "assets/spritesheets/9Pets-Lorentz-Butterfly-Rain-Chaos-and-Fluttering.webp": "844fee39a8d25009",
         "assets/detail-spritesheets/9Pets-Lorentz-Butterfly-Rain-Chaos-and-Fluttering.webp": "2cf5bd3634701033",
         "assets/source/9Pets-Lorentz-Butterfly-Rain-Chaos-and-Fluttering.png": "7037c4f10cd6bbcc"
+      }
+    },
+    {
+      "id": "9pets-lucy-a-robot-is-born",
+      "packageName": "9Pets-Lucy-A-Robot-Is-Born",
+      "displayName": "Lucy",
+      "skinDisplayName": "-- A Robot Is Born",
+      "download": "downloads/9Pets-Lucy-A-Robot-Is-Born.zip",
+      "preview": "assets/previews/9Pets-Lucy-A-Robot-Is-Born.png",
+      "spritesheet": "assets/spritesheets/9Pets-Lucy-A-Robot-Is-Born.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Lucy-A-Robot-Is-Born.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/308602.png",
+      "sourceImage": "assets/source/9Pets-Lucy-A-Robot-Is-Born.png",
+      "sourceRepoPath": "singlebg/headicon_img/308602.png",
+      "assetId": "308602",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a9_308602_luxi",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a9_308602_luxi",
+      "cubismPath": "live2d/roles/v1a9_308602_luxi",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a9_308602_luxi",
+      "birthday": "12/30",
+      "skinName": "A Robot Is Born",
+      "isDefaultSkin": false,
+      "skinDescription": "这是一条没有终点的道路。",
+      "matchedName": "Lucy",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Lucy is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 308602 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 751360,
+      "assetVersions": {
+        "downloads/9Pets-Lucy-A-Robot-Is-Born.zip": "51445448c6e00e29",
+        "assets/previews/9Pets-Lucy-A-Robot-Is-Born.png": "7601d6fb71e24ee8",
+        "assets/spritesheets/9Pets-Lucy-A-Robot-Is-Born.webp": "a8f1be6004893310",
+        "assets/detail-spritesheets/9Pets-Lucy-A-Robot-Is-Born.webp": "50c90af2d3c7ed70",
+        "assets/source/9Pets-Lucy-A-Robot-Is-Born.png": "188ee640077c22bc"
       }
     }
   ],

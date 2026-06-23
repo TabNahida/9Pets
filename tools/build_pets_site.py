@@ -450,6 +450,21 @@ LIVE2D_RENDER_PROFILES: dict[str, dict[str, Any]] = {
     "9Pets-Lorelei": {
         "primaryTexture": "textures/309101_luoleilai_00.png",
     },
+    "9Pets-Lucy-A-Robot-Is-Born": {
+        "hiddenDrawables": [
+            "ArtMesh48",
+            "ArtMesh49",
+            "ArtMesh65",
+            "ArtMesh66",
+            "ArtMesh67",
+            "ArtMesh70",
+            "ArtMesh78",
+            "ArtMesh80",
+            "ArtMesh81",
+            "ArtMesh82",
+            "ArtMesh83",
+        ],
+    },
     "9Pets-Buddy-Fairchild": {
         "width": 1800,
         "height": 1800,
