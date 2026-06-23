@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T16:20:57Z",
-  "total": 291,
+  "generatedAt": "2026-06-23T16:25:28Z",
+  "total": 292,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -11068,6 +11068,44 @@
         "assets/spritesheets/9Pets-Tuesday-Miss-Horror.webp": "9f9c362ab8ca8ce9",
         "assets/detail-spritesheets/9Pets-Tuesday-Miss-Horror.webp": "3302c9eba788ba67",
         "assets/source/9Pets-Tuesday-Miss-Horror.png": "8fc159a03acd6fef"
+      }
+    },
+    {
+      "id": "9pets-tuesday-story-of-the-jade-vase",
+      "packageName": "9Pets-Tuesday-Story-of-the-Jade-Vase",
+      "displayName": "Tuesday",
+      "skinDisplayName": "-- Story of the Jade Vase",
+      "download": "downloads/9Pets-Tuesday-Story-of-the-Jade-Vase.zip",
+      "preview": "assets/previews/9Pets-Tuesday-Story-of-the-Jade-Vase.png",
+      "spritesheet": "assets/spritesheets/9Pets-Tuesday-Story-of-the-Jade-Vase.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Tuesday-Story-of-the-Jade-Vase.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/309803.png",
+      "sourceImage": "assets/source/9Pets-Tuesday-Story-of-the-Jade-Vase.png",
+      "sourceRepoPath": "singlebg/headicon_img/309803.png",
+      "assetId": "309803",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a5_309803_lsp",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a5_309803_lsp",
+      "cubismPath": "live2d/roles/v2a5_309803_lsp",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a5_309803_lsp",
+      "birthday": "10/30",
+      "skinName": "Story of the Jade Vase",
+      "isDefaultSkin": false,
+      "skinDescription": "红粉皆为虚妄，皮囊之下，竟为何物？",
+      "matchedName": "Tuesday",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Tuesday is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 309803 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1347009,
+      "assetVersions": {
+        "downloads/9Pets-Tuesday-Story-of-the-Jade-Vase.zip": "6c9fee9f078a2df0",
+        "assets/previews/9Pets-Tuesday-Story-of-the-Jade-Vase.png": "37faad9e84ea96ce",
+        "assets/spritesheets/9Pets-Tuesday-Story-of-the-Jade-Vase.webp": "9f1ca1223314182f",
+        "assets/detail-spritesheets/9Pets-Tuesday-Story-of-the-Jade-Vase.webp": "013673b4f77bfde1",
+        "assets/source/9Pets-Tuesday-Story-of-the-Jade-Vase.png": "4d4288164cfe6bc2"
       }
     }
   ],
