@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T07:27:22Z",
-  "total": 201,
+  "generatedAt": "2026-06-23T07:36:35Z",
+  "total": 202,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7648,6 +7648,44 @@
         "assets/spritesheets/9Pets-Kaalaa-Baunaa-The-Star-Reader.webp": "b45e48e0559a18ca",
         "assets/detail-spritesheets/9Pets-Kaalaa-Baunaa-The-Star-Reader.webp": "9b0dd62396da30bf",
         "assets/source/9Pets-Kaalaa-Baunaa-The-Star-Reader.png": "f10d8c07614d03ce"
+      }
+    },
+    {
+      "id": "9pets-kaalaa-baunaa-till-the-sun-falls",
+      "packageName": "9Pets-Kaalaa-Baunaa-Till-the-Sun-Falls",
+      "displayName": "Kaalaa Baunaa",
+      "skinDisplayName": "-- Till the Sun Falls",
+      "download": "downloads/9Pets-Kaalaa-Baunaa-Till-the-Sun-Falls.zip",
+      "preview": "assets/previews/9Pets-Kaalaa-Baunaa-Till-the-Sun-Falls.png",
+      "spritesheet": "assets/spritesheets/9Pets-Kaalaa-Baunaa-Till-the-Sun-Falls.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Kaalaa-Baunaa-Till-the-Sun-Falls.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/307004.png",
+      "sourceImage": "assets/source/9Pets-Kaalaa-Baunaa-Till-the-Sun-Falls.png",
+      "sourceRepoPath": "singlebg/headicon_img/307004.png",
+      "assetId": "307004",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a2_307004_jlbn",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a2_307004_jlbn",
+      "cubismPath": "live2d/roles/v3a2_307004_glbn",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a2_307004_glbn",
+      "birthday": "7/15",
+      "skinName": "Till the Sun Falls",
+      "isDefaultSkin": false,
+      "skinDescription": "如月之易变，如日之易坠。",
+      "matchedName": "Black Dwarf",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Kaalaa Baunaa is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 307004 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1002082,
+      "assetVersions": {
+        "downloads/9Pets-Kaalaa-Baunaa-Till-the-Sun-Falls.zip": "5421d21fad1fab3e",
+        "assets/previews/9Pets-Kaalaa-Baunaa-Till-the-Sun-Falls.png": "6238430996138cd8",
+        "assets/spritesheets/9Pets-Kaalaa-Baunaa-Till-the-Sun-Falls.webp": "f908e38fa6c25146",
+        "assets/detail-spritesheets/9Pets-Kaalaa-Baunaa-Till-the-Sun-Falls.webp": "3fdb5d9b5d03b4dc",
+        "assets/source/9Pets-Kaalaa-Baunaa-Till-the-Sun-Falls.png": "120d7e6e07977707"
       }
     }
   ],
