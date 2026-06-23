@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T07:22:02Z",
-  "total": 200,
+  "generatedAt": "2026-06-23T07:27:22Z",
+  "total": 201,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7572,6 +7572,44 @@
         "assets/spritesheets/9Pets-Jiu-Niangzi-Let-There-Be-Way-Out.webp": "f7bf1e058c66ed41",
         "assets/detail-spritesheets/9Pets-Jiu-Niangzi-Let-There-Be-Way-Out.webp": "fa761b916ac3fb45",
         "assets/source/9Pets-Jiu-Niangzi-Let-There-Be-Way-Out.png": "128e9ce6755e0f02"
+      }
+    },
+    {
+      "id": "9pets-kaalaa-baunaa-swing-rise-suspend",
+      "packageName": "9Pets-Kaalaa-Baunaa-Swing-Rise-Suspend",
+      "displayName": "Kaalaa Baunaa",
+      "skinDisplayName": "-- Swing, Rise, Suspend",
+      "download": "downloads/9Pets-Kaalaa-Baunaa-Swing-Rise-Suspend.zip",
+      "preview": "assets/previews/9Pets-Kaalaa-Baunaa-Swing-Rise-Suspend.png",
+      "spritesheet": "assets/spritesheets/9Pets-Kaalaa-Baunaa-Swing-Rise-Suspend.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Kaalaa-Baunaa-Swing-Rise-Suspend.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/307003.png",
+      "sourceImage": "assets/source/9Pets-Kaalaa-Baunaa-Swing-Rise-Suspend.png",
+      "sourceRepoPath": "singlebg/headicon_img/307003.png",
+      "assetId": "307003",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a0_307003_jialabona",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a0_307003_jialabona",
+      "cubismPath": "live2d/roles/v2a0_307003_jialabona",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a0_307003_jialabona",
+      "birthday": "7/15",
+      "skinName": "Swing, Rise, Suspend",
+      "isDefaultSkin": false,
+      "skinDescription": "如行星闪烁迸发那一刻。",
+      "matchedName": "Black Dwarf",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Kaalaa Baunaa is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 307003 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 567601,
+      "assetVersions": {
+        "downloads/9Pets-Kaalaa-Baunaa-Swing-Rise-Suspend.zip": "6c175a243dd7b0a5",
+        "assets/previews/9Pets-Kaalaa-Baunaa-Swing-Rise-Suspend.png": "7201077a93b5cb9a",
+        "assets/spritesheets/9Pets-Kaalaa-Baunaa-Swing-Rise-Suspend.webp": "390032bb9e72725d",
+        "assets/detail-spritesheets/9Pets-Kaalaa-Baunaa-Swing-Rise-Suspend.webp": "d0ea913551cd7114",
+        "assets/source/9Pets-Kaalaa-Baunaa-Swing-Rise-Suspend.png": "b2304c1387a3e8d4"
       }
     },
     {
