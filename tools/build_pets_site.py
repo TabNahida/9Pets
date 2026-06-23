@@ -737,6 +737,10 @@ SPINE_RENDER_PROFILES: dict[str, dict[str, Any]] = {
             "review": "unique",
         },
     },
+    "9Pets-Cute-A-Knight-Galloping-Across-the-Times": {
+        "width": 1600,
+        "x": 800,
+    },
     "9Pets-Cute-Alexios": {
         "width": 1200,
         "height": 1200,
@@ -2195,7 +2199,9 @@ def live2d_render_profile_for(package_name: str, profile_package_name: str | Non
 def spine_render_profile_for(package_name: str, spine_path: str, profile_package_name: str | None = None) -> dict[str, Any]:
     exact = SPINE_RENDER_PROFILES.get(package_name)
     if exact:
-        return dict(exact)
+        profile = default_spine_render_profile(package_name, spine_path)
+        profile.update(dict(exact))
+        return profile
     inherited = SPINE_RENDER_PROFILES.get(profile_package_name) if profile_package_name else None
     if inherited:
         profile = default_spine_render_profile(package_name, spine_path)

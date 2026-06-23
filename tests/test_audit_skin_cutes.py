@@ -69,6 +69,17 @@ class AuditSkinCuteStagingTest(unittest.TestCase):
 
         self.assertEqual("roles/300701_weixiukai", info["spinePath"])
 
+    def test_exact_spine_profile_merges_with_default_skin_skeleton(self) -> None:
+        profile = site.spine_render_profile_for(
+            "9Pets-Cute-A-Knight-Galloping-Across-the-Times",
+            "roles/v1a6_300703_wxk",
+            "9Pets-Cute-A-Knight",
+        )
+
+        self.assertEqual("300703_wxk_fight.skel", profile["skeleton"])
+        self.assertEqual(1600, profile["width"])
+        self.assertEqual(800, profile["x"])
+
 
 if __name__ == "__main__":
     unittest.main()
