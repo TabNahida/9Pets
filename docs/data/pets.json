@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T11:23:19Z",
-  "total": 233,
+  "generatedAt": "2026-06-23T11:27:09Z",
+  "total": 234,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8826,6 +8826,44 @@
         "assets/spritesheets/9Pets-Medicine-Pocket-Beware-of-Dog.webp": "ba0d76643b39857f",
         "assets/detail-spritesheets/9Pets-Medicine-Pocket-Beware-of-Dog.webp": "a5ed26eacf39e8bf",
         "assets/source/9Pets-Medicine-Pocket-Beware-of-Dog.png": "fef4a2cf8c7199a8"
+      }
+    },
+    {
+      "id": "9pets-medicine-pocket-forever-is-too-short",
+      "packageName": "9Pets-Medicine-Pocket-Forever-Is-Too-Short",
+      "displayName": "Medicine Pocket",
+      "skinDisplayName": "-- Forever Is Too Short",
+      "download": "downloads/9Pets-Medicine-Pocket-Forever-Is-Too-Short.zip",
+      "preview": "assets/previews/9Pets-Medicine-Pocket-Forever-Is-Too-Short.png",
+      "spritesheet": "assets/spritesheets/9Pets-Medicine-Pocket-Forever-Is-Too-Short.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Medicine-Pocket-Forever-Is-Too-Short.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/304704.png",
+      "sourceImage": "assets/source/9Pets-Medicine-Pocket-Forever-Is-Too-Short.png",
+      "sourceRepoPath": "singlebg/headicon_img/304704.png",
+      "assetId": "304704",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a3_304704_tmsd",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a3_304704_tmsd",
+      "cubismPath": "live2d/roles/v3a3_304704_tmsd",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a3_304704_tmsd",
+      "birthday": "11/24",
+      "skinName": "Forever Is Too Short",
+      "isDefaultSkin": false,
+      "skinDescription": "那些曾经轻轻舔舐我们的，为我们换来了永生的配方。",
+      "matchedName": "Medicine Pocket",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Medicine Pocket is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 304704 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1107761,
+      "assetVersions": {
+        "downloads/9Pets-Medicine-Pocket-Forever-Is-Too-Short.zip": "d0b91b597ee21486",
+        "assets/previews/9Pets-Medicine-Pocket-Forever-Is-Too-Short.png": "3bfa2a8caa197fb6",
+        "assets/spritesheets/9Pets-Medicine-Pocket-Forever-Is-Too-Short.webp": "7736b164552e6c29",
+        "assets/detail-spritesheets/9Pets-Medicine-Pocket-Forever-Is-Too-Short.webp": "26da5ec344b8797d",
+        "assets/source/9Pets-Medicine-Pocket-Forever-Is-Too-Short.png": "6fc5a7d8cf933b8d"
       }
     },
     {
