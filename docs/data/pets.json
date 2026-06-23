@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T20:44:58Z",
+  "generatedAt": "2026-06-23T21:43:40Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 145,
+  "cuteTotal": 146,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -18073,6 +18073,48 @@
         "assets/spritesheets/9Pets-Cute-Anjo-Nala-Forbidden-Fruit.webp": "ff24491355ebec23",
         "assets/detail-spritesheets/9Pets-Cute-Anjo-Nala-Forbidden-Fruit.webp": "fd16734b3f6129ee",
         "assets/source/9Pets-Cute-Anjo-Nala-Forbidden-Fruit.png": "8b08237b3fa5232d"
+      }
+    },
+    {
+      "id": "9pets-cute-apple-erudite-and-juicy",
+      "packageName": "9Pets-Cute-APPLe-Erudite-and-Juicy",
+      "normalPackageName": "9Pets-APPLe-Erudite-and-Juicy",
+      "normalId": "9pets-apple-erudite-and-juicy",
+      "displayName": "APPLe",
+      "skinDisplayName": "-- Erudite and Juicy",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-APPLe-Erudite-and-Juicy.zip",
+      "preview": "assets/previews/9Pets-Cute-APPLe-Erudite-and-Juicy.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-APPLe-Erudite-and-Juicy.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-APPLe-Erudite-and-Juicy.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/302802_apple",
+      "sourceImage": "assets/source/9Pets-Cute-APPLe-Erudite-and-Juicy.png",
+      "sourceRepoPath": "roles/302802_apple",
+      "assetId": "302802",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/302802_apple",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/302802_apple",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "1/4",
+      "skinName": "Erudite and Juicy",
+      "isDefaultSkin": false,
+      "skinDescription": "他博学，睿智，富有香气——与内涵。",
+      "matchedName": "APPLe",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "APPLe has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 331969,
+      "assetVersions": {
+        "downloads/9Pets-Cute-APPLe-Erudite-and-Juicy.zip": "839b6f674491862d",
+        "assets/previews/9Pets-Cute-APPLe-Erudite-and-Juicy.png": "521d5e6e6605f96a",
+        "assets/spritesheets/9Pets-Cute-APPLe-Erudite-and-Juicy.webp": "dd8411f84c2f9af7",
+        "assets/detail-spritesheets/9Pets-Cute-APPLe-Erudite-and-Juicy.webp": "1bfc4e8c4b51a2fc",
+        "assets/source/9Pets-Cute-APPLe-Erudite-and-Juicy.png": "5ed2a074961e3667"
       }
     }
   ]
