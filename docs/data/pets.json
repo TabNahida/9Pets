@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T14:59:48Z",
-  "total": 274,
+  "generatedAt": "2026-06-23T15:04:39Z",
+  "total": 275,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10422,6 +10422,44 @@
         "assets/spritesheets/9Pets-Shamane-South-of-the-Mountain.webp": "300bdbd6e7b642a4",
         "assets/detail-spritesheets/9Pets-Shamane-South-of-the-Mountain.webp": "db9f46eef696ce72",
         "assets/source/9Pets-Shamane-South-of-the-Mountain.png": "7d78e4ef0dc6f0de"
+      }
+    },
+    {
+      "id": "9pets-silverwing-eagle-becoming-a-scientist-scientifically",
+      "packageName": "9Pets-Silverwing-Eagle-Becoming-a-Scientist-Scientifically",
+      "displayName": "Silverwing Eagle",
+      "skinDisplayName": "-- Becoming a Scientist, Scientifically",
+      "download": "downloads/9Pets-Silverwing-Eagle-Becoming-a-Scientist-Scientifically.zip",
+      "preview": "assets/previews/9Pets-Silverwing-Eagle-Becoming-a-Scientist-Scientifically.png",
+      "spritesheet": "assets/spritesheets/9Pets-Silverwing-Eagle-Becoming-a-Scientist-Scientifically.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Silverwing-Eagle-Becoming-a-Scientist-Scientifically.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/315402.png",
+      "sourceImage": "assets/source/9Pets-Silverwing-Eagle-Becoming-a-Scientist-Scientifically.png",
+      "sourceRepoPath": "singlebg/headicon_img/315402.png",
+      "assetId": "315402",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a7_315402_yzxcqe",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a7_315402_yzxcqe",
+      "cubismPath": "live2d/roles/v3a7_315402_spxcqe",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a7_315402_spxcqe",
+      "birthday": "7/21",
+      "skinName": "Becoming a Scientist, Scientifically",
+      "isDefaultSkin": false,
+      "skinDescription": "小小观测者，小小变量。",
+      "matchedName": "Silverwing Eagle",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Silverwing Eagle is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 315402 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1401739,
+      "assetVersions": {
+        "downloads/9Pets-Silverwing-Eagle-Becoming-a-Scientist-Scientifically.zip": "703b966e5c20c17f",
+        "assets/previews/9Pets-Silverwing-Eagle-Becoming-a-Scientist-Scientifically.png": "22909bd9dbdf336f",
+        "assets/spritesheets/9Pets-Silverwing-Eagle-Becoming-a-Scientist-Scientifically.webp": "f6f141c5ea3bac25",
+        "assets/detail-spritesheets/9Pets-Silverwing-Eagle-Becoming-a-Scientist-Scientifically.webp": "5635a40af4a556de",
+        "assets/source/9Pets-Silverwing-Eagle-Becoming-a-Scientist-Scientifically.png": "2018d0251dac4b11"
       }
     }
   ],
