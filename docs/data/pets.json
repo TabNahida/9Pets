@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T13:00:44Z",
-  "total": 251,
+  "generatedAt": "2026-06-23T13:05:38Z",
+  "total": 252,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9510,6 +9510,44 @@
         "assets/spritesheets/9Pets-Nautika-From-Darkness-Light.webp": "8f6ca8d9dc012480",
         "assets/detail-spritesheets/9Pets-Nautika-From-Darkness-Light.webp": "068096ca4cf21ea8",
         "assets/source/9Pets-Nautika-From-Darkness-Light.png": "dcee4ef95e524260"
+      }
+    },
+    {
+      "id": "9pets-necrologist-a-voyage-with-no-return",
+      "packageName": "9Pets-Necrologist-A-Voyage-with-No-Return",
+      "displayName": "Necrologist",
+      "skinDisplayName": "-- A Voyage with No Return",
+      "download": "downloads/9Pets-Necrologist-A-Voyage-with-No-Return.zip",
+      "preview": "assets/previews/9Pets-Necrologist-A-Voyage-with-No-Return.png",
+      "spritesheet": "assets/spritesheets/9Pets-Necrologist-A-Voyage-with-No-Return.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Necrologist-A-Voyage-with-No-Return.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/303703.png",
+      "sourceImage": "assets/source/9Pets-Necrologist-A-Voyage-with-No-Return.png",
+      "sourceRepoPath": "singlebg/headicon_img/303703.png",
+      "assetId": "303703",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a4_303703_fgr",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a4_303703_fgr",
+      "cubismPath": "live2d/roles/v2a4_303703_fgr",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a4_303703_fgr",
+      "birthday": "11/2",
+      "skinName": "A Voyage with No Return",
+      "isDefaultSkin": false,
+      "skinDescription": "笑语、欢声、旅人，一同驶向不归。",
+      "matchedName": "Necrologist",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Necrologist is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 303703 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 892877,
+      "assetVersions": {
+        "downloads/9Pets-Necrologist-A-Voyage-with-No-Return.zip": "6823803335949c05",
+        "assets/previews/9Pets-Necrologist-A-Voyage-with-No-Return.png": "6b3736a9680443c7",
+        "assets/spritesheets/9Pets-Necrologist-A-Voyage-with-No-Return.webp": "55bfa07192f57a1e",
+        "assets/detail-spritesheets/9Pets-Necrologist-A-Voyage-with-No-Return.webp": "133d66303ad85db1",
+        "assets/source/9Pets-Necrologist-A-Voyage-with-No-Return.png": "b1f3dc4dd0db3d87"
       }
     },
     {
