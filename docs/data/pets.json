@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T08:34:33Z",
-  "total": 209,
+  "generatedAt": "2026-06-23T08:38:31Z",
+  "total": 210,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7952,6 +7952,44 @@
         "assets/spritesheets/9Pets-Kiperina-A-Box-of-Marbles.webp": "77f3d51641716f19",
         "assets/detail-spritesheets/9Pets-Kiperina-A-Box-of-Marbles.webp": "bf9107f9a1c82c8e",
         "assets/source/9Pets-Kiperina-A-Box-of-Marbles.png": "171aa606acaa91b0"
+      }
+    },
+    {
+      "id": "9pets-kiperina-the-universe-in-the-rook-s-shell",
+      "packageName": "9Pets-Kiperina-The-Universe-in-the-Rook-s-Shell",
+      "displayName": "Kiperina",
+      "skinDisplayName": "-- The Universe in the Rook's Shell",
+      "download": "downloads/9Pets-Kiperina-The-Universe-in-the-Rook-s-Shell.zip",
+      "preview": "assets/previews/9Pets-Kiperina-The-Universe-in-the-Rook-s-Shell.png",
+      "spritesheet": "assets/spritesheets/9Pets-Kiperina-The-Universe-in-the-Rook-s-Shell.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Kiperina-The-Universe-in-the-Rook-s-Shell.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/311703.png",
+      "sourceImage": "assets/source/9Pets-Kiperina-The-Universe-in-the-Rook-s-Shell.png",
+      "sourceRepoPath": "singlebg/headicon_img/311703.png",
+      "assetId": "311703",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a8_311703_kphh",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a8_311703_kphh",
+      "cubismPath": "live2d/roles/v2a8_311703_kphh",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a8_311703_kphh",
+      "birthday": "4/19",
+      "skinName": "The Universe in the Rook's Shell",
+      "isDefaultSkin": false,
+      "skinDescription": "失重于旧日的废墟，下落即是奔向明日。",
+      "matchedName": "Kiperina",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Kiperina is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 311703 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 898615,
+      "assetVersions": {
+        "downloads/9Pets-Kiperina-The-Universe-in-the-Rook-s-Shell.zip": "c77d86d0c99c79ef",
+        "assets/previews/9Pets-Kiperina-The-Universe-in-the-Rook-s-Shell.png": "3f9e6a39377ef2c2",
+        "assets/spritesheets/9Pets-Kiperina-The-Universe-in-the-Rook-s-Shell.webp": "14a664e709f448fa",
+        "assets/detail-spritesheets/9Pets-Kiperina-The-Universe-in-the-Rook-s-Shell.webp": "aa2ebd2a25c41727",
+        "assets/source/9Pets-Kiperina-The-Universe-in-the-Rook-s-Shell.png": "655f599a74dc3845"
       }
     }
   ],
