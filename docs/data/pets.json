@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T16:34:03Z",
-  "total": 294,
+  "generatedAt": "2026-06-23T16:38:24Z",
+  "total": 295,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -11144,6 +11144,44 @@
         "assets/spritesheets/9Pets-Tuesday-Story-of-the-Jade-Vase.webp": "9f1ca1223314182f",
         "assets/detail-spritesheets/9Pets-Tuesday-Story-of-the-Jade-Vase.webp": "013673b4f77bfde1",
         "assets/source/9Pets-Tuesday-Story-of-the-Jade-Vase.png": "4d4288164cfe6bc2"
+      }
+    },
+    {
+      "id": "9pets-ulrich-a-glimpse-of-the-cosmos",
+      "packageName": "9Pets-Ulrich-A-Glimpse-of-the-Cosmos",
+      "displayName": "Ulrich",
+      "skinDisplayName": "-- A Glimpse of the Cosmos",
+      "download": "downloads/9Pets-Ulrich-A-Glimpse-of-the-Cosmos.zip",
+      "preview": "assets/previews/9Pets-Ulrich-A-Glimpse-of-the-Cosmos.png",
+      "spritesheet": "assets/spritesheets/9Pets-Ulrich-A-Glimpse-of-the-Cosmos.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Ulrich-A-Glimpse-of-the-Cosmos.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/310703.png",
+      "sourceImage": "assets/source/9Pets-Ulrich-A-Glimpse-of-the-Cosmos.png",
+      "sourceRepoPath": "singlebg/headicon_img/310703.png",
+      "assetId": "310703",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a8_310703_welx",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a8_310703_welx",
+      "cubismPath": "live2d/roles/v2a8_310703_welx",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a8_310703_welx",
+      "birthday": "5/30",
+      "skinName": "A Glimpse of the Cosmos",
+      "isDefaultSkin": false,
+      "skinDescription": "智者宣称：圆即完满。 世界嘲笑：椭圆也是。",
+      "matchedName": "Ulrich",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Ulrich is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 310703 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1236061,
+      "assetVersions": {
+        "downloads/9Pets-Ulrich-A-Glimpse-of-the-Cosmos.zip": "4d8d27129d03b71b",
+        "assets/previews/9Pets-Ulrich-A-Glimpse-of-the-Cosmos.png": "3494c9800c30ecb6",
+        "assets/spritesheets/9Pets-Ulrich-A-Glimpse-of-the-Cosmos.webp": "4ccf8f6506bcd197",
+        "assets/detail-spritesheets/9Pets-Ulrich-A-Glimpse-of-the-Cosmos.webp": "0305cb679c5b385b",
+        "assets/source/9Pets-Ulrich-A-Glimpse-of-the-Cosmos.png": "1c29ba7a9fa9f3ad"
       }
     },
     {
