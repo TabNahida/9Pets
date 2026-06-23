@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T22:11:10Z",
+  "generatedAt": "2026-06-23T22:13:36Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 148,
+  "cuteTotal": 149,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -18199,6 +18199,48 @@
         "assets/spritesheets/9Pets-Cute-APPLe-The-Fruit-of-Wisdom.webp": "5cd953cf751ca3ae",
         "assets/detail-spritesheets/9Pets-Cute-APPLe-The-Fruit-of-Wisdom.webp": "dd7c574269981c9d",
         "assets/source/9Pets-Cute-APPLe-The-Fruit-of-Wisdom.png": "757b03c124f0e7bd"
+      }
+    },
+    {
+      "id": "9pets-cute-argus-all-seeing-light",
+      "packageName": "9Pets-Cute-Argus-All-Seeing-Light",
+      "normalPackageName": "9Pets-Argus-All-Seeing-Light",
+      "normalId": "9pets-argus-all-seeing-light",
+      "displayName": "Argus",
+      "skinDisplayName": "-- All Seeing Light",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Argus-All-Seeing-Light.zip",
+      "preview": "assets/previews/9Pets-Cute-Argus-All-Seeing-Light.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Argus-All-Seeing-Light.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Argus-All-Seeing-Light.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a1_309702_aegs",
+      "sourceImage": "assets/source/9Pets-Cute-Argus-All-Seeing-Light.png",
+      "sourceRepoPath": "roles/v2a1_309702_aegs",
+      "assetId": "309702",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a1_309702_aegs",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a1_309702_aegs",
+      "cubismPath": "live2d/roles/v2a1_309702_aegs",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a1_309702_aegs",
+      "birthday": "12/11",
+      "skinName": "All Seeing Light",
+      "isDefaultSkin": false,
+      "skinDescription": "最盲目与最明亮的。",
+      "matchedName": "Argus",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Argus has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1282885,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Argus-All-Seeing-Light.zip": "44727ac94240a9a0",
+        "assets/previews/9Pets-Cute-Argus-All-Seeing-Light.png": "0a0b0b761542a5b5",
+        "assets/spritesheets/9Pets-Cute-Argus-All-Seeing-Light.webp": "a09ab6bfd9ba0dec",
+        "assets/detail-spritesheets/9Pets-Cute-Argus-All-Seeing-Light.webp": "f7f4eebe45b38ae4",
+        "assets/source/9Pets-Cute-Argus-All-Seeing-Light.png": "cb41ec0ae4f4ecb1"
       }
     }
   ]
