@@ -448,6 +448,14 @@ LIVE2D_RENDER_PROFILES: dict[str, dict[str, Any]] = {
         "y": 600,
         "detailAtlasScale": 4,
     },
+    "9Pets-Nautika-From-Darkness-Light": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.48,
+        "x": 900,
+        "y": 600,
+        "detailAtlasScale": 4,
+    },
     "9Pets-Kiperina": {
         "primaryTexture": "textures/311701_kphh.png",
     },

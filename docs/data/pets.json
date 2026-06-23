@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T12:43:03Z",
-  "total": 249,
+  "generatedAt": "2026-06-23T12:54:56Z",
+  "total": 250,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9472,6 +9472,44 @@
         "assets/spritesheets/9Pets-Nautika-Behind-the-Unknown.webp": "4eae104183c53e67",
         "assets/detail-spritesheets/9Pets-Nautika-Behind-the-Unknown.webp": "23cf54dcf5558263",
         "assets/source/9Pets-Nautika-Behind-the-Unknown.png": "836379fb77e92e78"
+      }
+    },
+    {
+      "id": "9pets-nautika-from-darkness-light",
+      "packageName": "9Pets-Nautika-From-Darkness-Light",
+      "displayName": "Nautika",
+      "skinDisplayName": "-- From Darkness, Light",
+      "download": "downloads/9Pets-Nautika-From-Darkness-Light.zip",
+      "preview": "assets/previews/9Pets-Nautika-From-Darkness-Light.png",
+      "spritesheet": "assets/spritesheets/9Pets-Nautika-From-Darkness-Light.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Nautika-From-Darkness-Light.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/312003.png",
+      "sourceImage": "assets/source/9Pets-Nautika-From-Darkness-Light.png",
+      "sourceRepoPath": "singlebg/headicon_img/312003.png",
+      "assetId": "312003",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a7_312003_ndk",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a7_312003_ndk",
+      "cubismPath": "live2d/roles/v3a7_312003_ndk",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a7_312003_ndk",
+      "birthday": "2/16",
+      "skinName": "From Darkness, Light",
+      "isDefaultSkin": false,
+      "skinDescription": "或许历经遗忘的苦旅，生命仍为我们留有馈赠。",
+      "matchedName": "Nautika",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Nautika is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 312003 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 619063,
+      "assetVersions": {
+        "downloads/9Pets-Nautika-From-Darkness-Light.zip": "013c939139e686ca",
+        "assets/previews/9Pets-Nautika-From-Darkness-Light.png": "ef41da33beef617a",
+        "assets/spritesheets/9Pets-Nautika-From-Darkness-Light.webp": "8f6ca8d9dc012480",
+        "assets/detail-spritesheets/9Pets-Nautika-From-Darkness-Light.webp": "068096ca4cf21ea8",
+        "assets/source/9Pets-Nautika-From-Darkness-Light.png": "dcee4ef95e524260"
       }
     }
   ],
