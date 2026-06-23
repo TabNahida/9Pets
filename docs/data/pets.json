@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T17:37:38Z",
-  "total": 306,
+  "generatedAt": "2026-06-23T17:43:12Z",
+  "total": 307,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -11638,6 +11638,44 @@
         "assets/spritesheets/9Pets-Windsong-Records-from-the-Jade-Hunt.webp": "a42b6ef654228969",
         "assets/detail-spritesheets/9Pets-Windsong-Records-from-the-Jade-Hunt.webp": "11613b2c6e400030",
         "assets/source/9Pets-Windsong-Records-from-the-Jade-Hunt.png": "07e0ed0c954aba70"
+      }
+    },
+    {
+      "id": "9pets-windsong-the-nightmare-s-trespasser",
+      "packageName": "9Pets-Windsong-The-Nightmare-s-Trespasser",
+      "displayName": "Windsong",
+      "skinDisplayName": "-- The Nightmare's Trespasser",
+      "download": "downloads/9Pets-Windsong-The-Nightmare-s-Trespasser.zip",
+      "preview": "assets/previews/9Pets-Windsong-The-Nightmare-s-Trespasser.png",
+      "spritesheet": "assets/spritesheets/9Pets-Windsong-The-Nightmare-s-Trespasser.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Windsong-The-Nightmare-s-Trespasser.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/307704.png",
+      "sourceImage": "assets/source/9Pets-Windsong-The-Nightmare-s-Trespasser.png",
+      "sourceRepoPath": "singlebg/headicon_img/307704.png",
+      "assetId": "307704",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a1_307704_bfsg",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a1_307704_bfsg",
+      "cubismPath": "live2d/roles/v3a1_307704_bfsg",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a1_307704_bfsg",
+      "birthday": "10/13",
+      "skinName": "The Nightmare's Trespasser",
+      "isDefaultSkin": false,
+      "skinDescription": "开枪之前不必祈祷，她已将子弹的轨迹计算万全。",
+      "matchedName": "Windsong",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Windsong is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 307704 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1319937,
+      "assetVersions": {
+        "downloads/9Pets-Windsong-The-Nightmare-s-Trespasser.zip": "37e06c28964e8d9e",
+        "assets/previews/9Pets-Windsong-The-Nightmare-s-Trespasser.png": "1a4e76eaddfd36c4",
+        "assets/spritesheets/9Pets-Windsong-The-Nightmare-s-Trespasser.webp": "8fdb6feec25136f4",
+        "assets/detail-spritesheets/9Pets-Windsong-The-Nightmare-s-Trespasser.webp": "6f47036e6202b3eb",
+        "assets/source/9Pets-Windsong-The-Nightmare-s-Trespasser.png": "d9975a8957ff5698"
       }
     }
   ],
