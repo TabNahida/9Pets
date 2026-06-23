@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T22:08:45Z",
+  "generatedAt": "2026-06-23T22:11:10Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 147,
+  "cuteTotal": 148,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -18157,6 +18157,48 @@
         "assets/spritesheets/9Pets-Cute-APPLe-Erudite-and-Juicy.webp": "dd8411f84c2f9af7",
         "assets/detail-spritesheets/9Pets-Cute-APPLe-Erudite-and-Juicy.webp": "1bfc4e8c4b51a2fc",
         "assets/source/9Pets-Cute-APPLe-Erudite-and-Juicy.png": "5ed2a074961e3667"
+      }
+    },
+    {
+      "id": "9pets-cute-apple-the-fruit-of-wisdom",
+      "packageName": "9Pets-Cute-APPLe-The-Fruit-of-Wisdom",
+      "normalPackageName": "9Pets-APPLe-The-Fruit-of-Wisdom",
+      "normalId": "9pets-apple-the-fruit-of-wisdom",
+      "displayName": "APPLe",
+      "skinDisplayName": "-- The Fruit of Wisdom",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-APPLe-The-Fruit-of-Wisdom.zip",
+      "preview": "assets/previews/9Pets-Cute-APPLe-The-Fruit-of-Wisdom.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-APPLe-The-Fruit-of-Wisdom.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-APPLe-The-Fruit-of-Wisdom.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/s01_302804_apple",
+      "sourceImage": "assets/source/9Pets-Cute-APPLe-The-Fruit-of-Wisdom.png",
+      "sourceRepoPath": "roles/s01_302804_apple",
+      "assetId": "302804",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/s01_302804_apple",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/s01_302804_apple",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "1/4",
+      "skinName": "The Fruit of Wisdom",
+      "isDefaultSkin": false,
+      "skinDescription": "果实啊，你是万千问题的答案。",
+      "matchedName": "APPLe",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "APPLe has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 564427,
+      "assetVersions": {
+        "downloads/9Pets-Cute-APPLe-The-Fruit-of-Wisdom.zip": "6af0aa899c2a65be",
+        "assets/previews/9Pets-Cute-APPLe-The-Fruit-of-Wisdom.png": "11f6192023e6e1d7",
+        "assets/spritesheets/9Pets-Cute-APPLe-The-Fruit-of-Wisdom.webp": "5cd953cf751ca3ae",
+        "assets/detail-spritesheets/9Pets-Cute-APPLe-The-Fruit-of-Wisdom.webp": "dd7c574269981c9d",
+        "assets/source/9Pets-Cute-APPLe-The-Fruit-of-Wisdom.png": "757b03c124f0e7bd"
       }
     }
   ]
