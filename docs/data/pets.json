@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T20:00:39Z",
+  "generatedAt": "2026-06-23T20:02:53Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 135,
+  "cuteTotal": 136,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -17653,6 +17653,48 @@
         "assets/spritesheets/9Pets-Cute-6-Time-and-Location.webp": "e6c76a62cc814c86",
         "assets/detail-spritesheets/9Pets-Cute-6-Time-and-Location.webp": "f4e952f86ebec661",
         "assets/source/9Pets-Cute-6-Time-and-Location.png": "b3f62ffeab67dfe2"
+      }
+    },
+    {
+      "id": "9pets-cute-a-knight-order-of-st-gabriel",
+      "packageName": "9Pets-Cute-A-Knight-Order-of-St-Gabriel",
+      "normalPackageName": "9Pets-A-Knight-Order-of-St-Gabriel",
+      "normalId": "9pets-a-knight-order-of-st-gabriel",
+      "displayName": "A Knight",
+      "skinDisplayName": "-- Order of St. Gabriel",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-A-Knight-Order-of-St-Gabriel.zip",
+      "preview": "assets/previews/9Pets-Cute-A-Knight-Order-of-St-Gabriel.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-A-Knight-Order-of-St-Gabriel.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-A-Knight-Order-of-St-Gabriel.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/300701_weixiukai",
+      "sourceImage": "assets/source/9Pets-Cute-A-Knight-Order-of-St-Gabriel.png",
+      "sourceRepoPath": "roles/300701_weixiukai",
+      "assetId": "300701",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/300701_weixiukai",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/300701_weixiukai",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "2/29",
+      "skinName": "Order of St. Gabriel",
+      "isDefaultSkin": false,
+      "skinDescription": "时过境迁，恒常不变的唯有高洁信念。",
+      "matchedName": "A Knight",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "A Knight has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 309302,
+      "assetVersions": {
+        "downloads/9Pets-Cute-A-Knight-Order-of-St-Gabriel.zip": "43e6735f7db9e5aa",
+        "assets/previews/9Pets-Cute-A-Knight-Order-of-St-Gabriel.png": "c4aaceb3496be6e7",
+        "assets/spritesheets/9Pets-Cute-A-Knight-Order-of-St-Gabriel.webp": "51a37e5893c02e22",
+        "assets/detail-spritesheets/9Pets-Cute-A-Knight-Order-of-St-Gabriel.webp": "c72797e71823e44d",
+        "assets/source/9Pets-Cute-A-Knight-Order-of-St-Gabriel.png": "98840296512fd390"
       }
     }
   ]
