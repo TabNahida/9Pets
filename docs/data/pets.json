@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T14:55:15Z",
-  "total": 273,
+  "generatedAt": "2026-06-23T14:59:48Z",
+  "total": 274,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10346,6 +10346,44 @@
         "assets/spritesheets/9Pets-Sentinel-The-Shackles-of-Sin.webp": "0c6288d69747ce21",
         "assets/detail-spritesheets/9Pets-Sentinel-The-Shackles-of-Sin.webp": "8c2442397d3a4839",
         "assets/source/9Pets-Sentinel-The-Shackles-of-Sin.png": "fc534fc933c1b304"
+      }
+    },
+    {
+      "id": "9pets-shamane-beneath-the-jungle-canopy",
+      "packageName": "9Pets-Shamane-Beneath-the-Jungle-Canopy",
+      "displayName": "Shamane",
+      "skinDisplayName": "-- Beneath the Jungle Canopy",
+      "download": "downloads/9Pets-Shamane-Beneath-the-Jungle-Canopy.zip",
+      "preview": "assets/previews/9Pets-Shamane-Beneath-the-Jungle-Canopy.png",
+      "spritesheet": "assets/spritesheets/9Pets-Shamane-Beneath-the-Jungle-Canopy.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Shamane-Beneath-the-Jungle-Canopy.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/307203.png",
+      "sourceImage": "assets/source/9Pets-Shamane-Beneath-the-Jungle-Canopy.png",
+      "sourceRepoPath": "singlebg/headicon_img/307203.png",
+      "assetId": "307203",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a2_307203_zmsl",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a2_307203_zmsl",
+      "cubismPath": "live2d/roles/v2a2_307203_zmsl",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a2_307203_zmsl",
+      "birthday": "3/22",
+      "skinName": "Beneath the Jungle Canopy",
+      "isDefaultSkin": false,
+      "skinDescription": "留下三种足迹。",
+      "matchedName": "Shamane",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Shamane is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 307203 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1059806,
+      "assetVersions": {
+        "downloads/9Pets-Shamane-Beneath-the-Jungle-Canopy.zip": "cd9072611d0ac402",
+        "assets/previews/9Pets-Shamane-Beneath-the-Jungle-Canopy.png": "1c831995e359dc1a",
+        "assets/spritesheets/9Pets-Shamane-Beneath-the-Jungle-Canopy.webp": "ddee6867c7be05af",
+        "assets/detail-spritesheets/9Pets-Shamane-Beneath-the-Jungle-Canopy.webp": "dffea4a0c7fc4cff",
+        "assets/source/9Pets-Shamane-Beneath-the-Jungle-Canopy.png": "5375a1e5f33ccd8a"
       }
     },
     {
