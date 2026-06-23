@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T16:07:59Z",
-  "total": 288,
+  "generatedAt": "2026-06-23T16:12:07Z",
+  "total": 289,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10916,6 +10916,44 @@
         "assets/spritesheets/9Pets-Tooth-Fairy-Bagel.webp": "311b680c0ee5f7bd",
         "assets/detail-spritesheets/9Pets-Tooth-Fairy-Bagel.webp": "f85693a0dea1ad83",
         "assets/source/9Pets-Tooth-Fairy-Bagel.png": "a83125963586821d"
+      }
+    },
+    {
+      "id": "9pets-tooth-fairy-fairies-dancing-at-dawn",
+      "packageName": "9Pets-Tooth-Fairy-Fairies-Dancing-at-Dawn",
+      "displayName": "Tooth Fairy",
+      "skinDisplayName": "-- Fairies Dancing at Dawn",
+      "download": "downloads/9Pets-Tooth-Fairy-Fairies-Dancing-at-Dawn.zip",
+      "preview": "assets/previews/9Pets-Tooth-Fairy-Fairies-Dancing-at-Dawn.png",
+      "spritesheet": "assets/spritesheets/9Pets-Tooth-Fairy-Fairies-Dancing-at-Dawn.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Tooth-Fairy-Fairies-Dancing-at-Dawn.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/305304.png",
+      "sourceImage": "assets/source/9Pets-Tooth-Fairy-Fairies-Dancing-at-Dawn.png",
+      "sourceRepoPath": "singlebg/headicon_img/305304.png",
+      "assetId": "305304",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a3_305304_yx",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a3_305304_yx",
+      "cubismPath": "live2d/roles/v2a3_305304_yaxian",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a3_305304_yaxian",
+      "birthday": "11/27",
+      "skinName": "Fairies Dancing at Dawn",
+      "isDefaultSkin": false,
+      "skinDescription": "它们在说什么？石头，蘑菇，鲜花，来跳支庆祝丰获的舞！",
+      "matchedName": "Tooth Fairy",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Tooth Fairy is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 305304 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1070133,
+      "assetVersions": {
+        "downloads/9Pets-Tooth-Fairy-Fairies-Dancing-at-Dawn.zip": "bc374a12da8a7842",
+        "assets/previews/9Pets-Tooth-Fairy-Fairies-Dancing-at-Dawn.png": "7425979b50b61ec0",
+        "assets/spritesheets/9Pets-Tooth-Fairy-Fairies-Dancing-at-Dawn.webp": "018eca86cfc4784e",
+        "assets/detail-spritesheets/9Pets-Tooth-Fairy-Fairies-Dancing-at-Dawn.webp": "b9fc506eb94da16f",
+        "assets/source/9Pets-Tooth-Fairy-Fairies-Dancing-at-Dawn.png": "f3e0a8ab02e8cf01"
       }
     },
     {
