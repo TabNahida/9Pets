@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T11:39:17Z",
-  "total": 237,
+  "generatedAt": "2026-06-23T11:43:27Z",
+  "total": 238,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9016,6 +9016,44 @@
         "assets/spritesheets/9Pets-Melania-The-Ramirez-Style.webp": "f661b8d4bf0f29a9",
         "assets/detail-spritesheets/9Pets-Melania-The-Ramirez-Style.webp": "c40bffec2d283778",
         "assets/source/9Pets-Melania-The-Ramirez-Style.png": "f7a1c1018d69ec17"
+      }
+    },
+    {
+      "id": "9pets-mercuria-the-universe-holds-its-breath",
+      "packageName": "9Pets-Mercuria-The-Universe-Holds-Its-Breath",
+      "displayName": "Mercuria",
+      "skinDisplayName": "-- The Universe Holds Its Breath",
+      "download": "downloads/9Pets-Mercuria-The-Universe-Holds-Its-Breath.zip",
+      "preview": "assets/previews/9Pets-Mercuria-The-Universe-Holds-Its-Breath.png",
+      "spritesheet": "assets/spritesheets/9Pets-Mercuria-The-Universe-Holds-Its-Breath.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Mercuria-The-Universe-Holds-Its-Breath.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/309502.png",
+      "sourceImage": "assets/source/9Pets-Mercuria-The-Universe-Holds-Its-Breath.png",
+      "sourceRepoPath": "singlebg/headicon_img/309502.png",
+      "assetId": "309502",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a0_309502_hzsx",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a0_309502_hzsx",
+      "cubismPath": "live2d/roles/v2a0_309502_huanzhuangshuixing",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a0_309502_huanzhuangshuixing",
+      "birthday": "2/18",
+      "skinName": "The Universe Holds Its Breath",
+      "isDefaultSkin": false,
+      "skinDescription": "喧嚷如潮汐退却，她在明日前片刻驻足。",
+      "matchedName": "Mercuria",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Mercuria is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 309502 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 889427,
+      "assetVersions": {
+        "downloads/9Pets-Mercuria-The-Universe-Holds-Its-Breath.zip": "42ead27235efabe6",
+        "assets/previews/9Pets-Mercuria-The-Universe-Holds-Its-Breath.png": "3978d00fa430f26c",
+        "assets/spritesheets/9Pets-Mercuria-The-Universe-Holds-Its-Breath.webp": "b5b674eebcbf1fd0",
+        "assets/detail-spritesheets/9Pets-Mercuria-The-Universe-Holds-Its-Breath.webp": "0ac521cacfce3990",
+        "assets/source/9Pets-Mercuria-The-Universe-Holds-Its-Breath.png": "025a2ad6f6119fa6"
       }
     }
   ],
