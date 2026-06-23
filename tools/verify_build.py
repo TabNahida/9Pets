@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import sys
 import zipfile
 from pathlib import Path
 
@@ -8,6 +9,12 @@ from PIL import Image
 
 
 ROOT = Path(__file__).resolve().parents[1]
+TOOLS_DIR = ROOT / "tools"
+if str(TOOLS_DIR) not in sys.path:
+    sys.path.insert(0, str(TOOLS_DIR))
+
+import build_pets_site as site
+
 DOCS_DATA = ROOT / "docs" / "data" / "pets.json"
 CELL_W = 192
 CELL_H = 208
@@ -26,7 +33,6 @@ HIDDEN_NORMAL_PREFIXES = (
     "9Pets-Balloon-Party-",
 )
 MIN_VISIBLE_NORMAL_TOTAL = 125
-EXPECTED_CUTE_TOTAL = 127
 
 
 def assert_true(condition: bool, message: str) -> None:
@@ -64,6 +70,23 @@ def check_zip(path: Path, package_name: str) -> None:
         assert_true(f"{package_name}/spritesheet.webp" in names, f"{path} missing spritesheet.webp")
 
 
+def expected_cute_packages() -> set[str]:
+    official_index = site.load_official_asset_index()
+    expected: set[str] = set()
+    for item in site.read_catalog()["characters"]:
+        name = item["name"]
+        for skin in site.official_skin_entries(name, official_index):
+            skin_name = site.skin_name_from_entry(skin)
+            package = site.package_name_for(name, skin_name, cute=True)
+            profile_package = site.base_profile_package_name(name, cute=True)
+            asset = site.resolve_official_asset(name, official_index, skin)
+            override = site.CUTE_SPINE_SOURCE_OVERRIDES.get(package) or site.CUTE_SPINE_SOURCE_OVERRIDES.get(profile_package)
+            spine_path = override.get("spinePath", "") if override else asset.get("spinePath", "")
+            if site.spine_render_ready(package, spine_path, profile_package):
+                expected.add(package)
+    return expected
+
+
 def main() -> None:
     data = json.loads(DOCS_DATA.read_text(encoding="utf-8"))
     pets = data["pets"]
@@ -79,9 +102,13 @@ def main() -> None:
     )
     cute_variants = data.get("cuteVariants", [])
     assert_true(data.get("cuteTotal", len(cute_variants)) == len(cute_variants), "cute variant total mismatch")
+    expected_cute = expected_cute_packages()
+    cute_packages = {variant["packageName"] for variant in cute_variants}
     assert_true(
-        len(cute_variants) == EXPECTED_CUTE_TOTAL,
-        f"cute variant count is {len(cute_variants)}, expected {EXPECTED_CUTE_TOTAL}",
+        cute_packages == expected_cute,
+        "cute variant package set mismatch: "
+        f"missing={sorted(expected_cute - cute_packages)[:10]} "
+        f"unexpected={sorted(cute_packages - expected_cute)[:10]}",
     )
     assert_true((ROOT / "docs" / "data" / "pets-data.js").exists(), "docs/data/pets-data.js is missing")
     assert_true(len(data.get("officialSiteAssets", {})) >= 17, "official site assets were not downloaded")

@@ -1,0 +1,43 @@
+from __future__ import annotations
+
+import unittest
+
+from tools import audit_skin_cutes as audit
+
+
+class AuditSkinCuteStagingTest(unittest.TestCase):
+    def test_stage_paths_include_skin_spine_cache(self) -> None:
+        row = {
+            "cute_package": "9Pets-Cute-37-A-Prime-Number",
+            "spine_path": "roles/v1a4_306602_37",
+        }
+
+        paths = audit.stage_paths_for_row(row)
+
+        self.assertIn("docs/index.html", paths)
+        self.assertIn("docs/pet.html", paths)
+        self.assertIn("assets/source-cache/Reverse-1999-CN-Asset/roles/v1a4_306602_37", paths)
+
+    def test_entrypoint_and_package_files_are_allowed_when_staged(self) -> None:
+        row = {
+            "cute_package": "9Pets-Cute-37-A-Prime-Number",
+            "spine_path": "roles/v1a4_306602_37",
+        }
+
+        unexpected = audit.unexpected_staged_paths(
+            [
+                "docs/index.html",
+                "docs/pet.html",
+                "docs/data/pets.json",
+                "docs/data/pets-data.js",
+                "docs/assets/spritesheets/9Pets-Cute-37-A-Prime-Number.webp",
+                "assets/source-cache/Reverse-1999-CN-Asset/roles/v1a4_306602_37/306602_37_fight.skel",
+            ],
+            row,
+        )
+
+        self.assertEqual([], unexpected)
+
+
+if __name__ == "__main__":
+    unittest.main()

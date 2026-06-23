@@ -161,10 +161,48 @@ async function buildBrowserBundle(depsDir, workDir) {
         return names;
       };
 
-      window.renderSpineFrames = async (job) => {
-        const { app, spine } = await createSpine(job);
+      function unionBoundingBox(a, b) {
+        if (!a) return b;
+        if (!b) return a;
+        return {
+          left: Math.min(a.left, b.left),
+          top: Math.min(a.top, b.top),
+          right: Math.max(a.right, b.right),
+          bottom: Math.max(a.bottom, b.bottom),
+        };
+      }
+
+      function paddedBoundingBox(box, width, height, padding) {
+        if (!box) return { left: 0, top: 0, right: width, bottom: height };
+        return {
+          left: Math.max(0, box.left - padding),
+          top: Math.max(0, box.top - padding),
+          right: Math.min(width, box.right + padding),
+          bottom: Math.min(height, box.bottom + padding),
+        };
+      }
+
+      function spineBoundingBox(spine) {
+        const bounds = spine.getBounds();
+        const left = Math.floor(bounds.x);
+        const top = Math.floor(bounds.y);
+        const right = Math.ceil(bounds.x + bounds.width);
+        const bottom = Math.ceil(bounds.y + bounds.height);
+        return right > left && bottom > top ? { left, top, right, bottom } : null;
+      }
+
+      function prepareAnimation(spine, job) {
+        spine.x = job.x;
+        spine.y = job.y;
+        spine.scale.set(job.flipX ? -job.scale : job.scale, job.scale);
+        spine.state.clearTracks();
+        spine.skeleton.setToSetupPose();
         spine.state.setAnimation(0, job.animationName, true);
-        const frames = [];
+      }
+
+      async function captureStateBounds(app, spine, job) {
+        prepareAnimation(spine, job);
+        let union = null;
         for (let warmup = 0; warmup < 4; warmup += 1) {
           spine.update(1 / 60);
           app.renderer.render(app.stage);
@@ -172,10 +210,56 @@ async function buildBrowserBundle(depsDir, workDir) {
         for (let index = 0; index < job.frames; index += 1) {
           spine.update(job.intervalMs / 1000);
           app.renderer.render(app.stage);
-          frames.push(app.canvas.toDataURL("image/png"));
+          union = unionBoundingBox(union, spineBoundingBox(spine));
         }
+        return union;
+      }
+
+      async function renderStateDataUrls(app, spine, job, crop) {
+        const width = Math.max(1, crop.right - crop.left);
+        const height = Math.max(1, crop.bottom - crop.top);
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        const context = canvas.getContext("2d", { willReadFrequently: true });
+        const frames = [];
+        prepareAnimation(spine, job);
+        for (let warmup = 0; warmup < 4; warmup += 1) {
+          spine.update(1 / 60);
+          app.renderer.render(app.stage);
+        }
+        for (let index = 0; index < job.frames; index += 1) {
+          spine.update(job.intervalMs / 1000);
+          app.renderer.render(app.stage);
+          context.clearRect(0, 0, width, height);
+          context.drawImage(app.canvas, crop.left, crop.top, width, height, 0, 0, width, height);
+          frames.push(canvas.toDataURL("image/png"));
+        }
+        return frames;
+      }
+
+      window.renderSpineFrames = async (job) => {
+        const { app, spine } = await createSpine(job);
+        const union = await captureStateBounds(app, spine, job);
+        const crop = paddedBoundingBox(union, job.width, job.height, 8);
+        const frames = await renderStateDataUrls(app, spine, job, crop);
         app.destroy(true);
         return frames;
+      };
+
+      window.renderSpineStates = async (job) => {
+        const { app, spine } = await createSpine(job);
+        let union = null;
+        for (const stateJob of job.states) {
+          union = unionBoundingBox(union, await captureStateBounds(app, spine, { ...job, ...stateJob }));
+        }
+        const crop = paddedBoundingBox(union, job.width, job.height, 8);
+        const result = {};
+        for (const stateJob of job.states) {
+          result[stateJob.id] = await renderStateDataUrls(app, spine, { ...job, ...stateJob }, crop);
+        }
+        app.destroy(true);
+        return result;
       };
     `,
     "utf8",
@@ -317,6 +401,7 @@ async function main() {
       await browser.close();
       return;
     }
+    const renderJobs = [];
     for (const state of states) {
       const override = normalizeMotionName(motionOverrides[state.id] || "");
       let animationName = override && animations.includes(override) ? override : chooseAnimation(animations, state.prefs);
@@ -326,24 +411,28 @@ async function main() {
       if (!animations.includes(animationName)) {
         throw new Error(`Animation not found for ${state.id}: ${animationName}`);
       }
-      const frameData = await page.evaluate(
-        (job) => window.renderSpineFrames(job),
-        {
-          ...baseJob,
-          animationName,
-          frames: state.frames,
-          intervalMs: Math.round(1000 / state.fps),
-          flipX: flipRunningLeft && state.id === "running-left",
-        },
-      );
-      const stateDir = join(outputDir, state.id);
+      renderJobs.push({
+        id: state.id,
+        animationName,
+        frames: state.frames,
+        intervalMs: Math.round(1000 / state.fps),
+        flipX: flipRunningLeft && state.id === "running-left",
+      });
+    }
+    const renderedStates = await page.evaluate(
+      (job) => window.renderSpineStates(job),
+      { ...baseJob, states: renderJobs },
+    );
+    for (const job of renderJobs) {
+      const frameData = renderedStates[job.id];
+      const stateDir = join(outputDir, job.id);
       await rm(stateDir, { recursive: true, force: true });
       await mkdir(stateDir, { recursive: true });
       for (let index = 0; index < frameData.length; index += 1) {
         await writeFile(join(stateDir, `${String(index).padStart(2, "0")}.png`), dataUrlToBuffer(frameData[index]));
       }
-      console.log(`${state.id} animation ${animationName}`);
-      console.log(`rendered ${state.id} ${frameData.length} frames`);
+      console.log(`${job.id} animation ${job.animationName}`);
+      console.log(`rendered ${job.id} ${frameData.length} frames`);
     }
     await browser.close();
   } finally {
