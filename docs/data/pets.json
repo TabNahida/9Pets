@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T18:00:03Z",
-  "total": 310,
+  "generatedAt": "2026-06-23T18:06:01Z",
+  "total": 311,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -11752,6 +11752,44 @@
         "assets/spritesheets/9Pets-X-Silent-Breath.webp": "1f68dc27bdcde705",
         "assets/detail-spritesheets/9Pets-X-Silent-Breath.webp": "ba4a0e5fd9c50a7a",
         "assets/source/9Pets-X-Silent-Breath.png": "cefdbc8e70237207"
+      }
+    },
+    {
+      "id": "9pets-yenisei-around-the-riverbend",
+      "packageName": "9Pets-Yenisei-Around-the-Riverbend",
+      "displayName": "Yenisei",
+      "skinDisplayName": "-- Around the Riverbend",
+      "download": "downloads/9Pets-Yenisei-Around-the-Riverbend.zip",
+      "preview": "assets/previews/9Pets-Yenisei-Around-the-Riverbend.png",
+      "spritesheet": "assets/spritesheets/9Pets-Yenisei-Around-the-Riverbend.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Yenisei-Around-the-Riverbend.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/308203.png",
+      "sourceImage": "assets/source/9Pets-Yenisei-Around-the-Riverbend.png",
+      "sourceRepoPath": "singlebg/headicon_img/308203.png",
+      "assetId": "308203",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a2_308203_xyns",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a2_308203_xyns",
+      "cubismPath": "live2d/roles/v2a2_308203_xyns",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a2_308203_xyns",
+      "birthday": "3/4",
+      "skinName": "Around the Riverbend",
+      "isDefaultSkin": false,
+      "skinDescription": "她如此贴近水流，以至能看清其中数不尽的蓝。",
+      "matchedName": "Yenisei",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Yenisei is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 308203 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1220724,
+      "assetVersions": {
+        "downloads/9Pets-Yenisei-Around-the-Riverbend.zip": "f47c184ae5f49034",
+        "assets/previews/9Pets-Yenisei-Around-the-Riverbend.png": "e096c594804fa51a",
+        "assets/spritesheets/9Pets-Yenisei-Around-the-Riverbend.webp": "f71b9e77d2641001",
+        "assets/detail-spritesheets/9Pets-Yenisei-Around-the-Riverbend.webp": "d42079721a412c21",
+        "assets/source/9Pets-Yenisei-Around-the-Riverbend.png": "c25bf512518b5327"
       }
     },
     {
