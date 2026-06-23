@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T19:33:59Z",
+  "generatedAt": "2026-06-23T19:56:17Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 132,
+  "cuteTotal": 133,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -17527,6 +17527,48 @@
         "assets/spritesheets/9Pets-Cute-6-The-Perfect-Number.webp": "c9fefbeba797a8f8",
         "assets/detail-spritesheets/9Pets-Cute-6-The-Perfect-Number.webp": "507d193d2c9b08aa",
         "assets/source/9Pets-Cute-6-The-Perfect-Number.png": "4aecf290c8ced6a2"
+      }
+    },
+    {
+      "id": "9pets-cute-6-time-and-location",
+      "packageName": "9Pets-Cute-6-Time-and-Location",
+      "normalPackageName": "9Pets-6-Time-and-Location",
+      "normalId": "9pets-6-time-and-location",
+      "displayName": "6",
+      "skinDisplayName": "-- Time and Location",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-6-Time-and-Location.zip",
+      "preview": "assets/previews/9Pets-Cute-6-Time-and-Location.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-6-Time-and-Location.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-6-Time-and-Location.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a0_307903_6",
+      "sourceImage": "assets/source/9Pets-Cute-6-Time-and-Location.png",
+      "sourceRepoPath": "roles/v2a0_307903_6",
+      "assetId": "307903",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a0_307903_6",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a0_307903_6",
+      "cubismPath": "live2d/roles/v2a0_307903_6",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a0_307903_6",
+      "birthday": "2/13",
+      "skinName": "Time and Location",
+      "isDefaultSkin": false,
+      "skinDescription": "历经八场阴谋，失去远方归所，他登至台前。",
+      "matchedName": "Six",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "6 has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 899932,
+      "assetVersions": {
+        "downloads/9Pets-Cute-6-Time-and-Location.zip": "542a76ac5d0e5416",
+        "assets/previews/9Pets-Cute-6-Time-and-Location.png": "7bdd568aac8ef18f",
+        "assets/spritesheets/9Pets-Cute-6-Time-and-Location.webp": "e6c76a62cc814c86",
+        "assets/detail-spritesheets/9Pets-Cute-6-Time-and-Location.webp": "f4e952f86ebec661",
+        "assets/source/9Pets-Cute-6-Time-and-Location.png": "b3f62ffeab67dfe2"
       }
     }
   ]
