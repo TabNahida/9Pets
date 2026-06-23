@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T14:46:17Z",
-  "total": 271,
+  "generatedAt": "2026-06-23T14:50:42Z",
+  "total": 272,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10270,6 +10270,44 @@
         "assets/spritesheets/9Pets-Semmelweis-The-Wax-and-Wane-of-the-Heart.webp": "c3632a24b338ae74",
         "assets/detail-spritesheets/9Pets-Semmelweis-The-Wax-and-Wane-of-the-Heart.webp": "beb0c64b367cda04",
         "assets/source/9Pets-Semmelweis-The-Wax-and-Wane-of-the-Heart.png": "c2ec5f4eb8df72c5"
+      }
+    },
+    {
+      "id": "9pets-sentinel-by-reflections-witnessed",
+      "packageName": "9Pets-Sentinel-By-Reflections-Witnessed",
+      "displayName": "Sentinel",
+      "skinDisplayName": "-- By Reflections Witnessed",
+      "download": "downloads/9Pets-Sentinel-By-Reflections-Witnessed.zip",
+      "preview": "assets/previews/9Pets-Sentinel-By-Reflections-Witnessed.png",
+      "spritesheet": "assets/spritesheets/9Pets-Sentinel-By-Reflections-Witnessed.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Sentinel-By-Reflections-Witnessed.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/312603.png",
+      "sourceImage": "assets/source/9Pets-Sentinel-By-Reflections-Witnessed.png",
+      "sourceRepoPath": "singlebg/headicon_img/312603.png",
+      "assetId": "312603",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a3_312603_mlan",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a3_312603_mlan",
+      "cubismPath": "live2d/roles/v3a3_312603_mlan",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a3_312603_mlan",
+      "birthday": "12/22",
+      "skinName": "By Reflections Witnessed",
+      "isDefaultSkin": false,
+      "skinDescription": "镜廊的钟声响起，宣告昨日与今日不再相似。",
+      "matchedName": "Sentinel",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Sentinel is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 312603 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1156313,
+      "assetVersions": {
+        "downloads/9Pets-Sentinel-By-Reflections-Witnessed.zip": "9a7b285e2e0fd705",
+        "assets/previews/9Pets-Sentinel-By-Reflections-Witnessed.png": "f1f20cd6464d8d64",
+        "assets/spritesheets/9Pets-Sentinel-By-Reflections-Witnessed.webp": "b47cac9a3df51338",
+        "assets/detail-spritesheets/9Pets-Sentinel-By-Reflections-Witnessed.webp": "a720824c652d579b",
+        "assets/source/9Pets-Sentinel-By-Reflections-Witnessed.png": "bedadbd79bd2f368"
       }
     },
     {
