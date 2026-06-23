@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T22:41:07Z",
+  "generatedAt": "2026-06-23T22:43:35Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 160,
+  "cuteTotal": 161,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -18703,6 +18703,48 @@
         "assets/spritesheets/9Pets-Cute-Bette-A-Life-in-Frames.webp": "7cbcd77015c2e3e4",
         "assets/detail-spritesheets/9Pets-Cute-Bette-A-Life-in-Frames.webp": "fba9bc5856f73d81",
         "assets/source/9Pets-Cute-Bette-A-Life-in-Frames.png": "3fb926f05ab15491"
+      }
+    },
+    {
+      "id": "9pets-cute-bkornblume-the-misfit",
+      "packageName": "9Pets-Cute-Bkornblume-The-Misfit",
+      "normalPackageName": "9Pets-Bkornblume-The-Misfit",
+      "normalId": "9pets-bkornblume-the-misfit",
+      "displayName": "Bkornblume",
+      "skinDisplayName": "-- The Misfit",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Bkornblume-The-Misfit.zip",
+      "preview": "assets/previews/9Pets-Cute-Bkornblume-The-Misfit.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Bkornblume-The-Misfit.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Bkornblume-The-Misfit.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/302002_bolinyidong",
+      "sourceImage": "assets/source/9Pets-Cute-Bkornblume-The-Misfit.png",
+      "sourceRepoPath": "roles/302002_bolinyidong",
+      "assetId": "302002",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/302002_bolinyidong",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/302002_bolinyidong",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "2/9",
+      "skinName": "The Misfit",
+      "isDefaultSkin": false,
+      "skinDescription": "围巾可以有效地隔离寒冷，那些书也是。",
+      "matchedName": "Bkornblume",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Bkornblume has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1180175,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Bkornblume-The-Misfit.zip": "97ad987ce3ae3909",
+        "assets/previews/9Pets-Cute-Bkornblume-The-Misfit.png": "aeff9337e0dab2e2",
+        "assets/spritesheets/9Pets-Cute-Bkornblume-The-Misfit.webp": "8b7c36612176c8a8",
+        "assets/detail-spritesheets/9Pets-Cute-Bkornblume-The-Misfit.webp": "cdc3a6f01a30d0b7",
+        "assets/source/9Pets-Cute-Bkornblume-The-Misfit.png": "50a6f65d69dcb692"
       }
     }
   ]
