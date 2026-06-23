@@ -90,6 +90,19 @@ class AuditSkinCuteStagingTest(unittest.TestCase):
         self.assertEqual("311303_alf_fight.skel", profile["skeleton"])
         self.assertEqual("311303_alf.atlas", profile["atlas"])
 
+    def test_exact_spine_profile_inherits_character_layout(self) -> None:
+        profile = site.spine_render_profile_for(
+            "9Pets-Cute-APPLe-Erudite-and-Juicy",
+            "roles/302802_apple",
+            "9Pets-Cute-APPLe",
+        )
+
+        self.assertEqual("302802_apple_fight.skel", profile["skeleton"])
+        self.assertEqual(1600, profile["width"])
+        self.assertEqual(800, profile["x"])
+        self.assertEqual(1900, profile["height"])
+        self.assertEqual(1350, profile["y"])
+
 
 if __name__ == "__main__":
     unittest.main()
