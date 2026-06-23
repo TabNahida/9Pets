@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T19:58:29Z",
+  "generatedAt": "2026-06-23T20:00:39Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 134,
+  "cuteTotal": 135,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -17485,6 +17485,48 @@
         "assets/spritesheets/9Pets-Cute-37-Happy-Bird-Catcher.webp": "c64d6bc39c34b462",
         "assets/detail-spritesheets/9Pets-Cute-37-Happy-Bird-Catcher.webp": "705c51272d709b84",
         "assets/source/9Pets-Cute-37-Happy-Bird-Catcher.png": "538927139f392872"
+      }
+    },
+    {
+      "id": "9pets-cute-6-a-hymn-to-seclusion",
+      "packageName": "9Pets-Cute-6-A-Hymn-to-Seclusion",
+      "normalPackageName": "9Pets-6-A-Hymn-to-Seclusion",
+      "normalId": "9pets-6-a-hymn-to-seclusion",
+      "displayName": "6",
+      "skinDisplayName": "-- A Hymn to Seclusion",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-6-A-Hymn-to-Seclusion.zip",
+      "preview": "assets/previews/9Pets-Cute-6-A-Hymn-to-Seclusion.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-6-A-Hymn-to-Seclusion.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-6-A-Hymn-to-Seclusion.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a4_307905_6",
+      "sourceImage": "assets/source/9Pets-Cute-6-A-Hymn-to-Seclusion.png",
+      "sourceRepoPath": "roles/v3a4_307905_6",
+      "assetId": "307905",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a4_307905_6",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a4_307905_6",
+      "cubismPath": "live2d/roles/v3a4_307905_6",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a4_307905_6",
+      "birthday": "2/13",
+      "skinName": "A Hymn to Seclusion",
+      "isDefaultSkin": false,
+      "skinDescription": "孤独是一汪池塘，你的心即是泉眼。",
+      "matchedName": "Six",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "6 has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1230193,
+      "assetVersions": {
+        "downloads/9Pets-Cute-6-A-Hymn-to-Seclusion.zip": "f2c82a61b3e00e14",
+        "assets/previews/9Pets-Cute-6-A-Hymn-to-Seclusion.png": "9f41fcb3d278d3fa",
+        "assets/spritesheets/9Pets-Cute-6-A-Hymn-to-Seclusion.webp": "429d895cb364de0a",
+        "assets/detail-spritesheets/9Pets-Cute-6-A-Hymn-to-Seclusion.webp": "cbdc35e5af57f5ab",
+        "assets/source/9Pets-Cute-6-A-Hymn-to-Seclusion.png": "7099b3cc32acb13c"
       }
     },
     {
