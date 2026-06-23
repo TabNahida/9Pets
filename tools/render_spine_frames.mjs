@@ -241,7 +241,7 @@ async function buildBrowserBundle(depsDir, workDir) {
       window.renderSpineFrames = async (job) => {
         const { app, spine } = await createSpine(job);
         const union = await captureStateBounds(app, spine, job);
-        const crop = paddedBoundingBox(union, job.width, job.height, 8);
+        const crop = paddedBoundingBox(union, job.width, job.height, 64);
         const frames = await renderStateDataUrls(app, spine, job, crop);
         app.destroy(true);
         return frames;
@@ -253,7 +253,7 @@ async function buildBrowserBundle(depsDir, workDir) {
         for (const stateJob of job.states) {
           union = unionBoundingBox(union, await captureStateBounds(app, spine, { ...job, ...stateJob }));
         }
-        const crop = paddedBoundingBox(union, job.width, job.height, 8);
+        const crop = paddedBoundingBox(union, job.width, job.height, 64);
         const result = {};
         for (const stateJob of job.states) {
           result[stateJob.id] = await renderStateDataUrls(app, spine, { ...job, ...stateJob }, crop);
