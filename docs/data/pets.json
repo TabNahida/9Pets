@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T17:07:23Z",
-  "total": 300,
+  "generatedAt": "2026-06-23T17:12:17Z",
+  "total": 301,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -11372,6 +11372,44 @@
         "assets/spritesheets/9Pets-Voyager-A-Wordless-Letter.webp": "8dfc95b4d7d6022d",
         "assets/detail-spritesheets/9Pets-Voyager-A-Wordless-Letter.webp": "a44b7092c8864898",
         "assets/source/9Pets-Voyager-A-Wordless-Letter.png": "f6b17dfc1c99777c"
+      }
+    },
+    {
+      "id": "9pets-voyager-choir-of-the-stars",
+      "packageName": "9Pets-Voyager-Choir-of-the-Stars",
+      "displayName": "Voyager",
+      "skinDisplayName": "-- Choir of the Stars",
+      "download": "downloads/9Pets-Voyager-Choir-of-the-Stars.zip",
+      "preview": "assets/previews/9Pets-Voyager-Choir-of-the-Stars.png",
+      "spritesheet": "assets/spritesheets/9Pets-Voyager-Choir-of-the-Stars.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Voyager-Choir-of-the-Stars.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/304804.png",
+      "sourceImage": "assets/source/9Pets-Voyager-Choir-of-the-Stars.png",
+      "sourceRepoPath": "singlebg/headicon_img/304804.png",
+      "assetId": "304804",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a7_304804_yl",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a7_304804_yl",
+      "cubismPath": "live2d/roles/v2a7_304804_yl",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a7_304804_yl",
+      "birthday": "11/12",
+      "skinName": "Choir of the Stars",
+      "isDefaultSkin": false,
+      "skinDescription": "她将领奏，而后千万颗星子齐唱——宇宙的一百亿个名字。",
+      "matchedName": "Voyager",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Voyager is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 304804 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 792681,
+      "assetVersions": {
+        "downloads/9Pets-Voyager-Choir-of-the-Stars.zip": "a0592d33691a698b",
+        "assets/previews/9Pets-Voyager-Choir-of-the-Stars.png": "4df3230a1b8e32e6",
+        "assets/spritesheets/9Pets-Voyager-Choir-of-the-Stars.webp": "5e02c329dffd5cc4",
+        "assets/detail-spritesheets/9Pets-Voyager-Choir-of-the-Stars.webp": "1a4d918d6368d374",
+        "assets/source/9Pets-Voyager-Choir-of-the-Stars.png": "a68ac3c7d9d94cad"
       }
     },
     {
