@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T10:32:50Z",
-  "total": 222,
+  "generatedAt": "2026-06-23T10:37:37Z",
+  "total": 223,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8446,6 +8446,44 @@
         "assets/spritesheets/9Pets-Lucy-A-Robot-Is-Born.webp": "a8f1be6004893310",
         "assets/detail-spritesheets/9Pets-Lucy-A-Robot-Is-Born.webp": "50c90af2d3c7ed70",
         "assets/source/9Pets-Lucy-A-Robot-Is-Born.png": "188ee640077c22bc"
+      }
+    },
+    {
+      "id": "9pets-lucy-the-queen-s-game",
+      "packageName": "9Pets-Lucy-The-Queen-s-Game",
+      "displayName": "Lucy",
+      "skinDisplayName": "-- The Queen's Game",
+      "download": "downloads/9Pets-Lucy-The-Queen-s-Game.zip",
+      "preview": "assets/previews/9Pets-Lucy-The-Queen-s-Game.png",
+      "spritesheet": "assets/spritesheets/9Pets-Lucy-The-Queen-s-Game.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Lucy-The-Queen-s-Game.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/308603.png",
+      "sourceImage": "assets/source/9Pets-Lucy-The-Queen-s-Game.png",
+      "sourceRepoPath": "singlebg/headicon_img/308603.png",
+      "assetId": "308603",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a8_308603_lx",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a8_308603_lx",
+      "cubismPath": "live2d/roles/v2a8_308603_lx",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a8_308603_lx",
+      "birthday": "12/30",
+      "skinName": "The Queen's Game",
+      "isDefaultSkin": false,
+      "skinDescription": "我愿为先驱。",
+      "matchedName": "Lucy",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Lucy is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 308603 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1196012,
+      "assetVersions": {
+        "downloads/9Pets-Lucy-The-Queen-s-Game.zip": "73d345ffabced311",
+        "assets/previews/9Pets-Lucy-The-Queen-s-Game.png": "130ae89fd9db1ba1",
+        "assets/spritesheets/9Pets-Lucy-The-Queen-s-Game.webp": "525577ac7dd77a3a",
+        "assets/detail-spritesheets/9Pets-Lucy-The-Queen-s-Game.webp": "f155851b9d731330",
+        "assets/source/9Pets-Lucy-The-Queen-s-Game.png": "9bde428f674abb51"
       }
     }
   ],
