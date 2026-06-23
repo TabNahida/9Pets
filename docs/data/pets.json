@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T18:21:03Z",
-  "total": 312,
+  "generatedAt": "2026-06-23T18:25:52Z",
+  "total": 313,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7192,6 +7192,44 @@
         "assets/spritesheets/9Pets-Horropedia-Scarysm.webp": "c5a14767d53a206c",
         "assets/detail-spritesheets/9Pets-Horropedia-Scarysm.webp": "4d72a93f79a5825a",
         "assets/source/9Pets-Horropedia-Scarysm.png": "6e35cc56e4c9dcf5"
+      }
+    },
+    {
+      "id": "9pets-igor-returning-nevermore",
+      "packageName": "9Pets-Igor-Returning-Nevermore",
+      "displayName": "Igor",
+      "skinDisplayName": "-- Returning Nevermore",
+      "download": "downloads/9Pets-Igor-Returning-Nevermore.zip",
+      "preview": "assets/previews/9Pets-Igor-Returning-Nevermore.png",
+      "spritesheet": "assets/spritesheets/9Pets-Igor-Returning-Nevermore.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Igor-Returning-Nevermore.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/309203.png",
+      "sourceImage": "assets/source/9Pets-Igor-Returning-Nevermore.png",
+      "sourceRepoPath": "singlebg/headicon_img/309203.png",
+      "assetId": "309203",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a8_309203_yge",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a8_309203_yge",
+      "cubismPath": "live2d/roles/v3a8_309203_yge",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a8_309203_yge",
+      "birthday": "2/23",
+      "skinName": "Returning Nevermore",
+      "isDefaultSkin": false,
+      "skinDescription": "于是他离开光，重回至暗之地。",
+      "matchedName": "Igor",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Igor is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 309203 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1552034,
+      "assetVersions": {
+        "downloads/9Pets-Igor-Returning-Nevermore.zip": "5902ee8923385bcc",
+        "assets/previews/9Pets-Igor-Returning-Nevermore.png": "e2c766f453938bf2",
+        "assets/spritesheets/9Pets-Igor-Returning-Nevermore.webp": "5ac341933fe9e2ef",
+        "assets/detail-spritesheets/9Pets-Igor-Returning-Nevermore.webp": "03298dd7c003faf2",
+        "assets/source/9Pets-Igor-Returning-Nevermore.png": "47da198bcde709f8"
       }
     },
     {
