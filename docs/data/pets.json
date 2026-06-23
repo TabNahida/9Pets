@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T17:32:24Z",
-  "total": 305,
+  "generatedAt": "2026-06-23T17:37:38Z",
+  "total": 306,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -11600,6 +11600,44 @@
         "assets/spritesheets/9Pets-Windsong-Measuring-the-World.webp": "a9895c5df3ba6a15",
         "assets/detail-spritesheets/9Pets-Windsong-Measuring-the-World.webp": "148eda78be971d45",
         "assets/source/9Pets-Windsong-Measuring-the-World.png": "3375aa7f247dd29e"
+      }
+    },
+    {
+      "id": "9pets-windsong-records-from-the-jade-hunt",
+      "packageName": "9Pets-Windsong-Records-from-the-Jade-Hunt",
+      "displayName": "Windsong",
+      "skinDisplayName": "-- Records from the Jade Hunt",
+      "download": "downloads/9Pets-Windsong-Records-from-the-Jade-Hunt.zip",
+      "preview": "assets/previews/9Pets-Windsong-Records-from-the-Jade-Hunt.png",
+      "spritesheet": "assets/spritesheets/9Pets-Windsong-Records-from-the-Jade-Hunt.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Windsong-Records-from-the-Jade-Hunt.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/307703.png",
+      "sourceImage": "assets/source/9Pets-Windsong-Records-from-the-Jade-Hunt.png",
+      "sourceRepoPath": "singlebg/headicon_img/307703.png",
+      "assetId": "307703",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a5_307703_bfsg",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a5_307703_bfsg",
+      "cubismPath": "live2d/roles/v2a5_307703_bfsg",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a5_307703_bfsg",
+      "birthday": "10/13",
+      "skinName": "Records from the Jade Hunt",
+      "isDefaultSkin": false,
+      "skinDescription": "名山有玉，应向绝处寻。",
+      "matchedName": "Windsong",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Windsong is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 307703 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1473143,
+      "assetVersions": {
+        "downloads/9Pets-Windsong-Records-from-the-Jade-Hunt.zip": "93f4c958c14f7f0f",
+        "assets/previews/9Pets-Windsong-Records-from-the-Jade-Hunt.png": "ad1d7a34b1de59fe",
+        "assets/spritesheets/9Pets-Windsong-Records-from-the-Jade-Hunt.webp": "a42b6ef654228969",
+        "assets/detail-spritesheets/9Pets-Windsong-Records-from-the-Jade-Hunt.webp": "11613b2c6e400030",
+        "assets/source/9Pets-Windsong-Records-from-the-Jade-Hunt.png": "07e0ed0c954aba70"
       }
     }
   ],
