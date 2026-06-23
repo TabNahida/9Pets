@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T13:49:35Z",
-  "total": 259,
+  "generatedAt": "2026-06-23T13:54:19Z",
+  "total": 260,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9852,6 +9852,44 @@
         "assets/spritesheets/9Pets-Recoleta-Foreword.webp": "0bbf16e6dc2daf36",
         "assets/detail-spritesheets/9Pets-Recoleta-Foreword.webp": "15c2d76b9d376a21",
         "assets/source/9Pets-Recoleta-Foreword.png": "8af77d8e10fb5d9b"
+      }
+    },
+    {
+      "id": "9pets-recoleta-the-knight-of-la-mancha",
+      "packageName": "9Pets-Recoleta-The-Knight-of-La-Mancha",
+      "displayName": "Recoleta",
+      "skinDisplayName": "-- The Knight of La Mancha",
+      "download": "downloads/9Pets-Recoleta-The-Knight-of-La-Mancha.zip",
+      "preview": "assets/previews/9Pets-Recoleta-The-Knight-of-La-Mancha.png",
+      "spritesheet": "assets/spritesheets/9Pets-Recoleta-The-Knight-of-La-Mancha.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Recoleta-The-Knight-of-La-Mancha.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/311403.png",
+      "sourceImage": "assets/source/9Pets-Recoleta-The-Knight-of-La-Mancha.png",
+      "sourceRepoPath": "singlebg/headicon_img/311403.png",
+      "assetId": "311403",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a8_311403_xgj",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a8_311403_xgj",
+      "cubismPath": "live2d/roles/v2a8_311403_xgj",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a8_311403_xgj",
+      "birthday": "7/15",
+      "skinName": "The Knight of La Mancha",
+      "isDefaultSkin": false,
+      "skinDescription": "在理想的起点、创作的起点，和通向胜利的起点！",
+      "matchedName": "Recoleta",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Recoleta is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 311403 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1163067,
+      "assetVersions": {
+        "downloads/9Pets-Recoleta-The-Knight-of-La-Mancha.zip": "3caf7ec49b8ac550",
+        "assets/previews/9Pets-Recoleta-The-Knight-of-La-Mancha.png": "78ed6abdfdf4a7bb",
+        "assets/spritesheets/9Pets-Recoleta-The-Knight-of-La-Mancha.webp": "7fbd993d0a96fcbc",
+        "assets/detail-spritesheets/9Pets-Recoleta-The-Knight-of-La-Mancha.webp": "935ad03772daf766",
+        "assets/source/9Pets-Recoleta-The-Knight-of-La-Mancha.png": "e7870a459febc8e0"
       }
     }
   ],
