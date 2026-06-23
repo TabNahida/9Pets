@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T11:56:15Z",
-  "total": 241,
+  "generatedAt": "2026-06-23T12:00:24Z",
+  "total": 242,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9130,6 +9130,44 @@
         "assets/spritesheets/9Pets-Mercuria-The-Universe-Holds-Its-Breath.webp": "b5b674eebcbf1fd0",
         "assets/detail-spritesheets/9Pets-Mercuria-The-Universe-Holds-Its-Breath.webp": "0ac521cacfce3990",
         "assets/source/9Pets-Mercuria-The-Universe-Holds-Its-Breath.png": "025a2ad6f6119fa6"
+      }
+    },
+    {
+      "id": "9pets-moldir-idyll-of-the-luberon",
+      "packageName": "9Pets-Moldir-Idyll-of-the-Luberon",
+      "displayName": "Moldir",
+      "skinDisplayName": "-- Idyll of the Luberon",
+      "download": "downloads/9Pets-Moldir-Idyll-of-the-Luberon.zip",
+      "preview": "assets/previews/9Pets-Moldir-Idyll-of-the-Luberon.png",
+      "spritesheet": "assets/spritesheets/9Pets-Moldir-Idyll-of-the-Luberon.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Moldir-Idyll-of-the-Luberon.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/312103.png",
+      "sourceImage": "assets/source/9Pets-Moldir-Idyll-of-the-Luberon.png",
+      "sourceRepoPath": "singlebg/headicon_img/312103.png",
+      "assetId": "312103",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a3_312103_mlde",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a3_312103_mlde",
+      "cubismPath": "live2d/roles/v3a3_312103_mlde",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a3_312103_mlde",
+      "birthday": "9/13",
+      "skinName": "Idyll of the Luberon",
+      "isDefaultSkin": false,
+      "skinDescription": "眼下这片刻的宁静，或许是她长久以来的梦想。",
+      "matchedName": "Moldir",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Moldir is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 312103 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1143541,
+      "assetVersions": {
+        "downloads/9Pets-Moldir-Idyll-of-the-Luberon.zip": "93355ae58fb668e1",
+        "assets/previews/9Pets-Moldir-Idyll-of-the-Luberon.png": "2a7c3fa6704bcf77",
+        "assets/spritesheets/9Pets-Moldir-Idyll-of-the-Luberon.webp": "55be0dfbb6a2200a",
+        "assets/detail-spritesheets/9Pets-Moldir-Idyll-of-the-Luberon.webp": "faa523e1e2ab3db7",
+        "assets/source/9Pets-Moldir-Idyll-of-the-Luberon.png": "b26ba27c33645744"
       }
     },
     {
