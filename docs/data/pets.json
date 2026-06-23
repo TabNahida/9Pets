@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T18:30:29Z",
-  "total": 314,
+  "generatedAt": "2026-06-23T18:35:02Z",
+  "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10612,6 +10612,44 @@
         "assets/spritesheets/9Pets-Sonetto-Emotion-in-Tranquility.webp": "53028107a0236a9c",
         "assets/detail-spritesheets/9Pets-Sonetto-Emotion-in-Tranquility.webp": "c32e72fa184ba251",
         "assets/source/9Pets-Sonetto-Emotion-in-Tranquility.png": "9be0e38299e2930d"
+      }
+    },
+    {
+      "id": "9pets-sonetto-in-praise-of-poetry",
+      "packageName": "9Pets-Sonetto-In-Praise-of-Poetry",
+      "displayName": "Sonetto",
+      "skinDisplayName": "-- In Praise of Poetry",
+      "download": "downloads/9Pets-Sonetto-In-Praise-of-Poetry.zip",
+      "preview": "assets/previews/9Pets-Sonetto-In-Praise-of-Poetry.png",
+      "spritesheet": "assets/spritesheets/9Pets-Sonetto-In-Praise-of-Poetry.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Sonetto-In-Praise-of-Poetry.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/302306.png",
+      "sourceImage": "assets/source/9Pets-Sonetto-In-Praise-of-Poetry.png",
+      "sourceRepoPath": "singlebg/headicon_img/302306.png",
+      "assetId": "302306",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a8_302306_sshs",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a8_302306_sshs",
+      "cubismPath": "live2d/roles/v3a8_302306_sshs",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a8_302306_sshs",
+      "birthday": "1/10",
+      "skinName": "In Praise of Poetry",
+      "isDefaultSkin": false,
+      "skinDescription": "当记忆被编织成诗，她便成为其中最美妙的一段。",
+      "matchedName": "Sonetto",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Sonetto is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 302306 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1117213,
+      "assetVersions": {
+        "downloads/9Pets-Sonetto-In-Praise-of-Poetry.zip": "65473f21d4f0ab95",
+        "assets/previews/9Pets-Sonetto-In-Praise-of-Poetry.png": "649efa8b26ffa5ac",
+        "assets/spritesheets/9Pets-Sonetto-In-Praise-of-Poetry.webp": "57aa616492e83911",
+        "assets/detail-spritesheets/9Pets-Sonetto-In-Praise-of-Poetry.webp": "24808cfbb414658a",
+        "assets/source/9Pets-Sonetto-In-Praise-of-Poetry.png": "9c6decd8060e2685"
       }
     },
     {
