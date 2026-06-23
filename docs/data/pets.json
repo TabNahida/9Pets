@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T16:04:01Z",
-  "total": 287,
+  "generatedAt": "2026-06-23T16:07:59Z",
+  "total": 288,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10878,6 +10878,44 @@
         "assets/spritesheets/9Pets-Tennant-Roaming-in-Delhi.webp": "3ebbd4a953a7a292",
         "assets/detail-spritesheets/9Pets-Tennant-Roaming-in-Delhi.webp": "15dcaa98a2a8f989",
         "assets/source/9Pets-Tennant-Roaming-in-Delhi.png": "f9d797baa77acacc"
+      }
+    },
+    {
+      "id": "9pets-tooth-fairy-bagel",
+      "packageName": "9Pets-Tooth-Fairy-Bagel",
+      "displayName": "Tooth Fairy",
+      "skinDisplayName": "-- Bagel",
+      "download": "downloads/9Pets-Tooth-Fairy-Bagel.zip",
+      "preview": "assets/previews/9Pets-Tooth-Fairy-Bagel.png",
+      "spritesheet": "assets/spritesheets/9Pets-Tooth-Fairy-Bagel.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Tooth-Fairy-Bagel.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/305303.png",
+      "sourceImage": "assets/source/9Pets-Tooth-Fairy-Bagel.png",
+      "sourceRepoPath": "singlebg/headicon_img/305303.png",
+      "assetId": "305303",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a5_305303_yaxian",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a5_305303_yaxian",
+      "cubismPath": "live2d/roles/v1a5_305303_yaxian",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a5_305303_yaxian",
+      "birthday": "11/27",
+      "skinName": "Bagel",
+      "isDefaultSkin": false,
+      "skinDescription": "待到黄绿色与日晕重叠——你知道，就是这一刻。",
+      "matchedName": "Tooth Fairy",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Tooth Fairy is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 305303 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 807624,
+      "assetVersions": {
+        "downloads/9Pets-Tooth-Fairy-Bagel.zip": "27428c8b3c37e598",
+        "assets/previews/9Pets-Tooth-Fairy-Bagel.png": "582ff917565cc872",
+        "assets/spritesheets/9Pets-Tooth-Fairy-Bagel.webp": "311b680c0ee5f7bd",
+        "assets/detail-spritesheets/9Pets-Tooth-Fairy-Bagel.webp": "f85693a0dea1ad83",
+        "assets/source/9Pets-Tooth-Fairy-Bagel.png": "a83125963586821d"
       }
     },
     {
