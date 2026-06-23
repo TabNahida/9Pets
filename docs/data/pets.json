@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T11:11:54Z",
-  "total": 230,
+  "generatedAt": "2026-06-23T11:15:43Z",
+  "total": 231,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8712,6 +8712,44 @@
         "assets/spritesheets/9Pets-Matilda-The-Genius-s-Holiday.webp": "4382b67b5eb32e46",
         "assets/detail-spritesheets/9Pets-Matilda-The-Genius-s-Holiday.webp": "3f39b7b1743f31d8",
         "assets/source/9Pets-Matilda-The-Genius-s-Holiday.png": "101ae48ff16819ac"
+      }
+    },
+    {
+      "id": "9pets-matilda-the-great-taste-investigator",
+      "packageName": "9Pets-Matilda-The-Great-Taste-Investigator",
+      "displayName": "Matilda",
+      "skinDisplayName": "-- The Great Taste Investigator",
+      "download": "downloads/9Pets-Matilda-The-Great-Taste-Investigator.zip",
+      "preview": "assets/previews/9Pets-Matilda-The-Great-Taste-Investigator.png",
+      "spritesheet": "assets/spritesheets/9Pets-Matilda-The-Great-Taste-Investigator.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Matilda-The-Great-Taste-Investigator.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/304104.png",
+      "sourceImage": "assets/source/9Pets-Matilda-The-Great-Taste-Investigator.png",
+      "sourceRepoPath": "singlebg/headicon_img/304104.png",
+      "assetId": "304104",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a8_304104_mded",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a8_304104_mded",
+      "cubismPath": "live2d/roles/v1a8_304104_mded",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a8_304104_mded",
+      "birthday": "6/22",
+      "skinName": "The Great Taste Investigator",
+      "isDefaultSkin": false,
+      "skinDescription": "炉窑热情，烤盘滋滋作响——调查报告新鲜出炉，亟待处理！",
+      "matchedName": "Matilda Bouanich",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Matilda is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 304104 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 876428,
+      "assetVersions": {
+        "downloads/9Pets-Matilda-The-Great-Taste-Investigator.zip": "25df3f3325d755bf",
+        "assets/previews/9Pets-Matilda-The-Great-Taste-Investigator.png": "4882f9cfcfb9ea61",
+        "assets/spritesheets/9Pets-Matilda-The-Great-Taste-Investigator.webp": "980573138565d0cb",
+        "assets/detail-spritesheets/9Pets-Matilda-The-Great-Taste-Investigator.webp": "350d1ae0320828b8",
+        "assets/source/9Pets-Matilda-The-Great-Taste-Investigator.png": "20298c6584f9bfe3"
       }
     },
     {
