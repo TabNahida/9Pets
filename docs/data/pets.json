@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T15:55:58Z",
-  "total": 285,
+  "generatedAt": "2026-06-23T16:00:02Z",
+  "total": 286,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10764,6 +10764,44 @@
         "assets/spritesheets/9Pets-Spathodea-Sparrow-Hummingbird-Flower.webp": "f056a84fd1fc5d91",
         "assets/detail-spritesheets/9Pets-Spathodea-Sparrow-Hummingbird-Flower.webp": "248e05e9d97826d7",
         "assets/source/9Pets-Spathodea-Sparrow-Hummingbird-Flower.png": "b8e2c68526881f05"
+      }
+    },
+    {
+      "id": "9pets-tennant-dueling-connoisseurs",
+      "packageName": "9Pets-Tennant-Dueling-Connoisseurs",
+      "displayName": "Tennant",
+      "skinDisplayName": "-- Dueling Connoisseurs",
+      "download": "downloads/9Pets-Tennant-Dueling-Connoisseurs.zip",
+      "preview": "assets/previews/9Pets-Tennant-Dueling-Connoisseurs.png",
+      "spritesheet": "assets/spritesheets/9Pets-Tennant-Dueling-Connoisseurs.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Tennant-Dueling-Connoisseurs.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/304304.png",
+      "sourceImage": "assets/source/9Pets-Tennant-Dueling-Connoisseurs.png",
+      "sourceRepoPath": "singlebg/headicon_img/304304.png",
+      "assetId": "304304",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a3_304304_tnt",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a3_304304_tnt",
+      "cubismPath": "live2d/roles/v2a3_304304_tnt",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a3_304304_tnt",
+      "birthday": "9/8",
+      "skinName": "Dueling Connoisseurs",
+      "isDefaultSkin": false,
+      "skinDescription": "精准、果决，以及一点点必要的冷酷，她精于此道。",
+      "matchedName": "Tennant",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Tennant is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 304304 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 720941,
+      "assetVersions": {
+        "downloads/9Pets-Tennant-Dueling-Connoisseurs.zip": "613f34663d40e043",
+        "assets/previews/9Pets-Tennant-Dueling-Connoisseurs.png": "4aeb5d698bf10fb8",
+        "assets/spritesheets/9Pets-Tennant-Dueling-Connoisseurs.webp": "bab54b7d95fafb4c",
+        "assets/detail-spritesheets/9Pets-Tennant-Dueling-Connoisseurs.webp": "3f9371b766d4128c",
+        "assets/source/9Pets-Tennant-Dueling-Connoisseurs.png": "9879199d9e1496b8"
       }
     },
     {
