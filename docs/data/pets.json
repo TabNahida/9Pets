@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T09:45:45Z",
-  "total": 213,
+  "generatedAt": "2026-06-23T09:49:59Z",
+  "total": 214,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8104,6 +8104,44 @@
         "assets/spritesheets/9Pets-Liang-Yue-The-Moon-s-Reflection.webp": "329d381d039b26c4",
         "assets/detail-spritesheets/9Pets-Liang-Yue-The-Moon-s-Reflection.webp": "3029502a3bd093e4",
         "assets/source/9Pets-Liang-Yue-The-Moon-s-Reflection.png": "e0b964ca98a155cb"
+      }
+    },
+    {
+      "id": "9pets-lilya-the-barents-witch",
+      "packageName": "9Pets-Lilya-The-Barents-Witch",
+      "displayName": "Lilya",
+      "skinDisplayName": "-- The Barents Witch",
+      "download": "downloads/9Pets-Lilya-The-Barents-Witch.zip",
+      "preview": "assets/previews/9Pets-Lilya-The-Barents-Witch.png",
+      "spritesheet": "assets/spritesheets/9Pets-Lilya-The-Barents-Witch.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Lilya-The-Barents-Witch.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/300402.png",
+      "sourceImage": "assets/source/9Pets-Lilya-The-Barents-Witch.png",
+      "sourceRepoPath": "singlebg/headicon_img/300402.png",
+      "assetId": "300402",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/300402_hongnujian",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/300402_hongnujian",
+      "cubismPath": "live2d/roles/300402_hongnujian",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/300402_hongnujian",
+      "birthday": "11/14",
+      "skinName": "The Barents Witch",
+      "isDefaultSkin": false,
+      "skinDescription": "或许她是闯了点祸，但那一定无伤大雅。",
+      "matchedName": "Lilya",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Lilya is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 300402 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1051033,
+      "assetVersions": {
+        "downloads/9Pets-Lilya-The-Barents-Witch.zip": "a52ae879aee9b53b",
+        "assets/previews/9Pets-Lilya-The-Barents-Witch.png": "a8cfa0a5f1da54a6",
+        "assets/spritesheets/9Pets-Lilya-The-Barents-Witch.webp": "8bc3cabaf8b0073b",
+        "assets/detail-spritesheets/9Pets-Lilya-The-Barents-Witch.webp": "bb2a7765893f9363",
+        "assets/source/9Pets-Lilya-The-Barents-Witch.png": "882ec8958cd975ef"
       }
     }
   ],
