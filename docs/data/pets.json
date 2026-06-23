@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T12:14:30Z",
-  "total": 245,
+  "generatedAt": "2026-06-23T12:19:05Z",
+  "total": 246,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9320,6 +9320,44 @@
         "assets/spritesheets/9Pets-Ms-NewBabel-Raise-the-Bid.webp": "626e4757c527f0e8",
         "assets/detail-spritesheets/9Pets-Ms-NewBabel-Raise-the-Bid.webp": "d730807e9c354d60",
         "assets/source/9Pets-Ms-NewBabel-Raise-the-Bid.png": "7bad96476ebe0d2f"
+      }
+    },
+    {
+      "id": "9pets-ms-stranger-down-a-dark-path",
+      "packageName": "9Pets-Ms-Stranger-Down-a-Dark-Path",
+      "displayName": "Ms. Stranger",
+      "skinDisplayName": "-- Down a Dark Path",
+      "download": "downloads/9Pets-Ms-Stranger-Down-a-Dark-Path.zip",
+      "preview": "assets/previews/9Pets-Ms-Stranger-Down-a-Dark-Path.png",
+      "spritesheet": "assets/spritesheets/9Pets-Ms-Stranger-Down-a-Dark-Path.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Ms-Stranger-Down-a-Dark-Path.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/314702.png",
+      "sourceImage": "assets/source/9Pets-Ms-Stranger-Down-a-Dark-Path.png",
+      "sourceRepoPath": "singlebg/headicon_img/314702.png",
+      "assetId": "314702",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a7_314702_wmz",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a7_314702_wmz",
+      "cubismPath": "live2d/roles/v3a7_314702_wmz",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a7_314702_wmz",
+      "birthday": "4/13",
+      "skinName": "Down a Dark Path",
+      "isDefaultSkin": false,
+      "skinDescription": "仍在向死而行。但仅此一次，得以独享。",
+      "matchedName": "Ms. Stranger",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Ms. Stranger is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 314702 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 919024,
+      "assetVersions": {
+        "downloads/9Pets-Ms-Stranger-Down-a-Dark-Path.zip": "302662d429a022e1",
+        "assets/previews/9Pets-Ms-Stranger-Down-a-Dark-Path.png": "ff088da925dacefb",
+        "assets/spritesheets/9Pets-Ms-Stranger-Down-a-Dark-Path.webp": "2f6e3e3f774848a3",
+        "assets/detail-spritesheets/9Pets-Ms-Stranger-Down-a-Dark-Path.webp": "08ac1c2185881c5d",
+        "assets/source/9Pets-Ms-Stranger-Down-a-Dark-Path.png": "38d83a27e15c7a2b"
       }
     }
   ],
