@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T13:05:38Z",
-  "total": 252,
+  "generatedAt": "2026-06-23T13:10:04Z",
+  "total": 253,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9586,6 +9586,44 @@
         "assets/spritesheets/9Pets-Necrologist-Last-Words.webp": "e8c3f5540c5cae2f",
         "assets/detail-spritesheets/9Pets-Necrologist-Last-Words.webp": "5f408ea9ede21b86",
         "assets/source/9Pets-Necrologist-Last-Words.png": "8f2f4b8e5cc49983"
+      }
+    },
+    {
+      "id": "9pets-noire-on-the-red-carpet",
+      "packageName": "9Pets-Noire-On-the-Red-Carpet",
+      "displayName": "Noire",
+      "skinDisplayName": "-- On the Red Carpet",
+      "download": "downloads/9Pets-Noire-On-the-Red-Carpet.zip",
+      "preview": "assets/previews/9Pets-Noire-On-the-Red-Carpet.png",
+      "spritesheet": "assets/spritesheets/9Pets-Noire-On-the-Red-Carpet.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Noire-On-the-Red-Carpet.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/311102.png",
+      "sourceImage": "assets/source/9Pets-Noire-On-the-Red-Carpet.png",
+      "sourceRepoPath": "singlebg/headicon_img/311102.png",
+      "assetId": "311102",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a5_311102_flsd",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a5_311102_flsd",
+      "cubismPath": "live2d/roles/v2a5_311102_feilinshiduo",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a5_311102_feilinshiduo",
+      "birthday": "2/14",
+      "skinName": "On the Red Carpet",
+      "isDefaultSkin": false,
+      "skinDescription": "红毯与金杯，她只瞥一眼。",
+      "matchedName": "Noire",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Noire is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 311102 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 779394,
+      "assetVersions": {
+        "downloads/9Pets-Noire-On-the-Red-Carpet.zip": "3018802892175ca6",
+        "assets/previews/9Pets-Noire-On-the-Red-Carpet.png": "a98eff9703214ec5",
+        "assets/spritesheets/9Pets-Noire-On-the-Red-Carpet.webp": "065b8a641fc83b05",
+        "assets/detail-spritesheets/9Pets-Noire-On-the-Red-Carpet.webp": "c4cdd36fc4180b00",
+        "assets/source/9Pets-Noire-On-the-Red-Carpet.png": "af3c853274f7874b"
       }
     }
   ],
