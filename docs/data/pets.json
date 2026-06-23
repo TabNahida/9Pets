@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T22:28:29Z",
+  "generatedAt": "2026-06-23T22:30:59Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 155,
+  "cuteTotal": 156,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -18493,6 +18493,48 @@
         "assets/spritesheets/9Pets-Cute-Balloon-Party-The-Folk-Song-of-Silver-Butterfly.webp": "595b2d0749a84a20",
         "assets/detail-spritesheets/9Pets-Cute-Balloon-Party-The-Folk-Song-of-Silver-Butterfly.webp": "f382d9e5ec7342a0",
         "assets/source/9Pets-Cute-Balloon-Party-The-Folk-Song-of-Silver-Butterfly.png": "7e878d1d44ea3bd6"
+      }
+    },
+    {
+      "id": "9pets-cute-barbara-a-meadow-in-her-dreams",
+      "packageName": "9Pets-Cute-Barbara-A-Meadow-in-Her-Dreams",
+      "normalPackageName": "9Pets-Barbara-A-Meadow-in-Her-Dreams",
+      "normalId": "9pets-barbara-a-meadow-in-her-dreams",
+      "displayName": "Barbara",
+      "skinDisplayName": "-- A Meadow in Her Dreams",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Barbara-A-Meadow-in-Her-Dreams.zip",
+      "preview": "assets/previews/9Pets-Cute-Barbara-A-Meadow-in-Her-Dreams.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Barbara-A-Meadow-in-Her-Dreams.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Barbara-A-Meadow-in-Her-Dreams.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a1_309902_syg",
+      "sourceImage": "assets/source/9Pets-Cute-Barbara-A-Meadow-in-Her-Dreams.png",
+      "sourceRepoPath": "roles/v2a1_309902_syg",
+      "assetId": "309902",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a1_309902_syg",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a1_309902_syg",
+      "cubismPath": "live2d/roles/v2a1_309902_syg",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a1_309902_syg",
+      "birthday": "7/5",
+      "skinName": "A Meadow in Her Dreams",
+      "isDefaultSkin": false,
+      "skinDescription": "一处乐园，一处无拘无束的栖所。",
+      "matchedName": "Barbara",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Barbara has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1142566,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Barbara-A-Meadow-in-Her-Dreams.zip": "e27b4c9f92f970b2",
+        "assets/previews/9Pets-Cute-Barbara-A-Meadow-in-Her-Dreams.png": "5a434519d425348e",
+        "assets/spritesheets/9Pets-Cute-Barbara-A-Meadow-in-Her-Dreams.webp": "eadd88d53157bb9f",
+        "assets/detail-spritesheets/9Pets-Cute-Barbara-A-Meadow-in-Her-Dreams.webp": "4de69440327398aa",
+        "assets/source/9Pets-Cute-Barbara-A-Meadow-in-Her-Dreams.png": "6509540a4a13f9d0"
       }
     }
   ]
