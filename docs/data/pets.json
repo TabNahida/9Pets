@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T22:20:58Z",
+  "generatedAt": "2026-06-23T22:23:28Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 152,
+  "cuteTotal": 153,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -18325,6 +18325,48 @@
         "assets/spritesheets/9Pets-Cute-Avgust-His-Own-Corner-on-the-Square.webp": "f29932d706cacf4f",
         "assets/detail-spritesheets/9Pets-Cute-Avgust-His-Own-Corner-on-the-Square.webp": "154959ce077edccf",
         "assets/source/9Pets-Cute-Avgust-His-Own-Corner-on-the-Square.png": "1d66ca1c35f4b1e8"
+      }
+    },
+    {
+      "id": "9pets-cute-baby-blue-on-the-sparrow-hills",
+      "packageName": "9Pets-Cute-Baby-Blue-On-the-Sparrow-Hills",
+      "normalPackageName": "9Pets-Baby-Blue-On-the-Sparrow-Hills",
+      "normalId": "9pets-baby-blue-on-the-sparrow-hills",
+      "displayName": "Baby Blue",
+      "skinDisplayName": "-- On the Sparrow Hills",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Baby-Blue-On-the-Sparrow-Hills.zip",
+      "preview": "assets/previews/9Pets-Cute-Baby-Blue-On-the-Sparrow-Hills.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Baby-Blue-On-the-Sparrow-Hills.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Baby-Blue-On-the-Sparrow-Hills.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a8_301603_yingerlan",
+      "sourceImage": "assets/source/9Pets-Cute-Baby-Blue-On-the-Sparrow-Hills.png",
+      "sourceRepoPath": "roles/v1a8_301603_yingerlan",
+      "assetId": "301603",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a8_301603_yingerlan",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a8_301603_yingerlan",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "3/14",
+      "skinName": "On the Sparrow Hills",
+      "isDefaultSkin": false,
+      "skinDescription": "瞧，我们太阳底下最整洁、最美丽的花园。别的孩子的仙境。",
+      "matchedName": "Baby Blue",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Baby Blue has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1602279,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Baby-Blue-On-the-Sparrow-Hills.zip": "eac8bf720f89938c",
+        "assets/previews/9Pets-Cute-Baby-Blue-On-the-Sparrow-Hills.png": "4b38a996a2b87aa8",
+        "assets/spritesheets/9Pets-Cute-Baby-Blue-On-the-Sparrow-Hills.webp": "7e35e24b45371e96",
+        "assets/detail-spritesheets/9Pets-Cute-Baby-Blue-On-the-Sparrow-Hills.webp": "1acfbc00db57dad9",
+        "assets/source/9Pets-Cute-Baby-Blue-On-the-Sparrow-Hills.png": "de32c225b3ee24ff"
       }
     },
     {
