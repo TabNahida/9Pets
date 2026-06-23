@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T19:09:51Z",
-  "total": 199,
+  "generatedAt": "2026-06-23T07:22:02Z",
+  "total": 200,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7572,6 +7572,44 @@
         "assets/spritesheets/9Pets-Jiu-Niangzi-Let-There-Be-Way-Out.webp": "f7bf1e058c66ed41",
         "assets/detail-spritesheets/9Pets-Jiu-Niangzi-Let-There-Be-Way-Out.webp": "fa761b916ac3fb45",
         "assets/source/9Pets-Jiu-Niangzi-Let-There-Be-Way-Out.png": "128e9ce6755e0f02"
+      }
+    },
+    {
+      "id": "9pets-kaalaa-baunaa-the-star-reader",
+      "packageName": "9Pets-Kaalaa-Baunaa-The-Star-Reader",
+      "displayName": "Kaalaa Baunaa",
+      "skinDisplayName": "-- The Star Reader",
+      "download": "downloads/9Pets-Kaalaa-Baunaa-The-Star-Reader.zip",
+      "preview": "assets/previews/9Pets-Kaalaa-Baunaa-The-Star-Reader.png",
+      "spritesheet": "assets/spritesheets/9Pets-Kaalaa-Baunaa-The-Star-Reader.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Kaalaa-Baunaa-The-Star-Reader.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/307002.png",
+      "sourceImage": "assets/source/9Pets-Kaalaa-Baunaa-The-Star-Reader.png",
+      "sourceRepoPath": "singlebg/headicon_img/307002.png",
+      "assetId": "307002",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a3_307002_jialabona",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a3_307002_jialabona",
+      "cubismPath": "live2d/roles/307002_jialabona",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/307002_jialabona",
+      "birthday": "7/15",
+      "skinName": "The Star Reader",
+      "isDefaultSkin": false,
+      "skinDescription": "人与群星并无不同。",
+      "matchedName": "Black Dwarf",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Kaalaa Baunaa is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 307002 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1025889,
+      "assetVersions": {
+        "downloads/9Pets-Kaalaa-Baunaa-The-Star-Reader.zip": "3fac76fb6127b27d",
+        "assets/previews/9Pets-Kaalaa-Baunaa-The-Star-Reader.png": "d2d52bd47f722d97",
+        "assets/spritesheets/9Pets-Kaalaa-Baunaa-The-Star-Reader.webp": "b45e48e0559a18ca",
+        "assets/detail-spritesheets/9Pets-Kaalaa-Baunaa-The-Star-Reader.webp": "9b0dd62396da30bf",
+        "assets/source/9Pets-Kaalaa-Baunaa-The-Star-Reader.png": "f10d8c07614d03ce"
       }
     }
   ],
