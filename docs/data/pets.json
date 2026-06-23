@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T13:10:04Z",
-  "total": 253,
+  "generatedAt": "2026-06-23T13:14:53Z",
+  "total": 254,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9624,6 +9624,44 @@
         "assets/spritesheets/9Pets-Noire-On-the-Red-Carpet.webp": "065b8a641fc83b05",
         "assets/detail-spritesheets/9Pets-Noire-On-the-Red-Carpet.webp": "c4cdd36fc4180b00",
         "assets/source/9Pets-Noire-On-the-Red-Carpet.png": "af3c853274f7874b"
+      }
+    },
+    {
+      "id": "9pets-noire-the-trapped-trapmaster",
+      "packageName": "9Pets-Noire-The-Trapped-Trapmaster",
+      "displayName": "Noire",
+      "skinDisplayName": "-- The Trapped Trapmaster",
+      "download": "downloads/9Pets-Noire-The-Trapped-Trapmaster.zip",
+      "preview": "assets/previews/9Pets-Noire-The-Trapped-Trapmaster.png",
+      "spritesheet": "assets/spritesheets/9Pets-Noire-The-Trapped-Trapmaster.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Noire-The-Trapped-Trapmaster.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/311103.png",
+      "sourceImage": "assets/source/9Pets-Noire-The-Trapped-Trapmaster.png",
+      "sourceRepoPath": "singlebg/headicon_img/311103.png",
+      "assetId": "311103",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a4_311103_flsd",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a4_311103_flsd",
+      "cubismPath": "live2d/roles/v3a4_311103_flsd",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a4_311103_flsd",
+      "birthday": "2/14",
+      "skinName": "The Trapped Trapmaster",
+      "isDefaultSkin": false,
+      "skinDescription": "容易看破假机关，却难通晓真世情。",
+      "matchedName": "Noire",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Noire is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 311103 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 855949,
+      "assetVersions": {
+        "downloads/9Pets-Noire-The-Trapped-Trapmaster.zip": "e89520cace712f5f",
+        "assets/previews/9Pets-Noire-The-Trapped-Trapmaster.png": "94f365c435ac825c",
+        "assets/spritesheets/9Pets-Noire-The-Trapped-Trapmaster.webp": "10978a602c47e635",
+        "assets/detail-spritesheets/9Pets-Noire-The-Trapped-Trapmaster.webp": "4895efb29247daab",
+        "assets/source/9Pets-Noire-The-Trapped-Trapmaster.png": "5ac4e9665196a3ec"
       }
     }
   ],
