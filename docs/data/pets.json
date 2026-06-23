@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T10:46:48Z",
-  "total": 225,
+  "generatedAt": "2026-06-23T10:51:17Z",
+  "total": 226,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8560,6 +8560,44 @@
         "assets/spritesheets/9Pets-Marcus-On-the-White-Sand.webp": "5799607d5e586576",
         "assets/detail-spritesheets/9Pets-Marcus-On-the-White-Sand.webp": "c7560400bf889a1f",
         "assets/source/9Pets-Marcus-On-the-White-Sand.png": "a85d727af6b14888"
+      }
+    },
+    {
+      "id": "9pets-marcus-to-the-gates-of-the-underworld",
+      "packageName": "9Pets-Marcus-To-the-Gates-of-the-Underworld",
+      "displayName": "Marcus",
+      "skinDisplayName": "-- To the Gates of the Underworld",
+      "download": "downloads/9Pets-Marcus-To-the-Gates-of-the-Underworld.zip",
+      "preview": "assets/previews/9Pets-Marcus-To-the-Gates-of-the-Underworld.png",
+      "spritesheet": "assets/spritesheets/9Pets-Marcus-To-the-Gates-of-the-Underworld.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Marcus-To-the-Gates-of-the-Underworld.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/306504.png",
+      "sourceImage": "assets/source/9Pets-Marcus-To-the-Gates-of-the-Underworld.png",
+      "sourceRepoPath": "singlebg/headicon_img/306504.png",
+      "assetId": "306504",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/s01_306504_mks",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/s01_306504_mks",
+      "cubismPath": "live2d/roles/s01_306504_makusi",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/s01_306504_makusi",
+      "birthday": "1/12",
+      "skinName": "To the Gates of the Underworld",
+      "isDefaultSkin": false,
+      "skinDescription": "诗歌记得，记得一切。",
+      "matchedName": "Marcus",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Marcus is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 306504 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1802895,
+      "assetVersions": {
+        "downloads/9Pets-Marcus-To-the-Gates-of-the-Underworld.zip": "280cab735252c3fc",
+        "assets/previews/9Pets-Marcus-To-the-Gates-of-the-Underworld.png": "ebb2f31eeb0eafca",
+        "assets/spritesheets/9Pets-Marcus-To-the-Gates-of-the-Underworld.webp": "d98929c56ac46cd1",
+        "assets/detail-spritesheets/9Pets-Marcus-To-the-Gates-of-the-Underworld.webp": "dd00027f86298065",
+        "assets/source/9Pets-Marcus-To-the-Gates-of-the-Underworld.png": "b754c56bcb309707"
       }
     }
   ],
