@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T22:13:36Z",
+  "generatedAt": "2026-06-23T22:16:03Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 149,
+  "cuteTotal": 150,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -18241,6 +18241,48 @@
         "assets/spritesheets/9Pets-Cute-Argus-All-Seeing-Light.webp": "a09ab6bfd9ba0dec",
         "assets/detail-spritesheets/9Pets-Cute-Argus-All-Seeing-Light.webp": "f7f4eebe45b38ae4",
         "assets/source/9Pets-Cute-Argus-All-Seeing-Light.png": "cb41ec0ae4f4ecb1"
+      }
+    },
+    {
+      "id": "9pets-cute-argus-starbound-bounty-hunter",
+      "packageName": "9Pets-Cute-Argus-Starbound-Bounty-Hunter",
+      "normalPackageName": "9Pets-Argus-Starbound-Bounty-Hunter",
+      "normalId": "9pets-argus-starbound-bounty-hunter",
+      "displayName": "Argus",
+      "skinDisplayName": "-- Starbound Bounty Hunter",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Argus-Starbound-Bounty-Hunter.zip",
+      "preview": "assets/previews/9Pets-Cute-Argus-Starbound-Bounty-Hunter.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Argus-Starbound-Bounty-Hunter.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Argus-Starbound-Bounty-Hunter.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a7_309703_aegs",
+      "sourceImage": "assets/source/9Pets-Cute-Argus-Starbound-Bounty-Hunter.png",
+      "sourceRepoPath": "roles/v2a7_309703_aegs",
+      "assetId": "309703",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a7_309703_aegs",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a7_309703_aegs",
+      "cubismPath": "live2d/roles/v2a7_309703_aegs",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a7_309703_aegs",
+      "birthday": "12/11",
+      "skinName": "Starbound Bounty Hunter",
+      "isDefaultSkin": false,
+      "skinDescription": "追猎的子弹一息不停，直至光年外的遥远星带。",
+      "matchedName": "Argus",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Argus has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1203292,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Argus-Starbound-Bounty-Hunter.zip": "7e52a31c38e01200",
+        "assets/previews/9Pets-Cute-Argus-Starbound-Bounty-Hunter.png": "dcd2baeafdec6f90",
+        "assets/spritesheets/9Pets-Cute-Argus-Starbound-Bounty-Hunter.webp": "5266beadf5697898",
+        "assets/detail-spritesheets/9Pets-Cute-Argus-Starbound-Bounty-Hunter.webp": "5b5b2a35b25bd66d",
+        "assets/source/9Pets-Cute-Argus-Starbound-Bounty-Hunter.png": "4386873f4c5efab7"
       }
     }
   ]
