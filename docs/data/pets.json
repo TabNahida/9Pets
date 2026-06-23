@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T13:58:37Z",
-  "total": 261,
+  "generatedAt": "2026-06-23T14:03:00Z",
+  "total": 262,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9928,6 +9928,44 @@
         "assets/spritesheets/9Pets-Recoleta-The-Weight-of-Words.webp": "c118667c0ea582e9",
         "assets/detail-spritesheets/9Pets-Recoleta-The-Weight-of-Words.webp": "e9ccb8c5343d0f5d",
         "assets/source/9Pets-Recoleta-The-Weight-of-Words.png": "0e2c51ca64b875a7"
+      }
+    },
+    {
+      "id": "9pets-regulus-take-off-to-the-future",
+      "packageName": "9Pets-Regulus-Take-Off-To-the-Future",
+      "displayName": "Regulus",
+      "skinDisplayName": "-- Take Off! To the Future",
+      "download": "downloads/9Pets-Regulus-Take-Off-To-the-Future.zip",
+      "preview": "assets/previews/9Pets-Regulus-Take-Off-To-the-Future.png",
+      "spritesheet": "assets/spritesheets/9Pets-Regulus-Take-Off-To-the-Future.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Regulus-Take-Off-To-the-Future.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/302504.png",
+      "sourceImage": "assets/source/9Pets-Regulus-Take-Off-To-the-Future.png",
+      "sourceRepoPath": "singlebg/headicon_img/302504.png",
+      "assetId": "302504",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a9_302504_xt",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a9_302504_xt",
+      "cubismPath": "live2d/roles/v1a9_302504_xingti",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a9_302504_xingti",
+      "birthday": "8/15",
+      "skinName": "Take Off! To the Future",
+      "isDefaultSkin": false,
+      "skinDescription": "HELLO——！欢迎回到海盗电台！！！",
+      "matchedName": "Regulus",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Regulus is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 302504 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 857129,
+      "assetVersions": {
+        "downloads/9Pets-Regulus-Take-Off-To-the-Future.zip": "6003dca3fa60f819",
+        "assets/previews/9Pets-Regulus-Take-Off-To-the-Future.png": "987085b8476e8962",
+        "assets/spritesheets/9Pets-Regulus-Take-Off-To-the-Future.webp": "a8267ffd53b9cf04",
+        "assets/detail-spritesheets/9Pets-Regulus-Take-Off-To-the-Future.webp": "42d647f951b49606",
+        "assets/source/9Pets-Regulus-Take-Off-To-the-Future.png": "98707777339ce58c"
       }
     }
   ],
