@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T13:43:09Z",
-  "total": 258,
+  "generatedAt": "2026-06-23T13:49:35Z",
+  "total": 259,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9814,6 +9814,44 @@
         "assets/spritesheets/9Pets-Ramona-Between-Spirits-and-Blossoms.webp": "f6a6f5483152a821",
         "assets/detail-spritesheets/9Pets-Ramona-Between-Spirits-and-Blossoms.webp": "d461b330c7fc5010",
         "assets/source/9Pets-Ramona-Between-Spirits-and-Blossoms.png": "80d8edb48ba098dc"
+      }
+    },
+    {
+      "id": "9pets-recoleta-foreword",
+      "packageName": "9Pets-Recoleta-Foreword",
+      "displayName": "Recoleta",
+      "skinDisplayName": "-- Foreword",
+      "download": "downloads/9Pets-Recoleta-Foreword.zip",
+      "preview": "assets/previews/9Pets-Recoleta-Foreword.png",
+      "spritesheet": "assets/spritesheets/9Pets-Recoleta-Foreword.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Recoleta-Foreword.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/311402.png",
+      "sourceImage": "assets/source/9Pets-Recoleta-Foreword.png",
+      "sourceRepoPath": "singlebg/headicon_img/311402.png",
+      "assetId": "311402",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a6_311402_xgj",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a6_311402_xgj",
+      "cubismPath": "live2d/roles/v2a6_311402_xgj",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a6_311402_xgj",
+      "birthday": "7/15",
+      "skinName": "Foreword",
+      "isDefaultSkin": false,
+      "skinDescription": "题写在卷首的结局。",
+      "matchedName": "Recoleta",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Recoleta is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 311402 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1203497,
+      "assetVersions": {
+        "downloads/9Pets-Recoleta-Foreword.zip": "a13feb20f4330de3",
+        "assets/previews/9Pets-Recoleta-Foreword.png": "e7bf586501a8bac8",
+        "assets/spritesheets/9Pets-Recoleta-Foreword.webp": "0bbf16e6dc2daf36",
+        "assets/detail-spritesheets/9Pets-Recoleta-Foreword.webp": "15c2d76b9d376a21",
+        "assets/source/9Pets-Recoleta-Foreword.png": "8af77d8e10fb5d9b"
       }
     }
   ],
