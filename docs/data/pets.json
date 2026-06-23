@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T17:22:15Z",
-  "total": 303,
+  "generatedAt": "2026-06-23T17:27:09Z",
+  "total": 304,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -11486,6 +11486,44 @@
         "assets/spritesheets/9Pets-Willow-Lone-Dancer.webp": "60001ebc95e36039",
         "assets/detail-spritesheets/9Pets-Willow-Lone-Dancer.webp": "233a53c89a94b699",
         "assets/source/9Pets-Willow-Lone-Dancer.png": "f1ecd1c51e134449"
+      }
+    },
+    {
+      "id": "9pets-willow-reborn-and-restored",
+      "packageName": "9Pets-Willow-Reborn-and-Restored",
+      "displayName": "Willow",
+      "skinDisplayName": "-- Reborn and Restored",
+      "download": "downloads/9Pets-Willow-Reborn-and-Restored.zip",
+      "preview": "assets/previews/9Pets-Willow-Reborn-and-Restored.png",
+      "spritesheet": "assets/spritesheets/9Pets-Willow-Reborn-and-Restored.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Willow-Reborn-and-Restored.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/310404.png",
+      "sourceImage": "assets/source/9Pets-Willow-Reborn-and-Restored.png",
+      "sourceRepoPath": "singlebg/headicon_img/310404.png",
+      "assetId": "310404",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a4_310404_ddg",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a4_310404_ddg",
+      "cubismPath": "live2d/roles/v3a4_310404_ddg",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a4_310404_ddg",
+      "birthday": "11/1",
+      "skinName": "Reborn and Restored",
+      "isDefaultSkin": false,
+      "skinDescription": "钗影摇金柳，只待春燕斜。",
+      "matchedName": "Willow",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Willow is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 310404 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1239874,
+      "assetVersions": {
+        "downloads/9Pets-Willow-Reborn-and-Restored.zip": "6d95417fb8e0f511",
+        "assets/previews/9Pets-Willow-Reborn-and-Restored.png": "e2564dd2c3668e9b",
+        "assets/spritesheets/9Pets-Willow-Reborn-and-Restored.webp": "7b7e2b26bf305f88",
+        "assets/detail-spritesheets/9Pets-Willow-Reborn-and-Restored.webp": "e92281027f98bbd0",
+        "assets/source/9Pets-Willow-Reborn-and-Restored.png": "f392cd57975a535f"
       }
     },
     {
