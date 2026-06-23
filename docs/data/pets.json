@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T16:42:50Z",
-  "total": 296,
+  "generatedAt": "2026-06-23T16:47:24Z",
+  "total": 297,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -11220,6 +11220,44 @@
         "assets/spritesheets/9Pets-Ulrich-Universe-in-the-Tank.webp": "97a023ab9bc0c85d",
         "assets/detail-spritesheets/9Pets-Ulrich-Universe-in-the-Tank.webp": "176b12375d1f7d87",
         "assets/source/9Pets-Ulrich-Universe-in-the-Tank.png": "e46800547ddf6c8f"
+      }
+    },
+    {
+      "id": "9pets-vila-by-the-painted-city",
+      "packageName": "9Pets-Vila-By-the-Painted-City",
+      "displayName": "Vila",
+      "skinDisplayName": "-- By the Painted City",
+      "download": "downloads/9Pets-Vila-By-the-Painted-City.zip",
+      "preview": "assets/previews/9Pets-Vila-By-the-Painted-City.png",
+      "spritesheet": "assets/spritesheets/9Pets-Vila-By-the-Painted-City.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Vila-By-the-Painted-City.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/308703.png",
+      "sourceImage": "assets/source/9Pets-Vila-By-the-Painted-City.png",
+      "sourceRepoPath": "singlebg/headicon_img/308703.png",
+      "assetId": "308703",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a2_308703_wl",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a2_308703_wl",
+      "cubismPath": "live2d/roles/v2a2_308703_wl",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a2_308703_wl",
+      "birthday": "4/6",
+      "skinName": "By the Painted City",
+      "isDefaultSkin": false,
+      "skinDescription": "与那熟悉的纯白迥异的七彩世界。",
+      "matchedName": "Vila",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Vila is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 308703 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1091405,
+      "assetVersions": {
+        "downloads/9Pets-Vila-By-the-Painted-City.zip": "5d16d2ad0c911413",
+        "assets/previews/9Pets-Vila-By-the-Painted-City.png": "aafa8df6a21e210c",
+        "assets/spritesheets/9Pets-Vila-By-the-Painted-City.webp": "8673cc0670bfbf80",
+        "assets/detail-spritesheets/9Pets-Vila-By-the-Painted-City.webp": "47139610c55ecd81",
+        "assets/source/9Pets-Vila-By-the-Painted-City.png": "22bc0315ff490a2f"
       }
     },
     {
