@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T15:51:34Z",
-  "total": 284,
+  "generatedAt": "2026-06-23T15:55:58Z",
+  "total": 285,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10802,6 +10802,44 @@
         "assets/spritesheets/9Pets-Tennant-Gent-Cullinan.webp": "9074b36a09bf03e6",
         "assets/detail-spritesheets/9Pets-Tennant-Gent-Cullinan.webp": "5aa0fcb3bb42db59",
         "assets/source/9Pets-Tennant-Gent-Cullinan.png": "7327efd26eecc4b4"
+      }
+    },
+    {
+      "id": "9pets-tennant-roaming-in-delhi",
+      "packageName": "9Pets-Tennant-Roaming-in-Delhi",
+      "displayName": "Tennant",
+      "skinDisplayName": "-- Roaming in Delhi",
+      "download": "downloads/9Pets-Tennant-Roaming-in-Delhi.zip",
+      "preview": "assets/previews/9Pets-Tennant-Roaming-in-Delhi.png",
+      "spritesheet": "assets/spritesheets/9Pets-Tennant-Roaming-in-Delhi.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Tennant-Roaming-in-Delhi.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/304303.png",
+      "sourceImage": "assets/source/9Pets-Tennant-Roaming-in-Delhi.png",
+      "sourceRepoPath": "singlebg/headicon_img/304303.png",
+      "assetId": "304303",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a3_304303_tannante",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a3_304303_tannante",
+      "cubismPath": "live2d/roles/304303_tannante",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/304303_tannante",
+      "birthday": "9/8",
+      "skinName": "Roaming in Delhi",
+      "isDefaultSkin": false,
+      "skinDescription": "她以玩赏的目光寻味曾经。",
+      "matchedName": "Tennant",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Tennant is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 304303 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 995675,
+      "assetVersions": {
+        "downloads/9Pets-Tennant-Roaming-in-Delhi.zip": "3bf96f534f2ed4f4",
+        "assets/previews/9Pets-Tennant-Roaming-in-Delhi.png": "2637b145143f8434",
+        "assets/spritesheets/9Pets-Tennant-Roaming-in-Delhi.webp": "3ebbd4a953a7a292",
+        "assets/detail-spritesheets/9Pets-Tennant-Roaming-in-Delhi.webp": "15dcaa98a2a8f989",
+        "assets/source/9Pets-Tennant-Roaming-in-Delhi.png": "f9d797baa77acacc"
       }
     }
   ],
