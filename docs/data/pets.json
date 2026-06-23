@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T12:19:05Z",
-  "total": 246,
+  "generatedAt": "2026-06-23T12:26:57Z",
+  "total": 247,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9358,6 +9358,44 @@
         "assets/spritesheets/9Pets-Ms-Stranger-Down-a-Dark-Path.webp": "2f6e3e3f774848a3",
         "assets/detail-spritesheets/9Pets-Ms-Stranger-Down-a-Dark-Path.webp": "08ac1c2185881c5d",
         "assets/source/9Pets-Ms-Stranger-Down-a-Dark-Path.png": "38d83a27e15c7a2b"
+      }
+    },
+    {
+      "id": "9pets-name-day-before-the-light-fades",
+      "packageName": "9Pets-Name-Day-Before-the-Light-Fades",
+      "displayName": "Name Day",
+      "skinDisplayName": "-- Before the Light Fades",
+      "download": "downloads/9Pets-Name-Day-Before-the-Light-Fades.zip",
+      "preview": "assets/previews/9Pets-Name-Day-Before-the-Light-Fades.png",
+      "spritesheet": "assets/spritesheets/9Pets-Name-Day-Before-the-Light-Fades.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Name-Day-Before-the-Light-Fades.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/311802.png",
+      "sourceImage": "assets/source/9Pets-Name-Day-Before-the-Light-Fades.png",
+      "sourceRepoPath": "singlebg/headicon_img/311802.png",
+      "assetId": "311802",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a7_311802_mmr",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a7_311802_mmr",
+      "cubismPath": "live2d/roles/v2a7_311802_mmr",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a7_311802_mmr",
+      "birthday": "1/6",
+      "skinName": "Before the Light Fades",
+      "isDefaultSkin": false,
+      "skinDescription": "沿刀锋流淌，偶尔燃烧，适时熄灭。",
+      "matchedName": "Name Day",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Name Day is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 311802 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1005491,
+      "assetVersions": {
+        "downloads/9Pets-Name-Day-Before-the-Light-Fades.zip": "f053c2b3a9eedca8",
+        "assets/previews/9Pets-Name-Day-Before-the-Light-Fades.png": "e246fd20d1c5456a",
+        "assets/spritesheets/9Pets-Name-Day-Before-the-Light-Fades.webp": "394e2c3b704c4c27",
+        "assets/detail-spritesheets/9Pets-Name-Day-Before-the-Light-Fades.webp": "132db89125e9305d",
+        "assets/source/9Pets-Name-Day-Before-the-Light-Fades.png": "93f5ab77a7ecbd9e"
       }
     }
   ],
