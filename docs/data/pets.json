@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T20:35:47Z",
+  "generatedAt": "2026-06-23T20:38:01Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 141,
+  "cuteTotal": 142,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -17905,6 +17905,48 @@
         "assets/spritesheets/9Pets-Cute-Alexios-Second-Conquest.webp": "3f452fb7d7d82abd",
         "assets/detail-spritesheets/9Pets-Cute-Alexios-Second-Conquest.webp": "b638471f0c143d73",
         "assets/source/9Pets-Cute-Alexios-Second-Conquest.png": "0a4440b4b7f92004"
+      }
+    },
+    {
+      "id": "9pets-cute-an-an-lee-ghost-predator-of-hk",
+      "packageName": "9Pets-Cute-An-an-Lee-Ghost-Predator-of-HK",
+      "normalPackageName": "9Pets-An-an-Lee-Ghost-Predator-of-HK",
+      "normalId": "9pets-an-an-lee-ghost-predator-of-hk",
+      "displayName": "An-an Lee",
+      "skinDisplayName": "-- Ghost Predator of HK",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-An-an-Lee-Ghost-Predator-of-HK.zip",
+      "preview": "assets/previews/9Pets-Cute-An-an-Lee-Ghost-Predator-of-HK.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-An-an-Lee-Ghost-Predator-of-HK.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-An-an-Lee-Ghost-Predator-of-HK.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/303902_nimengdishi",
+      "sourceImage": "assets/source/9Pets-Cute-An-an-Lee-Ghost-Predator-of-HK.png",
+      "sourceRepoPath": "roles/303902_nimengdishi",
+      "assetId": "303902",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/303902_nimengdishi",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/303902_nimengdishi",
+      "cubismPath": "live2d/roles/303902_nimengdishi",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/303902_nimengdishi",
+      "birthday": "7/27",
+      "skinName": "Ghost Predator of HK",
+      "isDefaultSkin": false,
+      "skinDescription": "迷途知返，方为上上良策。",
+      "matchedName": "An-an Lee",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "An-an Lee has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1181164,
+      "assetVersions": {
+        "downloads/9Pets-Cute-An-an-Lee-Ghost-Predator-of-HK.zip": "8a1a87d2e0fa7448",
+        "assets/previews/9Pets-Cute-An-an-Lee-Ghost-Predator-of-HK.png": "6fc1f9059d1d99d6",
+        "assets/spritesheets/9Pets-Cute-An-an-Lee-Ghost-Predator-of-HK.webp": "db34a4620c06275f",
+        "assets/detail-spritesheets/9Pets-Cute-An-an-Lee-Ghost-Predator-of-HK.webp": "d6637b4cca00bca2",
+        "assets/source/9Pets-Cute-An-an-Lee-Ghost-Predator-of-HK.png": "0179be42f5d09a80"
       }
     }
   ]
