@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T07:58:50Z",
-  "total": 205,
+  "generatedAt": "2026-06-23T08:08:35Z",
+  "total": 206,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7800,6 +7800,44 @@
         "assets/spritesheets/9Pets-Kakania-Seminars-on-Serenity.webp": "b94a5083f0f50cad",
         "assets/detail-spritesheets/9Pets-Kakania-Seminars-on-Serenity.webp": "11bbe672eea6e0fd",
         "assets/source/9Pets-Kakania-Seminars-on-Serenity.png": "bb980c4712a13a1d"
+      }
+    },
+    {
+      "id": "9pets-kanjira-tambourine",
+      "packageName": "9Pets-Kanjira-Tambourine",
+      "displayName": "Kanjira",
+      "skinDisplayName": "-- Tambourine",
+      "download": "downloads/9Pets-Kanjira-Tambourine.zip",
+      "preview": "assets/previews/9Pets-Kanjira-Tambourine.png",
+      "spritesheet": "assets/spritesheets/9Pets-Kanjira-Tambourine.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Kanjira-Tambourine.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/307102.png",
+      "sourceImage": "assets/source/9Pets-Kanjira-Tambourine.png",
+      "sourceRepoPath": "singlebg/headicon_img/307102.png",
+      "assetId": "307102",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a3_307102_kanjila",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a3_307102_kanjila",
+      "cubismPath": "live2d/roles/307102_kanjila",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/307102_kanjila",
+      "birthday": "4/8",
+      "skinName": "Tambourine",
+      "isDefaultSkin": false,
+      "skinDescription": "鼓点总会有的，随时都可以起舞。",
+      "matchedName": "Kanjira",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Kanjira is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 307102 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1467609,
+      "assetVersions": {
+        "downloads/9Pets-Kanjira-Tambourine.zip": "8015a6830f0b2ce1",
+        "assets/previews/9Pets-Kanjira-Tambourine.png": "1aba1f2bf9cc4757",
+        "assets/spritesheets/9Pets-Kanjira-Tambourine.webp": "d6116a671e78e9ca",
+        "assets/detail-spritesheets/9Pets-Kanjira-Tambourine.webp": "27baae0875af5970",
+        "assets/source/9Pets-Kanjira-Tambourine.png": "0ad08a35495944c4"
       }
     }
   ],
