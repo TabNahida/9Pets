@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T11:00:57Z",
-  "total": 228,
+  "generatedAt": "2026-06-23T11:05:55Z",
+  "total": 229,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8674,6 +8674,44 @@
         "assets/spritesheets/9Pets-Marsha-The-Ever-Burning-Embrace.webp": "319c0ed07ca85533",
         "assets/detail-spritesheets/9Pets-Marsha-The-Ever-Burning-Embrace.webp": "123b15361fd71775",
         "assets/source/9Pets-Marsha-The-Ever-Burning-Embrace.png": "4cbe1522315c6834"
+      }
+    },
+    {
+      "id": "9pets-matilda-eleve-hyperdouee",
+      "packageName": "9Pets-Matilda-Eleve-Hyperdouee",
+      "displayName": "Matilda",
+      "skinDisplayName": "-- Élève Hyperdouée",
+      "download": "downloads/9Pets-Matilda-Eleve-Hyperdouee.zip",
+      "preview": "assets/previews/9Pets-Matilda-Eleve-Hyperdouee.png",
+      "spritesheet": "assets/spritesheets/9Pets-Matilda-Eleve-Hyperdouee.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Matilda-Eleve-Hyperdouee.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/304102.png",
+      "sourceImage": "assets/source/9Pets-Matilda-Eleve-Hyperdouee.png",
+      "sourceRepoPath": "singlebg/headicon_img/304102.png",
+      "assetId": "304102",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/304102_madierda",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/304102_madierda",
+      "cubismPath": "live2d/roles/304102_madierda",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/304102_madierda",
+      "birthday": "6/22",
+      "skinName": "Élève Hyperdouée",
+      "isDefaultSkin": false,
+      "skinDescription": "亭亭玉立于世界顶端，伟大的、伟大伟大伟大的第一名。",
+      "matchedName": "Matilda Bouanich",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Matilda is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 304102 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 683944,
+      "assetVersions": {
+        "downloads/9Pets-Matilda-Eleve-Hyperdouee.zip": "018c83f48c710528",
+        "assets/previews/9Pets-Matilda-Eleve-Hyperdouee.png": "0a2e09d94ed66833",
+        "assets/spritesheets/9Pets-Matilda-Eleve-Hyperdouee.webp": "0ee7515b2dc10b54",
+        "assets/detail-spritesheets/9Pets-Matilda-Eleve-Hyperdouee.webp": "adbec5118fa01c24",
+        "assets/source/9Pets-Matilda-Eleve-Hyperdouee.png": "d9d61acc9044ddcf"
       }
     }
   ],
