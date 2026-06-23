@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T08:28:45Z",
-  "total": 208,
+  "generatedAt": "2026-06-23T08:34:33Z",
+  "total": 209,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7914,6 +7914,44 @@
         "assets/spritesheets/9Pets-Kassandra-Radiant-in-Blue.webp": "59030497620a60ea",
         "assets/detail-spritesheets/9Pets-Kassandra-Radiant-in-Blue.webp": "9a6ae203122c66b6",
         "assets/source/9Pets-Kassandra-Radiant-in-Blue.png": "ec27e8defdcf7cf0"
+      }
+    },
+    {
+      "id": "9pets-kiperina-a-box-of-marbles",
+      "packageName": "9Pets-Kiperina-A-Box-of-Marbles",
+      "displayName": "Kiperina",
+      "skinDisplayName": "-- A Box of Marbles",
+      "download": "downloads/9Pets-Kiperina-A-Box-of-Marbles.zip",
+      "preview": "assets/previews/9Pets-Kiperina-A-Box-of-Marbles.png",
+      "spritesheet": "assets/spritesheets/9Pets-Kiperina-A-Box-of-Marbles.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Kiperina-A-Box-of-Marbles.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/311702.png",
+      "sourceImage": "assets/source/9Pets-Kiperina-A-Box-of-Marbles.png",
+      "sourceRepoPath": "singlebg/headicon_img/311702.png",
+      "assetId": "311702",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a7_311702_kphh",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a7_311702_kphh",
+      "cubismPath": "live2d/roles/v2a7_311702_kphh",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a7_311702_kphh",
+      "birthday": "4/19",
+      "skinName": "A Box of Marbles",
+      "isDefaultSkin": false,
+      "skinDescription": "绒布上的玻璃珠，打着转的星群。注视着无可失去之物。",
+      "matchedName": "Kiperina",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Kiperina is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 311702 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 706916,
+      "assetVersions": {
+        "downloads/9Pets-Kiperina-A-Box-of-Marbles.zip": "afde0d3305a83d42",
+        "assets/previews/9Pets-Kiperina-A-Box-of-Marbles.png": "67d5e5c30a503e60",
+        "assets/spritesheets/9Pets-Kiperina-A-Box-of-Marbles.webp": "77f3d51641716f19",
+        "assets/detail-spritesheets/9Pets-Kiperina-A-Box-of-Marbles.webp": "bf9107f9a1c82c8e",
+        "assets/source/9Pets-Kiperina-A-Box-of-Marbles.png": "171aa606acaa91b0"
       }
     }
   ],
