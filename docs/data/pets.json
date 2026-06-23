@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T07:41:30Z",
-  "total": 203,
+  "generatedAt": "2026-06-23T07:53:08Z",
+  "total": 204,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7724,6 +7724,44 @@
         "assets/spritesheets/9Pets-Kakania-Reflections-within-Reflections.webp": "7e5bd1136e327c8c",
         "assets/detail-spritesheets/9Pets-Kakania-Reflections-within-Reflections.webp": "f868f19bb784a373",
         "assets/source/9Pets-Kakania-Reflections-within-Reflections.png": "07dd915035d6c4fa"
+      }
+    },
+    {
+      "id": "9pets-kakania-seminars-on-serenity",
+      "packageName": "9Pets-Kakania-Seminars-on-Serenity",
+      "displayName": "Kakania",
+      "skinDisplayName": "-- Seminars on Serenity",
+      "download": "downloads/9Pets-Kakania-Seminars-on-Serenity.zip",
+      "preview": "assets/previews/9Pets-Kakania-Seminars-on-Serenity.png",
+      "spritesheet": "assets/spritesheets/9Pets-Kakania-Seminars-on-Serenity.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Kakania-Seminars-on-Serenity.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/308003.png",
+      "sourceImage": "assets/source/9Pets-Kakania-Seminars-on-Serenity.png",
+      "sourceRepoPath": "singlebg/headicon_img/308003.png",
+      "assetId": "308003",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a4_308003_kkny",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a4_308003_kkny",
+      "cubismPath": "live2d/roles/v2a4_308003_kakaniya",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a4_308003_kakaniya",
+      "birthday": "12/7",
+      "skinName": "Seminars on Serenity",
+      "isDefaultSkin": false,
+      "skinDescription": "心底的曲调终日不宁，到底为谁和鸣？",
+      "matchedName": "Kakania",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Kakania is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 308003 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1082210,
+      "assetVersions": {
+        "downloads/9Pets-Kakania-Seminars-on-Serenity.zip": "04c5999bdf340fa3",
+        "assets/previews/9Pets-Kakania-Seminars-on-Serenity.png": "d188daaec75563b4",
+        "assets/spritesheets/9Pets-Kakania-Seminars-on-Serenity.webp": "b94a5083f0f50cad",
+        "assets/detail-spritesheets/9Pets-Kakania-Seminars-on-Serenity.webp": "11bbe672eea6e0fd",
+        "assets/source/9Pets-Kakania-Seminars-on-Serenity.png": "bb980c4712a13a1d"
       }
     }
   ],
