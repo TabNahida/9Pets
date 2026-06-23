@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T11:19:32Z",
-  "total": 232,
+  "generatedAt": "2026-06-23T11:23:19Z",
+  "total": 233,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8826,6 +8826,44 @@
         "assets/spritesheets/9Pets-Medicine-Pocket-Beware-of-Dog.webp": "ba0d76643b39857f",
         "assets/detail-spritesheets/9Pets-Medicine-Pocket-Beware-of-Dog.webp": "a5ed26eacf39e8bf",
         "assets/source/9Pets-Medicine-Pocket-Beware-of-Dog.png": "fef4a2cf8c7199a8"
+      }
+    },
+    {
+      "id": "9pets-medicine-pocket-the-cosmos-photographer",
+      "packageName": "9Pets-Medicine-Pocket-The-Cosmos-Photographer",
+      "displayName": "Medicine Pocket",
+      "skinDisplayName": "-- The Cosmos Photographer",
+      "download": "downloads/9Pets-Medicine-Pocket-The-Cosmos-Photographer.zip",
+      "preview": "assets/previews/9Pets-Medicine-Pocket-The-Cosmos-Photographer.png",
+      "spritesheet": "assets/spritesheets/9Pets-Medicine-Pocket-The-Cosmos-Photographer.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Medicine-Pocket-The-Cosmos-Photographer.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/304703.png",
+      "sourceImage": "assets/source/9Pets-Medicine-Pocket-The-Cosmos-Photographer.png",
+      "sourceRepoPath": "singlebg/headicon_img/304703.png",
+      "assetId": "304703",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a8_304703_tumaoshoudai",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a8_304703_tumaoshoudai",
+      "cubismPath": "live2d/roles/v1a8_304703_tumaoshoudai",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a8_304703_tumaoshoudai",
+      "birthday": "11/24",
+      "skinName": "The Cosmos Photographer",
+      "isDefaultSkin": false,
+      "skinDescription": "上前来，到你了！预备领受沉甸甸的勋章吧。",
+      "matchedName": "Medicine Pocket",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Medicine Pocket is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 304703 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 690133,
+      "assetVersions": {
+        "downloads/9Pets-Medicine-Pocket-The-Cosmos-Photographer.zip": "64f4453868ed4266",
+        "assets/previews/9Pets-Medicine-Pocket-The-Cosmos-Photographer.png": "c7ed8377f0526faf",
+        "assets/spritesheets/9Pets-Medicine-Pocket-The-Cosmos-Photographer.webp": "864c62e380fdefad",
+        "assets/detail-spritesheets/9Pets-Medicine-Pocket-The-Cosmos-Photographer.webp": "931a34ca7ace404a",
+        "assets/source/9Pets-Medicine-Pocket-The-Cosmos-Photographer.png": "cfb6084d5f5236bc"
       }
     }
   ],
