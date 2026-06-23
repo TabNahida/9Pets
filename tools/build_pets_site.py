@@ -456,6 +456,14 @@ LIVE2D_RENDER_PROFILES: dict[str, dict[str, Any]] = {
         "y": 600,
         "detailAtlasScale": 4,
     },
+    "9Pets-Pickles-The-Young-Dog-and-The-Sea": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.68,
+        "x": 850,
+        "y": 600,
+        "detailAtlasScale": 4,
+    },
     "9Pets-Kiperina": {
         "primaryTexture": "textures/311701_kphh.png",
     },
