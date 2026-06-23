@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T07:53:08Z",
-  "total": 204,
+  "generatedAt": "2026-06-23T07:58:50Z",
+  "total": 205,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7686,6 +7686,44 @@
         "assets/spritesheets/9Pets-Kaalaa-Baunaa-Till-the-Sun-Falls.webp": "f908e38fa6c25146",
         "assets/detail-spritesheets/9Pets-Kaalaa-Baunaa-Till-the-Sun-Falls.webp": "3fdb5d9b5d03b4dc",
         "assets/source/9Pets-Kaalaa-Baunaa-Till-the-Sun-Falls.png": "120d7e6e07977707"
+      }
+    },
+    {
+      "id": "9pets-kakania-guardian-of-the-broken",
+      "packageName": "9Pets-Kakania-Guardian-of-the-Broken",
+      "displayName": "Kakania",
+      "skinDisplayName": "-- Guardian of the Broken",
+      "download": "downloads/9Pets-Kakania-Guardian-of-the-Broken.zip",
+      "preview": "assets/previews/9Pets-Kakania-Guardian-of-the-Broken.png",
+      "spritesheet": "assets/spritesheets/9Pets-Kakania-Guardian-of-the-Broken.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Kakania-Guardian-of-the-Broken.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/308004.png",
+      "sourceImage": "assets/source/9Pets-Kakania-Guardian-of-the-Broken.png",
+      "sourceRepoPath": "singlebg/headicon_img/308004.png",
+      "assetId": "308004",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a2_308004_kkny",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a2_308004_kkny",
+      "cubismPath": "live2d/roles/v3a2_308004_kkny",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a2_308004_kkny",
+      "birthday": "12/7",
+      "skinName": "Guardian of the Broken",
+      "isDefaultSkin": false,
+      "skinDescription": "她不顾一切地伸出援手，尽管啊，尽管。",
+      "matchedName": "Kakania",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Kakania is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 308004 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 966351,
+      "assetVersions": {
+        "downloads/9Pets-Kakania-Guardian-of-the-Broken.zip": "82ae1720af0ae5b4",
+        "assets/previews/9Pets-Kakania-Guardian-of-the-Broken.png": "b7b1ebddb823eec5",
+        "assets/spritesheets/9Pets-Kakania-Guardian-of-the-Broken.webp": "94fbdcdb5dc25889",
+        "assets/detail-spritesheets/9Pets-Kakania-Guardian-of-the-Broken.webp": "d2b4584d957c5b02",
+        "assets/source/9Pets-Kakania-Guardian-of-the-Broken.png": "585f9b72c27d5897"
       }
     },
     {
