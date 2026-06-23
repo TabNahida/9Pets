@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T14:41:38Z",
-  "total": 270,
+  "generatedAt": "2026-06-23T14:46:17Z",
+  "total": 271,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10270,6 +10270,44 @@
         "assets/spritesheets/9Pets-Semmelweis-The-Wax-and-Wane-of-the-Heart.webp": "c3632a24b338ae74",
         "assets/detail-spritesheets/9Pets-Semmelweis-The-Wax-and-Wane-of-the-Heart.webp": "beb0c64b367cda04",
         "assets/source/9Pets-Semmelweis-The-Wax-and-Wane-of-the-Heart.png": "c2ec5f4eb8df72c5"
+      }
+    },
+    {
+      "id": "9pets-sentinel-the-shackles-of-sin",
+      "packageName": "9Pets-Sentinel-The-Shackles-of-Sin",
+      "displayName": "Sentinel",
+      "skinDisplayName": "-- The Shackles of Sin",
+      "download": "downloads/9Pets-Sentinel-The-Shackles-of-Sin.zip",
+      "preview": "assets/previews/9Pets-Sentinel-The-Shackles-of-Sin.png",
+      "spritesheet": "assets/spritesheets/9Pets-Sentinel-The-Shackles-of-Sin.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Sentinel-The-Shackles-of-Sin.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/312602.png",
+      "sourceImage": "assets/source/9Pets-Sentinel-The-Shackles-of-Sin.png",
+      "sourceRepoPath": "singlebg/headicon_img/312602.png",
+      "assetId": "312602",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a0_312602_mlan",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a0_312602_mlan",
+      "cubismPath": "live2d/roles/v3a0_312602_mlan",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a0_312602_mlan",
+      "birthday": "12/22",
+      "skinName": "The Shackles of Sin",
+      "isDefaultSkin": false,
+      "skinDescription": "但地狱锻造在他们的枪炮之间。",
+      "matchedName": "Sentinel",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Sentinel is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 312602 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 962431,
+      "assetVersions": {
+        "downloads/9Pets-Sentinel-The-Shackles-of-Sin.zip": "64413d339b77abb5",
+        "assets/previews/9Pets-Sentinel-The-Shackles-of-Sin.png": "89c31961628c24a7",
+        "assets/spritesheets/9Pets-Sentinel-The-Shackles-of-Sin.webp": "0c6288d69747ce21",
+        "assets/detail-spritesheets/9Pets-Sentinel-The-Shackles-of-Sin.webp": "8c2442397d3a4839",
+        "assets/source/9Pets-Sentinel-The-Shackles-of-Sin.png": "fc534fc933c1b304"
       }
     }
   ],
