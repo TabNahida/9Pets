@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T13:34:12Z",
-  "total": 257,
+  "generatedAt": "2026-06-23T13:43:09Z",
+  "total": 258,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9776,6 +9776,44 @@
         "assets/spritesheets/9Pets-Pickles-The-Young-Dog-and-The-Sea.webp": "f4d7c65b1815fc7a",
         "assets/detail-spritesheets/9Pets-Pickles-The-Young-Dog-and-The-Sea.webp": "062bdb676d6a12a5",
         "assets/source/9Pets-Pickles-The-Young-Dog-and-The-Sea.png": "21f2427c27d4180e"
+      }
+    },
+    {
+      "id": "9pets-ramona-between-spirits-and-blossoms",
+      "packageName": "9Pets-Ramona-Between-Spirits-and-Blossoms",
+      "displayName": "Ramona",
+      "skinDisplayName": "-- Between Spirits and Blossoms",
+      "download": "downloads/9Pets-Ramona-Between-Spirits-and-Blossoms.zip",
+      "preview": "assets/previews/9Pets-Ramona-Between-Spirits-and-Blossoms.png",
+      "spritesheet": "assets/spritesheets/9Pets-Ramona-Between-Spirits-and-Blossoms.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Ramona-Between-Spirits-and-Blossoms.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/314202.png",
+      "sourceImage": "assets/source/9Pets-Ramona-Between-Spirits-and-Blossoms.png",
+      "sourceRepoPath": "singlebg/headicon_img/314202.png",
+      "assetId": "314202",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a5_314202_lmn",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a5_314202_lmn",
+      "cubismPath": "live2d/roles/v3a5_314202_lmn",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a5_314202_lmn",
+      "birthday": "4/13",
+      "skinName": "Between Spirits and Blossoms",
+      "isDefaultSkin": false,
+      "skinDescription": "不可听的，不可视的，都在走向她。",
+      "matchedName": "Ramona",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Ramona is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 314202 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1540317,
+      "assetVersions": {
+        "downloads/9Pets-Ramona-Between-Spirits-and-Blossoms.zip": "13d95f21c489c4e9",
+        "assets/previews/9Pets-Ramona-Between-Spirits-and-Blossoms.png": "2a5342452e2dc5e9",
+        "assets/spritesheets/9Pets-Ramona-Between-Spirits-and-Blossoms.webp": "f6a6f5483152a821",
+        "assets/detail-spritesheets/9Pets-Ramona-Between-Spirits-and-Blossoms.webp": "d461b330c7fc5010",
+        "assets/source/9Pets-Ramona-Between-Spirits-and-Blossoms.png": "80d8edb48ba098dc"
       }
     }
   ],
