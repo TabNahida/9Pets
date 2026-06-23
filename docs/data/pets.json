@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T15:29:05Z",
-  "total": 279,
+  "generatedAt": "2026-06-23T15:33:47Z",
+  "total": 280,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10574,6 +10574,44 @@
         "assets/spritesheets/9Pets-Sotheby-Suspiriorum.webp": "cc8fea18dbae1df0",
         "assets/detail-spritesheets/9Pets-Sotheby-Suspiriorum.webp": "08584e7c79c7c6c4",
         "assets/source/9Pets-Sotheby-Suspiriorum.png": "b5e6090a4def3cac"
+      }
+    },
+    {
+      "id": "9pets-sotheby-the-red-thread-of-fate",
+      "packageName": "9Pets-Sotheby-The-Red-Thread-of-Fate",
+      "displayName": "Sotheby",
+      "skinDisplayName": "-- The Red Thread of Fate",
+      "download": "downloads/9Pets-Sotheby-The-Red-Thread-of-Fate.zip",
+      "preview": "assets/previews/9Pets-Sotheby-The-Red-Thread-of-Fate.png",
+      "spritesheet": "assets/spritesheets/9Pets-Sotheby-The-Red-Thread-of-Fate.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Sotheby-The-Red-Thread-of-Fate.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/300904.png",
+      "sourceImage": "assets/source/9Pets-Sotheby-The-Red-Thread-of-Fate.png",
+      "sourceRepoPath": "singlebg/headicon_img/300904.png",
+      "assetId": "300904",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a5_300904_sfb",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a5_300904_sfb",
+      "cubismPath": "live2d/roles/v2a5_300904_sfb",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a5_300904_sfb",
+      "birthday": "4/15",
+      "skinName": "The Red Thread of Fate",
+      "isDefaultSkin": false,
+      "skinDescription": "千千结，连理枝，他年相逢应相识。",
+      "matchedName": "Sotheby",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Sotheby is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 300904 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1445094,
+      "assetVersions": {
+        "downloads/9Pets-Sotheby-The-Red-Thread-of-Fate.zip": "b908c14f6c64a0ea",
+        "assets/previews/9Pets-Sotheby-The-Red-Thread-of-Fate.png": "c8390710f459d6bb",
+        "assets/spritesheets/9Pets-Sotheby-The-Red-Thread-of-Fate.webp": "90d5e8ca8b7dcd72",
+        "assets/detail-spritesheets/9Pets-Sotheby-The-Red-Thread-of-Fate.webp": "19b2e82277db5e84",
+        "assets/source/9Pets-Sotheby-The-Red-Thread-of-Fate.png": "26de495f3c01101c"
       }
     },
     {
