@@ -440,6 +440,14 @@ LIVE2D_RENDER_PROFILES: dict[str, dict[str, Any]] = {
             "review": "b_diantou.motion3.json",
         },
     },
+    "9Pets-Nautika-Behind-the-Unknown": {
+        "width": 1800,
+        "height": 1800,
+        "scale": 0.68,
+        "x": 850,
+        "y": 600,
+        "detailAtlasScale": 4,
+    },
     "9Pets-Kiperina": {
         "primaryTexture": "textures/311701_kphh.png",
     },

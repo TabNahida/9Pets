@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T12:31:29Z",
-  "total": 248,
+  "generatedAt": "2026-06-23T12:43:03Z",
+  "total": 249,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9434,6 +9434,44 @@
         "assets/spritesheets/9Pets-Name-Day-The-Deathless-Quiet.webp": "287827cf7ccbfe1f",
         "assets/detail-spritesheets/9Pets-Name-Day-The-Deathless-Quiet.webp": "a5e8ccb4fe2d820e",
         "assets/source/9Pets-Name-Day-The-Deathless-Quiet.png": "c72346eb0adffd8b"
+      }
+    },
+    {
+      "id": "9pets-nautika-behind-the-unknown",
+      "packageName": "9Pets-Nautika-Behind-the-Unknown",
+      "displayName": "Nautika",
+      "skinDisplayName": "-- Behind the \"Unknown\"",
+      "download": "downloads/9Pets-Nautika-Behind-the-Unknown.zip",
+      "preview": "assets/previews/9Pets-Nautika-Behind-the-Unknown.png",
+      "spritesheet": "assets/spritesheets/9Pets-Nautika-Behind-the-Unknown.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Nautika-Behind-the-Unknown.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/312002.png",
+      "sourceImage": "assets/source/9Pets-Nautika-Behind-the-Unknown.png",
+      "sourceRepoPath": "singlebg/headicon_img/312002.png",
+      "assetId": "312002",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a8_312002_ndk",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a8_312002_ndk",
+      "cubismPath": "live2d/roles/v2a8_312002_ndk",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a8_312002_ndk",
+      "birthday": "2/16",
+      "skinName": "Behind the \"Unknown\"",
+      "isDefaultSkin": false,
+      "skinDescription": "去追寻，因为“未知”就在那儿。",
+      "matchedName": "Nautika",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Nautika is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 312002 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 981692,
+      "assetVersions": {
+        "downloads/9Pets-Nautika-Behind-the-Unknown.zip": "6a0383c496f9dcc3",
+        "assets/previews/9Pets-Nautika-Behind-the-Unknown.png": "65e0a3112159ad4b",
+        "assets/spritesheets/9Pets-Nautika-Behind-the-Unknown.webp": "4eae104183c53e67",
+        "assets/detail-spritesheets/9Pets-Nautika-Behind-the-Unknown.webp": "23cf54dcf5558263",
+        "assets/source/9Pets-Nautika-Behind-the-Unknown.png": "836379fb77e92e78"
       }
     }
   ],
