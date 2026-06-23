@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T10:17:01Z",
-  "total": 220,
+  "generatedAt": "2026-06-23T10:23:02Z",
+  "total": 221,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8370,6 +8370,44 @@
         "assets/spritesheets/9Pets-Lorelei-Time-to-Pray.webp": "116dbed4a276c404",
         "assets/detail-spritesheets/9Pets-Lorelei-Time-to-Pray.webp": "ac5382cd6ba2942e",
         "assets/source/9Pets-Lorelei-Time-to-Pray.png": "2b38c05711717340"
+      }
+    },
+    {
+      "id": "9pets-lorentz-butterfly-rain-chaos-and-fluttering",
+      "packageName": "9Pets-Lorentz-Butterfly-Rain-Chaos-and-Fluttering",
+      "displayName": "Lorentz Butterfly",
+      "skinDisplayName": "-- Rain, Chaos and Fluttering",
+      "download": "downloads/9Pets-Lorentz-Butterfly-Rain-Chaos-and-Fluttering.zip",
+      "preview": "assets/previews/9Pets-Lorentz-Butterfly-Rain-Chaos-and-Fluttering.png",
+      "spritesheet": "assets/spritesheets/9Pets-Lorentz-Butterfly-Rain-Chaos-and-Fluttering.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Lorentz-Butterfly-Rain-Chaos-and-Fluttering.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/313902.png",
+      "sourceImage": "assets/source/9Pets-Lorentz-Butterfly-Rain-Chaos-and-Fluttering.png",
+      "sourceRepoPath": "singlebg/headicon_img/313902.png",
+      "assetId": "313902",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a5_313902_llzhd",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a5_313902_llzhd",
+      "cubismPath": "live2d/roles/v3a5_313902_llzhd",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a5_313902_llzhd",
+      "birthday": "9/19",
+      "skinName": "Rain, Chaos and Fluttering",
+      "isDefaultSkin": false,
+      "skinDescription": "世界本身即为无序的综合。",
+      "matchedName": "Lorentz Butterfly",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Lorentz Butterfly is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 313902 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1029816,
+      "assetVersions": {
+        "downloads/9Pets-Lorentz-Butterfly-Rain-Chaos-and-Fluttering.zip": "23eff7c8cad7e2c7",
+        "assets/previews/9Pets-Lorentz-Butterfly-Rain-Chaos-and-Fluttering.png": "927068b92e27ffb9",
+        "assets/spritesheets/9Pets-Lorentz-Butterfly-Rain-Chaos-and-Fluttering.webp": "844fee39a8d25009",
+        "assets/detail-spritesheets/9Pets-Lorentz-Butterfly-Rain-Chaos-and-Fluttering.webp": "2cf5bd3634701033",
+        "assets/source/9Pets-Lorentz-Butterfly-Rain-Chaos-and-Fluttering.png": "7037c4f10cd6bbcc"
       }
     }
   ],
