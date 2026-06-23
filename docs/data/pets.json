@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T14:16:14Z",
-  "total": 264,
+  "generatedAt": "2026-06-23T14:20:22Z",
+  "total": 265,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10004,6 +10004,44 @@
         "assets/spritesheets/9Pets-Rhiannon-The-Migration-of-Her-Heart.webp": "04fd07fe632df16d",
         "assets/detail-spritesheets/9Pets-Rhiannon-The-Migration-of-Her-Heart.webp": "400bb2c30cdaa69b",
         "assets/source/9Pets-Rhiannon-The-Migration-of-Her-Heart.png": "50af68af96c0c7c3"
+      }
+    },
+    {
+      "id": "9pets-rubuska-song-of-the-shadow-dancer",
+      "packageName": "9Pets-Rubuska-Song-of-the-Shadow-Dancer",
+      "displayName": "Rubuska",
+      "skinDisplayName": "-- Song of the Shadow Dancer",
+      "download": "downloads/9Pets-Rubuska-Song-of-the-Shadow-Dancer.zip",
+      "preview": "assets/previews/9Pets-Rubuska-Song-of-the-Shadow-Dancer.png",
+      "spritesheet": "assets/spritesheets/9Pets-Rubuska-Song-of-the-Shadow-Dancer.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Rubuska-Song-of-the-Shadow-Dancer.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/312503.png",
+      "sourceImage": "assets/source/9Pets-Rubuska-Song-of-the-Shadow-Dancer.png",
+      "sourceRepoPath": "singlebg/headicon_img/312503.png",
+      "assetId": "312503",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a4_312503_ysm",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a4_312503_ysm",
+      "cubismPath": "live2d/roles/v3a4_312503_ysm",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a4_312503_ysm",
+      "birthday": "5/29",
+      "skinName": "Song of the Shadow Dancer",
+      "isDefaultSkin": false,
+      "skinDescription": "笛声寻古寨，月影踏歌来。",
+      "matchedName": "Rubuska",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Rubuska is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 312503 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 996945,
+      "assetVersions": {
+        "downloads/9Pets-Rubuska-Song-of-the-Shadow-Dancer.zip": "a99ea075f8c61d4e",
+        "assets/previews/9Pets-Rubuska-Song-of-the-Shadow-Dancer.png": "785da1a65514102c",
+        "assets/spritesheets/9Pets-Rubuska-Song-of-the-Shadow-Dancer.webp": "3d3e6e37ded8dec1",
+        "assets/detail-spritesheets/9Pets-Rubuska-Song-of-the-Shadow-Dancer.webp": "ddd0680a3ec96e77",
+        "assets/source/9Pets-Rubuska-Song-of-the-Shadow-Dancer.png": "0734d92bbc0c0793"
       }
     },
     {
