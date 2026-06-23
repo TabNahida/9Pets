@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T16:00:02Z",
-  "total": 286,
+  "generatedAt": "2026-06-23T16:04:01Z",
+  "total": 287,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10878,6 +10878,44 @@
         "assets/spritesheets/9Pets-Tennant-Roaming-in-Delhi.webp": "3ebbd4a953a7a292",
         "assets/detail-spritesheets/9Pets-Tennant-Roaming-in-Delhi.webp": "15dcaa98a2a8f989",
         "assets/source/9Pets-Tennant-Roaming-in-Delhi.png": "f9d797baa77acacc"
+      }
+    },
+    {
+      "id": "9pets-tooth-fairy-sweet-dream",
+      "packageName": "9Pets-Tooth-Fairy-Sweet-Dream",
+      "displayName": "Tooth Fairy",
+      "skinDisplayName": "-- Sweet Dream",
+      "download": "downloads/9Pets-Tooth-Fairy-Sweet-Dream.zip",
+      "preview": "assets/previews/9Pets-Tooth-Fairy-Sweet-Dream.png",
+      "spritesheet": "assets/spritesheets/9Pets-Tooth-Fairy-Sweet-Dream.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Tooth-Fairy-Sweet-Dream.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/305302.png",
+      "sourceImage": "assets/source/9Pets-Tooth-Fairy-Sweet-Dream.png",
+      "sourceRepoPath": "singlebg/headicon_img/305302.png",
+      "assetId": "305302",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/305302_yaxian",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/305302_yaxian",
+      "cubismPath": "live2d/roles/305302_yaxian",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/305302_yaxian",
+      "birthday": "11/27",
+      "skinName": "Sweet Dream",
+      "isDefaultSkin": false,
+      "skinDescription": "她感到扑朔的薄翅融化在舌面上，散发出栀子花混杂薄荷油的香气。",
+      "matchedName": "Tooth Fairy",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Tooth Fairy is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 305302 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 772674,
+      "assetVersions": {
+        "downloads/9Pets-Tooth-Fairy-Sweet-Dream.zip": "0da49915ee6194d0",
+        "assets/previews/9Pets-Tooth-Fairy-Sweet-Dream.png": "5ec230b81f454918",
+        "assets/spritesheets/9Pets-Tooth-Fairy-Sweet-Dream.webp": "dffc11986634e6f6",
+        "assets/detail-spritesheets/9Pets-Tooth-Fairy-Sweet-Dream.webp": "c3f81f77a03b726c",
+        "assets/source/9Pets-Tooth-Fairy-Sweet-Dream.png": "21b7f2174ec8f5d8"
       }
     }
   ],
