@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T09:59:41Z",
-  "total": 216,
+  "generatedAt": "2026-06-23T10:04:01Z",
+  "total": 217,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8218,6 +8218,44 @@
         "assets/spritesheets/9Pets-Lilya-The-Barents-Witch.webp": "8bc3cabaf8b0073b",
         "assets/detail-spritesheets/9Pets-Lilya-The-Barents-Witch.webp": "bb2a7765893f9363",
         "assets/source/9Pets-Lilya-The-Barents-Witch.png": "882ec8958cd975ef"
+      }
+    },
+    {
+      "id": "9pets-loggerhead-a-moment-of-leisure",
+      "packageName": "9Pets-Loggerhead-A-Moment-of-Leisure",
+      "displayName": "Loggerhead",
+      "skinDisplayName": "-- A Moment of Leisure",
+      "download": "downloads/9Pets-Loggerhead-A-Moment-of-Leisure.zip",
+      "preview": "assets/previews/9Pets-Loggerhead-A-Moment-of-Leisure.png",
+      "spritesheet": "assets/spritesheets/9Pets-Loggerhead-A-Moment-of-Leisure.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Loggerhead-A-Moment-of-Leisure.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/311202.png",
+      "sourceImage": "assets/source/9Pets-Loggerhead-A-Moment-of-Leisure.png",
+      "sourceRepoPath": "singlebg/headicon_img/311202.png",
+      "assetId": "311202",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a5_311202_knd",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a5_311202_knd",
+      "cubismPath": "live2d/roles/v2a5_311202_knd",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a5_311202_knd",
+      "birthday": "6/1",
+      "skinName": "A Moment of Leisure",
+      "isDefaultSkin": false,
+      "skinDescription": "可她更喜爱，亲眼见证鸟儿的雀跃。",
+      "matchedName": "Loggerhead",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Loggerhead is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 311202 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 987176,
+      "assetVersions": {
+        "downloads/9Pets-Loggerhead-A-Moment-of-Leisure.zip": "a067661c1b24dec5",
+        "assets/previews/9Pets-Loggerhead-A-Moment-of-Leisure.png": "315a83b2371f6eaf",
+        "assets/spritesheets/9Pets-Loggerhead-A-Moment-of-Leisure.webp": "345e9da395b3cee2",
+        "assets/detail-spritesheets/9Pets-Loggerhead-A-Moment-of-Leisure.webp": "86925537466c6099",
+        "assets/source/9Pets-Loggerhead-A-Moment-of-Leisure.png": "f99b769dde50bd84"
       }
     }
   ],
