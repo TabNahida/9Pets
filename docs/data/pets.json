@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T15:33:47Z",
-  "total": 280,
+  "generatedAt": "2026-06-23T15:39:12Z",
+  "total": 281,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10650,6 +10650,44 @@
         "assets/spritesheets/9Pets-Sotheby-World-on-the-Other-Side.webp": "17647f3deaa32928",
         "assets/detail-spritesheets/9Pets-Sotheby-World-on-the-Other-Side.webp": "ef535abc16d00e48",
         "assets/source/9Pets-Sotheby-World-on-the-Other-Side.png": "93670b8681d9ca0d"
+      }
+    },
+    {
+      "id": "9pets-spathodea-sparrow-hummingbird-flower",
+      "packageName": "9Pets-Spathodea-Sparrow-Hummingbird-Flower",
+      "displayName": "Spathodea",
+      "skinDisplayName": "-- Sparrow, Hummingbird, Flower",
+      "download": "downloads/9Pets-Spathodea-Sparrow-Hummingbird-Flower.zip",
+      "preview": "assets/previews/9Pets-Spathodea-Sparrow-Hummingbird-Flower.png",
+      "spritesheet": "assets/spritesheets/9Pets-Spathodea-Sparrow-Hummingbird-Flower.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Spathodea-Sparrow-Hummingbird-Flower.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/307302.png",
+      "sourceImage": "assets/source/9Pets-Spathodea-Sparrow-Hummingbird-Flower.png",
+      "sourceRepoPath": "singlebg/headicon_img/307302.png",
+      "assetId": "307302",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a5_307302_kerandian",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a5_307302_kerandian",
+      "cubismPath": "live2d/roles/v1a5_307302_kerandian",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a5_307302_kerandian",
+      "birthday": "1/10",
+      "skinName": "Sparrow, Hummingbird, Flower",
+      "isDefaultSkin": false,
+      "skinDescription": "——捧起最明亮的火星，一如既往。",
+      "matchedName": "Spathodea",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Spathodea is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 307302 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1369528,
+      "assetVersions": {
+        "downloads/9Pets-Spathodea-Sparrow-Hummingbird-Flower.zip": "86c26246fa4acd9a",
+        "assets/previews/9Pets-Spathodea-Sparrow-Hummingbird-Flower.png": "98fc43f1a192a2eb",
+        "assets/spritesheets/9Pets-Spathodea-Sparrow-Hummingbird-Flower.webp": "f056a84fd1fc5d91",
+        "assets/detail-spritesheets/9Pets-Spathodea-Sparrow-Hummingbird-Flower.webp": "248e05e9d97826d7",
+        "assets/source/9Pets-Spathodea-Sparrow-Hummingbird-Flower.png": "b8e2c68526881f05"
       }
     }
   ],
