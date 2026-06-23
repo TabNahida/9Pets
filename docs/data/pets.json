@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T14:50:42Z",
-  "total": 272,
+  "generatedAt": "2026-06-23T14:55:15Z",
+  "total": 273,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10346,6 +10346,44 @@
         "assets/spritesheets/9Pets-Sentinel-The-Shackles-of-Sin.webp": "0c6288d69747ce21",
         "assets/detail-spritesheets/9Pets-Sentinel-The-Shackles-of-Sin.webp": "8c2442397d3a4839",
         "assets/source/9Pets-Sentinel-The-Shackles-of-Sin.png": "fc534fc933c1b304"
+      }
+    },
+    {
+      "id": "9pets-shamane-south-of-the-mountain",
+      "packageName": "9Pets-Shamane-South-of-the-Mountain",
+      "displayName": "Shamane",
+      "skinDisplayName": "-- South of the Mountain",
+      "download": "downloads/9Pets-Shamane-South-of-the-Mountain.zip",
+      "preview": "assets/previews/9Pets-Shamane-South-of-the-Mountain.png",
+      "spritesheet": "assets/spritesheets/9Pets-Shamane-South-of-the-Mountain.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Shamane-South-of-the-Mountain.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/307202.png",
+      "sourceImage": "assets/source/9Pets-Shamane-South-of-the-Mountain.png",
+      "sourceRepoPath": "singlebg/headicon_img/307202.png",
+      "assetId": "307202",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a3_307202_zongmaoshali",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a3_307202_zongmaoshali",
+      "cubismPath": "live2d/roles/307202_zongmaoshali",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/307202_zongmaoshali",
+      "birthday": "3/22",
+      "skinName": "South of the Mountain",
+      "isDefaultSkin": false,
+      "skinDescription": "直到融雪之时。",
+      "matchedName": "Shamane",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Shamane is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 307202 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1203650,
+      "assetVersions": {
+        "downloads/9Pets-Shamane-South-of-the-Mountain.zip": "d89a26373874b43f",
+        "assets/previews/9Pets-Shamane-South-of-the-Mountain.png": "a9f9d481042ecf8f",
+        "assets/spritesheets/9Pets-Shamane-South-of-the-Mountain.webp": "300bdbd6e7b642a4",
+        "assets/detail-spritesheets/9Pets-Shamane-South-of-the-Mountain.webp": "db9f46eef696ce72",
+        "assets/source/9Pets-Shamane-South-of-the-Mountain.png": "7d78e4ef0dc6f0de"
       }
     }
   ],
