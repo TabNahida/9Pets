@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T12:09:36Z",
-  "total": 244,
+  "generatedAt": "2026-06-23T12:14:30Z",
+  "total": 245,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9282,6 +9282,44 @@
         "assets/spritesheets/9Pets-Ms-NewBabel-Creator-of-the-New-Era.webp": "52f93239c292247e",
         "assets/detail-spritesheets/9Pets-Ms-NewBabel-Creator-of-the-New-Era.webp": "5fce5bc804879f74",
         "assets/source/9Pets-Ms-NewBabel-Creator-of-the-New-Era.png": "c40eb6a5d509cdc8"
+      }
+    },
+    {
+      "id": "9pets-ms-newbabel-raise-the-bid",
+      "packageName": "9Pets-Ms-NewBabel-Raise-the-Bid",
+      "displayName": "Ms. NewBabel",
+      "skinDisplayName": "-- Raise the Bid",
+      "download": "downloads/9Pets-Ms-NewBabel-Raise-the-Bid.zip",
+      "preview": "assets/previews/9Pets-Ms-NewBabel-Raise-the-Bid.png",
+      "spritesheet": "assets/spritesheets/9Pets-Ms-NewBabel-Raise-the-Bid.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Ms-NewBabel-Raise-the-Bid.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/305203.png",
+      "sourceImage": "assets/source/9Pets-Ms-NewBabel-Raise-the-Bid.png",
+      "sourceRepoPath": "singlebg/headicon_img/305203.png",
+      "assetId": "305203",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a4_305203_xbbt",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a4_305203_xbbt",
+      "cubismPath": "live2d/roles/v2a4_305203_xbbt",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a4_305203_xbbt",
+      "birthday": "11/16",
+      "skinName": "Raise the Bid",
+      "isDefaultSkin": false,
+      "skinDescription": "毋庸置疑，您是今晚最大的赢家。",
+      "matchedName": "Ms. NewBabel",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Ms. NewBabel is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 305203 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1811778,
+      "assetVersions": {
+        "downloads/9Pets-Ms-NewBabel-Raise-the-Bid.zip": "fba85d3eb5e84583",
+        "assets/previews/9Pets-Ms-NewBabel-Raise-the-Bid.png": "ca8c1f604dcfa482",
+        "assets/spritesheets/9Pets-Ms-NewBabel-Raise-the-Bid.webp": "626e4757c527f0e8",
+        "assets/detail-spritesheets/9Pets-Ms-NewBabel-Raise-the-Bid.webp": "d730807e9c354d60",
+        "assets/source/9Pets-Ms-NewBabel-Raise-the-Bid.png": "7bad96476ebe0d2f"
       }
     }
   ],
