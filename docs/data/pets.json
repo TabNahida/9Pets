@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T10:12:43Z",
-  "total": 219,
+  "generatedAt": "2026-06-23T10:17:01Z",
+  "total": 220,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8332,6 +8332,44 @@
         "assets/spritesheets/9Pets-Lopera-The-Wayward-Soul-Returns.webp": "e4efbddb2a3fdfde",
         "assets/detail-spritesheets/9Pets-Lopera-The-Wayward-Soul-Returns.webp": "072d493cd8868f9c",
         "assets/source/9Pets-Lopera-The-Wayward-Soul-Returns.png": "6e305269c214d99c"
+      }
+    },
+    {
+      "id": "9pets-lorelei-time-to-pray",
+      "packageName": "9Pets-Lorelei-Time-to-Pray",
+      "displayName": "Lorelei",
+      "skinDisplayName": "-- Time to Pray",
+      "download": "downloads/9Pets-Lorelei-Time-to-Pray.zip",
+      "preview": "assets/previews/9Pets-Lorelei-Time-to-Pray.png",
+      "spritesheet": "assets/spritesheets/9Pets-Lorelei-Time-to-Pray.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Lorelei-Time-to-Pray.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/309102.png",
+      "sourceImage": "assets/source/9Pets-Lorelei-Time-to-Pray.png",
+      "sourceRepoPath": "singlebg/headicon_img/309102.png",
+      "assetId": "309102",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a9_309102_lorelei",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a9_309102_lorelei",
+      "cubismPath": "live2d/roles/v1a9_309102_luoleilai",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a9_309102_luoleilai",
+      "birthday": "4/16",
+      "skinName": "Time to Pray",
+      "isDefaultSkin": false,
+      "skinDescription": "人们从四面八方来，于水泉边沉沉入梦。",
+      "matchedName": "Lorelei",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Lorelei is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 309102 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1347823,
+      "assetVersions": {
+        "downloads/9Pets-Lorelei-Time-to-Pray.zip": "4d2c8c58de8e7ef8",
+        "assets/previews/9Pets-Lorelei-Time-to-Pray.png": "ddbc1fca8dccad26",
+        "assets/spritesheets/9Pets-Lorelei-Time-to-Pray.webp": "116dbed4a276c404",
+        "assets/detail-spritesheets/9Pets-Lorelei-Time-to-Pray.webp": "ac5382cd6ba2942e",
+        "assets/source/9Pets-Lorelei-Time-to-Pray.png": "2b38c05711717340"
       }
     }
   ],
