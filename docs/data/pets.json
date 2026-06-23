@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T16:25:28Z",
-  "total": 292,
+  "generatedAt": "2026-06-23T16:29:45Z",
+  "total": 293,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -11030,6 +11030,44 @@
         "assets/spritesheets/9Pets-Tooth-Fairy-The-Woven-Legend.webp": "34bee6365edc3139",
         "assets/detail-spritesheets/9Pets-Tooth-Fairy-The-Woven-Legend.webp": "af2f04d8ba721643",
         "assets/source/9Pets-Tooth-Fairy-The-Woven-Legend.png": "c955727da8619039"
+      }
+    },
+    {
+      "id": "9pets-tuesday-cold-cradle",
+      "packageName": "9Pets-Tuesday-Cold-Cradle",
+      "displayName": "Tuesday",
+      "skinDisplayName": "-- Cold Cradle",
+      "download": "downloads/9Pets-Tuesday-Cold-Cradle.zip",
+      "preview": "assets/previews/9Pets-Tuesday-Cold-Cradle.png",
+      "spritesheet": "assets/spritesheets/9Pets-Tuesday-Cold-Cradle.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Tuesday-Cold-Cradle.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/309804.png",
+      "sourceImage": "assets/source/9Pets-Tuesday-Cold-Cradle.png",
+      "sourceRepoPath": "singlebg/headicon_img/309804.png",
+      "assetId": "309804",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a5_309804_lsp",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a5_309804_lsp",
+      "cubismPath": "live2d/roles/v3a5_309804_lsp",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a5_309804_lsp",
+      "birthday": "10/30",
+      "skinName": "Cold Cradle",
+      "isDefaultSkin": false,
+      "skinDescription": "在隐秘处，母亲哼着歌谣，抚平一颗心脏被穿透后的恓惶。",
+      "matchedName": "Tuesday",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Tuesday is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 309804 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1000251,
+      "assetVersions": {
+        "downloads/9Pets-Tuesday-Cold-Cradle.zip": "da66e6638f220da7",
+        "assets/previews/9Pets-Tuesday-Cold-Cradle.png": "d12aaa2658f61484",
+        "assets/spritesheets/9Pets-Tuesday-Cold-Cradle.webp": "c269fd40622bff7a",
+        "assets/detail-spritesheets/9Pets-Tuesday-Cold-Cradle.webp": "9fd446c561ae7e83",
+        "assets/source/9Pets-Tuesday-Cold-Cradle.png": "e70f9808e2c5edb1"
       }
     },
     {
