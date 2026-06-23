@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T15:24:01Z",
-  "total": 278,
+  "generatedAt": "2026-06-23T15:29:05Z",
+  "total": 279,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10536,6 +10536,44 @@
         "assets/spritesheets/9Pets-Sonetto-Parade-Anthem.webp": "0706eaef85cd62d3",
         "assets/detail-spritesheets/9Pets-Sonetto-Parade-Anthem.webp": "62e7ceaf7d94b710",
         "assets/source/9Pets-Sonetto-Parade-Anthem.png": "df285ca99dad831f"
+      }
+    },
+    {
+      "id": "9pets-sotheby-suspiriorum",
+      "packageName": "9Pets-Sotheby-Suspiriorum",
+      "displayName": "Sotheby",
+      "skinDisplayName": "-- Suspiriorum",
+      "download": "downloads/9Pets-Sotheby-Suspiriorum.zip",
+      "preview": "assets/previews/9Pets-Sotheby-Suspiriorum.png",
+      "spritesheet": "assets/spritesheets/9Pets-Sotheby-Suspiriorum.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Sotheby-Suspiriorum.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/300903.png",
+      "sourceImage": "assets/source/9Pets-Sotheby-Suspiriorum.png",
+      "sourceRepoPath": "singlebg/headicon_img/300903.png",
+      "assetId": "300903",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/300903_sfb",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/300903_sfb",
+      "cubismPath": "live2d/roles/300903_sufubi",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/300903_sufubi",
+      "birthday": "4/15",
+      "skinName": "Suspiriorum",
+      "isDefaultSkin": false,
+      "skinDescription": "一位完美的女主角，母亲最好的女儿。",
+      "matchedName": "Sotheby",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Sotheby is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 300903 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 896121,
+      "assetVersions": {
+        "downloads/9Pets-Sotheby-Suspiriorum.zip": "e53469cf297f677c",
+        "assets/previews/9Pets-Sotheby-Suspiriorum.png": "5e70facd15b1e890",
+        "assets/spritesheets/9Pets-Sotheby-Suspiriorum.webp": "cc8fea18dbae1df0",
+        "assets/detail-spritesheets/9Pets-Sotheby-Suspiriorum.webp": "08584e7c79c7c6c4",
+        "assets/source/9Pets-Sotheby-Suspiriorum.png": "b5e6090a4def3cac"
       }
     },
     {
