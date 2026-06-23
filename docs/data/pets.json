@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T13:14:53Z",
-  "total": 254,
+  "generatedAt": "2026-06-23T13:19:44Z",
+  "total": 255,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9662,6 +9662,44 @@
         "assets/spritesheets/9Pets-Noire-The-Trapped-Trapmaster.webp": "10978a602c47e635",
         "assets/detail-spritesheets/9Pets-Noire-The-Trapped-Trapmaster.webp": "4895efb29247daab",
         "assets/source/9Pets-Noire-The-Trapped-Trapmaster.png": "5ac4e9665196a3ec"
+      }
+    },
+    {
+      "id": "9pets-paper-heron-downstream-of-letting-go",
+      "packageName": "9Pets-Paper-Heron-Downstream-of-Letting-Go",
+      "displayName": "Paper Heron",
+      "skinDisplayName": "-- Downstream of Letting Go",
+      "download": "downloads/9Pets-Paper-Heron-Downstream-of-Letting-Go.zip",
+      "preview": "assets/previews/9Pets-Paper-Heron-Downstream-of-Letting-Go.png",
+      "spritesheet": "assets/spritesheets/9Pets-Paper-Heron-Downstream-of-Letting-Go.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Paper-Heron-Downstream-of-Letting-Go.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/314102.png",
+      "sourceImage": "assets/source/9Pets-Paper-Heron-Downstream-of-Letting-Go.png",
+      "sourceRepoPath": "singlebg/headicon_img/314102.png",
+      "assetId": "314102",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a4_314102_lsj",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a4_314102_lsj",
+      "cubismPath": "live2d/roles/v3a4_314102_lsj",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a4_314102_lsj",
+      "birthday": "8/15",
+      "skinName": "Downstream of Letting Go",
+      "isDefaultSkin": false,
+      "skinDescription": "万家灯火，鱼龙漫天，而她亦有小舟一叶。",
+      "matchedName": "Paper Heron",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Paper Heron is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 314102 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1064818,
+      "assetVersions": {
+        "downloads/9Pets-Paper-Heron-Downstream-of-Letting-Go.zip": "20790990e3d312d7",
+        "assets/previews/9Pets-Paper-Heron-Downstream-of-Letting-Go.png": "1f6f3419cabb7bfe",
+        "assets/spritesheets/9Pets-Paper-Heron-Downstream-of-Letting-Go.webp": "b84b54a2b072b93a",
+        "assets/detail-spritesheets/9Pets-Paper-Heron-Downstream-of-Letting-Go.webp": "b3863e505cbca350",
+        "assets/source/9Pets-Paper-Heron-Downstream-of-Letting-Go.png": "68ad07497e918aa2"
       }
     }
   ],
