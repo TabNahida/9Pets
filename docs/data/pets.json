@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T20:26:12Z",
+  "generatedAt": "2026-06-23T20:33:07Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 139,
+  "cuteTotal": 140,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -17779,6 +17779,48 @@
         "assets/spritesheets/9Pets-Cute-A-Knight-The-Evergreen-Soul.webp": "9bfbe00fab93ee19",
         "assets/detail-spritesheets/9Pets-Cute-A-Knight-The-Evergreen-Soul.webp": "4c6db2f69aaec333",
         "assets/source/9Pets-Cute-A-Knight-The-Evergreen-Soul.png": "2ac9deb1b5b31e69"
+      }
+    },
+    {
+      "id": "9pets-cute-aleph-a-feast-of-imagery",
+      "packageName": "9Pets-Cute-Aleph-A-Feast-of-Imagery",
+      "normalPackageName": "9Pets-Aleph-A-Feast-of-Imagery",
+      "normalId": "9pets-aleph-a-feast-of-imagery",
+      "displayName": "Aleph",
+      "skinDisplayName": "-- A Feast of Imagery",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Aleph-A-Feast-of-Imagery.zip",
+      "preview": "assets/previews/9Pets-Cute-Aleph-A-Feast-of-Imagery.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Aleph-A-Feast-of-Imagery.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Aleph-A-Feast-of-Imagery.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a1_311303_alf",
+      "sourceImage": "assets/source/9Pets-Cute-Aleph-A-Feast-of-Imagery.png",
+      "sourceRepoPath": "roles/v3a1_311303_alf",
+      "assetId": "311303",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a1_311303_alf",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a1_311303_alf",
+      "cubismPath": "live2d/roles/v3a1_311303_alf",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a1_311303_alf",
+      "birthday": "2/28",
+      "skinName": "A Feast of Imagery",
+      "isDefaultSkin": false,
+      "skinDescription": "已死的、濒死的、神经质的、癫狂的……他的创作。",
+      "matchedName": "Aleph",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Aleph has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1371506,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Aleph-A-Feast-of-Imagery.zip": "cc2d60ee82af591d",
+        "assets/previews/9Pets-Cute-Aleph-A-Feast-of-Imagery.png": "281e0af8c5b77f98",
+        "assets/spritesheets/9Pets-Cute-Aleph-A-Feast-of-Imagery.webp": "d0bdcf2202c6731c",
+        "assets/detail-spritesheets/9Pets-Cute-Aleph-A-Feast-of-Imagery.webp": "a6a1b0ef3bde7659",
+        "assets/source/9Pets-Cute-Aleph-A-Feast-of-Imagery.png": "ea2e5169c7feb174"
       }
     },
     {
