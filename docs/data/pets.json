@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T20:12:00Z",
+  "generatedAt": "2026-06-23T20:16:52Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -17688,13 +17688,13 @@
       "animationMode": "official-cute-spine",
       "animationModeLabel": "Official chibi Spine motion capture",
       "characterSummary": "A Knight has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
-      "packageBytes": 309354,
+      "packageBytes": 500607,
       "assetVersions": {
-        "downloads/9Pets-Cute-A-Knight-Galloping-Across-the-Times.zip": "b9e72d94207dc322",
-        "assets/previews/9Pets-Cute-A-Knight-Galloping-Across-the-Times.png": "c4aaceb3496be6e7",
-        "assets/spritesheets/9Pets-Cute-A-Knight-Galloping-Across-the-Times.webp": "51a37e5893c02e22",
-        "assets/detail-spritesheets/9Pets-Cute-A-Knight-Galloping-Across-the-Times.webp": "c72797e71823e44d",
-        "assets/source/9Pets-Cute-A-Knight-Galloping-Across-the-Times.png": "98840296512fd390"
+        "downloads/9Pets-Cute-A-Knight-Galloping-Across-the-Times.zip": "48376055323b06f7",
+        "assets/previews/9Pets-Cute-A-Knight-Galloping-Across-the-Times.png": "f1c3ce8d9b131409",
+        "assets/spritesheets/9Pets-Cute-A-Knight-Galloping-Across-the-Times.webp": "096a3e86bcd453ab",
+        "assets/detail-spritesheets/9Pets-Cute-A-Knight-Galloping-Across-the-Times.webp": "a22dbcc691d7c3f1",
+        "assets/source/9Pets-Cute-A-Knight-Galloping-Across-the-Times.png": "18d781d6b6f85fc2"
       }
     },
     {
@@ -17772,13 +17772,13 @@
       "animationMode": "official-cute-spine",
       "animationModeLabel": "Official chibi Spine motion capture",
       "characterSummary": "A Knight has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
-      "packageBytes": 309297,
+      "packageBytes": 789290,
       "assetVersions": {
-        "downloads/9Pets-Cute-A-Knight-The-Evergreen-Soul.zip": "cb683aade006ccc8",
-        "assets/previews/9Pets-Cute-A-Knight-The-Evergreen-Soul.png": "c4aaceb3496be6e7",
-        "assets/spritesheets/9Pets-Cute-A-Knight-The-Evergreen-Soul.webp": "51a37e5893c02e22",
-        "assets/detail-spritesheets/9Pets-Cute-A-Knight-The-Evergreen-Soul.webp": "c72797e71823e44d",
-        "assets/source/9Pets-Cute-A-Knight-The-Evergreen-Soul.png": "98840296512fd390"
+        "downloads/9Pets-Cute-A-Knight-The-Evergreen-Soul.zip": "d00018907ce802da",
+        "assets/previews/9Pets-Cute-A-Knight-The-Evergreen-Soul.png": "7b156d5266eb9317",
+        "assets/spritesheets/9Pets-Cute-A-Knight-The-Evergreen-Soul.webp": "9bfbe00fab93ee19",
+        "assets/detail-spritesheets/9Pets-Cute-A-Knight-The-Evergreen-Soul.webp": "4c6db2f69aaec333",
+        "assets/source/9Pets-Cute-A-Knight-The-Evergreen-Soul.png": "2ac9deb1b5b31e69"
       }
     },
     {
