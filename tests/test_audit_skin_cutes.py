@@ -7,6 +7,87 @@ from tools import build_pets_site as site
 
 
 class AuditSkinCuteStagingTest(unittest.TestCase):
+    def test_detail_page_qa_waits_for_sprite_background_before_checking(self) -> None:
+        package_name = "9Pets-Cute-Test-Delayed-Skin"
+        row = {
+            "cute_package": package_name,
+            "skin": "Delayed Skin",
+        }
+
+        class FakeLocator:
+            def __init__(self, page: "FakePage", selector: str) -> None:
+                self.page = page
+                self.selector = selector
+
+            def evaluate(self, script: str) -> str:
+                if self.selector == ".detail-sprite" and self.page.sprite_waited:
+                    return f'url("http://example.test/assets/detail-spritesheets/{package_name}.webp?v=123")'
+                return "none"
+
+            def get_attribute(self, name: str) -> str:
+                if self.selector == "a[download]":
+                    return f"downloads/{package_name}.zip?v=123"
+                if self.selector == "#sourceImage":
+                    return f"assets/source/{package_name}.png?v=123"
+                return ""
+
+        class FakeButton:
+            def __init__(self, page: "FakePage") -> None:
+                self.page = page
+
+            def click(self) -> None:
+                self.page.wave_active = True
+
+            def get_attribute(self, name: str) -> str:
+                return "active" if self.page.wave_active else ""
+
+        class FakePage:
+            def __init__(self, kind: str) -> None:
+                self.kind = kind
+                self.sprite_waited = False
+                self.wave_active = False
+
+            def set_viewport_size(self, size: dict[str, int]) -> None:
+                return
+
+            def goto(self, url: str, wait_until: str) -> None:
+                return
+
+            def wait_for_selector(self, selector: str) -> None:
+                return
+
+            def evaluate(self, script: str, args: list[str]) -> dict[str, str | bool]:
+                return {
+                    "hasVariant": True,
+                    "animationMode": "official-cute-spine",
+                    "skinDisplayName": "-- Delayed Skin",
+                    "expectedSkinDisplay": "-- Delayed Skin",
+                }
+
+            def wait_for_function(self, script: str, *, arg: str, timeout: int) -> None:
+                self.sprite_waited = True
+
+            def locator(self, selector: str) -> FakeLocator:
+                return FakeLocator(self, selector)
+
+            def get_by_role(self, role: str, name: str) -> FakeButton:
+                return FakeButton(self)
+
+            def close(self) -> None:
+                return
+
+        class FakeContext:
+            def __init__(self) -> None:
+                self.pages = [FakePage("catalog"), FakePage("detail")]
+
+            def new_page(self) -> FakePage:
+                return self.pages.pop(0)
+
+        session = audit.PageQaSession()
+        session.context = FakeContext()
+
+        session.check("http://example.test", row)
+
     def test_stage_paths_include_skin_spine_cache(self) -> None:
         row = {
             "cute_package": "9Pets-Cute-37-A-Prime-Number",

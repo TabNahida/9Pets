@@ -184,6 +184,15 @@ class PageQaSession:
         detail.set_viewport_size({"width": 1440, "height": 1000})
         detail.goto(f"{base_url}/pet.html?id={pet_id}", wait_until="domcontentloaded")
         detail.wait_for_selector(".detail-sprite")
+        detail.wait_for_function(
+            """packageName => {
+                const sprite = document.querySelector(".detail-sprite");
+                return Boolean(sprite)
+                    && getComputedStyle(sprite).backgroundImage.includes(`detail-spritesheets/${packageName}.webp`);
+            }""",
+            arg=package_name,
+            timeout=10_000,
+        )
         sprite_image = detail.locator(".detail-sprite").evaluate("node => getComputedStyle(node).backgroundImage")
         if f"detail-spritesheets/{package_name}.webp" not in sprite_image:
             raise AssertionError(f"{package_name} detail page uses wrong sprite: {sprite_image}")
