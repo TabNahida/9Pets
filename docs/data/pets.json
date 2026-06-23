@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T14:11:41Z",
-  "total": 263,
+  "generatedAt": "2026-06-23T14:16:14Z",
+  "total": 264,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10004,6 +10004,44 @@
         "assets/spritesheets/9Pets-Rhiannon-The-Migration-of-Her-Heart.webp": "04fd07fe632df16d",
         "assets/detail-spritesheets/9Pets-Rhiannon-The-Migration-of-Her-Heart.webp": "400bb2c30cdaa69b",
         "assets/source/9Pets-Rhiannon-The-Migration-of-Her-Heart.png": "50af68af96c0c7c3"
+      }
+    },
+    {
+      "id": "9pets-rubuska-the-piper-s-dream",
+      "packageName": "9Pets-Rubuska-The-Piper-s-Dream",
+      "displayName": "Rubuska",
+      "skinDisplayName": "-- The Piper's Dream",
+      "download": "downloads/9Pets-Rubuska-The-Piper-s-Dream.zip",
+      "preview": "assets/previews/9Pets-Rubuska-The-Piper-s-Dream.png",
+      "spritesheet": "assets/spritesheets/9Pets-Rubuska-The-Piper-s-Dream.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Rubuska-The-Piper-s-Dream.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/312502.png",
+      "sourceImage": "assets/source/9Pets-Rubuska-The-Piper-s-Dream.png",
+      "sourceRepoPath": "singlebg/headicon_img/312502.png",
+      "assetId": "312502",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a1_312502_ysm",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a1_312502_ysm",
+      "cubismPath": "live2d/roles/v3a1_312502_ysm",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a1_312502_ysm",
+      "birthday": "5/29",
+      "skinName": "The Piper's Dream",
+      "isDefaultSkin": false,
+      "skinDescription": "她回味着那个温暖的梦，在日出之前。",
+      "matchedName": "Rubuska",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Rubuska is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 312502 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 959354,
+      "assetVersions": {
+        "downloads/9Pets-Rubuska-The-Piper-s-Dream.zip": "f84433b69de153d4",
+        "assets/previews/9Pets-Rubuska-The-Piper-s-Dream.png": "78406049fb175862",
+        "assets/spritesheets/9Pets-Rubuska-The-Piper-s-Dream.webp": "23bd90b9515e3994",
+        "assets/detail-spritesheets/9Pets-Rubuska-The-Piper-s-Dream.webp": "a6c01a7d7921bd34",
+        "assets/source/9Pets-Rubuska-The-Piper-s-Dream.png": "2f1d7b564f5338e0"
       }
     }
   ],
