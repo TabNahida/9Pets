@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T10:04:01Z",
-  "total": 217,
+  "generatedAt": "2026-06-23T10:08:14Z",
+  "total": 218,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8256,6 +8256,44 @@
         "assets/spritesheets/9Pets-Loggerhead-A-Moment-of-Leisure.webp": "345e9da395b3cee2",
         "assets/detail-spritesheets/9Pets-Loggerhead-A-Moment-of-Leisure.webp": "86925537466c6099",
         "assets/source/9Pets-Loggerhead-A-Moment-of-Leisure.png": "f99b769dde50bd84"
+      }
+    },
+    {
+      "id": "9pets-lopera-the-wayward-soul-returns",
+      "packageName": "9Pets-Lopera-The-Wayward-Soul-Returns",
+      "displayName": "Lopera",
+      "skinDisplayName": "-- The Wayward Soul Returns",
+      "download": "downloads/9Pets-Lopera-The-Wayward-Soul-Returns.zip",
+      "preview": "assets/previews/9Pets-Lopera-The-Wayward-Soul-Returns.png",
+      "spritesheet": "assets/spritesheets/9Pets-Lopera-The-Wayward-Soul-Returns.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Lopera-The-Wayward-Soul-Returns.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/310202.png",
+      "sourceImage": "assets/source/9Pets-Lopera-The-Wayward-Soul-Returns.png",
+      "sourceRepoPath": "singlebg/headicon_img/310202.png",
+      "assetId": "310202",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a2_310202_lopera",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a2_310202_lopera",
+      "cubismPath": "live2d/roles/v2a2_310202_luopeila",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a2_310202_luopeila",
+      "birthday": "5/6",
+      "skinName": "The Wayward Soul Returns",
+      "isDefaultSkin": false,
+      "skinDescription": "她清楚这是久违的宁静。",
+      "matchedName": "Lopera",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Lopera is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 310202 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1059869,
+      "assetVersions": {
+        "downloads/9Pets-Lopera-The-Wayward-Soul-Returns.zip": "6e472dfdb2e8f19f",
+        "assets/previews/9Pets-Lopera-The-Wayward-Soul-Returns.png": "2b9b1eb080fa66db",
+        "assets/spritesheets/9Pets-Lopera-The-Wayward-Soul-Returns.webp": "e4efbddb2a3fdfde",
+        "assets/detail-spritesheets/9Pets-Lopera-The-Wayward-Soul-Returns.webp": "072d493cd8868f9c",
+        "assets/source/9Pets-Lopera-The-Wayward-Soul-Returns.png": "6e305269c214d99c"
       }
     }
   ],
