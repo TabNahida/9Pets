@@ -3057,9 +3057,9 @@ def cute_source_info(
     profile_package_name: str | None = None,
 ) -> dict[str, Any]:
     info = dict(base)
-    override = CUTE_SPINE_SOURCE_OVERRIDES.get(package_name) or (
-        CUTE_SPINE_SOURCE_OVERRIDES.get(profile_package_name) if profile_package_name else None
-    )
+    override = CUTE_SPINE_SOURCE_OVERRIDES.get(package_name)
+    if not override and profile_package_name and info.get("isDefaultSkin", True):
+        override = CUTE_SPINE_SOURCE_OVERRIDES.get(profile_package_name)
     if override:
         original_skin_name = info.get("skinName", DEFAULT_SKIN_NAME)
         original_is_default = info.get("isDefaultSkin", True)

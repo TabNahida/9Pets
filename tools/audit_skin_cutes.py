@@ -267,9 +267,16 @@ def stage_and_commit(row: dict[str, Any]) -> None:
     run(["git", "commit", "-m", f"Audit {row['character']} {row['skin']} cute skin"], timeout=180)
 
 
-def audit_row(row: dict[str, Any], base_url: str, page_qa: PageQaSession, *, reuse_existing: bool = False) -> None:
+def audit_row(
+    row: dict[str, Any],
+    base_url: str,
+    page_qa: PageQaSession,
+    *,
+    reuse_existing: bool = False,
+    force: bool = False,
+) -> None:
     package_name = row["cute_package"]
-    if todo_cute_done(row["asset_id"]):
+    if todo_cute_done(row["asset_id"]) and not force:
         print(f"skipping already-audited Cute {package_name}", flush=True)
         return
     print(f"auditing {package_name} ({row['asset_id']})", flush=True)
@@ -309,13 +316,14 @@ def main() -> None:
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--only-id")
     parser.add_argument("--reuse-existing", action="store_true")
+    parser.add_argument("--force", action="store_true")
     args = parser.parse_args()
 
     rows = skin_rows()
     if args.only_id:
         rows = [row for row in rows if row["asset_id"] == args.only_id]
     else:
-        rows = [row for row in rows if not todo_cute_done(row["asset_id"])]
+        rows = rows if args.force else [row for row in rows if not todo_cute_done(row["asset_id"])]
     if args.limit > 0:
         rows = rows[: args.limit]
     if not rows:
@@ -324,7 +332,7 @@ def main() -> None:
 
     with StaticServer() as base_url, PageQaSession() as page_qa:
         for row in rows:
-            audit_row(row, base_url, page_qa, reuse_existing=args.reuse_existing)
+            audit_row(row, base_url, page_qa, reuse_existing=args.reuse_existing, force=args.force)
 
 
 if __name__ == "__main__":
