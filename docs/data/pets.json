@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T08:08:35Z",
-  "total": 206,
+  "generatedAt": "2026-06-23T08:14:07Z",
+  "total": 207,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -7838,6 +7838,44 @@
         "assets/spritesheets/9Pets-Kanjira-Tambourine.webp": "d6116a671e78e9ca",
         "assets/detail-spritesheets/9Pets-Kanjira-Tambourine.webp": "27baae0875af5970",
         "assets/source/9Pets-Kanjira-Tambourine.png": "0ad08a35495944c4"
+      }
+    },
+    {
+      "id": "9pets-kanjira-the-night-visitor",
+      "packageName": "9Pets-Kanjira-The-Night-Visitor",
+      "displayName": "Kanjira",
+      "skinDisplayName": "-- The Night Visitor",
+      "download": "downloads/9Pets-Kanjira-The-Night-Visitor.zip",
+      "preview": "assets/previews/9Pets-Kanjira-The-Night-Visitor.png",
+      "spritesheet": "assets/spritesheets/9Pets-Kanjira-The-Night-Visitor.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Kanjira-The-Night-Visitor.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/307103.png",
+      "sourceImage": "assets/source/9Pets-Kanjira-The-Night-Visitor.png",
+      "sourceRepoPath": "singlebg/headicon_img/307103.png",
+      "assetId": "307103",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a0_307103_kjl",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a0_307103_kjl",
+      "cubismPath": "live2d/roles/v2a0_307103_kjl",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a0_307103_kjl",
+      "birthday": "4/8",
+      "skinName": "The Night Visitor",
+      "isDefaultSkin": false,
+      "skinDescription": "她擅长发现黑夜中的微小亮光。",
+      "matchedName": "Kanjira",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Kanjira is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 307103 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1024487,
+      "assetVersions": {
+        "downloads/9Pets-Kanjira-The-Night-Visitor.zip": "c09930a85c46d260",
+        "assets/previews/9Pets-Kanjira-The-Night-Visitor.png": "3409ff6068cb84e2",
+        "assets/spritesheets/9Pets-Kanjira-The-Night-Visitor.webp": "ec6896911368d6bc",
+        "assets/detail-spritesheets/9Pets-Kanjira-The-Night-Visitor.webp": "87267d3d5b66524a",
+        "assets/source/9Pets-Kanjira-The-Night-Visitor.png": "456b2d80f29d81fc"
       }
     }
   ],
