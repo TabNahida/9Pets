@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T18:25:52Z",
-  "total": 313,
+  "generatedAt": "2026-06-23T18:30:29Z",
+  "total": 314,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8446,6 +8446,44 @@
         "assets/spritesheets/9Pets-Lorelei-Time-to-Pray.webp": "116dbed4a276c404",
         "assets/detail-spritesheets/9Pets-Lorelei-Time-to-Pray.webp": "ac5382cd6ba2942e",
         "assets/source/9Pets-Lorelei-Time-to-Pray.png": "2b38c05711717340"
+      }
+    },
+    {
+      "id": "9pets-lorentz-butterfly-finale-in-silver",
+      "packageName": "9Pets-Lorentz-Butterfly-Finale-in-Silver",
+      "displayName": "Lorentz Butterfly",
+      "skinDisplayName": "-- Finale in Silver",
+      "download": "downloads/9Pets-Lorentz-Butterfly-Finale-in-Silver.zip",
+      "preview": "assets/previews/9Pets-Lorentz-Butterfly-Finale-in-Silver.png",
+      "spritesheet": "assets/spritesheets/9Pets-Lorentz-Butterfly-Finale-in-Silver.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Lorentz-Butterfly-Finale-in-Silver.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/313903.png",
+      "sourceImage": "assets/source/9Pets-Lorentz-Butterfly-Finale-in-Silver.png",
+      "sourceRepoPath": "singlebg/headicon_img/313903.png",
+      "assetId": "313903",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a8_313903_llzhd",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a8_313903_llzhd",
+      "cubismPath": "live2d/roles/v3a8_313903_llzhd",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a8_313903_llzhd",
+      "birthday": "9/19",
+      "skinName": "Finale in Silver",
+      "isDefaultSkin": false,
+      "skinDescription": "藏木于林，藏悲鸣于乐音齐奏，一个小小的窍门。",
+      "matchedName": "Lorentz Butterfly",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Lorentz Butterfly is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 313903 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1341716,
+      "assetVersions": {
+        "downloads/9Pets-Lorentz-Butterfly-Finale-in-Silver.zip": "129805c8a28517ae",
+        "assets/previews/9Pets-Lorentz-Butterfly-Finale-in-Silver.png": "a5eb5f14f6edf1f7",
+        "assets/spritesheets/9Pets-Lorentz-Butterfly-Finale-in-Silver.webp": "6b58a485bfad1a26",
+        "assets/detail-spritesheets/9Pets-Lorentz-Butterfly-Finale-in-Silver.webp": "155d016787e541b7",
+        "assets/source/9Pets-Lorentz-Butterfly-Finale-in-Silver.png": "01be42f96dd6dd48"
       }
     },
     {
