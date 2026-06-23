@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T09:49:59Z",
-  "total": 214,
+  "generatedAt": "2026-06-23T09:55:29Z",
+  "total": 215,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8104,6 +8104,44 @@
         "assets/spritesheets/9Pets-Liang-Yue-The-Moon-s-Reflection.webp": "329d381d039b26c4",
         "assets/detail-spritesheets/9Pets-Liang-Yue-The-Moon-s-Reflection.webp": "3029502a3bd093e4",
         "assets/source/9Pets-Liang-Yue-The-Moon-s-Reflection.png": "e0b964ca98a155cb"
+      }
+    },
+    {
+      "id": "9pets-lilya-the-art-of-destreza",
+      "packageName": "9Pets-Lilya-The-Art-of-Destreza",
+      "displayName": "Lilya",
+      "skinDisplayName": "-- The Art of Destreza",
+      "download": "downloads/9Pets-Lilya-The-Art-of-Destreza.zip",
+      "preview": "assets/previews/9Pets-Lilya-The-Art-of-Destreza.png",
+      "spritesheet": "assets/spritesheets/9Pets-Lilya-The-Art-of-Destreza.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Lilya-The-Art-of-Destreza.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/300403.png",
+      "sourceImage": "assets/source/9Pets-Lilya-The-Art-of-Destreza.png",
+      "sourceRepoPath": "singlebg/headicon_img/300403.png",
+      "assetId": "300403",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a4_300403_hongnujian",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a4_300403_hongnujian",
+      "cubismPath": "live2d/roles/v1a4_300403_hongnujian",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a4_300403_hongnujian",
+      "birthday": "11/14",
+      "skinName": "The Art of Destreza",
+      "isDefaultSkin": false,
+      "skinDescription": "剑术——点、线、面的组合模型。",
+      "matchedName": "Lilya",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Lilya is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 300403 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1136795,
+      "assetVersions": {
+        "downloads/9Pets-Lilya-The-Art-of-Destreza.zip": "2eeb44bdeebd5f41",
+        "assets/previews/9Pets-Lilya-The-Art-of-Destreza.png": "93452cdd9a30017e",
+        "assets/spritesheets/9Pets-Lilya-The-Art-of-Destreza.webp": "bdade343665864e2",
+        "assets/detail-spritesheets/9Pets-Lilya-The-Art-of-Destreza.webp": "496e9e6338b90eda",
+        "assets/source/9Pets-Lilya-The-Art-of-Destreza.png": "8588d1f0d3ca71fc"
       }
     },
     {
