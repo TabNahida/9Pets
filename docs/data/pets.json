@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T11:43:27Z",
-  "total": 238,
+  "generatedAt": "2026-06-23T11:47:44Z",
+  "total": 239,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9016,6 +9016,44 @@
         "assets/spritesheets/9Pets-Melania-The-Ramirez-Style.webp": "f661b8d4bf0f29a9",
         "assets/detail-spritesheets/9Pets-Melania-The-Ramirez-Style.webp": "c40bffec2d283778",
         "assets/source/9Pets-Melania-The-Ramirez-Style.png": "f7a1c1018d69ec17"
+      }
+    },
+    {
+      "id": "9pets-mercuria-midnight-mistmancer",
+      "packageName": "9Pets-Mercuria-Midnight-Mistmancer",
+      "displayName": "Mercuria",
+      "skinDisplayName": "-- Midnight Mistmancer",
+      "download": "downloads/9Pets-Mercuria-Midnight-Mistmancer.zip",
+      "preview": "assets/previews/9Pets-Mercuria-Midnight-Mistmancer.png",
+      "spritesheet": "assets/spritesheets/9Pets-Mercuria-Midnight-Mistmancer.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Mercuria-Midnight-Mistmancer.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/309503.png",
+      "sourceImage": "assets/source/9Pets-Mercuria-Midnight-Mistmancer.png",
+      "sourceRepoPath": "singlebg/headicon_img/309503.png",
+      "assetId": "309503",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a4_309503_hzsx",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a4_309503_hzsx",
+      "cubismPath": "live2d/roles/v2a4_309503_hzsx",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a4_309503_hzsx",
+      "birthday": "2/18",
+      "skinName": "Midnight Mistmancer",
+      "isDefaultSkin": false,
+      "skinDescription": "摇曳，摇曳，虚幻中看见真我。",
+      "matchedName": "Mercuria",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Mercuria is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 309503 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 985529,
+      "assetVersions": {
+        "downloads/9Pets-Mercuria-Midnight-Mistmancer.zip": "700800525867ed03",
+        "assets/previews/9Pets-Mercuria-Midnight-Mistmancer.png": "545d872b6587a6f1",
+        "assets/spritesheets/9Pets-Mercuria-Midnight-Mistmancer.webp": "4ec3701f0ac7d856",
+        "assets/detail-spritesheets/9Pets-Mercuria-Midnight-Mistmancer.webp": "fdd17ac4fb9ca66b",
+        "assets/source/9Pets-Mercuria-Midnight-Mistmancer.png": "6d855c92bd8aa18b"
       }
     },
     {
