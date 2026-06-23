@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T15:10:10Z",
-  "total": 276,
+  "generatedAt": "2026-06-23T15:17:50Z",
+  "total": 277,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -10460,6 +10460,44 @@
         "assets/spritesheets/9Pets-Silverwing-Eagle-Becoming-a-Scientist-Scientifically.webp": "f6f141c5ea3bac25",
         "assets/detail-spritesheets/9Pets-Silverwing-Eagle-Becoming-a-Scientist-Scientifically.webp": "5635a40af4a556de",
         "assets/source/9Pets-Silverwing-Eagle-Becoming-a-Scientist-Scientifically.png": "2018d0251dac4b11"
+      }
+    },
+    {
+      "id": "9pets-sonetto-emotion-in-tranquility",
+      "packageName": "9Pets-Sonetto-Emotion-in-Tranquility",
+      "displayName": "Sonetto",
+      "skinDisplayName": "-- Emotion in Tranquility",
+      "download": "downloads/9Pets-Sonetto-Emotion-in-Tranquility.zip",
+      "preview": "assets/previews/9Pets-Sonetto-Emotion-in-Tranquility.png",
+      "spritesheet": "assets/spritesheets/9Pets-Sonetto-Emotion-in-Tranquility.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Sonetto-Emotion-in-Tranquility.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/302304.png",
+      "sourceImage": "assets/source/9Pets-Sonetto-Emotion-in-Tranquility.png",
+      "sourceRepoPath": "singlebg/headicon_img/302304.png",
+      "assetId": "302304",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a9_302304_sshs",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a9_302304_sshs",
+      "cubismPath": "live2d/roles/v1a9_302304_sshs",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a9_302304_sshs",
+      "birthday": "1/10",
+      "skinName": "Emotion in Tranquility",
+      "isDefaultSkin": false,
+      "skinDescription": "它已成为记忆中的一隅。",
+      "matchedName": "Sonetto",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Sonetto is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 302304 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 967142,
+      "assetVersions": {
+        "downloads/9Pets-Sonetto-Emotion-in-Tranquility.zip": "76d2c8342b878047",
+        "assets/previews/9Pets-Sonetto-Emotion-in-Tranquility.png": "891f57fbcbaa9f45",
+        "assets/spritesheets/9Pets-Sonetto-Emotion-in-Tranquility.webp": "53028107a0236a9c",
+        "assets/detail-spritesheets/9Pets-Sonetto-Emotion-in-Tranquility.webp": "c32e72fa184ba251",
+        "assets/source/9Pets-Sonetto-Emotion-in-Tranquility.png": "9be0e38299e2930d"
       }
     },
     {
