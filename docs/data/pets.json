@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T11:47:44Z",
-  "total": 239,
+  "generatedAt": "2026-06-23T11:51:56Z",
+  "total": 240,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -9054,6 +9054,44 @@
         "assets/spritesheets/9Pets-Mercuria-Midnight-Mistmancer.webp": "4ec3701f0ac7d856",
         "assets/detail-spritesheets/9Pets-Mercuria-Midnight-Mistmancer.webp": "fdd17ac4fb9ca66b",
         "assets/source/9Pets-Mercuria-Midnight-Mistmancer.png": "6d855c92bd8aa18b"
+      }
+    },
+    {
+      "id": "9pets-mercuria-the-nightmare-s-carol",
+      "packageName": "9Pets-Mercuria-The-Nightmare-s-Carol",
+      "displayName": "Mercuria",
+      "skinDisplayName": "-- The Nightmare's Carol",
+      "download": "downloads/9Pets-Mercuria-The-Nightmare-s-Carol.zip",
+      "preview": "assets/previews/9Pets-Mercuria-The-Nightmare-s-Carol.png",
+      "spritesheet": "assets/spritesheets/9Pets-Mercuria-The-Nightmare-s-Carol.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Mercuria-The-Nightmare-s-Carol.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/309504.png",
+      "sourceImage": "assets/source/9Pets-Mercuria-The-Nightmare-s-Carol.png",
+      "sourceRepoPath": "singlebg/headicon_img/309504.png",
+      "assetId": "309504",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a3_309504_hzsx",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a3_309504_hzsx",
+      "cubismPath": "live2d/roles/v3a3_309504_hzsx",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a3_309504_hzsx",
+      "birthday": "2/18",
+      "skinName": "The Nightmare's Carol",
+      "isDefaultSkin": false,
+      "skinDescription": "为那不被祝福，不被关照，不被重视的，献上小小的礼物。",
+      "matchedName": "Mercuria",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Mercuria is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 309504 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 840857,
+      "assetVersions": {
+        "downloads/9Pets-Mercuria-The-Nightmare-s-Carol.zip": "9f16e0fd3dd93961",
+        "assets/previews/9Pets-Mercuria-The-Nightmare-s-Carol.png": "08ce5d4bf243ec2f",
+        "assets/spritesheets/9Pets-Mercuria-The-Nightmare-s-Carol.webp": "f384a31c630694b2",
+        "assets/detail-spritesheets/9Pets-Mercuria-The-Nightmare-s-Carol.webp": "ed1869eb021f5fde",
+        "assets/source/9Pets-Mercuria-The-Nightmare-s-Carol.png": "f2520de08623c908"
       }
     },
     {
