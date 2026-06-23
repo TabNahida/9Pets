@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T10:51:17Z",
-  "total": 226,
+  "generatedAt": "2026-06-23T10:56:05Z",
+  "total": 227,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -8598,6 +8598,44 @@
         "assets/spritesheets/9Pets-Marcus-To-the-Gates-of-the-Underworld.webp": "d98929c56ac46cd1",
         "assets/detail-spritesheets/9Pets-Marcus-To-the-Gates-of-the-Underworld.webp": "dd00027f86298065",
         "assets/source/9Pets-Marcus-To-the-Gates-of-the-Underworld.png": "b754c56bcb309707"
+      }
+    },
+    {
+      "id": "9pets-marsha-and-this-i-swear",
+      "packageName": "9Pets-Marsha-And-This-I-Swear",
+      "displayName": "Marsha",
+      "skinDisplayName": "-- And This I Swear",
+      "download": "downloads/9Pets-Marsha-And-This-I-Swear.zip",
+      "preview": "assets/previews/9Pets-Marsha-And-This-I-Swear.png",
+      "spritesheet": "assets/spritesheets/9Pets-Marsha-And-This-I-Swear.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Marsha-And-This-I-Swear.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/312702.png",
+      "sourceImage": "assets/source/9Pets-Marsha-And-This-I-Swear.png",
+      "sourceRepoPath": "singlebg/headicon_img/312702.png",
+      "assetId": "312702",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a3_312702_mes",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a3_312702_mes",
+      "cubismPath": "live2d/roles/v3a3_312702_mes",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a3_312702_mes",
+      "birthday": "4/10",
+      "skinName": "And This I Swear",
+      "isDefaultSkin": false,
+      "skinDescription": "以舍身之举，诠释古老宣言的真意。",
+      "matchedName": "Marsha",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Marsha is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 312702 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 1097229,
+      "assetVersions": {
+        "downloads/9Pets-Marsha-And-This-I-Swear.zip": "74457d5ce0e4f7f2",
+        "assets/previews/9Pets-Marsha-And-This-I-Swear.png": "39270cda04b5a24b",
+        "assets/spritesheets/9Pets-Marsha-And-This-I-Swear.webp": "ee1ae1e04b99df17",
+        "assets/detail-spritesheets/9Pets-Marsha-And-This-I-Swear.webp": "c8692dde2bbcf8c6",
+        "assets/source/9Pets-Marsha-And-This-I-Swear.png": "87f26a40e993086b"
       }
     }
   ],
