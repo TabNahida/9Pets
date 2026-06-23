@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-23T17:12:17Z",
-  "total": 301,
+  "generatedAt": "2026-06-23T17:16:54Z",
+  "total": 302,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
     "huijiWiki": "https://res1999.huijiwiki.com/wiki/",
@@ -11448,6 +11448,44 @@
         "assets/spritesheets/9Pets-Voyager-New-Journey.webp": "8b8b9ea34d62dadf",
         "assets/detail-spritesheets/9Pets-Voyager-New-Journey.webp": "5aabefdd11151552",
         "assets/source/9Pets-Voyager-New-Journey.png": "54488207839b6e99"
+      }
+    },
+    {
+      "id": "9pets-willow-lone-dancer",
+      "packageName": "9Pets-Willow-Lone-Dancer",
+      "displayName": "Willow",
+      "skinDisplayName": "-- Lone Dancer",
+      "download": "downloads/9Pets-Willow-Lone-Dancer.zip",
+      "preview": "assets/previews/9Pets-Willow-Lone-Dancer.png",
+      "spritesheet": "assets/spritesheets/9Pets-Willow-Lone-Dancer.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Willow-Lone-Dancer.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://raw.githubusercontent.com/myssal/Reverse-1999-CN-Asset/master/singlebg/headicon_img/310402.png",
+      "sourceImage": "assets/source/9Pets-Willow-Lone-Dancer.png",
+      "sourceRepoPath": "singlebg/headicon_img/310402.png",
+      "assetId": "310402",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a3_310402_ddg",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a3_310402_ddg",
+      "cubismPath": "live2d/roles/v2a3_310402_ddg",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a3_310402_ddg",
+      "birthday": "11/1",
+      "skinName": "Lone Dancer",
+      "isDefaultSkin": false,
+      "skinDescription": "起舞，起舞，随着神灵的节奏。",
+      "matchedName": "Willow",
+      "live2dCacheStatus": "rendered",
+      "animationMode": "official-live2d-cubism",
+      "animationModeLabel": "Official Live2D Cubism motion capture",
+      "characterSummary": "Willow is tracked as an official-sourced Reverse: 1999 character package. This build maps asset id 310402 to the game asset dump and uses captured Live2D motion frames for the pet atlas.",
+      "packageBytes": 663809,
+      "assetVersions": {
+        "downloads/9Pets-Willow-Lone-Dancer.zip": "f0c09801b79fea46",
+        "assets/previews/9Pets-Willow-Lone-Dancer.png": "9b30db677c6b8688",
+        "assets/spritesheets/9Pets-Willow-Lone-Dancer.webp": "60001ebc95e36039",
+        "assets/detail-spritesheets/9Pets-Willow-Lone-Dancer.webp": "233a53c89a94b699",
+        "assets/source/9Pets-Willow-Lone-Dancer.png": "f1ecd1c51e134449"
       }
     }
   ],
