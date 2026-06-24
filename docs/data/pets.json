@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T19:43:32Z",
+  "generatedAt": "2026-06-24T19:47:30Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 275,
+  "cuteTotal": 276,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -23491,6 +23491,48 @@
         "assets/spritesheets/9Pets-Cute-Mercuria-The-Universe-Holds-Its-Breath.webp": "d4c7750e14d9454f",
         "assets/detail-spritesheets/9Pets-Cute-Mercuria-The-Universe-Holds-Its-Breath.webp": "e0d32fdf5130a99c",
         "assets/source/9Pets-Cute-Mercuria-The-Universe-Holds-Its-Breath.png": "cca6d13c27f99371"
+      }
+    },
+    {
+      "id": "9pets-cute-mesmer-jr-a-day-to-rest",
+      "packageName": "9Pets-Cute-Mesmer-Jr-A-Day-to-Rest",
+      "normalPackageName": "9Pets-Mesmer-Jr-A-Day-to-Rest",
+      "normalId": "9pets-mesmer-jr-a-day-to-rest",
+      "displayName": "Mesmer Jr.",
+      "skinDisplayName": "-- A Day to Rest",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Mesmer-Jr-A-Day-to-Rest.zip",
+      "preview": "assets/previews/9Pets-Cute-Mesmer-Jr-A-Day-to-Rest.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Mesmer-Jr-A-Day-to-Rest.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Mesmer-Jr-A-Day-to-Rest.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a9_305703_xmsmr",
+      "sourceImage": "assets/source/9Pets-Cute-Mesmer-Jr-A-Day-to-Rest.png",
+      "sourceRepoPath": "roles/v1a9_305703_xmsmr",
+      "assetId": "305703",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a9_305703_xmsmr",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a9_305703_xmsmr",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "9/20",
+      "skinName": "A Day to Rest",
+      "isDefaultSkin": false,
+      "skinDescription": "不曾谋面的新鲜世界。",
+      "matchedName": "Mesmer Jr.",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Mesmer Jr. has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1086871,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Mesmer-Jr-A-Day-to-Rest.zip": "8f132c8e7714d6c0",
+        "assets/previews/9Pets-Cute-Mesmer-Jr-A-Day-to-Rest.png": "f22133e989e3db84",
+        "assets/spritesheets/9Pets-Cute-Mesmer-Jr-A-Day-to-Rest.webp": "a71fd0453a411028",
+        "assets/detail-spritesheets/9Pets-Cute-Mesmer-Jr-A-Day-to-Rest.webp": "3cb8e22876e04fb2",
+        "assets/source/9Pets-Cute-Mesmer-Jr-A-Day-to-Rest.png": "d15fd10ec3c80d96"
       }
     },
     {
