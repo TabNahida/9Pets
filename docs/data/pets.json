@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T19:35:20Z",
+  "generatedAt": "2026-06-24T19:39:31Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 273,
+  "cuteTotal": 274,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -23407,6 +23407,48 @@
         "assets/spritesheets/9Pets-Cute-Mercuria-Midnight-Mistmancer.webp": "a62b978d3d569184",
         "assets/detail-spritesheets/9Pets-Cute-Mercuria-Midnight-Mistmancer.webp": "cb2226af36186297",
         "assets/source/9Pets-Cute-Mercuria-Midnight-Mistmancer.png": "1033acf64d2d9bff"
+      }
+    },
+    {
+      "id": "9pets-cute-mercuria-the-nightmare-s-carol",
+      "packageName": "9Pets-Cute-Mercuria-The-Nightmare-s-Carol",
+      "normalPackageName": "9Pets-Mercuria-The-Nightmare-s-Carol",
+      "normalId": "9pets-mercuria-the-nightmare-s-carol",
+      "displayName": "Mercuria",
+      "skinDisplayName": "-- The Nightmare's Carol",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Mercuria-The-Nightmare-s-Carol.zip",
+      "preview": "assets/previews/9Pets-Cute-Mercuria-The-Nightmare-s-Carol.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Mercuria-The-Nightmare-s-Carol.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Mercuria-The-Nightmare-s-Carol.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a3_309504_hzsx",
+      "sourceImage": "assets/source/9Pets-Cute-Mercuria-The-Nightmare-s-Carol.png",
+      "sourceRepoPath": "roles/v3a3_309504_hzsx",
+      "assetId": "309504",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a3_309504_hzsx",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a3_309504_hzsx",
+      "cubismPath": "live2d/roles/v3a3_309504_hzsx",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a3_309504_hzsx",
+      "birthday": "2/18",
+      "skinName": "The Nightmare's Carol",
+      "isDefaultSkin": false,
+      "skinDescription": "为那不被祝福，不被关照，不被重视的，献上小小的礼物。",
+      "matchedName": "Mercuria",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Mercuria has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1163580,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Mercuria-The-Nightmare-s-Carol.zip": "cea1a530ea45d44f",
+        "assets/previews/9Pets-Cute-Mercuria-The-Nightmare-s-Carol.png": "0be77a5ea2c55c48",
+        "assets/spritesheets/9Pets-Cute-Mercuria-The-Nightmare-s-Carol.webp": "1bbf6cd11de96eda",
+        "assets/detail-spritesheets/9Pets-Cute-Mercuria-The-Nightmare-s-Carol.webp": "f63220da579ac57c",
+        "assets/source/9Pets-Cute-Mercuria-The-Nightmare-s-Carol.png": "98a3b2ff12d698ed"
       }
     },
     {
