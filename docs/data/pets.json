@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T17:02:45Z",
+  "generatedAt": "2026-06-24T17:06:29Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 234,
+  "cuteTotal": 235,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -21811,6 +21811,48 @@
         "assets/spritesheets/9Pets-Cute-Kakania-Reflections-within-Reflections.webp": "eab237a10e28d230",
         "assets/detail-spritesheets/9Pets-Cute-Kakania-Reflections-within-Reflections.webp": "dbb2190353a59f19",
         "assets/source/9Pets-Cute-Kakania-Reflections-within-Reflections.png": "d226bbbba6b67208"
+      }
+    },
+    {
+      "id": "9pets-cute-kakania-seminars-on-serenity",
+      "packageName": "9Pets-Cute-Kakania-Seminars-on-Serenity",
+      "normalPackageName": "9Pets-Kakania-Seminars-on-Serenity",
+      "normalId": "9pets-kakania-seminars-on-serenity",
+      "displayName": "Kakania",
+      "skinDisplayName": "-- Seminars on Serenity",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Kakania-Seminars-on-Serenity.zip",
+      "preview": "assets/previews/9Pets-Cute-Kakania-Seminars-on-Serenity.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Kakania-Seminars-on-Serenity.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Kakania-Seminars-on-Serenity.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a4_308003_kkny",
+      "sourceImage": "assets/source/9Pets-Cute-Kakania-Seminars-on-Serenity.png",
+      "sourceRepoPath": "roles/v2a4_308003_kkny",
+      "assetId": "308003",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a4_308003_kkny",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a4_308003_kkny",
+      "cubismPath": "live2d/roles/v2a4_308003_kakaniya",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a4_308003_kakaniya",
+      "birthday": "12/7",
+      "skinName": "Seminars on Serenity",
+      "isDefaultSkin": false,
+      "skinDescription": "心底的曲调终日不宁，到底为谁和鸣？",
+      "matchedName": "Kakania",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Kakania has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1346698,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Kakania-Seminars-on-Serenity.zip": "cb45df5acbbf265b",
+        "assets/previews/9Pets-Cute-Kakania-Seminars-on-Serenity.png": "37ea52510e5f2103",
+        "assets/spritesheets/9Pets-Cute-Kakania-Seminars-on-Serenity.webp": "e4c4c41df9ead1e3",
+        "assets/detail-spritesheets/9Pets-Cute-Kakania-Seminars-on-Serenity.webp": "0a658e830e4626ba",
+        "assets/source/9Pets-Cute-Kakania-Seminars-on-Serenity.png": "87f8c25a2078cbb3"
       }
     }
   ]
