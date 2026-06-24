@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T19:39:31Z",
+  "generatedAt": "2026-06-24T19:43:32Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 274,
+  "cuteTotal": 275,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -23491,6 +23491,48 @@
         "assets/spritesheets/9Pets-Cute-Mercuria-The-Universe-Holds-Its-Breath.webp": "d4c7750e14d9454f",
         "assets/detail-spritesheets/9Pets-Cute-Mercuria-The-Universe-Holds-Its-Breath.webp": "e0d32fdf5130a99c",
         "assets/source/9Pets-Cute-Mercuria-The-Universe-Holds-Its-Breath.png": "cca6d13c27f99371"
+      }
+    },
+    {
+      "id": "9pets-cute-mesmer-jr-the-instrumentalist-and-rationalist",
+      "packageName": "9Pets-Cute-Mesmer-Jr-The-Instrumentalist-and-Rationalist",
+      "normalPackageName": "9Pets-Mesmer-Jr-The-Instrumentalist-and-Rationalist",
+      "normalId": "9pets-mesmer-jr-the-instrumentalist-and-rationalist",
+      "displayName": "Mesmer Jr.",
+      "skinDisplayName": "-- The Instrumentalist & Rationalist",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Mesmer-Jr-The-Instrumentalist-and-Rationalist.zip",
+      "preview": "assets/previews/9Pets-Cute-Mesmer-Jr-The-Instrumentalist-and-Rationalist.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Mesmer-Jr-The-Instrumentalist-and-Rationalist.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Mesmer-Jr-The-Instrumentalist-and-Rationalist.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/305702_xiaomeisimeier",
+      "sourceImage": "assets/source/9Pets-Cute-Mesmer-Jr-The-Instrumentalist-and-Rationalist.png",
+      "sourceRepoPath": "roles/305702_xiaomeisimeier",
+      "assetId": "305702",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/305702_xiaomeisimeier",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/305702_xiaomeisimeier",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "9/20",
+      "skinName": "The Instrumentalist & Rationalist",
+      "isDefaultSkin": false,
+      "skinDescription": "结束了今天的第七次手部清洁后，她更加害怕尘埃了。",
+      "matchedName": "Mesmer Jr.",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Mesmer Jr. has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1031500,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Mesmer-Jr-The-Instrumentalist-and-Rationalist.zip": "3a90948ff5290e8b",
+        "assets/previews/9Pets-Cute-Mesmer-Jr-The-Instrumentalist-and-Rationalist.png": "419bfce606c069cf",
+        "assets/spritesheets/9Pets-Cute-Mesmer-Jr-The-Instrumentalist-and-Rationalist.webp": "cca1a52bcfce8125",
+        "assets/detail-spritesheets/9Pets-Cute-Mesmer-Jr-The-Instrumentalist-and-Rationalist.webp": "fbab960f4ed46b43",
+        "assets/source/9Pets-Cute-Mesmer-Jr-The-Instrumentalist-and-Rationalist.png": "069ea5fcd1dc32ff"
       }
     }
   ]
