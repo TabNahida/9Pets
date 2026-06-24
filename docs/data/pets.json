@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T15:29:10Z",
+  "generatedAt": "2026-06-24T15:32:23Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 218,
+  "cuteTotal": 219,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -21097,6 +21097,48 @@
         "assets/spritesheets/9Pets-Cute-Horropedia-Scarysm.webp": "f6251735a10d2eb6",
         "assets/detail-spritesheets/9Pets-Cute-Horropedia-Scarysm.webp": "e6c8e4c9e6a3d063",
         "assets/source/9Pets-Cute-Horropedia-Scarysm.png": "a11746fa5d7aaf33"
+      }
+    },
+    {
+      "id": "9pets-cute-igor-returning-nevermore",
+      "packageName": "9Pets-Cute-Igor-Returning-Nevermore",
+      "normalPackageName": "9Pets-Igor-Returning-Nevermore",
+      "normalId": "9pets-igor-returning-nevermore",
+      "displayName": "Igor",
+      "skinDisplayName": "-- Returning Nevermore",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Igor-Returning-Nevermore.zip",
+      "preview": "assets/previews/9Pets-Cute-Igor-Returning-Nevermore.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Igor-Returning-Nevermore.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Igor-Returning-Nevermore.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a8_309203_yge",
+      "sourceImage": "assets/source/9Pets-Cute-Igor-Returning-Nevermore.png",
+      "sourceRepoPath": "roles/v3a8_309203_yge",
+      "assetId": "309203",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a8_309203_yge",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a8_309203_yge",
+      "cubismPath": "live2d/roles/v3a8_309203_yge",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a8_309203_yge",
+      "birthday": "2/23",
+      "skinName": "Returning Nevermore",
+      "isDefaultSkin": false,
+      "skinDescription": "于是他离开光，重回至暗之地。",
+      "matchedName": "Igor",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Igor has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1434523,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Igor-Returning-Nevermore.zip": "f6aa0ce1f603fc88",
+        "assets/previews/9Pets-Cute-Igor-Returning-Nevermore.png": "99d8f3c1cc34e8b3",
+        "assets/spritesheets/9Pets-Cute-Igor-Returning-Nevermore.webp": "95c137460d073bbd",
+        "assets/detail-spritesheets/9Pets-Cute-Igor-Returning-Nevermore.webp": "5589d9c4aa1aba68",
+        "assets/source/9Pets-Cute-Igor-Returning-Nevermore.png": "44f172499d4a419e"
       }
     },
     {
