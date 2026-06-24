@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T17:36:37Z",
+  "generatedAt": "2026-06-24T17:40:35Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 243,
+  "cuteTotal": 244,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -22189,6 +22189,48 @@
         "assets/spritesheets/9Pets-Cute-La-Source-Antinomies.webp": "29b0a7d5f679de53",
         "assets/detail-spritesheets/9Pets-Cute-La-Source-Antinomies.webp": "7ffbf17d805f8652",
         "assets/source/9Pets-Cute-La-Source-Antinomies.png": "4ef26fbbb8ccf615"
+      }
+    },
+    {
+      "id": "9pets-cute-leilani-the-adventure-on-the-mountains",
+      "packageName": "9Pets-Cute-Leilani-The-Adventure-on-The-Mountains",
+      "normalPackageName": "9Pets-Leilani-The-Adventure-on-The-Mountains",
+      "normalId": "9pets-leilani-the-adventure-on-the-mountains",
+      "displayName": "Leilani",
+      "skinDisplayName": "-- The Adventure on The Mountains",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Leilani-The-Adventure-on-The-Mountains.zip",
+      "preview": "assets/previews/9Pets-Cute-Leilani-The-Adventure-on-The-Mountains.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Leilani-The-Adventure-on-The-Mountains.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Leilani-The-Adventure-on-The-Mountains.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a3_303503_lilani",
+      "sourceImage": "assets/source/9Pets-Cute-Leilani-The-Adventure-on-The-Mountains.png",
+      "sourceRepoPath": "roles/v1a3_303503_lilani",
+      "assetId": "303502",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a3_303503_lilani",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a3_303503_lilani",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "9/23",
+      "skinName": "The Adventure on The Mountains",
+      "isDefaultSkin": false,
+      "skinDescription": "错误的登山路线，正确的观赏落日时间。",
+      "matchedName": "Leilani",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Leilani has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 970113,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Leilani-The-Adventure-on-The-Mountains.zip": "6db77f4e995d5a74",
+        "assets/previews/9Pets-Cute-Leilani-The-Adventure-on-The-Mountains.png": "0339a958da54bde4",
+        "assets/spritesheets/9Pets-Cute-Leilani-The-Adventure-on-The-Mountains.webp": "39c6184413872f58",
+        "assets/detail-spritesheets/9Pets-Cute-Leilani-The-Adventure-on-The-Mountains.webp": "7098f3170b080db2",
+        "assets/source/9Pets-Cute-Leilani-The-Adventure-on-The-Mountains.png": "7b5508653a821294"
       }
     }
   ]
