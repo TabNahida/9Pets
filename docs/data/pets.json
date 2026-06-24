@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T14:57:27Z",
+  "generatedAt": "2026-06-24T15:00:33Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 208,
+  "cuteTotal": 209,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -20719,6 +20719,48 @@
         "assets/spritesheets/9Pets-Cute-Fatutu-Fragments-of-An-Old-Dream.webp": "1a3b2331270f077e",
         "assets/detail-spritesheets/9Pets-Cute-Fatutu-Fragments-of-An-Old-Dream.webp": "718210f3fa200d9a",
         "assets/source/9Pets-Cute-Fatutu-Fragments-of-An-Old-Dream.png": "690e1538031723b5"
+      }
+    },
+    {
+      "id": "9pets-cute-flutterpage-chirpy-morning-ringer",
+      "packageName": "9Pets-Cute-Flutterpage-Chirpy-Morning-Ringer",
+      "normalPackageName": "9Pets-Flutterpage-Chirpy-Morning-Ringer",
+      "normalId": "9pets-flutterpage-chirpy-morning-ringer",
+      "displayName": "Flutterpage",
+      "skinDisplayName": "-- Chirpy Morning Ringer",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Flutterpage-Chirpy-Morning-Ringer.zip",
+      "preview": "assets/previews/9Pets-Cute-Flutterpage-Chirpy-Morning-Ringer.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Flutterpage-Chirpy-Morning-Ringer.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Flutterpage-Chirpy-Morning-Ringer.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a3_310502_zxqe",
+      "sourceImage": "assets/source/9Pets-Cute-Flutterpage-Chirpy-Morning-Ringer.png",
+      "sourceRepoPath": "roles/v2a3_310502_zxqe",
+      "assetId": "310502",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a3_310502_zxqe",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a3_310502_zxqe",
+      "cubismPath": "live2d/roles/v2a3_310502_zxqe",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a3_310502_zxqe",
+      "birthday": "7/14",
+      "skinName": "Chirpy Morning Ringer",
+      "isDefaultSkin": false,
+      "skinDescription": "她要自己找出答案。",
+      "matchedName": "Flutterpage",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Flutterpage has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1263407,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Flutterpage-Chirpy-Morning-Ringer.zip": "e5cb32c5156f54c3",
+        "assets/previews/9Pets-Cute-Flutterpage-Chirpy-Morning-Ringer.png": "c1cf0e05963b77c6",
+        "assets/spritesheets/9Pets-Cute-Flutterpage-Chirpy-Morning-Ringer.webp": "1ffc54fd7e6274b8",
+        "assets/detail-spritesheets/9Pets-Cute-Flutterpage-Chirpy-Morning-Ringer.webp": "656d2f431427f517",
+        "assets/source/9Pets-Cute-Flutterpage-Chirpy-Morning-Ringer.png": "6991515639f8a1dc"
       }
     }
   ]
