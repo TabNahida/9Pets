@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T13:25:16Z",
+  "generatedAt": "2026-06-24T13:28:03Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 181,
+  "cuteTotal": 182,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -19585,6 +19585,48 @@
         "assets/spritesheets/9Pets-Cute-Corvus-The-Warmth-She-Knitted.webp": "ea1de9f2def66f13",
         "assets/detail-spritesheets/9Pets-Cute-Corvus-The-Warmth-She-Knitted.webp": "dae2e0daa6562244",
         "assets/source/9Pets-Cute-Corvus-The-Warmth-She-Knitted.png": "7ed1a46a21d4c565"
+      }
+    },
+    {
+      "id": "9pets-cute-cristallo-bouquet-for-the-bold",
+      "packageName": "9Pets-Cute-Cristallo-Bouquet-for-the-Bold",
+      "normalPackageName": "9Pets-Cristallo-Bouquet-for-the-Bold",
+      "normalId": "9pets-cristallo-bouquet-for-the-bold",
+      "displayName": "Cristallo",
+      "skinDisplayName": "-- Bouquet for the Bold",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Cristallo-Bouquet-for-the-Bold.zip",
+      "preview": "assets/previews/9Pets-Cute-Cristallo-Bouquet-for-the-Bold.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Cristallo-Bouquet-for-the-Bold.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Cristallo-Bouquet-for-the-Bold.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/303102_qianboli",
+      "sourceImage": "assets/source/9Pets-Cute-Cristallo-Bouquet-for-the-Bold.png",
+      "sourceRepoPath": "roles/303102_qianboli",
+      "assetId": "303102",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/303102_qianboli",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/303102_qianboli",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "12/30",
+      "skinName": "Bouquet for the Bold",
+      "isDefaultSkin": false,
+      "skinDescription": "她相信——疼痛加深是某种好转的迹象。",
+      "matchedName": "Cristallo",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Cristallo has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1351743,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Cristallo-Bouquet-for-the-Bold.zip": "550b604dd03729ad",
+        "assets/previews/9Pets-Cute-Cristallo-Bouquet-for-the-Bold.png": "aa41bb9664945d45",
+        "assets/spritesheets/9Pets-Cute-Cristallo-Bouquet-for-the-Bold.webp": "41ec6ce40bc804a2",
+        "assets/detail-spritesheets/9Pets-Cute-Cristallo-Bouquet-for-the-Bold.webp": "989200e7b4b1be24",
+        "assets/source/9Pets-Cute-Cristallo-Bouquet-for-the-Bold.png": "e001d8f06f78476a"
       }
     }
   ]
