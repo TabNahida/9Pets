@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T18:54:21Z",
+  "generatedAt": "2026-06-24T18:58:23Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 263,
+  "cuteTotal": 264,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -22987,6 +22987,48 @@
         "assets/spritesheets/9Pets-Cute-Marsha-The-Ever-Burning-Embrace.webp": "84d8f748d08d8e50",
         "assets/detail-spritesheets/9Pets-Cute-Marsha-The-Ever-Burning-Embrace.webp": "fd7090e366055aee",
         "assets/source/9Pets-Cute-Marsha-The-Ever-Burning-Embrace.png": "9751473cdb38c219"
+      }
+    },
+    {
+      "id": "9pets-cute-matilda-the-genius-s-holiday",
+      "packageName": "9Pets-Cute-Matilda-The-Genius-s-Holiday",
+      "normalPackageName": "9Pets-Matilda-The-Genius-s-Holiday",
+      "normalId": "9pets-matilda-the-genius-s-holiday",
+      "displayName": "Matilda",
+      "skinDisplayName": "-- The Genius's Holiday",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Matilda-The-Genius-s-Holiday.zip",
+      "preview": "assets/previews/9Pets-Cute-Matilda-The-Genius-s-Holiday.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Matilda-The-Genius-s-Holiday.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Matilda-The-Genius-s-Holiday.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a3_304103_mded",
+      "sourceImage": "assets/source/9Pets-Cute-Matilda-The-Genius-s-Holiday.png",
+      "sourceRepoPath": "roles/v1a3_304103_mded",
+      "assetId": "304103",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a3_304103_mded",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a3_304103_mded",
+      "cubismPath": "live2d/roles/304103_madierda",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/304103_madierda",
+      "birthday": "6/22",
+      "skinName": "The Genius's Holiday",
+      "isDefaultSkin": false,
+      "skinDescription": "你最该领略的风景就在这里。",
+      "matchedName": "Matilda Bouanich",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Matilda has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1022017,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Matilda-The-Genius-s-Holiday.zip": "c8a6e8aa292172b3",
+        "assets/previews/9Pets-Cute-Matilda-The-Genius-s-Holiday.png": "cc1473bb771f3600",
+        "assets/spritesheets/9Pets-Cute-Matilda-The-Genius-s-Holiday.webp": "cc296a787537ce31",
+        "assets/detail-spritesheets/9Pets-Cute-Matilda-The-Genius-s-Holiday.webp": "5b9c7455236e25e6",
+        "assets/source/9Pets-Cute-Matilda-The-Genius-s-Holiday.png": "ccd94b8b00e56343"
       }
     },
     {
