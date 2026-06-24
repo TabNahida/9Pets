@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T14:35:50Z",
+  "generatedAt": "2026-06-24T14:38:58Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 201,
+  "cuteTotal": 202,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -20425,6 +20425,48 @@
         "assets/spritesheets/9Pets-Cute-Eternity-Lady-of-the-Evernight.webp": "9f5b7a4550199837",
         "assets/detail-spritesheets/9Pets-Cute-Eternity-Lady-of-the-Evernight.webp": "aba14a71a447a4a8",
         "assets/source/9Pets-Cute-Eternity-Lady-of-the-Evernight.png": "6409f0a84163a61d"
+      }
+    },
+    {
+      "id": "9pets-cute-eternity-the-golden-nurturer",
+      "packageName": "9Pets-Cute-Eternity-The-Golden-Nurturer",
+      "normalPackageName": "9Pets-Eternity-The-Golden-Nurturer",
+      "normalId": "9pets-eternity-the-golden-nurturer",
+      "displayName": "Eternity",
+      "skinDisplayName": "-- The Golden Nurturer",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Eternity-The-Golden-Nurturer.zip",
+      "preview": "assets/previews/9Pets-Cute-Eternity-The-Golden-Nurturer.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Eternity-The-Golden-Nurturer.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Eternity-The-Golden-Nurturer.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/s01_305104_wnfld",
+      "sourceImage": "assets/source/9Pets-Cute-Eternity-The-Golden-Nurturer.png",
+      "sourceRepoPath": "roles/s01_305104_wnfld",
+      "assetId": "305104",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/s01_305104_wnfld",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/s01_305104_wnfld",
+      "cubismPath": "live2d/roles/s01_305104_wnfld",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/s01_305104_wnfld",
+      "birthday": "12/25",
+      "skinName": "The Golden Nurturer",
+      "isDefaultSkin": false,
+      "skinDescription": "一千粒灿烂的黄金，落入温暖宽厚的怀抱。",
+      "matchedName": "Eternity",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Eternity has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1400835,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Eternity-The-Golden-Nurturer.zip": "9a33cab388fc162e",
+        "assets/previews/9Pets-Cute-Eternity-The-Golden-Nurturer.png": "3b55711ac128e89f",
+        "assets/spritesheets/9Pets-Cute-Eternity-The-Golden-Nurturer.webp": "e29bf6d7ebc58f4e",
+        "assets/detail-spritesheets/9Pets-Cute-Eternity-The-Golden-Nurturer.webp": "1b4d997c4009219b",
+        "assets/source/9Pets-Cute-Eternity-The-Golden-Nurturer.png": "b78c7cc8c40ccb36"
       }
     }
   ]
