@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T13:22:26Z",
+  "generatedAt": "2026-06-24T13:25:16Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 180,
+  "cuteTotal": 181,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -19501,6 +19501,48 @@
         "assets/spritesheets/9Pets-Cute-Coppelia-Sounds-that-Wake-Her.webp": "f78b210d227e1e38",
         "assets/detail-spritesheets/9Pets-Cute-Coppelia-Sounds-that-Wake-Her.webp": "ea792a497c72af05",
         "assets/source/9Pets-Cute-Coppelia-Sounds-that-Wake-Her.png": "c225de6409d8a6b7"
+      }
+    },
+    {
+      "id": "9pets-cute-corvus-burning-away-tears",
+      "packageName": "9Pets-Cute-Corvus-Burning-Away-Tears",
+      "normalPackageName": "9Pets-Corvus-Burning-Away-Tears",
+      "normalId": "9pets-corvus-burning-away-tears",
+      "displayName": "Corvus",
+      "skinDisplayName": "-- Burning Away Tears",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Corvus-Burning-Away-Tears.zip",
+      "preview": "assets/previews/9Pets-Cute-Corvus-Burning-Away-Tears.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Corvus-Burning-Away-Tears.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Corvus-Burning-Away-Tears.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a5_313203_gsn",
+      "sourceImage": "assets/source/9Pets-Cute-Corvus-Burning-Away-Tears.png",
+      "sourceRepoPath": "roles/v3a5_313203_gsn",
+      "assetId": "313203",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a5_313203_gsn",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a5_313203_gsn",
+      "cubismPath": "live2d/roles/v3a5_313203_gsn",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a5_313203_gsn",
+      "birthday": "8/2",
+      "skinName": "Burning Away Tears",
+      "isDefaultSkin": false,
+      "skinDescription": "啼哭、悲鸣、将落未落的泪、向生所伸出的手……一切已无须语言的赘述。",
+      "matchedName": "Corvus",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Corvus has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1207941,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Corvus-Burning-Away-Tears.zip": "60ab4172a4a836d6",
+        "assets/previews/9Pets-Cute-Corvus-Burning-Away-Tears.png": "483f4ab884fe4365",
+        "assets/spritesheets/9Pets-Cute-Corvus-Burning-Away-Tears.webp": "513f76aa40d30ef8",
+        "assets/detail-spritesheets/9Pets-Cute-Corvus-Burning-Away-Tears.webp": "3753141a6537d773",
+        "assets/source/9Pets-Cute-Corvus-Burning-Away-Tears.png": "575452a5b50ae0dc"
       }
     },
     {
