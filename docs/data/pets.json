@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T14:38:58Z",
+  "generatedAt": "2026-06-24T14:42:04Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 202,
+  "cuteTotal": 203,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -20467,6 +20467,48 @@
         "assets/spritesheets/9Pets-Cute-Eternity-The-Golden-Nurturer.webp": "e29bf6d7ebc58f4e",
         "assets/detail-spritesheets/9Pets-Cute-Eternity-The-Golden-Nurturer.webp": "1b4d997c4009219b",
         "assets/source/9Pets-Cute-Eternity-The-Golden-Nurturer.png": "b78c7cc8c40ccb36"
+      }
+    },
+    {
+      "id": "9pets-cute-ezio-auditore-leap-of-faith",
+      "packageName": "9Pets-Cute-Ezio-Auditore-Leap-of-Faith",
+      "normalPackageName": "9Pets-Ezio-Auditore-Leap-of-Faith",
+      "normalId": "9pets-ezio-auditore-leap-of-faith",
+      "displayName": "Ezio Auditore",
+      "skinDisplayName": "-- Leap of Faith",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Ezio-Auditore-Leap-of-Faith.zip",
+      "preview": "assets/previews/9Pets-Cute-Ezio-Auditore-Leap-of-Faith.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Ezio-Auditore-Leap-of-Faith.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Ezio-Auditore-Leap-of-Faith.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/s01_312302_ajaadtl",
+      "sourceImage": "assets/source/9Pets-Cute-Ezio-Auditore-Leap-of-Faith.png",
+      "sourceRepoPath": "roles/s01_312302_ajaadtl",
+      "assetId": "312302",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/s01_312302_ajaadtl",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/s01_312302_ajaadtl",
+      "cubismPath": "live2d/roles/s01_312302_aja",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/s01_312302_aja",
+      "birthday": "6/24",
+      "skinName": "Leap of Faith",
+      "isDefaultSkin": false,
+      "skinDescription": "出于继承，出于真正的自由。",
+      "matchedName": "Ezio Auditore",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Ezio Auditore has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1063060,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Ezio-Auditore-Leap-of-Faith.zip": "d5aa8d069644a465",
+        "assets/previews/9Pets-Cute-Ezio-Auditore-Leap-of-Faith.png": "0cd50aeb3533090b",
+        "assets/spritesheets/9Pets-Cute-Ezio-Auditore-Leap-of-Faith.webp": "01351affde56b14b",
+        "assets/detail-spritesheets/9Pets-Cute-Ezio-Auditore-Leap-of-Faith.webp": "09ded28cb9b7b62c",
+        "assets/source/9Pets-Cute-Ezio-Auditore-Leap-of-Faith.png": "a60edc25d169b452"
       }
     }
   ]
