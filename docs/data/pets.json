@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T19:10:36Z",
+  "generatedAt": "2026-06-24T19:14:41Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 267,
+  "cuteTotal": 268,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -23155,6 +23155,48 @@
         "assets/spritesheets/9Pets-Cute-Medicine-Pocket-Beware-of-Dog.webp": "731075bac4d763e0",
         "assets/detail-spritesheets/9Pets-Cute-Medicine-Pocket-Beware-of-Dog.webp": "b07857fdd82125b8",
         "assets/source/9Pets-Cute-Medicine-Pocket-Beware-of-Dog.png": "a06d3d87d112cb66"
+      }
+    },
+    {
+      "id": "9pets-cute-medicine-pocket-forever-is-too-short",
+      "packageName": "9Pets-Cute-Medicine-Pocket-Forever-Is-Too-Short",
+      "normalPackageName": "9Pets-Medicine-Pocket-Forever-Is-Too-Short",
+      "normalId": "9pets-medicine-pocket-forever-is-too-short",
+      "displayName": "Medicine Pocket",
+      "skinDisplayName": "-- Forever Is Too Short",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Medicine-Pocket-Forever-Is-Too-Short.zip",
+      "preview": "assets/previews/9Pets-Cute-Medicine-Pocket-Forever-Is-Too-Short.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Medicine-Pocket-Forever-Is-Too-Short.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Medicine-Pocket-Forever-Is-Too-Short.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a3_304704_tmsd",
+      "sourceImage": "assets/source/9Pets-Cute-Medicine-Pocket-Forever-Is-Too-Short.png",
+      "sourceRepoPath": "roles/v3a3_304704_tmsd",
+      "assetId": "304704",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a3_304704_tmsd",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a3_304704_tmsd",
+      "cubismPath": "live2d/roles/v3a3_304704_tmsd",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a3_304704_tmsd",
+      "birthday": "11/24",
+      "skinName": "Forever Is Too Short",
+      "isDefaultSkin": false,
+      "skinDescription": "那些曾经轻轻舔舐我们的，为我们换来了永生的配方。",
+      "matchedName": "Medicine Pocket",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Medicine Pocket has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1071914,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Medicine-Pocket-Forever-Is-Too-Short.zip": "fc4a0dc08c9c035a",
+        "assets/previews/9Pets-Cute-Medicine-Pocket-Forever-Is-Too-Short.png": "73bb59120405f565",
+        "assets/spritesheets/9Pets-Cute-Medicine-Pocket-Forever-Is-Too-Short.webp": "5326a9062571392f",
+        "assets/detail-spritesheets/9Pets-Cute-Medicine-Pocket-Forever-Is-Too-Short.webp": "48839fd8a88702d2",
+        "assets/source/9Pets-Cute-Medicine-Pocket-Forever-Is-Too-Short.png": "4887edadf5048a97"
       }
     },
     {
