@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T19:51:29Z",
+  "generatedAt": "2026-06-24T19:55:28Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 277,
+  "cuteTotal": 278,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -23575,6 +23575,48 @@
         "assets/spritesheets/9Pets-Cute-Mesmer-Jr-The-Instrumentalist-and-Rationalist.webp": "cca1a52bcfce8125",
         "assets/detail-spritesheets/9Pets-Cute-Mesmer-Jr-The-Instrumentalist-and-Rationalist.webp": "fbab960f4ed46b43",
         "assets/source/9Pets-Cute-Mesmer-Jr-The-Instrumentalist-and-Rationalist.png": "069ea5fcd1dc32ff"
+      }
+    },
+    {
+      "id": "9pets-cute-moldir-idyll-of-the-luberon",
+      "packageName": "9Pets-Cute-Moldir-Idyll-of-the-Luberon",
+      "normalPackageName": "9Pets-Moldir-Idyll-of-the-Luberon",
+      "normalId": "9pets-moldir-idyll-of-the-luberon",
+      "displayName": "Moldir",
+      "skinDisplayName": "-- Idyll of the Luberon",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Moldir-Idyll-of-the-Luberon.zip",
+      "preview": "assets/previews/9Pets-Cute-Moldir-Idyll-of-the-Luberon.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Moldir-Idyll-of-the-Luberon.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Moldir-Idyll-of-the-Luberon.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a3_312103_mlde",
+      "sourceImage": "assets/source/9Pets-Cute-Moldir-Idyll-of-the-Luberon.png",
+      "sourceRepoPath": "roles/v3a3_312103_mlde",
+      "assetId": "312103",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a3_312103_mlde",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a3_312103_mlde",
+      "cubismPath": "live2d/roles/v3a3_312103_mlde",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a3_312103_mlde",
+      "birthday": "9/13",
+      "skinName": "Idyll of the Luberon",
+      "isDefaultSkin": false,
+      "skinDescription": "眼下这片刻的宁静，或许是她长久以来的梦想。",
+      "matchedName": "Moldir",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Moldir has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1353182,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Moldir-Idyll-of-the-Luberon.zip": "b5ac3429e03ea6e1",
+        "assets/previews/9Pets-Cute-Moldir-Idyll-of-the-Luberon.png": "e9150d5c98598466",
+        "assets/spritesheets/9Pets-Cute-Moldir-Idyll-of-the-Luberon.webp": "490c6765cd51609e",
+        "assets/detail-spritesheets/9Pets-Cute-Moldir-Idyll-of-the-Luberon.webp": "d874948e7c446166",
+        "assets/source/9Pets-Cute-Moldir-Idyll-of-the-Luberon.png": "d8df237f1b8e68ed"
       }
     },
     {
