@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T17:48:20Z",
+  "generatedAt": "2026-06-24T17:52:15Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 246,
+  "cuteTotal": 247,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -22315,6 +22315,48 @@
         "assets/spritesheets/9Pets-Cute-Liang-Yue-The-Moon-s-Reflection.webp": "eb83698ca3bbc180",
         "assets/detail-spritesheets/9Pets-Cute-Liang-Yue-The-Moon-s-Reflection.webp": "7a4d6dd5be8ffa93",
         "assets/source/9Pets-Cute-Liang-Yue-The-Moon-s-Reflection.png": "4551ca0d4dbfa89a"
+      }
+    },
+    {
+      "id": "9pets-cute-lilya-the-barents-witch",
+      "packageName": "9Pets-Cute-Lilya-The-Barents-Witch",
+      "normalPackageName": "9Pets-Lilya-The-Barents-Witch",
+      "normalId": "9pets-lilya-the-barents-witch",
+      "displayName": "Lilya",
+      "skinDisplayName": "-- The Barents Witch",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Lilya-The-Barents-Witch.zip",
+      "preview": "assets/previews/9Pets-Cute-Lilya-The-Barents-Witch.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Lilya-The-Barents-Witch.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Lilya-The-Barents-Witch.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/300402_hongnujian",
+      "sourceImage": "assets/source/9Pets-Cute-Lilya-The-Barents-Witch.png",
+      "sourceRepoPath": "roles/300402_hongnujian",
+      "assetId": "300402",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/300402_hongnujian",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/300402_hongnujian",
+      "cubismPath": "live2d/roles/300402_hongnujian",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/300402_hongnujian",
+      "birthday": "11/14",
+      "skinName": "The Barents Witch",
+      "isDefaultSkin": false,
+      "skinDescription": "或许她是闯了点祸，但那一定无伤大雅。",
+      "matchedName": "Lilya",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Lilya has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 943388,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Lilya-The-Barents-Witch.zip": "aba9955f208accd8",
+        "assets/previews/9Pets-Cute-Lilya-The-Barents-Witch.png": "988dcf71703ab6d4",
+        "assets/spritesheets/9Pets-Cute-Lilya-The-Barents-Witch.webp": "302888e89a23eacc",
+        "assets/detail-spritesheets/9Pets-Cute-Lilya-The-Barents-Witch.webp": "086686c471c76dc0",
+        "assets/source/9Pets-Cute-Lilya-The-Barents-Witch.png": "b6e1e8a744c3972b"
       }
     }
   ]
