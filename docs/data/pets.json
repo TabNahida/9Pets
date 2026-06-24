@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T15:19:29Z",
+  "generatedAt": "2026-06-24T15:22:46Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 215,
+  "cuteTotal": 216,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -21013,6 +21013,48 @@
         "assets/spritesheets/9Pets-Cute-Hissabeth-Verses-to-Heaven.webp": "388e59403170ec22",
         "assets/detail-spritesheets/9Pets-Cute-Hissabeth-Verses-to-Heaven.webp": "d26af4f95fe74ca9",
         "assets/source/9Pets-Cute-Hissabeth-Verses-to-Heaven.png": "bccce2d2a0ca140d"
+      }
+    },
+    {
+      "id": "9pets-cute-horropedia-scarysm",
+      "packageName": "9Pets-Cute-Horropedia-Scarysm",
+      "normalPackageName": "9Pets-Horropedia-Scarysm",
+      "normalId": "9pets-horropedia-scarysm",
+      "displayName": "Horropedia",
+      "skinDisplayName": "-- Scarysm",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Horropedia-Scarysm.zip",
+      "preview": "assets/previews/9Pets-Cute-Horropedia-Scarysm.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Horropedia-Scarysm.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Horropedia-Scarysm.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/306102_kongbutong",
+      "sourceImage": "assets/source/9Pets-Cute-Horropedia-Scarysm.png",
+      "sourceRepoPath": "roles/306102_kongbutong",
+      "assetId": "306102",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/306102_kongbutong",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/306102_kongbutong",
+      "cubismPath": "live2d/roles/306102_kongbutong",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/306102_kongbutong",
+      "birthday": "1/3",
+      "skinName": "Scarysm",
+      "isDefaultSkin": false,
+      "skinDescription": "被单之下的小怪物，恒长坚固的心之护卫。",
+      "matchedName": "Horropedia",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Horropedia has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1054780,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Horropedia-Scarysm.zip": "5c0a3f73cf365b92",
+        "assets/previews/9Pets-Cute-Horropedia-Scarysm.png": "fa47f97f870c1ab2",
+        "assets/spritesheets/9Pets-Cute-Horropedia-Scarysm.webp": "f6251735a10d2eb6",
+        "assets/detail-spritesheets/9Pets-Cute-Horropedia-Scarysm.webp": "e6c8e4c9e6a3d063",
+        "assets/source/9Pets-Cute-Horropedia-Scarysm.png": "a11746fa5d7aaf33"
       }
     }
   ]
