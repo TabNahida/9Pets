@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T19:47:30Z",
+  "generatedAt": "2026-06-24T19:51:29Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 276,
+  "cuteTotal": 277,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -23575,6 +23575,48 @@
         "assets/spritesheets/9Pets-Cute-Mesmer-Jr-The-Instrumentalist-and-Rationalist.webp": "cca1a52bcfce8125",
         "assets/detail-spritesheets/9Pets-Cute-Mesmer-Jr-The-Instrumentalist-and-Rationalist.webp": "fbab960f4ed46b43",
         "assets/source/9Pets-Cute-Mesmer-Jr-The-Instrumentalist-and-Rationalist.png": "069ea5fcd1dc32ff"
+      }
+    },
+    {
+      "id": "9pets-cute-moldir-things-never-forgotten",
+      "packageName": "9Pets-Cute-Moldir-Things-Never-Forgotten",
+      "normalPackageName": "9Pets-Moldir-Things-Never-Forgotten",
+      "normalId": "9pets-moldir-things-never-forgotten",
+      "displayName": "Moldir",
+      "skinDisplayName": "-- Things Never Forgotten",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Moldir-Things-Never-Forgotten.zip",
+      "preview": "assets/previews/9Pets-Cute-Moldir-Things-Never-Forgotten.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Moldir-Things-Never-Forgotten.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Moldir-Things-Never-Forgotten.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a8_312102_mlde",
+      "sourceImage": "assets/source/9Pets-Cute-Moldir-Things-Never-Forgotten.png",
+      "sourceRepoPath": "roles/v2a8_312102_mlde",
+      "assetId": "312102",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a8_312102_mlde",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a8_312102_mlde",
+      "cubismPath": "live2d/roles/v2a8_312102_mlde",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a8_312102_mlde",
+      "birthday": "9/13",
+      "skinName": "Things Never Forgotten",
+      "isDefaultSkin": false,
+      "skinDescription": "再无回头路，此刻唯有前进。",
+      "matchedName": "Moldir",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Moldir has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 999780,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Moldir-Things-Never-Forgotten.zip": "dd88531634ea7ea2",
+        "assets/previews/9Pets-Cute-Moldir-Things-Never-Forgotten.png": "a60f9dd8aec788ff",
+        "assets/spritesheets/9Pets-Cute-Moldir-Things-Never-Forgotten.webp": "cbac60ad2a9f753d",
+        "assets/detail-spritesheets/9Pets-Cute-Moldir-Things-Never-Forgotten.webp": "5de3c646e3ff02fe",
+        "assets/source/9Pets-Cute-Moldir-Things-Never-Forgotten.png": "7878c0578468f1d8"
       }
     }
   ]
