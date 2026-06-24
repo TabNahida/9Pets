@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T13:56:03Z",
+  "generatedAt": "2026-06-24T13:58:53Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 188,
+  "cuteTotal": 189,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -19879,6 +19879,48 @@
         "assets/spritesheets/9Pets-Cute-Diggers-The-Digger-of-Art.webp": "1936a10c97e63991",
         "assets/detail-spritesheets/9Pets-Cute-Diggers-The-Digger-of-Art.webp": "c7dccbf2bb5e0286",
         "assets/source/9Pets-Cute-Diggers-The-Digger-of-Art.png": "eb3e70151f34b428"
+      }
+    },
+    {
+      "id": "9pets-cute-dikke-sword-of-hammurabi",
+      "packageName": "9Pets-Cute-Dikke-Sword-of-Hammurabi",
+      "normalPackageName": "9Pets-Dikke-Sword-of-Hammurabi",
+      "normalId": "9pets-dikke-sword-of-hammurabi",
+      "displayName": "Dikke",
+      "skinDisplayName": "-- Sword of Hammurabi",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Dikke-Sword-of-Hammurabi.zip",
+      "preview": "assets/previews/9Pets-Cute-Dikke-Sword-of-Hammurabi.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Dikke-Sword-of-Hammurabi.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Dikke-Sword-of-Hammurabi.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/302202_pamiai",
+      "sourceImage": "assets/source/9Pets-Cute-Dikke-Sword-of-Hammurabi.png",
+      "sourceRepoPath": "roles/302202_pamiai",
+      "assetId": "302202",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/302202_pamiai",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/302202_pamiai",
+      "cubismPath": "live2d/roles/302202_pamiai",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/302202_pamiai",
+      "birthday": "10/10",
+      "skinName": "Sword of Hammurabi",
+      "isDefaultSkin": false,
+      "skinDescription": "其心澄如明镜，其剑斩尽不公。",
+      "matchedName": "Dikke",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Dikke has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 793082,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Dikke-Sword-of-Hammurabi.zip": "8c3dd2afc961f304",
+        "assets/previews/9Pets-Cute-Dikke-Sword-of-Hammurabi.png": "f3ab713a5c300d9f",
+        "assets/spritesheets/9Pets-Cute-Dikke-Sword-of-Hammurabi.webp": "4285f5b8621df8f6",
+        "assets/detail-spritesheets/9Pets-Cute-Dikke-Sword-of-Hammurabi.webp": "190f73ca60e2b48d",
+        "assets/source/9Pets-Cute-Dikke-Sword-of-Hammurabi.png": "e6e23995165c9a25"
       }
     }
   ]
