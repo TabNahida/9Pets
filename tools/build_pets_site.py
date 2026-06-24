@@ -1563,6 +1563,9 @@ SPINE_RENDER_PROFILES: dict[str, dict[str, Any]] = {
             "review": "unique",
         },
     },
+    "9Pets-Cute-Cristallo-A-Dream-in-Stained-Glass": {
+        "y": 1000,
+    },
     "9Pets-Cute-Darley-Clatter": {
         "width": 1200,
         "height": 1200,

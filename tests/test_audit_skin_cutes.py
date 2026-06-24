@@ -194,6 +194,16 @@ class AuditSkinCuteStagingTest(unittest.TestCase):
         self.assertEqual("giddy", profile["motionMap"]["jumping"])
         self.assertEqual("skill2", profile["motionMap"]["running"])
 
+    def test_cristallo_stained_glass_profile_has_extra_top_headroom(self) -> None:
+        profile = site.spine_render_profile_for(
+            "9Pets-Cute-Cristallo-A-Dream-in-Stained-Glass",
+            "roles/v3a1_303103_qbl",
+            "9Pets-Cute-Cristallo",
+        )
+
+        self.assertEqual(1000, profile["y"])
+        self.assertEqual("unique", profile["motionMap"]["review"])
+
     def test_cute_base_source_info_can_be_metadata_only(self) -> None:
         official_index = site.load_official_asset_index()
         item = site.find_catalog_item(site.read_catalog(), "APPLe")
