@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T13:13:35Z",
+  "generatedAt": "2026-06-24T13:16:51Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 177,
+  "cuteTotal": 178,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -19417,6 +19417,48 @@
         "assets/spritesheets/9Pets-Cute-Click-The-Best-Angle.webp": "2671907310740a11",
         "assets/detail-spritesheets/9Pets-Cute-Click-The-Best-Angle.webp": "5a51037c200ef669",
         "assets/source/9Pets-Cute-Click-The-Best-Angle.png": "1458727ee21bb003"
+      }
+    },
+    {
+      "id": "9pets-cute-coppelia-song-of-the-self-playing-instrument",
+      "packageName": "9Pets-Cute-Coppelia-Song-of-the-Self-Playing-Instrument",
+      "normalPackageName": "9Pets-Coppelia-Song-of-the-Self-Playing-Instrument",
+      "normalId": "9pets-coppelia-song-of-the-self-playing-instrument",
+      "displayName": "Coppelia",
+      "skinDisplayName": "-- Song of the Self-Playing Instrument",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Coppelia-Song-of-the-Self-Playing-Instrument.zip",
+      "preview": "assets/previews/9Pets-Cute-Coppelia-Song-of-the-Self-Playing-Instrument.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Coppelia-Song-of-the-Self-Playing-Instrument.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Coppelia-Song-of-the-Self-Playing-Instrument.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a7_314402_fly",
+      "sourceImage": "assets/source/9Pets-Cute-Coppelia-Song-of-the-Self-Playing-Instrument.png",
+      "sourceRepoPath": "roles/v3a7_314402_fly",
+      "assetId": "314402",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a7_314402_fly",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a7_314402_fly",
+      "cubismPath": "live2d/roles/v3a7_314402_fly",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a7_314402_fly",
+      "birthday": "4/11",
+      "skinName": "Song of the Self-Playing Instrument",
+      "isDefaultSkin": false,
+      "skinDescription": "你听到乐器唱歌了吗？那是首关于自我的歌。",
+      "matchedName": "Coppelia",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Coppelia has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1401979,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Coppelia-Song-of-the-Self-Playing-Instrument.zip": "dc27bd8e47ec2ece",
+        "assets/previews/9Pets-Cute-Coppelia-Song-of-the-Self-Playing-Instrument.png": "ec6ae6595997c39a",
+        "assets/spritesheets/9Pets-Cute-Coppelia-Song-of-the-Self-Playing-Instrument.webp": "e4cde7d6044d7e55",
+        "assets/detail-spritesheets/9Pets-Cute-Coppelia-Song-of-the-Self-Playing-Instrument.webp": "3f66403922ad5104",
+        "assets/source/9Pets-Cute-Coppelia-Song-of-the-Self-Playing-Instrument.png": "06fc7eb964e08bf0"
       }
     }
   ]
