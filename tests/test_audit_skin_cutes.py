@@ -204,6 +204,18 @@ class AuditSkinCuteStagingTest(unittest.TestCase):
         self.assertEqual(1000, profile["y"])
         self.assertEqual("unique", profile["motionMap"]["review"])
 
+    def test_jessica_voyage_profile_has_horizontal_headroom(self) -> None:
+        profile = site.spine_render_profile_for(
+            "9Pets-Cute-Jessica-Voyage-from-your-Bed",
+            "roles/v1a9_305603_jiexika",
+            "9Pets-Cute-Jessica",
+        )
+
+        self.assertEqual("305603_jiexika_fight.skel", profile["skeleton"])
+        self.assertEqual("305603_jiexika.atlas", profile["atlas"])
+        self.assertEqual(1600, profile["width"])
+        self.assertEqual(800, profile["x"])
+
     def test_cute_base_source_info_can_be_metadata_only(self) -> None:
         official_index = site.load_official_asset_index()
         item = site.find_catalog_item(site.read_catalog(), "APPLe")

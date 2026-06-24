@@ -1650,6 +1650,10 @@ SPINE_RENDER_PROFILES: dict[str, dict[str, Any]] = {
             "review": "posture",
         },
     },
+    "9Pets-Cute-Jessica-Voyage-from-your-Bed": {
+        "width": 1600,
+        "x": 800,
+    },
     "9Pets-Cute-Moldir": {
         "width": 1200,
         "height": 1200,
