@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T18:07:51Z",
+  "generatedAt": "2026-06-24T18:11:47Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 251,
+  "cuteTotal": 252,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -22483,6 +22483,48 @@
         "assets/spritesheets/9Pets-Cute-Loggerhead-A-Moment-of-Leisure.webp": "7972a3f4d099fa91",
         "assets/detail-spritesheets/9Pets-Cute-Loggerhead-A-Moment-of-Leisure.webp": "bf212f5d8293c9de",
         "assets/source/9Pets-Cute-Loggerhead-A-Moment-of-Leisure.png": "ceb2d27d6c15b009"
+      }
+    },
+    {
+      "id": "9pets-cute-lopera-friend-of-the-splintercat",
+      "packageName": "9Pets-Cute-Lopera-Friend-of-the-Splintercat",
+      "normalPackageName": "9Pets-Lopera-Friend-of-the-Splintercat",
+      "normalId": "9pets-lopera-friend-of-the-splintercat",
+      "displayName": "Lopera",
+      "skinDisplayName": "-- Friend of the Splintercat",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Lopera-Friend-of-the-Splintercat.zip",
+      "preview": "assets/previews/9Pets-Cute-Lopera-Friend-of-the-Splintercat.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Lopera-Friend-of-the-Splintercat.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Lopera-Friend-of-the-Splintercat.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a6_310203_lopera",
+      "sourceImage": "assets/source/9Pets-Cute-Lopera-Friend-of-the-Splintercat.png",
+      "sourceRepoPath": "roles/v2a6_310203_lopera",
+      "assetId": "310203",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a6_310203_lopera",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a6_310203_lopera",
+      "cubismPath": "live2d/roles/v2a6_310203_luopeila",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a6_310203_luopeila",
+      "birthday": "5/6",
+      "skinName": "Friend of the Splintercat",
+      "isDefaultSkin": false,
+      "skinDescription": "和动物打交道只需运用一点游侠技能，这比和人交际容易太多了。",
+      "matchedName": "Lopera",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Lopera has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1375937,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Lopera-Friend-of-the-Splintercat.zip": "90bb7246bd05469e",
+        "assets/previews/9Pets-Cute-Lopera-Friend-of-the-Splintercat.png": "424d809fd81fd8da",
+        "assets/spritesheets/9Pets-Cute-Lopera-Friend-of-the-Splintercat.webp": "80ed0d726dbdb801",
+        "assets/detail-spritesheets/9Pets-Cute-Lopera-Friend-of-the-Splintercat.webp": "039366149dcc1709",
+        "assets/source/9Pets-Cute-Lopera-Friend-of-the-Splintercat.png": "d898432d171a5dc4"
       }
     },
     {
