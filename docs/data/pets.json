@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T18:58:23Z",
+  "generatedAt": "2026-06-24T19:02:24Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 264,
+  "cuteTotal": 265,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -23029,6 +23029,48 @@
         "assets/spritesheets/9Pets-Cute-Matilda-The-Genius-s-Holiday.webp": "cc296a787537ce31",
         "assets/detail-spritesheets/9Pets-Cute-Matilda-The-Genius-s-Holiday.webp": "5b9c7455236e25e6",
         "assets/source/9Pets-Cute-Matilda-The-Genius-s-Holiday.png": "ccd94b8b00e56343"
+      }
+    },
+    {
+      "id": "9pets-cute-matilda-the-great-taste-investigator",
+      "packageName": "9Pets-Cute-Matilda-The-Great-Taste-Investigator",
+      "normalPackageName": "9Pets-Matilda-The-Great-Taste-Investigator",
+      "normalId": "9pets-matilda-the-great-taste-investigator",
+      "displayName": "Matilda",
+      "skinDisplayName": "-- The Great Taste Investigator",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Matilda-The-Great-Taste-Investigator.zip",
+      "preview": "assets/previews/9Pets-Cute-Matilda-The-Great-Taste-Investigator.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Matilda-The-Great-Taste-Investigator.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Matilda-The-Great-Taste-Investigator.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a8_304104_mded",
+      "sourceImage": "assets/source/9Pets-Cute-Matilda-The-Great-Taste-Investigator.png",
+      "sourceRepoPath": "roles/v1a8_304104_mded",
+      "assetId": "304104",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a8_304104_mded",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a8_304104_mded",
+      "cubismPath": "live2d/roles/v1a8_304104_mded",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a8_304104_mded",
+      "birthday": "6/22",
+      "skinName": "The Great Taste Investigator",
+      "isDefaultSkin": false,
+      "skinDescription": "炉窑热情，烤盘滋滋作响——调查报告新鲜出炉，亟待处理！",
+      "matchedName": "Matilda Bouanich",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Matilda has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1111608,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Matilda-The-Great-Taste-Investigator.zip": "f8854584aabf348d",
+        "assets/previews/9Pets-Cute-Matilda-The-Great-Taste-Investigator.png": "adbc9deb10f22390",
+        "assets/spritesheets/9Pets-Cute-Matilda-The-Great-Taste-Investigator.webp": "1993edc9b8cd51ab",
+        "assets/detail-spritesheets/9Pets-Cute-Matilda-The-Great-Taste-Investigator.webp": "2473d7c9aba1db91",
+        "assets/source/9Pets-Cute-Matilda-The-Great-Taste-Investigator.png": "85e4ff4fa60bb567"
       }
     },
     {
