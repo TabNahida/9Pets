@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T10:57:57Z",
+  "generatedAt": "2026-06-24T11:00:40Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 173,
+  "cuteTotal": 174,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -19249,6 +19249,48 @@
         "assets/spritesheets/9Pets-Cute-Charlie-Through-Mirrors-and-Curtains.webp": "e0d80ffae3d9763d",
         "assets/detail-spritesheets/9Pets-Cute-Charlie-Through-Mirrors-and-Curtains.webp": "3069f5858cd19fda",
         "assets/source/9Pets-Cute-Charlie-Through-Mirrors-and-Curtains.png": "7153feb54224e7f4"
+      }
+    },
+    {
+      "id": "9pets-cute-charon-wailing-silence",
+      "packageName": "9Pets-Cute-Charon-Wailing-Silence",
+      "normalPackageName": "9Pets-Charon-Wailing-Silence",
+      "normalId": "9pets-charon-wailing-silence",
+      "displayName": "Charon",
+      "skinDisplayName": "-- Wailing Silence",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Charon-Wailing-Silence.zip",
+      "preview": "assets/previews/9Pets-Cute-Charon-Wailing-Silence.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Charon-Wailing-Silence.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Charon-Wailing-Silence.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a0_312802_kr",
+      "sourceImage": "assets/source/9Pets-Cute-Charon-Wailing-Silence.png",
+      "sourceRepoPath": "roles/v3a0_312802_kr",
+      "assetId": "312802",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a0_312802_kr",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a0_312802_kr",
+      "cubismPath": "live2d/roles/v3a0_312802_kr",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a0_312802_kr",
+      "birthday": "6/27",
+      "skinName": "Wailing Silence",
+      "isDefaultSkin": false,
+      "skinDescription": "生的阴影、死的记忆，于冥河中独行。",
+      "matchedName": "Charon",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Charon has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1105668,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Charon-Wailing-Silence.zip": "8fdfd0dd28ac6ddb",
+        "assets/previews/9Pets-Cute-Charon-Wailing-Silence.png": "e6f30ab96ad5773d",
+        "assets/spritesheets/9Pets-Cute-Charon-Wailing-Silence.webp": "3fab3bcc7e851fe8",
+        "assets/detail-spritesheets/9Pets-Cute-Charon-Wailing-Silence.webp": "f63a85dc278b71cf",
+        "assets/source/9Pets-Cute-Charon-Wailing-Silence.png": "a302b59ba9243f58"
       }
     }
   ]
