@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T13:43:32Z",
+  "generatedAt": "2026-06-24T13:47:35Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 184,
+  "cuteTotal": 185,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -19711,6 +19711,48 @@
         "assets/spritesheets/9Pets-Cute-Darley-Clatter-Elegant-Dance-Steps.webp": "9bdde06b57aaa2a2",
         "assets/detail-spritesheets/9Pets-Cute-Darley-Clatter-Elegant-Dance-Steps.webp": "b1d63d5134ee0a91",
         "assets/source/9Pets-Cute-Darley-Clatter-Elegant-Dance-Steps.png": "6c80a27ca1e0c297"
+      }
+    },
+    {
+      "id": "9pets-cute-desert-flannel-red-desert-special-offer",
+      "packageName": "9Pets-Cute-Desert-Flannel-Red-Desert-Special-Offer",
+      "normalPackageName": "9Pets-Desert-Flannel-Red-Desert-Special-Offer",
+      "normalId": "9pets-desert-flannel-red-desert-special-offer",
+      "displayName": "Desert Flannel",
+      "skinDisplayName": "-- Red Desert Special Offer",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Desert-Flannel-Red-Desert-Special-Offer.zip",
+      "preview": "assets/previews/9Pets-Cute-Desert-Flannel-Red-Desert-Special-Offer.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Desert-Flannel-Red-Desert-Special-Offer.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Desert-Flannel-Red-Desert-Special-Offer.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a5_307502_shasirong",
+      "sourceImage": "assets/source/9Pets-Cute-Desert-Flannel-Red-Desert-Special-Offer.png",
+      "sourceRepoPath": "roles/v1a5_307502_shasirong",
+      "assetId": "307502",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a5_307502_shasirong",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a5_307502_shasirong",
+      "cubismPath": "live2d/roles/v1a5_307502_shasirong",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a5_307502_shasirong",
+      "birthday": "9/22",
+      "skinName": "Red Desert Special Offer",
+      "isDefaultSkin": false,
+      "skinDescription": "是的，她会一直在路上。",
+      "matchedName": "Desert Flannel",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Desert Flannel has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1057024,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Desert-Flannel-Red-Desert-Special-Offer.zip": "c2db47258391d34a",
+        "assets/previews/9Pets-Cute-Desert-Flannel-Red-Desert-Special-Offer.png": "b0d718aeb62fbc76",
+        "assets/spritesheets/9Pets-Cute-Desert-Flannel-Red-Desert-Special-Offer.webp": "013a94b5d25fab15",
+        "assets/detail-spritesheets/9Pets-Cute-Desert-Flannel-Red-Desert-Special-Offer.webp": "3bafae9d471132b0",
+        "assets/source/9Pets-Cute-Desert-Flannel-Red-Desert-Special-Offer.png": "84fb9627b646097c"
       }
     }
   ]
