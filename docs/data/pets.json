@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T16:33:46Z",
+  "generatedAt": "2026-06-24T16:37:20Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 227,
+  "cuteTotal": 228,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -21517,6 +21517,48 @@
         "assets/spritesheets/9Pets-Cute-Jessica-Voyage-from-your-Bed.webp": "4423e6d0bb4a0d71",
         "assets/detail-spritesheets/9Pets-Cute-Jessica-Voyage-from-your-Bed.webp": "deb7bd5597c17ad9",
         "assets/source/9Pets-Cute-Jessica-Voyage-from-your-Bed.png": "d4fc2eb239a53ea0"
+      }
+    },
+    {
+      "id": "9pets-cute-jiu-niangzi-let-there-be-way-out",
+      "packageName": "9Pets-Cute-Jiu-Niangzi-Let-There-Be-Way-Out",
+      "normalPackageName": "9Pets-Jiu-Niangzi-Let-There-Be-Way-Out",
+      "normalId": "9pets-jiu-niangzi-let-there-be-way-out",
+      "displayName": "Jiu Niangzi",
+      "skinDisplayName": "-- Let There Be Way Out",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Jiu-Niangzi-Let-There-Be-Way-Out.zip",
+      "preview": "assets/previews/9Pets-Cute-Jiu-Niangzi-Let-There-Be-Way-Out.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Jiu-Niangzi-Let-There-Be-Way-Out.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Jiu-Niangzi-Let-There-Be-Way-Out.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a6_308302_qn",
+      "sourceImage": "assets/source/9Pets-Cute-Jiu-Niangzi-Let-There-Be-Way-Out.png",
+      "sourceRepoPath": "roles/v1a6_308302_qn",
+      "assetId": "308302",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a6_308302_qn",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a6_308302_qn",
+      "cubismPath": "live2d/roles/v1a6_308302_quniang",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a6_308302_quniang",
+      "birthday": "2/10",
+      "skinName": "Let There Be Way Out",
+      "isDefaultSkin": false,
+      "skinDescription": "她终于明白，有些道路需要自己来开辟。",
+      "matchedName": "Jiu Niangzi",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Jiu Niangzi has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1030088,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Jiu-Niangzi-Let-There-Be-Way-Out.zip": "c5cfdc13970dbf71",
+        "assets/previews/9Pets-Cute-Jiu-Niangzi-Let-There-Be-Way-Out.png": "1982a2f0aa1d53bf",
+        "assets/spritesheets/9Pets-Cute-Jiu-Niangzi-Let-There-Be-Way-Out.webp": "8308792e5fbe9434",
+        "assets/detail-spritesheets/9Pets-Cute-Jiu-Niangzi-Let-There-Be-Way-Out.webp": "8737f4c2cbe8eca4",
+        "assets/source/9Pets-Cute-Jiu-Niangzi-Let-There-Be-Way-Out.png": "3b11c56c90101720"
       }
     }
   ]
