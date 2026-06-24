@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T10:52:40Z",
+  "generatedAt": "2026-06-24T10:55:23Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 171,
+  "cuteTotal": 172,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -19165,6 +19165,48 @@
         "assets/spritesheets/9Pets-Cute-Centurion-The-Universal-Star.webp": "1e8374ae04f34a00",
         "assets/detail-spritesheets/9Pets-Cute-Centurion-The-Universal-Star.webp": "1877fbe6dbe04934",
         "assets/source/9Pets-Cute-Centurion-The-Universal-Star.png": "593fcc21d8bcd9ac"
+      }
+    },
+    {
+      "id": "9pets-cute-charlie-the-tyrant-in-illusion",
+      "packageName": "9Pets-Cute-Charlie-The-Tyrant-in-Illusion",
+      "normalPackageName": "9Pets-Charlie-The-Tyrant-in-Illusion",
+      "normalId": "9pets-charlie-the-tyrant-in-illusion",
+      "displayName": "Charlie",
+      "skinDisplayName": "-- The Tyrant in Illusion",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Charlie-The-Tyrant-in-Illusion.zip",
+      "preview": "assets/previews/9Pets-Cute-Charlie-The-Tyrant-in-Illusion.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Charlie-The-Tyrant-in-Illusion.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Charlie-The-Tyrant-in-Illusion.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/301702_xiali",
+      "sourceImage": "assets/source/9Pets-Cute-Charlie-The-Tyrant-in-Illusion.png",
+      "sourceRepoPath": "roles/301702_xiali",
+      "assetId": "301702",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/301702_xiali",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/301702_xiali",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "4/23",
+      "skinName": "The Tyrant in Illusion",
+      "isDefaultSkin": false,
+      "skinDescription": "她站上了舞台——属于她的王国。",
+      "matchedName": "Charlie",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Charlie has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1584516,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Charlie-The-Tyrant-in-Illusion.zip": "8f7c16fd3ed7174b",
+        "assets/previews/9Pets-Cute-Charlie-The-Tyrant-in-Illusion.png": "32fc686104c1c959",
+        "assets/spritesheets/9Pets-Cute-Charlie-The-Tyrant-in-Illusion.webp": "22ed3f364357002b",
+        "assets/detail-spritesheets/9Pets-Cute-Charlie-The-Tyrant-in-Illusion.webp": "b0f423c64833b23c",
+        "assets/source/9Pets-Cute-Charlie-The-Tyrant-in-Illusion.png": "c81989a4bc5bfe16"
       }
     }
   ]
