@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T22:46:05Z",
+  "generatedAt": "2026-06-24T10:31:39Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 162,
+  "cuteTotal": 163,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -18787,6 +18787,48 @@
         "assets/spritesheets/9Pets-Cute-Bkornblume-Truth-of-the-Dark-Red.webp": "ce603f2c35d3c6f1",
         "assets/detail-spritesheets/9Pets-Cute-Bkornblume-Truth-of-the-Dark-Red.webp": "d6471f01dbc238f5",
         "assets/source/9Pets-Cute-Bkornblume-Truth-of-the-Dark-Red.png": "999c522e608c8827"
+      }
+    },
+    {
+      "id": "9pets-cute-blonney-p-p-pink-lady",
+      "packageName": "9Pets-Cute-Blonney-P-P-Pink-Lady",
+      "normalPackageName": "9Pets-Blonney-P-P-Pink-Lady",
+      "normalId": "9pets-blonney-p-p-pink-lady",
+      "displayName": "Blonney",
+      "skinDisplayName": "-- P-P-Pink Lady",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Blonney-P-P-Pink-Lady.zip",
+      "preview": "assets/previews/9Pets-Cute-Blonney-P-P-Pink-Lady.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Blonney-P-P-Pink-Lady.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Blonney-P-P-Pink-Lady.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/306002_jinmier",
+      "sourceImage": "assets/source/9Pets-Cute-Blonney-P-P-Pink-Lady.png",
+      "sourceRepoPath": "roles/306002_jinmier",
+      "assetId": "306002",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/306002_jinmier",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/306002_jinmier",
+      "cubismPath": "live2d/roles/306002_jinmier",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/306002_jinmier",
+      "birthday": "7/22",
+      "skinName": "P-P-Pink Lady",
+      "isDefaultSkin": false,
+      "skinDescription": "她会带你见识她的那些朋友，你需要注意的只有——跑快点儿。",
+      "matchedName": "Blonney",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Blonney has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1139264,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Blonney-P-P-Pink-Lady.zip": "a8052267ae07e837",
+        "assets/previews/9Pets-Cute-Blonney-P-P-Pink-Lady.png": "f382b0ebdf52e24c",
+        "assets/spritesheets/9Pets-Cute-Blonney-P-P-Pink-Lady.webp": "4817b7fe7920661e",
+        "assets/detail-spritesheets/9Pets-Cute-Blonney-P-P-Pink-Lady.webp": "131f4696b7ee38af",
+        "assets/source/9Pets-Cute-Blonney-P-P-Pink-Lady.png": "62a50fb32f3afd37"
       }
     }
   ]
