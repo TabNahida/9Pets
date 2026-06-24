@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T14:23:31Z",
+  "generatedAt": "2026-06-24T14:26:34Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 197,
+  "cuteTotal": 198,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -20257,6 +20257,48 @@
         "assets/spritesheets/9Pets-Cute-Enigma-Cloze-Testing.webp": "ed46f363a036c5cc",
         "assets/detail-spritesheets/9Pets-Cute-Enigma-Cloze-Testing.webp": "120e4623678740f9",
         "assets/source/9Pets-Cute-Enigma-Cloze-Testing.png": "c0397f0306f23206"
+      }
+    },
+    {
+      "id": "9pets-cute-erick-the-great-jarl-erick",
+      "packageName": "9Pets-Cute-Erick-The-Great-Jarl-Erick",
+      "normalPackageName": "9Pets-Erick-The-Great-Jarl-Erick",
+      "normalId": "9pets-erick-the-great-jarl-erick",
+      "displayName": "Erick",
+      "skinDisplayName": "-- The Great Jarl Erick",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Erick-The-Great-Jarl-Erick.zip",
+      "preview": "assets/previews/9Pets-Cute-Erick-The-Great-Jarl-Erick.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Erick-The-Great-Jarl-Erick.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Erick-The-Great-Jarl-Erick.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/305802_ailike",
+      "sourceImage": "assets/source/9Pets-Cute-Erick-The-Great-Jarl-Erick.png",
+      "sourceRepoPath": "roles/305802_ailike",
+      "assetId": "305802",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/305802_ailike",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/305802_ailike",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "5/14",
+      "skinName": "The Great Jarl Erick",
+      "isDefaultSkin": false,
+      "skinDescription": "英勇的起航，成功的战役，美丽辉光之中的久别重逢。",
+      "matchedName": "Erick",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Erick has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1438368,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Erick-The-Great-Jarl-Erick.zip": "ebbdff12034c37ff",
+        "assets/previews/9Pets-Cute-Erick-The-Great-Jarl-Erick.png": "58593e4ce066f55b",
+        "assets/spritesheets/9Pets-Cute-Erick-The-Great-Jarl-Erick.webp": "fe52e361f62cf230",
+        "assets/detail-spritesheets/9Pets-Cute-Erick-The-Great-Jarl-Erick.webp": "0dca2f1c612f2efe",
+        "assets/source/9Pets-Cute-Erick-The-Great-Jarl-Erick.png": "2f176c17399287a4"
       }
     }
   ]
