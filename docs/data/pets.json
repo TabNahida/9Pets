@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T19:59:28Z",
+  "generatedAt": "2026-06-24T20:03:29Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 279,
+  "cuteTotal": 280,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -23701,6 +23701,48 @@
         "assets/spritesheets/9Pets-Cute-Mondlicht-Black-Rifle.webp": "a93501119cc7b2e6",
         "assets/detail-spritesheets/9Pets-Cute-Mondlicht-Black-Rifle.webp": "97918bac1421fc2a",
         "assets/source/9Pets-Cute-Mondlicht-Black-Rifle.png": "00c2c3e33135f705"
+      }
+    },
+    {
+      "id": "9pets-cute-mondlicht-silver-schirm",
+      "packageName": "9Pets-Cute-Mondlicht-Silver-Schirm",
+      "normalPackageName": "9Pets-Mondlicht-Silver-Schirm",
+      "normalId": "9pets-mondlicht-silver-schirm",
+      "displayName": "Mondlicht",
+      "skinDisplayName": "-- Silver Schirm",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Mondlicht-Silver-Schirm.zip",
+      "preview": "assets/previews/9Pets-Cute-Mondlicht-Silver-Schirm.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Mondlicht-Silver-Schirm.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Mondlicht-Silver-Schirm.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a4_302603_hdp",
+      "sourceImage": "assets/source/9Pets-Cute-Mondlicht-Silver-Schirm.png",
+      "sourceRepoPath": "roles/v2a4_302603_hdp",
+      "assetId": "302603",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a4_302603_hdp",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a4_302603_hdp",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "1/1",
+      "skinName": "Silver Schirm",
+      "isDefaultSkin": false,
+      "skinDescription": "她的使命没有尽头，远及大洋孤舟之上。",
+      "matchedName": "Mondlicht",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Mondlicht has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 902131,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Mondlicht-Silver-Schirm.zip": "39f8d4fcdda57ccc",
+        "assets/previews/9Pets-Cute-Mondlicht-Silver-Schirm.png": "d00db29438d29ed7",
+        "assets/spritesheets/9Pets-Cute-Mondlicht-Silver-Schirm.webp": "6c98cd1d66861a4b",
+        "assets/detail-spritesheets/9Pets-Cute-Mondlicht-Silver-Schirm.webp": "5a9b6efa68d2fa08",
+        "assets/source/9Pets-Cute-Mondlicht-Silver-Schirm.png": "101482e51c376033"
       }
     }
   ]
