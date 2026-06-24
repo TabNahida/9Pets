@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T18:27:32Z",
+  "generatedAt": "2026-06-24T18:31:25Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 256,
+  "cuteTotal": 257,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -22735,6 +22735,48 @@
         "assets/spritesheets/9Pets-Cute-Lucy-A-Robot-Is-Born.webp": "6259b62eca28c893",
         "assets/detail-spritesheets/9Pets-Cute-Lucy-A-Robot-Is-Born.webp": "2e092625e0841e24",
         "assets/source/9Pets-Cute-Lucy-A-Robot-Is-Born.png": "3738819bdad3bd6f"
+      }
+    },
+    {
+      "id": "9pets-cute-lucy-the-queen-s-game",
+      "packageName": "9Pets-Cute-Lucy-The-Queen-s-Game",
+      "normalPackageName": "9Pets-Lucy-The-Queen-s-Game",
+      "normalId": "9pets-lucy-the-queen-s-game",
+      "displayName": "Lucy",
+      "skinDisplayName": "-- The Queen's Game",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Lucy-The-Queen-s-Game.zip",
+      "preview": "assets/previews/9Pets-Cute-Lucy-The-Queen-s-Game.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Lucy-The-Queen-s-Game.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Lucy-The-Queen-s-Game.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a8_308603_lx",
+      "sourceImage": "assets/source/9Pets-Cute-Lucy-The-Queen-s-Game.png",
+      "sourceRepoPath": "roles/v2a8_308603_lx",
+      "assetId": "308603",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a8_308603_lx",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a8_308603_lx",
+      "cubismPath": "live2d/roles/v2a8_308603_lx",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a8_308603_lx",
+      "birthday": "12/30",
+      "skinName": "The Queen's Game",
+      "isDefaultSkin": false,
+      "skinDescription": "我愿为先驱。",
+      "matchedName": "Lucy",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Lucy has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1015713,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Lucy-The-Queen-s-Game.zip": "562980bd9284b519",
+        "assets/previews/9Pets-Cute-Lucy-The-Queen-s-Game.png": "2c9906cfc483f28a",
+        "assets/spritesheets/9Pets-Cute-Lucy-The-Queen-s-Game.webp": "848d72f97387aee0",
+        "assets/detail-spritesheets/9Pets-Cute-Lucy-The-Queen-s-Game.webp": "e6f99eb3a079f1bf",
+        "assets/source/9Pets-Cute-Lucy-The-Queen-s-Game.png": "7f95e8a4e17997e5"
       }
     }
   ]
