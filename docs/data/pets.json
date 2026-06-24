@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T16:37:20Z",
+  "generatedAt": "2026-06-24T16:40:49Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 228,
+  "cuteTotal": 229,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -21517,6 +21517,48 @@
         "assets/spritesheets/9Pets-Cute-Jessica-Voyage-from-your-Bed.webp": "4423e6d0bb4a0d71",
         "assets/detail-spritesheets/9Pets-Cute-Jessica-Voyage-from-your-Bed.webp": "deb7bd5597c17ad9",
         "assets/source/9Pets-Cute-Jessica-Voyage-from-your-Bed.png": "d4fc2eb239a53ea0"
+      }
+    },
+    {
+      "id": "9pets-cute-jiu-niangzi-blossom-spring-fairy",
+      "packageName": "9Pets-Cute-Jiu-Niangzi-Blossom-Spring-Fairy",
+      "normalPackageName": "9Pets-Jiu-Niangzi-Blossom-Spring-Fairy",
+      "normalId": "9pets-jiu-niangzi-blossom-spring-fairy",
+      "displayName": "Jiu Niangzi",
+      "skinDisplayName": "-- Blossom Spring Fairy",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Jiu-Niangzi-Blossom-Spring-Fairy.zip",
+      "preview": "assets/previews/9Pets-Cute-Jiu-Niangzi-Blossom-Spring-Fairy.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Jiu-Niangzi-Blossom-Spring-Fairy.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Jiu-Niangzi-Blossom-Spring-Fairy.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a5_308303_qn",
+      "sourceImage": "assets/source/9Pets-Cute-Jiu-Niangzi-Blossom-Spring-Fairy.png",
+      "sourceRepoPath": "roles/v2a5_308303_qn",
+      "assetId": "308303",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a5_308303_qn",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a5_308303_qn",
+      "cubismPath": "live2d/roles/v2a5_308303_quniang",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a5_308303_quniang",
+      "birthday": "2/10",
+      "skinName": "Blossom Spring Fairy",
+      "isDefaultSkin": false,
+      "skinDescription": "画中无甲子，同酌酒一杯。",
+      "matchedName": "Jiu Niangzi",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Jiu Niangzi has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1414631,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Jiu-Niangzi-Blossom-Spring-Fairy.zip": "d024b952f5202cea",
+        "assets/previews/9Pets-Cute-Jiu-Niangzi-Blossom-Spring-Fairy.png": "5ec3fc8daf348eb4",
+        "assets/spritesheets/9Pets-Cute-Jiu-Niangzi-Blossom-Spring-Fairy.webp": "f2339eaddd53236b",
+        "assets/detail-spritesheets/9Pets-Cute-Jiu-Niangzi-Blossom-Spring-Fairy.webp": "42ba6c8cbdb7312b",
+        "assets/source/9Pets-Cute-Jiu-Niangzi-Blossom-Spring-Fairy.png": "9255d97072bc27fa"
       }
     },
     {
