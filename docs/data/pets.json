@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T14:17:28Z",
+  "generatedAt": "2026-06-24T14:20:29Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 195,
+  "cuteTotal": 196,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -20173,6 +20173,48 @@
         "assets/spritesheets/9Pets-Cute-Eagle-The-Other-Path.webp": "f7471ae4b1998083",
         "assets/detail-spritesheets/9Pets-Cute-Eagle-The-Other-Path.webp": "30a4467831b4a250",
         "assets/source/9Pets-Cute-Eagle-The-Other-Path.png": "caba251da44405d1"
+      }
+    },
+    {
+      "id": "9pets-cute-eagle-weekend-excursion",
+      "packageName": "9Pets-Cute-Eagle-Weekend-Excursion",
+      "normalPackageName": "9Pets-Eagle-Weekend-Excursion",
+      "normalId": "9pets-eagle-weekend-excursion",
+      "displayName": "Eagle",
+      "skinDisplayName": "-- Weekend Excursion",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Eagle-Weekend-Excursion.zip",
+      "preview": "assets/previews/9Pets-Cute-Eagle-Weekend-Excursion.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Eagle-Weekend-Excursion.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Eagle-Weekend-Excursion.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a9_300604_xcqe",
+      "sourceImage": "assets/source/9Pets-Cute-Eagle-Weekend-Excursion.png",
+      "sourceRepoPath": "roles/v1a9_300604_xcqe",
+      "assetId": "300604",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a9_300604_xcqe",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a9_300604_xcqe",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "7/21",
+      "skinName": "Weekend Excursion",
+      "isDefaultSkin": false,
+      "skinDescription": "搭棚、扎营、煎鸡蛋，童子军受到的训练当然包括它们。",
+      "matchedName": "Eagle",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Eagle has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1356535,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Eagle-Weekend-Excursion.zip": "69888308f17f8909",
+        "assets/previews/9Pets-Cute-Eagle-Weekend-Excursion.png": "a34994c8b75df6ae",
+        "assets/spritesheets/9Pets-Cute-Eagle-Weekend-Excursion.webp": "31b41c2c84f23044",
+        "assets/detail-spritesheets/9Pets-Cute-Eagle-Weekend-Excursion.webp": "c4aa514e7fdcce81",
+        "assets/source/9Pets-Cute-Eagle-Weekend-Excursion.png": "1c960313f96d04d8"
       }
     }
   ]
