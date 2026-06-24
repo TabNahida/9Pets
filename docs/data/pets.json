@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T14:05:24Z",
+  "generatedAt": "2026-06-24T14:08:28Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 191,
+  "cuteTotal": 192,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -19963,6 +19963,48 @@
         "assets/spritesheets/9Pets-Cute-Dikke-The-Pointy-End-Up.webp": "0088e5683fa9b940",
         "assets/detail-spritesheets/9Pets-Cute-Dikke-The-Pointy-End-Up.webp": "67a4f5b4e9e8131a",
         "assets/source/9Pets-Cute-Dikke-The-Pointy-End-Up.png": "fbc9c9090d1ab781"
+      }
+    },
+    {
+      "id": "9pets-cute-druvis-iii-lady-with-nao-e",
+      "packageName": "9Pets-Cute-Druvis-III-Lady-With-Nao-E",
+      "normalPackageName": "9Pets-Druvis-III-Lady-With-Nao-E",
+      "normalId": "9pets-druvis-iii-lady-with-nao-e",
+      "displayName": "Druvis III",
+      "skinDisplayName": "-- Lady With Nao'E",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Druvis-III-Lady-With-Nao-E.zip",
+      "preview": "assets/previews/9Pets-Cute-Druvis-III-Lady-With-Nao-E.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Druvis-III-Lady-With-Nao-E.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Druvis-III-Lady-With-Nao-E.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a6_300305_hjs",
+      "sourceImage": "assets/source/9Pets-Cute-Druvis-III-Lady-With-Nao-E.png",
+      "sourceRepoPath": "roles/v1a6_300305_hjs",
+      "assetId": "300305",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a6_300305_hjs",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a6_300305_hjs",
+      "cubismPath": "live2d/roles/v1a6_300305_hujisheng",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a6_300305_hujisheng",
+      "birthday": "10/23",
+      "skinName": "Lady With Nao'E",
+      "isDefaultSkin": false,
+      "skinDescription": "正是春归时。",
+      "matchedName": "Druvis III",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Druvis III has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1196506,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Druvis-III-Lady-With-Nao-E.zip": "796cf5058b464831",
+        "assets/previews/9Pets-Cute-Druvis-III-Lady-With-Nao-E.png": "48b72e11b33b2222",
+        "assets/spritesheets/9Pets-Cute-Druvis-III-Lady-With-Nao-E.webp": "e206c7d1fc96b0a2",
+        "assets/detail-spritesheets/9Pets-Cute-Druvis-III-Lady-With-Nao-E.webp": "6a5ee65f8edd1ef8",
+        "assets/source/9Pets-Cute-Druvis-III-Lady-With-Nao-E.png": "7f41e4de67def25c"
       }
     },
     {
