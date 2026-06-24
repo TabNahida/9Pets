@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T19:02:24Z",
+  "generatedAt": "2026-06-24T19:06:27Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 265,
+  "cuteTotal": 266,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -23113,6 +23113,48 @@
         "assets/spritesheets/9Pets-Cute-Matilda-Eleve-Hyperdouee.webp": "58ab271d96f87010",
         "assets/detail-spritesheets/9Pets-Cute-Matilda-Eleve-Hyperdouee.webp": "7400a1486b3a78b9",
         "assets/source/9Pets-Cute-Matilda-Eleve-Hyperdouee.png": "352bb156a0897367"
+      }
+    },
+    {
+      "id": "9pets-cute-medicine-pocket-beware-of-dog",
+      "packageName": "9Pets-Cute-Medicine-Pocket-Beware-of-Dog",
+      "normalPackageName": "9Pets-Medicine-Pocket-Beware-of-Dog",
+      "normalId": "9pets-medicine-pocket-beware-of-dog",
+      "displayName": "Medicine Pocket",
+      "skinDisplayName": "-- Beware of Dog",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Medicine-Pocket-Beware-of-Dog.zip",
+      "preview": "assets/previews/9Pets-Cute-Medicine-Pocket-Beware-of-Dog.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Medicine-Pocket-Beware-of-Dog.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Medicine-Pocket-Beware-of-Dog.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/304702_tumaoshoudai",
+      "sourceImage": "assets/source/9Pets-Cute-Medicine-Pocket-Beware-of-Dog.png",
+      "sourceRepoPath": "roles/304702_tumaoshoudai",
+      "assetId": "304702",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/304702_tumaoshoudai",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/304702_tumaoshoudai",
+      "cubismPath": "live2d/roles/304702_tumaoshoudai",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/304702_tumaoshoudai",
+      "birthday": "11/24",
+      "skinName": "Beware of Dog",
+      "isDefaultSkin": false,
+      "skinDescription": "对，没错，我说，你记。这就是你的作用。",
+      "matchedName": "Medicine Pocket",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Medicine Pocket has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1086709,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Medicine-Pocket-Beware-of-Dog.zip": "381c51e52087562c",
+        "assets/previews/9Pets-Cute-Medicine-Pocket-Beware-of-Dog.png": "4d5ed24412b9f2a8",
+        "assets/spritesheets/9Pets-Cute-Medicine-Pocket-Beware-of-Dog.webp": "731075bac4d763e0",
+        "assets/detail-spritesheets/9Pets-Cute-Medicine-Pocket-Beware-of-Dog.webp": "b07857fdd82125b8",
+        "assets/source/9Pets-Cute-Medicine-Pocket-Beware-of-Dog.png": "a06d3d87d112cb66"
       }
     }
   ]
