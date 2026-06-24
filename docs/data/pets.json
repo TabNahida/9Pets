@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T13:58:53Z",
+  "generatedAt": "2026-06-24T14:02:25Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 189,
+  "cuteTotal": 190,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -19921,6 +19921,48 @@
         "assets/spritesheets/9Pets-Cute-Dikke-Sword-of-Hammurabi.webp": "4285f5b8621df8f6",
         "assets/detail-spritesheets/9Pets-Cute-Dikke-Sword-of-Hammurabi.webp": "190f73ca60e2b48d",
         "assets/source/9Pets-Cute-Dikke-Sword-of-Hammurabi.png": "e6e23995165c9a25"
+      }
+    },
+    {
+      "id": "9pets-cute-dikke-the-pointy-end-up",
+      "packageName": "9Pets-Cute-Dikke-The-Pointy-End-Up",
+      "normalPackageName": "9Pets-Dikke-The-Pointy-End-Up",
+      "normalId": "9pets-dikke-the-pointy-end-up",
+      "displayName": "Dikke",
+      "skinDisplayName": "-- The Pointy End Up",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Dikke-The-Pointy-End-Up.zip",
+      "preview": "assets/previews/9Pets-Cute-Dikke-The-Pointy-End-Up.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Dikke-The-Pointy-End-Up.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Dikke-The-Pointy-End-Up.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a5_302203_pamiai",
+      "sourceImage": "assets/source/9Pets-Cute-Dikke-The-Pointy-End-Up.png",
+      "sourceRepoPath": "roles/v1a5_302203_pamiai",
+      "assetId": "302203",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a5_302203_pamiai",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a5_302203_pamiai",
+      "cubismPath": "live2d/roles/v1a5_302203_pamiai",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a5_302203_pamiai",
+      "birthday": "10/10",
+      "skinName": "The Pointy End Up",
+      "isDefaultSkin": false,
+      "skinDescription": "笃定，如一次判决。",
+      "matchedName": "Dikke",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Dikke has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 690536,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Dikke-The-Pointy-End-Up.zip": "fee07a60acd9ef84",
+        "assets/previews/9Pets-Cute-Dikke-The-Pointy-End-Up.png": "a1257323aada5246",
+        "assets/spritesheets/9Pets-Cute-Dikke-The-Pointy-End-Up.webp": "0088e5683fa9b940",
+        "assets/detail-spritesheets/9Pets-Cute-Dikke-The-Pointy-End-Up.webp": "67a4f5b4e9e8131a",
+        "assets/source/9Pets-Cute-Dikke-The-Pointy-End-Up.png": "fbc9c9090d1ab781"
       }
     }
   ]
