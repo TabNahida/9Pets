@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T18:50:36Z",
+  "generatedAt": "2026-06-24T18:54:21Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 262,
+  "cuteTotal": 263,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -22987,6 +22987,48 @@
         "assets/spritesheets/9Pets-Cute-Marsha-The-Ever-Burning-Embrace.webp": "84d8f748d08d8e50",
         "assets/detail-spritesheets/9Pets-Cute-Marsha-The-Ever-Burning-Embrace.webp": "fd7090e366055aee",
         "assets/source/9Pets-Cute-Marsha-The-Ever-Burning-Embrace.png": "9751473cdb38c219"
+      }
+    },
+    {
+      "id": "9pets-cute-matilda-eleve-hyperdouee",
+      "packageName": "9Pets-Cute-Matilda-Eleve-Hyperdouee",
+      "normalPackageName": "9Pets-Matilda-Eleve-Hyperdouee",
+      "normalId": "9pets-matilda-eleve-hyperdouee",
+      "displayName": "Matilda",
+      "skinDisplayName": "-- Élève Hyperdouée",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Matilda-Eleve-Hyperdouee.zip",
+      "preview": "assets/previews/9Pets-Cute-Matilda-Eleve-Hyperdouee.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Matilda-Eleve-Hyperdouee.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Matilda-Eleve-Hyperdouee.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/304102_madierda",
+      "sourceImage": "assets/source/9Pets-Cute-Matilda-Eleve-Hyperdouee.png",
+      "sourceRepoPath": "roles/304102_madierda",
+      "assetId": "304102",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/304102_madierda",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/304102_madierda",
+      "cubismPath": "live2d/roles/304102_madierda",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/304102_madierda",
+      "birthday": "6/22",
+      "skinName": "Élève Hyperdouée",
+      "isDefaultSkin": false,
+      "skinDescription": "亭亭玉立于世界顶端，伟大的、伟大伟大伟大的第一名。",
+      "matchedName": "Matilda Bouanich",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Matilda has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 936444,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Matilda-Eleve-Hyperdouee.zip": "b73410b612634daa",
+        "assets/previews/9Pets-Cute-Matilda-Eleve-Hyperdouee.png": "09778114d77c50aa",
+        "assets/spritesheets/9Pets-Cute-Matilda-Eleve-Hyperdouee.webp": "58ab271d96f87010",
+        "assets/detail-spritesheets/9Pets-Cute-Matilda-Eleve-Hyperdouee.webp": "7400a1486b3a78b9",
+        "assets/source/9Pets-Cute-Matilda-Eleve-Hyperdouee.png": "352bb156a0897367"
       }
     }
   ]
