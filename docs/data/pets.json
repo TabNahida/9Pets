@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T18:04:02Z",
+  "generatedAt": "2026-06-24T18:07:51Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 250,
+  "cuteTotal": 251,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -22483,6 +22483,48 @@
         "assets/spritesheets/9Pets-Cute-Loggerhead-A-Moment-of-Leisure.webp": "7972a3f4d099fa91",
         "assets/detail-spritesheets/9Pets-Cute-Loggerhead-A-Moment-of-Leisure.webp": "bf212f5d8293c9de",
         "assets/source/9Pets-Cute-Loggerhead-A-Moment-of-Leisure.png": "ceb2d27d6c15b009"
+      }
+    },
+    {
+      "id": "9pets-cute-lopera-the-wayward-soul-returns",
+      "packageName": "9Pets-Cute-Lopera-The-Wayward-Soul-Returns",
+      "normalPackageName": "9Pets-Lopera-The-Wayward-Soul-Returns",
+      "normalId": "9pets-lopera-the-wayward-soul-returns",
+      "displayName": "Lopera",
+      "skinDisplayName": "-- The Wayward Soul Returns",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Lopera-The-Wayward-Soul-Returns.zip",
+      "preview": "assets/previews/9Pets-Cute-Lopera-The-Wayward-Soul-Returns.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Lopera-The-Wayward-Soul-Returns.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Lopera-The-Wayward-Soul-Returns.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a2_310202_lopera",
+      "sourceImage": "assets/source/9Pets-Cute-Lopera-The-Wayward-Soul-Returns.png",
+      "sourceRepoPath": "roles/v2a2_310202_lopera",
+      "assetId": "310202",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a2_310202_lopera",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a2_310202_lopera",
+      "cubismPath": "live2d/roles/v2a2_310202_luopeila",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a2_310202_luopeila",
+      "birthday": "5/6",
+      "skinName": "The Wayward Soul Returns",
+      "isDefaultSkin": false,
+      "skinDescription": "她清楚这是久违的宁静。",
+      "matchedName": "Lopera",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Lopera has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1327700,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Lopera-The-Wayward-Soul-Returns.zip": "376c1638f9df9f15",
+        "assets/previews/9Pets-Cute-Lopera-The-Wayward-Soul-Returns.png": "3e2bc41aca3637d4",
+        "assets/spritesheets/9Pets-Cute-Lopera-The-Wayward-Soul-Returns.webp": "c226378c1b81d6a1",
+        "assets/detail-spritesheets/9Pets-Cute-Lopera-The-Wayward-Soul-Returns.webp": "616968b2b631e980",
+        "assets/source/9Pets-Cute-Lopera-The-Wayward-Soul-Returns.png": "a97f44c9139055db"
       }
     }
   ]
