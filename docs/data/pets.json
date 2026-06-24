@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T14:48:16Z",
+  "generatedAt": "2026-06-24T14:51:22Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 205,
+  "cuteTotal": 206,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -20593,6 +20593,48 @@
         "assets/spritesheets/9Pets-Cute-Ezra-Theodore-Yee-Haw.webp": "7280359c33d50720",
         "assets/detail-spritesheets/9Pets-Cute-Ezra-Theodore-Yee-Haw.webp": "79844fb8e7b97265",
         "assets/source/9Pets-Cute-Ezra-Theodore-Yee-Haw.png": "7c37a2ec27eb8b88"
+      }
+    },
+    {
+      "id": "9pets-cute-fatutu-fading-ripples",
+      "packageName": "9Pets-Cute-Fatutu-Fading-Ripples",
+      "normalPackageName": "9Pets-Fatutu-Fading-Ripples",
+      "normalId": "9pets-fatutu-fading-ripples",
+      "displayName": "Fatutu",
+      "skinDisplayName": "-- Fading Ripples",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Fatutu-Fading-Ripples.zip",
+      "preview": "assets/previews/9Pets-Cute-Fatutu-Fading-Ripples.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Fatutu-Fading-Ripples.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Fatutu-Fading-Ripples.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a4_310902_ttsz",
+      "sourceImage": "assets/source/9Pets-Cute-Fatutu-Fading-Ripples.png",
+      "sourceRepoPath": "roles/v2a4_310902_ttsz",
+      "assetId": "310902",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a4_310902_ttsz",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a4_310902_ttsz",
+      "cubismPath": "live2d/roles/v2a4_310902_ttsz",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a4_310902_ttsz",
+      "birthday": "9/28",
+      "skinName": "Fading Ripples",
+      "isDefaultSkin": false,
+      "skinDescription": "那贝壳的缺角，是难以填补的伤心处。",
+      "matchedName": "Fatutu",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Fatutu has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1450198,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Fatutu-Fading-Ripples.zip": "ae559570d2b52e15",
+        "assets/previews/9Pets-Cute-Fatutu-Fading-Ripples.png": "02870a080846c90d",
+        "assets/spritesheets/9Pets-Cute-Fatutu-Fading-Ripples.webp": "76ec52b40ef45888",
+        "assets/detail-spritesheets/9Pets-Cute-Fatutu-Fading-Ripples.webp": "df800bd161e1354d",
+        "assets/source/9Pets-Cute-Fatutu-Fading-Ripples.png": "d5bbbfa24948c5e8"
       }
     }
   ]
