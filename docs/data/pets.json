@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T10:47:25Z",
+  "generatedAt": "2026-06-24T10:49:59Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 169,
+  "cuteTotal": 170,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -19081,6 +19081,48 @@
         "assets/spritesheets/9Pets-Cute-Bunny-Bunny-Service-Fit-for-Royalty.webp": "68f4c81882df56e0",
         "assets/detail-spritesheets/9Pets-Cute-Bunny-Bunny-Service-Fit-for-Royalty.webp": "65e268d6d0b5405c",
         "assets/source/9Pets-Cute-Bunny-Bunny-Service-Fit-for-Royalty.png": "cd4f64c3b6a52ba8"
+      }
+    },
+    {
+      "id": "9pets-cute-centurion-the-great-show",
+      "packageName": "9Pets-Cute-Centurion-The-Great-Show",
+      "normalPackageName": "9Pets-Centurion-The-Great-Show",
+      "normalId": "9pets-centurion-the-great-show",
+      "displayName": "Centurion",
+      "skinDisplayName": "-- The Great Show",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Centurion-The-Great-Show.zip",
+      "preview": "assets/previews/9Pets-Cute-Centurion-The-Great-Show.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Centurion-The-Great-Show.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Centurion-The-Great-Show.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/303202_baifuzhang",
+      "sourceImage": "assets/source/9Pets-Cute-Centurion-The-Great-Show.png",
+      "sourceRepoPath": "roles/303202_baifuzhang",
+      "assetId": "303202",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/303202_baifuzhang",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/303202_baifuzhang",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "8/13",
+      "skinName": "The Great Show",
+      "isDefaultSkin": false,
+      "skinDescription": "掌声雷动，欢呼与喝彩，她是野心，是奇遇，是幸运女神耳畔的一枚金珠。",
+      "matchedName": "Centurion",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Centurion has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1003276,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Centurion-The-Great-Show.zip": "76d28440348b6de2",
+        "assets/previews/9Pets-Cute-Centurion-The-Great-Show.png": "bfb28995407bcc01",
+        "assets/spritesheets/9Pets-Cute-Centurion-The-Great-Show.webp": "6366e46b480b20f1",
+        "assets/detail-spritesheets/9Pets-Cute-Centurion-The-Great-Show.webp": "d4798a9141901f8d",
+        "assets/source/9Pets-Cute-Centurion-The-Great-Show.png": "64f5bf055520c95f"
       }
     }
   ]
