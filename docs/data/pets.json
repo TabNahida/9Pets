@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T17:17:50Z",
+  "generatedAt": "2026-06-24T17:21:36Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 238,
+  "cuteTotal": 239,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -21979,6 +21979,48 @@
         "assets/spritesheets/9Pets-Cute-Kanjira-The-Night-Visitor.webp": "71b346a690b49027",
         "assets/detail-spritesheets/9Pets-Cute-Kanjira-The-Night-Visitor.webp": "d6925d0d4b5e51cd",
         "assets/source/9Pets-Cute-Kanjira-The-Night-Visitor.png": "ac9a647e25a08e36"
+      }
+    },
+    {
+      "id": "9pets-cute-kassandra-radiant-in-blue",
+      "packageName": "9Pets-Cute-Kassandra-Radiant-in-Blue",
+      "normalPackageName": "9Pets-Kassandra-Radiant-in-Blue",
+      "normalId": "9pets-kassandra-radiant-in-blue",
+      "displayName": "Kassandra",
+      "skinDisplayName": "-- Radiant in Blue",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Kassandra-Radiant-in-Blue.zip",
+      "preview": "assets/previews/9Pets-Cute-Kassandra-Radiant-in-Blue.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Kassandra-Radiant-in-Blue.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Kassandra-Radiant-in-Blue.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/s01_312402_ksdl",
+      "sourceImage": "assets/source/9Pets-Cute-Kassandra-Radiant-in-Blue.png",
+      "sourceRepoPath": "roles/s01_312402_ksdl",
+      "assetId": "312402",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/s01_312402_ksdl",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/s01_312402_ksdl",
+      "cubismPath": "live2d/roles/s01_312402_ksdl",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/s01_312402_ksdl",
+      "birthday": "8/7",
+      "skinName": "Radiant in Blue",
+      "isDefaultSkin": false,
+      "skinDescription": "曙光照临之时，雅典娜赐予她荣光。",
+      "matchedName": "Kassandra",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Kassandra has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 851460,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Kassandra-Radiant-in-Blue.zip": "2e9bcdfcb2f66946",
+        "assets/previews/9Pets-Cute-Kassandra-Radiant-in-Blue.png": "f5f308aaa3d8a51c",
+        "assets/spritesheets/9Pets-Cute-Kassandra-Radiant-in-Blue.webp": "8c96006a3c02de53",
+        "assets/detail-spritesheets/9Pets-Cute-Kassandra-Radiant-in-Blue.webp": "9746f9f6fd87b58b",
+        "assets/source/9Pets-Cute-Kassandra-Radiant-in-Blue.png": "a6c263a984feb7ed"
       }
     }
   ]
