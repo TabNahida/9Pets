@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T18:46:45Z",
+  "generatedAt": "2026-06-24T18:50:36Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 261,
+  "cuteTotal": 262,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -22945,6 +22945,48 @@
         "assets/spritesheets/9Pets-Cute-Marsha-And-This-I-Swear.webp": "9a924593666cdce1",
         "assets/detail-spritesheets/9Pets-Cute-Marsha-And-This-I-Swear.webp": "8fbf3c72f6a42b02",
         "assets/source/9Pets-Cute-Marsha-And-This-I-Swear.png": "58f4d494b3623a74"
+      }
+    },
+    {
+      "id": "9pets-cute-marsha-the-ever-burning-embrace",
+      "packageName": "9Pets-Cute-Marsha-The-Ever-Burning-Embrace",
+      "normalPackageName": "9Pets-Marsha-The-Ever-Burning-Embrace",
+      "normalId": "9pets-marsha-the-ever-burning-embrace",
+      "displayName": "Marsha",
+      "skinDisplayName": "-- The Ever-Burning Embrace",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Marsha-The-Ever-Burning-Embrace.zip",
+      "preview": "assets/previews/9Pets-Cute-Marsha-The-Ever-Burning-Embrace.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Marsha-The-Ever-Burning-Embrace.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Marsha-The-Ever-Burning-Embrace.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a6_312703_mes",
+      "sourceImage": "assets/source/9Pets-Cute-Marsha-The-Ever-Burning-Embrace.png",
+      "sourceRepoPath": "roles/v3a6_312703_mes",
+      "assetId": "312703",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a6_312703_mes",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a6_312703_mes",
+      "cubismPath": "live2d/roles/v3a6_312703_mes",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a6_312703_mes",
+      "birthday": "4/10",
+      "skinName": "The Ever-Burning Embrace",
+      "isDefaultSkin": false,
+      "skinDescription": "以一缕光的易逝，对抗黑暗的永恒。",
+      "matchedName": "Marsha",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Marsha has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1429202,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Marsha-The-Ever-Burning-Embrace.zip": "e609d3fa29b70d05",
+        "assets/previews/9Pets-Cute-Marsha-The-Ever-Burning-Embrace.png": "29340c78fbbbaf9d",
+        "assets/spritesheets/9Pets-Cute-Marsha-The-Ever-Burning-Embrace.webp": "84d8f748d08d8e50",
+        "assets/detail-spritesheets/9Pets-Cute-Marsha-The-Ever-Burning-Embrace.webp": "fd7090e366055aee",
+        "assets/source/9Pets-Cute-Marsha-The-Ever-Burning-Embrace.png": "9751473cdb38c219"
       }
     }
   ]
