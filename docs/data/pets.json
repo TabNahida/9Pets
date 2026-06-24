@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T16:55:22Z",
+  "generatedAt": "2026-06-24T16:59:03Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 232,
+  "cuteTotal": 233,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -21727,6 +21727,48 @@
         "assets/spritesheets/9Pets-Cute-Kaalaa-Baunaa-The-Star-Reader.webp": "253efca38699679d",
         "assets/detail-spritesheets/9Pets-Cute-Kaalaa-Baunaa-The-Star-Reader.webp": "9324cb644034f584",
         "assets/source/9Pets-Cute-Kaalaa-Baunaa-The-Star-Reader.png": "d5d9ddd828b78a16"
+      }
+    },
+    {
+      "id": "9pets-cute-kaalaa-baunaa-till-the-sun-falls",
+      "packageName": "9Pets-Cute-Kaalaa-Baunaa-Till-the-Sun-Falls",
+      "normalPackageName": "9Pets-Kaalaa-Baunaa-Till-the-Sun-Falls",
+      "normalId": "9pets-kaalaa-baunaa-till-the-sun-falls",
+      "displayName": "Kaalaa Baunaa",
+      "skinDisplayName": "-- Till the Sun Falls",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Kaalaa-Baunaa-Till-the-Sun-Falls.zip",
+      "preview": "assets/previews/9Pets-Cute-Kaalaa-Baunaa-Till-the-Sun-Falls.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Kaalaa-Baunaa-Till-the-Sun-Falls.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Kaalaa-Baunaa-Till-the-Sun-Falls.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a2_307004_jlbn",
+      "sourceImage": "assets/source/9Pets-Cute-Kaalaa-Baunaa-Till-the-Sun-Falls.png",
+      "sourceRepoPath": "roles/v3a2_307004_jlbn",
+      "assetId": "307004",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a2_307004_jlbn",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a2_307004_jlbn",
+      "cubismPath": "live2d/roles/v3a2_307004_glbn",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a2_307004_glbn",
+      "birthday": "7/15",
+      "skinName": "Till the Sun Falls",
+      "isDefaultSkin": false,
+      "skinDescription": "如月之易变，如日之易坠。",
+      "matchedName": "Black Dwarf",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Kaalaa Baunaa has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1219234,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Kaalaa-Baunaa-Till-the-Sun-Falls.zip": "87cd45874b376127",
+        "assets/previews/9Pets-Cute-Kaalaa-Baunaa-Till-the-Sun-Falls.png": "211d1597aff38bf9",
+        "assets/spritesheets/9Pets-Cute-Kaalaa-Baunaa-Till-the-Sun-Falls.webp": "ff5be262688cd9be",
+        "assets/detail-spritesheets/9Pets-Cute-Kaalaa-Baunaa-Till-the-Sun-Falls.webp": "ce8c75f97cbb9843",
+        "assets/source/9Pets-Cute-Kaalaa-Baunaa-Till-the-Sun-Falls.png": "bd920d722f48f993"
       }
     }
   ]
