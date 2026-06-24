@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T15:06:46Z",
+  "generatedAt": "2026-06-24T15:10:00Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 211,
+  "cuteTotal": 212,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -20803,6 +20803,48 @@
         "assets/spritesheets/9Pets-Cute-Flutterpage-Gently-Comes-the-Thawing-Breeze.webp": "3c43079ce16248af",
         "assets/detail-spritesheets/9Pets-Cute-Flutterpage-Gently-Comes-the-Thawing-Breeze.webp": "e4170bf5bcd58335",
         "assets/source/9Pets-Cute-Flutterpage-Gently-Comes-the-Thawing-Breeze.png": "c2b9feded45449da"
+      }
+    },
+    {
+      "id": "9pets-cute-getian-herald-of-horus",
+      "packageName": "9Pets-Cute-Getian-Herald-of-Horus",
+      "normalPackageName": "9Pets-Getian-Herald-of-Horus",
+      "normalId": "9pets-getian-herald-of-horus",
+      "displayName": "Getian",
+      "skinDisplayName": "-- Herald of Horus",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Getian-Herald-of-Horus.zip",
+      "preview": "assets/previews/9Pets-Cute-Getian-Herald-of-Horus.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Getian-Herald-of-Horus.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Getian-Herald-of-Horus.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a3_308404_gt",
+      "sourceImage": "assets/source/9Pets-Cute-Getian-Herald-of-Horus.png",
+      "sourceRepoPath": "roles/v2a3_308404_gt",
+      "assetId": "308404",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a3_308404_gt",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a3_308404_gt",
+      "cubismPath": "live2d/roles/v2a3_308404_gt",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a3_308404_gt",
+      "birthday": "7/22",
+      "skinName": "Herald of Horus",
+      "isDefaultSkin": false,
+      "skinDescription": "他双眼为日与月，即阴与阳，我们有绝妙的拍摄人选。",
+      "matchedName": "Getian",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Getian has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 826238,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Getian-Herald-of-Horus.zip": "045f91e4fc0b611b",
+        "assets/previews/9Pets-Cute-Getian-Herald-of-Horus.png": "fd49dbbc464fbf50",
+        "assets/spritesheets/9Pets-Cute-Getian-Herald-of-Horus.webp": "f9a0744652ff715b",
+        "assets/detail-spritesheets/9Pets-Cute-Getian-Herald-of-Horus.webp": "cf71f4944c7a5b11",
+        "assets/source/9Pets-Cute-Getian-Herald-of-Horus.png": "7c658786e522cd5f"
       }
     },
     {
