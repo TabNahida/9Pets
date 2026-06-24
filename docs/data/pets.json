@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T18:23:40Z",
+  "generatedAt": "2026-06-24T18:27:32Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 255,
+  "cuteTotal": 256,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -22693,6 +22693,48 @@
         "assets/spritesheets/9Pets-Cute-Lorentz-Butterfly-Rain-Chaos-and-Fluttering.webp": "b1d9ed2e976ff05b",
         "assets/detail-spritesheets/9Pets-Cute-Lorentz-Butterfly-Rain-Chaos-and-Fluttering.webp": "3979008f52f41ca1",
         "assets/source/9Pets-Cute-Lorentz-Butterfly-Rain-Chaos-and-Fluttering.png": "ba33def8e98ad83f"
+      }
+    },
+    {
+      "id": "9pets-cute-lucy-a-robot-is-born",
+      "packageName": "9Pets-Cute-Lucy-A-Robot-Is-Born",
+      "normalPackageName": "9Pets-Lucy-A-Robot-Is-Born",
+      "normalId": "9pets-lucy-a-robot-is-born",
+      "displayName": "Lucy",
+      "skinDisplayName": "-- A Robot Is Born",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Lucy-A-Robot-Is-Born.zip",
+      "preview": "assets/previews/9Pets-Cute-Lucy-A-Robot-Is-Born.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Lucy-A-Robot-Is-Born.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Lucy-A-Robot-Is-Born.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a9_308602_luxi",
+      "sourceImage": "assets/source/9Pets-Cute-Lucy-A-Robot-Is-Born.png",
+      "sourceRepoPath": "roles/v1a9_308602_luxi",
+      "assetId": "308602",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a9_308602_luxi",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a9_308602_luxi",
+      "cubismPath": "live2d/roles/v1a9_308602_luxi",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a9_308602_luxi",
+      "birthday": "12/30",
+      "skinName": "A Robot Is Born",
+      "isDefaultSkin": false,
+      "skinDescription": "这是一条没有终点的道路。",
+      "matchedName": "Lucy",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Lucy has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 877211,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Lucy-A-Robot-Is-Born.zip": "2c06bb8cd8f19035",
+        "assets/previews/9Pets-Cute-Lucy-A-Robot-Is-Born.png": "b71af39e18209812",
+        "assets/spritesheets/9Pets-Cute-Lucy-A-Robot-Is-Born.webp": "6259b62eca28c893",
+        "assets/detail-spritesheets/9Pets-Cute-Lucy-A-Robot-Is-Born.webp": "2e092625e0841e24",
+        "assets/source/9Pets-Cute-Lucy-A-Robot-Is-Born.png": "3738819bdad3bd6f"
       }
     }
   ]
