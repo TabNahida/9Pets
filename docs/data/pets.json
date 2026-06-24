@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T20:28:05Z",
+  "generatedAt": "2026-06-24T20:32:09Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 286,
+  "cuteTotal": 287,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -23995,6 +23995,48 @@
         "assets/spritesheets/9Pets-Cute-Ms-Radio-Lifeline-of-the-Battlefield.webp": "df69a17cd4c663c2",
         "assets/detail-spritesheets/9Pets-Cute-Ms-Radio-Lifeline-of-the-Battlefield.webp": "0caa6756d15232be",
         "assets/source/9Pets-Cute-Ms-Radio-Lifeline-of-the-Battlefield.png": "4dcfabb4823364ce"
+      }
+    },
+    {
+      "id": "9pets-cute-ms-stranger-down-a-dark-path",
+      "packageName": "9Pets-Cute-Ms-Stranger-Down-a-Dark-Path",
+      "normalPackageName": "9Pets-Ms-Stranger-Down-a-Dark-Path",
+      "normalId": "9pets-ms-stranger-down-a-dark-path",
+      "displayName": "Ms. Stranger",
+      "skinDisplayName": "-- Down a Dark Path",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Ms-Stranger-Down-a-Dark-Path.zip",
+      "preview": "assets/previews/9Pets-Cute-Ms-Stranger-Down-a-Dark-Path.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Ms-Stranger-Down-a-Dark-Path.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Ms-Stranger-Down-a-Dark-Path.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a7_314702_wmz",
+      "sourceImage": "assets/source/9Pets-Cute-Ms-Stranger-Down-a-Dark-Path.png",
+      "sourceRepoPath": "roles/v3a7_314702_wmz",
+      "assetId": "314702",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a7_314702_wmz",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a7_314702_wmz",
+      "cubismPath": "live2d/roles/v3a7_314702_wmz",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a7_314702_wmz",
+      "birthday": "4/13",
+      "skinName": "Down a Dark Path",
+      "isDefaultSkin": false,
+      "skinDescription": "仍在向死而行。但仅此一次，得以独享。",
+      "matchedName": "Ms. Stranger",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Ms. Stranger has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1245444,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Ms-Stranger-Down-a-Dark-Path.zip": "45c239350eebc1ea",
+        "assets/previews/9Pets-Cute-Ms-Stranger-Down-a-Dark-Path.png": "aeaf07dd376b5722",
+        "assets/spritesheets/9Pets-Cute-Ms-Stranger-Down-a-Dark-Path.webp": "351b0e45cf3f1438",
+        "assets/detail-spritesheets/9Pets-Cute-Ms-Stranger-Down-a-Dark-Path.webp": "560e38d5ffa98240",
+        "assets/source/9Pets-Cute-Ms-Stranger-Down-a-Dark-Path.png": "9d7f6e6c96999d68"
       }
     }
   ]
