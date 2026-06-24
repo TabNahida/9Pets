@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T17:40:35Z",
+  "generatedAt": "2026-06-24T17:44:27Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 244,
+  "cuteTotal": 245,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -22231,6 +22231,48 @@
         "assets/spritesheets/9Pets-Cute-Leilani-The-Adventure-on-The-Mountains.webp": "39c6184413872f58",
         "assets/detail-spritesheets/9Pets-Cute-Leilani-The-Adventure-on-The-Mountains.webp": "7098f3170b080db2",
         "assets/source/9Pets-Cute-Leilani-The-Adventure-on-The-Mountains.png": "7b5508653a821294"
+      }
+    },
+    {
+      "id": "9pets-cute-liang-yue-above-the-green-tiles",
+      "packageName": "9Pets-Cute-Liang-Yue-Above-the-Green-Tiles",
+      "normalPackageName": "9Pets-Liang-Yue-Above-the-Green-Tiles",
+      "normalId": "9pets-liang-yue-above-the-green-tiles",
+      "displayName": "Liang Yue",
+      "skinDisplayName": "-- Above the Green Tiles",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Liang-Yue-Above-the-Green-Tiles.zip",
+      "preview": "assets/previews/9Pets-Cute-Liang-Yue-Above-the-Green-Tiles.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Liang-Yue-Above-the-Green-Tiles.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Liang-Yue-Above-the-Green-Tiles.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a5_311002_ly",
+      "sourceImage": "assets/source/9Pets-Cute-Liang-Yue-Above-the-Green-Tiles.png",
+      "sourceRepoPath": "roles/v2a5_311002_ly",
+      "assetId": "311002",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a5_311002_ly",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a5_311002_ly",
+      "cubismPath": "live2d/roles/v2a5_311002_liangyue",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a5_311002_liangyue",
+      "birthday": "5/6",
+      "skinName": "Above the Green Tiles",
+      "isDefaultSkin": false,
+      "skinDescription": "钟声破晓，今时与彼日归于一处。",
+      "matchedName": "Liang",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Liang Yue has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 997747,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Liang-Yue-Above-the-Green-Tiles.zip": "3d601de2a643d5f7",
+        "assets/previews/9Pets-Cute-Liang-Yue-Above-the-Green-Tiles.png": "f61b30647b939bbb",
+        "assets/spritesheets/9Pets-Cute-Liang-Yue-Above-the-Green-Tiles.webp": "47b5c01de4ea4613",
+        "assets/detail-spritesheets/9Pets-Cute-Liang-Yue-Above-the-Green-Tiles.webp": "cfbb57959e7dc951",
+        "assets/source/9Pets-Cute-Liang-Yue-Above-the-Green-Tiles.png": "3e1b2184df6e58ca"
       }
     }
   ]
