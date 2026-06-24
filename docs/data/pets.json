@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T18:42:55Z",
+  "generatedAt": "2026-06-24T18:46:45Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 260,
+  "cuteTotal": 261,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -22903,6 +22903,48 @@
         "assets/spritesheets/9Pets-Cute-Marcus-To-the-Gates-of-the-Underworld.webp": "40c402bca8fefc88",
         "assets/detail-spritesheets/9Pets-Cute-Marcus-To-the-Gates-of-the-Underworld.webp": "07eae0a7e850c399",
         "assets/source/9Pets-Cute-Marcus-To-the-Gates-of-the-Underworld.png": "a41612e9c8152857"
+      }
+    },
+    {
+      "id": "9pets-cute-marsha-and-this-i-swear",
+      "packageName": "9Pets-Cute-Marsha-And-This-I-Swear",
+      "normalPackageName": "9Pets-Marsha-And-This-I-Swear",
+      "normalId": "9pets-marsha-and-this-i-swear",
+      "displayName": "Marsha",
+      "skinDisplayName": "-- And This I Swear",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Marsha-And-This-I-Swear.zip",
+      "preview": "assets/previews/9Pets-Cute-Marsha-And-This-I-Swear.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Marsha-And-This-I-Swear.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Marsha-And-This-I-Swear.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a3_312702_mes",
+      "sourceImage": "assets/source/9Pets-Cute-Marsha-And-This-I-Swear.png",
+      "sourceRepoPath": "roles/v3a3_312702_mes",
+      "assetId": "312702",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a3_312702_mes",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a3_312702_mes",
+      "cubismPath": "live2d/roles/v3a3_312702_mes",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a3_312702_mes",
+      "birthday": "4/10",
+      "skinName": "And This I Swear",
+      "isDefaultSkin": false,
+      "skinDescription": "以舍身之举，诠释古老宣言的真意。",
+      "matchedName": "Marsha",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Marsha has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1189877,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Marsha-And-This-I-Swear.zip": "56b990fd2b5aaebf",
+        "assets/previews/9Pets-Cute-Marsha-And-This-I-Swear.png": "aa8d210fca5ead47",
+        "assets/spritesheets/9Pets-Cute-Marsha-And-This-I-Swear.webp": "9a924593666cdce1",
+        "assets/detail-spritesheets/9Pets-Cute-Marsha-And-This-I-Swear.webp": "8fbf3c72f6a42b02",
+        "assets/source/9Pets-Cute-Marsha-And-This-I-Swear.png": "58f4d494b3623a74"
       }
     }
   ]
