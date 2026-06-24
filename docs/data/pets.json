@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T20:19:49Z",
+  "generatedAt": "2026-06-24T20:23:56Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 284,
+  "cuteTotal": 285,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -23911,6 +23911,48 @@
         "assets/spritesheets/9Pets-Cute-Ms-NewBabel-Creator-of-the-New-Era.webp": "d04566f1cd4c2c0d",
         "assets/detail-spritesheets/9Pets-Cute-Ms-NewBabel-Creator-of-the-New-Era.webp": "ba3af0c4cc62b074",
         "assets/source/9Pets-Cute-Ms-NewBabel-Creator-of-the-New-Era.png": "1fd33cdeed207e8c"
+      }
+    },
+    {
+      "id": "9pets-cute-ms-newbabel-raise-the-bid",
+      "packageName": "9Pets-Cute-Ms-NewBabel-Raise-the-Bid",
+      "normalPackageName": "9Pets-Ms-NewBabel-Raise-the-Bid",
+      "normalId": "9pets-ms-newbabel-raise-the-bid",
+      "displayName": "Ms. NewBabel",
+      "skinDisplayName": "-- Raise the Bid",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Ms-NewBabel-Raise-the-Bid.zip",
+      "preview": "assets/previews/9Pets-Cute-Ms-NewBabel-Raise-the-Bid.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Ms-NewBabel-Raise-the-Bid.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Ms-NewBabel-Raise-the-Bid.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a4_305203_xbbt",
+      "sourceImage": "assets/source/9Pets-Cute-Ms-NewBabel-Raise-the-Bid.png",
+      "sourceRepoPath": "roles/v2a4_305203_xbbt",
+      "assetId": "305203",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a4_305203_xbbt",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a4_305203_xbbt",
+      "cubismPath": "live2d/roles/v2a4_305203_xbbt",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a4_305203_xbbt",
+      "birthday": "11/16",
+      "skinName": "Raise the Bid",
+      "isDefaultSkin": false,
+      "skinDescription": "毋庸置疑，您是今晚最大的赢家。",
+      "matchedName": "Ms. NewBabel",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Ms. NewBabel has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1138232,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Ms-NewBabel-Raise-the-Bid.zip": "777653ce50a79c5a",
+        "assets/previews/9Pets-Cute-Ms-NewBabel-Raise-the-Bid.png": "2a37f839deabafcf",
+        "assets/spritesheets/9Pets-Cute-Ms-NewBabel-Raise-the-Bid.webp": "ae322c1b1f3fc5bf",
+        "assets/detail-spritesheets/9Pets-Cute-Ms-NewBabel-Raise-the-Bid.webp": "cfc45e3c3f854144",
+        "assets/source/9Pets-Cute-Ms-NewBabel-Raise-the-Bid.png": "6ab8e52936f6fa64"
       }
     }
   ]
