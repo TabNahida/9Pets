@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T15:38:59Z",
+  "generatedAt": "2026-06-24T15:42:14Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 221,
+  "cuteTotal": 222,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -21265,6 +21265,48 @@
         "assets/spritesheets/9Pets-Cute-Isolde-Polyphony.webp": "85713d6becbc8f2c",
         "assets/detail-spritesheets/9Pets-Cute-Isolde-Polyphony.webp": "4cac12899c0f3f4e",
         "assets/source/9Pets-Cute-Isolde-Polyphony.png": "c31fb8b5ef2a7704"
+      }
+    },
+    {
+      "id": "9pets-cute-isolde-the-last-fluttering-beat",
+      "packageName": "9Pets-Cute-Isolde-The-Last-Fluttering-Beat",
+      "normalPackageName": "9Pets-Isolde-The-Last-Fluttering-Beat",
+      "normalId": "9pets-isolde-the-last-fluttering-beat",
+      "displayName": "Isolde",
+      "skinDisplayName": "-- The Last Fluttering Beat",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Isolde-The-Last-Fluttering-Beat.zip",
+      "preview": "assets/previews/9Pets-Cute-Isolde-The-Last-Fluttering-Beat.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Isolde-The-Last-Fluttering-Beat.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Isolde-The-Last-Fluttering-Beat.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a2_308104_ysed",
+      "sourceImage": "assets/source/9Pets-Cute-Isolde-The-Last-Fluttering-Beat.png",
+      "sourceRepoPath": "roles/v3a2_308104_ysed",
+      "assetId": "308104",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a2_308104_ysed",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a2_308104_ysed",
+      "cubismPath": "live2d/roles/v3a2_308104_ysed",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a2_308104_ysed",
+      "birthday": "11/23",
+      "skinName": "The Last Fluttering Beat",
+      "isDefaultSkin": false,
+      "skinDescription": "不要颤抖，不要挣扎，不要损毁你唯一有价值的鳞翅。",
+      "matchedName": "Isolde",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Isolde has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1549235,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Isolde-The-Last-Fluttering-Beat.zip": "480a860cb512a968",
+        "assets/previews/9Pets-Cute-Isolde-The-Last-Fluttering-Beat.png": "89aabcdbb039a02f",
+        "assets/spritesheets/9Pets-Cute-Isolde-The-Last-Fluttering-Beat.webp": "42aa4e1a8b939976",
+        "assets/detail-spritesheets/9Pets-Cute-Isolde-The-Last-Fluttering-Beat.webp": "382ef99411eb3aa5",
+        "assets/source/9Pets-Cute-Isolde-The-Last-Fluttering-Beat.png": "ef3fb909575ac606"
       }
     }
   ]
