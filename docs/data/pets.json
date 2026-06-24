@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T16:23:34Z",
+  "generatedAt": "2026-06-24T16:33:46Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 226,
+  "cuteTotal": 227,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -21433,6 +21433,48 @@
         "assets/spritesheets/9Pets-Cute-Jessica-Hide-and-Seek.webp": "c34aa4be3bdefc47",
         "assets/detail-spritesheets/9Pets-Cute-Jessica-Hide-and-Seek.webp": "60c8b70ccbaee19f",
         "assets/source/9Pets-Cute-Jessica-Hide-and-Seek.png": "a0837e7aa4f5c7d2"
+      }
+    },
+    {
+      "id": "9pets-cute-jessica-the-sound-of-paradise",
+      "packageName": "9Pets-Cute-Jessica-The-Sound-of-Paradise",
+      "normalPackageName": "9Pets-Jessica-The-Sound-of-Paradise",
+      "normalId": "9pets-jessica-the-sound-of-paradise",
+      "displayName": "Jessica",
+      "skinDisplayName": "-- The Sound of Paradise",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Jessica-The-Sound-of-Paradise.zip",
+      "preview": "assets/previews/9Pets-Cute-Jessica-The-Sound-of-Paradise.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Jessica-The-Sound-of-Paradise.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Jessica-The-Sound-of-Paradise.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a8_305604_jxk",
+      "sourceImage": "assets/source/9Pets-Cute-Jessica-The-Sound-of-Paradise.png",
+      "sourceRepoPath": "roles/v2a8_305604_jxk",
+      "assetId": "305604",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a8_305604_jxk",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a8_305604_jxk",
+      "cubismPath": "live2d/roles/v2a8_305604_jxk",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a8_305604_jxk",
+      "birthday": "4/11",
+      "skinName": "The Sound of Paradise",
+      "isDefaultSkin": false,
+      "skinDescription": "让我们来见证这对新人。",
+      "matchedName": "Changeling",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Jessica has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1719059,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Jessica-The-Sound-of-Paradise.zip": "ce6d99ab1671dd2a",
+        "assets/previews/9Pets-Cute-Jessica-The-Sound-of-Paradise.png": "2e3c878c3956b5d6",
+        "assets/spritesheets/9Pets-Cute-Jessica-The-Sound-of-Paradise.webp": "df690dee719fb36b",
+        "assets/detail-spritesheets/9Pets-Cute-Jessica-The-Sound-of-Paradise.webp": "8520d37c44a27211",
+        "assets/source/9Pets-Cute-Jessica-The-Sound-of-Paradise.png": "122447184fedf72a"
       }
     },
     {
