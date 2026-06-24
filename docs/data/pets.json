@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T13:53:14Z",
+  "generatedAt": "2026-06-24T13:56:03Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 187,
+  "cuteTotal": 188,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -19795,6 +19795,48 @@
         "assets/spritesheets/9Pets-Cute-Desert-Flannel-Red-Desert-Special-Offer.webp": "013a94b5d25fab15",
         "assets/detail-spritesheets/9Pets-Cute-Desert-Flannel-Red-Desert-Special-Offer.webp": "3bafae9d471132b0",
         "assets/source/9Pets-Cute-Desert-Flannel-Red-Desert-Special-Offer.png": "84fb9627b646097c"
+      }
+    },
+    {
+      "id": "9pets-cute-diggers-another-assumption",
+      "packageName": "9Pets-Cute-Diggers-Another-Assumption",
+      "normalPackageName": "9Pets-Diggers-Another-Assumption",
+      "normalId": "9pets-diggers-another-assumption",
+      "displayName": "Diggers",
+      "skinDisplayName": "-- Another Assumption",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Diggers-Another-Assumption.zip",
+      "preview": "assets/previews/9Pets-Cute-Diggers-Another-Assumption.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Diggers-Another-Assumption.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Diggers-Another-Assumption.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a4_306403_wajueyishu",
+      "sourceImage": "assets/source/9Pets-Cute-Diggers-Another-Assumption.png",
+      "sourceRepoPath": "roles/v1a4_306403_wajueyishu",
+      "assetId": "306403",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a4_306403_wajueyishu",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a4_306403_wajueyishu",
+      "cubismPath": "live2d/roles/v1a4_306403_wajueyishu",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a4_306403_wajueyishu",
+      "birthday": "2/15",
+      "skinName": "Another Assumption",
+      "isDefaultSkin": false,
+      "skinDescription": "反对暴力，反对仇恨，反对早起，反对数学。",
+      "matchedName": "Diggers",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Diggers has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 857333,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Diggers-Another-Assumption.zip": "df2d06a06cb2a480",
+        "assets/previews/9Pets-Cute-Diggers-Another-Assumption.png": "96cc931d9f161590",
+        "assets/spritesheets/9Pets-Cute-Diggers-Another-Assumption.webp": "e7a1624f15a5773d",
+        "assets/detail-spritesheets/9Pets-Cute-Diggers-Another-Assumption.webp": "76edf6f3fc5de657",
+        "assets/source/9Pets-Cute-Diggers-Another-Assumption.png": "892827253a5048d6"
       }
     },
     {
