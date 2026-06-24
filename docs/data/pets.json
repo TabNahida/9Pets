@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T15:13:10Z",
+  "generatedAt": "2026-06-24T15:16:20Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 213,
+  "cuteTotal": 214,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -20929,6 +20929,48 @@
         "assets/spritesheets/9Pets-Cute-Hissabeth-Digital-Jungle.webp": "e6195bc6b8060f54",
         "assets/detail-spritesheets/9Pets-Cute-Hissabeth-Digital-Jungle.webp": "963e5fae5a7bc47d",
         "assets/source/9Pets-Cute-Hissabeth-Digital-Jungle.png": "358b90a66df6f2a0"
+      }
+    },
+    {
+      "id": "9pets-cute-hissabeth-serpentine-primavera",
+      "packageName": "9Pets-Cute-Hissabeth-Serpentine-Primavera",
+      "normalPackageName": "9Pets-Hissabeth-Serpentine-Primavera",
+      "normalId": "9pets-hissabeth-serpentine-primavera",
+      "displayName": "Hissabeth",
+      "skinDisplayName": "-- Serpentine Primavera",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Hissabeth-Serpentine-Primavera.zip",
+      "preview": "assets/previews/9Pets-Cute-Hissabeth-Serpentine-Primavera.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Hissabeth-Serpentine-Primavera.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Hissabeth-Serpentine-Primavera.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/s01_311603_lzl",
+      "sourceImage": "assets/source/9Pets-Cute-Hissabeth-Serpentine-Primavera.png",
+      "sourceRepoPath": "roles/s01_311603_lzl",
+      "assetId": "311603",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/s01_311603_lzl",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/s01_311603_lzl",
+      "cubismPath": "live2d/roles/s01_311603_lzl",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/s01_311603_lzl",
+      "birthday": "12/23",
+      "skinName": "Serpentine Primavera",
+      "isDefaultSkin": false,
+      "skinDescription": "即便连那春日本身，也在此处化为磐石。",
+      "matchedName": "Hissabeth",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Hissabeth has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1630208,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Hissabeth-Serpentine-Primavera.zip": "52a7050603a40002",
+        "assets/previews/9Pets-Cute-Hissabeth-Serpentine-Primavera.png": "956574d0f21f2b34",
+        "assets/spritesheets/9Pets-Cute-Hissabeth-Serpentine-Primavera.webp": "7ac8aa254c2eb6eb",
+        "assets/detail-spritesheets/9Pets-Cute-Hissabeth-Serpentine-Primavera.webp": "96a23e2a6fa16f4c",
+        "assets/source/9Pets-Cute-Hissabeth-Serpentine-Primavera.png": "583488369a03dcf9"
       }
     }
   ]
