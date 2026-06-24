@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T19:55:28Z",
+  "generatedAt": "2026-06-24T19:59:28Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 278,
+  "cuteTotal": 279,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -23659,6 +23659,48 @@
         "assets/spritesheets/9Pets-Cute-Moldir-Things-Never-Forgotten.webp": "cbac60ad2a9f753d",
         "assets/detail-spritesheets/9Pets-Cute-Moldir-Things-Never-Forgotten.webp": "5de3c646e3ff02fe",
         "assets/source/9Pets-Cute-Moldir-Things-Never-Forgotten.png": "7878c0578468f1d8"
+      }
+    },
+    {
+      "id": "9pets-cute-mondlicht-black-rifle",
+      "packageName": "9Pets-Cute-Mondlicht-Black-Rifle",
+      "normalPackageName": "9Pets-Mondlicht-Black-Rifle",
+      "normalId": "9pets-mondlicht-black-rifle",
+      "displayName": "Mondlicht",
+      "skinDisplayName": "-- Black Rifle",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Mondlicht-Black-Rifle.zip",
+      "preview": "assets/previews/9Pets-Cute-Mondlicht-Black-Rifle.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Mondlicht-Black-Rifle.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Mondlicht-Black-Rifle.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/302602_hongdoupeng",
+      "sourceImage": "assets/source/9Pets-Cute-Mondlicht-Black-Rifle.png",
+      "sourceRepoPath": "roles/302602_hongdoupeng",
+      "assetId": "302602",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/302602_hongdoupeng",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/302602_hongdoupeng",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "1/1",
+      "skinName": "Black Rifle",
+      "isDefaultSkin": false,
+      "skinDescription": "她抚摸着银弹、斧刃与发黑的枪口，完成了又一次复仇。",
+      "matchedName": "Mondlicht",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Mondlicht has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1125099,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Mondlicht-Black-Rifle.zip": "c78f797b039cb0cf",
+        "assets/previews/9Pets-Cute-Mondlicht-Black-Rifle.png": "923debc097c9bd1c",
+        "assets/spritesheets/9Pets-Cute-Mondlicht-Black-Rifle.webp": "a93501119cc7b2e6",
+        "assets/detail-spritesheets/9Pets-Cute-Mondlicht-Black-Rifle.webp": "97918bac1421fc2a",
+        "assets/source/9Pets-Cute-Mondlicht-Black-Rifle.png": "00c2c3e33135f705"
       }
     }
   ]
