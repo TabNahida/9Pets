@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T20:03:29Z",
+  "generatedAt": "2026-06-24T20:07:32Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 280,
+  "cuteTotal": 281,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -23743,6 +23743,48 @@
         "assets/spritesheets/9Pets-Cute-Mondlicht-Silver-Schirm.webp": "6c98cd1d66861a4b",
         "assets/detail-spritesheets/9Pets-Cute-Mondlicht-Silver-Schirm.webp": "5a9b6efa68d2fa08",
         "assets/source/9Pets-Cute-Mondlicht-Silver-Schirm.png": "101482e51c376033"
+      }
+    },
+    {
+      "id": "9pets-cute-mr-duncan-the-favela-inventor",
+      "packageName": "9Pets-Cute-Mr-Duncan-The-Favela-Inventor",
+      "normalPackageName": "9Pets-Mr-Duncan-The-Favela-Inventor",
+      "normalId": "9pets-mr-duncan-the-favela-inventor",
+      "displayName": "Mr. Duncan",
+      "skinDisplayName": "-- The Favela Inventor",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Mr-Duncan-The-Favela-Inventor.zip",
+      "preview": "assets/previews/9Pets-Cute-Mr-Duncan-The-Favela-Inventor.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Mr-Duncan-The-Favela-Inventor.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Mr-Duncan-The-Favela-Inventor.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a2_310302_dkxs",
+      "sourceImage": "assets/source/9Pets-Cute-Mr-Duncan-The-Favela-Inventor.png",
+      "sourceRepoPath": "roles/v2a2_310302_dkxs",
+      "assetId": "310302",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a2_310302_dkxs",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a2_310302_dkxs",
+      "cubismPath": "live2d/roles/v2a2_310302_dengken",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a2_310302_dengken",
+      "birthday": "6/30",
+      "skinName": "The Favela Inventor",
+      "isDefaultSkin": false,
+      "skinDescription": "贫民区的废料艺术大师——至少孩子们这么认为。",
+      "matchedName": "Mr. Duncan",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Mr. Duncan has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1114267,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Mr-Duncan-The-Favela-Inventor.zip": "c339c0f1f5dcfa27",
+        "assets/previews/9Pets-Cute-Mr-Duncan-The-Favela-Inventor.png": "4d1cafca531a6005",
+        "assets/spritesheets/9Pets-Cute-Mr-Duncan-The-Favela-Inventor.webp": "e8469d2d5211eb61",
+        "assets/detail-spritesheets/9Pets-Cute-Mr-Duncan-The-Favela-Inventor.webp": "856d7e4684054172",
+        "assets/source/9Pets-Cute-Mr-Duncan-The-Favela-Inventor.png": "cbc836571dd00826"
       }
     }
   ]
