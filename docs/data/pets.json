@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T10:44:45Z",
+  "generatedAt": "2026-06-24T10:47:25Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 168,
+  "cuteTotal": 169,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -19039,6 +19039,48 @@
         "assets/spritesheets/9Pets-Cute-Bunny-Bunny-Bunny-Girl-of-the-Year.webp": "504390e1a91143ae",
         "assets/detail-spritesheets/9Pets-Cute-Bunny-Bunny-Bunny-Girl-of-the-Year.webp": "b17aef90a83c5163",
         "assets/source/9Pets-Cute-Bunny-Bunny-Bunny-Girl-of-the-Year.png": "ef1270b05924cbb3"
+      }
+    },
+    {
+      "id": "9pets-cute-bunny-bunny-service-fit-for-royalty",
+      "packageName": "9Pets-Cute-Bunny-Bunny-Service-Fit-for-Royalty",
+      "normalPackageName": "9Pets-Bunny-Bunny-Service-Fit-for-Royalty",
+      "normalId": "9pets-bunny-bunny-service-fit-for-royalty",
+      "displayName": "Bunny Bunny",
+      "skinDisplayName": "-- Service Fit for Royalty",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Bunny-Bunny-Service-Fit-for-Royalty.zip",
+      "preview": "assets/previews/9Pets-Cute-Bunny-Bunny-Service-Fit-for-Royalty.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Bunny-Bunny-Service-Fit-for-Royalty.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Bunny-Bunny-Service-Fit-for-Royalty.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a3_301403_bnbn",
+      "sourceImage": "assets/source/9Pets-Cute-Bunny-Bunny-Service-Fit-for-Royalty.png",
+      "sourceRepoPath": "roles/v3a3_301403_bnbn",
+      "assetId": "301403",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a3_301403_bnbn",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a3_301403_bnbn",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "11/6",
+      "skinName": "Service Fit for Royalty",
+      "isDefaultSkin": false,
+      "skinDescription": "窗外阳光正好，该开始今天的工作了。",
+      "matchedName": "Bunny Bunny",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Bunny Bunny has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1129907,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Bunny-Bunny-Service-Fit-for-Royalty.zip": "de6109192c24f945",
+        "assets/previews/9Pets-Cute-Bunny-Bunny-Service-Fit-for-Royalty.png": "50ad75bff8210553",
+        "assets/spritesheets/9Pets-Cute-Bunny-Bunny-Service-Fit-for-Royalty.webp": "68f4c81882df56e0",
+        "assets/detail-spritesheets/9Pets-Cute-Bunny-Bunny-Service-Fit-for-Royalty.webp": "65e268d6d0b5405c",
+        "assets/source/9Pets-Cute-Bunny-Bunny-Service-Fit-for-Royalty.png": "cd4f64c3b6a52ba8"
       }
     }
   ]
