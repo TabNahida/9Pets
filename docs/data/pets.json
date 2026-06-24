@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T17:25:22Z",
+  "generatedAt": "2026-06-24T17:29:03Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 240,
+  "cuteTotal": 241,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -22063,6 +22063,48 @@
         "assets/spritesheets/9Pets-Cute-Kiperina-A-Box-of-Marbles.webp": "a4eac68d14e89155",
         "assets/detail-spritesheets/9Pets-Cute-Kiperina-A-Box-of-Marbles.webp": "86abf5f4d778e593",
         "assets/source/9Pets-Cute-Kiperina-A-Box-of-Marbles.png": "2c6563fe82c4f1e8"
+      }
+    },
+    {
+      "id": "9pets-cute-kiperina-the-universe-in-the-rook-s-shell",
+      "packageName": "9Pets-Cute-Kiperina-The-Universe-in-the-Rook-s-Shell",
+      "normalPackageName": "9Pets-Kiperina-The-Universe-in-the-Rook-s-Shell",
+      "normalId": "9pets-kiperina-the-universe-in-the-rook-s-shell",
+      "displayName": "Kiperina",
+      "skinDisplayName": "-- The Universe in the Rook's Shell",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Kiperina-The-Universe-in-the-Rook-s-Shell.zip",
+      "preview": "assets/previews/9Pets-Cute-Kiperina-The-Universe-in-the-Rook-s-Shell.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Kiperina-The-Universe-in-the-Rook-s-Shell.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Kiperina-The-Universe-in-the-Rook-s-Shell.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a8_311703_kphh",
+      "sourceImage": "assets/source/9Pets-Cute-Kiperina-The-Universe-in-the-Rook-s-Shell.png",
+      "sourceRepoPath": "roles/v2a8_311703_kphh",
+      "assetId": "311703",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a8_311703_kphh",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a8_311703_kphh",
+      "cubismPath": "live2d/roles/v2a8_311703_kphh",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a8_311703_kphh",
+      "birthday": "4/19",
+      "skinName": "The Universe in the Rook's Shell",
+      "isDefaultSkin": false,
+      "skinDescription": "失重于旧日的废墟，下落即是奔向明日。",
+      "matchedName": "Kiperina",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Kiperina has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1319663,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Kiperina-The-Universe-in-the-Rook-s-Shell.zip": "5a1b8105ff9e54aa",
+        "assets/previews/9Pets-Cute-Kiperina-The-Universe-in-the-Rook-s-Shell.png": "ea94d2f5077f4047",
+        "assets/spritesheets/9Pets-Cute-Kiperina-The-Universe-in-the-Rook-s-Shell.webp": "752342ca8fbbe458",
+        "assets/detail-spritesheets/9Pets-Cute-Kiperina-The-Universe-in-the-Rook-s-Shell.webp": "7f93fe59fbaa2abd",
+        "assets/source/9Pets-Cute-Kiperina-The-Universe-in-the-Rook-s-Shell.png": "45166093c38905cb"
       }
     }
   ]
