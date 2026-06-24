@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T10:42:07Z",
+  "generatedAt": "2026-06-24T10:44:45Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 167,
+  "cuteTotal": 168,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -18997,6 +18997,48 @@
         "assets/spritesheets/9Pets-Cute-Buddy-Fairchild-A-Ceremony-Among-Friends.webp": "43bda2a0890d74a9",
         "assets/detail-spritesheets/9Pets-Cute-Buddy-Fairchild-A-Ceremony-Among-Friends.webp": "d78b212d193e1970",
         "assets/source/9Pets-Cute-Buddy-Fairchild-A-Ceremony-Among-Friends.png": "a791ea6bc16f23b8"
+      }
+    },
+    {
+      "id": "9pets-cute-bunny-bunny-bunny-girl-of-the-year",
+      "packageName": "9Pets-Cute-Bunny-Bunny-Bunny-Girl-of-the-Year",
+      "normalPackageName": "9Pets-Bunny-Bunny-Bunny-Girl-of-the-Year",
+      "normalId": "9pets-bunny-bunny-bunny-girl-of-the-year",
+      "displayName": "Bunny Bunny",
+      "skinDisplayName": "-- Bunny Girl of the Year",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Bunny-Bunny-Bunny-Girl-of-the-Year.zip",
+      "preview": "assets/previews/9Pets-Cute-Bunny-Bunny-Bunny-Girl-of-the-Year.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Bunny-Bunny-Bunny-Girl-of-the-Year.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Bunny-Bunny-Bunny-Girl-of-the-Year.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/301402_banibani",
+      "sourceImage": "assets/source/9Pets-Cute-Bunny-Bunny-Bunny-Girl-of-the-Year.png",
+      "sourceRepoPath": "roles/301402_banibani",
+      "assetId": "301402",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/301402_banibani",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/301402_banibani",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "11/6",
+      "skinName": "Bunny Girl of the Year",
+      "isDefaultSkin": false,
+      "skinDescription": "她做到了，她应得的，这漂亮的荣誉献给你，漂亮的姑娘。",
+      "matchedName": "Bunny Bunny",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Bunny Bunny has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1044291,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Bunny-Bunny-Bunny-Girl-of-the-Year.zip": "dc3a1a82155e5fb4",
+        "assets/previews/9Pets-Cute-Bunny-Bunny-Bunny-Girl-of-the-Year.png": "a8c8afbf66761c41",
+        "assets/spritesheets/9Pets-Cute-Bunny-Bunny-Bunny-Girl-of-the-Year.webp": "504390e1a91143ae",
+        "assets/detail-spritesheets/9Pets-Cute-Bunny-Bunny-Bunny-Girl-of-the-Year.webp": "b17aef90a83c5163",
+        "assets/source/9Pets-Cute-Bunny-Bunny-Bunny-Girl-of-the-Year.png": "ef1270b05924cbb3"
       }
     }
   ]
