@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T15:00:33Z",
+  "generatedAt": "2026-06-24T15:03:38Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 209,
+  "cuteTotal": 210,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -20761,6 +20761,48 @@
         "assets/spritesheets/9Pets-Cute-Flutterpage-Chirpy-Morning-Ringer.webp": "1ffc54fd7e6274b8",
         "assets/detail-spritesheets/9Pets-Cute-Flutterpage-Chirpy-Morning-Ringer.webp": "656d2f431427f517",
         "assets/source/9Pets-Cute-Flutterpage-Chirpy-Morning-Ringer.png": "6991515639f8a1dc"
+      }
+    },
+    {
+      "id": "9pets-cute-flutterpage-gently-comes-the-thawing-breeze",
+      "packageName": "9Pets-Cute-Flutterpage-Gently-Comes-the-Thawing-Breeze",
+      "normalPackageName": "9Pets-Flutterpage-Gently-Comes-the-Thawing-Breeze",
+      "normalId": "9pets-flutterpage-gently-comes-the-thawing-breeze",
+      "displayName": "Flutterpage",
+      "skinDisplayName": "-- Gently Comes the Thawing Breeze",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Flutterpage-Gently-Comes-the-Thawing-Breeze.zip",
+      "preview": "assets/previews/9Pets-Cute-Flutterpage-Gently-Comes-the-Thawing-Breeze.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Flutterpage-Gently-Comes-the-Thawing-Breeze.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Flutterpage-Gently-Comes-the-Thawing-Breeze.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a0_310503_zxqe",
+      "sourceImage": "assets/source/9Pets-Cute-Flutterpage-Gently-Comes-the-Thawing-Breeze.png",
+      "sourceRepoPath": "roles/v3a0_310503_zxqe",
+      "assetId": "310503",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a0_310503_zxqe",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a0_310503_zxqe",
+      "cubismPath": "live2d/roles/v3a0_310503_zxqe",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a0_310503_zxqe",
+      "birthday": "7/14",
+      "skinName": "Gently Comes the Thawing Breeze",
+      "isDefaultSkin": false,
+      "skinDescription": "当她的春风刮起，悲伤的余烬都将被吹散。",
+      "matchedName": "Flutterpage",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Flutterpage has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1541859,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Flutterpage-Gently-Comes-the-Thawing-Breeze.zip": "bf406a4883081e46",
+        "assets/previews/9Pets-Cute-Flutterpage-Gently-Comes-the-Thawing-Breeze.png": "b7e867f22674510c",
+        "assets/spritesheets/9Pets-Cute-Flutterpage-Gently-Comes-the-Thawing-Breeze.webp": "3c43079ce16248af",
+        "assets/detail-spritesheets/9Pets-Cute-Flutterpage-Gently-Comes-the-Thawing-Breeze.webp": "e4170bf5bcd58335",
+        "assets/source/9Pets-Cute-Flutterpage-Gently-Comes-the-Thawing-Breeze.png": "c2b9feded45449da"
       }
     }
   ]
