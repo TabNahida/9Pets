@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T16:40:49Z",
+  "generatedAt": "2026-06-24T16:48:00Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 229,
+  "cuteTotal": 230,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -21601,6 +21601,48 @@
         "assets/spritesheets/9Pets-Cute-Jiu-Niangzi-Let-There-Be-Way-Out.webp": "8308792e5fbe9434",
         "assets/detail-spritesheets/9Pets-Cute-Jiu-Niangzi-Let-There-Be-Way-Out.webp": "8737f4c2cbe8eca4",
         "assets/source/9Pets-Cute-Jiu-Niangzi-Let-There-Be-Way-Out.png": "3b11c56c90101720"
+      }
+    },
+    {
+      "id": "9pets-cute-john-titor-race-to-the-finish-line",
+      "packageName": "9Pets-Cute-John-Titor-Race-to-the-Finish-Line",
+      "normalPackageName": "9Pets-John-Titor-Race-to-the-Finish-Line",
+      "normalId": "9pets-john-titor-race-to-the-finish-line",
+      "displayName": "John Titor",
+      "skinDisplayName": "-- Race to the Finish Line",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-John-Titor-Race-to-the-Finish-Line.zip",
+      "preview": "assets/previews/9Pets-Cute-John-Titor-Race-to-the-Finish-Line.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-John-Titor-Race-to-the-Finish-Line.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-John-Titor-Race-to-the-Finish-Line.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a3_303602_yhtt",
+      "sourceImage": "assets/source/9Pets-Cute-John-Titor-Race-to-the-Finish-Line.png",
+      "sourceRepoPath": "roles/v2a3_303602_yhtt",
+      "assetId": "303602",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a3_303602_yhtt",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a3_303602_yhtt",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "11/2",
+      "skinName": "Race to the Finish Line",
+      "isDefaultSkin": false,
+      "skinDescription": "二十五公斤并非她的极限。",
+      "matchedName": "John Titor",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "John Titor has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 968067,
+      "assetVersions": {
+        "downloads/9Pets-Cute-John-Titor-Race-to-the-Finish-Line.zip": "72480d8e48651428",
+        "assets/previews/9Pets-Cute-John-Titor-Race-to-the-Finish-Line.png": "c8856b56ce365586",
+        "assets/spritesheets/9Pets-Cute-John-Titor-Race-to-the-Finish-Line.webp": "7e8a52b870110e50",
+        "assets/detail-spritesheets/9Pets-Cute-John-Titor-Race-to-the-Finish-Line.webp": "802c9c8731934485",
+        "assets/source/9Pets-Cute-John-Titor-Race-to-the-Finish-Line.png": "8091e7a62e3fcbd5"
       }
     }
   ]
