@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T15:32:23Z",
+  "generatedAt": "2026-06-24T15:35:39Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 219,
+  "cuteTotal": 220,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -21181,6 +21181,48 @@
         "assets/spritesheets/9Pets-Cute-Igor-Where-the-Banner-Points.webp": "11eb64fd6b2ce981",
         "assets/detail-spritesheets/9Pets-Cute-Igor-Where-the-Banner-Points.webp": "8ae47221c2539b6d",
         "assets/source/9Pets-Cute-Igor-Where-the-Banner-Points.png": "c8052cf33d5902ee"
+      }
+    },
+    {
+      "id": "9pets-cute-isolde-polyphony",
+      "packageName": "9Pets-Cute-Isolde-Polyphony",
+      "normalPackageName": "9Pets-Isolde-Polyphony",
+      "normalId": "9pets-isolde-polyphony",
+      "displayName": "Isolde",
+      "skinDisplayName": "-- Polyphony",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Isolde-Polyphony.zip",
+      "preview": "assets/previews/9Pets-Cute-Isolde-Polyphony.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Isolde-Polyphony.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Isolde-Polyphony.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a7_308102_ysed",
+      "sourceImage": "assets/source/9Pets-Cute-Isolde-Polyphony.png",
+      "sourceRepoPath": "roles/v1a7_308102_ysed",
+      "assetId": "308102",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a7_308102_ysed",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a7_308102_ysed",
+      "cubismPath": "live2d/roles/v1a7_308102_yisuoerde",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a7_308102_yisuoerde",
+      "birthday": "11/23",
+      "skinName": "Polyphony",
+      "isDefaultSkin": false,
+      "skinDescription": "我是……我是？我是。我是！我是！！",
+      "matchedName": "Isolde",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Isolde has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1358214,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Isolde-Polyphony.zip": "192333f59bc0a6c1",
+        "assets/previews/9Pets-Cute-Isolde-Polyphony.png": "4b1d4ad90621a005",
+        "assets/spritesheets/9Pets-Cute-Isolde-Polyphony.webp": "85713d6becbc8f2c",
+        "assets/detail-spritesheets/9Pets-Cute-Isolde-Polyphony.webp": "4cac12899c0f3f4e",
+        "assets/source/9Pets-Cute-Isolde-Polyphony.png": "c31fb8b5ef2a7704"
       }
     }
   ]
