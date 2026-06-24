@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T16:51:37Z",
+  "generatedAt": "2026-06-24T16:55:22Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 231,
+  "cuteTotal": 232,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -21643,6 +21643,48 @@
         "assets/spritesheets/9Pets-Cute-John-Titor-Race-to-the-Finish-Line.webp": "7e8a52b870110e50",
         "assets/detail-spritesheets/9Pets-Cute-John-Titor-Race-to-the-Finish-Line.webp": "802c9c8731934485",
         "assets/source/9Pets-Cute-John-Titor-Race-to-the-Finish-Line.png": "8091e7a62e3fcbd5"
+      }
+    },
+    {
+      "id": "9pets-cute-kaalaa-baunaa-swing-rise-suspend",
+      "packageName": "9Pets-Cute-Kaalaa-Baunaa-Swing-Rise-Suspend",
+      "normalPackageName": "9Pets-Kaalaa-Baunaa-Swing-Rise-Suspend",
+      "normalId": "9pets-kaalaa-baunaa-swing-rise-suspend",
+      "displayName": "Kaalaa Baunaa",
+      "skinDisplayName": "-- Swing, Rise, Suspend",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Kaalaa-Baunaa-Swing-Rise-Suspend.zip",
+      "preview": "assets/previews/9Pets-Cute-Kaalaa-Baunaa-Swing-Rise-Suspend.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Kaalaa-Baunaa-Swing-Rise-Suspend.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Kaalaa-Baunaa-Swing-Rise-Suspend.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a0_307003_jialabona",
+      "sourceImage": "assets/source/9Pets-Cute-Kaalaa-Baunaa-Swing-Rise-Suspend.png",
+      "sourceRepoPath": "roles/v2a0_307003_jialabona",
+      "assetId": "307003",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a0_307003_jialabona",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a0_307003_jialabona",
+      "cubismPath": "live2d/roles/v2a0_307003_jialabona",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a0_307003_jialabona",
+      "birthday": "7/15",
+      "skinName": "Swing, Rise, Suspend",
+      "isDefaultSkin": false,
+      "skinDescription": "如行星闪烁迸发那一刻。",
+      "matchedName": "Black Dwarf",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Kaalaa Baunaa has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 917248,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Kaalaa-Baunaa-Swing-Rise-Suspend.zip": "2cc0f451b6a643de",
+        "assets/previews/9Pets-Cute-Kaalaa-Baunaa-Swing-Rise-Suspend.png": "54e368dcfd865019",
+        "assets/spritesheets/9Pets-Cute-Kaalaa-Baunaa-Swing-Rise-Suspend.webp": "401d0667e2cb47e3",
+        "assets/detail-spritesheets/9Pets-Cute-Kaalaa-Baunaa-Swing-Rise-Suspend.webp": "7018acb01596b5d2",
+        "assets/source/9Pets-Cute-Kaalaa-Baunaa-Swing-Rise-Suspend.png": "8db6fedd3c5d4ec2"
       }
     },
     {
