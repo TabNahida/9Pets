@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T20:23:56Z",
+  "generatedAt": "2026-06-24T20:28:05Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 285,
+  "cuteTotal": 286,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -23953,6 +23953,48 @@
         "assets/spritesheets/9Pets-Cute-Ms-NewBabel-Raise-the-Bid.webp": "ae322c1b1f3fc5bf",
         "assets/detail-spritesheets/9Pets-Cute-Ms-NewBabel-Raise-the-Bid.webp": "cfc45e3c3f854144",
         "assets/source/9Pets-Cute-Ms-NewBabel-Raise-the-Bid.png": "6ab8e52936f6fa64"
+      }
+    },
+    {
+      "id": "9pets-cute-ms-radio-lifeline-of-the-battlefield",
+      "packageName": "9Pets-Cute-Ms-Radio-Lifeline-of-the-Battlefield",
+      "normalPackageName": "9Pets-Ms-Radio-Lifeline-of-the-Battlefield",
+      "normalId": "9pets-ms-radio-lifeline-of-the-battlefield",
+      "displayName": "Ms. Radio",
+      "skinDisplayName": "-- Lifeline of the Battlefield",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Ms-Radio-Lifeline-of-the-Battlefield.zip",
+      "preview": "assets/previews/9Pets-Cute-Ms-Radio-Lifeline-of-the-Battlefield.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Ms-Radio-Lifeline-of-the-Battlefield.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Ms-Radio-Lifeline-of-the-Battlefield.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a0_302702_wxdxj",
+      "sourceImage": "assets/source/9Pets-Cute-Ms-Radio-Lifeline-of-the-Battlefield.png",
+      "sourceRepoPath": "roles/v3a0_302702_wxdxj",
+      "assetId": "302702",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a0_302702_wxdxj",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a0_302702_wxdxj",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "4/1",
+      "skinName": "Lifeline of the Battlefield",
+      "isDefaultSkin": false,
+      "skinDescription": "今日的早晨从一则振奋人心的战时新闻开始。",
+      "matchedName": "Ms. Radio",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Ms. Radio has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1346244,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Ms-Radio-Lifeline-of-the-Battlefield.zip": "a63e8f0f419541a7",
+        "assets/previews/9Pets-Cute-Ms-Radio-Lifeline-of-the-Battlefield.png": "9c81c4453b4d62e6",
+        "assets/spritesheets/9Pets-Cute-Ms-Radio-Lifeline-of-the-Battlefield.webp": "df69a17cd4c663c2",
+        "assets/detail-spritesheets/9Pets-Cute-Ms-Radio-Lifeline-of-the-Battlefield.webp": "0caa6756d15232be",
+        "assets/source/9Pets-Cute-Ms-Radio-Lifeline-of-the-Battlefield.png": "4dcfabb4823364ce"
       }
     }
   ]
