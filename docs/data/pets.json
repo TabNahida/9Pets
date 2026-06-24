@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T15:22:46Z",
+  "generatedAt": "2026-06-24T15:25:58Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 216,
+  "cuteTotal": 217,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -21013,6 +21013,48 @@
         "assets/spritesheets/9Pets-Cute-Hissabeth-Verses-to-Heaven.webp": "388e59403170ec22",
         "assets/detail-spritesheets/9Pets-Cute-Hissabeth-Verses-to-Heaven.webp": "d26af4f95fe74ca9",
         "assets/source/9Pets-Cute-Hissabeth-Verses-to-Heaven.png": "bccce2d2a0ca140d"
+      }
+    },
+    {
+      "id": "9pets-cute-horropedia-a-daoist-s-madness",
+      "packageName": "9Pets-Cute-Horropedia-A-Daoist-s-Madness",
+      "normalPackageName": "9Pets-Horropedia-A-Daoist-s-Madness",
+      "normalId": "9pets-horropedia-a-daoist-s-madness",
+      "displayName": "Horropedia",
+      "skinDisplayName": "-- A Daoist's Madness",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Horropedia-A-Daoist-s-Madness.zip",
+      "preview": "assets/previews/9Pets-Cute-Horropedia-A-Daoist-s-Madness.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Horropedia-A-Daoist-s-Madness.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Horropedia-A-Daoist-s-Madness.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a4_306103_kbt",
+      "sourceImage": "assets/source/9Pets-Cute-Horropedia-A-Daoist-s-Madness.png",
+      "sourceRepoPath": "roles/v3a4_306103_kbt",
+      "assetId": "306103",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a4_306103_kbt",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a4_306103_kbt",
+      "cubismPath": "live2d/roles/v3a4_306103_kbt",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a4_306103_kbt",
+      "birthday": "1/3",
+      "skinName": "A Daoist's Madness",
+      "isDefaultSkin": false,
+      "skinDescription": "昼理阳间事，夜游酆都城。",
+      "matchedName": "Horropedia",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Horropedia has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1242604,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Horropedia-A-Daoist-s-Madness.zip": "1015751f28905dfc",
+        "assets/previews/9Pets-Cute-Horropedia-A-Daoist-s-Madness.png": "afee20890ba66d3f",
+        "assets/spritesheets/9Pets-Cute-Horropedia-A-Daoist-s-Madness.webp": "7f815f53b3790a42",
+        "assets/detail-spritesheets/9Pets-Cute-Horropedia-A-Daoist-s-Madness.webp": "0439955df4e467f4",
+        "assets/source/9Pets-Cute-Horropedia-A-Daoist-s-Madness.png": "46d4da35dca6247b"
       }
     },
     {
