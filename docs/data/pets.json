@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T17:56:10Z",
+  "generatedAt": "2026-06-24T18:00:07Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 248,
+  "cuteTotal": 249,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -22315,6 +22315,48 @@
         "assets/spritesheets/9Pets-Cute-Liang-Yue-The-Moon-s-Reflection.webp": "eb83698ca3bbc180",
         "assets/detail-spritesheets/9Pets-Cute-Liang-Yue-The-Moon-s-Reflection.webp": "7a4d6dd5be8ffa93",
         "assets/source/9Pets-Cute-Liang-Yue-The-Moon-s-Reflection.png": "4551ca0d4dbfa89a"
+      }
+    },
+    {
+      "id": "9pets-cute-lilya-justice-cannot-be-delayed",
+      "packageName": "9Pets-Cute-Lilya-Justice-Cannot-Be-Delayed",
+      "normalPackageName": "9Pets-Lilya-Justice-Cannot-Be-Delayed",
+      "normalId": "9pets-lilya-justice-cannot-be-delayed",
+      "displayName": "Lilya",
+      "skinDisplayName": "-- Justice Cannot Be Delayed",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Lilya-Justice-Cannot-Be-Delayed.zip",
+      "preview": "assets/previews/9Pets-Cute-Lilya-Justice-Cannot-Be-Delayed.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Lilya-Justice-Cannot-Be-Delayed.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Lilya-Justice-Cannot-Be-Delayed.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a3_300404_hnj",
+      "sourceImage": "assets/source/9Pets-Cute-Lilya-Justice-Cannot-Be-Delayed.png",
+      "sourceRepoPath": "roles/v2a3_300404_hnj",
+      "assetId": "300404",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a3_300404_hnj",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a3_300404_hnj",
+      "cubismPath": "live2d/roles/v2a3_300404_hongnujian",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a3_300404_hongnujian",
+      "birthday": "11/14",
+      "skinName": "Justice Cannot Be Delayed",
+      "isDefaultSkin": false,
+      "skinDescription": "一切无恙，比赛继续。",
+      "matchedName": "Lilya",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Lilya has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1056070,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Lilya-Justice-Cannot-Be-Delayed.zip": "c5aa821190361d5d",
+        "assets/previews/9Pets-Cute-Lilya-Justice-Cannot-Be-Delayed.png": "77a601a5c13089e6",
+        "assets/spritesheets/9Pets-Cute-Lilya-Justice-Cannot-Be-Delayed.webp": "b5b28740f925637c",
+        "assets/detail-spritesheets/9Pets-Cute-Lilya-Justice-Cannot-Be-Delayed.webp": "fc841f624d4721e7",
+        "assets/source/9Pets-Cute-Lilya-Justice-Cannot-Be-Delayed.png": "c4f04828056709c0"
       }
     },
     {
