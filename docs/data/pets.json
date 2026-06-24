@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T14:14:28Z",
+  "generatedAt": "2026-06-24T14:17:28Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 194,
+  "cuteTotal": 195,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -20089,6 +20089,48 @@
         "assets/spritesheets/9Pets-Cute-Druvis-III-The-Druid.webp": "4ecb4199097ee487",
         "assets/detail-spritesheets/9Pets-Cute-Druvis-III-The-Druid.webp": "3bbf01f8cfd160b4",
         "assets/source/9Pets-Cute-Druvis-III-The-Druid.png": "9398724e23d569e6"
+      }
+    },
+    {
+      "id": "9pets-cute-eagle-redrum",
+      "packageName": "9Pets-Cute-Eagle-Redrum",
+      "normalPackageName": "9Pets-Eagle-Redrum",
+      "normalId": "9pets-eagle-redrum",
+      "displayName": "Eagle",
+      "skinDisplayName": "-- Redrum",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Eagle-Redrum.zip",
+      "preview": "assets/previews/9Pets-Cute-Eagle-Redrum.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Eagle-Redrum.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Eagle-Redrum.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/300603_xcqe",
+      "sourceImage": "assets/source/9Pets-Cute-Eagle-Redrum.png",
+      "sourceRepoPath": "roles/300603_xcqe",
+      "assetId": "300603",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/300603_xcqe",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/300603_xcqe",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "7/21",
+      "skinName": "Redrum",
+      "isDefaultSkin": false,
+      "skinDescription": "只工作，不玩闹，聪明雀儿也……",
+      "matchedName": "Eagle",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Eagle has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1317507,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Eagle-Redrum.zip": "740cf67219e53309",
+        "assets/previews/9Pets-Cute-Eagle-Redrum.png": "bba35bada50d7715",
+        "assets/spritesheets/9Pets-Cute-Eagle-Redrum.webp": "24513d74a485a415",
+        "assets/detail-spritesheets/9Pets-Cute-Eagle-Redrum.webp": "eb3a22f3ff1e1a9c",
+        "assets/source/9Pets-Cute-Eagle-Redrum.png": "a86e2fbd0cefc245"
       }
     },
     {
