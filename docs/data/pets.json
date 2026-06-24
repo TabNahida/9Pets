@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T15:16:20Z",
+  "generatedAt": "2026-06-24T15:19:29Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 214,
+  "cuteTotal": 215,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -20971,6 +20971,48 @@
         "assets/spritesheets/9Pets-Cute-Hissabeth-Serpentine-Primavera.webp": "7ac8aa254c2eb6eb",
         "assets/detail-spritesheets/9Pets-Cute-Hissabeth-Serpentine-Primavera.webp": "96a23e2a6fa16f4c",
         "assets/source/9Pets-Cute-Hissabeth-Serpentine-Primavera.png": "583488369a03dcf9"
+      }
+    },
+    {
+      "id": "9pets-cute-hissabeth-verses-to-heaven",
+      "packageName": "9Pets-Cute-Hissabeth-Verses-to-Heaven",
+      "normalPackageName": "9Pets-Hissabeth-Verses-to-Heaven",
+      "normalId": "9pets-hissabeth-verses-to-heaven",
+      "displayName": "Hissabeth",
+      "skinDisplayName": "-- Verses to Heaven",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Hissabeth-Verses-to-Heaven.zip",
+      "preview": "assets/previews/9Pets-Cute-Hissabeth-Verses-to-Heaven.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Hissabeth-Verses-to-Heaven.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Hissabeth-Verses-to-Heaven.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a8_311604_lzl",
+      "sourceImage": "assets/source/9Pets-Cute-Hissabeth-Verses-to-Heaven.png",
+      "sourceRepoPath": "roles/v3a8_311604_lzl",
+      "assetId": "311604",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a8_311604_lzl",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a8_311604_lzl",
+      "cubismPath": "live2d/roles/v3a8_311604_lzl",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a8_311604_lzl",
+      "birthday": "12/23",
+      "skinName": "Verses to Heaven",
+      "isDefaultSkin": false,
+      "skinDescription": "孔盖兮翠旍，登九天兮抚彗星。",
+      "matchedName": "Hissabeth",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Hissabeth has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1634611,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Hissabeth-Verses-to-Heaven.zip": "d3d73d9d2bc512f3",
+        "assets/previews/9Pets-Cute-Hissabeth-Verses-to-Heaven.png": "a67c96b4f966dd65",
+        "assets/spritesheets/9Pets-Cute-Hissabeth-Verses-to-Heaven.webp": "388e59403170ec22",
+        "assets/detail-spritesheets/9Pets-Cute-Hissabeth-Verses-to-Heaven.webp": "d26af4f95fe74ca9",
+        "assets/source/9Pets-Cute-Hissabeth-Verses-to-Heaven.png": "bccce2d2a0ca140d"
       }
     }
   ]
