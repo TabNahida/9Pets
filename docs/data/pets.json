@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T19:06:27Z",
+  "generatedAt": "2026-06-24T19:10:36Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 266,
+  "cuteTotal": 267,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -23155,6 +23155,48 @@
         "assets/spritesheets/9Pets-Cute-Medicine-Pocket-Beware-of-Dog.webp": "731075bac4d763e0",
         "assets/detail-spritesheets/9Pets-Cute-Medicine-Pocket-Beware-of-Dog.webp": "b07857fdd82125b8",
         "assets/source/9Pets-Cute-Medicine-Pocket-Beware-of-Dog.png": "a06d3d87d112cb66"
+      }
+    },
+    {
+      "id": "9pets-cute-medicine-pocket-the-cosmos-photographer",
+      "packageName": "9Pets-Cute-Medicine-Pocket-The-Cosmos-Photographer",
+      "normalPackageName": "9Pets-Medicine-Pocket-The-Cosmos-Photographer",
+      "normalId": "9pets-medicine-pocket-the-cosmos-photographer",
+      "displayName": "Medicine Pocket",
+      "skinDisplayName": "-- The Cosmos Photographer",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Medicine-Pocket-The-Cosmos-Photographer.zip",
+      "preview": "assets/previews/9Pets-Cute-Medicine-Pocket-The-Cosmos-Photographer.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Medicine-Pocket-The-Cosmos-Photographer.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Medicine-Pocket-The-Cosmos-Photographer.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a8_304703_tumaoshoudai",
+      "sourceImage": "assets/source/9Pets-Cute-Medicine-Pocket-The-Cosmos-Photographer.png",
+      "sourceRepoPath": "roles/v1a8_304703_tumaoshoudai",
+      "assetId": "304703",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a8_304703_tumaoshoudai",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a8_304703_tumaoshoudai",
+      "cubismPath": "live2d/roles/v1a8_304703_tumaoshoudai",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a8_304703_tumaoshoudai",
+      "birthday": "11/24",
+      "skinName": "The Cosmos Photographer",
+      "isDefaultSkin": false,
+      "skinDescription": "上前来，到你了！预备领受沉甸甸的勋章吧。",
+      "matchedName": "Medicine Pocket",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Medicine Pocket has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 992191,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Medicine-Pocket-The-Cosmos-Photographer.zip": "770e4f53583394ae",
+        "assets/previews/9Pets-Cute-Medicine-Pocket-The-Cosmos-Photographer.png": "17851e94b6d96fb8",
+        "assets/spritesheets/9Pets-Cute-Medicine-Pocket-The-Cosmos-Photographer.webp": "90999a82d7b0a0bf",
+        "assets/detail-spritesheets/9Pets-Cute-Medicine-Pocket-The-Cosmos-Photographer.webp": "6f2b5982bb3c4232",
+        "assets/source/9Pets-Cute-Medicine-Pocket-The-Cosmos-Photographer.png": "2692ab465b033e0c"
       }
     }
   ]
