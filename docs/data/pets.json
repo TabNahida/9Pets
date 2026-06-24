@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T16:59:03Z",
+  "generatedAt": "2026-06-24T17:02:45Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 233,
+  "cuteTotal": 234,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -21769,6 +21769,48 @@
         "assets/spritesheets/9Pets-Cute-Kaalaa-Baunaa-Till-the-Sun-Falls.webp": "ff5be262688cd9be",
         "assets/detail-spritesheets/9Pets-Cute-Kaalaa-Baunaa-Till-the-Sun-Falls.webp": "ce8c75f97cbb9843",
         "assets/source/9Pets-Cute-Kaalaa-Baunaa-Till-the-Sun-Falls.png": "bd920d722f48f993"
+      }
+    },
+    {
+      "id": "9pets-cute-kakania-reflections-within-reflections",
+      "packageName": "9Pets-Cute-Kakania-Reflections-within-Reflections",
+      "normalPackageName": "9Pets-Kakania-Reflections-within-Reflections",
+      "normalId": "9pets-kakania-reflections-within-reflections",
+      "displayName": "Kakania",
+      "skinDisplayName": "-- Reflections within Reflections",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Kakania-Reflections-within-Reflections.zip",
+      "preview": "assets/previews/9Pets-Cute-Kakania-Reflections-within-Reflections.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Kakania-Reflections-within-Reflections.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Kakania-Reflections-within-Reflections.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a9_308002_kkny",
+      "sourceImage": "assets/source/9Pets-Cute-Kakania-Reflections-within-Reflections.png",
+      "sourceRepoPath": "roles/v1a9_308002_kkny",
+      "assetId": "308002",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a9_308002_kkny",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a9_308002_kkny",
+      "cubismPath": "live2d/roles/v1a9_308002_kakaniya",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v1a9_308002_kakaniya",
+      "birthday": "12/7",
+      "skinName": "Reflections within Reflections",
+      "isDefaultSkin": false,
+      "skinDescription": "她向镜中望去，镜面同样回望着她。",
+      "matchedName": "Kakania",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Kakania has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1134397,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Kakania-Reflections-within-Reflections.zip": "7670c7e6bae0d419",
+        "assets/previews/9Pets-Cute-Kakania-Reflections-within-Reflections.png": "011d64f9524d87dd",
+        "assets/spritesheets/9Pets-Cute-Kakania-Reflections-within-Reflections.webp": "eab237a10e28d230",
+        "assets/detail-spritesheets/9Pets-Cute-Kakania-Reflections-within-Reflections.webp": "dbb2190353a59f19",
+        "assets/source/9Pets-Cute-Kakania-Reflections-within-Reflections.png": "d226bbbba6b67208"
       }
     }
   ]
