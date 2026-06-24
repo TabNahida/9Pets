@@ -1,12 +1,31 @@
 from __future__ import annotations
 
 import unittest
+from pathlib import Path
+from unittest import mock
 
 from tools import audit_skin_cutes as audit
 from tools import build_pets_site as site
 
 
 class AuditSkinCuteStagingTest(unittest.TestCase):
+    def test_deterministic_qa_runs_cute_white_block_scan(self) -> None:
+        with (
+            mock.patch.object(audit.pet_qa, "raw_frame_qa") as raw_frame,
+            mock.patch.object(audit.pet_qa, "pixel_qa") as pixel,
+            mock.patch.object(audit.pet_qa, "visible_color_qa") as visible_color,
+            mock.patch.object(audit.pet_qa, "white_block_artifact_qa") as white_block,
+            mock.patch.object(audit.pet_qa, "make_contact", return_value=Path("contact.png")) as make_contact,
+        ):
+            contact = audit.deterministic_qa("9Pets-Cute-Test-Skin")
+
+        self.assertEqual(Path("contact.png"), contact)
+        raw_frame.assert_called_once_with(["9Pets-Cute-Test-Skin"])
+        pixel.assert_called_once_with(["9Pets-Cute-Test-Skin"])
+        visible_color.assert_called_once_with(["9Pets-Cute-Test-Skin"])
+        white_block.assert_called_once_with(["9Pets-Cute-Test-Skin"], animation_modes={"official-cute-spine"})
+        make_contact.assert_called_once_with("9Pets-Cute-Test-Skin")
+
     def test_detail_page_qa_waits_for_sprite_background_before_checking(self) -> None:
         package_name = "9Pets-Cute-Test-Delayed-Skin"
         row = {

@@ -107,6 +107,7 @@ def deterministic_qa(package_name: str) -> Path:
     pet_qa.raw_frame_qa([package_name])
     pet_qa.pixel_qa([package_name])
     pet_qa.visible_color_qa([package_name])
+    pet_qa.white_block_artifact_qa([package_name], animation_modes={"official-cute-spine"})
     return pet_qa.make_contact(package_name)
 
 
@@ -319,7 +320,7 @@ def audit_row(
         raise AssertionError(f"{package_name} built as {variant.get('animationMode')}")
     contact = deterministic_qa(package_name)
     page_qa.check(base_url, row)
-    qa_note = "raw frame bounds, pixel/transparent cells, visible color, contact sheet, catalog/detail/download page"
+    qa_note = "raw frame bounds, pixel/transparent cells, visible color, white block artifact, contact sheet, catalog/detail/download page"
     motions = pet_qa.parse_motion_lines(build_output)
     if motions:
         qa_note += f"; animations: {motions}"

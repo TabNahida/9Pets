@@ -317,11 +317,16 @@ def compact_white_blocks(path: Path) -> list[tuple[int, tuple[int, int, int, int
     return sorted(blocks, reverse=True)
 
 
-def white_block_artifact_qa(package_names: list[str]) -> None:
+def white_block_artifact_qa(
+    package_names: list[str],
+    *,
+    animation_modes: set[str] | None = None,
+) -> None:
+    allowed_modes = animation_modes or {"official-live2d-cubism"}
     manifest_items = read_manifest_items()
     for package_name in package_names:
         item = manifest_items.get(package_name, {})
-        if item.get("animationMode") != "official-live2d-cubism":
+        if item.get("animationMode") not in allowed_modes:
             continue
         for path in package_paths(package_name):
             if not path.exists():
