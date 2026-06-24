@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T16:48:00Z",
+  "generatedAt": "2026-06-24T16:51:37Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 230,
+  "cuteTotal": 231,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -21643,6 +21643,48 @@
         "assets/spritesheets/9Pets-Cute-John-Titor-Race-to-the-Finish-Line.webp": "7e8a52b870110e50",
         "assets/detail-spritesheets/9Pets-Cute-John-Titor-Race-to-the-Finish-Line.webp": "802c9c8731934485",
         "assets/source/9Pets-Cute-John-Titor-Race-to-the-Finish-Line.png": "8091e7a62e3fcbd5"
+      }
+    },
+    {
+      "id": "9pets-cute-kaalaa-baunaa-the-star-reader",
+      "packageName": "9Pets-Cute-Kaalaa-Baunaa-The-Star-Reader",
+      "normalPackageName": "9Pets-Kaalaa-Baunaa-The-Star-Reader",
+      "normalId": "9pets-kaalaa-baunaa-the-star-reader",
+      "displayName": "Kaalaa Baunaa",
+      "skinDisplayName": "-- The Star Reader",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Kaalaa-Baunaa-The-Star-Reader.zip",
+      "preview": "assets/previews/9Pets-Cute-Kaalaa-Baunaa-The-Star-Reader.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Kaalaa-Baunaa-The-Star-Reader.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Kaalaa-Baunaa-The-Star-Reader.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a3_307002_jialabona",
+      "sourceImage": "assets/source/9Pets-Cute-Kaalaa-Baunaa-The-Star-Reader.png",
+      "sourceRepoPath": "roles/v1a3_307002_jialabona",
+      "assetId": "307002",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a3_307002_jialabona",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a3_307002_jialabona",
+      "cubismPath": "live2d/roles/307002_jialabona",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/307002_jialabona",
+      "birthday": "7/15",
+      "skinName": "The Star Reader",
+      "isDefaultSkin": false,
+      "skinDescription": "人与群星并无不同。",
+      "matchedName": "Black Dwarf",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Kaalaa Baunaa has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1355935,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Kaalaa-Baunaa-The-Star-Reader.zip": "8714efd8f107b2d7",
+        "assets/previews/9Pets-Cute-Kaalaa-Baunaa-The-Star-Reader.png": "60156f0c1feb4c96",
+        "assets/spritesheets/9Pets-Cute-Kaalaa-Baunaa-The-Star-Reader.webp": "253efca38699679d",
+        "assets/detail-spritesheets/9Pets-Cute-Kaalaa-Baunaa-The-Star-Reader.webp": "9324cb644034f584",
+        "assets/source/9Pets-Cute-Kaalaa-Baunaa-The-Star-Reader.png": "d5d9ddd828b78a16"
       }
     }
   ]
