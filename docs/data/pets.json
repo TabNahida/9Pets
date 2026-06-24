@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T17:10:22Z",
+  "generatedAt": "2026-06-24T17:14:06Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 236,
+  "cuteTotal": 237,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -21895,6 +21895,48 @@
         "assets/spritesheets/9Pets-Cute-Kakania-Seminars-on-Serenity.webp": "e4c4c41df9ead1e3",
         "assets/detail-spritesheets/9Pets-Cute-Kakania-Seminars-on-Serenity.webp": "0a658e830e4626ba",
         "assets/source/9Pets-Cute-Kakania-Seminars-on-Serenity.png": "87f8c25a2078cbb3"
+      }
+    },
+    {
+      "id": "9pets-cute-kanjira-tambourine",
+      "packageName": "9Pets-Cute-Kanjira-Tambourine",
+      "normalPackageName": "9Pets-Kanjira-Tambourine",
+      "normalId": "9pets-kanjira-tambourine",
+      "displayName": "Kanjira",
+      "skinDisplayName": "-- Tambourine",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Kanjira-Tambourine.zip",
+      "preview": "assets/previews/9Pets-Cute-Kanjira-Tambourine.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Kanjira-Tambourine.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Kanjira-Tambourine.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a3_307102_kanjila",
+      "sourceImage": "assets/source/9Pets-Cute-Kanjira-Tambourine.png",
+      "sourceRepoPath": "roles/v1a3_307102_kanjila",
+      "assetId": "307102",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v1a3_307102_kanjila",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v1a3_307102_kanjila",
+      "cubismPath": "live2d/roles/307102_kanjila",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/307102_kanjila",
+      "birthday": "4/8",
+      "skinName": "Tambourine",
+      "isDefaultSkin": false,
+      "skinDescription": "鼓点总会有的，随时都可以起舞。",
+      "matchedName": "Kanjira",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Kanjira has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1449689,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Kanjira-Tambourine.zip": "586c31384c42d422",
+        "assets/previews/9Pets-Cute-Kanjira-Tambourine.png": "cc41be6774f3b648",
+        "assets/spritesheets/9Pets-Cute-Kanjira-Tambourine.webp": "e98b906b15683f7c",
+        "assets/detail-spritesheets/9Pets-Cute-Kanjira-Tambourine.webp": "0414a76d0f29c22a",
+        "assets/source/9Pets-Cute-Kanjira-Tambourine.png": "689f6908a50645d6"
       }
     }
   ]
