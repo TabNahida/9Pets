@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T20:07:32Z",
+  "generatedAt": "2026-06-24T20:11:38Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 281,
+  "cuteTotal": 282,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -23785,6 +23785,48 @@
         "assets/spritesheets/9Pets-Cute-Mr-Duncan-The-Favela-Inventor.webp": "e8469d2d5211eb61",
         "assets/detail-spritesheets/9Pets-Cute-Mr-Duncan-The-Favela-Inventor.webp": "856d7e4684054172",
         "assets/source/9Pets-Cute-Mr-Duncan-The-Favela-Inventor.png": "cbc836571dd00826"
+      }
+    },
+    {
+      "id": "9pets-cute-ms-moissan-another-answer",
+      "packageName": "9Pets-Cute-Ms-Moissan-Another-Answer",
+      "normalPackageName": "9Pets-Ms-Moissan-Another-Answer",
+      "normalId": "9pets-ms-moissan-another-answer",
+      "displayName": "Ms. Moissan",
+      "skinDisplayName": "-- Another Answer",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Ms-Moissan-Another-Answer.zip",
+      "preview": "assets/previews/9Pets-Cute-Ms-Moissan-Another-Answer.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Ms-Moissan-Another-Answer.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Ms-Moissan-Another-Answer.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/304402_mosangnvshi",
+      "sourceImage": "assets/source/9Pets-Cute-Ms-Moissan-Another-Answer.png",
+      "sourceRepoPath": "roles/304402_mosangnvshi",
+      "assetId": "304402",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/304402_mosangnvshi",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/304402_mosangnvshi",
+      "cubismPath": "live2d/roles/",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/",
+      "birthday": "11/25",
+      "skinName": "Another Answer",
+      "isDefaultSkin": false,
+      "skinDescription": "但瓷器的花纹并无定格，她的回答亦不止一种。",
+      "matchedName": "Ms. Moissan",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Ms. Moissan has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1211308,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Ms-Moissan-Another-Answer.zip": "e084a81e9cfc9b71",
+        "assets/previews/9Pets-Cute-Ms-Moissan-Another-Answer.png": "0e4bcebf1ea27361",
+        "assets/spritesheets/9Pets-Cute-Ms-Moissan-Another-Answer.webp": "82ec9e5748c347a8",
+        "assets/detail-spritesheets/9Pets-Cute-Ms-Moissan-Another-Answer.webp": "abbb40b96f6ceb73",
+        "assets/source/9Pets-Cute-Ms-Moissan-Another-Answer.png": "e9e2f4342df80524"
       }
     }
   ]
