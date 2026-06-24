@@ -184,6 +184,16 @@ class AuditSkinCuteStagingTest(unittest.TestCase):
         self.assertEqual(1900, profile["height"])
         self.assertEqual(1350, profile["y"])
 
+    def test_skin_spine_profile_inherits_character_motion_map(self) -> None:
+        profile = site.spine_render_profile_for(
+            "9Pets-Cute-Click-The-Best-Angle",
+            "roles/304902_kachakacha",
+            "9Pets-Cute-Click",
+        )
+
+        self.assertEqual("giddy", profile["motionMap"]["jumping"])
+        self.assertEqual("skill2", profile["motionMap"]["running"])
+
     def test_cute_base_source_info_can_be_metadata_only(self) -> None:
         official_index = site.load_official_asset_index()
         item = site.find_catalog_item(site.read_catalog(), "APPLe")

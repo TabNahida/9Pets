@@ -2226,13 +2226,13 @@ def spine_render_profile_for(package_name: str, spine_path: str, profile_package
         profile = default_spine_render_profile(package_name, spine_path)
         inherited = SPINE_RENDER_PROFILES.get(profile_package_name) if profile_package_name else None
         if inherited:
-            profile.update(inherit_layout_profile(dict(inherited), drop_keys={"motionMap", "skeleton", "atlas"}))
+            profile.update(inherit_layout_profile(dict(inherited), drop_keys={"skeleton", "atlas"}))
         profile.update(dict(exact))
         return profile
     inherited = SPINE_RENDER_PROFILES.get(profile_package_name) if profile_package_name else None
     if inherited:
         profile = default_spine_render_profile(package_name, spine_path)
-        profile.update(inherit_layout_profile(dict(inherited), drop_keys={"motionMap", "skeleton", "atlas"}))
+        profile.update(inherit_layout_profile(dict(inherited), drop_keys={"skeleton", "atlas"}))
         return profile
     return default_spine_render_profile(package_name, spine_path)
 
