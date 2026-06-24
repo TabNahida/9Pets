@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T18:00:07Z",
+  "generatedAt": "2026-06-24T18:04:02Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 249,
+  "cuteTotal": 250,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -22441,6 +22441,48 @@
         "assets/spritesheets/9Pets-Cute-Lilya-The-Barents-Witch.webp": "302888e89a23eacc",
         "assets/detail-spritesheets/9Pets-Cute-Lilya-The-Barents-Witch.webp": "086686c471c76dc0",
         "assets/source/9Pets-Cute-Lilya-The-Barents-Witch.png": "b6e1e8a744c3972b"
+      }
+    },
+    {
+      "id": "9pets-cute-loggerhead-a-moment-of-leisure",
+      "packageName": "9Pets-Cute-Loggerhead-A-Moment-of-Leisure",
+      "normalPackageName": "9Pets-Loggerhead-A-Moment-of-Leisure",
+      "normalId": "9pets-loggerhead-a-moment-of-leisure",
+      "displayName": "Loggerhead",
+      "skinDisplayName": "-- A Moment of Leisure",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Loggerhead-A-Moment-of-Leisure.zip",
+      "preview": "assets/previews/9Pets-Cute-Loggerhead-A-Moment-of-Leisure.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Loggerhead-A-Moment-of-Leisure.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Loggerhead-A-Moment-of-Leisure.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a5_311202_knd",
+      "sourceImage": "assets/source/9Pets-Cute-Loggerhead-A-Moment-of-Leisure.png",
+      "sourceRepoPath": "roles/v2a5_311202_knd",
+      "assetId": "311202",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v2a5_311202_knd",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v2a5_311202_knd",
+      "cubismPath": "live2d/roles/v2a5_311202_knd",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v2a5_311202_knd",
+      "birthday": "6/1",
+      "skinName": "A Moment of Leisure",
+      "isDefaultSkin": false,
+      "skinDescription": "可她更喜爱，亲眼见证鸟儿的雀跃。",
+      "matchedName": "Loggerhead",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Loggerhead has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1248106,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Loggerhead-A-Moment-of-Leisure.zip": "a85b880451a86269",
+        "assets/previews/9Pets-Cute-Loggerhead-A-Moment-of-Leisure.png": "e0fe26eb033432ba",
+        "assets/spritesheets/9Pets-Cute-Loggerhead-A-Moment-of-Leisure.webp": "7972a3f4d099fa91",
+        "assets/detail-spritesheets/9Pets-Cute-Loggerhead-A-Moment-of-Leisure.webp": "bf212f5d8293c9de",
+        "assets/source/9Pets-Cute-Loggerhead-A-Moment-of-Leisure.png": "ceb2d27d6c15b009"
       }
     }
   ]
