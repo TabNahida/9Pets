@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T13:16:51Z",
+  "generatedAt": "2026-06-24T13:19:38Z",
   "total": 315,
   "sources": {
     "bluepochOfficial": "https://re.bluepoch.com/home/",
@@ -11983,7 +11983,7 @@
       }
     }
   ],
-  "cuteTotal": 178,
+  "cuteTotal": 179,
   "cuteVariants": [
     {
       "id": "9pets-cute-37-default",
@@ -19459,6 +19459,48 @@
         "assets/spritesheets/9Pets-Cute-Coppelia-Song-of-the-Self-Playing-Instrument.webp": "e4cde7d6044d7e55",
         "assets/detail-spritesheets/9Pets-Cute-Coppelia-Song-of-the-Self-Playing-Instrument.webp": "3f66403922ad5104",
         "assets/source/9Pets-Cute-Coppelia-Song-of-the-Self-Playing-Instrument.png": "06fc7eb964e08bf0"
+      }
+    },
+    {
+      "id": "9pets-cute-coppelia-sounds-that-wake-her",
+      "packageName": "9Pets-Cute-Coppelia-Sounds-that-Wake-Her",
+      "normalPackageName": "9Pets-Coppelia-Sounds-that-Wake-Her",
+      "normalId": "9pets-coppelia-sounds-that-wake-her",
+      "displayName": "Coppelia",
+      "skinDisplayName": "-- Sounds that Wake Her",
+      "variantType": "cute",
+      "variantLabel": "Cute",
+      "download": "downloads/9Pets-Cute-Coppelia-Sounds-that-Wake-Her.zip",
+      "preview": "assets/previews/9Pets-Cute-Coppelia-Sounds-that-Wake-Her.png",
+      "spritesheet": "assets/spritesheets/9Pets-Cute-Coppelia-Sounds-that-Wake-Her.webp",
+      "detailSpritesheet": "assets/detail-spritesheets/9Pets-Cute-Coppelia-Sounds-that-Wake-Her.webp",
+      "detailAtlasScale": 4,
+      "sourceType": "official-sourced",
+      "sourceUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a7_314403_fly",
+      "sourceImage": "assets/source/9Pets-Cute-Coppelia-Sounds-that-Wake-Her.png",
+      "sourceRepoPath": "roles/v3a7_314403_fly",
+      "assetId": "314403",
+      "assetRepoUrl": "https://github.com/myssal/Reverse-1999-CN-Asset",
+      "spinePath": "roles/v3a7_314403_fly",
+      "spineUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/roles/v3a7_314403_fly",
+      "cubismPath": "live2d/roles/v3a7_314403_fly",
+      "cubismUrl": "https://github.com/myssal/Reverse-1999-CN-Asset/tree/master/live2d/roles/v3a7_314403_fly",
+      "birthday": "4/11",
+      "skinName": "Sounds that Wake Her",
+      "isDefaultSkin": false,
+      "skinDescription": "与它告别吧，那迷路时一再跌宕的呜咽回声。",
+      "matchedName": "Coppelia",
+      "live2dCacheStatus": "cute-rendered",
+      "animationMode": "official-cute-spine",
+      "animationModeLabel": "Official chibi Spine motion capture",
+      "characterSummary": "Coppelia has a separate cute Codex pet variant, preserved from official chibi battle motion frames and packaged apart from the normal Live2D track.",
+      "packageBytes": 1310236,
+      "assetVersions": {
+        "downloads/9Pets-Cute-Coppelia-Sounds-that-Wake-Her.zip": "f9ebabcb4f5e11ef",
+        "assets/previews/9Pets-Cute-Coppelia-Sounds-that-Wake-Her.png": "8f3d1183e7d446f9",
+        "assets/spritesheets/9Pets-Cute-Coppelia-Sounds-that-Wake-Her.webp": "f78b210d227e1e38",
+        "assets/detail-spritesheets/9Pets-Cute-Coppelia-Sounds-that-Wake-Her.webp": "ea792a497c72af05",
+        "assets/source/9Pets-Cute-Coppelia-Sounds-that-Wake-Her.png": "c225de6409d8a6b7"
       }
     }
   ]
