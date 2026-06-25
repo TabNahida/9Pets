@@ -1675,6 +1675,18 @@ SPINE_RENDER_PROFILES: dict[str, dict[str, Any]] = {
             "review": "posture",
         },
     },
+    "9Pets-Cute-Nautika-Behind-the-Unknown": {
+        "width": 1800,
+        "height": 1400,
+        "x": 700,
+        "y": 1000,
+    },
+    "9Pets-Cute-Nautika-From-Darkness-Light": {
+        "width": 2400,
+        "height": 2200,
+        "x": 900,
+        "y": 1700,
+    },
     "9Pets-Cute-Poltergeist": {
         "width": 1200,
         "height": 1200,

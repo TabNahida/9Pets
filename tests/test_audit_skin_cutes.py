@@ -235,6 +235,34 @@ class AuditSkinCuteStagingTest(unittest.TestCase):
         self.assertEqual(1600, profile["width"])
         self.assertEqual(800, profile["x"])
 
+    def test_nautika_behind_unknown_profile_has_top_headroom(self) -> None:
+        profile = site.spine_render_profile_for(
+            "9Pets-Cute-Nautika-Behind-the-Unknown",
+            "roles/v2a8_312002_ndk",
+            "9Pets-Cute-Nautika",
+        )
+
+        self.assertEqual("312002_ndk_fight.skel", profile["skeleton"])
+        self.assertEqual("312002_ndk.atlas", profile["atlas"])
+        self.assertEqual(1800, profile["width"])
+        self.assertEqual(1400, profile["height"])
+        self.assertEqual(700, profile["x"])
+        self.assertEqual(1000, profile["y"])
+
+    def test_nautika_from_darkness_light_profile_has_large_canvas(self) -> None:
+        profile = site.spine_render_profile_for(
+            "9Pets-Cute-Nautika-From-Darkness-Light",
+            "roles/v3a7_312003_ndk",
+            "9Pets-Cute-Nautika",
+        )
+
+        self.assertEqual("312003_ndk_fight.skel", profile["skeleton"])
+        self.assertEqual("312003_ndk.atlas", profile["atlas"])
+        self.assertEqual(2400, profile["width"])
+        self.assertEqual(2200, profile["height"])
+        self.assertEqual(900, profile["x"])
+        self.assertEqual(1700, profile["y"])
+
     def test_cute_base_source_info_can_be_metadata_only(self) -> None:
         official_index = site.load_official_asset_index()
         item = site.find_catalog_item(site.read_catalog(), "APPLe")
