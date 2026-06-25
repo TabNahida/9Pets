@@ -244,9 +244,9 @@ class AuditSkinCuteStagingTest(unittest.TestCase):
 
         self.assertEqual("312002_ndk_fight.skel", profile["skeleton"])
         self.assertEqual("312002_ndk.atlas", profile["atlas"])
-        self.assertEqual(1800, profile["width"])
+        self.assertEqual(2100, profile["width"])
         self.assertEqual(1400, profile["height"])
-        self.assertEqual(700, profile["x"])
+        self.assertEqual(850, profile["x"])
         self.assertEqual(1000, profile["y"])
 
     def test_nautika_from_darkness_light_profile_has_large_canvas(self) -> None:
