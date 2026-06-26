@@ -1680,12 +1680,24 @@ SPINE_RENDER_PROFILES: dict[str, dict[str, Any]] = {
         "height": 1400,
         "x": 850,
         "y": 1000,
+        "stateOffsets": {
+            "running-left": {"x": 120},
+        },
     },
     "9Pets-Cute-Nautika-From-Darkness-Light": {
         "width": 2400,
         "height": 2200,
         "x": 900,
         "y": 1700,
+        "stateOffsets": {
+            "running-left": {"x": 600},
+        },
+    },
+    "9Pets-Cute-Rabies-Space-Traveler": {
+        "width": 1600,
+        "height": 1600,
+        "x": 800,
+        "y": 1100,
     },
     "9Pets-Cute-Poltergeist": {
         "width": 1200,
@@ -1728,6 +1740,12 @@ SPINE_RENDER_PROFILES: dict[str, dict[str, Any]] = {
             "running": "posture",
             "review": "posture",
         },
+    },
+    "9Pets-Cute-Ulu-Flammy-s-Dream": {
+        "width": 1400,
+        "height": 1500,
+        "x": 700,
+        "y": 1050,
     },
 }
 
@@ -2361,10 +2379,14 @@ def render_spine_frames(package_name: str, spine_path: str, profile_package_name
     if profile.get("atlas"):
         command.extend(["--atlas", str(profile["atlas"])])
     motion_map_path: Path | None = None
+    state_offsets_path: Path | None = None
     try:
         if profile.get("motionMap"):
             motion_map_path = write_temp_json(profile["motionMap"], f"{package_name}-spine-motion-")
             command.extend(["--motion-map", str(motion_map_path)])
+        if profile.get("stateOffsets"):
+            state_offsets_path = write_temp_json(profile["stateOffsets"], f"{package_name}-spine-offsets-")
+            command.extend(["--state-offsets", str(state_offsets_path)])
         completed = subprocess.run(command, cwd=ROOT, text=True, capture_output=True, timeout=240, check=False)
         if completed.returncode != 0:
             print(f"Spine render failed for {package_name}: {completed.stderr.strip() or completed.stdout.strip()}", flush=True)
@@ -2375,6 +2397,8 @@ def render_spine_frames(package_name: str, spine_path: str, profile_package_name
     finally:
         if motion_map_path:
             motion_map_path.unlink(missing_ok=True)
+        if state_offsets_path:
+            state_offsets_path.unlink(missing_ok=True)
 
 
 def load_official_asset_index() -> dict[str, dict[str, Any]]:
@@ -2809,7 +2833,14 @@ def save_image_atomic(image: Image.Image, output: Path, **save_kwargs: Any) -> N
         temp_path = Path(handle.name)
     try:
         image.save(temp_path, **save_kwargs)
-        temp_path.replace(output)
+        for attempt in range(6):
+            try:
+                temp_path.replace(output)
+                break
+            except PermissionError:
+                if attempt == 5:
+                    raise
+                time.sleep(0.25 * (attempt + 1))
     except Exception:
         temp_path.unlink(missing_ok=True)
         raise

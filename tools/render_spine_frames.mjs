@@ -45,6 +45,7 @@ function usage() {
     "  --skeleton <file>         Skeleton file. Default: first *_room.skel, then first *.skel.",
     "  --atlas <file>            Atlas file. Default: first *.atlas.",
     "  --motion-map <file>       JSON map of Codex state id to Spine animation name.",
+    "  --state-offsets <file>    JSON map of Codex state id to additive x/y offsets.",
     "  --list-animations         Print animation names and exit after loading.",
     "  --flip-running-left       Mirror only the running-left state horizontally.",
     "  --width <px>              Capture canvas width. Default: 1200.",
@@ -106,6 +107,25 @@ async function loadMotionOverrides(path) {
     throw new Error(`Motion map must be a JSON object: ${path}`);
   }
   return motionMap;
+}
+
+async function loadStateOffsets(path) {
+  if (!path) return {};
+  const stateOffsets = JSON.parse(await readFile(resolve(path), "utf8"));
+  if (!stateOffsets || typeof stateOffsets !== "object" || Array.isArray(stateOffsets)) {
+    throw new Error(`State offsets must be a JSON object: ${path}`);
+  }
+  return stateOffsets;
+}
+
+function stateAxisOffset(offsets, stateId, axis) {
+  const offset = offsets[stateId];
+  if (!offset || typeof offset !== "object" || Array.isArray(offset)) return 0;
+  const value = Number(offset[axis] || 0);
+  if (!Number.isFinite(value)) {
+    throw new Error(`Invalid ${axis} offset for ${stateId}: ${offset[axis]}`);
+  }
+  return value;
 }
 
 function chooseAnimation(animations, prefs) {
@@ -369,6 +389,7 @@ async function main() {
   const y = Number(args.y || height * 0.75);
   const flipRunningLeft = Boolean(args["flip-running-left"]);
   const motionOverrides = await loadMotionOverrides(args["motion-map"]);
+  const stateOffsets = await loadStateOffsets(args["state-offsets"]);
 
   const workDir = await mkdtemp(join(tmpdir(), "9pets-spine-"));
   let server;
@@ -416,6 +437,8 @@ async function main() {
         animationName,
         frames: state.frames,
         intervalMs: Math.round(1000 / state.fps),
+        x: x + stateAxisOffset(stateOffsets, state.id, "x"),
+        y: y + stateAxisOffset(stateOffsets, state.id, "y"),
         flipX: flipRunningLeft && state.id === "running-left",
       });
     }

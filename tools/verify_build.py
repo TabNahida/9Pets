@@ -87,6 +87,33 @@ def expected_cute_packages() -> set[str]:
     return expected
 
 
+def check_cute_normal_link(variant: dict, normal_ids: set[str], normal_packages: set[str]) -> None:
+    package = variant["packageName"]
+    normal_package = variant.get("normalPackageName")
+    assert_true(isinstance(normal_package, str) and normal_package, f"{package} missing normal package link")
+    assert_true(package.startswith("9Pets-Cute-"), f"{package} is not a cute package name")
+
+    expected_normal_package = package.replace("9Pets-Cute-", "9Pets-", 1)
+    assert_true(
+        normal_package == expected_normal_package,
+        f"{package} normal package link is {normal_package}, expected {expected_normal_package}",
+    )
+
+    expected_normal_id = site.pet_id_from_package(normal_package)
+    assert_true(
+        variant.get("normalId") == expected_normal_id,
+        f"{package} normalId is {variant.get('normalId')}, expected {expected_normal_id}",
+    )
+
+    if normal_package in normal_packages:
+        assert_true(variant.get("normalId") in normal_ids, f"{package} points to an unknown normal pet")
+    else:
+        assert_true(
+            normal_package in HIDDEN_NORMAL_PACKAGES or not variant.get("isDefaultSkin", True),
+            f"{package} points to missing default normal package {normal_package}",
+        )
+
+
 def main() -> None:
     data = json.loads(DOCS_DATA.read_text(encoding="utf-8"))
     pets = data["pets"]
@@ -181,8 +208,7 @@ def main() -> None:
         asset_versions = variant.get("assetVersions")
         assert_true(isinstance(asset_versions, dict), f"{package} missing asset version fingerprints")
         assert_true(variant.get("variantType") == "cute", f"{package} missing cute variant type")
-        if variant.get("normalPackageName") not in HIDDEN_NORMAL_PACKAGES:
-            assert_true(variant.get("normalId") in normal_ids, f"{package} points to an unknown normal pet")
+        check_cute_normal_link(variant, normal_ids, normal_packages)
         pet_dir = ROOT / "pets" / package
         assert_true((pet_dir / "pet.json").exists(), f"{package} missing pet.json")
         check_spritesheet(pet_dir / "spritesheet.webp")

@@ -248,6 +248,7 @@ class AuditSkinCuteStagingTest(unittest.TestCase):
         self.assertEqual(1400, profile["height"])
         self.assertEqual(850, profile["x"])
         self.assertEqual(1000, profile["y"])
+        self.assertEqual({"running-left": {"x": 120}}, profile["stateOffsets"])
 
     def test_nautika_from_darkness_light_profile_has_large_canvas(self) -> None:
         profile = site.spine_render_profile_for(
@@ -262,6 +263,35 @@ class AuditSkinCuteStagingTest(unittest.TestCase):
         self.assertEqual(2200, profile["height"])
         self.assertEqual(900, profile["x"])
         self.assertEqual(1700, profile["y"])
+        self.assertEqual({"running-left": {"x": 600}}, profile["stateOffsets"])
+
+    def test_rabies_space_traveler_profile_has_failed_animation_headroom(self) -> None:
+        profile = site.spine_render_profile_for(
+            "9Pets-Cute-Rabies-Space-Traveler",
+            "roles/v2a7_304203_ac",
+            "9Pets-Cute-Rabies",
+        )
+
+        self.assertEqual("304203_ac_fight.skel", profile["skeleton"])
+        self.assertEqual("304203_ac.atlas", profile["atlas"])
+        self.assertEqual(1600, profile["width"])
+        self.assertEqual(1600, profile["height"])
+        self.assertEqual(800, profile["x"])
+        self.assertEqual(1100, profile["y"])
+
+    def test_ulu_flammy_profile_has_failed_animation_headroom(self) -> None:
+        profile = site.spine_render_profile_for(
+            "9Pets-Cute-Ulu-Flammy-s-Dream",
+            "roles/v1a5_307602_hepingwulu",
+            "9Pets-Cute-Ulu",
+        )
+
+        self.assertEqual("307602_hepingwulu_fight.skel", profile["skeleton"])
+        self.assertEqual("307602_hepingwulu.atlas", profile["atlas"])
+        self.assertEqual(1400, profile["width"])
+        self.assertEqual(1500, profile["height"])
+        self.assertEqual(700, profile["x"])
+        self.assertEqual(1050, profile["y"])
 
     def test_cute_base_source_info_can_be_metadata_only(self) -> None:
         official_index = site.load_official_asset_index()

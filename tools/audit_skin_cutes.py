@@ -27,7 +27,16 @@ TODO = ROOT / "PET_SKIN_BUILD_TODO.md"
 
 
 def run(command: list[str], *, timeout: int | None = None) -> str:
-    completed = subprocess.run(command, cwd=ROOT, text=True, capture_output=True, timeout=timeout, check=False)
+    completed = subprocess.run(
+        command,
+        cwd=ROOT,
+        text=True,
+        encoding="utf-8",
+        errors="replace",
+        capture_output=True,
+        timeout=timeout,
+        check=False,
+    )
     output = (completed.stdout or "") + (completed.stderr or "")
     if output.strip():
         print(output.strip(), flush=True)
