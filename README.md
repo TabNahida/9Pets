@@ -3,12 +3,13 @@
 Fan-made Codex pet packages for Reverse: 1999 characters.
 
 The generated GitHub Pages site lives in `docs/`. Each downloadable package uses the
-`9Pets-Character-Name.zip` naming rule and contains a Codex-compatible `pet.json`
-plus `spritesheet.webp`.
+`9Pets-Character-Name-Skin-Name.zip` naming rule, with original/default skins
+using `Default`, and contains a Codex-compatible `pet.json` plus
+`spritesheet.webp`.
 
 The catalog page uses lightweight static previews for scroll performance. Full
 spritesheet animation is loaded only on per-character detail pages such as
-`docs/pet.html?id=9pets-avgust`.
+`docs/pet.html?id=9pets-avgust-default`.
 
 ## Build
 
@@ -59,14 +60,21 @@ an interactive character detail page.
 
 ## Audit
 
-Use `PET_AUDIT_TODO.md` as the durable checklist for the normal/cute re-audit.
-Each character is accepted only after normal source QA, cute source QA, default
-skin verification, naming verification, visual QA, and a per-character commit.
+Use `PET_AUDIT_TODO.md` as the durable checklist for the original normal/cute
+re-audit. Use `PET_SKIN_BUILD_TODO.md` for the skin-level build queue covering
+default, insight, and extra skins. Each character or skin row is accepted only
+after source QA, naming verification, visual QA, verification scripts, and a
+commit.
 
 Non-default skins must be packaged separately:
 
 - normal skin: `9Pets-Character-Skin-Name`
 - cute skin: `9Pets-Cute-Character-Skin-Name`
+- default/original skin: `9Pets-Character-Default` and `9Pets-Cute-Character-Default`
+
+Non-default cute skins must have an audited chibi Spine render profile before
+they can be marked complete; the builder refuses those packages until that
+profile exists.
 
 The helper script can rebuild one character, run structural QA, update the TODO,
 and commit the result after visual QA has been accepted:

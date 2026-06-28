@@ -10,6 +10,7 @@ const state = {
   variantMode: readVariantMode(),
   search: "",
   renderToken: 0,
+  assetVersion: "",
 };
 
 const els = {
@@ -47,6 +48,24 @@ function petUrl(pet) {
   return `pet.html?id=${encodeURIComponent(pet.id)}`;
 }
 
+function isLocalAssetUrl(url) {
+  return Boolean(url) && !/^(?:[a-z][a-z\d+\-.]*:|#|\/\/)/i.test(String(url));
+}
+
+function versionedAssetUrl(url, pet) {
+  if (!isLocalAssetUrl(url)) return url;
+  const key = String(url).split("#", 1)[0].split("?", 1)[0];
+  const assetVersion = pet.assetVersions && pet.assetVersions[key];
+  const version = assetVersion || [state.assetVersion, pet.packageBytes].filter(Boolean).join("-");
+  if (!version) return url;
+  const value = String(url);
+  const hashIndex = value.indexOf("#");
+  const base = hashIndex >= 0 ? value.slice(0, hashIndex) : value;
+  const hash = hashIndex >= 0 ? value.slice(hashIndex) : "";
+  const separator = base.includes("?") ? "&" : "?";
+  return `${base}${separator}v=${encodeURIComponent(version)}${hash}`;
+}
+
 function syncVariantButtons() {
   for (const button of els.variantButtons) {
     button.classList.toggle("active", button.dataset.variantMode === state.variantMode);
@@ -71,7 +90,11 @@ function filteredPets() {
   const query = state.search.trim().toLowerCase();
   return activePets().filter((pet) => {
     const matchesSource = state.sourceFilter === "all" || pet.sourceType === state.sourceFilter;
-    const matchesSearch = !query || pet.displayName.toLowerCase().includes(query) || pet.packageName.toLowerCase().includes(query);
+    const matchesSearch =
+      !query ||
+      pet.displayName.toLowerCase().includes(query) ||
+      pet.packageName.toLowerCase().includes(query) ||
+      String(pet.skinName || "").toLowerCase().includes(query);
     return matchesSource && matchesSearch;
   });
 }
@@ -111,6 +134,7 @@ function renderGrid() {
       const card = els.template.content.firstElementChild.cloneNode(true);
       const preview = card.querySelector(".pet-preview");
       const title = card.querySelector("h2");
+      const skin = card.querySelector(".skin-line");
       const meta = card.querySelector("p");
       const badge = card.querySelector(".badge");
       const details = card.querySelector(".details-link");
@@ -121,16 +145,17 @@ function renderGrid() {
       card.tabIndex = 0;
       card.setAttribute("role", "link");
       card.setAttribute("aria-label", `Open ${pet.displayName}`);
-      preview.src = pet.preview;
+      preview.src = versionedAssetUrl(pet.preview, pet);
       preview.alt = `${pet.displayName} pet preview`;
       title.textContent = pet.displayName;
+      skin.textContent = pet.skinDisplayName || "";
       meta.textContent = `${pet.packageName} · ${formatBytes(pet.packageBytes)}`;
       badge.textContent = variantLabel(pet);
       badge.classList.toggle("official", pet.sourceType === "official-sourced" && pet.variantType !== "cute");
       badge.classList.toggle("cute", pet.variantType === "cute");
       details.href = detailsUrl;
       details.setAttribute("aria-label", `Open ${pet.displayName}`);
-      download.href = pet.download;
+      download.href = versionedAssetUrl(pet.download, pet);
       download.download = `${pet.packageName}.zip`;
       download.setAttribute("aria-label", `Download ${pet.packageName}`);
       card.addEventListener("click", (event) => {
@@ -187,12 +212,18 @@ async function init() {
   bindEvents();
   try {
     let data = window.NINEPETS_DATA;
-    if (!data) {
-      const response = await fetch("data/pets.json");
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      data = await response.json();
+    try {
+      const response = await fetch(`data/pets.json?v=${Date.now()}`, { cache: "no-store" });
+      if (response.ok) {
+        data = await response.json();
+      } else if (!data) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+    } catch (error) {
+      if (!data) throw error;
     }
     if (!Array.isArray(data.pets)) throw new Error("Catalog data is missing pets.");
+    state.assetVersion = data.generatedAt || "";
     state.pets = data.pets;
     state.cuteVariants = Array.isArray(data.cuteVariants) ? data.cuteVariants : [];
     syncVariantButtons();

@@ -1,0 +1,107 @@
+304701_tumaoshoudai_s.png
+size:512,512
+filter:Linear,Linear
+scale:0.7
+f_shenti_1
+bounds:433,253,52,57
+rotate:90
+f_shenti_2
+bounds:282,144,47,51
+f_shenti_3
+bounds:198,109,43,40
+f_shenti_4
+bounds:425,144,58,47
+f_shenti_5
+bounds:433,309,66,60
+rotate:90
+huan_1
+bounds:6,87,40,27
+l_ a_1
+bounds:364,80,37,43
+rotate:270
+l_ a_2
+bounds:157,44,22,32
+l_ a_3
+bounds:333,134,46,49
+l_ a_4
+bounds:272,53,44,13
+l_ a_5
+bounds:495,296,11,22
+l_er_1
+bounds:247,113,31,54
+rotate:270
+l_er_2
+bounds:149,80,53,34
+l_er_3
+bounds:437,110,31,54
+rotate:90
+l_er_4
+bounds:98,80,53,34
+l_f_1
+bounds:307,103,30,51
+rotate:90
+l_f_2
+bounds:481,163,25,32
+l_f_3
+bounds:52,82,32,46
+rotate:90
+l_f_4
+bounds:472,57,25,34
+rotate:90
+r_ a_1
+bounds:220,85,28,45
+rotate:90
+r_ a_2
+bounds:478,349,25,26
+r_ a_3
+bounds:384,116,38,39
+r_ a_4
+bounds:184,52,39,13
+r_f_1
+bounds:412,88,22,39
+rotate:90
+r_f_2
+bounds:322,78,25,39
+rotate:90
+tou_1
+bounds:433,197,63,50
+rotate:180
+wei_1
+bounds:376,60,22,48
+rotate:90
+wei_2
+bounds:91,56,42,31
+x_ls_deng
+bounds:198,155,41,78
+rotate:90
+x_ls_he_di
+bounds:6,120,186,76
+x_ls_he_gai1
+bounds:197,202,173,118
+rotate:90
+x_ls_he_gai2
+bounds:18,219,173,156
+x_ls_he_shang
+bounds:321,189,186,106
+rotate:90
+x_ls_jinxian1
+bounds:312,6,90,81
+rotate:270
+x_ls_jinxian2
+bounds:6,41,68,35
+x_ls_jinxian3
+bounds:79,41,25,26
+x_ls_jinxian4
+bounds:6,329,6,46
+x_ls_jinxian6
+bounds:436,65,74,70
+rotate:90
+x_ls_jinxian7
+bounds:450,32,29,35
+x_ls_jinxian8
+bounds:221,68,85,40
+rotate:180
+x_ls_jinxian9
+bounds:340,25,56,48
+yaoguan
+bounds:119,6,34,62

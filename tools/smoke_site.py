@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import functools
+import hashlib
 import http.server
+import re
 import socket
 import threading
 from pathlib import Path
@@ -16,9 +18,15 @@ MOBILE_SHOT = ROOT / ".tmp-site-mobile.png"
 FILE_SHOT = ROOT / ".tmp-site-file.png"
 HIDDEN_NORMAL_PACKAGES = {
     "9Pets-Baby-Blue",
+    "9Pets-Baby-Blue-Default",
     "9Pets-Balloon-Party",
+    "9Pets-Balloon-Party-Default",
 }
-EXPECTED_VISIBLE_NORMAL_TOTAL = 125
+HIDDEN_NORMAL_PREFIXES = (
+    "9Pets-Baby-Blue-",
+    "9Pets-Balloon-Party-",
+)
+MIN_VISIBLE_NORMAL_TOTAL = 125
 
 
 def free_port() -> int:
@@ -39,19 +47,54 @@ def start_server() -> tuple[http.server.ThreadingHTTPServer, int]:
 def requests_smoke(base_url: str) -> None:
     session = requests.Session()
     session.trust_env = False
-    for path in ["/", "/styles.css", "/app.js", "/data/pets.json"]:
+    for path in ["/", "/styles.css", "/app.js", "/pet.js", "/data/pets.json"]:
         response = session.get(f"{base_url}{path}", timeout=10)
         response.raise_for_status()
+    expected_data_fingerprint = hashlib.sha256((DOCS / "data" / "pets-data.js").read_bytes()).hexdigest()[:16]
+    expected_entrypoint_fingerprints = {
+        "styles.css": hashlib.sha256((DOCS / "styles.css").read_bytes()).hexdigest()[:16],
+        "app.js": hashlib.sha256((DOCS / "app.js").read_bytes()).hexdigest()[:16],
+        "pet.js": hashlib.sha256((DOCS / "pet.js").read_bytes()).hexdigest()[:16],
+    }
+    for path in ["/", "/pet.html?id=9pets-37-happy-bird-catcher"]:
+        html = session.get(f"{base_url}{path}", timeout=10).text
+        match = re.search(r'src="data/pets-data\.js\?v=([0-9a-f]{16})"', html)
+        if not match:
+            raise AssertionError(f"{path} loads pets-data.js without an asset fingerprint")
+        if match.group(1) != expected_data_fingerprint:
+            raise AssertionError(f"{path} pets-data.js fingerprint is stale")
+        for asset, expected_fingerprint in expected_entrypoint_fingerprints.items():
+            if path == "/" and asset == "pet.js":
+                continue
+            if path != "/" and asset == "app.js":
+                continue
+            pattern = rf'(?:href|src)="{re.escape(asset)}\?v=([0-9a-f]{{16}})"'
+            asset_match = re.search(pattern, html)
+            if not asset_match:
+                raise AssertionError(f"{path} loads {asset} without an asset fingerprint")
+            if asset_match.group(1) != expected_fingerprint:
+                raise AssertionError(f"{path} {asset} fingerprint is stale")
     data = session.get(f"{base_url}/data/pets.json", timeout=10).json()
-    if data["total"] != EXPECTED_VISIBLE_NORMAL_TOTAL:
-        raise AssertionError(f"manifest total is {data['total']}, expected {EXPECTED_VISIBLE_NORMAL_TOTAL}")
+    if data["total"] != len(data.get("pets", [])):
+        raise AssertionError(f"manifest total {data['total']} does not match pet count {len(data.get('pets', []))}")
+    if data["total"] < MIN_VISIBLE_NORMAL_TOTAL:
+        raise AssertionError(f"manifest total is {data['total']}, expected at least {MIN_VISIBLE_NORMAL_TOTAL}")
     normal_packages = {pet["packageName"] for pet in data.get("pets", [])}
     if normal_packages & HIDDEN_NORMAL_PACKAGES:
         raise AssertionError("hidden normal packages are visible in the manifest")
+    if any(package.startswith(HIDDEN_NORMAL_PREFIXES) for package in normal_packages):
+        raise AssertionError("hidden normal skin packages are visible in the manifest")
+    non_default_not_live2d = [
+        pet["packageName"]
+        for pet in data.get("pets", [])
+        if not pet.get("isDefaultSkin", True) and pet.get("animationMode") != "official-live2d-cubism"
+    ]
+    if non_default_not_live2d:
+        raise AssertionError(f"non-default normal skin packages must use audited Live2D: {non_default_not_live2d[:5]}")
     if data.get("cuteTotal") != len(data.get("cuteVariants", [])):
         raise AssertionError("cute variant total mismatch")
     cute_by_normal = {variant.get("normalPackageName"): variant for variant in data.get("cuteVariants", [])}
-    for package in HIDDEN_NORMAL_PACKAGES:
+    for package in {"9Pets-Baby-Blue-Default", "9Pets-Balloon-Party-Default"}:
         variant = cute_by_normal.get(package)
         if not variant:
             raise AssertionError(f"{package} is hidden but its cute variant is missing")
@@ -90,13 +133,11 @@ def playwright_smoke(base_url: str) -> None:
         page = browser.new_page(viewport={"width": 1440, "height": 1100}, device_scale_factor=1)
         page.goto(base_url, wait_until="networkidle")
         page.wait_for_selector(".pet-card")
-        page.wait_for_function(
-            "expected => document.querySelectorAll('.pet-card').length === expected",
-            arg=EXPECTED_VISIBLE_NORMAL_TOTAL,
-        )
+        page.wait_for_function("document.querySelectorAll('.pet-card').length === window.NINEPETS_DATA.pets.length")
         count = page.locator(".pet-card").count()
-        if count != EXPECTED_VISIBLE_NORMAL_TOTAL:
-            raise AssertionError(f"desktop card count is {count}, expected {EXPECTED_VISIBLE_NORMAL_TOTAL}")
+        expected_normal_total = page.evaluate("() => window.NINEPETS_DATA.pets.length")
+        if count != expected_normal_total or count < MIN_VISIBLE_NORMAL_TOTAL:
+            raise AssertionError(f"desktop card count is {count}, expected {expected_normal_total} and at least {MIN_VISIBLE_NORMAL_TOTAL}")
         hidden_visible = page.evaluate(
             """hidden => hidden.some((packageName) =>
                 [...document.querySelectorAll(".pet-card p")].some((node) => node.textContent.includes(packageName))
@@ -115,31 +156,30 @@ def playwright_smoke(base_url: str) -> None:
         if cute_count != cute_total:
             raise AssertionError(f"cute card count is {cute_count}, expected {cute_total}")
         page.get_by_role("button", name="Normal").click()
-        page.wait_for_function(
-            "expected => document.querySelectorAll('.pet-card').length === expected",
-            arg=EXPECTED_VISIBLE_NORMAL_TOTAL,
-        )
+        page.wait_for_function("document.querySelectorAll('.pet-card').length === window.NINEPETS_DATA.pets.length")
 
         mobile = browser.new_page(viewport={"width": 390, "height": 920}, is_mobile=True)
         mobile.goto(base_url, wait_until="networkidle")
         mobile.wait_for_selector(".pet-card")
-        mobile.wait_for_function(
-            "expected => document.querySelectorAll('.pet-card').length === expected",
-            arg=EXPECTED_VISIBLE_NORMAL_TOTAL,
-        )
+        mobile.wait_for_function("document.querySelectorAll('.pet-card').length === window.NINEPETS_DATA.pets.length")
         mobile_count = mobile.locator(".pet-card").count()
-        if mobile_count != EXPECTED_VISIBLE_NORMAL_TOTAL:
-            raise AssertionError(f"mobile card count is {mobile_count}, expected {EXPECTED_VISIBLE_NORMAL_TOTAL}")
+        mobile_expected = mobile.evaluate("() => window.NINEPETS_DATA.pets.length")
+        if mobile_count != mobile_expected or mobile_count < MIN_VISIBLE_NORMAL_TOTAL:
+            raise AssertionError(f"mobile card count is {mobile_count}, expected {mobile_expected} and at least {MIN_VISIBLE_NORMAL_TOTAL}")
         mobile.screenshot(path=str(MOBILE_SHOT), full_page=True)
 
         for pet_id, title_text, spritesheet in [
-            ("9pets-37", "37", "detail-spritesheets/9Pets-37.webp"),
-            ("9pets-alien-t", "aliEn T", "detail-spritesheets/9Pets-aliEn-T.webp"),
-            ("9pets-an-an-lee", "An-an Lee", "detail-spritesheets/9Pets-An-an-Lee.webp"),
-            ("9pets-anjo-nala", "Anjo Nala", "detail-spritesheets/9Pets-Anjo-Nala.webp"),
-            ("9pets-apple", "APPLe", "detail-spritesheets/9Pets-APPLe.webp"),
-            ("9pets-argus", "Argus", "detail-spritesheets/9Pets-Argus.webp"),
-            ("9pets-avgust", "Avgust", "detail-spritesheets/9Pets-Avgust.webp"),
+            ("9pets-37-default", "37", "detail-spritesheets/9Pets-37-Default.webp"),
+            ("9pets-37-a-gift-of-nourishment", "37", "detail-spritesheets/9Pets-37-A-Gift-of-Nourishment.webp"),
+            ("9pets-37-a-prime-number", "37", "detail-spritesheets/9Pets-37-A-Prime-Number.webp"),
+            ("9pets-37-down-in-the-grotto", "37", "detail-spritesheets/9Pets-37-Down-in-the-Grotto.webp"),
+            ("9pets-37-happy-bird-catcher", "37", "detail-spritesheets/9Pets-37-Happy-Bird-Catcher.webp"),
+            ("9pets-alien-t-default", "aliEn T", "spritesheets/9Pets-aliEn-T-Default.webp"),
+            ("9pets-an-an-lee-default", "An-an Lee", "detail-spritesheets/9Pets-An-an-Lee-Default.webp"),
+            ("9pets-anjo-nala-default", "Anjo Nala", "detail-spritesheets/9Pets-Anjo-Nala-Default.webp"),
+            ("9pets-apple-default", "APPLe", "spritesheets/9Pets-APPLe-Default.webp"),
+            ("9pets-argus-default", "Argus", "detail-spritesheets/9Pets-Argus-Default.webp"),
+            ("9pets-avgust-default", "Avgust", "detail-spritesheets/9Pets-Avgust-Default.webp"),
         ]:
             detail = browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
             detail.goto(f"{base_url}/pet.html?id={pet_id}", wait_until="networkidle")
@@ -149,20 +189,30 @@ def playwright_smoke(base_url: str) -> None:
             sprite_image = detail.locator(".detail-sprite").evaluate("node => getComputedStyle(node).backgroundImage")
             if spritesheet not in sprite_image:
                 raise AssertionError(f"detail page did not use {spritesheet}")
+            expected_version = detail.evaluate(
+                """petId => {
+                    const pet = window.NINEPETS_DATA.pets.find((item) => item.id === petId);
+                    const key = pet.detailSpritesheet || pet.spritesheet;
+                    return pet.assetVersions && pet.assetVersions[key];
+                }""",
+                pet_id,
+            )
+            if expected_version and expected_version not in sprite_image:
+                raise AssertionError(f"detail page did not use the asset fingerprint for {title_text}")
             assert_detail_sprite_framed(detail, title_text)
             detail.get_by_role("button", name="Wave").click()
             if "active" not in (detail.get_by_role("button", name="Wave").get_attribute("class") or ""):
                 raise AssertionError(f"detail state tabs did not switch to Wave for {title_text}")
 
         cute_detail = browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
-        cute_detail.goto(f"{base_url}/pet.html?id=9pets-cute-baby-blue", wait_until="networkidle")
+        cute_detail.goto(f"{base_url}/pet.html?id=9pets-cute-baby-blue-default", wait_until="networkidle")
         cute_detail.wait_for_selector(".detail-sprite")
         if "Baby Blue" not in cute_detail.locator("#detailTitle").inner_text():
             raise AssertionError("cute detail page did not load Baby Blue")
         if "cute official-sourced package" not in cute_detail.locator("#detailEyebrow").inner_text().lower():
             raise AssertionError("cute detail page did not show the cute package eyebrow")
         cute_sprite = cute_detail.locator(".detail-sprite").evaluate("node => getComputedStyle(node).backgroundImage")
-        if "detail-spritesheets/9Pets-Cute-Baby-Blue.webp" not in cute_sprite:
+        if "detail-spritesheets/9Pets-Cute-Baby-Blue-Default.webp" not in cute_sprite:
             raise AssertionError("cute detail page did not use the Baby Blue cute detail spritesheet")
         active_variant = cute_detail.locator("#variantSwitch .variant-link.active")
         if active_variant.inner_text() != "Cute":
@@ -173,7 +223,7 @@ def playwright_smoke(base_url: str) -> None:
         if normal_disabled.inner_text() != "Normal":
             raise AssertionError("blocked Baby Blue normal should be shown as a disabled variant")
         source_image = cute_detail.locator("#sourceImage").get_attribute("src")
-        if "assets/source/9Pets-Cute-Baby-Blue.png" not in (source_image or ""):
+        if "assets/source/9Pets-Cute-Baby-Blue-Default.png" not in (source_image or ""):
             raise AssertionError("cute detail page did not use Cute source art")
         back_href = cute_detail.locator(".back-link").get_attribute("href")
         if "index.html?variant=cute#catalog" not in (back_href or ""):
@@ -182,28 +232,26 @@ def playwright_smoke(base_url: str) -> None:
         file_page = browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
         file_page.goto((DOCS / "index.html").as_uri(), wait_until="networkidle")
         file_page.wait_for_selector(".pet-card")
-        file_page.wait_for_function(
-            "expected => document.querySelectorAll('.pet-card').length === expected",
-            arg=EXPECTED_VISIBLE_NORMAL_TOTAL,
-        )
+        file_page.wait_for_function("document.querySelectorAll('.pet-card').length === window.NINEPETS_DATA.pets.length")
         file_count = file_page.locator(".pet-card").count()
-        if file_count != EXPECTED_VISIBLE_NORMAL_TOTAL:
-            raise AssertionError(f"file:// card count is {file_count}, expected {EXPECTED_VISIBLE_NORMAL_TOTAL}")
+        file_expected = file_page.evaluate("() => window.NINEPETS_DATA.pets.length")
+        if file_count != file_expected or file_count < MIN_VISIBLE_NORMAL_TOTAL:
+            raise AssertionError(f"file:// card count is {file_count}, expected {file_expected} and at least {MIN_VISIBLE_NORMAL_TOTAL}")
         file_page.get_by_role("button", name="Cute").click()
         file_page.wait_for_function("document.querySelectorAll('.pet-card').length === window.NINEPETS_DATA.cuteVariants.length")
         file_page.screenshot(path=str(FILE_SHOT), full_page=True)
 
         file_detail = browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
-        file_detail.goto((DOCS / "pet.html").as_uri() + "?id=9pets-37", wait_until="networkidle")
+        file_detail.goto((DOCS / "pet.html").as_uri() + "?id=9pets-37-default", wait_until="networkidle")
         file_detail.wait_for_selector(".detail-sprite")
         file_detail.get_by_role("link", name="Back to catalog").click()
         file_detail.wait_for_url("**/index.html#catalog")
-        file_detail.goto((DOCS / "pet.html").as_uri() + "?id=9pets-37", wait_until="networkidle")
+        file_detail.goto((DOCS / "pet.html").as_uri() + "?id=9pets-37-default", wait_until="networkidle")
         file_detail.get_by_label("9Pets home").click()
         file_detail.wait_for_url("**/index.html#catalog")
 
         file_cute_detail = browser.new_page(viewport={"width": 1440, "height": 1000}, device_scale_factor=1)
-        file_cute_detail.goto((DOCS / "pet.html").as_uri() + "?id=9pets-cute-baby-blue", wait_until="networkidle")
+        file_cute_detail.goto((DOCS / "pet.html").as_uri() + "?id=9pets-cute-baby-blue-default", wait_until="networkidle")
         file_cute_detail.wait_for_selector(".detail-sprite")
         file_cute_detail.get_by_role("link", name="Back to catalog").click()
         file_cute_detail.wait_for_url("**/index.html?variant=cute#catalog")
